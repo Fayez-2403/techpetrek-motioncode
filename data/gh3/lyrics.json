@@ -1,0 +1,572 @@
+{
+ "lines": [
+  {
+   "i": 0,
+   "text": "रुको, scroll मत करो! ये दो repos आपके Claude Code को सीधा god level बना देंगी! Real engineers वाले skills, सीधे आपके agent में। Save कर लो — चलो देखते हैं!",
+   "start": 0.35,
+   "end": 11.534,
+   "words": [
+    {
+     "w": "रुको,",
+     "start": 0.35,
+     "end": 0.518,
+     "conf": 1.0
+    },
+    {
+     "w": "scroll",
+     "start": 0.684,
+     "end": 0.958,
+     "conf": 1.0
+    },
+    {
+     "w": "मत",
+     "start": 1.038,
+     "end": 1.198,
+     "conf": 1.0
+    },
+    {
+     "w": "करो!",
+     "start": 1.251,
+     "end": 1.518,
+     "conf": 1.0
+    },
+    {
+     "w": "ये",
+     "start": 2.303,
+     "end": 2.443,
+     "conf": 1.0
+    },
+    {
+     "w": "दो",
+     "start": 2.503,
+     "end": 2.843,
+     "conf": 1.0
+    },
+    {
+     "w": "repos",
+     "start": 2.89,
+     "end": 3.123,
+     "conf": 1.0
+    },
+    {
+     "w": "आपके",
+     "start": 3.203,
+     "end": 3.643,
+     "conf": 1.0
+    },
+    {
+     "w": "Claude",
+     "start": 3.672,
+     "end": 3.843,
+     "conf": 1.0
+    },
+    {
+     "w": "Code",
+     "start": 3.891,
+     "end": 4.083,
+     "conf": 1.0
+    },
+    {
+     "w": "को",
+     "start": 4.123,
+     "end": 4.243,
+     "conf": 1.0
+    },
+    {
+     "w": "सीधा",
+     "start": 4.283,
+     "end": 4.563,
+     "conf": 1.0
+    },
+    {
+     "w": "god",
+     "start": 4.663,
+     "end": 4.963,
+     "conf": 1.0
+    },
+    {
+     "w": "level",
+     "start": 4.99,
+     "end": 5.123,
+     "conf": 1.0
+    },
+    {
+     "w": "बना",
+     "start": 5.176,
+     "end": 5.363,
+     "conf": 1.0
+    },
+    {
+     "w": "देंगी!",
+     "start": 5.443,
+     "end": 5.763,
+     "conf": 1.0
+    },
+    {
+     "w": "Real",
+     "start": 6.622,
+     "end": 6.814,
+     "conf": 1.0
+    },
+    {
+     "w": "engineers",
+     "start": 6.862,
+     "end": 7.294,
+     "conf": 1.0
+    },
+    {
+     "w": "वाले",
+     "start": 7.334,
+     "end": 7.534,
+     "conf": 1.0
+    },
+    {
+     "w": "skills,",
+     "start": 7.591,
+     "end": 7.934,
+     "conf": 1.0
+    },
+    {
+     "w": "सीधे",
+     "start": 8.174,
+     "end": 8.494,
+     "conf": 1.0
+    },
+    {
+     "w": "आपके",
+     "start": 8.554,
+     "end": 8.934,
+     "conf": 1.0
+    },
+    {
+     "w": "agent",
+     "start": 8.967,
+     "end": 9.134,
+     "conf": 1.0
+    },
+    {
+     "w": "में।",
+     "start": 9.174,
+     "end": 9.694,
+     "conf": 1.0
+    },
+    {
+     "w": "Save",
+     "start": 10.136,
+     "end": 10.186,
+     "conf": 1.0
+    },
+    {
+     "w": "कर",
+     "start": 10.227,
+     "end": 10.334,
+     "conf": 1.0
+    },
+    {
+     "w": "लो",
+     "start": 10.414,
+     "end": 10.694,
+     "conf": 1.0
+    },
+    {
+     "w": "—",
+     "start": 10.794,
+     "end": 10.894,
+     "conf": 1.0
+    },
+    {
+     "w": "चलो",
+     "start": 10.947,
+     "end": 11.134,
+     "conf": 1.0
+    },
+    {
+     "w": "देखते",
+     "start": 11.174,
+     "end": 11.414,
+     "conf": 1.0
+    },
+    {
+     "w": "हैं!",
+     "start": 11.434,
+     "end": 11.534,
+     "conf": 1.0
+    }
+   ]
+  },
+  {
+   "i": 1,
+   "text": "Number one: Matt Pocock के skills. वो skills जो वो रोज़ real engineering में use करते हैं — छोटे, आसान, और adapt करने में simple।",
+   "start": 12.034,
+   "end": 21.59,
+   "words": [
+    {
+     "w": "Number",
+     "start": 12.034,
+     "end": 12.278,
+     "conf": 1.0
+    },
+    {
+     "w": "one:",
+     "start": 12.348,
+     "end": 12.615,
+     "conf": 1.0
+    },
+    {
+     "w": "Matt",
+     "start": 13.056,
+     "end": 13.346,
+     "conf": 1.0
+    },
+    {
+     "w": "Pocock",
+     "start": 13.416,
+     "end": 13.776,
+     "conf": 1.0
+    },
+    {
+     "w": "के",
+     "start": 13.869,
+     "end": 13.961,
+     "conf": 1.0
+    },
+    {
+     "w": "skills.",
+     "start": 14.008,
+     "end": 14.391,
+     "conf": 1.0
+    },
+    {
+     "w": "वो",
+     "start": 14.89,
+     "end": 15.064,
+     "conf": 1.0
+    },
+    {
+     "w": "skills",
+     "start": 15.122,
+     "end": 15.482,
+     "conf": 1.0
+    },
+    {
+     "w": "जो",
+     "start": 15.691,
+     "end": 15.819,
+     "conf": 1.0
+    },
+    {
+     "w": "वो",
+     "start": 15.866,
+     "end": 15.959,
+     "conf": 1.0
+    },
+    {
+     "w": "रोज़",
+     "start": 16.075,
+     "end": 16.33,
+     "conf": 1.0
+    },
+    {
+     "w": "real",
+     "start": 16.423,
+     "end": 16.655,
+     "conf": 1.0
+    },
+    {
+     "w": "engineering",
+     "start": 16.713,
+     "end": 17.108,
+     "conf": 1.0
+    },
+    {
+     "w": "में",
+     "start": 17.155,
+     "end": 17.236,
+     "conf": 1.0
+    },
+    {
+     "w": "use",
+     "start": 17.317,
+     "end": 17.491,
+     "conf": 1.0
+    },
+    {
+     "w": "करते",
+     "start": 17.526,
+     "end": 17.782,
+     "conf": 1.0
+    },
+    {
+     "w": "हैं",
+     "start": 17.84,
+     "end": 18.037,
+     "conf": 1.0
+    },
+    {
+     "w": "—",
+     "start": 18.107,
+     "end": 18.292,
+     "conf": 1.0
+    },
+    {
+     "w": "छोटे,",
+     "start": 18.501,
+     "end": 18.954,
+     "conf": 1.0
+    },
+    {
+     "w": "आसान,",
+     "start": 19.302,
+     "end": 19.767,
+     "conf": 1.0
+    },
+    {
+     "w": "और",
+     "start": 20.115,
+     "end": 20.313,
+     "conf": 1.0
+    },
+    {
+     "w": "adapt",
+     "start": 20.394,
+     "end": 20.696,
+     "conf": 1.0
+    },
+    {
+     "w": "करने",
+     "start": 20.742,
+     "end": 20.939,
+     "conf": 1.0
+    },
+    {
+     "w": "में",
+     "start": 20.997,
+     "end": 21.09,
+     "conf": 1.0
+    },
+    {
+     "w": "simple।",
+     "start": 21.137,
+     "end": 21.59,
+     "conf": 1.0
+    }
+   ]
+  },
+  {
+   "i": 2,
+   "text": "Number two: ECC. Skills, memory और security का पूरा pack — Claude Code, Codex और Cursor, सब के लिए।",
+   "start": 22.46,
+   "end": 30.703,
+   "words": [
+    {
+     "w": "Number",
+     "start": 22.46,
+     "end": 22.762,
+     "conf": 1.0
+    },
+    {
+     "w": "two:",
+     "start": 22.82,
+     "end": 23.111,
+     "conf": 1.0
+    },
+    {
+     "w": "ECC.",
+     "start": 23.494,
+     "end": 24.295,
+     "conf": 1.0
+    },
+    {
+     "w": "Skills,",
+     "start": 24.771,
+     "end": 25.177,
+     "conf": 1.0
+    },
+    {
+     "w": "memory",
+     "start": 25.258,
+     "end": 25.595,
+     "conf": 1.0
+    },
+    {
+     "w": "और",
+     "start": 25.665,
+     "end": 25.769,
+     "conf": 1.0
+    },
+    {
+     "w": "security",
+     "start": 25.85,
+     "end": 26.338,
+     "conf": 1.0
+    },
+    {
+     "w": "का",
+     "start": 26.373,
+     "end": 26.466,
+     "conf": 1.0
+    },
+    {
+     "w": "पूरा",
+     "start": 26.535,
+     "end": 26.837,
+     "conf": 1.0
+    },
+    {
+     "w": "pack",
+     "start": 26.895,
+     "end": 27.139,
+     "conf": 1.0
+    },
+    {
+     "w": "—",
+     "start": 27.313,
+     "end": 27.395,
+     "conf": 1.0
+    },
+    {
+     "w": "Claude",
+     "start": 27.72,
+     "end": 28.045,
+     "conf": 1.0
+    },
+    {
+     "w": "Code,",
+     "start": 28.08,
+     "end": 28.439,
+     "conf": 1.0
+    },
+    {
+     "w": "Codex",
+     "start": 28.765,
+     "end": 29.183,
+     "conf": 1.0
+    },
+    {
+     "w": "और",
+     "start": 29.275,
+     "end": 29.391,
+     "conf": 1.0
+    },
+    {
+     "w": "Cursor,",
+     "start": 29.473,
+     "end": 29.879,
+     "conf": 1.0
+    },
+    {
+     "w": "सब",
+     "start": 30.111,
+     "end": 30.297,
+     "conf": 1.0
+    },
+    {
+     "w": "के",
+     "start": 30.355,
+     "end": 30.425,
+     "conf": 1.0
+    },
+    {
+     "w": "लिए।",
+     "start": 30.483,
+     "end": 30.703,
+     "conf": 1.0
+    }
+   ]
+  },
+  {
+   "i": 3,
+   "text": "Save करो, share करो, और Part four के लिए Techpe Trek को follow करो!",
+   "start": 31.173,
+   "end": 35.805,
+   "words": [
+    {
+     "w": "Save",
+     "start": 31.173,
+     "end": 31.51,
+     "conf": 1.0
+    },
+    {
+     "w": "करो,",
+     "start": 31.545,
+     "end": 31.812,
+     "conf": 1.0
+    },
+    {
+     "w": "share",
+     "start": 32.125,
+     "end": 32.392,
+     "conf": 1.0
+    },
+    {
+     "w": "करो,",
+     "start": 32.438,
+     "end": 32.706,
+     "conf": 1.0
+    },
+    {
+     "w": "और",
+     "start": 33.054,
+     "end": 33.205,
+     "conf": 1.0
+    },
+    {
+     "w": "Part",
+     "start": 33.286,
+     "end": 33.53,
+     "conf": 1.0
+    },
+    {
+     "w": "four",
+     "start": 33.576,
+     "end": 33.75,
+     "conf": 1.0
+    },
+    {
+     "w": "के",
+     "start": 33.82,
+     "end": 33.89,
+     "conf": 1.0
+    },
+    {
+     "w": "लिए",
+     "start": 33.948,
+     "end": 34.192,
+     "conf": 1.0
+    },
+    {
+     "w": "Techpe",
+     "start": 34.412,
+     "end": 34.807,
+     "conf": 1.0
+    },
+    {
+     "w": "Trek",
+     "start": 34.877,
+     "end": 35.109,
+     "conf": 1.0
+    },
+    {
+     "w": "को",
+     "start": 35.155,
+     "end": 35.236,
+     "conf": 1.0
+    },
+    {
+     "w": "follow",
+     "start": 35.295,
+     "end": 35.55,
+     "conf": 1.0
+    },
+    {
+     "w": "करो!",
+     "start": 35.585,
+     "end": 35.805,
+     "conf": 1.0
+    }
+   ]
+  }
+ ],
+ "extras": [],
+ "notes": "ElevenLabs voice TX3LPaxmHKxFdv7VOQHJ, language hi: line 0 hook eleven_v3 [excited] seed 21 stability 0.0; lines 1-2 eleven_turbo_v2_5 seed 12; line 3 outro eleven_turbo_v2_5 seed 21, stability 0.3, speed 0.95 (seed 9 smeared its last word); pieces spliced at pauses; voice set to -18.5 dB"
+}

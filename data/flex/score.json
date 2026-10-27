@@ -1,0 +1,503 @@
+{
+  "about": "Motion Flex (Claude cut). The choreography in musical units: [bar, eighth] on the grid measured from the supplied Short by analysis/build_flex_audio.py. 'snap' moves an event onto the nearest measured onset of that band within 70 ms. Edit here, re-run the script; the scenes and the SFX mix both read the resolved times in data/<variant>/cues.json.",
+  "reel_bars": 12,
+  "intro_bars": 6,
+  "sections": [
+    {
+      "id": "hook",
+      "bar": 0,
+      "copy": "WHAT CAN YOU BUILD?"
+    },
+    {
+      "id": "websites",
+      "bar": 1,
+      "copy": "WEBSITES THAT COME ALIVE."
+    },
+    {
+      "id": "apps",
+      "bar": 2,
+      "copy": "APPS THAT FEEL MAGICAL."
+    },
+    {
+      "id": "data",
+      "bar": 3,
+      "copy": "DATA TURNED INTO EXPERIENCES."
+    },
+    {
+      "id": "product",
+      "bar": 4,
+      "copy": "PRODUCT STORIES THAT SELL."
+    },
+    {
+      "id": "motion",
+      "bar": 5,
+      "copy": "MOTION WITHOUT LIMITS."
+    },
+    {
+      "id": "stories",
+      "bar": 6,
+      "copy": "STORIES BROUGHT TO LIFE."
+    },
+    {
+      "id": "worlds",
+      "bar": 7,
+      "copy": "WORLDS BUILT FROM CODE."
+    },
+    {
+      "id": "sound",
+      "bar": 8,
+      "copy": "SOUND YOU CAN SEE."
+    },
+    {
+      "id": "idea",
+      "bar": 9,
+      "copy": "ONE IDEA."
+    },
+    {
+      "id": "endless",
+      "bar": 10,
+      "copy": "ENDLESS POSSIBILITIES."
+    },
+    {
+      "id": "lockup",
+      "bar": 11,
+      "copy": "MOTION FLEX / Powered by Claude Opus 5.5"
+    }
+  ],
+  "events": {
+    "hook.pop": [
+      0,
+      2,
+      "kick"
+    ],
+    "hook.unfold": [
+      0,
+      3,
+      "kick"
+    ],
+    "web.land": [
+      1,
+      0
+    ],
+    "web.image": [
+      1,
+      3,
+      "kick"
+    ],
+    "web.click": [
+      1,
+      5
+    ],
+    "app.land": [
+      2,
+      0
+    ],
+    "app.focus": [
+      2,
+      2,
+      "kick"
+    ],
+    "app.type": [
+      2,
+      3,
+      "kick"
+    ],
+    "app.press": [
+      2,
+      5
+    ],
+    "app.done": [
+      2,
+      6.5
+    ],
+    "data.land": [
+      3,
+      0
+    ],
+    "data.lock": [
+      3,
+      3,
+      "kick"
+    ],
+    "data.palette": [
+      3,
+      3.5
+    ],
+    "data.enter": [
+      3,
+      6
+    ],
+    "product.drop": [
+      4,
+      0
+    ],
+    "product.l1": [
+      4,
+      0.66,
+      "kick"
+    ],
+    "product.l2": [
+      4,
+      3,
+      "kick"
+    ],
+    "product.l3": [
+      4,
+      4.6,
+      "kick"
+    ],
+    "motion.land": [
+      5,
+      0
+    ],
+    "motion.slam": [
+      5,
+      3,
+      "kick"
+    ],
+    "stories.land": [
+      6,
+      0
+    ],
+    "stories.spot": [
+      6,
+      2,
+      "kick"
+    ],
+    "stories.catch": [
+      6,
+      3,
+      "kick"
+    ],
+    "stories.jump": [
+      6,
+      5
+    ],
+    "worlds.land": [
+      7,
+      0
+    ],
+    "worlds.title": [
+      7,
+      3,
+      "kick"
+    ],
+    "sound.land": [
+      8,
+      0
+    ],
+    "sound.k1": [
+      8,
+      2,
+      "kick"
+    ],
+    "sound.k2": [
+      8,
+      3,
+      "kick"
+    ],
+    "idea.land": [
+      9,
+      0
+    ],
+    "idea.pulse": [
+      9,
+      3,
+      "kick"
+    ],
+    "endless.drop": [
+      10,
+      0
+    ],
+    "endless.k1": [
+      10,
+      3,
+      "kick"
+    ],
+    "flex.land": [
+      10,
+      4.6,
+      "kick"
+    ],
+    "flex.solid": [
+      11,
+      0
+    ],
+    "flex.cta": [
+      11,
+      1
+    ],
+    "flex.impact": [
+      11,
+      3,
+      "kick"
+    ],
+    "end": [
+      12,
+      0
+    ]
+  },
+  "typing": {
+    "app.type": {
+      "text": "launch the speaker",
+      "per": 0.05
+    },
+    "data.palette": {
+      "text": "show growth",
+      "per": 0.0625,
+      "delay": 0.5
+    }
+  },
+  "sfx": [
+    {
+      "sound": "pop",
+      "at": "hook.pop",
+      "db": -11
+    },
+    {
+      "sound": "strike",
+      "at": "hook.unfold",
+      "db": -10
+    },
+    {
+      "sound": "whoosh",
+      "at": "web.land",
+      "db": -9,
+      "align": "peak"
+    },
+    {
+      "sound": "tick",
+      "at": "web.image",
+      "db": -14
+    },
+    {
+      "sound": "click",
+      "at": "web.click",
+      "db": -10
+    },
+    {
+      "sound": "whoosh",
+      "at": "app.land",
+      "db": -9,
+      "align": "peak"
+    },
+    {
+      "sound": "click",
+      "at": "app.focus",
+      "db": -10
+    },
+    {
+      "sound": "click",
+      "at": "app.press",
+      "db": -10
+    },
+    {
+      "sound": "pop",
+      "at": "app.done",
+      "db": -11
+    },
+    {
+      "sound": "whoosh",
+      "at": "data.land",
+      "db": -9,
+      "align": "peak"
+    },
+    {
+      "sound": "tick",
+      "at": "data.lock",
+      "db": -14
+    },
+    {
+      "sound": "click",
+      "at": "data.enter",
+      "db": -10
+    },
+    {
+      "sound": "slam",
+      "at": "product.drop",
+      "db": -6
+    },
+    {
+      "sound": "whoosh",
+      "at": "motion.land",
+      "db": -9,
+      "align": "peak"
+    },
+    {
+      "sound": "strike",
+      "at": "motion.slam",
+      "db": -10
+    },
+    {
+      "sound": "pop",
+      "at": "stories.land",
+      "db": -11
+    },
+    {
+      "sound": "pop",
+      "at": "stories.catch",
+      "db": -11
+    },
+    {
+      "sound": "whoosh",
+      "at": "worlds.land",
+      "db": -9,
+      "align": "peak"
+    },
+    {
+      "sound": "whoosh",
+      "at": "sound.land",
+      "db": -9,
+      "align": "peak"
+    },
+    {
+      "sound": "implode",
+      "at": "idea.land",
+      "db": -10,
+      "align": "peak"
+    },
+    {
+      "sound": "riser",
+      "at": "endless.drop",
+      "db": -9,
+      "align": "peak"
+    },
+    {
+      "sound": "slam",
+      "at": "endless.drop",
+      "db": -6
+    },
+    {
+      "sound": "whoosh",
+      "at": "flex.land",
+      "db": -9,
+      "align": "peak"
+    },
+    {
+      "sound": "slam",
+      "at": "flex.impact",
+      "db": -6
+    },
+    {
+      "sound": "boom",
+      "at": "flex.impact",
+      "db": -12
+    }
+  ],
+  "intro_events": {
+    "intro.prompt": [
+      0,
+      1
+    ],
+    "intro.send": [
+      0,
+      6
+    ],
+    "intro.code": [
+      1,
+      0
+    ],
+    "intro.skills": [
+      1,
+      3,
+      "kick"
+    ],
+    "intro.grid": [
+      2,
+      0
+    ],
+    "intro.lock": [
+      2,
+      3,
+      "kick"
+    ],
+    "intro.frames": [
+      3,
+      0
+    ],
+    "intro.freeze": [
+      3,
+      3.5
+    ],
+    "intro.drop": [
+      4,
+      0
+    ],
+    "intro.just": [
+      4,
+      3,
+      "kick"
+    ],
+    "intro.seed": [
+      5,
+      0
+    ],
+    "intro.handoff": [
+      6,
+      0
+    ]
+  },
+  "intro_typing": {
+    "intro.prompt": {
+      "text": "make a motion reel on the beat",
+      "per": 0.0625
+    }
+  },
+  "intro_sfx": [
+    {
+      "sound": "click",
+      "at": "intro.send",
+      "db": -10
+    },
+    {
+      "sound": "whoosh",
+      "at": "intro.code",
+      "db": -9,
+      "align": "peak"
+    },
+    {
+      "sound": "tick",
+      "at": "intro.skills",
+      "db": -14
+    },
+    {
+      "sound": "whoosh",
+      "at": "intro.grid",
+      "db": -9,
+      "align": "peak"
+    },
+    {
+      "sound": "strike",
+      "at": "intro.lock",
+      "db": -10
+    },
+    {
+      "sound": "whoosh",
+      "at": "intro.frames",
+      "db": -9,
+      "align": "peak"
+    },
+    {
+      "sound": "riser",
+      "at": "intro.drop",
+      "db": -9,
+      "align": "peak"
+    },
+    {
+      "sound": "slam",
+      "at": "intro.drop",
+      "db": -6
+    },
+    {
+      "sound": "strike",
+      "at": "intro.just",
+      "db": -10
+    },
+    {
+      "sound": "implode",
+      "at": "intro.handoff",
+      "db": -10,
+      "align": "peak"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+ "source": "https://www.youtube.com/watch?v=w-sQRS-Lc9k (KORDHELL channel, 'MURDER IN MY MIND')",
+ "source_sha256": "1048f1d01c07d752c5d73c8f859c2f6e474dc539ab866fad2d0cce4940fbeb41",
+ "window_source_seconds": [
+  17.034,
+  55.0318
+ ],
+ "music_cut_source_seconds": 51.032,
+ "pulse_seconds": 0.49997,
+ "grid": "constant grid fitted to DP beats; one score eighth per unit; a section = one bar",
+ "edit": "one continuous excerpt; 5 ms fade-in, 4 ms fade-out; no stretch or pitch change",
+ "loudness_in": {
+  "input_i": "-3.94",
+  "input_tp": "1.55",
+  "input_lra": "1.00"
+ },
+ "loudness_target": "-14 LUFS integrated, -1 dBTP",
+ "voiceover": false
+}

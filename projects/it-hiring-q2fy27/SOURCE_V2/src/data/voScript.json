@@ -1,0 +1,86 @@
+{
+ "_doc": "V2 (Fluent light restyle, jobs news for freshers + skills). cap = caption, tts = Liam. Claims trace to ../FACTS.md; the skills list is a TechpeTrek suggestion.",
+ "voice": {
+  "provider": "elevenlabs",
+  "voiceId": "TX3LPaxmHKxFdv7VOQHJ",
+  "name": "Liam",
+  "model": "eleven_turbo_v2_5",
+  "language": "hi",
+  "stability": 0.4,
+  "similarity": 0.75,
+  "speed": 1.15,
+  "seed": 5
+ },
+ "reel": [
+  {
+   "id": "h1",
+   "scene": "hook",
+   "cap": "Isss November, India mein jobs ka naya scene!",
+   "tts": "इस्स November, India में jobs का नया scene!",
+   "min": 0.0
+  },
+  {
+   "id": "l1",
+   "scene": "total",
+   "cap": "Top five IT companies ne July se September mein, net 13,918 log add kiye.",
+   "tts": "Top five IT companies ने July से September में, net तेरह हज़ार नौ सौ अठारह लोग add किए.",
+   "min": 0.0
+  },
+  {
+   "id": "l2",
+   "scene": "bars",
+   "cap": "HCLTech plus 6,450, Tech Mahindra plus 5,446, Infosys plus 4,480, TCS plus 4,258.",
+   "tts": "HCL Tech plus छह हज़ार चार सौ पचास, Tech Mahindra plus पाँच हज़ार चार सौ छियालीस, Infosys plus चार हज़ार चार सौ अस्सी, TCS plus चार हज़ार दो सौ अट्ठावन.",
+   "min": 0.0
+  },
+  {
+   "id": "l3",
+   "scene": "wipro",
+   "cap": "Lekin Wipro? Minus 6,716!",
+   "tts": "लेकिन Wipro? Minus छह हज़ार सात सौ सोलह!",
+   "min": 0.0
+  },
+  {
+   "id": "l4",
+   "scene": "twist",
+   "cap": "Dhyaan do: ye net headcount hai, 13,918 vacancies nahi.",
+   "tts": "ध्यान दो: ये net headcount है, तेरह हज़ार नौ सौ अठारह vacancies नहीं.",
+   "min": 0.0
+  },
+  {
+   "id": "l5",
+   "scene": "freshers",
+   "cap": "Freshers ke liye? Infosys ne quarter mein around 8,000 graduates ki baat kahi, HCLTech ne 6,136 freshers recruit kiye.",
+   "tts": "Freshers के लिए? Infosys ने quarter में around आठ हज़ार graduates की बात कही, HCL Tech ने छह हज़ार एक सौ छत्तीस freshers recruit किए.",
+   "min": 0.0
+  },
+  {
+   "id": "l6",
+   "scene": "ai",
+   "cap": "Aur Infosys ki AI revenue, pichhle quarter se 29 percent badhi.",
+   "tts": "और Infosys की AI revenue, पिछले quarter से उनतीस percent बढ़ी.",
+   "min": 0.0
+  },
+  {
+   "id": "l7",
+   "scene": "skills",
+   "cap": "Toh kya seekhein? Python ya Java, AI aur GenAI apps, cloud deployment, SQL aur data, aur Git ke saath testing.",
+   "tts": "तो क्या सीखें? Python या Java, AI और GenAI apps, cloud deployment, SQL और data, और Git के साथ testing.",
+   "min": 0.0
+  },
+  {
+   "id": "l8",
+   "scene": "project",
+   "cap": "Ek project live deploy karo. Apply sirf official careers site pe!",
+   "tts": "एक project live deploy करो. Apply सिर्फ official careers site पे!",
+   "min": 0.0
+  },
+  {
+   "id": "l9",
+   "scene": "cta",
+   "cap": "Comment JOBS, aur save kar lo!",
+   "tts": "Comment JOBS, और save कर लो!",
+   "min": 0.0
+  }
+ ]
+}

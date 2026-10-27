@@ -1,0 +1,79 @@
+{
+ "stk_face1": {
+  "dir": "aura/frames/stk_face1",
+  "ext": "jpg",
+  "n": 85,
+  "fps": 30,
+  "w": 608,
+  "h": 1080,
+  "src": "mixkit_41650.mp4 0.4-3.2 s",
+  "licence": "Mixkit Stock Video Free License (copyrightNotice: Free)",
+  "url": "https://mixkit.co/free-stock-video/ ... -41650/"
+ },
+ "stk_face2": {
+  "dir": "aura/frames/stk_face2",
+  "ext": "jpg",
+  "n": 66,
+  "fps": 30,
+  "w": 608,
+  "h": 1080,
+  "src": "mixkit_41650.mp4 4.8-7.0 s",
+  "licence": "Mixkit Stock Video Free License (copyrightNotice: Free)",
+  "url": "https://mixkit.co/free-stock-video/ ... -41650/"
+ },
+ "stk_hands": {
+  "dir": "aura/frames/stk_hands",
+  "ext": "jpg",
+  "n": 40,
+  "fps": 30,
+  "w": 608,
+  "h": 1080,
+  "src": "mixkit_41646.mp4 6.6-7.9 s",
+  "licence": "Mixkit Stock Video Free License (copyrightNotice: Free)",
+  "url": "https://mixkit.co/free-stock-video/ ... -41646/"
+ },
+ "stk_code": {
+  "dir": "aura/frames/stk_code",
+  "ext": "jpg",
+  "n": 85,
+  "fps": 30,
+  "w": 608,
+  "h": 1080,
+  "src": "mixkit_41657.mp4 2.8-5.6 s",
+  "licence": "Mixkit Stock Video Free License (copyrightNotice: Free)",
+  "url": "https://mixkit.co/free-stock-video/ ... -41657/"
+ },
+ "stk_ots": {
+  "dir": "aura/frames/stk_ots",
+  "ext": "jpg",
+  "n": 49,
+  "fps": 30,
+  "w": 608,
+  "h": 1080,
+  "src": "mixkit_41642.mp4 1.2-2.8 s",
+  "licence": "Mixkit Stock Video Free License (copyrightNotice: Free)",
+  "url": "https://mixkit.co/free-stock-video/ ... -41642/"
+ },
+ "stk_mon": {
+  "dir": "aura/frames/stk_mon",
+  "ext": "jpg",
+  "n": 64,
+  "fps": 30,
+  "w": 608,
+  "h": 1080,
+  "src": "mixkit_41639.mp4 2.2-4.3 s",
+  "licence": "Mixkit Stock Video Free License (copyrightNotice: Free)",
+  "url": "https://mixkit.co/free-stock-video/ ... -41639/"
+ },
+ "stk_dive": {
+  "dir": "aura/frames/stk_dive",
+  "ext": "jpg",
+  "n": 40,
+  "fps": 30,
+  "w": 608,
+  "h": 1080,
+  "src": "mixkit_41654.mp4 0.1-1.4 s",
+  "licence": "Mixkit Stock Video Free License (copyrightNotice: Free)",
+  "url": "https://mixkit.co/free-stock-video/ ... -41654/"
+ }
+}

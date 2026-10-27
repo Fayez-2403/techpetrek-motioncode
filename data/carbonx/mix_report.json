@@ -1,0 +1,58 @@
+{
+ "integrated_lufs": -14.1,
+ "true_peak_dbtp": -1.5,
+ "voice_lufs_while_speaking": -12.2,
+ "bed_lufs_under_speech": -26.9,
+ "bed_lufs_between_words": -22.8,
+ "duck_db": 9.0,
+ "carve_db_250_4000hz": 7.0,
+ "duck_plus_carve_voice_band_db": 16.0,
+ "foley_peak_dbfs": -12.0,
+ "voice_compressor_max_gr_db": -4.71,
+ "master_limiter_max_gr_db": 6.89,
+ "foley_cues": 77,
+ "music_gain": 0.6441,
+ "master_gain": 2.0417,
+ "word_snr_speechband_db_min": 6.3,
+ "word_snr_speechband_db_median": 26.7,
+ "word_snr_broadband_db_median": 11.9,
+ "words_under_10db_speechband": [
+  [
+   6.3,
+   "hain,",
+   35.968
+  ]
+ ],
+ "worst_words": [
+  [
+   6.3,
+   "hain,",
+   35.968
+  ],
+  [
+   12.0,
+   "hai.",
+   14.285
+  ],
+  [
+   14.1,
+   "hai,",
+   6.639
+  ],
+  [
+   14.8,
+   "hai.",
+   22.341
+  ],
+  [
+   15.4,
+   "Team",
+   23.671
+  ],
+  [
+   16.0,
+   "G,",
+   11.266
+  ]
+ ]
+}

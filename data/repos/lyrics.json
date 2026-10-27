@@ -1,0 +1,998 @@
+{
+ "lines": [
+  {
+   "i": 0,
+   "text": "ये 5 GitHub repos अभी save कर लो — 400 से ज़्यादा ready-made AI agents और skills, बिल्कुल free!",
+   "start": 0.422,
+   "end": 8.19,
+   "words": [
+    {
+     "w": "ये",
+     "start": 0.422,
+     "end": 0.51,
+     "conf": 1.0
+    },
+    {
+     "w": "5",
+     "start": 0.59,
+     "end": 0.91,
+     "conf": 1.0
+    },
+    {
+     "w": "GitHub",
+     "start": 0.956,
+     "end": 1.23,
+     "conf": 1.0
+    },
+    {
+     "w": "repos",
+     "start": 1.283,
+     "end": 1.55,
+     "conf": 1.0
+    },
+    {
+     "w": "अभी",
+     "start": 1.577,
+     "end": 1.71,
+     "conf": 1.0
+    },
+    {
+     "w": "save",
+     "start": 1.758,
+     "end": 1.95,
+     "conf": 1.0
+    },
+    {
+     "w": "कर",
+     "start": 2.003,
+     "end": 2.11,
+     "conf": 1.0
+    },
+    {
+     "w": "लो",
+     "start": 2.15,
+     "end": 2.27,
+     "conf": 1.0
+    },
+    {
+     "w": "—",
+     "start": 2.67,
+     "end": 3.07,
+     "conf": 1.0
+    },
+    {
+     "w": "400",
+     "start": 3.134,
+     "end": 3.79,
+     "conf": 1.0
+    },
+    {
+     "w": "से",
+     "start": 3.87,
+     "end": 4.03,
+     "conf": 1.0
+    },
+    {
+     "w": "ज़्यादा",
+     "start": 4.07,
+     "end": 4.43,
+     "conf": 1.0
+    },
+    {
+     "w": "ready-made",
+     "start": 4.497,
+     "end": 5.23,
+     "conf": 1.0
+    },
+    {
+     "w": "AI",
+     "start": 5.337,
+     "end": 5.55,
+     "conf": 1.0
+    },
+    {
+     "w": "agents",
+     "start": 5.641,
+     "end": 6.19,
+     "conf": 1.0
+    },
+    {
+     "w": "और",
+     "start": 6.243,
+     "end": 6.35,
+     "conf": 1.0
+    },
+    {
+     "w": "skills,",
+     "start": 6.441,
+     "end": 6.99,
+     "conf": 1.0
+    },
+    {
+     "w": "बिल्कुल",
+     "start": 7.41,
+     "end": 7.87,
+     "conf": 1.0
+    },
+    {
+     "w": "free!",
+     "start": 7.934,
+     "end": 8.19,
+     "conf": 1.0
+    }
+   ]
+  },
+  {
+   "i": 1,
+   "text": "Number one: agency-agents. 230 से ज़्यादा agents, बिल्कुल एक company की तरह — engineering, design, marketing, sales. और हर agent का अपना personality और process है।",
+   "start": 9.043,
+   "end": 22.23,
+   "words": [
+    {
+     "w": "Number",
+     "start": 9.043,
+     "end": 9.093,
+     "conf": 1.0
+    },
+    {
+     "w": "one:",
+     "start": 9.13,
+     "end": 9.31,
+     "conf": 1.0
+    },
+    {
+     "w": "agency-agents.",
+     "start": 10.019,
+     "end": 10.99,
+     "conf": 1.0
+    },
+    {
+     "w": "230",
+     "start": 11.83,
+     "end": 12.75,
+     "conf": 1.0
+    },
+    {
+     "w": "से",
+     "start": 12.83,
+     "end": 12.99,
+     "conf": 1.0
+    },
+    {
+     "w": "ज़्यादा",
+     "start": 13.03,
+     "end": 13.31,
+     "conf": 1.0
+    },
+    {
+     "w": "agents,",
+     "start": 13.39,
+     "end": 13.87,
+     "conf": 1.0
+    },
+    {
+     "w": "बिल्कुल",
+     "start": 14.11,
+     "end": 14.43,
+     "conf": 1.0
+    },
+    {
+     "w": "एक",
+     "start": 14.483,
+     "end": 14.59,
+     "conf": 1.0
+    },
+    {
+     "w": "company",
+     "start": 14.63,
+     "end": 14.91,
+     "conf": 1.0
+    },
+    {
+     "w": "की",
+     "start": 14.95,
+     "end": 15.07,
+     "conf": 1.0
+    },
+    {
+     "w": "तरह",
+     "start": 15.13,
+     "end": 15.31,
+     "conf": 1.0
+    },
+    {
+     "w": "—",
+     "start": 15.55,
+     "end": 15.79,
+     "conf": 1.0
+    },
+    {
+     "w": "engineering,",
+     "start": 15.843,
+     "end": 16.43,
+     "conf": 1.0
+    },
+    {
+     "w": "design,",
+     "start": 16.59,
+     "end": 17.07,
+     "conf": 1.0
+    },
+    {
+     "w": "marketing,",
+     "start": 17.278,
+     "end": 17.71,
+     "conf": 1.0
+    },
+    {
+     "w": "sales.",
+     "start": 17.937,
+     "end": 18.27,
+     "conf": 1.0
+    },
+    {
+     "w": "और",
+     "start": 18.892,
+     "end": 18.942,
+     "conf": 1.0
+    },
+    {
+     "w": "हर",
+     "start": 18.99,
+     "end": 19.15,
+     "conf": 1.0
+    },
+    {
+     "w": "agent",
+     "start": 19.203,
+     "end": 19.47,
+     "conf": 1.0
+    },
+    {
+     "w": "का",
+     "start": 19.55,
+     "end": 19.79,
+     "conf": 1.0
+    },
+    {
+     "w": "अपना",
+     "start": 19.89,
+     "end": 20.19,
+     "conf": 1.0
+    },
+    {
+     "w": "personality",
+     "start": 20.25,
+     "end": 20.91,
+     "conf": 1.0
+    },
+    {
+     "w": "और",
+     "start": 21.017,
+     "end": 21.23,
+     "conf": 1.0
+    },
+    {
+     "w": "process",
+     "start": 21.28,
+     "end": 21.63,
+     "conf": 1.0
+    },
+    {
+     "w": "है।",
+     "start": 21.67,
+     "end": 22.23,
+     "conf": 1.0
+    }
+   ]
+  },
+  {
+   "i": 2,
+   "text": "Number two: wshobson का agents. 94 plugins में 202 agents, 184 skills और 105 commands. Claude Code, Codex, Cursor — सब में चलता है, बस जो चाहिए वही install करो।",
+   "start": 22.883,
+   "end": 41.477,
+   "words": [
+    {
+     "w": "Number",
+     "start": 22.883,
+     "end": 22.933,
+     "conf": 1.0
+    },
+    {
+     "w": "two:",
+     "start": 22.97,
+     "end": 23.15,
+     "conf": 1.0
+    },
+    {
+     "w": "wshobson",
+     "start": 23.99,
+     "end": 24.91,
+     "conf": 1.0
+    },
+    {
+     "w": "का",
+     "start": 24.95,
+     "end": 25.07,
+     "conf": 1.0
+    },
+    {
+     "w": "agents.",
+     "start": 25.15,
+     "end": 25.63,
+     "conf": 1.0
+    },
+    {
+     "w": "94",
+     "start": 25.87,
+     "end": 27.15,
+     "conf": 1.0
+    },
+    {
+     "w": "plugins",
+     "start": 27.21,
+     "end": 27.63,
+     "conf": 1.0
+    },
+    {
+     "w": "में",
+     "start": 27.71,
+     "end": 27.95,
+     "conf": 1.0
+    },
+    {
+     "w": "202",
+     "start": 28.05,
+     "end": 28.91,
+     "conf": 1.0
+    },
+    {
+     "w": "agents,",
+     "start": 28.99,
+     "end": 29.47,
+     "conf": 1.0
+    },
+    {
+     "w": "184",
+     "start": 29.85,
+     "end": 30.75,
+     "conf": 1.0
+    },
+    {
+     "w": "skills",
+     "start": 30.841,
+     "end": 31.39,
+     "conf": 1.0
+    },
+    {
+     "w": "और",
+     "start": 31.55,
+     "end": 31.87,
+     "conf": 1.0
+    },
+    {
+     "w": "105",
+     "start": 31.95,
+     "end": 32.83,
+     "conf": 1.0
+    },
+    {
+     "w": "commands.",
+     "start": 32.91,
+     "end": 33.55,
+     "conf": 1.0
+    },
+    {
+     "w": "Claude",
+     "start": 34.951,
+     "end": 35.157,
+     "conf": 1.0
+    },
+    {
+     "w": "Code,",
+     "start": 35.301,
+     "end": 35.877,
+     "conf": 1.0
+    },
+    {
+     "w": "Codex,",
+     "start": 36.097,
+     "end": 36.837,
+     "conf": 1.0
+    },
+    {
+     "w": "Cursor",
+     "start": 37.203,
+     "end": 37.477,
+     "conf": 1.0
+    },
+    {
+     "w": "—",
+     "start": 37.797,
+     "end": 38.117,
+     "conf": 1.0
+    },
+    {
+     "w": "सब",
+     "start": 38.17,
+     "end": 38.277,
+     "conf": 1.0
+    },
+    {
+     "w": "में",
+     "start": 38.317,
+     "end": 38.437,
+     "conf": 1.0
+    },
+    {
+     "w": "चलता",
+     "start": 38.517,
+     "end": 38.797,
+     "conf": 1.0
+    },
+    {
+     "w": "है,",
+     "start": 38.817,
+     "end": 39.037,
+     "conf": 1.0
+    },
+    {
+     "w": "बस",
+     "start": 39.344,
+     "end": 39.557,
+     "conf": 1.0
+    },
+    {
+     "w": "जो",
+     "start": 39.637,
+     "end": 39.797,
+     "conf": 1.0
+    },
+    {
+     "w": "चाहिए",
+     "start": 39.877,
+     "end": 40.437,
+     "conf": 1.0
+    },
+    {
+     "w": "वही",
+     "start": 40.544,
+     "end": 40.837,
+     "conf": 1.0
+    },
+    {
+     "w": "install",
+     "start": 40.887,
+     "end": 41.237,
+     "conf": 1.0
+    },
+    {
+     "w": "करो।",
+     "start": 41.29,
+     "end": 41.477,
+     "conf": 1.0
+    }
+   ]
+  },
+  {
+   "i": 3,
+   "text": "Number three: Anthropic के अपने knowledge-work plugins — sales, legal, finance, data… हर job के लिए एक plugin. हर plugin में skills, connectors और slash commands।",
+   "start": 42.791,
+   "end": 56.277,
+   "words": [
+    {
+     "w": "Number",
+     "start": 42.791,
+     "end": 42.841,
+     "conf": 1.0
+    },
+    {
+     "w": "three:",
+     "start": 42.89,
+     "end": 43.157,
+     "conf": 1.0
+    },
+    {
+     "w": "Anthropic",
+     "start": 43.413,
+     "end": 44.517,
+     "conf": 1.0
+    },
+    {
+     "w": "के",
+     "start": 44.557,
+     "end": 44.677,
+     "conf": 1.0
+    },
+    {
+     "w": "अपने",
+     "start": 44.757,
+     "end": 45.277,
+     "conf": 1.0
+    },
+    {
+     "w": "knowledge-work",
+     "start": 45.305,
+     "end": 45.877,
+     "conf": 1.0
+    },
+    {
+     "w": "plugins",
+     "start": 45.957,
+     "end": 46.517,
+     "conf": 1.0
+    },
+    {
+     "w": "—",
+     "start": 46.757,
+     "end": 46.997,
+     "conf": 1.0
+    },
+    {
+     "w": "sales,",
+     "start": 47.077,
+     "end": 47.477,
+     "conf": 1.0
+    },
+    {
+     "w": "legal,",
+     "start": 47.784,
+     "end": 48.117,
+     "conf": 1.0
+    },
+    {
+     "w": "finance,",
+     "start": 48.357,
+     "end": 48.917,
+     "conf": 1.0
+    },
+    {
+     "w": "data…",
+     "start": 49.061,
+     "end": 49.317,
+     "conf": 1.0
+    },
+    {
+     "w": "हर",
+     "start": 50.037,
+     "end": 50.197,
+     "conf": 1.0
+    },
+    {
+     "w": "job",
+     "start": 50.277,
+     "end": 50.517,
+     "conf": 1.0
+    },
+    {
+     "w": "के",
+     "start": 50.557,
+     "end": 50.677,
+     "conf": 1.0
+    },
+    {
+     "w": "लिए",
+     "start": 50.717,
+     "end": 50.917,
+     "conf": 1.0
+    },
+    {
+     "w": "एक",
+     "start": 50.997,
+     "end": 51.157,
+     "conf": 1.0
+    },
+    {
+     "w": "plugin.",
+     "start": 51.226,
+     "end": 51.637,
+     "conf": 1.0
+    },
+    {
+     "w": "हर",
+     "start": 52.584,
+     "end": 52.634,
+     "conf": 1.0
+    },
+    {
+     "w": "plugin",
+     "start": 52.654,
+     "end": 52.997,
+     "conf": 1.0
+    },
+    {
+     "w": "में",
+     "start": 53.037,
+     "end": 53.237,
+     "conf": 1.0
+    },
+    {
+     "w": "skills,",
+     "start": 53.328,
+     "end": 53.877,
+     "conf": 1.0
+    },
+    {
+     "w": "connectors",
+     "start": 54.401,
+     "end": 54.837,
+     "conf": 1.0
+    },
+    {
+     "w": "और",
+     "start": 54.97,
+     "end": 55.237,
+     "conf": 1.0
+    },
+    {
+     "w": "slash",
+     "start": 55.304,
+     "end": 55.637,
+     "conf": 1.0
+    },
+    {
+     "w": "commands।",
+     "start": 55.708,
+     "end": 56.277,
+     "conf": 1.0
+    }
+   ]
+  },
+  {
+   "i": 4,
+   "text": "Number four: claude-quickstarts. Anthropic के official projects — customer support agent, financial data analyst, computer use demo. चलाओ, खोलो, और सीखो!",
+   "start": 57.764,
+   "end": 69.804,
+   "words": [
+    {
+     "w": "Number",
+     "start": 57.764,
+     "end": 57.814,
+     "conf": 1.0
+    },
+    {
+     "w": "four:",
+     "start": 57.862,
+     "end": 58.118,
+     "conf": 1.0
+    },
+    {
+     "w": "claude-quickstarts.",
+     "start": 58.324,
+     "end": 59.798,
+     "conf": 1.0
+    },
+    {
+     "w": "Anthropic",
+     "start": 60.07,
+     "end": 61.158,
+     "conf": 1.0
+    },
+    {
+     "w": "के",
+     "start": 61.198,
+     "end": 61.318,
+     "conf": 1.0
+    },
+    {
+     "w": "official",
+     "start": 61.371,
+     "end": 61.798,
+     "conf": 1.0
+    },
+    {
+     "w": "projects",
+     "start": 61.851,
+     "end": 62.278,
+     "conf": 1.0
+    },
+    {
+     "w": "—",
+     "start": 62.318,
+     "end": 62.368,
+     "conf": 1.0
+    },
+    {
+     "w": "customer",
+     "start": 62.447,
+     "end": 63.158,
+     "conf": 1.0
+    },
+    {
+     "w": "support",
+     "start": 63.198,
+     "end": 63.478,
+     "conf": 1.0
+    },
+    {
+     "w": "agent,",
+     "start": 63.545,
+     "end": 63.878,
+     "conf": 1.0
+    },
+    {
+     "w": "financial",
+     "start": 64.046,
+     "end": 64.838,
+     "conf": 1.0
+    },
+    {
+     "w": "data",
+     "start": 64.886,
+     "end": 65.078,
+     "conf": 1.0
+    },
+    {
+     "w": "analyst,",
+     "start": 65.158,
+     "end": 65.718,
+     "conf": 1.0
+    },
+    {
+     "w": "computer",
+     "start": 66.002,
+     "end": 66.358,
+     "conf": 1.0
+    },
+    {
+     "w": "use",
+     "start": 66.418,
+     "end": 66.598,
+     "conf": 1.0
+    },
+    {
+     "w": "demo.",
+     "start": 66.694,
+     "end": 67.078,
+     "conf": 1.0
+    },
+    {
+     "w": "चलाओ,",
+     "start": 67.937,
+     "end": 68.284,
+     "conf": 1.0
+    },
+    {
+     "w": "खोलो,",
+     "start": 68.564,
+     "end": 69.004,
+     "conf": 1.0
+    },
+    {
+     "w": "और",
+     "start": 69.191,
+     "end": 69.404,
+     "conf": 1.0
+    },
+    {
+     "w": "सीखो!",
+     "start": 69.444,
+     "end": 69.804,
+     "conf": 1.0
+    }
+   ]
+  },
+  {
+   "i": 5,
+   "text": "Number five: Addy Osmani का agent-skills. 25 production-grade skills — spec से plan, build, test और ship तक, पूरा dev cycle।",
+   "start": 71.038,
+   "end": 82.684,
+   "words": [
+    {
+     "w": "Number",
+     "start": 71.038,
+     "end": 71.088,
+     "conf": 1.0
+    },
+    {
+     "w": "five:",
+     "start": 71.164,
+     "end": 71.484,
+     "conf": 1.0
+    },
+    {
+     "w": "Addy",
+     "start": 72.084,
+     "end": 72.524,
+     "conf": 1.0
+    },
+    {
+     "w": "Osmani",
+     "start": 72.604,
+     "end": 73.004,
+     "conf": 1.0
+    },
+    {
+     "w": "का",
+     "start": 73.124,
+     "end": 73.324,
+     "conf": 1.0
+    },
+    {
+     "w": "agent-skills.",
+     "start": 73.417,
+     "end": 74.364,
+     "conf": 1.0
+    },
+    {
+     "w": "25",
+     "start": 74.684,
+     "end": 75.964,
+     "conf": 1.0
+    },
+    {
+     "w": "production-grade",
+     "start": 76.022,
+     "end": 76.924,
+     "conf": 1.0
+    },
+    {
+     "w": "skills",
+     "start": 77.004,
+     "end": 77.484,
+     "conf": 1.0
+    },
+    {
+     "w": "—",
+     "start": 77.724,
+     "end": 77.964,
+     "conf": 1.0
+    },
+    {
+     "w": "spec",
+     "start": 78.028,
+     "end": 78.284,
+     "conf": 1.0
+    },
+    {
+     "w": "से",
+     "start": 78.364,
+     "end": 78.724,
+     "conf": 1.0
+    },
+    {
+     "w": "plan,",
+     "start": 78.78,
+     "end": 79.004,
+     "conf": 1.0
+    },
+    {
+     "w": "build,",
+     "start": 79.324,
+     "end": 79.724,
+     "conf": 1.0
+    },
+    {
+     "w": "test",
+     "start": 80.108,
+     "end": 80.364,
+     "conf": 1.0
+    },
+    {
+     "w": "और",
+     "start": 80.524,
+     "end": 80.844,
+     "conf": 1.0
+    },
+    {
+     "w": "ship",
+     "start": 80.908,
+     "end": 81.164,
+     "conf": 1.0
+    },
+    {
+     "w": "तक,",
+     "start": 81.244,
+     "end": 81.404,
+     "conf": 1.0
+    },
+    {
+     "w": "पूरा",
+     "start": 81.604,
+     "end": 82.044,
+     "conf": 1.0
+    },
+    {
+     "w": "dev",
+     "start": 82.104,
+     "end": 82.284,
+     "conf": 1.0
+    },
+    {
+     "w": "cycle।",
+     "start": 82.351,
+     "end": 82.684,
+     "conf": 1.0
+    }
+   ]
+  },
+  {
+   "i": 6,
+   "text": "शुरुआत करो claude-quickstarts से। Save करो, share करो, और Techpe Trek follow करो!",
+   "start": 83.954,
+   "end": 89.884,
+   "words": [
+    {
+     "w": "शुरुआत",
+     "start": 83.954,
+     "end": 84.204,
+     "conf": 1.0
+    },
+    {
+     "w": "करो",
+     "start": 84.257,
+     "end": 84.444,
+     "conf": 1.0
+    },
+    {
+     "w": "claude-quickstarts",
+     "start": 84.501,
+     "end": 85.404,
+     "conf": 1.0
+    },
+    {
+     "w": "से।",
+     "start": 85.444,
+     "end": 85.564,
+     "conf": 1.0
+    },
+    {
+     "w": "Save",
+     "start": 85.756,
+     "end": 86.204,
+     "conf": 1.0
+    },
+    {
+     "w": "करो,",
+     "start": 86.284,
+     "end": 86.604,
+     "conf": 1.0
+    },
+    {
+     "w": "share",
+     "start": 86.817,
+     "end": 87.084,
+     "conf": 1.0
+    },
+    {
+     "w": "करो,",
+     "start": 87.137,
+     "end": 87.324,
+     "conf": 1.0
+    },
+    {
+     "w": "और",
+     "start": 87.617,
+     "end": 88.044,
+     "conf": 1.0
+    },
+    {
+     "w": "Techpe",
+     "start": 88.14,
+     "end": 88.764,
+     "conf": 1.0
+    },
+    {
+     "w": "Trek",
+     "start": 88.828,
+     "end": 89.084,
+     "conf": 1.0
+    },
+    {
+     "w": "follow",
+     "start": 89.153,
+     "end": 89.564,
+     "conf": 1.0
+    },
+    {
+     "w": "करो!",
+     "start": 89.644,
+     "end": 89.884,
+     "conf": 1.0
+    }
+   ]
+  }
+ ],
+ "extras": [],
+ "notes": "ElevenLabs eleven_v3 voice TX3LPaxmHKxFdv7VOQHJ, one take, tempo x1.000"
+}

@@ -1,0 +1,718 @@
+{
+ "lines": [
+  {
+   "i": 0,
+   "text": "GitHub पे ये repos इस महीने धमाल मचा रहे हैं, और बिल्कुल free हैं! Part one: creators के लिए तीन कमाल के tools।",
+   "start": 0.681,
+   "end": 8.43,
+   "words": [
+    {
+     "w": "GitHub",
+     "start": 0.681,
+     "end": 0.75,
+     "conf": 1.0
+    },
+    {
+     "w": "पे",
+     "start": 0.79,
+     "end": 0.91,
+     "conf": 1.0
+    },
+    {
+     "w": "ये",
+     "start": 0.95,
+     "end": 1.07,
+     "conf": 1.0
+    },
+    {
+     "w": "repos",
+     "start": 1.137,
+     "end": 1.47,
+     "conf": 1.0
+    },
+    {
+     "w": "इस",
+     "start": 1.523,
+     "end": 1.63,
+     "conf": 1.0
+    },
+    {
+     "w": "महीने",
+     "start": 1.683,
+     "end": 2.03,
+     "conf": 1.0
+    },
+    {
+     "w": "धमाल",
+     "start": 2.11,
+     "end": 2.43,
+     "conf": 1.0
+    },
+    {
+     "w": "मचा",
+     "start": 2.47,
+     "end": 2.75,
+     "conf": 1.0
+    },
+    {
+     "w": "रहे",
+     "start": 2.777,
+     "end": 2.91,
+     "conf": 1.0
+    },
+    {
+     "w": "हैं,",
+     "start": 3.01,
+     "end": 3.243,
+     "conf": 1.0
+    },
+    {
+     "w": "और",
+     "start": 3.363,
+     "end": 3.47,
+     "conf": 1.0
+    },
+    {
+     "w": "बिल्कुल",
+     "start": 3.51,
+     "end": 3.79,
+     "conf": 1.0
+    },
+    {
+     "w": "free",
+     "start": 3.838,
+     "end": 4.03,
+     "conf": 1.0
+    },
+    {
+     "w": "हैं!",
+     "start": 4.11,
+     "end": 4.27,
+     "conf": 1.0
+    },
+    {
+     "w": "Part",
+     "start": 5.102,
+     "end": 5.23,
+     "conf": 1.0
+    },
+    {
+     "w": "one:",
+     "start": 5.29,
+     "end": 5.47,
+     "conf": 1.0
+    },
+    {
+     "w": "creators",
+     "start": 5.674,
+     "end": 6.67,
+     "conf": 1.0
+    },
+    {
+     "w": "के",
+     "start": 6.75,
+     "end": 6.87,
+     "conf": 1.0
+    },
+    {
+     "w": "लिए",
+     "start": 6.89,
+     "end": 6.99,
+     "conf": 1.0
+    },
+    {
+     "w": "तीन",
+     "start": 7.07,
+     "end": 7.39,
+     "conf": 1.0
+    },
+    {
+     "w": "कमाल",
+     "start": 7.47,
+     "end": 7.79,
+     "conf": 1.0
+    },
+    {
+     "w": "के",
+     "start": 7.87,
+     "end": 8.19,
+     "conf": 1.0
+    },
+    {
+     "w": "tools।",
+     "start": 8.23,
+     "end": 8.43,
+     "conf": 1.0
+    }
+   ]
+  },
+  {
+   "i": 1,
+   "text": "Number one: VoiceStudio. Voice cloning, video dubbing, transcription — 646 languages में, और सब कुछ आपके अपने computer पर। यानी ElevenLabs का free, local alternative।",
+   "start": 9.356,
+   "end": 22.59,
+   "words": [
+    {
+     "w": "Number",
+     "start": 9.356,
+     "end": 9.406,
+     "conf": 1.0
+    },
+    {
+     "w": "one:",
+     "start": 9.45,
+     "end": 9.63,
+     "conf": 1.0
+    },
+    {
+     "w": "VoiceStudio.",
+     "start": 9.857,
+     "end": 11.15,
+     "conf": 1.0
+    },
+    {
+     "w": "Voice",
+     "start": 11.803,
+     "end": 12.27,
+     "conf": 1.0
+    },
+    {
+     "w": "cloning,",
+     "start": 12.33,
+     "end": 12.75,
+     "conf": 1.0
+    },
+    {
+     "w": "video",
+     "start": 12.883,
+     "end": 13.15,
+     "conf": 1.0
+    },
+    {
+     "w": "dubbing,",
+     "start": 13.21,
+     "end": 13.55,
+     "conf": 1.0
+    },
+    {
+     "w": "transcription",
+     "start": 13.676,
+     "end": 14.27,
+     "conf": 1.0
+    },
+    {
+     "w": "—",
+     "start": 14.59,
+     "end": 14.91,
+     "conf": 1.0
+    },
+    {
+     "w": "646",
+     "start": 14.95,
+     "end": 16.03,
+     "conf": 1.0
+    },
+    {
+     "w": "languages",
+     "start": 16.086,
+     "end": 16.59,
+     "conf": 1.0
+    },
+    {
+     "w": "में,",
+     "start": 16.63,
+     "end": 16.777,
+     "conf": 1.0
+    },
+    {
+     "w": "और",
+     "start": 16.937,
+     "end": 17.15,
+     "conf": 1.0
+    },
+    {
+     "w": "सब",
+     "start": 17.257,
+     "end": 17.47,
+     "conf": 1.0
+    },
+    {
+     "w": "कुछ",
+     "start": 17.51,
+     "end": 17.79,
+     "conf": 1.0
+    },
+    {
+     "w": "आपके",
+     "start": 17.89,
+     "end": 18.31,
+     "conf": 1.0
+    },
+    {
+     "w": "अपने",
+     "start": 18.34,
+     "end": 18.63,
+     "conf": 1.0
+    },
+    {
+     "w": "computer",
+     "start": 18.652,
+     "end": 18.83,
+     "conf": 1.0
+    },
+    {
+     "w": "पर।",
+     "start": 18.91,
+     "end": 19.07,
+     "conf": 1.0
+    },
+    {
+     "w": "यानी",
+     "start": 19.742,
+     "end": 19.99,
+     "conf": 1.0
+    },
+    {
+     "w": "ElevenLabs",
+     "start": 20.019,
+     "end": 20.59,
+     "conf": 1.0
+    },
+    {
+     "w": "का",
+     "start": 20.63,
+     "end": 20.75,
+     "conf": 1.0
+    },
+    {
+     "w": "free,",
+     "start": 20.83,
+     "end": 21.15,
+     "conf": 1.0
+    },
+    {
+     "w": "local",
+     "start": 21.363,
+     "end": 22.03,
+     "conf": 1.0
+    },
+    {
+     "w": "alternative।",
+     "start": 22.077,
+     "end": 22.59,
+     "conf": 1.0
+    }
+   ]
+  },
+  {
+   "i": 2,
+   "text": "Number two: ppt-master. बस एक PDF या Word file दो, और ये बना देगा real, editable PowerPoint — native animations और transitions के साथ।",
+   "start": 23.676,
+   "end": 33.79,
+   "words": [
+    {
+     "w": "Number",
+     "start": 23.676,
+     "end": 23.726,
+     "conf": 1.0
+    },
+    {
+     "w": "two:",
+     "start": 23.77,
+     "end": 23.95,
+     "conf": 1.0
+    },
+    {
+     "w": "ppt-master.",
+     "start": 24.47,
+     "end": 25.79,
+     "conf": 1.0
+    },
+    {
+     "w": "बस",
+     "start": 26.43,
+     "end": 26.75,
+     "conf": 1.0
+    },
+    {
+     "w": "एक",
+     "start": 26.777,
+     "end": 26.83,
+     "conf": 1.0
+    },
+    {
+     "w": "PDF",
+     "start": 26.95,
+     "end": 27.31,
+     "conf": 1.0
+    },
+    {
+     "w": "या",
+     "start": 27.35,
+     "end": 27.47,
+     "conf": 1.0
+    },
+    {
+     "w": "Word",
+     "start": 27.518,
+     "end": 27.71,
+     "conf": 1.0
+    },
+    {
+     "w": "file",
+     "start": 27.758,
+     "end": 27.95,
+     "conf": 1.0
+    },
+    {
+     "w": "दो,",
+     "start": 28.03,
+     "end": 28.15,
+     "conf": 1.0
+    },
+    {
+     "w": "और",
+     "start": 28.297,
+     "end": 28.51,
+     "conf": 1.0
+    },
+    {
+     "w": "ये",
+     "start": 28.55,
+     "end": 28.71,
+     "conf": 1.0
+    },
+    {
+     "w": "बना",
+     "start": 28.75,
+     "end": 28.91,
+     "conf": 1.0
+    },
+    {
+     "w": "देगा",
+     "start": 28.95,
+     "end": 29.151,
+     "conf": 1.0
+    },
+    {
+     "w": "real,",
+     "start": 29.246,
+     "end": 29.63,
+     "conf": 1.0
+    },
+    {
+     "w": "editable",
+     "start": 29.941,
+     "end": 30.19,
+     "conf": 1.0
+    },
+    {
+     "w": "PowerPoint",
+     "start": 30.241,
+     "end": 30.75,
+     "conf": 1.0
+    },
+    {
+     "w": "—",
+     "start": 31.07,
+     "end": 31.39,
+     "conf": 1.0
+    },
+    {
+     "w": "native",
+     "start": 31.436,
+     "end": 31.71,
+     "conf": 1.0
+    },
+    {
+     "w": "animations",
+     "start": 31.775,
+     "end": 32.43,
+     "conf": 1.0
+    },
+    {
+     "w": "और",
+     "start": 32.537,
+     "end": 32.75,
+     "conf": 1.0
+    },
+    {
+     "w": "transitions",
+     "start": 32.803,
+     "end": 33.39,
+     "conf": 1.0
+    },
+    {
+     "w": "के",
+     "start": 33.43,
+     "end": 33.55,
+     "conf": 1.0
+    },
+    {
+     "w": "साथ।",
+     "start": 33.59,
+     "end": 33.79,
+     "conf": 1.0
+    }
+   ]
+  },
+  {
+   "i": 3,
+   "text": "Number three: diagram-design. Words में diagram माँगो, और ये आपकी branding में बना देता है — 44 types के diagrams, सीधे Claude Code या Cursor के अंदर।",
+   "start": 34.883,
+   "end": 45.63,
+   "words": [
+    {
+     "w": "Number",
+     "start": 34.883,
+     "end": 34.933,
+     "conf": 1.0
+    },
+    {
+     "w": "three:",
+     "start": 34.95,
+     "end": 35.15,
+     "conf": 1.0
+    },
+    {
+     "w": "diagram-design.",
+     "start": 35.37,
+     "end": 36.83,
+     "conf": 1.0
+    },
+    {
+     "w": "Words",
+     "start": 37.483,
+     "end": 37.95,
+     "conf": 1.0
+    },
+    {
+     "w": "में",
+     "start": 37.99,
+     "end": 38.11,
+     "conf": 1.0
+    },
+    {
+     "w": "diagram",
+     "start": 38.17,
+     "end": 38.59,
+     "conf": 1.0
+    },
+    {
+     "w": "माँगो,",
+     "start": 38.63,
+     "end": 38.99,
+     "conf": 1.0
+    },
+    {
+     "w": "और",
+     "start": 39.203,
+     "end": 39.31,
+     "conf": 1.0
+    },
+    {
+     "w": "ये",
+     "start": 39.35,
+     "end": 39.4,
+     "conf": 1.0
+    },
+    {
+     "w": "आपकी",
+     "start": 39.47,
+     "end": 39.95,
+     "conf": 1.0
+    },
+    {
+     "w": "branding",
+     "start": 39.977,
+     "end": 40.19,
+     "conf": 1.0
+    },
+    {
+     "w": "में",
+     "start": 40.23,
+     "end": 40.35,
+     "conf": 1.0
+    },
+    {
+     "w": "बना",
+     "start": 40.377,
+     "end": 40.51,
+     "conf": 1.0
+    },
+    {
+     "w": "देता",
+     "start": 40.55,
+     "end": 40.79,
+     "conf": 1.0
+    },
+    {
+     "w": "है",
+     "start": 40.81,
+     "end": 40.99,
+     "conf": 1.0
+    },
+    {
+     "w": "—",
+     "start": 41.19,
+     "end": 41.39,
+     "conf": 1.0
+    },
+    {
+     "w": "44",
+     "start": 41.457,
+     "end": 42.11,
+     "conf": 1.0
+    },
+    {
+     "w": "types",
+     "start": 42.177,
+     "end": 42.51,
+     "conf": 1.0
+    },
+    {
+     "w": "के",
+     "start": 42.55,
+     "end": 42.87,
+     "conf": 1.0
+    },
+    {
+     "w": "diagrams,",
+     "start": 42.901,
+     "end": 43.15,
+     "conf": 1.0
+    },
+    {
+     "w": "सीधे",
+     "start": 43.47,
+     "end": 43.95,
+     "conf": 1.0
+    },
+    {
+     "w": "Claude",
+     "start": 44.019,
+     "end": 44.43,
+     "conf": 1.0
+    },
+    {
+     "w": "Code",
+     "start": 44.494,
+     "end": 44.75,
+     "conf": 1.0
+    },
+    {
+     "w": "या",
+     "start": 44.79,
+     "end": 45.03,
+     "conf": 1.0
+    },
+    {
+     "w": "Cursor",
+     "start": 45.059,
+     "end": 45.23,
+     "conf": 1.0
+    },
+    {
+     "w": "के",
+     "start": 45.27,
+     "end": 45.35,
+     "conf": 1.0
+    },
+    {
+     "w": "अंदर।",
+     "start": 45.37,
+     "end": 45.63,
+     "conf": 1.0
+    }
+   ]
+  },
+  {
+   "i": 4,
+   "text": "Save करो, share करो, और Part two के लिए Techpe Trek follow करो!",
+   "start": 46.611,
+   "end": 51.395,
+   "words": [
+    {
+     "w": "Save",
+     "start": 46.611,
+     "end": 46.675,
+     "conf": 1.0
+    },
+    {
+     "w": "करो,",
+     "start": 46.755,
+     "end": 47.115,
+     "conf": 1.0
+    },
+    {
+     "w": "share",
+     "start": 47.355,
+     "end": 47.555,
+     "conf": 1.0
+    },
+    {
+     "w": "करो,",
+     "start": 47.635,
+     "end": 47.875,
+     "conf": 1.0
+    },
+    {
+     "w": "और",
+     "start": 48.142,
+     "end": 48.515,
+     "conf": 1.0
+    },
+    {
+     "w": "Part",
+     "start": 48.579,
+     "end": 48.835,
+     "conf": 1.0
+    },
+    {
+     "w": "two",
+     "start": 48.895,
+     "end": 49.075,
+     "conf": 1.0
+    },
+    {
+     "w": "के",
+     "start": 49.115,
+     "end": 49.235,
+     "conf": 1.0
+    },
+    {
+     "w": "लिए",
+     "start": 49.315,
+     "end": 49.555,
+     "conf": 1.0
+    },
+    {
+     "w": "Techpe",
+     "start": 49.667,
+     "end": 50.395,
+     "conf": 1.0
+    },
+    {
+     "w": "Trek",
+     "start": 50.435,
+     "end": 50.595,
+     "conf": 1.0
+    },
+    {
+     "w": "follow",
+     "start": 50.675,
+     "end": 51.155,
+     "conf": 1.0
+    },
+    {
+     "w": "करो!",
+     "start": 51.208,
+     "end": 51.395,
+     "conf": 1.0
+    }
+   ]
+  }
+ ],
+ "extras": [],
+ "notes": "ElevenLabs eleven_v3 voice TX3LPaxmHKxFdv7VOQHJ, one take, tempo x1.000"
+}

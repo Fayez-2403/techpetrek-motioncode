@@ -1,0 +1,483 @@
+{
+ "_doc": "LiteLLM reel cue sheet (score.py). Cues use 'w' = spoken word in the scene, so hits follow the voice.",
+ "energy": {
+  "hookA": {
+   "pad": 0.4,
+   "bass": 0.7,
+   "arp": 0.7,
+   "kick": 1,
+   "hat": 1,
+   "clap": 0,
+   "drone": 0
+  },
+  "hookB": {
+   "pad": 0.5,
+   "bass": 0.8,
+   "arp": 0.3,
+   "kick": 1,
+   "hat": 1,
+   "clap": 1,
+   "drone": 0.5
+  },
+  "release": {
+   "pad": 0.5,
+   "bass": 1,
+   "arp": 0.6,
+   "kick": 1,
+   "hat": 1,
+   "clap": 1,
+   "drone": 0.3
+  },
+  "startup": {
+   "pad": 0.5,
+   "bass": 1,
+   "arp": 0.5,
+   "kick": 1,
+   "hat": 1,
+   "clap": 1,
+   "drone": 0.4
+  },
+  "targets": {
+   "pad": 0.5,
+   "bass": 0.9,
+   "arp": 0.7,
+   "kick": 1,
+   "hat": 1,
+   "clap": 1,
+   "drone": 0.2
+  },
+  "rootcause": {
+   "pad": 0.6,
+   "bass": 1,
+   "arp": 0.7,
+   "kick": 1,
+   "hat": 1,
+   "clap": 1,
+   "drone": 0.2
+  },
+  "dontrun": {
+   "pad": 0.3,
+   "bass": 1,
+   "arp": 0,
+   "kick": 1,
+   "hat": 1,
+   "clap": 1,
+   "drone": 1
+  },
+  "recover": {
+   "pad": 0.8,
+   "bass": 0.9,
+   "arp": 0.7,
+   "kick": 1,
+   "hat": 1,
+   "clap": 1,
+   "drone": 0
+  },
+  "cta": {
+   "pad": 0.9,
+   "bass": 0.6,
+   "arp": 0.4,
+   "kick": 1,
+   "hat": 0,
+   "clap": 0,
+   "drone": 0
+  }
+ },
+ "scenes": {
+  "hookA": [
+   {
+    "s": 0,
+    "kind": "subImpact",
+    "gain": 0.8
+   },
+   {
+    "s": 0,
+    "kind": "mechClick",
+    "gain": 0.8
+   },
+   {
+    "w": "startup",
+    "kind": "fixChime",
+    "gain": 0.5,
+    "offset": 0.1
+   },
+   {
+    "w": "website",
+    "kind": "glass",
+    "gain": 0.45
+   },
+   {
+    "w": "AI",
+    "kind": "servo",
+    "gain": 0.5,
+    "len": 0.3,
+    "offset": -0.07
+   },
+   {
+    "w": "chura",
+    "kind": "whoosh",
+    "gain": 0.7,
+    "len": 0.45,
+    "offset": 0.07
+   },
+   {
+    "w": "chura",
+    "kind": "impact",
+    "gain": 1.0,
+    "offset": 0.13
+   },
+   {
+    "w": "chura",
+    "kind": "flashHit",
+    "gain": 0.4,
+    "offset": 0.13
+   },
+   {
+    "w": "LOL",
+    "kind": "twang",
+    "gain": 0.6,
+    "pitch": 1.5
+   },
+   {
+    "w": "LOL",
+    "kind": "paper",
+    "gain": 0.5
+   }
+  ],
+  "hookB": [
+   {
+    "s": 0,
+    "kind": "scratch",
+    "gain": 0.8
+   },
+   {
+    "s": 0.05,
+    "kind": "whoosh",
+    "gain": 0.5,
+    "len": 0.4
+   },
+   {
+    "w": "Nahi",
+    "kind": "impact",
+    "gain": 0.8,
+    "offset": 0.03
+   },
+   {
+    "w": "Lekin",
+    "kind": "riser",
+    "gain": 0.45,
+    "len": 0.5,
+    "offset": -0.5
+   },
+   {
+    "w": "Lekin",
+    "kind": "subImpact",
+    "gain": 0.9
+   },
+   {
+    "w": "Python",
+    "kind": "typing",
+    "gain": 0.45,
+    "len": 0.35
+   },
+   {
+    "w": "start",
+    "kind": "errorBlip",
+    "gain": 0.5
+   },
+   {
+    "w": "start",
+    "kind": "impact",
+    "gain": 0.7
+   },
+   {
+    "w": "keys",
+    "kind": "dataBurst",
+    "gain": 0.4,
+    "len": 0.45
+   },
+   {
+    "w": "risk",
+    "kind": "subImpact",
+    "gain": 0.9
+   },
+   {
+    "w": "risk",
+    "kind": "flashHit",
+    "gain": 0.4
+   }
+  ],
+  "release": [
+   {
+    "s": 0,
+    "kind": "whoosh",
+    "gain": 0.6,
+    "len": 0.5
+   },
+   {
+    "w": "LiteLLM",
+    "kind": "impact",
+    "gain": 0.7
+   },
+   {
+    "w": "1.107.0",
+    "kind": "glass",
+    "gain": 0.5
+   },
+   {
+    "w": "1.107.0",
+    "kind": "impact",
+    "gain": 0.6
+   },
+   {
+    "w": "hacked",
+    "kind": "alarm",
+    "gain": 0.35,
+    "len": 0.64
+   },
+   {
+    "w": "hacked",
+    "kind": "errorBlip",
+    "gain": 0.5
+   },
+   {
+    "w": "publish",
+    "kind": "dataPulse",
+    "gain": 0.4
+   }
+  ],
+  "startup": [
+   {
+    "s": 0,
+    "kind": "whoosh",
+    "gain": 0.6,
+    "len": 0.5
+   },
+   {
+    "w": "Microsoft",
+    "kind": "mechClick",
+    "gain": 0.6
+   },
+   {
+    "w": "Python",
+    "kind": "typing",
+    "gain": 0.4,
+    "len": 0.35
+   },
+   {
+    "w": "malware",
+    "kind": "alarm",
+    "gain": 0.35,
+    "len": 0.64
+   },
+   {
+    "w": "malware",
+    "kind": "subImpact",
+    "gain": 0.8
+   },
+   {
+    "w": "Import",
+    "kind": "scratch",
+    "gain": 0.5
+   },
+   {
+    "w": "Import",
+    "kind": "impact",
+    "gain": 0.8,
+    "offset": 0.1
+   }
+  ],
+  "targets": [
+   {
+    "s": 0,
+    "kind": "whoosh",
+    "gain": 0.6,
+    "len": 0.5
+   },
+   {
+    "w": "cloud",
+    "kind": "errorBlip",
+    "gain": 0.45
+   },
+   {
+    "w": "AI",
+    "kind": "errorBlip",
+    "gain": 0.45
+   },
+   {
+    "w": "developer",
+    "kind": "errorBlip",
+    "gain": 0.45
+   },
+   {
+    "w": "Lekin",
+    "kind": "silence",
+    "gain": 1,
+    "offset": -0.45,
+    "len": 0.4
+   },
+   {
+    "w": "Lekin",
+    "kind": "subImpact",
+    "gain": 0.8
+   },
+   {
+    "w": "Lekin",
+    "kind": "shimmer",
+    "gain": 0.35,
+    "len": 0.8
+   },
+   {
+    "w": "chori",
+    "kind": "impact",
+    "gain": 0.8
+   }
+  ],
+  "rootcause": [
+   {
+    "s": 0,
+    "kind": "whoosh",
+    "gain": 0.6,
+    "len": 0.5
+   },
+   {
+    "w": "Root",
+    "kind": "impact",
+    "gain": 0.7
+   },
+   {
+    "w": "May",
+    "kind": "magLock",
+    "gain": 0.6
+   },
+   {
+    "w": "revoke",
+    "kind": "errorBlip",
+    "gain": 0.55
+   },
+   {
+    "w": "GitHub",
+    "kind": "magLock",
+    "gain": 0.6
+   },
+   {
+    "w": "hijack",
+    "kind": "subImpact",
+    "gain": 0.9
+   },
+   {
+    "w": "hijack",
+    "kind": "flashHit",
+    "gain": 0.4
+   }
+  ],
+  "dontrun": [
+   {
+    "s": 0,
+    "kind": "alarm",
+    "gain": 0.4,
+    "len": 0.64
+   },
+   {
+    "w": "Python",
+    "kind": "errorBlip",
+    "gain": 0.6
+   },
+   {
+    "w": "pip",
+    "kind": "errorBlip",
+    "gain": 0.6
+   },
+   {
+    "w": "mat",
+    "kind": "subImpact",
+    "gain": 1.0
+   },
+   {
+    "w": "mat",
+    "kind": "impact",
+    "gain": 0.9
+   },
+   {
+    "w": "mat",
+    "kind": "flashHit",
+    "gain": 0.45
+   }
+  ],
+  "recover": [
+   {
+    "s": 0,
+    "kind": "whoosh",
+    "gain": 0.6,
+    "len": 0.5
+   },
+   {
+    "w": "Isolate",
+    "kind": "fixChime",
+    "gain": 0.5
+   },
+   {
+    "w": "clean",
+    "kind": "fixChime",
+    "gain": 0.5
+   },
+   {
+    "w": "rebuild",
+    "kind": "fixChime",
+    "gain": 0.5
+   },
+   {
+    "w": "rotate",
+    "kind": "gearRatchet",
+    "gain": 0.6,
+    "len": 0.6
+   },
+   {
+    "w": "rotate",
+    "kind": "fixChime",
+    "gain": 0.6
+   }
+  ],
+  "cta": [
+   {
+    "w": "Sources",
+    "kind": "paper",
+    "gain": 0.6
+   },
+   {
+    "w": "Comment",
+    "kind": "scratch",
+    "gain": 0.5,
+    "offset": -0.07
+   },
+   {
+    "w": "Comment",
+    "kind": "whoosh",
+    "gain": 0.6,
+    "len": 0.4,
+    "offset": -0.07
+   },
+   {
+    "w": "SAFETY",
+    "kind": "impact",
+    "gain": 0.9
+   },
+   {
+    "w": "SAFETY",
+    "kind": "shimmer",
+    "gain": 0.4,
+    "len": 1.0
+   },
+   {
+    "w": "save",
+    "kind": "fixChime",
+    "gain": 0.7
+   },
+   {
+    "e": 0.9,
+    "kind": "resolve",
+    "gain": 0.6
+   }
+  ]
+ }
+}

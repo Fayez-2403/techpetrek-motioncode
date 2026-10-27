@@ -1,0 +1,52 @@
+{
+ "duration": 65.0,
+ "seed": 11,
+ "voice": {
+  "model": "eleven_turbo_v2_5",
+  "language": "hi",
+  "stability": 0.4,
+  "speed": 1.1
+ },
+ "chapters": [
+  [
+   0.78,
+   null,
+   "hook"
+  ],
+  [
+   5.0,
+   null,
+   "bow"
+  ],
+  [
+   12.3,
+   null,
+   "shot"
+  ],
+  [
+   21.09,
+   null,
+   "modes"
+  ],
+  [
+   31.25,
+   null,
+   "lab"
+  ],
+  [
+   42.3,
+   null,
+   "impossible"
+  ],
+  [
+   53.15,
+   null,
+   "code"
+  ],
+  [
+   61.15,
+   null,
+   "cta"
+  ]
+ ]
+}

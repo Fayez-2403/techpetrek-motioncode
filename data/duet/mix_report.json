@@ -1,0 +1,63 @@
+{
+ "integrated_lufs": -14.0,
+ "true_peak_dbtp": -1.4,
+ "voice_lufs_while_speaking": -12.2,
+ "bed_lufs_under_speech": -26.8,
+ "bed_lufs_between_words": -23.0,
+ "duck_db": 9.0,
+ "carve_db_250_2500hz": 7.0,
+ "duck_plus_carve_voice_band_db": 16.0,
+ "foley_peak_dbfs": -12.0,
+ "voice_compressor_max_gr_db": -4.83,
+ "master_limiter_max_gr_db": 6.17,
+ "foley_cues": 89,
+ "music_gain": 0.4111,
+ "master_gain": 1.8836,
+ "word_snr_speechband_db_min": 9.2,
+ "word_snr_speechband_db_median": 25.6,
+ "word_snr_broadband_db_median": 12.2,
+ "words_under_10db_speechband": [
+  [
+   9.2,
+   "Lekin",
+   19.979
+  ],
+  [
+   9.5,
+   "bhai,",
+   4.592
+  ]
+ ],
+ "worst_words": [
+  [
+   9.2,
+   "Lekin",
+   19.979
+  ],
+  [
+   9.5,
+   "bhai,",
+   4.592
+  ],
+  [
+   11.5,
+   "hua.",
+   40.153
+  ],
+  [
+   13.2,
+   "kiya.",
+   9.414
+  ],
+  [
+   13.4,
+   "Ab",
+   2.909
+  ],
+  [
+   14.3,
+   "Kal",
+   0.25
+  ]
+ ]
+}

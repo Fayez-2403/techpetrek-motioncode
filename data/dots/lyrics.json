@@ -1,0 +1,1547 @@
+{
+ "lines": [
+  {
+   "i": 0,
+   "who": "H",
+   "text": "Bro... aaj raat ek heist hone wala hai. Aur target? Aapki to-do list!",
+   "spoken": "Bro... आज रात एक heist होने वाला है। और target? आपकी to-do list!",
+   "start": 0.04,
+   "end": 3.45,
+   "words": [
+    {
+     "w": "Bro...",
+     "start": 0.04,
+     "end": 0.347
+    },
+    {
+     "w": "aaj",
+     "start": 0.417,
+     "end": 0.588
+    },
+    {
+     "w": "raat",
+     "start": 0.657,
+     "end": 0.806
+    },
+    {
+     "w": "ek",
+     "start": 0.875,
+     "end": 0.978
+    },
+    {
+     "w": "heist",
+     "start": 1.048,
+     "end": 1.276
+    },
+    {
+     "w": "hone",
+     "start": 1.345,
+     "end": 1.493
+    },
+    {
+     "w": "wala",
+     "start": 1.563,
+     "end": 1.733
+    },
+    {
+     "w": "hai.",
+     "start": 1.803,
+     "end": 1.894
+    },
+    {
+     "w": "Aur",
+     "start": 1.964,
+     "end": 2.124
+    },
+    {
+     "w": "target?",
+     "start": 2.194,
+     "end": 2.546
+    },
+    {
+     "w": "Aapki",
+     "start": 2.616,
+     "end": 2.889
+    },
+    {
+     "w": "to-do",
+     "start": 2.959,
+     "end": 3.153
+    },
+    {
+     "w": "list!",
+     "start": 3.223,
+     "end": 3.45
+    }
+   ],
+   "window": [
+    0.0,
+    3.65
+   ]
+  },
+  {
+   "i": 1,
+   "who": "N",
+   "text": "Sau emails, saat meetings, aur ek deadline... jo kal thi!",
+   "spoken": "सौ emails, सात meetings, और एक deadline... जो कल थी!",
+   "start": 3.85,
+   "end": 7.88,
+   "words": [
+    {
+     "w": "Sau",
+     "start": 3.85,
+     "end": 4.048
+    },
+    {
+     "w": "emails,",
+     "start": 4.129,
+     "end": 4.501
+    },
+    {
+     "w": "saat",
+     "start": 4.802,
+     "end": 5.035
+    },
+    {
+     "w": "meetings,",
+     "start": 5.093,
+     "end": 5.464
+    },
+    {
+     "w": "aur",
+     "start": 5.789,
+     "end": 5.93
+    },
+    {
+     "w": "ek",
+     "start": 6.011,
+     "end": 6.115
+    },
+    {
+     "w": "deadline...",
+     "start": 6.173,
+     "end": 6.556
+    },
+    {
+     "w": "jo",
+     "start": 7.334,
+     "end": 7.462
+    },
+    {
+     "w": "kal",
+     "start": 7.532,
+     "end": 7.648
+    },
+    {
+     "w": "thi!",
+     "start": 7.717,
+     "end": 7.88
+    }
+   ],
+   "window": [
+    3.75,
+    8.5
+   ]
+  },
+  {
+   "i": 2,
+   "who": "P",
+   "text": "Bachao!",
+   "spoken": "बचाओ!",
+   "start": 8.6,
+   "end": 9.49,
+   "words": [
+    {
+     "w": "Bachao!",
+     "start": 8.6,
+     "end": 9.49
+    }
+   ],
+   "window": [
+    8.5,
+    10.0
+   ]
+  },
+  {
+   "i": 3,
+   "who": "N",
+   "text": "Lekin ruko! Entry hoti hai... Dots ki!",
+   "spoken": "लेकिन रुको! Entry होती है... Dots की!",
+   "start": 10.1,
+   "end": 12.043,
+   "words": [
+    {
+     "w": "Lekin",
+     "start": 10.1,
+     "end": 10.32
+    },
+    {
+     "w": "ruko!",
+     "start": 10.39,
+     "end": 10.656
+    },
+    {
+     "w": "Entry",
+     "start": 10.726,
+     "end": 11.025
+    },
+    {
+     "w": "hoti",
+     "start": 11.095,
+     "end": 11.292
+    },
+    {
+     "w": "hai...",
+     "start": 11.362,
+     "end": 11.478
+    },
+    {
+     "w": "Dots",
+     "start": 11.548,
+     "end": 11.813
+    },
+    {
+     "w": "ki!",
+     "start": 11.881,
+     "end": 12.043
+    }
+   ],
+   "window": [
+    10.0,
+    13.0
+   ]
+  },
+  {
+   "i": 4,
+   "who": "N",
+   "text": "Paanch chehre, par Dot ek hi!",
+   "spoken": "पाँच चेहरे, पर Dot एक ही!",
+   "start": 13.1,
+   "end": 14.84,
+   "words": [
+    {
+     "w": "Paanch",
+     "start": 13.1,
+     "end": 13.345
+    },
+    {
+     "w": "chehre,",
+     "start": 13.423,
+     "end": 13.725
+    },
+    {
+     "w": "par",
+     "start": 14.003,
+     "end": 14.115
+    },
+    {
+     "w": "Dot",
+     "start": 14.215,
+     "end": 14.449
+    },
+    {
+     "w": "ek",
+     "start": 14.528,
+     "end": 14.661
+    },
+    {
+     "w": "hi!",
+     "start": 14.717,
+     "end": 14.84
+    }
+   ],
+   "window": [
+    13.0,
+    15.25
+   ]
+  },
+  {
+   "i": 5,
+   "who": "P",
+   "text": "Content!",
+   "spoken": "Content!",
+   "start": 15.35,
+   "end": 16.051,
+   "words": [
+    {
+     "w": "Content!",
+     "start": 15.35,
+     "end": 16.051
+    }
+   ],
+   "window": [
+    15.25,
+    16.25
+   ]
+  },
+  {
+   "i": 6,
+   "who": "B",
+   "text": "Research!",
+   "spoken": "Research!",
+   "start": 16.35,
+   "end": 17.03,
+   "words": [
+    {
+     "w": "Research!",
+     "start": 16.35,
+     "end": 17.03
+    }
+   ],
+   "window": [
+    16.25,
+    17.25
+   ]
+  },
+  {
+   "i": 7,
+   "who": "Y",
+   "text": "Code.",
+   "spoken": "Code.",
+   "start": 17.347,
+   "end": 17.806,
+   "words": [
+    {
+     "w": "Code.",
+     "start": 17.347,
+     "end": 17.806
+    }
+   ],
+   "window": [
+    17.25,
+    18.0
+   ]
+  },
+  {
+   "i": 8,
+   "who": "G",
+   "text": "Explore!",
+   "spoken": "Explore!",
+   "start": 18.098,
+   "end": 19.055,
+   "words": [
+    {
+     "w": "Explore!",
+     "start": 18.098,
+     "end": 19.055
+    }
+   ],
+   "window": [
+    18.0,
+    19.25
+   ]
+  },
+  {
+   "i": 9,
+   "who": "U",
+   "text": "Apps!",
+   "spoken": "Apps!",
+   "start": 19.35,
+   "end": 19.88,
+   "words": [
+    {
+     "w": "Apps!",
+     "start": 19.35,
+     "end": 19.88
+    }
+   ],
+   "window": [
+    19.25,
+    20.25
+   ]
+  },
+  {
+   "i": 10,
+   "who": "N",
+   "text": "Ye hai secret workshop — OpenAI ka always-on agent, apne cloud computer par.",
+   "spoken": "ये है secret workshop — OpenAI का always-on agent, अपने cloud computer पर।",
+   "start": 20.35,
+   "end": 24.731,
+   "words": [
+    {
+     "w": "Ye",
+     "start": 20.35,
+     "end": 20.476
+    },
+    {
+     "w": "hai",
+     "start": 20.523,
+     "end": 20.603
+    },
+    {
+     "w": "secret",
+     "start": 20.673,
+     "end": 21.017
+    },
+    {
+     "w": "workshop",
+     "start": 21.087,
+     "end": 21.511
+    },
+    {
+     "w": "—",
+     "start": 21.615,
+     "end": 21.683
+    },
+    {
+     "w": "OpenAI",
+     "start": 21.753,
+     "end": 22.212
+    },
+    {
+     "w": "ka",
+     "start": 22.282,
+     "end": 22.397
+    },
+    {
+     "w": "always-on",
+     "start": 22.467,
+     "end": 23.086
+    },
+    {
+     "w": "agent,",
+     "start": 23.156,
+     "end": 23.5
+    },
+    {
+     "w": "apne",
+     "start": 23.57,
+     "end": 23.789
+    },
+    {
+     "w": "cloud",
+     "start": 23.856,
+     "end": 24.086
+    },
+    {
+     "w": "computer",
+     "start": 24.156,
+     "end": 24.512
+    },
+    {
+     "w": "par.",
+     "start": 24.582,
+     "end": 24.731
+    }
+   ],
+   "window": [
+    20.25,
+    25.0
+   ]
+  },
+  {
+   "i": 11,
+   "who": "N",
+   "text": "Apna browser, apni screen, kaam non-stop!",
+   "spoken": "अपना browser, अपनी screen, काम non-stop!",
+   "start": 25.1,
+   "end": 27.81,
+   "words": [
+    {
+     "w": "Apna",
+     "start": 25.1,
+     "end": 25.342
+    },
+    {
+     "w": "browser,",
+     "start": 25.4,
+     "end": 25.792
+    },
+    {
+     "w": "apni",
+     "start": 26.08,
+     "end": 26.334
+    },
+    {
+     "w": "screen,",
+     "start": 26.391,
+     "end": 26.715
+    },
+    {
+     "w": "kaam",
+     "start": 27.014,
+     "end": 27.234
+    },
+    {
+     "w": "non-stop!",
+     "start": 27.314,
+     "end": 27.81
+    }
+   ],
+   "window": [
+    25.0,
+    28.25
+   ]
+  },
+  {
+   "i": 12,
+   "who": "B",
+   "text": "Shhh... plan ready hai!",
+   "spoken": "Shhh... plan ready है!",
+   "start": 28.1,
+   "end": 29.577,
+   "words": [
+    {
+     "w": "Shhh...",
+     "start": 28.1,
+     "end": 28.35
+    },
+    {
+     "w": "plan",
+     "start": 28.42,
+     "end": 28.814
+    },
+    {
+     "w": "ready",
+     "start": 28.884,
+     "end": 29.212
+    },
+    {
+     "w": "hai!",
+     "start": 29.282,
+     "end": 29.577
+    }
+   ],
+   "window": [
+    28.0,
+    30.0
+   ]
+  },
+  {
+   "i": 13,
+   "who": "N",
+   "text": "Pehla mission: bug hunt!",
+   "spoken": "पहला mission: bug hunt!",
+   "start": 30.1,
+   "end": 31.46,
+   "words": [
+    {
+     "w": "Pehla",
+     "start": 30.1,
+     "end": 30.314
+    },
+    {
+     "w": "mission:",
+     "start": 30.37,
+     "end": 30.673
+    },
+    {
+     "w": "bug",
+     "start": 30.988,
+     "end": 31.168
+    },
+    {
+     "w": "hunt!",
+     "start": 31.224,
+     "end": 31.46
+    }
+   ],
+   "window": [
+    30.0,
+    33.0
+   ]
+  },
+  {
+   "i": 14,
+   "who": "Y",
+   "text": "Bug mil gaya.",
+   "spoken": "Bug मिल गया।",
+   "start": 33.1,
+   "end": 33.83,
+   "words": [
+    {
+     "w": "Bug",
+     "start": 33.1,
+     "end": 33.172
+    },
+    {
+     "w": "mil",
+     "start": 33.257,
+     "end": 33.486
+    },
+    {
+     "w": "gaya.",
+     "start": 33.562,
+     "end": 33.83
+    }
+   ],
+   "window": [
+    33.0,
+    34.5
+   ]
+  },
+  {
+   "i": 15,
+   "who": "B",
+   "text": "Aaah! Bhaago!",
+   "spoken": "आआह! भागो!",
+   "start": 34.599,
+   "end": 35.553,
+   "words": [
+    {
+     "w": "Aaah!",
+     "start": 34.599,
+     "end": 34.725
+    },
+    {
+     "w": "Bhaago!",
+     "start": 34.793,
+     "end": 35.553
+    }
+   ],
+   "window": [
+    34.5,
+    35.75
+   ]
+  },
+  {
+   "i": 16,
+   "who": "N",
+   "text": "Bugs pakde, fix ready — bas aapka review baaki.",
+   "spoken": "Bugs पकड़े, fix ready — बस आपका review बाकी।",
+   "start": 35.85,
+   "end": 38.93,
+   "words": [
+    {
+     "w": "Bugs",
+     "start": 35.85,
+     "end": 36.102
+    },
+    {
+     "w": "pakde,",
+     "start": 36.158,
+     "end": 36.455
+    },
+    {
+     "w": "fix",
+     "start": 36.718,
+     "end": 36.923
+    },
+    {
+     "w": "ready",
+     "start": 36.98,
+     "end": 37.22
+    },
+    {
+     "w": "—",
+     "start": 37.322,
+     "end": 37.371
+    },
+    {
+     "w": "bas",
+     "start": 37.653,
+     "end": 37.858
+    },
+    {
+     "w": "aapka",
+     "start": 38.041,
+     "end": 38.291
+    },
+    {
+     "w": "review",
+     "start": 38.348,
+     "end": 38.566
+    },
+    {
+     "w": "baaki.",
+     "start": 38.611,
+     "end": 38.93
+    }
+   ],
+   "window": [
+    35.75,
+    39.75
+   ]
+  },
+  {
+   "i": 17,
+   "who": "N",
+   "text": "Udhar creator ka meltdown! Post kal hai, idea zero!",
+   "spoken": "उधर creator का meltdown! Post कल है, idea zero!",
+   "start": 40.1,
+   "end": 43.002,
+   "words": [
+    {
+     "w": "Udhar",
+     "start": 40.1,
+     "end": 40.308
+    },
+    {
+     "w": "creator",
+     "start": 40.378,
+     "end": 40.793
+    },
+    {
+     "w": "ka",
+     "start": 40.863,
+     "end": 40.967
+    },
+    {
+     "w": "meltdown!",
+     "start": 41.037,
+     "end": 41.521
+    },
+    {
+     "w": "Post",
+     "start": 41.591,
+     "end": 41.857
+    },
+    {
+     "w": "kal",
+     "start": 41.927,
+     "end": 42.088
+    },
+    {
+     "w": "hai,",
+     "start": 42.158,
+     "end": 42.308
+    },
+    {
+     "w": "idea",
+     "start": 42.378,
+     "end": 42.666
+    },
+    {
+     "w": "zero!",
+     "start": 42.736,
+     "end": 43.002
+    }
+   ],
+   "window": [
+    40.0,
+    43.5
+   ]
+  },
+  {
+   "i": 18,
+   "who": "P",
+   "text": "Tension mat lo, draft ready!",
+   "spoken": "Tension मत लो, draft ready!",
+   "start": 43.6,
+   "end": 45.24,
+   "words": [
+    {
+     "w": "Tension",
+     "start": 43.6,
+     "end": 43.721
+    },
+    {
+     "w": "mat",
+     "start": 43.791,
+     "end": 43.992
+    },
+    {
+     "w": "lo,",
+     "start": 44.062,
+     "end": 44.263
+    },
+    {
+     "w": "draft",
+     "start": 44.333,
+     "end": 44.751
+    },
+    {
+     "w": "ready!",
+     "start": 44.821,
+     "end": 45.24
+    }
+   ],
+   "window": [
+    43.5,
+    45.5
+   ]
+  },
+  {
+   "i": 19,
+   "who": "N",
+   "text": "Hooks, captions, thumbnail ideas — poora plan, minutes mein.",
+   "spoken": "Hooks, captions, thumbnail ideas — पूरा plan, minutes में।",
+   "start": 45.6,
+   "end": 49.47,
+   "words": [
+    {
+     "w": "Hooks,",
+     "start": 45.6,
+     "end": 45.919
+    },
+    {
+     "w": "captions,",
+     "start": 46.112,
+     "end": 46.625
+    },
+    {
+     "w": "thumbnail",
+     "start": 46.943,
+     "end": 47.398
+    },
+    {
+     "w": "ideas",
+     "start": 47.467,
+     "end": 47.887
+    },
+    {
+     "w": "—",
+     "start": 47.956,
+     "end": 48.005
+    },
+    {
+     "w": "poora",
+     "start": 48.184,
+     "end": 48.435
+    },
+    {
+     "w": "plan,",
+     "start": 48.491,
+     "end": 48.798
+    },
+    {
+     "w": "minutes",
+     "start": 48.958,
+     "end": 49.265
+    },
+    {
+     "w": "mein.",
+     "start": 49.322,
+     "end": 49.47
+    }
+   ],
+   "window": [
+    45.5,
+    49.75
+   ]
+  },
+  {
+   "i": 20,
+   "who": "N",
+   "text": "Aur phir... launch day. Sab kuch... crash!",
+   "spoken": "और फिर... launch day। सब कुछ... crash!",
+   "start": 50.1,
+   "end": 52.051,
+   "words": [
+    {
+     "w": "Aur",
+     "start": 50.1,
+     "end": 50.227
+    },
+    {
+     "w": "phir...",
+     "start": 50.297,
+     "end": 50.516
+    },
+    {
+     "w": "launch",
+     "start": 50.586,
+     "end": 50.862
+    },
+    {
+     "w": "day.",
+     "start": 50.932,
+     "end": 51.081
+    },
+    {
+     "w": "Sab",
+     "start": 51.151,
+     "end": 51.312
+    },
+    {
+     "w": "kuch...",
+     "start": 51.382,
+     "end": 51.578
+    },
+    {
+     "w": "crash!",
+     "start": 51.648,
+     "end": 52.051
+    }
+   ],
+   "window": [
+    50.0,
+    53.0
+   ]
+  },
+  {
+   "i": 21,
+   "who": "U",
+   "text": "Relax, yaar.",
+   "spoken": "Relax, yaar.",
+   "start": 54.1,
+   "end": 54.88,
+   "words": [
+    {
+     "w": "Relax,",
+     "start": 54.1,
+     "end": 54.216
+    },
+    {
+     "w": "yaar.",
+     "start": 54.438,
+     "end": 54.88
+    }
+   ],
+   "window": [
+    54.0,
+    55.25
+   ]
+  },
+  {
+   "i": 22,
+   "who": "N",
+   "text": "Dot ne sab sambhaal liya — status check, fix list, aur team update ka draft!",
+   "spoken": "Dot ने सब संभाल लिया — status check, fix list, और team update का draft!",
+   "start": 55.35,
+   "end": 59.423,
+   "words": [
+    {
+     "w": "Dot",
+     "start": 55.35,
+     "end": 55.569
+    },
+    {
+     "w": "ne",
+     "start": 55.639,
+     "end": 55.696
+    },
+    {
+     "w": "sab",
+     "start": 55.766,
+     "end": 55.905
+    },
+    {
+     "w": "sambhaal",
+     "start": 55.975,
+     "end": 56.263
+    },
+    {
+     "w": "liya",
+     "start": 56.308,
+     "end": 56.492
+    },
+    {
+     "w": "—",
+     "start": 56.595,
+     "end": 56.722
+    },
+    {
+     "w": "status",
+     "start": 56.792,
+     "end": 57.16
+    },
+    {
+     "w": "check,",
+     "start": 57.23,
+     "end": 57.46
+    },
+    {
+     "w": "fix",
+     "start": 57.53,
+     "end": 57.726
+    },
+    {
+     "w": "list,",
+     "start": 57.796,
+     "end": 58.003
+    },
+    {
+     "w": "aur",
+     "start": 58.073,
+     "end": 58.257
+    },
+    {
+     "w": "team",
+     "start": 58.327,
+     "end": 58.534
+    },
+    {
+     "w": "update",
+     "start": 58.604,
+     "end": 58.881
+    },
+    {
+     "w": "ka",
+     "start": 58.95,
+     "end": 59.031
+    },
+    {
+     "w": "draft!",
+     "start": 59.101,
+     "end": 59.423
+    }
+   ],
+   "window": [
+    55.25,
+    59.75
+   ]
+  },
+  {
+   "i": 23,
+   "who": "N",
+   "text": "Aur ye kaam karta hai wahin — ChatGPT, Slack aur Teams mein!",
+   "spoken": "और ये काम करता है वहीं — ChatGPT, Slack और Teams में!",
+   "start": 60.1,
+   "end": 63.4,
+   "words": [
+    {
+     "w": "Aur",
+     "start": 60.1,
+     "end": 60.236
+    },
+    {
+     "w": "ye",
+     "start": 60.303,
+     "end": 60.405
+    },
+    {
+     "w": "kaam",
+     "start": 60.439,
+     "end": 60.596
+    },
+    {
+     "w": "karta",
+     "start": 60.652,
+     "end": 60.844
+    },
+    {
+     "w": "hai",
+     "start": 60.889,
+     "end": 60.957
+    },
+    {
+     "w": "wahin",
+     "start": 60.99,
+     "end": 61.226
+    },
+    {
+     "w": "—",
+     "start": 61.328,
+     "end": 61.396
+    },
+    {
+     "w": "ChatGPT,",
+     "start": 61.418,
+     "end": 62.026
+    },
+    {
+     "w": "Slack",
+     "start": 62.262,
+     "end": 62.544
+    },
+    {
+     "w": "aur",
+     "start": 62.679,
+     "end": 62.814
+    },
+    {
+     "w": "Teams",
+     "start": 62.894,
+     "end": 63.153
+    },
+    {
+     "w": "mein!",
+     "start": 63.209,
+     "end": 63.4
+    }
+   ],
+   "window": [
+    60.0,
+    64.5
+   ]
+  },
+  {
+   "i": 24,
+   "who": "N",
+   "text": "Hazaaron apps se connected. Ek message, aur kaam shuru!",
+   "spoken": "हज़ारों apps से connected। एक message, और काम शुरू!",
+   "start": 64.6,
+   "end": 67.8,
+   "words": [
+    {
+     "w": "Hazaaron",
+     "start": 64.6,
+     "end": 65.101
+    },
+    {
+     "w": "apps",
+     "start": 65.158,
+     "end": 65.386
+    },
+    {
+     "w": "se",
+     "start": 65.442,
+     "end": 65.511
+    },
+    {
+     "w": "connected.",
+     "start": 65.556,
+     "end": 65.944
+    },
+    {
+     "w": "Ek",
+     "start": 66.445,
+     "end": 66.605
+    },
+    {
+     "w": "message,",
+     "start": 66.661,
+     "end": 67.071
+    },
+    {
+     "w": "aur",
+     "start": 67.185,
+     "end": 67.31
+    },
+    {
+     "w": "kaam",
+     "start": 67.356,
+     "end": 67.526
+    },
+    {
+     "w": "shuru!",
+     "start": 67.571,
+     "end": 67.8
+    }
+   ],
+   "window": [
+    64.5,
+    68.5
+   ]
+  },
+  {
+   "i": 25,
+   "who": "U",
+   "text": "Ho gaya, boss!",
+   "spoken": "हो गया, boss!",
+   "start": 68.6,
+   "end": 69.55,
+   "words": [
+    {
+     "w": "Ho",
+     "start": 68.6,
+     "end": 68.735
+    },
+    {
+     "w": "gaya,",
+     "start": 68.775,
+     "end": 68.968
+    },
+    {
+     "w": "boss!",
+     "start": 69.178,
+     "end": 69.55
+    }
+   ],
+   "window": [
+    68.5,
+    70.0
+   ]
+  },
+  {
+   "i": 26,
+   "who": "N",
+   "text": "Aur jab aap so rahe hote ho...",
+   "spoken": "और जब आप सो रहे होते हो...",
+   "start": 70.1,
+   "end": 71.28,
+   "words": [
+    {
+     "w": "Aur",
+     "start": 70.1,
+     "end": 70.211
+    },
+    {
+     "w": "jab",
+     "start": 70.267,
+     "end": 70.39
+    },
+    {
+     "w": "aap",
+     "start": 70.445,
+     "end": 70.501
+    },
+    {
+     "w": "so",
+     "start": 70.557,
+     "end": 70.656
+    },
+    {
+     "w": "rahe",
+     "start": 70.712,
+     "end": 70.857
+    },
+    {
+     "w": "hote",
+     "start": 70.891,
+     "end": 71.079
+    },
+    {
+     "w": "ho...",
+     "start": 71.135,
+     "end": 71.28
+    }
+   ],
+   "window": [
+    70.0,
+    72.0
+   ]
+  },
+  {
+   "i": 27,
+   "who": "G",
+   "text": "Research time!",
+   "spoken": "Research time!",
+   "start": 72.1,
+   "end": 73.21,
+   "words": [
+    {
+     "w": "Research",
+     "start": 72.1,
+     "end": 72.58
+    },
+    {
+     "w": "time!",
+     "start": 72.706,
+     "end": 73.21
+    }
+   ],
+   "window": [
+    72.0,
+    73.5
+   ]
+  },
+  {
+   "i": 28,
+   "who": "N",
+   "text": "Dot research karta hai — connected apps sirf read-only. Na kuch bhejta, na badalta.",
+   "spoken": "Dot research करता है — connected apps सिर्फ़ read-only। ना कुछ भेजता, ना बदलता।",
+   "start": 73.6,
+   "end": 79.13,
+   "words": [
+    {
+     "w": "Dot",
+     "start": 73.6,
+     "end": 73.83
+    },
+    {
+     "w": "research",
+     "start": 73.888,
+     "end": 74.21
+    },
+    {
+     "w": "karta",
+     "start": 74.257,
+     "end": 74.499
+    },
+    {
+     "w": "hai",
+     "start": 74.557,
+     "end": 74.66
+    },
+    {
+     "w": "—",
+     "start": 74.729,
+     "end": 74.822
+    },
+    {
+     "w": "connected",
+     "start": 74.855,
+     "end": 75.559
+    },
+    {
+     "w": "apps",
+     "start": 75.627,
+     "end": 75.87
+    },
+    {
+     "w": "sirf",
+     "start": 76.031,
+     "end": 76.308
+    },
+    {
+     "w": "read-only.",
+     "start": 76.331,
+     "end": 76.78
+    },
+    {
+     "w": "Na",
+     "start": 77.368,
+     "end": 77.495
+    },
+    {
+     "w": "kuch",
+     "start": 77.54,
+     "end": 77.69
+    },
+    {
+     "w": "bhejta,",
+     "start": 77.748,
+     "end": 78.232
+    },
+    {
+     "w": "na",
+     "start": 78.577,
+     "end": 78.68
+    },
+    {
+     "w": "badalta.",
+     "start": 78.727,
+     "end": 79.13
+    }
+   ],
+   "window": [
+    73.5,
+    79.75
+   ]
+  },
+  {
+   "i": 29,
+   "who": "N",
+   "text": "Par asli boss kaun? Aap!",
+   "spoken": "पर असली boss कौन? आप!",
+   "start": 80.1,
+   "end": 82.07,
+   "words": [
+    {
+     "w": "Par",
+     "start": 80.1,
+     "end": 80.216
+    },
+    {
+     "w": "asli",
+     "start": 80.286,
+     "end": 80.564
+    },
+    {
+     "w": "boss",
+     "start": 80.61,
+     "end": 80.819
+    },
+    {
+     "w": "kaun?",
+     "start": 80.876,
+     "end": 81.085
+    },
+    {
+     "w": "Aap!",
+     "start": 81.884,
+     "end": 82.07
+    }
+   ],
+   "window": [
+    80.0,
+    83.0
+   ]
+  },
+  {
+   "i": 30,
+   "who": "B",
+   "text": "Send daba doon?",
+   "spoken": "Send दबा दूँ?",
+   "start": 83.1,
+   "end": 84.08,
+   "words": [
+    {
+     "w": "Send",
+     "start": 83.1,
+     "end": 83.182
+    },
+    {
+     "w": "daba",
+     "start": 83.338,
+     "end": 83.818
+    },
+    {
+     "w": "doon?",
+     "start": 83.883,
+     "end": 84.08
+    }
+   ],
+   "window": [
+    83.0,
+    84.5
+   ]
+  },
+  {
+   "i": 31,
+   "who": "N",
+   "text": "Bade kaam se pehle Dot poochhta hai. Aapke approval rules, aapka control.",
+   "spoken": "बड़े काम से पहले Dot पूछता है। आपके approval rules, आपका control।",
+   "start": 84.85,
+   "end": 88.65,
+   "words": [
+    {
+     "w": "Bade",
+     "start": 84.85,
+     "end": 85.035
+    },
+    {
+     "w": "kaam",
+     "start": 85.081,
+     "end": 85.254
+    },
+    {
+     "w": "se",
+     "start": 85.312,
+     "end": 85.497
+    },
+    {
+     "w": "pehle",
+     "start": 85.566,
+     "end": 85.785
+    },
+    {
+     "w": "Dot",
+     "start": 85.855,
+     "end": 86.051
+    },
+    {
+     "w": "poochhta",
+     "start": 86.097,
+     "end": 86.409
+    },
+    {
+     "w": "hai.",
+     "start": 86.466,
+     "end": 86.594
+    },
+    {
+     "w": "Aapke",
+     "start": 86.79,
+     "end": 87.044
+    },
+    {
+     "w": "approval",
+     "start": 87.09,
+     "end": 87.448
+    },
+    {
+     "w": "rules,",
+     "start": 87.506,
+     "end": 87.784
+    },
+    {
+     "w": "aapka",
+     "start": 87.922,
+     "end": 88.153
+    },
+    {
+     "w": "control.",
+     "start": 88.21,
+     "end": 88.65
+    }
+   ],
+   "window": [
+    84.75,
+    89.75
+   ]
+  },
+  {
+   "i": 32,
+   "who": "N",
+   "text": "To-do list khatam. Time... wapas aapka.",
+   "spoken": "To-do list खत्म। Time... वापस आपका।",
+   "start": 90.1,
+   "end": 92.044,
+   "words": [
+    {
+     "w": "To-do",
+     "start": 90.1,
+     "end": 90.346
+    },
+    {
+     "w": "list",
+     "start": 90.416,
+     "end": 90.627
+    },
+    {
+     "w": "khatam.",
+     "start": 90.697,
+     "end": 90.987
+    },
+    {
+     "w": "Time...",
+     "start": 91.057,
+     "end": 91.391
+    },
+    {
+     "w": "wapas",
+     "start": 91.461,
+     "end": 91.729
+    },
+    {
+     "w": "aapka.",
+     "start": 91.799,
+     "end": 92.044
+    }
+   ],
+   "window": [
+    90.0,
+    92.75
+   ]
+  },
+  {
+   "i": 33,
+   "who": "N",
+   "text": "Comment karo DOTS, aur Tech pe Trek ko follow karo!",
+   "spoken": "Comment करो Dots, और Tech पे Trek को follow करो!",
+   "start": 92.85,
+   "end": 95.43,
+   "words": [
+    {
+     "w": "Comment",
+     "start": 92.85,
+     "end": 93.164
+    },
+    {
+     "w": "karo",
+     "start": 93.198,
+     "end": 93.355
+    },
+    {
+     "w": "DOTS,",
+     "start": 93.411,
+     "end": 93.68
+    },
+    {
+     "w": "aur",
+     "start": 93.995,
+     "end": 94.129
+    },
+    {
+     "w": "Tech",
+     "start": 94.197,
+     "end": 94.365
+    },
+    {
+     "w": "pe",
+     "start": 94.409,
+     "end": 94.521
+    },
+    {
+     "w": "Trek",
+     "start": 94.577,
+     "end": 94.791
+    },
+    {
+     "w": "ko",
+     "start": 94.847,
+     "end": 94.936
+    },
+    {
+     "w": "follow",
+     "start": 94.992,
+     "end": 95.205
+    },
+    {
+     "w": "karo!",
+     "start": 95.228,
+     "end": 95.43
+    }
+   ],
+   "window": [
+    92.75,
+    96.0
+   ]
+  }
+ ],
+ "extras": [],
+ "notes": "eleven_v3, language hi, seed 7, stability 0.0; one take per speaker: N=Liam, H=Liam (hook), P=Sarah+2st, B=Charlie+3st, Y=Daniel+1st, G=Laura+3st, U=Eric"
+}

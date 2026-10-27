@@ -1,0 +1,2143 @@
+{
+ "voicestudio": {
+  "name": [
+   107,
+   16,
+   87,
+   32
+  ],
+  "files": [
+   32,
+   295,
+   904,
+   1763
+  ],
+  "readme": [
+   65,
+   2273,
+   838,
+   51
+  ],
+  "words": {
+   "Your voice. Your workflow.": [
+    65,
+    3144,
+    838,
+    38
+   ],
+   "646 languages": [
+    65,
+    2410,
+    838,
+    48
+   ]
+  },
+  "fullHeight": 5738,
+  "page": [
+   0,
+   0,
+   1280,
+   3882
+  ],
+  "sections": [
+   [
+    "IMG",
+    "VoiceStudio",
+    440,
+    2155,
+    88,
+    88
+   ],
+   [
+    "H1",
+    "VoiceStudio",
+    65,
+    2273,
+    838,
+    51
+   ],
+   [
+    "P",
+    "",
+    65,
+    2340,
+    838,
+    54
+   ],
+   [
+    "IMG",
+    "VoiceStudio ranking on Trendshift",
+    374,
+    2340,
+    220,
+    48
+   ],
+   [
+    "P",
+    "Open-source voice cloning, voice design, video dubbing, dictation, tra",
+    65,
+    2410,
+    838,
+    48
+   ],
+   [
+    "P",
+    "Website ·\n    Download ·\n    Get started ·\n    Docs ·\n    Discord ·\n  ",
+    65,
+    2474,
+    838,
+    24
+   ],
+   [
+    "P",
+    "",
+    65,
+    2514,
+    838,
+    26
+   ],
+   [
+    "IMG",
+    "CI",
+    335,
+    2514,
+    88,
+    20
+   ],
+   [
+    "IMG",
+    "Latest release",
+    427,
+    2514,
+    94,
+    20
+   ],
+   [
+    "IMG",
+    "AGPL-3.0",
+    525,
+    2514,
+    108,
+    20
+   ],
+   [
+    "P",
+    "",
+    65,
+    2556,
+    838,
+    565
+   ],
+   [
+    "IMG",
+    "A tour of the Electron app: voice cloning, voice design, dubbing, and ",
+    65,
+    2556,
+    838,
+    559
+   ],
+   [
+    "H2",
+    "Your voice. Your workflow.",
+    65,
+    3144,
+    838,
+    38
+   ],
+   [
+    "P",
+    "Start with VoiceStudio (default, powered by k2-fsa/OmniVoice), or choo",
+    65,
+    3326,
+    838,
+    24
+   ],
+   [
+    "P",
+    "Local workflows run on your hardware. Remote services are optional; us",
+    65,
+    3366,
+    838,
+    24
+   ],
+   [
+    "IMG",
+    "Electron voice cloning workspace with the bundled demo voice",
+    79,
+    3439,
+    389,
+    259
+   ],
+   [
+    "IMG",
+    "Electron video dubbing workspace",
+    495,
+    3437,
+    394,
+    263
+   ],
+   [
+    "H2",
+    "Get started",
+    65,
+    3454,
+    838,
+    38
+   ],
+   [
+    "H3",
+    "One-command install (macOS / Linux)",
+    65,
+    3517,
+    838,
+    25
+   ]
+  ]
+ },
+ "ppt-master": {
+  "name": [
+   98,
+   16,
+   82,
+   32
+  ],
+  "files": [
+   32,
+   295,
+   904,
+   779
+  ],
+  "readme": [
+   65,
+   1171,
+   838,
+   91
+  ],
+  "words": {
+   "AI generates native PowerPoint from any document": [
+    65,
+    1171,
+    838,
+    91
+   ],
+   "Product Positioning": [
+    172,
+    2761,
+    138,
+    21
+   ]
+  },
+  "fullHeight": 12375,
+  "page": [
+   0,
+   0,
+   1280,
+   3482
+  ],
+  "sections": [
+   [
+    "H1",
+    "PPT Master — AI generates native PowerPoint from any document",
+    65,
+    1171,
+    838,
+    91
+   ],
+   [
+    "P",
+    "",
+    65,
+    1278,
+    838,
+    26
+   ],
+   [
+    "IMG",
+    "Version",
+    65,
+    1278,
+    96,
+    20
+   ],
+   [
+    "IMG",
+    "License: MIT",
+    165,
+    1278,
+    82,
+    20
+   ],
+   [
+    "IMG",
+    "GitHub stars",
+    252,
+    1278,
+    88,
+    20
+   ],
+   [
+    "IMG",
+    "AtomGit stars",
+    344,
+    1278,
+    132,
+    20
+   ],
+   [
+    "IMG",
+    "The Agentic Leaderboard",
+    481,
+    1278,
+    166,
+    20
+   ],
+   [
+    "P",
+    "",
+    65,
+    1320,
+    838,
+    61
+   ],
+   [
+    "IMG",
+    "hugohe3%2Fppt-master | Trendshift",
+    264,
+    1320,
+    250,
+    55
+   ],
+   [
+    "IMG",
+    "Star History Rank",
+    518,
+    1320,
+    186,
+    55
+   ],
+   [
+    "P",
+    "English | 中文",
+    65,
+    1397,
+    838,
+    24
+   ],
+   [
+    "H2",
+    "❤️ Sponsors",
+    65,
+    1445,
+    838,
+    38
+   ],
+   [
+    "P",
+    "This project is kept free and open source with the support of Kimi, Pa",
+    65,
+    1499,
+    838,
+    48
+   ],
+   [
+    "P",
+    "Want to appear here?",
+    85,
+    1563,
+    802,
+    24
+   ],
+   [
+    "P",
+    "",
+    65,
+    1627,
+    838,
+    216
+   ],
+   [
+    "IMG",
+    "Kimi",
+    65,
+    1627,
+    838,
+    210
+   ],
+   [
+    "P",
+    "Thanks to Kimi for sponsoring this project! Kimi K3 is the world's fir",
+    65,
+    1858,
+    838,
+    96
+   ],
+   [
+    "P",
+    "Try a Kimi Code plan (中文站 | Global), or access the API through the Kim",
+    65,
+    1970,
+    838,
+    24
+   ],
+   [
+    "IMG",
+    "PackyCode",
+    79,
+    2071,
+    150,
+    49
+   ],
+   [
+    "IMG",
+    "APIKEY.FAN",
+    79,
+    2191,
+    150,
+    50
+   ],
+   [
+    "IMG",
+    "RunAPI",
+    79,
+    2337,
+    150,
+    49
+   ],
+   [
+    "IMG",
+    "APIMart",
+    79,
+    2493,
+    150,
+    50
+   ],
+   [
+    "P",
+    "Editable is already table stakes — what sets PPT Master apart is nativ",
+    85,
+    2616,
+    802,
+    168
+   ],
+   [
+    "P",
+    "Quick Start ·\n  Live Demo ·\n  Examples ·\n  FAQ ·\n  Roadmap",
+    65,
+    2800,
+    838,
+    24
+   ],
+   [
+    "IMG",
+    "Pixel art — Chinese breakfast atlas",
+    79,
+    2847,
+    252,
+    142
+   ],
+   [
+    "IMG",
+    "Technical blueprint — Attention Is All You Need",
+    358,
+    2847,
+    252,
+    142
+   ],
+   [
+    "IMG",
+    "Brand template — China Telecom 2025 results",
+    637,
+    2847,
+    252,
+    142
+   ],
+   [
+    "P",
+    "Every example is a single pass with no manual polish; downloading a .p",
+    65,
+    3090,
+    838,
+    48
+   ],
+   [
+    "H2",
+    "Product Positioning",
+    65,
+    3187,
+    838,
+    38
+   ],
+   [
+    "P",
+    "Editable is now table stakes — the real question is how much of PowerP",
+    65,
+    3241,
+    838,
+    120
+   ]
+  ]
+ },
+ "diagram-design": {
+  "name": [
+   125,
+   16,
+   113,
+   32
+  ],
+  "files": [
+   32,
+   295,
+   904,
+   902
+  ],
+  "readme": [
+   65,
+   1318,
+   838,
+   437
+  ],
+  "words": {
+   "What it makes": [
+    240,
+    1995,
+    101,
+    21
+   ],
+   "make it look like": [
+    65,
+    8342,
+    838,
+    38
+   ]
+  },
+  "fullHeight": 19779,
+  "page": [
+   0,
+   0,
+   1280,
+   4000
+  ],
+  "sections": [
+   [
+    "H1",
+    "",
+    65,
+    1318,
+    838,
+    437
+   ],
+   [
+    "IMG",
+    "Diagram Design. Editorial diagrams your designer won't hate.",
+    65,
+    1318,
+    838,
+    419
+   ],
+   [
+    "P",
+    "An agent skill that draws diagrams as one self-contained HTML + SVG fi",
+    65,
+    1771,
+    838,
+    48
+   ],
+   [
+    "P",
+    "",
+    65,
+    1835,
+    838,
+    26
+   ],
+   [
+    "IMG",
+    "GitHub stars",
+    268,
+    1835,
+    68,
+    20
+   ],
+   [
+    "IMG",
+    "skills.sh installs",
+    340,
+    1835,
+    99,
+    20
+   ],
+   [
+    "IMG",
+    "CI",
+    444,
+    1835,
+    74,
+    20
+   ],
+   [
+    "IMG",
+    "Plugin version",
+    522,
+    1835,
+    96,
+    20
+   ],
+   [
+    "IMG",
+    "MIT license",
+    622,
+    1835,
+    78,
+    20
+   ],
+   [
+    "P",
+    "",
+    65,
+    1877,
+    838,
+    61
+   ],
+   [
+    "IMG",
+    "cathrynlavery/diagram-design on Trendshift",
+    359,
+    1877,
+    250,
+    55
+   ],
+   [
+    "P",
+    "Website · Gallery · Changelog",
+    65,
+    1954,
+    838,
+    24
+   ],
+   [
+    "P",
+    "Install · What it makes · Quickstart · Match your brand · Import · Exp",
+    65,
+    1994,
+    838,
+    24
+   ],
+   [
+    "P",
+    "npx skills add cathrynlavery/diagram-design",
+    65,
+    2034,
+    838,
+    24
+   ],
+   [
+    "P",
+    "",
+    65,
+    2074,
+    838,
+    48
+   ],
+   [
+    "IMG",
+    "A prompt typed into an agent session becomes a finished architecture d",
+    65,
+    2138,
+    838,
+    471
+   ],
+   [
+    "P",
+    "Ask your agent in plain words:",
+    65,
+    2639,
+    838,
+    24
+   ],
+   [
+    "P",
+    "The agent picks the type, states its plan, and writes one .html file y",
+    65,
+    2827,
+    838,
+    24
+   ],
+   [
+    "H2",
+    "Install",
+    65,
+    2900,
+    838,
+    38
+   ],
+   [
+    "P",
+    "Works with any host that reads Agent Skills, including Cursor, Claude ",
+    65,
+    2954,
+    838,
+    48
+   ],
+   [
+    "P",
+    "In Claude Code, the plugin marketplace gets you updates and the slash ",
+    65,
+    3086,
+    838,
+    24
+   ],
+   [
+    "P",
+    "Official builds come only from this repository. LittleMight, Cathryn L",
+    65,
+    3214,
+    838,
+    48
+   ],
+   [
+    "P",
+    "After installing, run /plugin, open Marketplaces, select diagram-desig",
+    65,
+    3302,
+    838,
+    96
+   ],
+   [
+    "P",
+    "The cross-agent skills CLI resolves this repository, detects skills/di",
+    65,
+    3342,
+    838,
+    48
+   ],
+   [
+    "P",
+    "When the selected roots resolve to more than one skills directory, the",
+    65,
+    3474,
+    838,
+    120
+   ],
+   [
+    "P",
+    "This is a standalone install, separate from the marketplaces below: it",
+    65,
+    3610,
+    838,
+    96
+   ],
+   [
+    "P",
+    "One-time migration: an existing standalone npx skills add copy will no",
+    85,
+    3722,
+    802,
+    96
+   ],
+   [
+    "P",
+    "Codex refreshes configured Git marketplaces at startup. To fetch immed",
+    65,
+    3469,
+    838,
+    48
+   ],
+   [
+    "P",
+    "Copilot installs the shared Diagram Design skill plus its doctor, expo",
+    65,
+    3509,
+    838,
+    96
+   ],
+   [
+    "P",
+    "Droid tracks Git plugins by commit rather than the manifest's display ",
+    65,
+    3549,
+    838,
+    72
+   ],
+   [
+    "P",
+    "Organization GitHub marketplaces currently require a private or intern",
+    65,
+    3502,
+    838,
+    120
+   ],
+   [
+    "P",
+    "Run /reload in an open Pi session. Pi makes the skill available for ma",
+    65,
+    3610,
+    838,
+    96
+   ],
+   [
+    "P",
+    "Import the Agent Skill from the repository subdirectory URL:",
+    65,
+    3582,
+    838,
+    24
+   ],
+   [
+    "P",
+    "Kiro copies imported skills into .kiro/skills/ for a workspace or ~/.k",
+    65,
+    3689,
+    838,
+    48
+   ],
+   [
+    "P",
+    "Copy or symlink skills/diagram-design/ to .opencode/skills/diagram-des",
+    65,
+    3622,
+    838,
+    72
+   ],
+   [
+    "P",
+    "Managed installs are convenient, but changes to references/style-guide",
+    65,
+    3662,
+    838,
+    72
+   ],
+   [
+    "H2",
+    "How it compares",
+    65,
+    3711,
+    838,
+    38
+   ]
+  ]
+ },
+ "gods-eye-view": {
+  "name": [
+   119,
+   16,
+   105,
+   32
+  ],
+  "files": [
+   32,
+   295,
+   904,
+   1230
+  ],
+  "readme": [
+   65,
+   1646,
+   838,
+   51
+  ],
+  "words": {
+   "What This Thing Does": [
+    65,
+    3391,
+    838,
+    38
+   ],
+   "What's on the Globe": [
+    65,
+    13991,
+    838,
+    38
+   ]
+  },
+  "fullHeight": 26366,
+  "page": [
+   0,
+   0,
+   1280,
+   4000
+  ],
+  "sections": [
+   [
+    "H1",
+    "🌐 God's Eye View",
+    65,
+    1646,
+    838,
+    51
+   ],
+   [
+    "P",
+    "",
+    65,
+    1713,
+    838,
+    26
+   ],
+   [
+    "IMG",
+    "CI",
+    333,
+    1713,
+    90,
+    20
+   ],
+   [
+    "IMG",
+    "Reached #1 on GitHub Trending",
+    428,
+    1713,
+    207,
+    20
+   ],
+   [
+    "H3",
+    "A spy-satellite simulator in your browser — then you realize the sourc",
+    65,
+    1763,
+    838,
+    50
+   ],
+   [
+    "P",
+    "Photorealistic 3D globe. Live aircraft, ships, satellites, earthquakes",
+    65,
+    1829,
+    838,
+    48
+   ],
+   [
+    "P",
+    "No place left behind.",
+    65,
+    1893,
+    838,
+    24
+   ],
+   [
+    "P",
+    "",
+    65,
+    1933,
+    838,
+    456
+   ],
+   [
+    "IMG",
+    "Orbital HUD, a tracked live globe, FLIR terrain — then OPEN SOURCED",
+    84,
+    1933,
+    800,
+    450
+   ],
+   [
+    "IMG",
+    "The God's Eye View video series on YouTube",
+    65,
+    2405,
+    838,
+    267
+   ],
+   [
+    "P",
+    "▶️ From the project behind the viral God's Eye View series (formerly W",
+    65,
+    2678,
+    838,
+    48
+   ],
+   [
+    "P",
+    "🏆 Reached #1 on GitHub Trending, daily and weekly · August 2026",
+    65,
+    2742,
+    838,
+    24
+   ],
+   [
+    "P",
+    "#8 Product of the Day · Hunted by Chris Messina, creator of the hashta",
+    65,
+    2782,
+    838,
+    24
+   ],
+   [
+    "P",
+    "“pretty cool” — Brendan Eich, creator of JavaScript and co-founder of ",
+    65,
+    2822,
+    838,
+    24
+   ],
+   [
+    "P",
+    "⚡ Start without API keys. Install with Pinokio or run locally from the",
+    65,
+    2862,
+    838,
+    48
+   ],
+   [
+    "P",
+    "Quick Start · First Five Minutes · Talk to It · What's Live · Under th",
+    65,
+    2959,
+    838,
+    24
+   ],
+   [
+    "H2",
+    "🌍 Why This Exists",
+    65,
+    3032,
+    838,
+    38
+   ],
+   [
+    "P",
+    "God's Eye View brings public signals into one explorable globe. Track ",
+    65,
+    3086,
+    838,
+    24
+   ],
+   [
+    "P",
+    "Flight transponders, ship beacons, orbital elements, seismographs, and",
+    65,
+    3126,
+    838,
+    72
+   ],
+   [
+    "P",
+    "Half the magic is that it looks like a forbidden cockpit. The other ha",
+    85,
+    3214,
+    802,
+    24
+   ],
+   [
+    "P",
+    "Most feeds are live or regularly refreshed. Traffic is simulated along",
+    65,
+    3254,
+    838,
+    48
+   ],
+   [
+    "P",
+    "Start with the included data sources, then add your own. Each layer is",
+    65,
+    3318,
+    838,
+    24
+   ],
+   [
+    "H2",
+    "🎛️ What This Thing Does",
+    65,
+    3391,
+    838,
+    38
+   ]
+  ]
+ },
+ "rea": {
+  "name": [
+   92,
+   16,
+   32,
+   32
+  ],
+  "files": [
+   32,
+   295,
+   904,
+   2419
+  ],
+  "readme": [
+   65,
+   2883,
+   838,
+   51
+  ],
+  "words": {
+   "Reverse Engineer Anything": [
+    65,
+    2883,
+    838,
+    51
+   ],
+   "What you can analyze": [
+    387,
+    3199,
+    154,
+    21
+   ]
+  },
+  "fullHeight": 10964,
+  "page": [
+   0,
+   0,
+   1280,
+   3920
+  ],
+  "sections": [
+   [
+    "P",
+    "English · 简体中文 · 繁體中文 · 日本語 · 한국어 · Türkçe · Русский · Tiếng Việt · ไท",
+    65,
+    2811,
+    838,
+    48
+   ],
+   [
+    "H1",
+    "REA: Reverse Engineer Anything",
+    65,
+    2883,
+    838,
+    51
+   ],
+   [
+    "H3",
+    "One MCP for reverse engineering across binaries, applications, and run",
+    65,
+    2958,
+    838,
+    25
+   ],
+   [
+    "P",
+    "See a feature you like. Understand how it works, down to the binary le",
+    65,
+    2999,
+    838,
+    24
+   ],
+   [
+    "P",
+    "",
+    65,
+    3039,
+    838,
+    26
+   ],
+   [
+    "IMG",
+    "npm version",
+    150,
+    3039,
+    80,
+    20
+   ],
+   [
+    "IMG",
+    "MCP tool catalog",
+    234,
+    3039,
+    108,
+    20
+   ],
+   [
+    "IMG",
+    "Node.js requirements",
+    346,
+    3039,
+    151,
+    20
+   ],
+   [
+    "IMG",
+    "skills.sh",
+    502,
+    3039,
+    91,
+    20
+   ],
+   [
+    "IMG",
+    "MIT license",
+    597,
+    3039,
+    78,
+    20
+   ],
+   [
+    "IMG",
+    "Discord",
+    679,
+    3039,
+    139,
+    20
+   ],
+   [
+    "P",
+    "",
+    65,
+    3081,
+    838,
+    61
+   ],
+   [
+    "IMG",
+    "morluto%2Frea | Trendshift",
+    359,
+    3081,
+    250,
+    55
+   ],
+   [
+    "P",
+    "Website · Guides · Showcases",
+    65,
+    3158,
+    838,
+    24
+   ],
+   [
+    "P",
+    "Quick start · How REA works · What you can analyze · Showcases · FAQ ·",
+    65,
+    3198,
+    838,
+    24
+   ],
+   [
+    "P",
+    "npx rea-agents setup",
+    65,
+    3238,
+    838,
+    24
+   ],
+   [
+    "IMG",
+    "REA launching its analysis bridge inside Hopper while inspecting a nat",
+    65,
+    3302,
+    838,
+    477
+   ]
+  ]
+ },
+ "paperclip": {
+  "name": [
+   111,
+   16,
+   71,
+   32
+  ],
+  "files": [
+   32,
+   295,
+   904,
+   2009
+  ],
+  "readme": [
+   65,
+   3802,
+   838,
+   91
+  ],
+  "words": {
+   "The four pillars": [
+    65,
+    5047,
+    838,
+    38
+   ],
+   "Features": [
+    65,
+    6156,
+    838,
+    38
+   ]
+  },
+  "fullHeight": 17322,
+  "page": [
+   0,
+   0,
+   1280,
+   4000
+  ],
+  "sections": [
+   [
+    "P",
+    "",
+    65,
+    2401,
+    838,
+    524
+   ],
+   [
+    "IMG",
+    "Paperclip is the app people use to manage AI agents for work.",
+    124,
+    2401,
+    720,
+    518
+   ],
+   [
+    "P",
+    "Quickstart ·\n  Docs ·\n  GitHub ·\n  Discord ·\n  Twitter ·\n  Website",
+    65,
+    2941,
+    838,
+    24
+   ],
+   [
+    "P",
+    "",
+    65,
+    2981,
+    838,
+    26
+   ],
+   [
+    "IMG",
+    "MIT License",
+    246,
+    2981,
+    78,
+    20
+   ],
+   [
+    "IMG",
+    "Stars",
+    329,
+    2981,
+    74,
+    20
+   ],
+   [
+    "IMG",
+    "Discord",
+    407,
+    2981,
+    80,
+    20
+   ],
+   [
+    "IMG",
+    "Security posture verified by Superagent",
+    492,
+    2981,
+    230,
+    20
+   ],
+   [
+    "P",
+    "",
+    65,
+    3023,
+    838,
+    70
+   ],
+   [
+    "IMG",
+    "Star History Rank",
+    376,
+    3023,
+    216,
+    64
+   ],
+   [
+    "P",
+    "Sign up for the Paperclip Cloud waitlist →",
+    65,
+    3714,
+    838,
+    24
+   ],
+   [
+    "H1",
+    "Paperclip is the app people use to manage AI agents for work.",
+    65,
+    3802,
+    838,
+    91
+   ]
+  ]
+ },
+ "mattpocock-skills": {
+  "name": [
+   116,
+   16,
+   42,
+   32
+  ],
+  "files": [
+   32,
+   295,
+   904,
+   738
+  ],
+  "readme": [
+   65,
+   1354,
+   838,
+   51
+  ],
+  "words": {
+   "Why These Skills Exist": [
+    65,
+    2354,
+    838,
+    38
+   ],
+   "The Agent Didn't Do What I Want": [
+    65,
+    2456,
+    838,
+    25
+   ]
+  },
+  "fullHeight": 6783,
+  "page": [
+   0,
+   0,
+   1280,
+   3181
+  ],
+  "sections": [
+   [
+    "P",
+    "",
+    65,
+    1130,
+    838,
+    200
+   ],
+   [
+    "IMG",
+    "Skills",
+    65,
+    1130,
+    369,
+    194
+   ],
+   [
+    "H1",
+    "Skills For Real Engineers",
+    65,
+    1354,
+    838,
+    51
+   ],
+   [
+    "P",
+    "",
+    65,
+    1421,
+    838,
+    26
+   ],
+   [
+    "IMG",
+    "skills.sh",
+    65,
+    1421,
+    101,
+    20
+   ],
+   [
+    "P",
+    "My agent skills that I use every day to do real engineering - not vibe",
+    65,
+    1463,
+    838,
+    24
+   ],
+   [
+    "P",
+    "Developing real applications is hard. Approaches like GSD, BMAD, and S",
+    65,
+    1503,
+    838,
+    48
+   ],
+   [
+    "P",
+    "These skills are designed to be small, easy to adapt, and composable. ",
+    65,
+    1567,
+    838,
+    48
+   ],
+   [
+    "P",
+    "If you want to keep up with changes to these skills, and any new ones ",
+    65,
+    1631,
+    838,
+    48
+   ],
+   [
+    "P",
+    "Sign Up To The Newsletter",
+    65,
+    1695,
+    838,
+    24
+   ],
+   [
+    "H2",
+    "Installation (30-second setup)",
+    65,
+    1743,
+    838,
+    38
+   ],
+   [
+    "P",
+    "A plugin updates itself. skills.sh copies editable files into your pro",
+    65,
+    1797,
+    838,
+    48
+   ],
+   [
+    "H3",
+    "1. Get the skills",
+    65,
+    1869,
+    838,
+    25
+   ],
+   [
+    "P",
+    "Updates itself by default.",
+    65,
+    2002,
+    838,
+    24
+   ],
+   [
+    "P",
+    "Updates itself at startup.",
+    65,
+    2061,
+    838,
+    24
+   ],
+   [
+    "P",
+    "Then, once, add to ~/.copilot/settings.json:",
+    65,
+    2101,
+    838,
+    24
+   ],
+   [
+    "P",
+    "In VS Code, run Chat: Install Plugin From Source and enter https://git",
+    65,
+    2288,
+    838,
+    24
+   ],
+   [
+    "P",
+    "Re-run both commands to update.",
+    65,
+    2141,
+    838,
+    24
+   ],
+   [
+    "P",
+    "When the installer asks which skills to take, include setup-matt-pococ",
+    65,
+    2162,
+    838,
+    48
+   ],
+   [
+    "H3",
+    "2. Run /setup-matt-pocock-skills",
+    65,
+    2118,
+    838,
+    27
+   ],
+   [
+    "P",
+    "In your agent, run it once per repo. It will:",
+    65,
+    2161,
+    838,
+    24
+   ],
+   [
+    "H3",
+    "3. Bam - you're ready to go.",
+    65,
+    2305,
+    838,
+    25
+   ],
+   [
+    "H2",
+    "Why These Skills Exist",
+    65,
+    2354,
+    838,
+    38
+   ],
+   [
+    "P",
+    "I built these skills as a way to fix common failure modes I see with C",
+    65,
+    2408,
+    838,
+    24
+   ],
+   [
+    "H3",
+    "#1: The Agent Didn't Do What I Want",
+    65,
+    2456,
+    838,
+    25
+   ],
+   [
+    "P",
+    "\"No-one knows exactly what they want\"",
+    85,
+    2497,
+    802,
+    24
+   ],
+   [
+    "P",
+    "David Thomas & Andrew Hunt, The Pragmatic Programmer",
+    85,
+    2537,
+    802,
+    24
+   ],
+   [
+    "P",
+    "The Problem. The most common failure mode in software development is m",
+    65,
+    2577,
+    838,
+    48
+   ],
+   [
+    "P",
+    "This is just the same in the AI age. There is a communication gap betw",
+    65,
+    2641,
+    838,
+    48
+   ],
+   [
+    "P",
+    "The Fix is to use:",
+    65,
+    2705,
+    838,
+    24
+   ],
+   [
+    "P",
+    "These are my most popular skills. They help you align with the agent b",
+    65,
+    2813,
+    838,
+    48
+   ],
+   [
+    "H3",
+    "#2: The Agent Is Way Too Verbose",
+    65,
+    2885,
+    838,
+    25
+   ],
+   [
+    "P",
+    "With a ubiquitous language, conversations among developers and express",
+    85,
+    2926,
+    802,
+    48
+   ],
+   [
+    "P",
+    "Eric Evans, Domain-Driven-Design",
+    85,
+    2990,
+    802,
+    24
+   ],
+   [
+    "P",
+    "The Problem: At the start of a project, devs and the people they're bu",
+    65,
+    3030,
+    838,
+    48
+   ]
+  ]
+ },
+ "ecc": {
+  "name": [
+   99,
+   16,
+   36,
+   32
+  ],
+  "files": [
+   32,
+   295,
+   904,
+   3526
+  ],
+  "readme": [
+   65,
+   4879,
+   838,
+   38
+  ],
+  "words": {
+   "agent harness performance optimization": [
+    976,
+    229,
+    272,
+    120
+   ],
+   "Install ECC": [
+    65,
+    6915,
+    838,
+    38
+   ]
+  },
+  "fullHeight": 22341,
+  "page": [
+   0,
+   0,
+   1280,
+   4000
+  ],
+  "sections": []
+ },
+ "karpathy-skills": {
+  "name": [
+   104,
+   16,
+   149,
+   32
+  ],
+  "files": [
+   32,
+   295,
+   904,
+   328
+  ],
+  "readme": [
+   65,
+   720,
+   838,
+   51
+  ],
+  "words": {
+   "The Four Principles in Detail": [
+    65,
+    1625,
+    838,
+    38
+   ],
+   "Think Before Coding": [
+    66,
+    1452,
+    189,
+    37
+   ]
+  },
+  "fullHeight": 5166,
+  "page": [
+   0,
+   0,
+   1280,
+   2363
+  ],
+  "sections": [
+   [
+    "H1",
+    "Karpathy-Inspired Claude Code Guidelines",
+    65,
+    720,
+    838,
+    51
+   ],
+   [
+    "P",
+    "Check out my new project Multica — an open-source platform for running",
+    85,
+    787,
+    802,
+    48
+   ],
+   [
+    "P",
+    "Follow me on X: https://x.com/jiayuan_jy",
+    85,
+    851,
+    802,
+    24
+   ],
+   [
+    "P",
+    "A single CLAUDE.md file to improve Claude Code behavior, derived from ",
+    65,
+    891,
+    838,
+    48
+   ],
+   [
+    "P",
+    "English | 简体中文",
+    65,
+    955,
+    838,
+    24
+   ],
+   [
+    "H2",
+    "The Problems",
+    65,
+    1003,
+    838,
+    38
+   ],
+   [
+    "P",
+    "From Andrej's post:",
+    65,
+    1057,
+    838,
+    24
+   ],
+   [
+    "P",
+    "\"The models make wrong assumptions on your behalf and just run along w",
+    85,
+    1097,
+    802,
+    72
+   ],
+   [
+    "P",
+    "\"They really like to overcomplicate code and APIs, bloat abstractions,",
+    85,
+    1185,
+    802,
+    48
+   ],
+   [
+    "P",
+    "\"They still sometimes change/remove comments and code they don't suffi",
+    85,
+    1249,
+    802,
+    48
+   ],
+   [
+    "H2",
+    "The Solution",
+    65,
+    1321,
+    838,
+    38
+   ],
+   [
+    "P",
+    "Four principles in one file that directly address these issues:",
+    65,
+    1375,
+    838,
+    24
+   ],
+   [
+    "H2",
+    "The Four Principles in Detail",
+    65,
+    1625,
+    838,
+    38
+   ],
+   [
+    "H3",
+    "1. Think Before Coding",
+    65,
+    1687,
+    838,
+    25
+   ],
+   [
+    "P",
+    "Don't assume. Don't hide confusion. Surface tradeoffs.",
+    65,
+    1728,
+    838,
+    24
+   ],
+   [
+    "P",
+    "LLMs often pick an interpretation silently and run with it. This princ",
+    65,
+    1768,
+    838,
+    24
+   ],
+   [
+    "H3",
+    "2. Simplicity First",
+    65,
+    1940,
+    838,
+    25
+   ],
+   [
+    "P",
+    "Minimum code that solves the problem. Nothing speculative.",
+    65,
+    1981,
+    838,
+    24
+   ],
+   [
+    "P",
+    "Combat the tendency toward overengineering:",
+    65,
+    2021,
+    838,
+    24
+   ],
+   [
+    "P",
+    "The test: Would a senior engineer say this is overcomplicated? If yes,",
+    65,
+    2213,
+    838,
+    24
+   ]
+  ]
+ },
+ "claude-mem": {
+  "name": [
+   117,
+   16,
+   91,
+   32
+  ],
+  "files": [
+   32,
+   295,
+   904,
+   2337
+  ],
+  "readme": [
+   65,
+   2729,
+   838,
+   130
+  ],
+  "words": {
+   "Persistent Context Across Sessions": [
+    976,
+    229,
+    272,
+    192
+   ],
+   "How It Works": [
+    214,
+    3518,
+    95,
+    21
+   ]
+  },
+  "fullHeight": 11720,
+  "page": [
+   0,
+   0,
+   1280,
+   4000
+  ],
+  "sections": [
+   [
+    "H1",
+    "",
+    65,
+    2729,
+    838,
+    130
+   ],
+   [
+    "IMG",
+    "Claude-Mem",
+    284,
+    2769,
+    400,
+    73
+   ],
+   [
+    "P",
+    "",
+    65,
+    2875,
+    838,
+    30
+   ],
+   [
+    "IMG",
+    "Vercel OSS Program",
+    244,
+    2875,
+    240,
+    24
+   ],
+   [
+    "IMG",
+    "Greptile",
+    506,
+    2875,
+    100,
+    24
+   ],
+   [
+    "IMG",
+    "SerpApi",
+    628,
+    2875,
+    96,
+    24
+   ],
+   [
+    "P",
+    "🇨🇳 中文 •\n  🇹🇼 繁體中文 •\n  🇯🇵 日本語 •\n  🇵🇹 Português •\n  🇧🇷 Portugu",
+    65,
+    2921,
+    838,
+    96
+   ],
+   [
+    "P",
+    "",
+    65,
+    3077,
+    838,
+    26
+   ],
+   [
+    "IMG",
+    "License",
+    258,
+    3077,
+    124,
+    20
+   ],
+   [
+    "IMG",
+    "Version",
+    387,
+    3077,
+    104,
+    20
+   ],
+   [
+    "IMG",
+    "Node",
+    495,
+    3077,
+    100,
+    20
+   ],
+   [
+    "IMG",
+    "Mentioned in Awesome Claude Code",
+    600,
+    3077,
+    110,
+    20
+   ],
+   [
+    "P",
+    "",
+    65,
+    3119,
+    838,
+    61
+   ],
+   [
+    "IMG",
+    "thedotmack/claude-mem | Trendshift",
+    359,
+    3119,
+    250,
+    55
+   ],
+   [
+    "IMG",
+    "Claude-Mem Preview",
+    79,
+    3248,
+    392,
+    220
+   ],
+   [
+    "IMG",
+    "Star History Chart",
+    498,
+    3227,
+    392,
+    261
+   ],
+   [
+    "P",
+    "Quick Start •\n  How It Works •\n  Search Tools •\n  Documentation •\n  Co",
+    65,
+    3517,
+    838,
+    24
+   ],
+   [
+    "P",
+    "Claude-Mem seamlessly preserves context across sessions by automatical",
+    65,
+    3557,
+    838,
+    72
+   ],
+   [
+    "H2",
+    "Quick Start",
+    65,
+    3678,
+    838,
+    38
+   ],
+   [
+    "P",
+    "Install claude-mem for Grok Bot:",
+    65,
+    3732,
+    838,
+    24
+   ],
+   [
+    "P",
+    "Grok Bot has no host hooks, so we watch the chat log files. Default is",
+    65,
+    3840,
+    838,
+    48
+   ]
+  ]
+ }
+}

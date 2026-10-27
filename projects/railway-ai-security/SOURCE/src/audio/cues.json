@@ -1,0 +1,345 @@
+{
+ "_doc": "Sound cue sheet per segment (times: p = fraction, s = seconds from start, e = seconds before end). Read by audio-src/score.py. All sounds synthesized in code.",
+ "energy": {
+  "hook": {
+   "pad": 0.4,
+   "bass": 0.6,
+   "arp": 0.0,
+   "kick": 1,
+   "hat": 0,
+   "clap": 0,
+   "drone": 1.0
+  },
+  "railway": {
+   "pad": 0.5,
+   "bass": 0.9,
+   "arp": 0.6,
+   "kick": 1,
+   "hat": 1,
+   "clap": 0,
+   "drone": 0.3
+  },
+  "railway2": {
+   "pad": 0.6,
+   "bass": 0.8,
+   "arp": 0.4,
+   "kick": 1,
+   "hat": 1,
+   "clap": 0,
+   "drone": 0.5
+  },
+  "certin": {
+   "pad": 0.5,
+   "bass": 0.9,
+   "arp": 0.7,
+   "kick": 1,
+   "hat": 1,
+   "clap": 1,
+   "drone": 0.0
+  },
+  "litellm": {
+   "pad": 0.6,
+   "bass": 0.7,
+   "arp": 0.4,
+   "kick": 1,
+   "hat": 1,
+   "clap": 0,
+   "drone": 0.3
+  },
+  "copilot": {
+   "pad": 0.5,
+   "bass": 0.9,
+   "arp": 0.7,
+   "kick": 1,
+   "hat": 1,
+   "clap": 1,
+   "drone": 0.0
+  },
+  "reuters": {
+   "pad": 0.5,
+   "bass": 1.0,
+   "arp": 0.8,
+   "kick": 1,
+   "hat": 1,
+   "clap": 1,
+   "drone": 0.0
+  },
+  "checklist": {
+   "pad": 0.7,
+   "bass": 0.8,
+   "arp": 0.5,
+   "kick": 1,
+   "hat": 1,
+   "clap": 0,
+   "drone": 0.0
+  },
+  "cta": {
+   "pad": 0.9,
+   "bass": 0.6,
+   "arp": 0.3,
+   "kick": 0,
+   "hat": 0,
+   "clap": 0,
+   "drone": 0.4
+  }
+ },
+ "scenes": {
+  "hook": [
+   {
+    "s": 0.0,
+    "kind": "subImpact",
+    "gain": 1.0
+   },
+   {
+    "s": 0.0,
+    "kind": "mechClick",
+    "gain": 0.9
+   },
+   {
+    "s": 0.5,
+    "kind": "impact",
+    "gain": 1.0
+   },
+   {
+    "s": 0.52,
+    "kind": "paper",
+    "gain": 0.6
+   },
+   {
+    "s": 0.95,
+    "kind": "whoosh",
+    "gain": 0.8,
+    "len": 0.85
+   },
+   {
+    "s": 2.0,
+    "kind": "twang",
+    "gain": 0.6,
+    "pitch": 1.0
+   },
+   {
+    "s": 2.5,
+    "kind": "twang",
+    "gain": 0.6,
+    "pitch": 1.189
+   },
+   {
+    "s": 3.0,
+    "kind": "twang",
+    "gain": 0.6,
+    "pitch": 1.335
+   },
+   {
+    "s": 3.5,
+    "kind": "twang",
+    "gain": 0.6,
+    "pitch": 1.498
+   },
+   {
+    "s": 4.0,
+    "kind": "twang",
+    "gain": 0.65,
+    "pitch": 1.782
+   },
+   {
+    "s": 4.0,
+    "kind": "subImpact",
+    "gain": 0.4
+   },
+   {
+    "e": 0.6,
+    "kind": "riser",
+    "gain": 0.5,
+    "len": 0.6
+   }
+  ],
+  "railway": [
+   {
+    "s": 0.0,
+    "kind": "whoosh",
+    "gain": 0.6,
+    "len": 0.8
+   },
+   {
+    "s": 0.75,
+    "kind": "impact",
+    "gain": 0.7
+   },
+   {
+    "s": 0.8,
+    "kind": "paper",
+    "gain": 0.5
+   },
+   {
+    "p": 0.35,
+    "kind": "dataBurst",
+    "gain": 0.35,
+    "len": 1.2
+   },
+   {
+    "p": 0.7,
+    "kind": "errorBlip",
+    "gain": 0.45
+   }
+  ],
+  "railway2": [
+   {
+    "s": 0.0,
+    "kind": "whoosh",
+    "gain": 0.6,
+    "len": 0.8
+   },
+   {
+    "s": 0.75,
+    "kind": "impact",
+    "gain": 0.7
+   },
+   {
+    "p": 0.5,
+    "kind": "mechClick",
+    "gain": 0.8
+   },
+   {
+    "p": 0.52,
+    "kind": "subImpact",
+    "gain": 0.5
+   }
+  ],
+  "certin": [
+   {
+    "s": 0.0,
+    "kind": "whoosh",
+    "gain": 0.6,
+    "len": 0.8
+   },
+   {
+    "s": 0.75,
+    "kind": "impact",
+    "gain": 0.8
+   },
+   {
+    "p": 0.4,
+    "kind": "dataPulse",
+    "gain": 0.4
+   }
+  ],
+  "litellm": [
+   {
+    "s": 0.0,
+    "kind": "whoosh",
+    "gain": 0.6,
+    "len": 0.8
+   },
+   {
+    "s": 0.75,
+    "kind": "impact",
+    "gain": 0.7
+   },
+   {
+    "p": 0.45,
+    "kind": "errorBlip",
+    "gain": 0.45
+   },
+   {
+    "p": 0.7,
+    "kind": "mechClick",
+    "gain": 0.6
+   }
+  ],
+  "copilot": [
+   {
+    "s": 0.0,
+    "kind": "whoosh",
+    "gain": 0.6,
+    "len": 0.8
+   },
+   {
+    "s": 0.75,
+    "kind": "impact",
+    "gain": 0.7
+   },
+   {
+    "p": 0.35,
+    "kind": "typing",
+    "gain": 0.35,
+    "len": 1.0
+   },
+   {
+    "p": 0.6,
+    "kind": "errorBlip",
+    "gain": 0.4
+   }
+  ],
+  "reuters": [
+   {
+    "s": 0.0,
+    "kind": "whoosh",
+    "gain": 0.6,
+    "len": 0.8
+   },
+   {
+    "s": 0.75,
+    "kind": "impact",
+    "gain": 0.7
+   },
+   {
+    "p": 0.3,
+    "kind": "dataBurst",
+    "gain": 0.4,
+    "len": 1.6
+   }
+  ],
+  "checklist": [
+   {
+    "s": 0.0,
+    "kind": "whoosh",
+    "gain": 0.6,
+    "len": 0.8
+   },
+   {
+    "s": 0.75,
+    "kind": "impact",
+    "gain": 0.8
+   },
+   {
+    "p": 0.3,
+    "kind": "fixChime",
+    "gain": 0.45
+   },
+   {
+    "p": 0.5,
+    "kind": "fixChime",
+    "gain": 0.45
+   },
+   {
+    "p": 0.7,
+    "kind": "fixChime",
+    "gain": 0.45
+   },
+   {
+    "p": 0.88,
+    "kind": "fixChime",
+    "gain": 0.45
+   }
+  ],
+  "cta": [
+   {
+    "s": 0.0,
+    "kind": "whoosh",
+    "gain": 0.6,
+    "len": 1.0
+   },
+   {
+    "s": 0.5,
+    "kind": "shimmer",
+    "gain": 0.5,
+    "len": 2.0
+   },
+   {
+    "e": 2.6,
+    "kind": "resolve",
+    "gain": 0.9
+   }
+  ]
+ }
+}

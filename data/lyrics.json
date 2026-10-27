@@ -1,0 +1,976 @@
+{
+ "lines": [
+  {
+   "i": 0,
+   "text": "ChatGPT likhta hai.",
+   "start": 0.35,
+   "end": 1.89,
+   "words": [
+    {
+     "w": "ChatGPT",
+     "start": 0.35,
+     "end": 0.989,
+     "conf": 0.5
+    },
+    {
+     "w": "likhta",
+     "start": 0.98,
+     "end": 1.552,
+     "conf": 0.5
+    },
+    {
+     "w": "hai.",
+     "start": 1.55,
+     "end": 1.89,
+     "conf": 0.5
+    }
+   ]
+  },
+  {
+   "i": 1,
+   "text": "Lekin Jev sirf decide karta hai.",
+   "start": 2.23,
+   "end": 4.24,
+   "words": [
+    {
+     "w": "Lekin",
+     "start": 2.23,
+     "end": 2.603,
+     "conf": 0.5
+    },
+    {
+     "w": "Jev",
+     "start": 2.6,
+     "end": 2.862,
+     "conf": 0.5
+    },
+    {
+     "w": "sirf",
+     "start": 2.86,
+     "end": 3.178,
+     "conf": 0.5
+    },
+    {
+     "w": "decide",
+     "start": 3.17,
+     "end": 3.608,
+     "conf": 0.5
+    },
+    {
+     "w": "karta",
+     "start": 3.6,
+     "end": 3.982,
+     "conf": 0.5
+    },
+    {
+     "w": "hai.",
+     "start": 3.98,
+     "end": 4.24,
+     "conf": 0.5
+    }
+   ]
+  },
+  {
+   "i": 2,
+   "text": "TypeSafe AI ka naya model.",
+   "start": 4.57,
+   "end": 6.24,
+   "words": [
+    {
+     "w": "TypeSafe",
+     "start": 4.57,
+     "end": 5.127,
+     "conf": 0.5
+    },
+    {
+     "w": "AI",
+     "start": 5.12,
+     "end": 5.332,
+     "conf": 0.5
+    },
+    {
+     "w": "ka",
+     "start": 5.33,
+     "end": 5.537,
+     "conf": 0.5
+    },
+    {
+     "w": "naya",
+     "start": 5.53,
+     "end": 5.859,
+     "conf": 0.5
+    },
+    {
+     "w": "model.",
+     "start": 5.85,
+     "end": 6.24,
+     "conf": 0.5
+    }
+   ]
+  },
+  {
+   "i": 3,
+   "text": "Messy text do, typed answer lo.",
+   "start": 6.58,
+   "end": 8.77,
+   "words": [
+    {
+     "w": "Messy",
+     "start": 6.58,
+     "end": 6.974,
+     "conf": 0.5
+    },
+    {
+     "w": "text",
+     "start": 6.97,
+     "end": 7.307,
+     "conf": 0.5
+    },
+    {
+     "w": "do,",
+     "start": 7.3,
+     "end": 7.56,
+     "conf": 0.5
+    },
+    {
+     "w": "typed",
+     "start": 7.75,
+     "end": 8.103,
+     "conf": 0.5
+    },
+    {
+     "w": "answer",
+     "start": 8.1,
+     "end": 8.558,
+     "conf": 0.5
+    },
+    {
+     "w": "lo.",
+     "start": 8.55,
+     "end": 8.77,
+     "conf": 0.5
+    }
+   ]
+  },
+  {
+   "i": 4,
+   "text": "Sirf teen answers.",
+   "start": 9.5,
+   "end": 10.48,
+   "words": [
+    {
+     "w": "Sirf",
+     "start": 9.5,
+     "end": 9.776,
+     "conf": 0.5
+    },
+    {
+     "w": "teen",
+     "start": 9.77,
+     "end": 10.053,
+     "conf": 0.5
+    },
+    {
+     "w": "answers.",
+     "start": 10.05,
+     "end": 10.48,
+     "conf": 0.5
+    }
+   ]
+  },
+  {
+   "i": 5,
+   "text": "Choice, options mein se ek.",
+   "start": 10.83,
+   "end": 12.59,
+   "words": [
+    {
+     "w": "Choice,",
+     "start": 10.83,
+     "end": 11.22,
+     "conf": 0.5
+    },
+    {
+     "w": "options",
+     "start": 11.36,
+     "end": 11.879,
+     "conf": 0.5
+    },
+    {
+     "w": "mein",
+     "start": 11.87,
+     "end": 12.192,
+     "conf": 0.5
+    },
+    {
+     "w": "se",
+     "start": 12.19,
+     "end": 12.391,
+     "conf": 0.5
+    },
+    {
+     "w": "ek.",
+     "start": 12.39,
+     "end": 12.59,
+     "conf": 0.5
+    }
+   ]
+  },
+  {
+   "i": 6,
+   "text": "Score, ek scale pe.",
+   "start": 12.93,
+   "end": 14.3,
+   "words": [
+    {
+     "w": "Score,",
+     "start": 12.93,
+     "end": 13.32,
+     "conf": 0.5
+    },
+    {
+     "w": "ek",
+     "start": 13.46,
+     "end": 13.685,
+     "conf": 0.5
+    },
+    {
+     "w": "scale",
+     "start": 13.68,
+     "end": 14.085,
+     "conf": 0.5
+    },
+    {
+     "w": "pe.",
+     "start": 14.08,
+     "end": 14.3,
+     "conf": 0.5
+    }
+   ]
+  },
+  {
+   "i": 7,
+   "text": "Noul, haan ya na ki probability.",
+   "start": 14.63,
+   "end": 16.7,
+   "words": [
+    {
+     "w": "Noul,",
+     "start": 14.63,
+     "end": 15.03,
+     "conf": 0.5
+    },
+    {
+     "w": "haan",
+     "start": 15.2,
+     "end": 15.415,
+     "conf": 0.5
+    },
+    {
+     "w": "ya",
+     "start": 15.41,
+     "end": 15.61,
+     "conf": 0.5
+    },
+    {
+     "w": "na",
+     "start": 15.61,
+     "end": 15.806,
+     "conf": 0.5
+    },
+    {
+     "w": "ki",
+     "start": 15.8,
+     "end": 16.001,
+     "conf": 0.5
+    },
+    {
+     "w": "probability.",
+     "start": 16.0,
+     "end": 16.7,
+     "conf": 0.5
+    }
+   ]
+  },
+  {
+   "i": 8,
+   "text": "Ek support ticket diya.",
+   "start": 17.43,
+   "end": 18.79,
+   "words": [
+    {
+     "w": "Ek",
+     "start": 17.43,
+     "end": 17.62,
+     "conf": 0.5
+    },
+    {
+     "w": "support",
+     "start": 17.62,
+     "end": 18.083,
+     "conf": 0.5
+    },
+    {
+     "w": "ticket",
+     "start": 18.08,
+     "end": 18.491,
+     "conf": 0.5
+    },
+    {
+     "w": "diya.",
+     "start": 18.49,
+     "end": 18.79,
+     "conf": 0.5
+    }
+   ]
+  },
+  {
+   "i": 9,
+   "text": "Stripe teen din se fail ho raha hai.",
+   "start": 19.12,
+   "end": 21.39,
+   "words": [
+    {
+     "w": "Stripe",
+     "start": 19.12,
+     "end": 19.546,
+     "conf": 0.5
+    },
+    {
+     "w": "teen",
+     "start": 19.54,
+     "end": 19.858,
+     "conf": 0.5
+    },
+    {
+     "w": "din",
+     "start": 19.85,
+     "end": 20.113,
+     "conf": 0.5
+    },
+    {
+     "w": "se",
+     "start": 20.11,
+     "end": 20.312,
+     "conf": 0.5
+    },
+    {
+     "w": "fail",
+     "start": 20.31,
+     "end": 20.624,
+     "conf": 0.5
+    },
+    {
+     "w": "ho",
+     "start": 20.62,
+     "end": 20.822,
+     "conf": 0.5
+    },
+    {
+     "w": "raha",
+     "start": 20.82,
+     "end": 21.135,
+     "conf": 0.5
+    },
+    {
+     "w": "hai.",
+     "start": 21.13,
+     "end": 21.39,
+     "conf": 0.5
+    }
+   ]
+  },
+  {
+   "i": 10,
+   "text": "Teen sawaal, ek hi call.",
+   "start": 21.72,
+   "end": 23.33,
+   "words": [
+    {
+     "w": "Teen",
+     "start": 21.72,
+     "end": 22.037,
+     "conf": 0.5
+    },
+    {
+     "w": "sawaal,",
+     "start": 22.03,
+     "end": 22.4,
+     "conf": 0.5
+    },
+    {
+     "w": "ek",
+     "start": 22.54,
+     "end": 22.811,
+     "conf": 0.5
+    },
+    {
+     "w": "hi",
+     "start": 22.81,
+     "end": 23.013,
+     "conf": 0.5
+    },
+    {
+     "w": "call.",
+     "start": 23.01,
+     "end": 23.33,
+     "conf": 0.5
+    }
+   ]
+  },
+  {
+   "i": 11,
+   "text": "Team, technical, 0.85.",
+   "start": 23.67,
+   "end": 26.21,
+   "words": [
+    {
+     "w": "Team,",
+     "start": 23.67,
+     "end": 24.01,
+     "conf": 0.5
+    },
+    {
+     "w": "technical,",
+     "start": 24.2,
+     "end": 24.75,
+     "conf": 0.5
+    },
+    {
+     "w": "0.85.",
+     "start": 24.9,
+     "end": 26.21,
+     "conf": 0.5
+    }
+   ]
+  },
+  {
+   "i": 12,
+   "text": "Urgent, 1.0.",
+   "start": 26.57,
+   "end": 28.18,
+   "words": [
+    {
+     "w": "Urgent,",
+     "start": 26.57,
+     "end": 26.99,
+     "conf": 0.5
+    },
+    {
+     "w": "1.0.",
+     "start": 27.14,
+     "end": 28.18,
+     "conf": 0.5
+    }
+   ]
+  },
+  {
+   "i": 13,
+   "text": "Sab typed, koi parsing nahi.",
+   "start": 28.52,
+   "end": 30.5,
+   "words": [
+    {
+     "w": "Sab",
+     "start": 28.52,
+     "end": 28.792,
+     "conf": 0.5
+    },
+    {
+     "w": "typed,",
+     "start": 28.79,
+     "end": 29.25,
+     "conf": 0.5
+    },
+    {
+     "w": "koi",
+     "start": 29.45,
+     "end": 29.655,
+     "conf": 0.5
+    },
+    {
+     "w": "parsing",
+     "start": 29.65,
+     "end": 30.168,
+     "conf": 0.5
+    },
+    {
+     "w": "nahi.",
+     "start": 30.16,
+     "end": 30.5,
+     "conf": 0.5
+    }
+   ]
+  },
+  {
+   "i": 14,
+   "text": "Jev sirf judgment deta hai.",
+   "start": 31.23,
+   "end": 32.91,
+   "words": [
+    {
+     "w": "Jev",
+     "start": 31.23,
+     "end": 31.486,
+     "conf": 0.5
+    },
+    {
+     "w": "sirf",
+     "start": 31.48,
+     "end": 31.799,
+     "conf": 0.5
+    },
+    {
+     "w": "judgment",
+     "start": 31.79,
+     "end": 32.341,
+     "conf": 0.5
+    },
+    {
+     "w": "deta",
+     "start": 32.34,
+     "end": 32.654,
+     "conf": 0.5
+    },
+    {
+     "w": "hai.",
+     "start": 32.65,
+     "end": 32.91,
+     "conf": 0.5
+    }
+   ]
+  },
+  {
+   "i": 15,
+   "text": "Threshold 0.90, to ticket review mein.",
+   "start": 33.32,
+   "end": 36.31,
+   "words": [
+    {
+     "w": "Threshold",
+     "start": 33.32,
+     "end": 33.912,
+     "conf": 0.5
+    },
+    {
+     "w": "0.90,",
+     "start": 33.91,
+     "end": 34.956,
+     "conf": 0.5
+    },
+    {
+     "w": "to",
+     "start": 34.95,
+     "end": 35.153,
+     "conf": 0.5
+    },
+    {
+     "w": "ticket",
+     "start": 35.15,
+     "end": 35.577,
+     "conf": 0.5
+    },
+    {
+     "w": "review",
+     "start": 35.57,
+     "end": 36.0,
+     "conf": 0.5
+    },
+    {
+     "w": "mein.",
+     "start": 36.0,
+     "end": 36.31,
+     "conf": 0.5
+    }
+   ]
+  },
+  {
+   "i": 16,
+   "text": "0.80 karo, seedha technical ko route.",
+   "start": 36.64,
+   "end": 39.83,
+   "words": [
+    {
+     "w": "0.80",
+     "start": 36.64,
+     "end": 37.758,
+     "conf": 0.5
+    },
+    {
+     "w": "karo,",
+     "start": 37.75,
+     "end": 38.074,
+     "conf": 0.5
+    },
+    {
+     "w": "seedha",
+     "start": 38.07,
+     "end": 38.654,
+     "conf": 0.5
+    },
+    {
+     "w": "technical",
+     "start": 38.65,
+     "end": 39.256,
+     "conf": 0.5
+    },
+    {
+     "w": "ko",
+     "start": 39.25,
+     "end": 39.457,
+     "conf": 0.5
+    },
+    {
+     "w": "route.",
+     "start": 39.45,
+     "end": 39.83,
+     "conf": 0.5
+    }
+   ]
+  },
+  {
+   "i": 17,
+   "text": "Action aapka code leta hai.",
+   "start": 40.16,
+   "end": 41.76,
+   "words": [
+    {
+     "w": "Action",
+     "start": 40.16,
+     "end": 40.567,
+     "conf": 0.5
+    },
+    {
+     "w": "aapka",
+     "start": 40.56,
+     "end": 40.919,
+     "conf": 0.5
+    },
+    {
+     "w": "code",
+     "start": 40.91,
+     "end": 41.218,
+     "conf": 0.5
+    },
+    {
+     "w": "leta",
+     "start": 41.21,
+     "end": 41.516,
+     "conf": 0.5
+    },
+    {
+     "w": "hai.",
+     "start": 41.51,
+     "end": 41.76,
+     "conf": 0.5
+    }
+   ]
+  },
+  {
+   "i": 18,
+   "text": "Classify aur route ke liye perfect.",
+   "start": 42.49,
+   "end": 44.45,
+   "words": [
+    {
+     "w": "Classify",
+     "start": 42.49,
+     "end": 42.98,
+     "conf": 0.5
+    },
+    {
+     "w": "aur",
+     "start": 42.98,
+     "end": 43.212,
+     "conf": 0.5
+    },
+    {
+     "w": "route",
+     "start": 43.21,
+     "end": 43.547,
+     "conf": 0.5
+    },
+    {
+     "w": "ke",
+     "start": 43.54,
+     "end": 43.728,
+     "conf": 0.5
+    },
+    {
+     "w": "liye",
+     "start": 43.72,
+     "end": 44.012,
+     "conf": 0.5
+    },
+    {
+     "w": "perfect.",
+     "start": 44.01,
+     "end": 44.45,
+     "conf": 0.5
+    }
+   ]
+  },
+  {
+   "i": 19,
+   "text": "Lekin maths, counting, ya text likhna?",
+   "start": 44.79,
+   "end": 47.35,
+   "words": [
+    {
+     "w": "Lekin",
+     "start": 44.79,
+     "end": 45.16,
+     "conf": 0.5
+    },
+    {
+     "w": "maths,",
+     "start": 45.16,
+     "end": 45.58,
+     "conf": 0.5
+    },
+    {
+     "w": "counting,",
+     "start": 45.77,
+     "end": 46.28,
+     "conf": 0.5
+    },
+    {
+     "w": "ya",
+     "start": 46.43,
+     "end": 46.61,
+     "conf": 0.5
+    },
+    {
+     "w": "text",
+     "start": 46.61,
+     "end": 46.923,
+     "conf": 0.5
+    },
+    {
+     "w": "likhna?",
+     "start": 46.92,
+     "end": 47.35,
+     "conf": 0.5
+    }
+   ]
+  },
+  {
+   "i": 20,
+   "text": "Jev nahi.",
+   "start": 47.68,
+   "end": 48.31,
+   "words": [
+    {
+     "w": "Jev",
+     "start": 47.68,
+     "end": 47.964,
+     "conf": 0.5
+    },
+    {
+     "w": "nahi.",
+     "start": 47.96,
+     "end": 48.31,
+     "conf": 0.5
+    }
+   ]
+  },
+  {
+   "i": 21,
+   "text": "Aur zero schema error ka matlab sahi answer nahi.",
+   "start": 48.64,
+   "end": 51.42,
+   "words": [
+    {
+     "w": "Aur",
+     "start": 48.64,
+     "end": 48.874,
+     "conf": 0.5
+    },
+    {
+     "w": "zero",
+     "start": 48.87,
+     "end": 49.16,
+     "conf": 0.5
+    },
+    {
+     "w": "schema",
+     "start": 49.16,
+     "end": 49.549,
+     "conf": 0.5
+    },
+    {
+     "w": "error",
+     "start": 49.54,
+     "end": 49.887,
+     "conf": 0.5
+    },
+    {
+     "w": "ka",
+     "start": 49.88,
+     "end": 50.069,
+     "conf": 0.5
+    },
+    {
+     "w": "matlab",
+     "start": 50.06,
+     "end": 50.459,
+     "conf": 0.5
+    },
+    {
+     "w": "sahi",
+     "start": 50.45,
+     "end": 50.744,
+     "conf": 0.5
+    },
+    {
+     "w": "answer",
+     "start": 50.74,
+     "end": 51.134,
+     "conf": 0.5
+    },
+    {
+     "w": "nahi.",
+     "start": 51.13,
+     "end": 51.42,
+     "conf": 0.5
+    }
+   ]
+  },
+  {
+   "i": 22,
+   "text": "LLM likhta hai.",
+   "start": 52.15,
+   "end": 53.44,
+   "words": [
+    {
+     "w": "LLM",
+     "start": 52.15,
+     "end": 52.502,
+     "conf": 0.5
+    },
+    {
+     "w": "likhta",
+     "start": 52.5,
+     "end": 53.088,
+     "conf": 0.5
+    },
+    {
+     "w": "hai.",
+     "start": 53.08,
+     "end": 53.44,
+     "conf": 0.5
+    }
+   ]
+  },
+  {
+   "i": 23,
+   "text": "Jev decide karta hai.",
+   "start": 53.78,
+   "end": 55.09,
+   "words": [
+    {
+     "w": "Jev",
+     "start": 53.78,
+     "end": 54.036,
+     "conf": 0.5
+    },
+    {
+     "w": "decide",
+     "start": 54.03,
+     "end": 54.463,
+     "conf": 0.5
+    },
+    {
+     "w": "karta",
+     "start": 54.46,
+     "end": 54.834,
+     "conf": 0.5
+    },
+    {
+     "w": "hai.",
+     "start": 54.83,
+     "end": 55.09,
+     "conf": 0.5
+    }
+   ]
+  },
+  {
+   "i": 24,
+   "text": "Code action leta hai.",
+   "start": 55.42,
+   "end": 56.63,
+   "words": [
+    {
+     "w": "Code",
+     "start": 55.42,
+     "end": 55.709,
+     "conf": 0.5
+    },
+    {
+     "w": "action",
+     "start": 55.7,
+     "end": 56.104,
+     "conf": 0.5
+    },
+    {
+     "w": "leta",
+     "start": 56.1,
+     "end": 56.393,
+     "conf": 0.5
+    },
+    {
+     "w": "hai.",
+     "start": 56.39,
+     "end": 56.63,
+     "conf": 0.5
+    }
+   ]
+  },
+  {
+   "i": 25,
+   "text": "Aap kahan use karoge? Comment karo.",
+   "start": 56.97,
+   "end": 59.42,
+   "words": [
+    {
+     "w": "Aap",
+     "start": 56.97,
+     "end": 57.228,
+     "conf": 0.5
+    },
+    {
+     "w": "kahan",
+     "start": 57.22,
+     "end": 57.6,
+     "conf": 0.5
+    },
+    {
+     "w": "use",
+     "start": 57.6,
+     "end": 57.858,
+     "conf": 0.5
+    },
+    {
+     "w": "karoge?",
+     "start": 57.85,
+     "end": 58.288,
+     "conf": 0.5
+    },
+    {
+     "w": "Comment",
+     "start": 58.28,
+     "end": 59.105,
+     "conf": 0.5
+    },
+    {
+     "w": "karo.",
+     "start": 59.1,
+     "end": 59.42,
+     "conf": 0.5
+    }
+   ]
+  }
+ ],
+ "extras": [],
+ "notes": "aligned with energy engine, refined against silences"
+}

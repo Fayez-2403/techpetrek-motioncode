@@ -1,0 +1,19 @@
+{
+ "source": "https://www.youtube.com/watch?v=yydNF8tuVmU (Daft Punk channel, official audio)",
+ "source_sha256": "77f8d2b40101749457250dc2fc6458e0557af794f15d86f621b813bc25571b18",
+ "window_source_seconds": [
+  78.9855,
+  104.2593
+ ],
+ "music_cut_source_seconds": 100.371,
+ "pulse_seconds": 0.48603,
+ "grid": "constant grid fitted to DP beats; one half-beat = one score eighth; a section = one bar",
+ "edit": "one continuous excerpt; 30 ms fade-in, 4 ms fade-out; no stretch or pitch change",
+ "loudness_in": {
+  "input_i": "-13.38",
+  "input_tp": "0.38",
+  "input_lra": "3.20"
+ },
+ "loudness_target": "-14 LUFS integrated, -1 dBTP",
+ "voiceover": false
+}

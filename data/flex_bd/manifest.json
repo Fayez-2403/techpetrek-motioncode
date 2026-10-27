@@ -1,0 +1,19 @@
+{
+ "source": "https://www.youtube.com/watch?v=hOHKltAiKXQ (Hanumankind channel, official music video)",
+ "source_sha256": "fa998b4b0405912cb81216f70bd22c57ef940ddf17477d70bfc7eaf8011d3dbb",
+ "window_source_seconds": [
+  68.9352,
+  100.9399
+ ],
+ "music_cut_source_seconds": 98.2729,
+ "pulse_seconds": 0.33338,
+ "grid": "constant grid fitted to DP beats; one score eighth per unit; a section = one bar",
+ "edit": "one continuous excerpt; 30 ms fade-in, 4 ms fade-out; no stretch or pitch change",
+ "loudness_in": {
+  "input_i": "-7.78",
+  "input_tp": "0.69",
+  "input_lra": "1.60"
+ },
+ "loudness_target": "-14 LUFS integrated, -1 dBTP",
+ "voiceover": false
+}

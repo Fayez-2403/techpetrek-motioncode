@@ -1,0 +1,19 @@
+{
+ "source": "https://www.youtube.com/watch?v=r7Ve8ExE8YY (CloudKid channel, 'Black Coast - TRNDSTTR (Lucian Remix)')",
+ "source_sha256": "ad242bf271be07893ed41ec27a469e5984c1d9732cf0e9162561c6079817c9ea",
+ "window_source_seconds": [
+  55.6323,
+  79.6257
+ ],
+ "music_cut_source_seconds": 75.9344,
+ "pulse_seconds": 0.46141,
+ "grid": "constant grid fitted to DP beats; one score eighth per unit; a section = one bar",
+ "edit": "one continuous excerpt; 5 ms fade-in, 4 ms fade-out; no stretch or pitch change",
+ "loudness_in": {
+  "input_i": "-6.45",
+  "input_tp": "0.72",
+  "input_lra": "1.70"
+ },
+ "loudness_target": "-14 LUFS integrated, -1 dBTP",
+ "voiceover": false
+}

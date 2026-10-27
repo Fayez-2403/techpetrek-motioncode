@@ -1,0 +1,328 @@
+<!doctype html><html><head><meta charset="utf-8"><title>Claude Opus 5.5 · 200IQ Implementation</title><style>
+@font-face{font-family:AxW;src:url(file:///C:/Users/ce/motion-as-code/app/public/fonts/Archivo-w1250-900.ttf)}
+@font-face{font-family:Ax9;src:url(file:///C:/Users/ce/motion-as-code/app/public/fonts/Archivo-w1000-900.ttf)}
+@font-face{font-family:Ax7;src:url(file:///C:/Users/ce/motion-as-code/app/public/fonts/Archivo-w1000-700.ttf)}
+@font-face{font-family:Ax5;src:url(file:///C:/Users/ce/motion-as-code/app/public/fonts/Archivo-w1000-500.ttf)}
+@font-face{font-family:Mono;src:url(file:///C:/Users/ce/motion-as-code/app/public/fonts/src/IBMPlexMono-Medium.ttf)}
+@font-face{font-family:MonoB;src:url(file:///C:/Users/ce/motion-as-code/app/public/fonts/src/IBMPlexMono-SemiBold.ttf)}
+@page{size:108mm 192mm;margin:0}
+*{box-sizing:border-box;-webkit-print-color-adjust:exact;print-color-adjust:exact}
+html,body{margin:0;background:#121410;color:#efeee4}
+.page{width:108mm;height:192mm;padding:11mm 8mm 10mm;position:relative;overflow:hidden;page-break-after:always;font:8.4pt/1.42 Ax5}
+a{color:#d8fa79;text-decoration:none}
+b{font-family:Ax7;font-weight:normal}
+code{font:7pt Mono;color:#d8fa79}
+.kick{font:7.4pt MonoB;color:#d8fa79;margin-bottom:3.2mm}
+h1{font:40pt/0.92 AxW;margin:0;letter-spacing:-.3pt}
+h2{font:19pt/1.0 Ax9;margin:0 0 4mm;letter-spacing:-.2pt}
+h3{font:10pt Ax9;margin:4mm 0 2mm;color:#d8fa79}
+p{margin:0 0 2.4mm}
+.small{font-size:7.6pt;color:#c9c9bd}
+.foot{position:absolute;left:8mm;right:8mm;bottom:5mm;display:flex;justify-content:space-between;font:6pt Mono;color:#6d7363}
+.cover{padding-top:9mm}
+.cover .strip{display:flex;gap:2mm;margin:0 0 7mm}
+.cover .strip img{width:21.5mm;height:38.2mm;object-fit:cover;border-radius:2mm}
+.cover h1{color:#efeee4}
+.cover .iq{font:30pt/0.95 AxW;color:#d8fa79;margin:2mm 0 5mm}
+.iq span{font:13pt Ax9;color:#efeee4;letter-spacing:1.5pt}
+.cover .lede{font:9.4pt/1.35 Ax5;color:#dcdccf;max-width:84mm}
+.by{position:absolute;bottom:10mm;left:8mm;font:8pt Mono;color:#c9c9bd}
+.by b{color:#d8fa79;font-family:MonoB}
+.toc{list-style:none;padding:0;margin:0 0 4mm;counter-reset:t}
+.toc li{counter-increment:t;padding:1.6mm 0;border-bottom:.3mm solid #2c3127;display:grid;grid-template-columns:7mm 1fr;column-gap:1mm}
+.toc li:before{content:counter(t,decimal-leading-zero);font:7pt MonoB;color:#d8fa79;grid-row:span 2;padding-top:.6mm}
+.toc li b{font:9pt Ax9}
+.toc li span{font:7.2pt Ax5;color:#b9bbad}
+.stats{display:grid;grid-template-columns:repeat(4,1fr);gap:1.5mm;margin:3mm 0}
+.stats div{background:#1d211a;border-radius:2mm;padding:2.2mm 2mm}
+.stats b{display:block;font:12pt Ax9;color:#d8fa79}
+.stats span{font:6pt Mono;color:#a9ab9c}
+.stats.four b{font-size:9.6pt}
+.steps{padding-left:4.5mm;margin:0}
+.steps li{margin-bottom:1.8mm}
+.steps.tight li{margin-bottom:1.2mm;font-size:7.6pt}
+.box{background:#1b1e18;border:.3mm solid #3a4034;border-radius:2.5mm;padding:3.2mm;font:6.4pt/1.46 Mono;color:#efeee4;white-space:pre-wrap;margin:0}
+.card{background:#1b1e18;border-radius:2.5mm;padding:2.8mm 3.2mm;margin-bottom:2.4mm;border-left:.8mm solid #d8fa79}
+.card .ct{display:flex;justify-content:space-between;align-items:baseline}
+.card .ct a{font:10.5pt Ax9;color:#efeee4}
+.card .ct span{font:6pt Mono;color:#ff6a3d}
+.card .cu{font:6.4pt Mono;margin:.4mm 0 1.4mm}
+.card p{font-size:7.6pt;margin:0 0 1mm;color:#dcdccf}
+.card .open{font-size:6.8pt;color:#a9ab9c}
+.mini{font-size:7.2pt;color:#c9c9bd;margin-top:2mm}
+img.wide{width:100%;height:38mm;object-fit:cover;object-position:center 42%;border-radius:2.5mm;margin:0 0 3mm}
+img.wide.short{height:44mm;margin-top:3mm;object-position:center 21%}
+.rules{padding-left:0;list-style:none;counter-reset:r;margin:0}
+.rules li{counter-increment:r;position:relative;padding:2.3mm 0 2.3mm 10mm;border-bottom:.3mm solid #2c3127;font-size:8.4pt}
+.rules li:before{content:counter(r,decimal-leading-zero);position:absolute;left:0;top:2.1mm;font:12pt Ax9;color:#d8fa79;line-height:1}
+.grid{display:grid;grid-template-columns:repeat(4,1fr);gap:2mm}
+.grid figure{margin:0}
+.grid img{width:100%;aspect-ratio:9/16;object-fit:cover;border-radius:1.6mm;display:block}
+.grid figcaption{font:5.8pt/1.3 Mono;color:#c9c9bd;margin-top:.8mm}
+.grid figcaption b{font-family:MonoB;color:#d8fa79}
+.md{font-size:7.25pt;line-height:1.42}
+.md h3{font-size:8.6pt;margin:3mm 0 1.4mm}
+.md h3:first-child{margin-top:0}
+.md ul,.md ol{padding-left:4.2mm;margin:0 0 1.6mm}
+.md li{margin-bottom:1.1mm}
+.md p{margin:0 0 1.6mm}
+.md code{font-size:6.5pt}
+.check{padding-left:4mm;margin:0}
+.check li{margin-bottom:2mm;font-size:7.8pt}
+.end .iq.small2{font:14pt/1.05 AxW;color:#d8fa79;margin:5mm 0}
+.end .iq.small2 span{font:9pt Ax5;color:#efeee4;letter-spacing:0}
+</style></head><body><section class="page cover">
+  <div class="strip"><img src="file:///C:/Users/ce/motion-as-code/kit/src/img/r_01.60.jpg"><img src="file:///C:/Users/ce/motion-as-code/kit/src/img/r_10.90.jpg"><img src="file:///C:/Users/ce/motion-as-code/kit/src/img/r_18.70.jpg"><img src="file:///C:/Users/ce/motion-as-code/kit/src/img/r_20.45.jpg"></div>
+  <div class="kick">// the kit behind the MOTION FLEX reel</div>
+  <h1>CLAUDE<br>OPUS 5.5</h1>
+  <div class="iq">200IQ<br><span>IMPLEMENTATION</span></div>
+  <p class="lede">How to make a beat-synced motion reel entirely in code: no After Effects, no timeline, every frame written by Claude.</p>
+  <div class="by">by <b>Techpe Trek</b></div></section>
+<section class="page ">
+  <div class="kick">// what's inside</div>
+  <h2>Everything I used.<br>Nothing held back.</h2>
+  <ol class="toc">
+    <li><b>The one-paste setup</b><span>Paste it into Claude Code; it installs everything.</span></li>
+    <li><b>The repos + skills</b><span>What each one is, and which file to open first.</span></li>
+    <li><b>The beat-sync method</b><span>How every cut lands on the song.</span></li>
+    <li><b>The 10 motion rules</b><span>What makes it look like a studio, not an AI slideshow.</span></li>
+    <li><b>The continuous chain</b><span>How each scene becomes the next.</span></li>
+    <li><b>The perfect prompt</b><span>Fill in the brackets, paste, direct.</span></li>
+    <li><b>Export + posting checklist</b><span>Safe zone, codecs, loudness, music.</span></li>
+  </ol>
+  <div class="stats"><div><b>43 s</b><span>full reel</span></div><div><b>60</b><span>fps</span></div><div><b>2,619</b><span>frames</span></div><div><b>98.97</b><span>bpm, measured</span></div></div>
+  <h3>How to use this kit</h3>
+  <ol class="steps"><li>Do the <b>one-paste setup</b> once (page 3).</li><li>Fill in the <b>prompt</b> (pages 9–14) with your song and your idea.</li><li>Paste it into Claude Code on Opus 5.5. Review stills, give notes, approve the render.</li></ol><div class="foot"><span>CLAUDE OPUS 5.5 · 200IQ IMPLEMENTATION</span><span>02</span></div></section>
+<section class="page ">
+  <div class="kick">// 01 · the one-paste setup</div>
+  <h2>Paste this into<br>Claude Code. Once.</h2>
+  <p class="small">Open a terminal, run <code>claude</code>, choose Opus 5.5, paste the whole box. Claude checks your machine, installs the skills and reads the references.</p>
+  <pre class="box">Set up my computer for code-rendered motion
+design. Do each step, check that it worked, and
+tell me if anything fails.
+
+1. Check these are installed; install whatever
+   is missing for my OS: Node.js 22+, Bun, git,
+   ffmpeg (with libx264), Google Chrome, and
+   Python 3.10+ with numpy, scipy and librosa.
+
+2. Install these skill packs for Claude Code.
+   If a command opens a picker, choose Claude
+   Code and all skills (or use --all / --yes):
+   npx skills add charlie947/motion-graphics-skills
+   npx skills add heygen-com/hyperframes --all
+   npx skills add remotion-dev/skills
+   npx skills@latest add emilkowalski/skills
+   Then list the installed skills and confirm
+   each one has a SKILL.md.
+
+3. Make a folder ~/motion-lab and clone these
+   references into it (read them, don't edit):
+   git clone https://github.com/mexicat/pdoom-video
+   git clone https://github.com/JohnHeibel/ClaudeAnimationBase
+
+4. In pdoom-video/app run "bun install", then
+   "bunx vite"; confirm the preview opens at
+   http://localhost:5173, then stop it.
+
+5. Read pdoom-video/docs/ENGINE.md,
+   ClaudeAnimationBase/ANIMATION_GUIDE.md and
+   the motion-effects skill's
+   references/effects.md. Summarise in 10
+   bullets what you will apply to a reel.
+
+6. Say "Ready for the brief" and wait for my
+   prompt.md.</pre><div class="foot"><span>CLAUDE OPUS 5.5 · 200IQ IMPLEMENTATION</span><span>03</span></div></section>
+<section class="page ">
+  <div class="kick">// 02 · the repos + skills (1/2)</div>
+  <h2>The skills</h2>
+  
+  <div class="card"><div class="ct"><a href="https://github.com/charlie947/motion-graphics-skills">motion-graphics-skills</a><span>MIT</span></div>
+  <div class="cu"><a href="https://github.com/charlie947/motion-graphics-skills">github.com/charlie947/motion-graphics-skills</a></div>
+  <p>Claude Code skills for motion: 16 UI morphs, kinetic type, particle logos, 3D titles, reel export. Brand-safe rules.</p><p class="open">Open first: <code>skills/motion-effects/references/effects.md</code>, <code>reel-export/SKILL.md</code></p></div>
+  
+  <div class="card"><div class="ct"><a href="https://github.com/heygen-com/hyperframes">HyperFrames</a><span>Apache-2.0</span></div>
+  <div class="cu"><a href="https://github.com/heygen-com/hyperframes">github.com/heygen-com/hyperframes</a></div>
+  <p>HTML → MP4 video framework with the deepest library of motion rules: transitions, beat landing, easing, camera.</p><p class="open">Open first: <code>skills/music-to-video/references/motion-primitive-catalog.md</code>, <code>.claude/skills/cut-the-curve</code></p></div>
+  
+  <div class="card"><div class="ct"><a href="https://github.com/remotion-dev/skills">Remotion skills</a><span>no licence file</span></div>
+  <div class="cu"><a href="https://github.com/remotion-dev/skills">github.com/remotion-dev/skills</a></div>
+  <p>Official agent skills for Remotion: drive every animation from the frame, keep one audio clock.</p><p class="open">Open first: <code>skills/remotion-best-practices/SKILL.md</code>, <code>timing.md</code></p></div>
+  
+  <div class="card"><div class="ct"><a href="https://github.com/emilkowalski/skills">Emil Kowalski skills</a><span>MIT</span></div>
+  <div class="cu"><a href="https://github.com/emilkowalski/skills">github.com/emilkowalski/skills</a></div>
+  <p>Animation taste from a top UI engineer: springs, timing, reviewing motion.</p><p class="open">Open first: <code>apple-design</code>, <code>animate</code>, <code>review-animations</code></p></div><div class="foot"><span>CLAUDE OPUS 5.5 · 200IQ IMPLEMENTATION</span><span>04</span></div></section>
+<section class="page ">
+  <div class="kick">// 02 · the repos + skills (2/2)</div>
+  <h2>Engines, acting, taste</h2>
+  
+  <div class="card"><div class="ct"><a href="https://github.com/mexicat/pdoom-video">pdoom-video</a><span>MIT (code only)</span></div>
+  <div class="cu"><a href="https://github.com/mexicat/pdoom-video">github.com/mexicat/pdoom-video</a></div>
+  <p>The engine this reel is built on: a music video where every frame is a pure function of song time, with audio analysis and motion blur.</p><p class="open">Open first: <code>docs/ENGINE.md</code>, <code>docs/TREATMENT.md</code></p></div>
+  
+  <div class="card"><div class="ct"><a href="https://github.com/JohnHeibel/ClaudeAnimationBase">ClaudeAnimationBase</a><span>MIT</span></div>
+  <div class="cu"><a href="https://github.com/JohnHeibel/ClaudeAnimationBase">github.com/JohnHeibel/ClaudeAnimationBase</a></div>
+  <p>A cartoon starter with the best guide to character timing: eyes lead, then the body; anticipation; squash.</p><p class="open">Open first: <code>ANIMATION_GUIDE.md</code></p></div>
+  
+  <div class="card"><div class="ct"><a href="https://github.com/mrdoob/three.js">three.js</a><span>MIT</span></div>
+  <div class="cu"><a href="https://github.com/mrdoob/three.js">github.com/mrdoob/three.js</a></div>
+  <p>3D for the web. For reels: drive it from t, not from a clock.</p><p class="open">Open first: <code>InstancedMesh</code>, <code>AnimationMixer.setTime</code></p></div>
+  
+  <div class="card"><div class="ct"><a href="https://github.com/remotion-dev/remotion">Remotion</a><span>Remotion licence</span></div>
+  <div class="cu"><a href="https://github.com/remotion-dev/remotion">github.com/remotion-dev/remotion</a></div>
+  <p>Make videos in React. Mature, big ecosystem.</p><p class="open">Open first: <code>packages/core/src/spring</code></p></div>
+  <div class="mini"><b>Also:</b>
+    <a href="https://github.com/anthropics/skills">anthropics/skills</a> (frontend-design: the "AI look" tells) ·
+    <a href="https://github.com/alexgreensh/anidoodle">anidoodle</a> (motion-grammar.md) ·
+    <a href="https://github.com/alchaincyf/huashu-art-motion">huashu-art-motion</a> (anti-slideshow gate) ·
+    <a href="https://github.com/guanmo-ai/awesome-ai-motion">awesome-ai-motion</a> (inspiration)</div><div class="foot"><span>CLAUDE OPUS 5.5 · 200IQ IMPLEMENTATION</span><span>05</span></div></section>
+<section class="page ">
+  <div class="kick">// 03 · the beat-sync method</div>
+  <h2>Measure the song.<br>Then animate.</h2>
+  <img class="wide" src="file:///C:/Users/ce/motion-as-code/kit/src/img/intro_grid.jpg">
+  <ol class="steps tight">
+    <li><b>Use the exact audio you'll post.</b> My Short is a slower edit than the official "ultra slowed"; the tempo is different.</li>
+    <li><b>Find the kicks:</b> the steepest rise of the 35–160 Hz energy, at about 3 ms resolution.</li>
+    <li><b>Fit the eighth-note pulse</b> by robust least squares; hits more than 15 ms off are swing, so drop them.</li>
+    <li><b>Mark the bars, the breakdowns</b> (bass drops out) <b>and the drops.</b></li>
+    <li><b>Repeat whole phrases on bar lines</b> with 4 ms splices; never stretch the song. A whole number of phrases loops seamlessly.</li>
+    <li><b>Write the score in bars + eighths.</b> Snap each hit to the measured onset within 70 ms.</li>
+    <li><b>Moves land on the hit</b> (start early). Accents fire 0–45 ms after it. Cuts take 0 ms.</li>
+    <li><b>Sound effects come from the same cue file.</b> Mix at −14 LUFS, true peak −1 dBTP or lower.</li>
+  </ol>
+  <div class="stats four"><div><b>0.3031 s</b><span>eighth</span></div><div><b>2.425 s</b><span>bar = 1 scene</span></div><div><b>9.70 s</b><span>drop 1: product</span></div><div><b>24.25 s</b><span>drop 2: title</span></div></div><div class="foot"><span>CLAUDE OPUS 5.5 · 200IQ IMPLEMENTATION</span><span>06</span></div></section>
+<section class="page ">
+  <div class="kick">// 04 · the 10 motion rules</div>
+  <h2>Studio, not slideshow.</h2>
+  <ol class="rules">
+    <li><b>One clock.</b> Every frame = f(t). Seeded randomness only.</li>
+    <li><b>One object across every cut.</b> Change what it is mid-move. Never crossfade copies.</li>
+    <li><b>New composition every scene.</b> Own layout, colour field, type treatment.</li>
+    <li><b>Small overshoot.</b> Spring damping 0.8–1.0; no default bounce.</li>
+    <li><b>Draw lines, never fade them.</b> Counters lock on the kick.</li>
+    <li><b>Hits stack on one frame:</b> flash, 2 inverted frames, shake, ring.</li>
+    <li><b>Audio drives behaviour.</b> The real waveform, the real bar; no EQ bars or orbs.</li>
+    <li><b>One camera move per phrase.</b> One quiet moment before each drop.</li>
+    <li><b>Real demos:</b> clicks, typing, loading, done. Label fictional brands.</li>
+    <li><b>Safe zone + loop.</b> Words in y 360–1420, clear of the right 120 px; premise on frame 0; end on frame 0.</li>
+  </ol><div class="foot"><span>CLAUDE OPUS 5.5 · 200IQ IMPLEMENTATION</span><span>07</span></div></section>
+<section class="page ">
+  <div class="kick">// 05 · the continuous chain</div>
+  <h2>Every scene becomes the next.</h2>
+  <div class="grid"><figure><img src="file:///C:/Users/ce/motion-as-code/kit/src/img/r_01.60.jpg"><figcaption><b>01</b> cube → type slabs</figcaption></figure><figure><img src="file:///C:/Users/ce/motion-as-code/kit/src/img/r_03.90.jpg"><figcaption><b>02</b> slabs → browser</figcaption></figure><figure><img src="file:///C:/Users/ce/motion-as-code/kit/src/img/r_06.95.jpg"><figcaption><b>03</b> browser → phone</figcaption></figure><figure><img src="file:///C:/Users/ce/motion-as-code/kit/src/img/r_08.30.jpg"><figcaption><b>04</b> card → dashboard</figcaption></figure><figure><img src="file:///C:/Users/ce/motion-as-code/kit/src/img/r_10.90.jpg"><figcaption><b>05</b> chart bar → product</figcaption></figure><figure><img src="file:///C:/Users/ce/motion-as-code/kit/src/img/r_13.40.jpg"><figcaption><b>06</b> product → modules</figcaption></figure><figure><img src="file:///C:/Users/ce/motion-as-code/kit/src/img/r_15.70.jpg"><figcaption><b>07</b> modules → character</figcaption></figure><figure><img src="file:///C:/Users/ce/motion-as-code/kit/src/img/r_18.70.jpg"><figcaption><b>08</b> world → 3D city</figcaption></figure><figure><img src="file:///C:/Users/ce/motion-as-code/kit/src/img/r_20.45.jpg"><figcaption><b>09</b> city → record</figcaption></figure><figure><img src="file:///C:/Users/ce/motion-as-code/kit/src/img/r_23.50.jpg"><figcaption><b>10</b> record → one idea</figcaption></figure><figure><img src="file:///C:/Users/ce/motion-as-code/kit/src/img/r_24.60.jpg"><figcaption><b>11</b> idea → every scene</figcaption></figure><figure><img src="file:///C:/Users/ce/motion-as-code/kit/src/img/r_28.40.jpg"><figcaption><b>12</b> scenes → title</figcaption></figure></div><div class="foot"><span>CLAUDE OPUS 5.5 · 200IQ IMPLEMENTATION</span><span>08</span></div></section>
+<section class="page prompt"><div class="kick">// 06 · the perfect prompt (1/6)</div>
+    <h2>Fill in the [brackets].<br>Paste. Direct.</h2><p class="small">Also in <b>prompt.md</b>. The song is the one I used; swap in yours.</p>
+    <div class="md"><h3>ROLE</h3>
+<p>You are a motion design director, creative coder and music-video editor. Build a 9:16 motion reel entirely in code. It has to look like a top motion studio's showreel, not an AI slideshow. Work in this folder, explain each step in a sentence before you do it, and show me stills before any long render.</p>
+<h3>THE BRIEF</h3>
+<ul>
+<li><b>Song:</b> [Matushka Ultrafunk (ultra slowed), https://www.youtube.com/shorts/wm8wIdmbVRo, file: ./song.m4a]. Swap in your own song; use the exact file and speed you will post with.</li>
+<li><b>Length:</b> [12 bars of the song, about 29 s at this tempo]. Choose a whole number of the song's phrases, so the reel loops seamlessly.</li>
+<li><b>Hook question on screen:</b> ["WHAT CAN YOU BUILD?"]</li>
+<li><b>The creations to show, one per bar:</b> [websites · apps · dashboards · a product film · motion graphics · an animated story · a 3D world · sound you can see]</li>
+<li><b>Payoff copy:</b> ["ONE IDEA." · "ENDLESS POSSIBILITIES."]</li>
+<li><b>Final lockup:</b> ["MOTION FLEX" / "Powered by Claude Opus 5.5"]</li>
+<li><b>Call to action:</b> [Comment "MOTION" / I'll DM you every skill + repo behind this reel.]</li>
+<li><b>Brand:</b> [near-black #121410, bone #efeee4, electric accent #d8fa79, one content colour #ff6a3d; Archivo for display, IBM Plex Mono for code]. If I give no brand, use near-black, warm white and one electric accent.</li>
+<li><b>Formats:</b> 1080×1920, 60 fps, H.264 (primary). [Also a 1920×1080 cut if practical.]</li>
+<li><b>Voice:</b> [none; music only]. Never claim audio that was not generated.</li>
+</ul></div><div class="foot"><span>CLAUDE OPUS 5.5 · 200IQ IMPLEMENTATION</span><span>09</span></div></section>
+<section class="page prompt"><div class="kick">// 06 · the perfect prompt (2/6)</div>
+    
+    <div class="md"><h3>STEP 1: MEASURE THE SONG (before any visuals)</h3>
+<ol>
+<li>Decode the exact file. Find the kick attacks: the steepest rise of the 35–160 Hz envelope, at about 3 ms resolution.</li>
+<li>Fit the eighth-note pulse to those attacks with robust least squares. Drop hits more than 15 ms off the line; that's swing. Report the eighth, beat, bar and BPM, and the residuals.</li>
+<li>Bars are 8 eighths. Find each breakdown (where the bass drops out) and each drop (where it returns). Don't trust a BPM from the internet. If the song has two tempo readings (half or double time), tell me which you chose and why.</li>
+<li>If the song must be longer than the clip, repeat whole phrases on bar lines with 4 ms equal-power splices. Never time-stretch or pitch-shift.</li>
+<li>Save the measurements, the source hash and the method in a manifest.</li>
+</ol>
+<h3>STEP 2: WRITE THE SCORE IN MUSICAL UNITS</h3>
+<ul>
+<li>Write a <code>score.json</code>. Each section starts on a bar line, and each event is <code>[bar, eighth]</code>, optionally snapped to a measured onset within 70 ms.</li>
+<li>Use one section per bar. The first breakdown and drop go to the biggest reveal; the last breakdown is the quiet "one idea" moment; the last drop is the explosion before the title.</li>
+<li>A script resolves the score into seconds (<code>cues.json</code>). Every visual and every sound effect reads only that file.</li>
+<li>Moves that must land on a hit start early and finish on it. Reactive accents fire 0–45 ms after the hit. Hard cuts and colour flips take 0 ms.</li>
+</ul></div><div class="foot"><span>CLAUDE OPUS 5.5 · 200IQ IMPLEMENTATION</span><span>10</span></div></section>
+<section class="page prompt"><div class="kick">// 06 · the perfect prompt (3/6)</div>
+    
+    <div class="md"><h3>STEP 3: BUILD IT DETERMINISTIC</h3>
+<ul>
+<li>Every frame is a pure function of time: <code>drawFrame(ctx, t)</code>. No <code>Math.random</code>, <code>Date.now</code> or real-time loops; seed any randomness. Expose <code>seek(t)</code> so any frame renders on its own.</li>
+<li>Draw vector frames straight at 1080×1920 (Canvas2D or WebGL). Blend 4 sub-frames across a 180° shutter for motion blur.</li>
+<li>Encode H.264 High, yuv420p, BT.709 limited range with full colour tags, AAC 48 kHz, faststart. Mix at −14 LUFS with a true peak of −1 dBTP or lower.</li>
+<li>Start from a deterministic engine: - <a href="https://github.com/mexicat/pdoom-video">pdoom-video</a> (what this reel used) - <a href="https://github.com/heygen-com/hyperframes">HyperFrames</a> (HTML) - <a href="https://github.com/remotion-dev/remotion">Remotion</a> (React)</li>
+</ul></div><div class="foot"><span>CLAUDE OPUS 5.5 · 200IQ IMPLEMENTATION</span><span>11</span></div></section>
+<section class="page prompt"><div class="kick">// 06 · the perfect prompt (4/6)</div>
+    
+    <div class="md"><h3>STEP 4: THE MOTION RULES</h3>
+<ol>
+<li><b>One continuous journey.</b> Each creation physically becomes the next: - the hook object unfolds into the type, and the type stack becomes a browser; - the browser narrows into a phone while its content reflows; - the app's result card opens into a dashboard, and the card's bars become the chart's bars; - a chart bar rises into a product, which shatters into modules; - the modules build a character, whose world folds into a 3D city; - the city contracts into a record, which collapses into the hook object; - that object explodes into every scene, and the scenes fill the letters of the title. Never crossfade two copies of a thing. Move one object and change what it is mid-move.</li>
+<li><b>Every section gets its own composition, colour field and type treatment.</b> Use masks, split-flaps, vertical type, elastic width, 3D billboards and audio-reactive letters. Never repeat "title on top, card in the middle".</li>
+<li><b>Use real springs.</b> Damping ratio 0.8–1.0 (about 1% overshoot); no default bounce or elastic easing.</li>
+<li><b>Draw lines, don't fade them in.</b> Counters count up, then lock on the kick. Hits stack on one frame: flash, 2 inverted frames, shake, ring.</li>
+<li><b>Audio drives behaviour, not decoration.</b> Draw the song's real waveform and the bar's measured bass. No EQ bars, no pulsing orbs, no generic particles or gradients.</li>
+<li><b>One camera move per phrase,</b> never per beat. Hold one quiet moment before each drop.</li>
+<li><b>Make it real.</b> Show actual animated demos (navigation, cursor clicks, typing in an input, loading, done). Label invented brands and data as fictional.</li>
+<li><b>Show the process.</b> Add a small code line at the bottom of every scene: that scene's real code, the clock and the eighth notes of the bar.</li>
+<li><b>Safe zone.</b> Every word sits between y 360 and 1420 and clear of the right 120 px of the 1080×1920 frame. Headlines are 90 px or more, labels 24 px or more.</li>
+<li><b>Engagement.</b> The premise is readable on frame 0. There's a payoff every bar. The CTA is big and holds at least 2 s. The last 0.25 s collapse back into frame 0, so the reel loops.</li>
+</ol></div><div class="foot"><span>CLAUDE OPUS 5.5 · 200IQ IMPLEMENTATION</span><span>12</span></div></section>
+<section class="page prompt"><div class="kick">// 06 · the perfect prompt (5/6)</div>
+    
+    <div class="md"><h3>STEP 5: QUALITY CONTROL (before you say it's done)</h3>
+<ol>
+<li>Show me a shot list with exact times, then stills at key frames.</li>
+<li>Make a contact sheet every 0.5 s and a strip at 0.05 s spacing around every cut. Look for dead air, text collisions, pops at hand-offs and anything that looks generic. Fix the three worst problems, then re-check.</li>
+<li>Determinism: render a set of times forwards and in reverse; the frames must match byte for byte.</li>
+<li>Render a low-res animatic first, then ask me before the full 60 fps render.</li>
+<li>Check the export: resolution, frame count, duration, colour tags, loudness, and the audio-to-cue offset (it should be 0 ms). Pull frames from the encoded MP4 and look at them.</li>
+</ol>
+<h3>STEP 6: DELIVER</h3>
+<ul>
+<li>The reel MP4 (and the 16:9 cut if asked), a cover frame, the shot list, and short notes on any deviation from this brief.</li>
+<li>Also give me: a caption with the CTA, a pinned comment, and the credit line for the music.</li>
+</ul></div><div class="foot"><span>CLAUDE OPUS 5.5 · 200IQ IMPLEMENTATION</span><span>13</span></div></section>
+<section class="page prompt"><div class="kick">// 06 · the perfect prompt (6/6)</div>
+    
+    <div class="md"><h3>HONESTY RULES</h3>
+<ul>
+<li>Say "made in code with Claude Opus 5.5". Don't claim "100% AI": a human chose the song and the direction.</li>
+<li>Credit the engine, fonts and music. Demos of invented brands are labelled fictional. Every number on screen is either true or labelled sample data.</li>
+<li>Songs are copyrighted. Tell me to add the track from Instagram's music library at the edit's start, rather than relying on the file's own audio.</li>
+</ul>
+<h3>RESOURCES (read before building)</h3>
+<ul>
+<li><b>Skills:</b> - <a href="https://github.com/charlie947/motion-graphics-skills">motion-graphics-skills</a>: open <code>effects.md</code> (16 UI morphs and type recipes) and <code>reel-export</code>. - <a href="https://github.com/heygen-com/hyperframes">HyperFrames</a>: <code>music-to-video</code>, <code>hyperframes-animation</code>, and on GitHub the internal <code>cut-the-curve</code> and <code>motion-doctrine</code>. - <a href="https://github.com/remotion-dev/skills">Remotion skills</a> - <a href="https://github.com/emilkowalski/skills">Emil Kowalski's skills</a>: <code>apple-design</code>, <code>animate</code>.</li>
+<li><b>Engines:</b> - <a href="https://github.com/mexicat/pdoom-video">pdoom-video</a>: <code>docs/ENGINE.md</code>, <code>docs/TREATMENT.md</code>. - <a href="https://github.com/mrdoob/three.js">three.js</a> - <a href="https://github.com/remotion-dev/remotion">Remotion</a></li>
+<li><b>Character acting:</b> <a href="https://github.com/JohnHeibel/ClaudeAnimationBase">ClaudeAnimationBase</a>: <code>ANIMATION_GUIDE.md</code>.</li>
+<li><b>Taste and checks:</b> - <a href="https://github.com/anthropics/skills">anthropics/skills</a>: <code>frontend-design</code>, for the "AI look" tells to avoid. - <a href="https://github.com/alexgreensh/anidoodle">anidoodle</a>: <code>motion-grammar.md</code>, cuts that carry motion. - <a href="https://github.com/alchaincyf/huashu-art-motion">huashu-art-motion</a>: <code>film_gate.py</code>, a measured anti-slideshow gate.</li>
+<li><b>Inspiration:</b> <a href="https://github.com/guanmo-ai/awesome-ai-motion">awesome-ai-motion</a></li>
+</ul></div><div class="foot"><span>CLAUDE OPUS 5.5 · 200IQ IMPLEMENTATION</span><span>14</span></div></section>
+<section class="page ">
+  <div class="kick">// 07 · export + posting checklist</div>
+  <h2>Before you post</h2>
+  <ul class="check">
+    <li>1080×1920, 60 fps, H.264 High, yuv420p, BT.709 limited range, full colour tags, AAC 48 kHz, faststart.</li>
+    <li>Every word in y 360–1420 and clear of the right 120 px. Headlines 90 px or more, labels 24 px or more.</li>
+    <li>Determinism: render a set of times forwards and in reverse; the frames must match exactly.</li>
+    <li>A contact sheet every 0.5 s, plus a strip at 0.05 s around every cut. Fix dead air and pops.</li>
+    <li>Pull frames from the final MP4 and look at them; check the audio-to-cue offset is 0 ms.</li>
+    <li>Music: add the track from Instagram's music library at your edit's start and lower the original audio; otherwise the reel may be muted.</li>
+    <li>Cover: pick a frame with the hook and the title in the safe zone.</li>
+    <li>Caption: the premise in line 1, one CTA keyword, 3–5 hashtags. Pin a comment with the keyword.</li>
+  </ul>
+  <img class="wide short" src="file:///C:/Users/ce/motion-as-code/kit/src/img/intro_noae.jpg"><div class="foot"><span>CLAUDE OPUS 5.5 · 200IQ IMPLEMENTATION</span><span>15</span></div></section>
+<section class="page end">
+  <div class="kick">// credits + honesty</div>
+  <h2>Built in code with<br>Claude Opus 5.5.</h2>
+  <p>Every scene, the timing script and the renderer setup were written by Claude Opus 5.5 in Claude Code, directed by Techpe Trek.</p>
+  <ul class="check">
+    <li>Render engine: <a href="https://github.com/mexicat/pdoom-video">pdoom-video</a> by mexicat (MIT).</li>
+    <li>Fonts: Archivo and IBM Plex Mono (SIL OFL).</li>
+    <li>Music: MATUSHKA ULTRAFUNK (ultra slowed edit) by satirin, FUNK DEMON, EVO. All rights belong to them.</li>
+    <li>The website, app, dashboard data and the speaker in the reel are fictional demos.</li>
+    <li>Every repo and skill here belongs to its authors. Star them if they help you.</li>
+  </ul>
+  <div class="iq small2">MADE SOMETHING WITH THIS?<br><span>Tag Techpe Trek. I'll share the best ones.</span></div>
+  <div class="by">Follow <b>Techpe Trek</b> for more AI flex 🚀</div><div class="foot"><span>CLAUDE OPUS 5.5 · 200IQ IMPLEMENTATION</span><span>16</span></div></section></body></html>

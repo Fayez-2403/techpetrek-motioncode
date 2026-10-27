@@ -1,0 +1,47 @@
+{
+ "video": "projects\\kimi-k31-pro\\KIMI_K31_PRO_REEL_9x16.mp4",
+ "checks": [
+  {
+   "check": "1080 x 1920 (9:16)",
+   "pass": true,
+   "detail": "1080x1920"
+  },
+  {
+   "check": "H.264, yuv420p",
+   "pass": true,
+   "detail": "h264 yuv420p"
+  },
+  {
+   "check": "audio stream present (AAC)",
+   "pass": true,
+   "detail": "aac"
+  },
+  {
+   "check": "duration under 70 s",
+   "pass": true,
+   "detail": "69.300 s, 2079 frames at 30 fps"
+  },
+  {
+   "check": "frame count = 2079",
+   "pass": true,
+   "detail": "2079"
+  },
+  {
+   "check": "no unplanned silences",
+   "pass": true,
+   "detail": "0 silent 50 ms windows"
+  },
+  {
+   "check": "loudness about -14 LUFS (+/-1)",
+   "pass": true,
+   "detail": "-14.0 LUFS"
+  },
+  {
+   "check": "no flat / error frames (2 per second sampled)",
+   "pass": true,
+   "detail": "0 flat of 139"
+  }
+ ],
+ "passed": 8,
+ "total": 8
+}

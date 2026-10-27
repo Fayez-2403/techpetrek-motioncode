@@ -1,0 +1,58 @@
+{
+ "ph": {
+  "dir": "aura/frames/ph",
+  "ext": "jpg",
+  "n": 601,
+  "fps": 30,
+  "w": 608,
+  "h": 1080,
+  "src": "cinematics10seconds.mp4",
+  "crop_x": 656
+ },
+ "rec": {
+  "dir": "aura/frames/rec",
+  "ext": "jpg",
+  "n": 430,
+  "fps": 30,
+  "w": 1600,
+  "h": 934,
+  "src": "screengrab for reel.mp4"
+ },
+ "screens": {
+  "user_5": {
+   "src": "aura/screens/user_5.png",
+   "w": 444,
+   "h": 924
+  },
+  "user_6": {
+   "src": "aura/screens/user_6.png",
+   "w": 490,
+   "h": 858
+  },
+  "user_7": {
+   "src": "aura/screens/user_7.png",
+   "w": 502,
+   "h": 1116
+  },
+  "user_8": {
+   "src": "aura/screens/user_8.png",
+   "w": 874,
+   "h": 756
+  },
+  "user_9": {
+   "src": "aura/screens/user_9.png",
+   "w": 2558,
+   "h": 1490
+  },
+  "user_10": {
+   "src": "aura/screens/user_10.png",
+   "w": 2560,
+   "h": 1496
+  },
+  "user_11": {
+   "src": "aura/screens/user_11.png",
+   "w": 1390,
+   "h": 1030
+  }
+ }
+}

@@ -1,0 +1,74 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<!-- ASTRA.EXE reel cover, 1080x1920. The picture is a real frame of the lab (scripts/poster.ts: high quality, Cosmic
+     Fracture 0.75 s after impact, the bow drawn to 100% and aimed by the drag-to-aim control); only type and a grade
+     are laid over it. Every text element sits inside the 3:4 grid crop (y 240..1680). Render: bun scripts/poster_compose.ts -->
+<style>
+  @font-face { font-family: 'Archivo X'; src: url('../public/fonts/Archivo-w1250-900.ttf'); font-weight: 900; }
+  @font-face { font-family: 'Archivo X'; src: url('../public/fonts/Archivo-w1125-700.ttf'); font-weight: 700; }
+  @font-face { font-family: 'Archivo'; src: url('../public/fonts/Archivo-w1000-700.ttf'); font-weight: 700; }
+  @font-face { font-family: 'Cormorant'; src: url('../public/fonts/CormorantItalic-400.ttf'); font-style: italic; }
+  @font-face { font-family: 'Plex Mono'; src: url('../public/fonts/IBMPlexMono-SemiBold.ttf'); font-weight: 600; }
+  :root { --gold-hi: #fff1c4; --gold: #f6c04e; --gold-lo: #b9781a; --ink: #1d1206; --blue: #9fc0ff; --pale: #e9ecff; }
+  html, body { margin: 0; width: 1080px; height: 1920px; overflow: hidden; background: #05060f; }
+  .poster { position: relative; width: 1080px; height: 1920px; overflow: hidden; }
+  .plate { position: absolute; inset: 0; width: 1080px; height: 1920px; object-fit: cover; filter: contrast(1.07) saturate(1.12) brightness(0.98); }
+  /* grade: a deeper sky behind the headline, a darker band behind the lockup, a soft vignette */
+  .shade-top { position: absolute; left: 0; right: 0; top: 0; height: 760px; background: linear-gradient(180deg, rgba(4,5,18,0.78) 0%, rgba(4,5,18,0.45) 55%, rgba(4,5,18,0) 100%); }
+  .shade-low { position: absolute; inset: 0; background: radial-gradient(70% 34% at 86% 80%, rgba(3,4,14,0.78) 0%, rgba(3,4,14,0.4) 55%, rgba(3,4,14,0) 100%); }
+  .vignette { position: absolute; inset: 0; background: radial-gradient(120% 80% at 50% 48%, rgba(0,0,0,0) 58%, rgba(0,0,10,0.55) 100%); }
+
+  .gold { background: linear-gradient(180deg, var(--gold-hi) 8%, var(--gold) 52%, var(--gold-lo) 96%); -webkit-background-clip: text; background-clip: text; color: transparent;
+          -webkit-text-stroke: 3px var(--ink); paint-order: stroke fill; }
+  .glow { filter: drop-shadow(0 0 18px rgba(255, 186, 70, 0.45)) drop-shadow(0 6px 10px rgba(0, 0, 0, 0.7)); }
+
+  .hook { position: absolute; left: 0; right: 0; top: 258px; text-align: center; }
+  .hook .whatif { font: 700 50px 'Archivo X'; letter-spacing: 0.34em; color: var(--pale); text-shadow: 0 2px 14px rgba(0,0,0,0.85); margin-left: 0.34em; }
+  .hook .big { font: 900 112px/1.02 'Archivo X'; letter-spacing: 0.01em; margin-top: 14px; }
+  .hook .punch { font: 900 84px/1.05 'Archivo X'; color: #ffffff; margin-top: 10px; -webkit-text-stroke: 3px #0b0d22; paint-order: stroke fill;
+                 text-shadow: 0 0 26px rgba(150, 120, 255, 0.55), 0 5px 12px rgba(0,0,0,0.75); }
+  .hook .punch em { font-style: normal; color: var(--blue); }
+
+  .callout { position: absolute; left: 856px; top: 760px; width: 200px; font: 700 27px/1.22 'Archivo'; color: var(--pale);
+             text-shadow: 0 2px 10px rgba(0,0,0,0.95), 0 0 2px rgba(0,0,0,1); }
+  .callout b { color: var(--gold); font-weight: 700; }
+  .lead { position: absolute; left: 0; top: 0; width: 1080px; height: 1920px; pointer-events: none; }
+
+  .lockup { position: absolute; right: 56px; top: 1400px; text-align: right; }
+  .lockup .title { font: 900 128px/1 'Archivo X'; letter-spacing: 0.02em; white-space: nowrap; }
+  .lockup .title .exe { font: 700 64px 'Archivo X'; color: var(--blue); -webkit-text-stroke: 2px #0b0d22; paint-order: stroke fill; letter-spacing: 0.04em; margin-left: 6px; }
+  .lockup .sub { font: italic 400 50px 'Cormorant'; color: #f5dfa8; margin-top: 6px; text-shadow: 0 2px 10px rgba(0,0,0,0.9); }
+  .lockup .tech { display: inline-block; margin-top: 18px; padding: 10px 18px; border-radius: 999px; font: 600 24px 'Plex Mono'; color: #dfe6ff;
+                  background: rgba(8, 10, 28, 0.62); border: 1.5px solid rgba(246, 192, 78, 0.55); letter-spacing: 0.02em; }
+</style>
+</head>
+<body>
+<div class="poster">
+  <img class="plate" src="../../out/poster/plate_final_a.png">
+  <div class="shade-top"></div><div class="shade-low"></div><div class="vignette"></div>
+
+  <div class="hook">
+    <div class="whatif">WHAT IF</div>
+    <div class="big gold glow">LEGENDARY<br>WEAPONS</div>
+    <div class="punch">HAD <em>REAL</em> PHYSICS?</div>
+  </div>
+
+  <svg class="lead" viewBox="0 0 1080 1920"><path id="lead" d="" fill="none" stroke="rgba(246,192,78,0.9)" stroke-width="2.5"/><circle id="dot" r="9" fill="none" stroke="rgba(246,192,78,0.95)" stroke-width="3"/></svg>
+  <div class="callout"><b>480 pieces.</b><br>Each one a real<br>rigid body.</div>
+
+  <div class="lockup">
+    <div class="title"><span class="gold glow">ASTRA</span><span class="exe">.EXE</span></div>
+    <div class="sub">Ancient Legends, Modern Physics</div>
+    <div class="tech">Built with Claude Code · Three.js · Rapier</div>
+  </div>
+</div>
+<script>
+  // the callout's leader line runs to a floating fragment (its position is passed in the URL: ?fx=..&fy=..)
+  const q = new URLSearchParams(location.search), fx = +(q.get('fx') ?? 872), fy = +(q.get('fy') ?? 944);
+  document.getElementById('lead').setAttribute('d', `M 868 866 L ${fx} ${fy - 9}`);
+  const dot = document.getElementById('dot'); dot.setAttribute('cx', fx); dot.setAttribute('cy', fy);
+</script>
+</body>
+</html>

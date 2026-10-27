@@ -1,0 +1,1193 @@
+{
+ "lines": [
+  {
+   "i": 0,
+   "text": "Bro — chhe AI bots, ek poori team!",
+   "spoken": "Bro — छह AI bots, एक पूरी team!",
+   "start": 0.092,
+   "end": 2.289,
+   "words": [
+    {
+     "w": "Bro",
+     "start": 0.092,
+     "end": 0.139,
+     "conf": 1.0
+    },
+    {
+     "w": "—",
+     "start": 0.322,
+     "end": 0.507,
+     "conf": 1.0
+    },
+    {
+     "w": "chhe",
+     "start": 0.572,
+     "end": 0.794,
+     "conf": 1.0
+    },
+    {
+     "w": "AI",
+     "start": 0.858,
+     "end": 1.105,
+     "conf": 1.0
+    },
+    {
+     "w": "bots,",
+     "start": 1.17,
+     "end": 1.466,
+     "conf": 1.0
+    },
+    {
+     "w": "ek",
+     "start": 1.531,
+     "end": 1.679,
+     "conf": 1.0
+    },
+    {
+     "w": "poori",
+     "start": 1.743,
+     "end": 1.928,
+     "conf": 1.0
+    },
+    {
+     "w": "team!",
+     "start": 1.993,
+     "end": 2.289,
+     "conf": 1.0
+    }
+   ],
+   "chapter": [
+    0.0,
+    2.0
+   ]
+  },
+  {
+   "i": 1,
+   "text": "Aur ye sirf chat nahi karte — ye kaam karte hain!",
+   "spoken": "और ये सिर्फ़ chat नहीं करते — ये काम करते हैं!",
+   "start": 2.509,
+   "end": 4.762,
+   "words": [
+    {
+     "w": "Aur",
+     "start": 2.509,
+     "end": 2.559,
+     "conf": 1.0
+    },
+    {
+     "w": "ye",
+     "start": 2.562,
+     "end": 2.682,
+     "conf": 1.0
+    },
+    {
+     "w": "sirf",
+     "start": 2.722,
+     "end": 2.843,
+     "conf": 1.0
+    },
+    {
+     "w": "chat",
+     "start": 2.906,
+     "end": 3.162,
+     "conf": 1.0
+    },
+    {
+     "w": "nahi",
+     "start": 3.189,
+     "end": 3.322,
+     "conf": 1.0
+    },
+    {
+     "w": "karte",
+     "start": 3.362,
+     "end": 3.562,
+     "conf": 1.0
+    },
+    {
+     "w": "—",
+     "start": 3.682,
+     "end": 3.802,
+     "conf": 1.0
+    },
+    {
+     "w": "ye",
+     "start": 3.842,
+     "end": 4.002,
+     "conf": 1.0
+    },
+    {
+     "w": "kaam",
+     "start": 4.062,
+     "end": 4.282,
+     "conf": 1.0
+    },
+    {
+     "w": "karte",
+     "start": 4.342,
+     "end": 4.602,
+     "conf": 1.0
+    },
+    {
+     "w": "hain!",
+     "start": 4.642,
+     "end": 4.762,
+     "conf": 1.0
+    }
+   ],
+   "chapter": [
+    2.0,
+    6.0
+   ]
+  },
+  {
+   "i": 2,
+   "text": "Meet Grok Bot. Har teammate ko ek kaam do, aur dekho aapki digital crew kaise zinda ho jaati hai.",
+   "spoken": "Meet Grok Bot. हर teammate को एक काम दो, और देखो आपकी digital crew कैसे ज़िंदा हो जाती है।",
+   "start": 6.18,
+   "end": 11.487,
+   "words": [
+    {
+     "w": "Meet",
+     "start": 6.18,
+     "end": 6.23,
+     "conf": 1.0
+    },
+    {
+     "w": "Grok",
+     "start": 6.287,
+     "end": 6.607,
+     "conf": 1.0
+    },
+    {
+     "w": "Bot.",
+     "start": 6.687,
+     "end": 6.927,
+     "conf": 1.0
+    },
+    {
+     "w": "Har",
+     "start": 7.247,
+     "end": 7.407,
+     "conf": 1.0
+    },
+    {
+     "w": "teammate",
+     "start": 7.451,
+     "end": 7.807,
+     "conf": 1.0
+    },
+    {
+     "w": "ko",
+     "start": 7.847,
+     "end": 7.967,
+     "conf": 1.0
+    },
+    {
+     "w": "ek",
+     "start": 7.994,
+     "end": 8.047,
+     "conf": 1.0
+    },
+    {
+     "w": "kaam",
+     "start": 8.087,
+     "end": 8.287,
+     "conf": 1.0
+    },
+    {
+     "w": "do,",
+     "start": 8.327,
+     "end": 8.567,
+     "conf": 1.0
+    },
+    {
+     "w": "aur",
+     "start": 8.794,
+     "end": 8.847,
+     "conf": 1.0
+    },
+    {
+     "w": "dekho",
+     "start": 8.927,
+     "end": 9.167,
+     "conf": 1.0
+    },
+    {
+     "w": "aapki",
+     "start": 9.207,
+     "end": 9.407,
+     "conf": 1.0
+    },
+    {
+     "w": "digital",
+     "start": 9.457,
+     "end": 9.807,
+     "conf": 1.0
+    },
+    {
+     "w": "crew",
+     "start": 9.855,
+     "end": 10.047,
+     "conf": 1.0
+    },
+    {
+     "w": "kaise",
+     "start": 10.127,
+     "end": 10.407,
+     "conf": 1.0
+    },
+    {
+     "w": "zinda",
+     "start": 10.427,
+     "end": 10.687,
+     "conf": 1.0
+    },
+    {
+     "w": "ho",
+     "start": 10.727,
+     "end": 10.807,
+     "conf": 1.0
+    },
+    {
+     "w": "jaati",
+     "start": 10.827,
+     "end": 11.087,
+     "conf": 1.0
+    },
+    {
+     "w": "hai.",
+     "start": 11.127,
+     "end": 11.487,
+     "conf": 1.0
+    }
+   ],
+   "chapter": [
+    6.0,
+    12.0
+   ]
+  },
+  {
+   "i": 3,
+   "text": "Ek research dhoondhta hai. Ek context laata hai. Aur ek sab kuch content mein badal deta hai.",
+   "spoken": "एक research ढूँढता है। एक context लाता है। और एक सब कुछ content में बदल देता है।",
+   "start": 12.18,
+   "end": 17.431,
+   "words": [
+    {
+     "w": "Ek",
+     "start": 12.18,
+     "end": 12.23,
+     "conf": 1.0
+    },
+    {
+     "w": "research",
+     "start": 12.235,
+     "end": 12.591,
+     "conf": 1.0
+    },
+    {
+     "w": "dhoondhta",
+     "start": 12.631,
+     "end": 13.018,
+     "conf": 1.0
+    },
+    {
+     "w": "hai.",
+     "start": 13.044,
+     "end": 13.111,
+     "conf": 1.0
+    },
+    {
+     "w": "Ek",
+     "start": 13.311,
+     "end": 13.631,
+     "conf": 1.0
+    },
+    {
+     "w": "context",
+     "start": 13.691,
+     "end": 14.111,
+     "conf": 1.0
+    },
+    {
+     "w": "laata",
+     "start": 14.151,
+     "end": 14.431,
+     "conf": 1.0
+    },
+    {
+     "w": "hai.",
+     "start": 14.471,
+     "end": 14.551,
+     "conf": 1.0
+    },
+    {
+     "w": "Aur",
+     "start": 14.751,
+     "end": 15.071,
+     "conf": 1.0
+    },
+    {
+     "w": "ek",
+     "start": 15.124,
+     "end": 15.231,
+     "conf": 1.0
+    },
+    {
+     "w": "sab",
+     "start": 15.338,
+     "end": 15.551,
+     "conf": 1.0
+    },
+    {
+     "w": "kuch",
+     "start": 15.591,
+     "end": 15.791,
+     "conf": 1.0
+    },
+    {
+     "w": "content",
+     "start": 15.851,
+     "end": 16.271,
+     "conf": 1.0
+    },
+    {
+     "w": "mein",
+     "start": 16.311,
+     "end": 16.431,
+     "conf": 1.0
+    },
+    {
+     "w": "badal",
+     "start": 16.471,
+     "end": 16.591,
+     "conf": 1.0
+    },
+    {
+     "w": "deta",
+     "start": 16.671,
+     "end": 17.061,
+     "conf": 1.0
+    },
+    {
+     "w": "hai.",
+     "start": 17.121,
+     "end": 17.431,
+     "conf": 1.0
+    }
+   ],
+   "chapter": [
+    12.0,
+    18.0
+   ]
+  },
+  {
+   "i": 4,
+   "text": "Ab dekho mera version — bots stations ke beech daudte hain, tasks pass karte hain, bilkul real production team ki tarah.",
+   "spoken": "अब देखो मेरा version — bots stations के बीच दौड़ते हैं, tasks pass करते हैं, बिल्कुल real production team की तरह।",
+   "start": 18.165,
+   "end": 23.749,
+   "words": [
+    {
+     "w": "Ab",
+     "start": 18.165,
+     "end": 18.207,
+     "conf": 1.0
+    },
+    {
+     "w": "dekho",
+     "start": 18.209,
+     "end": 18.411,
+     "conf": 1.0
+    },
+    {
+     "w": "mera",
+     "start": 18.445,
+     "end": 18.597,
+     "conf": 1.0
+    },
+    {
+     "w": "version",
+     "start": 18.657,
+     "end": 18.893,
+     "conf": 1.0
+    },
+    {
+     "w": "—",
+     "start": 19.096,
+     "end": 19.299,
+     "conf": 1.0
+    },
+    {
+     "w": "bots",
+     "start": 19.358,
+     "end": 19.575,
+     "conf": 1.0
+    },
+    {
+     "w": "stations",
+     "start": 19.634,
+     "end": 20.055,
+     "conf": 1.0
+    },
+    {
+     "w": "ke",
+     "start": 20.114,
+     "end": 20.182,
+     "conf": 1.0
+    },
+    {
+     "w": "beech",
+     "start": 20.216,
+     "end": 20.368,
+     "conf": 1.0
+    },
+    {
+     "w": "daudte",
+     "start": 20.427,
+     "end": 20.697,
+     "conf": 1.0
+    },
+    {
+     "w": "hain,",
+     "start": 20.731,
+     "end": 20.974,
+     "conf": 1.0
+    },
+    {
+     "w": "tasks",
+     "start": 21.033,
+     "end": 21.315,
+     "conf": 1.0
+    },
+    {
+     "w": "pass",
+     "start": 21.374,
+     "end": 21.59,
+     "conf": 1.0
+    },
+    {
+     "w": "karte",
+     "start": 21.649,
+     "end": 21.835,
+     "conf": 1.0
+    },
+    {
+     "w": "hain,",
+     "start": 21.869,
+     "end": 21.977,
+     "conf": 1.0
+    },
+    {
+     "w": "bilkul",
+     "start": 22.036,
+     "end": 22.475,
+     "conf": 1.0
+    },
+    {
+     "w": "real",
+     "start": 22.534,
+     "end": 22.805,
+     "conf": 1.0
+    },
+    {
+     "w": "production",
+     "start": 22.864,
+     "end": 23.172,
+     "conf": 1.0
+    },
+    {
+     "w": "team",
+     "start": 23.231,
+     "end": 23.393,
+     "conf": 1.0
+    },
+    {
+     "w": "ki",
+     "start": 23.453,
+     "end": 23.622,
+     "conf": 1.0
+    },
+    {
+     "w": "tarah.",
+     "start": 23.672,
+     "end": 23.749,
+     "conf": 1.0
+    }
+   ],
+   "chapter": [
+    18.0,
+    24.0
+   ]
+  },
+  {
+   "i": 5,
+   "text": "Ye parallel mein kaam karte hain, toh aapka idea ban jaata hai drafts, visuals aur ek finished brief.",
+   "spoken": "ये parallel में काम करते हैं, तो आपका idea बन जाता है drafts, visuals और एक finished brief।",
+   "start": 24.18,
+   "end": 29.724,
+   "words": [
+    {
+     "w": "Ye",
+     "start": 24.18,
+     "end": 24.23,
+     "conf": 1.0
+    },
+    {
+     "w": "parallel",
+     "start": 24.248,
+     "end": 24.604,
+     "conf": 1.0
+    },
+    {
+     "w": "mein",
+     "start": 24.644,
+     "end": 24.764,
+     "conf": 1.0
+    },
+    {
+     "w": "kaam",
+     "start": 24.804,
+     "end": 24.924,
+     "conf": 1.0
+    },
+    {
+     "w": "karte",
+     "start": 25.004,
+     "end": 25.284,
+     "conf": 1.0
+    },
+    {
+     "w": "hain,",
+     "start": 25.304,
+     "end": 25.431,
+     "conf": 1.0
+    },
+    {
+     "w": "toh",
+     "start": 25.644,
+     "end": 25.924,
+     "conf": 1.0
+    },
+    {
+     "w": "aapka",
+     "start": 25.954,
+     "end": 26.124,
+     "conf": 1.0
+    },
+    {
+     "w": "idea",
+     "start": 26.188,
+     "end": 26.444,
+     "conf": 1.0
+    },
+    {
+     "w": "ban",
+     "start": 26.497,
+     "end": 26.604,
+     "conf": 1.0
+    },
+    {
+     "w": "jaata",
+     "start": 26.644,
+     "end": 26.924,
+     "conf": 1.0
+    },
+    {
+     "w": "hai",
+     "start": 26.964,
+     "end": 27.284,
+     "conf": 1.0
+    },
+    {
+     "w": "drafts,",
+     "start": 27.324,
+     "end": 27.564,
+     "conf": 1.0
+    },
+    {
+     "w": "visuals",
+     "start": 27.794,
+     "end": 28.284,
+     "conf": 1.0
+    },
+    {
+     "w": "aur",
+     "start": 28.417,
+     "end": 28.684,
+     "conf": 1.0
+    },
+    {
+     "w": "ek",
+     "start": 28.737,
+     "end": 28.844,
+     "conf": 1.0
+    },
+    {
+     "w": "finished",
+     "start": 28.888,
+     "end": 29.244,
+     "conf": 1.0
+    },
+    {
+     "w": "brief.",
+     "start": 29.324,
+     "end": 29.724,
+     "conf": 1.0
+    }
+   ],
+   "chapter": [
+    24.0,
+    30.0
+   ]
+  },
+  {
+   "i": 6,
+   "text": "Ek baar workflow dikhao, aur Bot use routine banakar save kar leta hai — agli baar ke liye.",
+   "spoken": "एक बार workflow दिखाओ, और Bot उसे routine बनाकर save कर लेता है — अगली बार के लिए।",
+   "start": 30.18,
+   "end": 35.073,
+   "words": [
+    {
+     "w": "Ek",
+     "start": 30.18,
+     "end": 30.23,
+     "conf": 1.0
+    },
+    {
+     "w": "baar",
+     "start": 30.273,
+     "end": 30.433,
+     "conf": 1.0
+    },
+    {
+     "w": "workflow",
+     "start": 30.477,
+     "end": 30.833,
+     "conf": 1.0
+    },
+    {
+     "w": "dikhao,",
+     "start": 30.873,
+     "end": 31.153,
+     "conf": 1.0
+    },
+    {
+     "w": "aur",
+     "start": 31.366,
+     "end": 31.633,
+     "conf": 1.0
+    },
+    {
+     "w": "Bot",
+     "start": 31.733,
+     "end": 32.033,
+     "conf": 1.0
+    },
+    {
+     "w": "use",
+     "start": 32.086,
+     "end": 32.273,
+     "conf": 1.0
+    },
+    {
+     "w": "routine",
+     "start": 32.313,
+     "end": 32.593,
+     "conf": 1.0
+    },
+    {
+     "w": "banakar",
+     "start": 32.673,
+     "end": 33.073,
+     "conf": 1.0
+    },
+    {
+     "w": "save",
+     "start": 33.137,
+     "end": 33.393,
+     "conf": 1.0
+    },
+    {
+     "w": "kar",
+     "start": 33.42,
+     "end": 33.473,
+     "conf": 1.0
+    },
+    {
+     "w": "leta",
+     "start": 33.553,
+     "end": 33.833,
+     "conf": 1.0
+    },
+    {
+     "w": "hai",
+     "start": 33.853,
+     "end": 33.953,
+     "conf": 1.0
+    },
+    {
+     "w": "—",
+     "start": 34.073,
+     "end": 34.193,
+     "conf": 1.0
+    },
+    {
+     "w": "agli",
+     "start": 34.253,
+     "end": 34.473,
+     "conf": 1.0
+    },
+    {
+     "w": "baar",
+     "start": 34.493,
+     "end": 34.593,
+     "conf": 1.0
+    },
+    {
+     "w": "ke",
+     "start": 34.673,
+     "end": 34.793,
+     "conf": 1.0
+    },
+    {
+     "w": "liye.",
+     "start": 34.813,
+     "end": 35.073,
+     "conf": 1.0
+    }
+   ],
+   "chapter": [
+    30.0,
+    36.0
+   ]
+  },
+  {
+   "i": 7,
+   "text": "Ye aapke apps aur websites use karte hain, ek shared cloud computer par — aur context aage saath chalta hai.",
+   "spoken": "ये आपके apps और websites use करते हैं, एक shared cloud computer पर — और context आगे साथ चलता है।",
+   "start": 36.17,
+   "end": 41.742,
+   "words": [
+    {
+     "w": "Ye",
+     "start": 36.17,
+     "end": 36.215,
+     "conf": 1.0
+    },
+    {
+     "w": "aapke",
+     "start": 36.278,
+     "end": 36.675,
+     "conf": 1.0
+    },
+    {
+     "w": "apps",
+     "start": 36.738,
+     "end": 36.882,
+     "conf": 1.0
+    },
+    {
+     "w": "aur",
+     "start": 36.945,
+     "end": 37.042,
+     "conf": 1.0
+    },
+    {
+     "w": "websites",
+     "start": 37.105,
+     "end": 37.553,
+     "conf": 1.0
+    },
+    {
+     "w": "use",
+     "start": 37.616,
+     "end": 37.779,
+     "conf": 1.0
+    },
+    {
+     "w": "karte",
+     "start": 37.842,
+     "end": 38.04,
+     "conf": 1.0
+    },
+    {
+     "w": "hain,",
+     "start": 38.076,
+     "end": 38.19,
+     "conf": 1.0
+    },
+    {
+     "w": "ek",
+     "start": 38.254,
+     "end": 38.494,
+     "conf": 1.0
+    },
+    {
+     "w": "shared",
+     "start": 38.557,
+     "end": 38.866,
+     "conf": 1.0
+    },
+    {
+     "w": "cloud",
+     "start": 38.929,
+     "end": 39.17,
+     "conf": 1.0
+    },
+    {
+     "w": "computer",
+     "start": 39.233,
+     "end": 39.618,
+     "conf": 1.0
+    },
+    {
+     "w": "par",
+     "start": 39.681,
+     "end": 39.825,
+     "conf": 1.0
+    },
+    {
+     "w": "—",
+     "start": 40.005,
+     "end": 40.186,
+     "conf": 1.0
+    },
+    {
+     "w": "aur",
+     "start": 40.234,
+     "end": 40.282,
+     "conf": 1.0
+    },
+    {
+     "w": "context",
+     "start": 40.345,
+     "end": 40.787,
+     "conf": 1.0
+    },
+    {
+     "w": "aage",
+     "start": 40.85,
+     "end": 41.066,
+     "conf": 1.0
+    },
+    {
+     "w": "saath",
+     "start": 41.129,
+     "end": 41.309,
+     "conf": 1.0
+    },
+    {
+     "w": "chalta",
+     "start": 41.372,
+     "end": 41.607,
+     "conf": 1.0
+    },
+    {
+     "w": "hai.",
+     "start": 41.67,
+     "end": 41.742,
+     "conf": 1.0
+    }
+   ],
+   "chapter": [
+    36.0,
+    42.0
+   ]
+  },
+  {
+   "i": 8,
+   "text": "Aur jab kuch sensitive ho, jismein aapka approval chahiye? Team rukti hai, aur aapse poochhti hai.",
+   "spoken": "और जब कुछ sensitive हो, जिसमें आपका approval चाहिए? Team रुकती है, और आपसे पूछती है।",
+   "start": 42.42,
+   "end": 47.478,
+   "words": [
+    {
+     "w": "Aur",
+     "start": 42.42,
+     "end": 42.47,
+     "conf": 1.0
+    },
+    {
+     "w": "jab",
+     "start": 42.491,
+     "end": 42.598,
+     "conf": 1.0
+    },
+    {
+     "w": "kuch",
+     "start": 42.638,
+     "end": 42.758,
+     "conf": 1.0
+    },
+    {
+     "w": "sensitive",
+     "start": 42.806,
+     "end": 43.238,
+     "conf": 1.0
+    },
+    {
+     "w": "ho,",
+     "start": 43.278,
+     "end": 43.398,
+     "conf": 1.0
+    },
+    {
+     "w": "jismein",
+     "start": 43.638,
+     "end": 44.078,
+     "conf": 1.0
+    },
+    {
+     "w": "aapka",
+     "start": 44.108,
+     "end": 44.199,
+     "conf": 1.0
+    },
+    {
+     "w": "approval",
+     "start": 44.242,
+     "end": 44.598,
+     "conf": 1.0
+    },
+    {
+     "w": "chahiye?",
+     "start": 44.638,
+     "end": 44.918,
+     "conf": 1.0
+    },
+    {
+     "w": "Team",
+     "start": 45.142,
+     "end": 45.718,
+     "conf": 1.0
+    },
+    {
+     "w": "rukti",
+     "start": 45.758,
+     "end": 46.078,
+     "conf": 1.0
+    },
+    {
+     "w": "hai,",
+     "start": 46.098,
+     "end": 46.198,
+     "conf": 1.0
+    },
+    {
+     "w": "aur",
+     "start": 46.385,
+     "end": 46.598,
+     "conf": 1.0
+    },
+    {
+     "w": "aapse",
+     "start": 46.678,
+     "end": 46.998,
+     "conf": 1.0
+    },
+    {
+     "w": "poochhti",
+     "start": 47.038,
+     "end": 47.358,
+     "conf": 1.0
+    },
+    {
+     "w": "hai.",
+     "start": 47.378,
+     "end": 47.478,
+     "conf": 1.0
+    }
+   ],
+   "chapter": [
+    42.0,
+    48.0
+   ]
+  },
+  {
+   "i": 9,
+   "text": "Na endless copy-paste. Bas ek crew — research, creation, review, aur finished kaam aapke haath mein.",
+   "spoken": "ना endless copy-paste। बस एक crew — research, creation, review, और finished काम आपके हाथ में।",
+   "start": 48.175,
+   "end": 53.736,
+   "words": [
+    {
+     "w": "Na",
+     "start": 48.175,
+     "end": 48.26,
+     "conf": 1.0
+    },
+    {
+     "w": "endless",
+     "start": 48.327,
+     "end": 48.726,
+     "conf": 1.0
+    },
+    {
+     "w": "copy-paste.",
+     "start": 48.792,
+     "end": 49.355,
+     "conf": 1.0
+    },
+    {
+     "w": "Bas",
+     "start": 49.421,
+     "end": 49.827,
+     "conf": 1.0
+    },
+    {
+     "w": "ek",
+     "start": 49.893,
+     "end": 50.045,
+     "conf": 1.0
+    },
+    {
+     "w": "crew",
+     "start": 50.112,
+     "end": 50.294,
+     "conf": 1.0
+    },
+    {
+     "w": "—",
+     "start": 50.408,
+     "end": 50.522,
+     "conf": 1.0
+    },
+    {
+     "w": "research,",
+     "start": 50.588,
+     "end": 51.061,
+     "conf": 1.0
+    },
+    {
+     "w": "creation,",
+     "start": 51.128,
+     "end": 51.533,
+     "conf": 1.0
+    },
+    {
+     "w": "review,",
+     "start": 51.6,
+     "end": 51.926,
+     "conf": 1.0
+    },
+    {
+     "w": "aur",
+     "start": 51.992,
+     "end": 52.195,
+     "conf": 1.0
+    },
+    {
+     "w": "finished",
+     "start": 52.261,
+     "end": 52.599,
+     "conf": 1.0
+    },
+    {
+     "w": "kaam",
+     "start": 52.666,
+     "end": 52.932,
+     "conf": 1.0
+    },
+    {
+     "w": "aapke",
+     "start": 52.998,
+     "end": 53.321,
+     "conf": 1.0
+    },
+    {
+     "w": "haath",
+     "start": 53.359,
+     "end": 53.53,
+     "conf": 1.0
+    },
+    {
+     "w": "mein.",
+     "start": 53.596,
+     "end": 53.736,
+     "conf": 1.0
+    }
+   ],
+   "chapter": [
+    48.0,
+    54.0
+   ]
+  },
+  {
+   "i": 10,
+   "text": "Ye hai Grok Bot. Build ke liye comment karo BOT!",
+   "spoken": "ये है Grok Bot। Build के लिए comment करो BOT!",
+   "start": 54.177,
+   "end": 57.733,
+   "words": [
+    {
+     "w": "Ye",
+     "start": 54.177,
+     "end": 54.268,
+     "conf": 1.0
+    },
+    {
+     "w": "hai",
+     "start": 54.336,
+     "end": 54.492,
+     "conf": 1.0
+    },
+    {
+     "w": "Grok",
+     "start": 54.56,
+     "end": 54.872,
+     "conf": 1.0
+    },
+    {
+     "w": "Bot.",
+     "start": 54.94,
+     "end": 55.174,
+     "conf": 1.0
+    },
+    {
+     "w": "Build",
+     "start": 55.242,
+     "end": 55.827,
+     "conf": 1.0
+    },
+    {
+     "w": "ke",
+     "start": 55.895,
+     "end": 56.051,
+     "conf": 1.0
+    },
+    {
+     "w": "liye",
+     "start": 56.119,
+     "end": 56.314,
+     "conf": 1.0
+    },
+    {
+     "w": "comment",
+     "start": 56.382,
+     "end": 56.927,
+     "conf": 1.0
+    },
+    {
+     "w": "karo",
+     "start": 56.996,
+     "end": 57.256,
+     "conf": 1.0
+    },
+    {
+     "w": "BOT!",
+     "start": 57.324,
+     "end": 57.733,
+     "conf": 1.0
+    }
+   ],
+   "chapter": [
+    54.0,
+    58.0
+   ]
+  }
+ ],
+ "extras": [],
+ "notes": "ElevenLabs eleven_v3 voice TX3LPaxmHKxFdv7VOQHJ (Liam), language en, seed 7, stability 0.0; one take cut into lines, each placed at its chapter start"
+}

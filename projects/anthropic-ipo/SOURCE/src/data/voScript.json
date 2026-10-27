@@ -1,0 +1,93 @@
+{
+ "_doc": "Anthropic IPO reel. Claims trace to ../FACTS.md.",
+ "voice": {
+  "provider": "elevenlabs",
+  "voiceId": "TX3LPaxmHKxFdv7VOQHJ",
+  "name": "Liam",
+  "model": "eleven_turbo_v2_5",
+  "language": "hi",
+  "stability": 0.4,
+  "similarity": 0.75,
+  "speed": 1.15,
+  "seed": 5
+ },
+ "reel": [
+  {
+   "id": "h1",
+   "scene": "hook",
+   "cap": "Kya lagta hai? Agla IPO kiska hoga?",
+   "tts": "क्या लगता है? अगला IPO किसका होगा?",
+   "min": 0.0
+  },
+  {
+   "id": "h2",
+   "scene": "reveal",
+   "cap": "Anthropic! Jo ki ek bahut badi AI company hai, Claude banati hai, aur ab stock market mein aa rahi hai.",
+   "tts": "Anthropic! जो कि एक बहुत बड़ी AI company है, Claude बनाती है, और अब stock market में आ रही है.",
+   "min": 0.0
+  },
+  {
+   "id": "l1",
+   "scene": "filing",
+   "cap": "26 October ko, Anthropic ne US SEC ke paas S-1 file kiya. Listing Nasdaq pe, ticker: ANT.",
+   "tts": "छब्बीस October को, Anthropic ने US SEC के पास S-1 file किया. Listing Nasdaq पे, ticker: ए एन टी.",
+   "min": 0.0
+  },
+  {
+   "id": "l2",
+   "scene": "tbd",
+   "cap": "Kitne shares, kis price pe? Abhi decide nahi hua.",
+   "tts": "कितने shares, किस price पे? अभी decide नहीं हुआ.",
+   "min": 0.0
+  },
+  {
+   "id": "l3",
+   "scene": "revenue",
+   "cap": "S-1 ke mutabik, 2026 ke pehle chhe mahine mein revenue: 16.3 billion dollar! Poore 2025 mein tha 4.6 billion.",
+   "tts": "S-1 के मुताबिक, दो हज़ार छब्बीस के पहले छह महीने में revenue: sixteen point three billion dollar! पूरे दो हज़ार पच्चीस में था four point six billion.",
+   "min": 0.0
+  },
+  {
+   "id": "l4",
+   "scene": "risk",
+   "cap": "Lekin kharche bhi bade: 430 billion dollar se zyada ke compute deals, aur 80.7 billion ka net loss, zyada tar accounting charges se.",
+   "tts": "लेकिन खर्चे भी बड़े: four hundred thirty billion dollar से ज़्यादा के compute deals, और eighty point seven billion का net loss, ज़्यादा तर accounting charges से.",
+   "min": 0.0
+  },
+  {
+   "id": "l5",
+   "scene": "india",
+   "cap": "Aur India? Bengaluru office khul chuka hai, aur company ke hisaab se, India Claude ka second-largest market hai.",
+   "tts": "और India? Bengaluru office खुल चुका है, और company के हिसाब से, India Claude का second-largest market है.",
+   "min": 0.0
+  },
+  {
+   "id": "l6",
+   "scene": "india2",
+   "cap": "10 Indian languages pe kaam, Air India, CRED, Razorpay jaise partners, aur Bengaluru mein hiring bhi.",
+   "tts": "दस Indian languages पे काम, Air India, CRED, Razorpay जैसे partners, और Bengaluru में hiring भी.",
+   "min": 0.0
+  },
+  {
+   "id": "l7",
+   "scene": "invest",
+   "cap": "Aap invest kaise karoge? Listing ke baad, international broker se, LRS ke through.",
+   "tts": "आप invest कैसे करोगे? Listing के बाद, international broker से, LRS के through.",
+   "min": 0.0
+  },
+  {
+   "id": "l8",
+   "scene": "caution",
+   "cap": "IPO allotment India se mushkil hai, aur ye financial advice nahi. Risk samjho!",
+   "tts": "IPO allotment India से मुश्किल है, और ये financial advice नहीं. Risk समझो!",
+   "min": 0.0
+  },
+  {
+   "id": "l9",
+   "scene": "cta",
+   "cap": "Aap ANT pe daav lagaoge? Comment karo!",
+   "tts": "आप ए एन टी पे दाँव लगाओगे? Comment करो!",
+   "min": 0.0
+  }
+ ]
+}

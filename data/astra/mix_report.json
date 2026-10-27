@@ -1,0 +1,100 @@
+{
+ "integrated_lufs": -14.0,
+ "true_peak_dbtp": -1.4,
+ "voice_lufs_while_speaking": -13.3,
+ "bed_lufs_under_speech": -24.1,
+ "bed_lufs_between_words": -18.5,
+ "duck_db": 8.0,
+ "carve_db_250_4000hz": 10.0,
+ "voice_compressor_max_gr_db": -4.51,
+ "master_limiter_max_gr_db": 7.35,
+ "music_gain": 1.1194,
+ "foley_gain": 0.55,
+ "foley_counts": {
+  "twang": 4,
+  "air": 4,
+  "thump": 4,
+  "incoming": 5,
+  "impact": 9,
+  "flight": 4,
+  "crumble": 30,
+  "knock": 359,
+  "ring": 3,
+  "won": 4,
+  "thunder": 9,
+  "tension": 5,
+  "creak": 58,
+  "slam": 9,
+  "slam-soft": 12,
+  "freeze": 1,
+  "whoosh-back": 1,
+  "cut": 9,
+  "panel-in": 3,
+  "click": 7,
+  "tick": 32,
+  "panel-out": 2,
+  "tape-stop": 1,
+  "tape-start": 1,
+  "cut-digital": 1,
+  "key": 5,
+  "whoosh-out": 1,
+  "cta": 1,
+  "chime": 1
+ },
+ "word_snr_speechband_db_min": -5.8,
+ "word_snr_speechband_db_median": 22.8,
+ "words_under_8db_speechband": [
+  [
+   -5.8,
+   "ek",
+   26.607
+  ],
+  [
+   -2.4,
+   "hai!",
+   17.019
+  ],
+  [
+   4.0,
+   "ho!",
+   8.86
+  ],
+  [
+   7.3,
+   "aur",
+   15.15
+  ]
+ ],
+ "worst_words": [
+  [
+   -5.8,
+   "ek",
+   26.607
+  ],
+  [
+   -2.4,
+   "hai!",
+   17.019
+  ],
+  [
+   4.0,
+   "ho!",
+   8.86
+  ],
+  [
+   7.3,
+   "aur",
+   15.15
+  ],
+  [
+   8.2,
+   "de!",
+   28.906
+  ],
+  [
+   8.5,
+   "ENGINE",
+   3.021
+  ]
+ ]
+}

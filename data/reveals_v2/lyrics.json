@@ -1,0 +1,1030 @@
+{
+ "lines": [
+  {
+   "i": 0,
+   "key": "what1",
+   "chapter": "hook",
+   "who": "actor",
+   "text": "WHAT?!",
+   "spoken": "[shocked] What?!",
+   "start": 0.0,
+   "end": 0.72,
+   "words": [
+    {
+     "w": "WHAT?!",
+     "start": 0.0,
+     "end": 0.72
+    }
+   ]
+  },
+  {
+   "i": 1,
+   "key": "what3",
+   "chapter": "hook",
+   "who": "actor",
+   "text": "WHAAAAAATTTTT?!",
+   "spoken": "[screaming] WHAAAAAAAAT?!",
+   "start": 1.25,
+   "end": 2.46,
+   "words": [
+    {
+     "w": "WHAAAAAATTTTT?!",
+     "start": 1.25,
+     "end": 2.46
+    }
+   ]
+  },
+  {
+   "i": 2,
+   "key": "posted",
+   "chapter": "posted",
+   "who": "narrator",
+   "text": "Claude ne abhi share kiye six projects, jo logon ne Claude se banaye. Kuch wild experiments, kuch sach mein kaam ke tools. Aur trust me, last do toh next level hain.",
+   "spoken": "Claude ने अभी share किए six projects, जो लोगों ने Claude से बनाए। कुछ wild experiments, कुछ सच में काम के tools. और trust me, last दो तो next level हैं।",
+   "start": 4.25,
+   "end": 14.2,
+   "words": [
+    {
+     "w": "Claude",
+     "start": 4.25,
+     "end": 4.575
+    },
+    {
+     "w": "ne",
+     "start": 4.61,
+     "end": 4.691
+    },
+    {
+     "w": "abhi",
+     "start": 4.749,
+     "end": 4.923
+    },
+    {
+     "w": "share",
+     "start": 4.97,
+     "end": 5.179
+    },
+    {
+     "w": "kiye",
+     "start": 5.214,
+     "end": 5.353
+    },
+    {
+     "w": "six",
+     "start": 5.457,
+     "end": 5.643
+    },
+    {
+     "w": "projects,",
+     "start": 5.701,
+     "end": 6.119
+    },
+    {
+     "w": "jo",
+     "start": 6.456,
+     "end": 6.618
+    },
+    {
+     "w": "logon",
+     "start": 6.676,
+     "end": 6.909
+    },
+    {
+     "w": "ne",
+     "start": 6.932,
+     "end": 7.013
+    },
+    {
+     "w": "Claude",
+     "start": 7.06,
+     "end": 7.303
+    },
+    {
+     "w": "se",
+     "start": 7.327,
+     "end": 7.385
+    },
+    {
+     "w": "banaye.",
+     "start": 7.431,
+     "end": 7.698
+    },
+    {
+     "w": "Kuch",
+     "start": 8.569,
+     "end": 8.731
+    },
+    {
+     "w": "wild",
+     "start": 8.836,
+     "end": 9.091
+    },
+    {
+     "w": "experiments,",
+     "start": 9.126,
+     "end": 9.66
+    },
+    {
+     "w": "kuch",
+     "start": 9.997,
+     "end": 10.159
+    },
+    {
+     "w": "sach",
+     "start": 10.229,
+     "end": 10.392
+    },
+    {
+     "w": "mein",
+     "start": 10.45,
+     "end": 10.543
+    },
+    {
+     "w": "kaam",
+     "start": 10.577,
+     "end": 10.752
+    },
+    {
+     "w": "ke",
+     "start": 10.81,
+     "end": 10.879
+    },
+    {
+     "w": "tools.",
+     "start": 10.926,
+     "end": 11.204
+    },
+    {
+     "w": "Aur",
+     "start": 12.017,
+     "end": 12.145
+    },
+    {
+     "w": "trust",
+     "start": 12.191,
+     "end": 12.423
+    },
+    {
+     "w": "me,",
+     "start": 12.481,
+     "end": 12.656
+    },
+    {
+     "w": "last",
+     "start": 12.911,
+     "end": 13.166
+    },
+    {
+     "w": "do",
+     "start": 13.225,
+     "end": 13.352
+    },
+    {
+     "w": "toh",
+     "start": 13.422,
+     "end": 13.503
+    },
+    {
+     "w": "next",
+     "start": 13.573,
+     "end": 13.759
+    },
+    {
+     "w": "level",
+     "start": 13.793,
+     "end": 13.979
+    },
+    {
+     "w": "hain.",
+     "start": 14.026,
+     "end": 14.2
+    }
+   ]
+  },
+  {
+   "i": 3,
+   "key": "r1",
+   "chapter": "r1",
+   "who": "narrator",
+   "text": "Number one. Ek wildfire analysis prototype: aag time ke saath kaise failti hai, wo map karta hai, aur hot spots track karta hai. Bana hai Opus 5.5 se.",
+   "spoken": "Number one. एक wildfire analysis prototype: आग time के साथ कैसे फैलती है, वो map करता है, और hot spots track करता है। बना है Opus five-point-five से।",
+   "start": 14.56,
+   "end": 25.647,
+   "words": [
+    {
+     "w": "Number",
+     "start": 14.56,
+     "end": 14.792
+    },
+    {
+     "w": "one.",
+     "start": 14.85,
+     "end": 15.059
+    },
+    {
+     "w": "Ek",
+     "start": 15.918,
+     "end": 16.046
+    },
+    {
+     "w": "wildfire",
+     "start": 16.15,
+     "end": 16.673
+    },
+    {
+     "w": "analysis",
+     "start": 16.719,
+     "end": 17.079
+    },
+    {
+     "w": "prototype:",
+     "start": 17.149,
+     "end": 17.729
+    },
+    {
+     "w": "aag",
+     "start": 18.414,
+     "end": 18.6
+    },
+    {
+     "w": "time",
+     "start": 18.681,
+     "end": 18.914
+    },
+    {
+     "w": "ke",
+     "start": 18.948,
+     "end": 19.03
+    },
+    {
+     "w": "saath",
+     "start": 19.088,
+     "end": 19.273
+    },
+    {
+     "w": "kaise",
+     "start": 19.343,
+     "end": 19.61
+    },
+    {
+     "w": "failti",
+     "start": 19.657,
+     "end": 19.935
+    },
+    {
+     "w": "hai,",
+     "start": 19.982,
+     "end": 20.133
+    },
+    {
+     "w": "wo",
+     "start": 20.423,
+     "end": 20.539
+    },
+    {
+     "w": "map",
+     "start": 20.597,
+     "end": 20.783
+    },
+    {
+     "w": "karta",
+     "start": 20.841,
+     "end": 21.073
+    },
+    {
+     "w": "hai,",
+     "start": 21.119,
+     "end": 21.259
+    },
+    {
+     "w": "aur",
+     "start": 21.584,
+     "end": 21.746
+    },
+    {
+     "w": "hot",
+     "start": 21.816,
+     "end": 21.99
+    },
+    {
+     "w": "spots",
+     "start": 22.025,
+     "end": 22.292
+    },
+    {
+     "w": "track",
+     "start": 22.35,
+     "end": 22.559
+    },
+    {
+     "w": "karta",
+     "start": 22.606,
+     "end": 22.838
+    },
+    {
+     "w": "hai.",
+     "start": 22.884,
+     "end": 23.024
+    },
+    {
+     "w": "Bana",
+     "start": 23.801,
+     "end": 24.01
+    },
+    {
+     "w": "hai",
+     "start": 24.057,
+     "end": 24.185
+    },
+    {
+     "w": "Opus",
+     "start": 24.289,
+     "end": 24.579
+    },
+    {
+     "w": "5.5",
+     "start": 24.661,
+     "end": 25.427
+    },
+    {
+     "w": "se.",
+     "start": 25.462,
+     "end": 25.647
+    }
+   ]
+  },
+  {
+   "i": 4,
+   "key": "r2",
+   "chapter": "r2",
+   "who": "narrator",
+   "text": "Number two. Chess, jo lagta hai jaise kisi ne school notebook mein doodle kiya ho. Sonnet 5.5 se bana.",
+   "spoken": "Number two. Chess, जो लगता है जैसे किसी ने school notebook में doodle किया हो। Sonnet five-point-five से बना।",
+   "start": 26.06,
+   "end": 33.003,
+   "words": [
+    {
+     "w": "Number",
+     "start": 26.06,
+     "end": 26.304
+    },
+    {
+     "w": "two.",
+     "start": 26.35,
+     "end": 26.606
+    },
+    {
+     "w": "Chess,",
+     "start": 27.291,
+     "end": 27.651
+    },
+    {
+     "w": "jo",
+     "start": 28.057,
+     "end": 28.196
+    },
+    {
+     "w": "lagta",
+     "start": 28.243,
+     "end": 28.463
+    },
+    {
+     "w": "hai",
+     "start": 28.51,
+     "end": 28.568
+    },
+    {
+     "w": "jaise",
+     "start": 28.638,
+     "end": 28.87
+    },
+    {
+     "w": "kisi",
+     "start": 28.916,
+     "end": 29.102
+    },
+    {
+     "w": "ne",
+     "start": 29.148,
+     "end": 29.218
+    },
+    {
+     "w": "school",
+     "start": 29.264,
+     "end": 29.555
+    },
+    {
+     "w": "notebook",
+     "start": 29.601,
+     "end": 29.938
+    },
+    {
+     "w": "mein",
+     "start": 29.984,
+     "end": 30.089
+    },
+    {
+     "w": "doodle",
+     "start": 30.135,
+     "end": 30.425
+    },
+    {
+     "w": "kiya",
+     "start": 30.46,
+     "end": 30.646
+    },
+    {
+     "w": "ho.",
+     "start": 30.681,
+     "end": 30.82
+    },
+    {
+     "w": "Sonnet",
+     "start": 31.505,
+     "end": 31.854
+    },
+    {
+     "w": "5.5",
+     "start": 31.9,
+     "end": 32.62
+    },
+    {
+     "w": "se",
+     "start": 32.655,
+     "end": 32.725
+    },
+    {
+     "w": "bana.",
+     "start": 32.771,
+     "end": 33.003
+    }
+   ]
+  },
+  {
+   "i": 5,
+   "key": "r3a",
+   "chapter": "r3",
+   "who": "narrator",
+   "text": "Number three. Ek creator ne apne 120 handwritten pages ko ek working font bana diya, Opus 5.5 ke saath.",
+   "spoken": "Number three. एक creator ने अपने एक सौ बीस handwritten pages को एक working font बना दिया, Opus five-point-five के साथ।",
+   "start": 33.56,
+   "end": 41.025,
+   "words": [
+    {
+     "w": "Number",
+     "start": 33.56,
+     "end": 33.792
+    },
+    {
+     "w": "three.",
+     "start": 33.839,
+     "end": 34.14
+    },
+    {
+     "w": "Ek",
+     "start": 35.185,
+     "end": 35.348
+    },
+    {
+     "w": "creator",
+     "start": 35.371,
+     "end": 35.731
+    },
+    {
+     "w": "ne",
+     "start": 35.777,
+     "end": 35.859
+    },
+    {
+     "w": "apne",
+     "start": 35.928,
+     "end": 36.172
+    },
+    {
+     "w": "120",
+     "start": 36.253,
+     "end": 36.938
+    },
+    {
+     "w": "handwritten",
+     "start": 37.043,
+     "end": 37.472
+    },
+    {
+     "w": "pages",
+     "start": 37.519,
+     "end": 37.786
+    },
+    {
+     "w": "ko",
+     "start": 37.832,
+     "end": 37.937
+    },
+    {
+     "w": "ek",
+     "start": 38.018,
+     "end": 38.134
+    },
+    {
+     "w": "working",
+     "start": 38.216,
+     "end": 38.506
+    },
+    {
+     "w": "font",
+     "start": 38.552,
+     "end": 38.773
+    },
+    {
+     "w": "bana",
+     "start": 38.819,
+     "end": 38.97
+    },
+    {
+     "w": "diya,",
+     "start": 39.017,
+     "end": 39.214
+    },
+    {
+     "w": "Opus",
+     "start": 39.516,
+     "end": 39.794
+    },
+    {
+     "w": "5.5",
+     "start": 39.864,
+     "end": 40.619
+    },
+    {
+     "w": "ke",
+     "start": 40.654,
+     "end": 40.723
+    },
+    {
+     "w": "saath.",
+     "start": 40.77,
+     "end": 41.025
+    }
+   ]
+  },
+  {
+   "i": 6,
+   "key": "r3b",
+   "chapter": "r3",
+   "who": "narrator",
+   "text": "Aur Haiku 5.5 ne bees haiku likhe, phir har frame JavaScript mein draw kiya.",
+   "spoken": "और Haiku five-point-five ने बीस haiku लिखे, फिर हर frame JavaScript में draw किया।",
+   "start": 41.56,
+   "end": 46.25,
+   "words": [
+    {
+     "w": "Aur",
+     "start": 41.56,
+     "end": 41.722
+    },
+    {
+     "w": "Haiku",
+     "start": 41.78,
+     "end": 42.059
+    },
+    {
+     "w": "5.5",
+     "start": 42.128,
+     "end": 42.86
+    },
+    {
+     "w": "ne",
+     "start": 42.906,
+     "end": 42.976
+    },
+    {
+     "w": "bees",
+     "start": 43.08,
+     "end": 43.313
+    },
+    {
+     "w": "haiku",
+     "start": 43.371,
+     "end": 43.58
+    },
+    {
+     "w": "likhe,",
+     "start": 43.626,
+     "end": 43.882
+    },
+    {
+     "w": "phir",
+     "start": 44.183,
+     "end": 44.369
+    },
+    {
+     "w": "har",
+     "start": 44.416,
+     "end": 44.59
+    },
+    {
+     "w": "frame",
+     "start": 44.659,
+     "end": 44.938
+    },
+    {
+     "w": "JavaScript",
+     "start": 45.089,
+     "end": 45.646
+    },
+    {
+     "w": "mein",
+     "start": 45.693,
+     "end": 45.786
+    },
+    {
+     "w": "draw",
+     "start": 45.82,
+     "end": 45.983
+    },
+    {
+     "w": "kiya.",
+     "start": 46.029,
+     "end": 46.25
+    }
+   ]
+  },
+  {
+   "i": 7,
+   "key": "r4",
+   "chapter": "r4",
+   "who": "narrator",
+   "text": "Number four. Ek electromagnetic field, jise aap dekh bhi sakte ho, aur push bhi kar sakte ho. Claude Opus 5.5 se bana.",
+   "spoken": "Number four. एक electromagnetic field, जिसे आप देख भी सकते हो, और push भी कर सकते हो। Claude Opus five-point-five से बना।",
+   "start": 47.06,
+   "end": 54.421,
+   "words": [
+    {
+     "w": "Number",
+     "start": 47.06,
+     "end": 47.304
+    },
+    {
+     "w": "four.",
+     "start": 47.35,
+     "end": 47.571
+    },
+    {
+     "w": "Ek",
+     "start": 47.977,
+     "end": 48.128
+    },
+    {
+     "w": "electromagnetic",
+     "start": 48.198,
+     "end": 48.953
+    },
+    {
+     "w": "field,",
+     "start": 48.999,
+     "end": 49.255
+    },
+    {
+     "w": "jise",
+     "start": 49.591,
+     "end": 49.777
+    },
+    {
+     "w": "aap",
+     "start": 49.823,
+     "end": 49.905
+    },
+    {
+     "w": "dekh",
+     "start": 49.974,
+     "end": 50.137
+    },
+    {
+     "w": "bhi",
+     "start": 50.195,
+     "end": 50.265
+    },
+    {
+     "w": "sakte",
+     "start": 50.311,
+     "end": 50.52
+    },
+    {
+     "w": "ho,",
+     "start": 50.566,
+     "end": 50.694
+    },
+    {
+     "w": "aur",
+     "start": 50.961,
+     "end": 51.124
+    },
+    {
+     "w": "push",
+     "start": 51.193,
+     "end": 51.402
+    },
+    {
+     "w": "bhi",
+     "start": 51.449,
+     "end": 51.53
+    },
+    {
+     "w": "kar",
+     "start": 51.577,
+     "end": 51.669
+    },
+    {
+     "w": "sakte",
+     "start": 51.716,
+     "end": 51.913
+    },
+    {
+     "w": "ho.",
+     "start": 51.96,
+     "end": 52.099
+    },
+    {
+     "w": "Claude",
+     "start": 52.587,
+     "end": 52.877
+    },
+    {
+     "w": "Opus",
+     "start": 52.935,
+     "end": 53.225
+    },
+    {
+     "w": "5.5",
+     "start": 53.295,
+     "end": 54.049
+    },
+    {
+     "w": "se",
+     "start": 54.084,
+     "end": 54.154
+    },
+    {
+     "w": "bana.",
+     "start": 54.2,
+     "end": 54.421
+    }
+   ]
+  },
+  {
+   "i": 8,
+   "key": "noway",
+   "chapter": "r4",
+   "who": "actor",
+   "text": "No. Way.",
+   "spoken": "[whispering] No. Way.",
+   "start": 54.75,
+   "end": 56.696,
+   "words": [
+    {
+     "w": "No.",
+     "start": 54.75,
+     "end": 55.723
+    },
+    {
+     "w": "Way.",
+     "start": 55.723,
+     "end": 56.696
+    }
+   ]
+  },
+  {
+   "i": 9,
+   "key": "r5a",
+   "chapter": "r5",
+   "who": "narrator",
+   "text": "Aur number five... ek cardiology fellow ne 3D tool banaya, jo trainees ko coronary angiograms padhna sikhata hai.",
+   "spoken": "और number five... एक cardiology fellow ने three-D tool बनाया, जो trainees को coronary angiograms पढ़ना सिखाता है।",
+   "start": 57.06,
+   "end": 63.097,
+   "words": [
+    {
+     "w": "Aur",
+     "start": 57.06,
+     "end": 57.187
+    },
+    {
+     "w": "number",
+     "start": 57.234,
+     "end": 57.454
+    },
+    {
+     "w": "five...",
+     "start": 57.501,
+     "end": 57.803
+    },
+    {
+     "w": "ek",
+     "start": 58.07,
+     "end": 58.209
+    },
+    {
+     "w": "cardiology",
+     "start": 58.255,
+     "end": 58.743
+    },
+    {
+     "w": "fellow",
+     "start": 58.789,
+     "end": 58.987
+    },
+    {
+     "w": "ne",
+     "start": 59.033,
+     "end": 59.115
+    },
+    {
+     "w": "3D",
+     "start": 59.184,
+     "end": 59.498
+    },
+    {
+     "w": "tool",
+     "start": 59.579,
+     "end": 59.73
+    },
+    {
+     "w": "banaya,",
+     "start": 59.776,
+     "end": 60.078
+    },
+    {
+     "w": "jo",
+     "start": 60.171,
+     "end": 60.345
+    },
+    {
+     "w": "trainees",
+     "start": 60.403,
+     "end": 60.775
+    },
+    {
+     "w": "ko",
+     "start": 60.821,
+     "end": 61.007
+    },
+    {
+     "w": "coronary",
+     "start": 61.228,
+     "end": 61.645
+    },
+    {
+     "w": "angiograms",
+     "start": 61.727,
+     "end": 62.249
+    },
+    {
+     "w": "padhna",
+     "start": 62.33,
+     "end": 62.563
+    },
+    {
+     "w": "sikhata",
+     "start": 62.609,
+     "end": 62.934
+    },
+    {
+     "w": "hai.",
+     "start": 62.981,
+     "end": 63.097
+    }
+   ]
+  },
+  {
+   "i": 10,
+   "key": "r5b",
+   "chapter": "r5",
+   "who": "narrator",
+   "text": "Notebook games se... medical education tak. Ye hai range.",
+   "spoken": "Notebook games से... medical education तक। ये है range.",
+   "start": 63.56,
+   "end": 67.403,
+   "words": [
+    {
+     "w": "Notebook",
+     "start": 63.56,
+     "end": 63.931
+    },
+    {
+     "w": "games",
+     "start": 63.978,
+     "end": 64.245
+    },
+    {
+     "w": "se...",
+     "start": 64.349,
+     "end": 64.547
+    },
+    {
+     "w": "medical",
+     "start": 65.034,
+     "end": 65.359
+    },
+    {
+     "w": "education",
+     "start": 65.429,
+     "end": 65.835
+    },
+    {
+     "w": "tak.",
+     "start": 65.882,
+     "end": 66.056
+    },
+    {
+     "w": "Ye",
+     "start": 66.706,
+     "end": 66.834
+    },
+    {
+     "w": "hai",
+     "start": 66.869,
+     "end": 66.961
+    },
+    {
+     "w": "range.",
+     "start": 67.031,
+     "end": 67.403
+    }
+   ]
+  },
+  {
+   "i": 11,
+   "key": "cta",
+   "chapter": "final",
+   "who": "narrator",
+   "text": "Six real builds. Five reveals. Ek sawaal: aap Claude se kya banaoge?",
+   "spoken": "Six real builds. Five reveals. एक सवाल: आप Claude से क्या बनाओगे?",
+   "start": 69.56,
+   "end": 74.25,
+   "words": [
+    {
+     "w": "Six",
+     "start": 69.56,
+     "end": 69.838
+    },
+    {
+     "w": "real",
+     "start": 69.943,
+     "end": 70.128
+    },
+    {
+     "w": "builds.",
+     "start": 70.175,
+     "end": 70.442
+    },
+    {
+     "w": "Five",
+     "start": 70.628,
+     "end": 70.895
+    },
+    {
+     "w": "reveals.",
+     "start": 70.941,
+     "end": 71.313
+    },
+    {
+     "w": "Ek",
+     "start": 71.858,
+     "end": 72.009
+    },
+    {
+     "w": "sawaal:",
+     "start": 72.056,
+     "end": 72.323
+    },
+    {
+     "w": "aap",
+     "start": 73.008,
+     "end": 73.159
+    },
+    {
+     "w": "Claude",
+     "start": 73.228,
+     "end": 73.495
+    },
+    {
+     "w": "se",
+     "start": 73.53,
+     "end": 73.623
+    },
+    {
+     "w": "kya",
+     "start": 73.669,
+     "end": 73.809
+    },
+    {
+     "w": "banaoge?",
+     "start": 73.855,
+     "end": 74.25
+    }
+   ]
+  }
+ ],
+ "extras": [],
+ "notes": "ElevenLabs Liam: narrator eleven_turbo_v2_5 hi seed 5, actor eleven_v3; placed at fixed times"
+}

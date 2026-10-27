@@ -1,0 +1,108 @@
+{
+ "_doc": "Sound cue sheet, relative to each scene. Time forms: p = fraction of the scene, s = seconds from the scene start, e = seconds before the scene end. 'snap': snap to the nearest beat of the 100 BPM grid. Read by audio-src/score.py (synthesis + mix) and documented in SOUND_CUE_SHEET.md. Every sound is synthesized in code (original, licence-clean).",
+ "energy": {
+  "hook":       { "pad": 0.5, "bass": 0.0, "arp": 0.0, "kick": 0, "hat": 0, "clap": 0, "drone": 1.0 },
+  "reveal":     { "pad": 0.9, "bass": 0.5, "arp": 0.0, "kick": 0, "hat": 0, "clap": 0, "drone": 0.6 },
+  "engine":     { "pad": 0.7, "bass": 0.8, "arp": 0.4, "kick": 1, "hat": 0, "clap": 0, "drone": 0.8 },
+  "coding":     { "pad": 0.6, "bass": 0.9, "arp": 0.9, "kick": 1, "hat": 1, "clap": 0, "drone": 0.0 },
+  "cad":        { "pad": 0.7, "bass": 0.9, "arp": 0.6, "kick": 1, "hat": 1, "clap": 0, "drone": 0.0 },
+  "human":      { "pad": 0.8, "bass": 0.7, "arp": 0.0, "kick": 0, "hat": 1, "clap": 0, "drone": 0.4 },
+  "finance":    { "pad": 0.6, "bass": 0.8, "arp": 0.5, "kick": 1, "hat": 1, "clap": 0, "drone": 0.0 },
+  "agents":     { "pad": 0.7, "bass": 1.0, "arp": 1.0, "kick": 1, "hat": 1, "clap": 1, "drone": 0.0 },
+  "bench":      { "pad": 0.8, "bass": 0.4, "arp": 0.0, "kick": 0, "hat": 0, "clap": 0, "drone": 0.5 },
+  "highspeed":  { "pad": 0.5, "bass": 1.0, "arp": 1.0, "kick": 1, "hat": 1, "clap": 1, "drone": 0.0 },
+  "openweight": { "pad": 1.0, "bass": 0.6, "arp": 0.3, "kick": 0, "hat": 0, "clap": 0, "drone": 0.5 },
+  "payoff":     { "pad": 0.8, "bass": 1.0, "arp": 1.0, "kick": 1, "hat": 1, "clap": 1, "drone": 0.0 }
+ },
+ "scenes": {
+  "hook": [
+   { "s": 0.0, "kind": "subImpact", "gain": 1.0 },
+   { "s": 0.05, "kind": "glass", "gain": 0.5, "pitch": 1.0 },
+   { "p": 0.22, "kind": "disassembly", "gain": 0.7, "len": 1.6 },
+   { "p": 0.42, "kind": "whoosh", "gain": 0.8, "len": 1.1 },
+   { "p": 0.62, "kind": "typing", "gain": 0.45, "len": 0.9 },
+   { "e": 0.45, "kind": "suck", "gain": 0.7, "len": 0.4 },
+   { "e": 0.3, "kind": "silence", "len": 0.3 }
+  ],
+  "reveal": [
+   { "s": 0.0, "kind": "subImpact", "gain": 0.9 },
+   { "s": 0.0, "kind": "riseTone", "gain": 0.6, "len": 2.2 },
+   { "p": 0.36, "kind": "glass", "gain": 0.8, "pitch": 1.0, "offset": 0.3 },
+   { "p": 0.36, "kind": "mechClick", "gain": 1.0, "offset": 0.3 },
+   { "p": 0.52, "kind": "dataPulse", "gain": 0.35 },
+   { "e": 0.9, "kind": "riser", "gain": 0.6, "len": 0.9 }
+  ],
+  "engine": [
+   { "s": 0.0, "kind": "impact", "gain": 0.8 },
+   { "s": 0.2, "kind": "whoosh", "gain": 0.6, "len": 2.6 },
+   { "p": 0.36, "kind": "flashHit", "gain": 0.8 },
+   { "p": 0.39, "kind": "paper", "gain": 0.5 },
+   { "p": 0.42, "kind": "dataBurst", "gain": 0.5, "len": 1.8 },
+   { "p": 0.9, "kind": "suck", "gain": 0.4, "len": 0.5 }
+  ],
+  "coding": [
+   { "s": 0.0, "kind": "mechClick", "gain": 0.6 },
+   { "p": 0.08, "kind": "typing", "gain": 0.5, "len": 1.0 },
+   { "p": 0.2, "kind": "dataBurst", "gain": 0.45, "len": 1.6 },
+   { "p": 0.42, "kind": "magLock", "gain": 0.7, "snap": true },
+   { "p": 0.5, "kind": "gearRatchet", "gain": 0.5, "len": 2.5 },
+   { "e": 0.6, "kind": "whoosh", "gain": 0.45, "len": 0.6 }
+  ],
+  "cad": [
+   { "s": 0.0, "kind": "glass", "gain": 0.4, "pitch": 0.75 },
+   { "p": 0.07, "kind": "servo", "gain": 0.4, "len": 1.6 },
+   { "p": 0.2, "kind": "shimmer", "gain": 0.45, "len": 2.0 },
+   { "p": 0.44, "kind": "magLock", "gain": 0.6 },
+   { "p": 0.45, "kind": "servo", "gain": 0.4, "len": 1.4 },
+   { "p": 0.52, "kind": "dataPulse", "gain": 0.4 },
+   { "p": 0.66, "kind": "magLock", "gain": 0.8 },
+   { "p": 0.7, "kind": "magLock", "gain": 0.9 },
+   { "p": 0.735, "kind": "mechClick", "gain": 0.5 },
+   { "p": 0.9, "kind": "glass", "gain": 0.4, "pitch": 1.5 }
+  ],
+  "human": [
+   { "s": 0.0, "kind": "glass", "gain": 0.35, "pitch": 1.5 },
+   { "p": 0.05, "kind": "heartbeat", "gain": 0.6, "len": 99 },
+   { "p": 0.15, "kind": "servoRhythm", "gain": 0.4, "len": 99 },
+   { "p": 0.5, "kind": "errorBlip", "gain": 0.45 },
+   { "p": 0.56, "kind": "fixChime", "gain": 0.45 }
+  ],
+  "finance": [
+   { "s": 0.0, "kind": "paper", "gain": 0.6 },
+   { "p": 0.15, "kind": "paper", "gain": 0.45 },
+   { "p": 0.3, "kind": "ticks", "gain": 0.45, "len": 1.6 },
+   { "p": 0.55, "kind": "dataBurst", "gain": 0.4, "len": 1.4 },
+   { "p": 0.75, "kind": "chartSwell", "gain": 0.5, "len": 1.2 },
+   { "e": 0.5, "kind": "suck", "gain": 0.45, "len": 0.5 }
+  ],
+  "agents": [
+   { "s": 0.0, "kind": "impact", "gain": 0.7 },
+   { "p": 0.12, "kind": "nodeChain", "gain": 0.5, "len": 4.5 },
+   { "p": 0.55, "kind": "errorBlip", "gain": 0.4 },
+   { "p": 0.62, "kind": "fixChime", "gain": 0.45 },
+   { "e": 0.7, "kind": "riser", "gain": 0.5, "len": 0.7 }
+  ],
+  "bench": [
+   { "s": 0.0, "kind": "impact", "gain": 0.55 },
+   { "p": 0.2, "kind": "riseTone", "gain": 0.45, "len": 1.4 },
+   { "p": 0.3, "kind": "ticks", "gain": 0.35, "len": 2.2 },
+   { "e": 0.8, "kind": "whoosh", "gain": 0.4, "len": 0.8 }
+  ],
+  "highspeed": [
+   { "s": 0.1, "kind": "accelSweep", "gain": 0.8, "len": 2.0 },
+   { "p": 0.45, "kind": "ticks", "gain": 0.5, "len": 1.0 },
+   { "p": 0.7, "kind": "impact", "gain": 1.0 }
+  ],
+  "openweight": [
+   { "s": 0.0, "kind": "glass", "gain": 0.5, "pitch": 0.75 },
+   { "p": 0.1, "kind": "unfold", "gain": 0.45, "len": 2.4 },
+   { "p": 0.5, "kind": "dataPulse", "gain": 0.3 },
+   { "e": 0.6, "kind": "riser", "gain": 0.6, "len": 0.6 }
+  ],
+  "payoff": [
+   { "s": 0.0, "kind": "impact", "gain": 1.0 },
+   { "kind": "montageHits", "gain": 0.55 },
+   { "kind": "resolve", "gain": 1.0 }
+  ]
+ }
+}

@@ -1,0 +1,164 @@
+{
+ "_doc": "V2 narration (English) for both cuts. Same claims and qualifiers as v1 (voScript.json). 'cap' = on-screen caption, 'tts' = what the voice reads (risky tokens spelled out). Phrase punctuation (, . ? : …) must match between cap and tts. Every number must exist in verifiedClaims.ts (tests/factualChecks.ts).",
+ "voice": {
+  "provider": "edge-tts",
+  "voiceId": "en-US-BrianNeural",
+  "name": "Brian (Microsoft neural, scratch-licence)",
+  "rate": "+8%"
+ },
+ "master": [
+  {
+   "id": "m01",
+   "scene": "hook",
+   "min": 5.0,
+   "cap": "What happens when AI stops just answering questions… and starts building entire systems?",
+   "tts": "What happens when AI stops just answering questions… and starts building entire systems?"
+  },
+  {
+   "id": "m02",
+   "scene": "reveal",
+   "min": 6.0,
+   "cap": "Meet Kimi K3.1 Pro, the new open-weight model from Moonshot AI.",
+   "tts": "Meet Kimi K three point one Pro, the new open-weight model from Moonshot AI."
+  },
+  {
+   "id": "m03",
+   "scene": "engine",
+   "min": 8.0,
+   "cap": "It's a 3-trillion-parameter class model, with a 1-million-token context window. Room for bigger projects, with more context.",
+   "tts": "It's a three-trillion-parameter class model, with a one-million-token context window. Room for bigger projects, with more context."
+  },
+  {
+   "id": "m04",
+   "scene": "coding",
+   "min": 11.0,
+   "cap": "In coding, it goes from quick fixes to full-project builds. Front-end pages, interactive Three.js scenes, and complete experiences with game engines like Unity, Unreal and Godot.",
+   "tts": "In coding, it goes from quick fixes to full-project builds. Front-end pages, interactive Three J S scenes, and complete experiences with game engines like Unity, Unreal and Godot."
+  },
+  {
+   "id": "m05",
+   "scene": "cad",
+   "min": 11.0,
+   "cap": "It's strong in 3D, too. From a text brief, a sketch or a reference image, it builds parametric, CAD-style models. On BenchCAD with tools: 92.7 percent, close to the top models.",
+   "tts": "It's strong in 3D, too. From a text brief, a sketch or a reference image, it builds parametric, CAD-style models. On BenchCAD with tools: 92.7 percent, close to the top models."
+  },
+  {
+   "id": "m06",
+   "scene": "human",
+   "min": 13.0,
+   "cap": "In one internal test, it built a human walking simulator. 167 missions, 420 reviews, 36 shoulder-muscle calculation errors fixed… and a simulated human that went from falling over to 11.2 seconds of continuous walking.",
+   "tts": "In one internal test, it built a human walking simulator. one hundred and sixty-seven missions, four hundred and twenty reviews, 36 shoulder-muscle calculation errors fixed… and a simulated human that went from falling over to 11.2 seconds of continuous walking."
+  },
+  {
+   "id": "m07",
+   "scene": "finance",
+   "min": 12.0,
+   "cap": "In finance, it cross-checks documents, builds financial models and writes source-backed research. On OfficeQA Pro v2: 64.4. This is not just a summary chatbot.",
+   "tts": "In finance, it cross-checks documents, builds financial models and writes source-backed research. On Office Q A Pro V two: 64.4. This is not just a summary chatbot."
+  },
+  {
+   "id": "m08",
+   "scene": "agents",
+   "min": 11.0,
+   "cap": "The real power shows when AI breaks one goal into steps. Plan, search, build, test, debug. And then improves its own work.",
+   "tts": "The real power shows when AI breaks one goal into steps. Plan, search, build, test, debug. And then improves its own work."
+  },
+  {
+   "id": "m09",
+   "scene": "bench",
+   "min": 10.0,
+   "cap": "On Terminal-Bench 4.0, in Moonshot's reported results, Kimi K3.1 Pro scores 65.7 percent. Claude Opus 5.5 scores 66.4. Just slightly behind.",
+   "tts": "On Terminal-Bench four point zero, in Moonshot's reported results, Kimi K three point one Pro scores 65.7 percent. Claude Opus five point five scores 66.4. Just slightly behind."
+  },
+  {
+   "id": "m10",
+   "scene": "highspeed",
+   "min": 7.5,
+   "cap": "And there's a Highspeed version. According to Moonshot, about 2 to 3 times faster.",
+   "tts": "And there's a Highspeed version. According to Moonshot, about 2 to 3 times faster."
+  },
+  {
+   "id": "m11",
+   "scene": "openweight",
+   "min": 8.0,
+   "cap": "The most interesting part? It's open-weight. Full weights are planned for release by November 4.",
+   "tts": "The most interesting part? It's open-weight. Full weights are planned for release by November 4th."
+  },
+  {
+   "id": "m12",
+   "scene": "payoff",
+   "min": 11.0,
+   "cap": "Coding, 3D, research, agents. The focus is no longer just answers, but delivering real work. So what will you build first?",
+   "tts": "Coding, 3D, research, agents. The focus is no longer just answers, but delivering real work. So what will you build first?"
+  }
+ ],
+ "reel": [
+  {
+   "id": "r01",
+   "scene": "hook",
+   "min": 3.0,
+   "cap": "What happens when AI stops just answering… and starts building entire systems?",
+   "tts": "What happens when AI stops just answering… and starts building entire systems?"
+  },
+  {
+   "id": "r02",
+   "scene": "reveal",
+   "min": 5.0,
+   "cap": "Meet Kimi K3.1 Pro: Moonshot AI's new 3T-class, open-weight model.",
+   "tts": "Meet Kimi K three point one Pro: Moonshot AI's new three-T class, open-weight model."
+  },
+  {
+   "id": "r03",
+   "scene": "coding",
+   "min": 5.4,
+   "cap": "In coding: interactive Three.js scenes, games, full-project builds.",
+   "tts": "In coding: interactive Three J S scenes, games, full-project builds."
+  },
+  {
+   "id": "r04",
+   "scene": "cad",
+   "min": 8.0,
+   "cap": "From text or a sketch to parametric 3D models. 92.7 percent on BenchCAD with tools.",
+   "tts": "From text or a sketch to parametric 3D models. 92.7 percent on BenchCAD with tools."
+  },
+  {
+   "id": "r05",
+   "scene": "human",
+   "min": 9.0,
+   "cap": "In an internal test, after 167 missions, a simulated human walked continuously for 11.2 seconds.",
+   "tts": "In an internal test, after 167 missions, a simulated human walked continuously for 11.2 seconds."
+  },
+  {
+   "id": "r06",
+   "scene": "finance",
+   "min": 8.0,
+   "cap": "In finance: cross-checked documents, models, source-backed research. 64.4 on OfficeQA Pro v2.",
+   "tts": "In finance: cross-checked documents, models, source-backed research. 64.4 on Office Q A Pro V two."
+  },
+  {
+   "id": "r07",
+   "scene": "bench",
+   "min": 8.0,
+   "cut": {
+    "phrase": 3,
+    "scene": "highspeed"
+   },
+   "cap": "Terminal-Bench 4.0: 65.7 percent, just behind Opus 5.5. And Highspeed is 2 to 3 times faster, according to Moonshot.",
+   "tts": "Terminal-Bench four point zero: 65.7 percent, just behind Opus five point five. And Highspeed is 2 to 3 times faster, according to Moonshot."
+  },
+  {
+   "id": "r08",
+   "scene": "openweight",
+   "min": 8.0,
+   "cap": "It's open-weight, with full weights planned by November 4. Available now on Kimi.ai, Kimi Code and the API.",
+   "tts": "It's open-weight, with full weights planned by November 4th. Available now on Kimi dot A I, Kimi Code and the API."
+  },
+  {
+   "id": "r09",
+   "scene": "payoff",
+   "min": 5.0,
+   "cap": "What will you build first with AI? Tell me in the comments.",
+   "tts": "What will you build first with AI? Tell me in the comments."
+  }
+ ]
+}

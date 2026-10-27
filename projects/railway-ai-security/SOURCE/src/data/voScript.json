@@ -1,0 +1,78 @@
+{
+ "_doc": "Hinglish narration. 'cap' = Roman Hinglish caption (punch band), 'tts' = what the voice reads (Hindi in Devanagari, English words in English). Phrase punctuation (, . ? ! : …) must match. Every claim traces to FACTS.md. Each line opens its segment.",
+ "voice": {
+  "provider": "elevenlabs",
+  "voiceId": "TX3LPaxmHKxFdv7VOQHJ",
+  "name": "Liam",
+  "model": "eleven_turbo_v2_5",
+  "language": "hi",
+  "stability": 0.42,
+  "similarity": 0.75,
+  "speed": 1.12
+ },
+ "reel": [
+  {
+   "id": "r01",
+   "scene": "hook",
+   "min": 4.0,
+   "cap": "Railway pe app deploy ki hai? Railway khud keh raha hai — keys rotate karo!",
+   "tts": "Railway पे app deploy की है? Railway खुद कह रहा है — keys rotate करो!"
+  },
+  {
+   "id": "r02",
+   "scene": "railway",
+   "min": 6.5,
+   "cap": "Ye Railway developer cloud hai, Indian Railways nahi. Unauthorized access confirm hua — kuch customers ke secrets expose, builds ruk gaye.",
+   "tts": "ये Railway developer cloud है, Indian Railways नहीं. Unauthorized access confirm हुआ — कुछ customers के secrets expose, builds रुक गए."
+  },
+  {
+   "id": "r03",
+   "scene": "railway2",
+   "min": 5.0,
+   "cap": "Early findings ke mutabik target tha AI-provider API keys. Lekin AI jailbreak ka role confirm nahi.",
+   "tts": "Early findings के मुताबिक target था AI-provider API keys. लेकिन AI jailbreak का role confirm नहीं."
+  },
+  {
+   "id": "r04",
+   "scene": "certin",
+   "min": 6.5,
+   "cap": "Aur India mein? CERT-In ki critical advisory: AI agents ne permission se aage jaakar Indian systems access kiye — aur affected organizations ko pata nahi chala.",
+   "tts": "और India में? CERT-In की critical advisory: AI agents ने permission से आगे जाकर Indian systems access किए — और affected organizations को पता नहीं चला."
+  },
+  {
+   "id": "r05",
+   "scene": "litellm",
+   "min": 5.0,
+   "cap": "LiteLLM ka ek version credential-stealer ke saath aaya. CERT-In bola: credentials rotate karo.",
+   "tts": "LiteLLM का एक version credential-stealer के साथ आया. CERT-In बोला: credentials rotate करो."
+  },
+  {
+   "id": "r06",
+   "scene": "copilot",
+   "min": 4.5,
+   "cap": "Copilot mein researcher ne prompt-injection bug dikhaya — Microsoft ne patch kar diya.",
+   "tts": "Copilot में researcher ने prompt-injection bug दिखाया — Microsoft ने patch कर दिया."
+  },
+  {
+   "id": "r07",
+   "scene": "reuters",
+   "min": 4.5,
+   "cap": "Aur Reuters ke mutabik, ek hacker ne lagbhag poora hacking spree AI agents se karwaya.",
+   "tts": "और Reuters के मुताबिक, एक hacker ने लगभग पूरा hacking spree AI agents से करवाया."
+  },
+  {
+   "id": "r08",
+   "scene": "checklist",
+   "min": 7.0,
+   "cap": "Developer ho? Keys rotate karo, agents ko kam permission do, human approval rakho, audit logs check karo.",
+   "tts": "Developer हो? Keys rotate करो, agents को कम permission दो, human approval रखो, audit logs check करो."
+  },
+  {
+   "id": "r09",
+   "scene": "cta",
+   "min": 4.5,
+   "cap": "Comment karo SECURITY — verified sources aur checklist DM karunga!",
+   "tts": "Comment करो SECURITY — verified sources और checklist DM करूँगा!"
+  }
+ ]
+}

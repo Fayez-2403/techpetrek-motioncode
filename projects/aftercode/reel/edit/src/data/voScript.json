@@ -1,0 +1,104 @@
+{
+ "_doc": "AFTERCODE reel VO; 'at' = reel second where the line starts.",
+ "voice": {
+  "provider": "elevenlabs",
+  "voiceId": "TX3LPaxmHKxFdv7VOQHJ",
+  "name": "Liam",
+  "model": "eleven_turbo_v2_5",
+  "language": "hi",
+  "stability": 0.4,
+  "similarity": 0.75,
+  "speed": 1.1,
+  "seed": 5
+ },
+ "reel": [
+  {
+   "id": "h1",
+   "scene": "a",
+   "cap": "Bhai, coding se break liya…",
+   "tts": "भाई, coding से break लिया…",
+   "min": 0.0,
+   "at": 0.25
+  },
+  {
+   "id": "h2",
+   "scene": "b",
+   "cap": "aur poori development team ko DANCE karwa diya!",
+   "tts": "और पूरी development team को DANCE करवा दिया!",
+   "min": 0.0,
+   "at": 1.97
+  },
+  {
+   "id": "l1",
+   "scene": "c",
+   "cap": "Apni photo upload karo, ya selfie lo…",
+   "tts": "अपनी photo upload करो, या selfie लो…",
+   "min": 0.0,
+   "at": 5.55
+  },
+  {
+   "id": "l2",
+   "scene": "d",
+   "cap": "aur khud ko beat pe naachte dekho!",
+   "tts": "और खुद को beat पे नाचते देखो!",
+   "min": 0.0,
+   "at": 9.3
+  },
+  {
+   "id": "l3",
+   "scene": "e",
+   "cap": "Outfit badlo, world badlo, music nahi rukta.",
+   "tts": "Outfit बदलो, world बदलो, music नहीं रुकता.",
+   "min": 0.0,
+   "at": 15.1
+  },
+  {
+   "id": "l4",
+   "scene": "f",
+   "cap": "Dost ko add karo: solo se duo…",
+   "tts": "दोस्त को add करो: solo से duo…",
+   "min": 0.0,
+   "at": 24.7
+  },
+  {
+   "id": "l5",
+   "scene": "g",
+   "cap": "aur ab, dance battle!",
+   "tts": "और अब, dance battle!",
+   "min": 0.0,
+   "at": 28.5
+  },
+  {
+   "id": "l6",
+   "scene": "h",
+   "cap": "Poori team add karo… ek dance floor!",
+   "tts": "पूरी team add करो… एक dance floor!",
+   "min": 0.0,
+   "at": 34.3
+  },
+  {
+   "id": "l7",
+   "scene": "i",
+   "cap": "Aath worlds, real music, aur aapki apni dance crew.",
+   "tts": "आठ worlds, real music, और आपकी अपनी dance crew.",
+   "min": 0.0,
+   "at": 55.45
+  },
+  {
+   "id": "l8",
+   "scene": "j",
+   "cap": "AfterCode. Jab coding rukti hai, duniya naachne lagti hai.",
+   "tts": "AfterCode. जब coding रुकती है, दुनिया नाचने लगती है.",
+   "min": 0.0,
+   "at": 63.1
+  },
+  {
+   "id": "l9",
+   "scene": "k",
+   "cap": "Apne setup pe use karoge?",
+   "tts": "अपने setup पे use करोगे?",
+   "min": 0.0,
+   "at": 67.2
+  }
+ ]
+}

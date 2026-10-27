@@ -1,0 +1,900 @@
+{
+ "lines": [
+  {
+   "i": 0,
+   "chapter": "hook",
+   "text": "AI ab DNA se baat karega?!",
+   "spoken": "A.I. अब D.N.A. से बात करेगा?!",
+   "start": 0.22,
+   "end": 1.671,
+   "words": [
+    {
+     "w": "AI",
+     "start": 0.22,
+     "end": 0.371,
+     "conf": 1.0
+    },
+    {
+     "w": "ab",
+     "start": 0.441,
+     "end": 0.58,
+     "conf": 1.0
+    },
+    {
+     "w": "DNA",
+     "start": 0.65,
+     "end": 0.975,
+     "conf": 1.0
+    },
+    {
+     "w": "se",
+     "start": 1.114,
+     "end": 1.184,
+     "conf": 1.0
+    },
+    {
+     "w": "baat",
+     "start": 1.23,
+     "end": 1.358,
+     "conf": 1.0
+    },
+    {
+     "w": "karega?!",
+     "start": 1.393,
+     "end": 1.671,
+     "conf": 1.0
+    }
+   ]
+  },
+  {
+   "i": 1,
+   "chapter": "twist",
+   "text": "Haan, lekin ek important twist hai.",
+   "spoken": "हाँ, लेकिन एक important twist है।",
+   "start": 1.851,
+   "end": 3.593,
+   "words": [
+    {
+     "w": "Haan,",
+     "start": 1.851,
+     "end": 2.048,
+     "conf": 1.0
+    },
+    {
+     "w": "lekin",
+     "start": 2.397,
+     "end": 2.594,
+     "conf": 1.0
+    },
+    {
+     "w": "ek",
+     "start": 2.675,
+     "end": 2.791,
+     "conf": 1.0
+    },
+    {
+     "w": "important",
+     "start": 2.861,
+     "end": 3.233,
+     "conf": 1.0
+    },
+    {
+     "w": "twist",
+     "start": 3.256,
+     "end": 3.453,
+     "conf": 1.0
+    },
+    {
+     "w": "hai.",
+     "start": 3.511,
+     "end": 3.593,
+     "conf": 1.0
+    }
+   ]
+  },
+  {
+   "i": 2,
+   "chapter": "model",
+   "text": "Hugging Face ne Carbon-X release kiya hai, 14.8 billion parameter ka open AI model,",
+   "spoken": "Hugging Face ने Carbon X release किया है, fourteen point eight billion parameter का open A.I. model,",
+   "start": 4.921,
+   "end": 9.6,
+   "words": [
+    {
+     "w": "Hugging",
+     "start": 4.921,
+     "end": 5.199,
+     "conf": 1.0
+    },
+    {
+     "w": "Face",
+     "start": 5.257,
+     "end": 5.455,
+     "conf": 1.0
+    },
+    {
+     "w": "ne",
+     "start": 5.478,
+     "end": 5.548,
+     "conf": 1.0
+    },
+    {
+     "w": "Carbon-X",
+     "start": 5.629,
+     "end": 6.117,
+     "conf": 1.0
+    },
+    {
+     "w": "release",
+     "start": 6.175,
+     "end": 6.418,
+     "conf": 1.0
+    },
+    {
+     "w": "kiya",
+     "start": 6.442,
+     "end": 6.593,
+     "conf": 1.0
+    },
+    {
+     "w": "hai,",
+     "start": 6.639,
+     "end": 6.755,
+     "conf": 1.0
+    },
+    {
+     "w": "14.8",
+     "start": 7.127,
+     "end": 7.951,
+     "conf": 1.0
+    },
+    {
+     "w": "billion",
+     "start": 7.997,
+     "end": 8.23,
+     "conf": 1.0
+    },
+    {
+     "w": "parameter",
+     "start": 8.288,
+     "end": 8.624,
+     "conf": 1.0
+    },
+    {
+     "w": "ka",
+     "start": 8.659,
+     "end": 8.752,
+     "conf": 1.0
+    },
+    {
+     "w": "open",
+     "start": 8.822,
+     "end": 9.054,
+     "conf": 1.0
+    },
+    {
+     "w": "AI",
+     "start": 9.135,
+     "end": 9.298,
+     "conf": 1.0
+    },
+    {
+     "w": "model,",
+     "start": 9.367,
+     "end": 9.6,
+     "conf": 1.0
+    }
+   ]
+  },
+  {
+   "i": 3,
+   "chapter": "both",
+   "text": "jo DNA ke A, C, G, T letters aur normal English questions ko saath process karta hai.",
+   "spoken": "जो D.N.A. के ए, सी, जी, टी letters और normal English questions को साथ process करता है।",
+   "start": 9.78,
+   "end": 14.389,
+   "words": [
+    {
+     "w": "jo",
+     "start": 9.78,
+     "end": 9.919,
+     "conf": 1.0
+    },
+    {
+     "w": "DNA",
+     "start": 10.012,
+     "end": 10.395,
+     "conf": 1.0
+    },
+    {
+     "w": "ke",
+     "start": 10.488,
+     "end": 10.581,
+     "conf": 1.0
+    },
+    {
+     "w": "A,",
+     "start": 10.662,
+     "end": 10.871,
+     "conf": 1.0
+    },
+    {
+     "w": "C,",
+     "start": 10.987,
+     "end": 11.22,
+     "conf": 1.0
+    },
+    {
+     "w": "G,",
+     "start": 11.266,
+     "end": 11.533,
+     "conf": 1.0
+    },
+    {
+     "w": "T",
+     "start": 11.812,
+     "end": 11.928,
+     "conf": 1.0
+    },
+    {
+     "w": "letters",
+     "start": 11.998,
+     "end": 12.218,
+     "conf": 1.0
+    },
+    {
+     "w": "aur",
+     "start": 12.311,
+     "end": 12.427,
+     "conf": 1.0
+    },
+    {
+     "w": "normal",
+     "start": 12.508,
+     "end": 12.752,
+     "conf": 1.0
+    },
+    {
+     "w": "English",
+     "start": 12.822,
+     "end": 13.019,
+     "conf": 1.0
+    },
+    {
+     "w": "questions",
+     "start": 13.077,
+     "end": 13.356,
+     "conf": 1.0
+    },
+    {
+     "w": "ko",
+     "start": 13.391,
+     "end": 13.441,
+     "conf": 1.0
+    },
+    {
+     "w": "saath",
+     "start": 13.53,
+     "end": 13.693,
+     "conf": 1.0
+    },
+    {
+     "w": "process",
+     "start": 13.751,
+     "end": 14.018,
+     "conf": 1.0
+    },
+    {
+     "w": "karta",
+     "start": 14.053,
+     "end": 14.25,
+     "conf": 1.0
+    },
+    {
+     "w": "hai.",
+     "start": 14.285,
+     "end": 14.389,
+     "conf": 1.0
+    }
+   ]
+  },
+  {
+   "i": 4,
+   "chapter": "mutation",
+   "text": "Socho researcher sequence paste karke pooche: is mutation ka possible effect kya ho sakta hai?",
+   "spoken": "सोचो researcher sequence paste करके पूछे: इस mutation का possible effect क्या हो सकता है?",
+   "start": 15.636,
+   "end": 19.955,
+   "words": [
+    {
+     "w": "Socho",
+     "start": 15.636,
+     "end": 15.857,
+     "conf": 1.0
+    },
+    {
+     "w": "researcher",
+     "start": 15.915,
+     "end": 16.217,
+     "conf": 1.0
+    },
+    {
+     "w": "sequence",
+     "start": 16.251,
+     "end": 16.565,
+     "conf": 1.0
+    },
+    {
+     "w": "paste",
+     "start": 16.6,
+     "end": 16.809,
+     "conf": 1.0
+    },
+    {
+     "w": "karke",
+     "start": 16.843,
+     "end": 17.018,
+     "conf": 1.0
+    },
+    {
+     "w": "pooche:",
+     "start": 17.052,
+     "end": 17.378,
+     "conf": 1.0
+    },
+    {
+     "w": "is",
+     "start": 18.097,
+     "end": 18.213,
+     "conf": 1.0
+    },
+    {
+     "w": "mutation",
+     "start": 18.283,
+     "end": 18.597,
+     "conf": 1.0
+    },
+    {
+     "w": "ka",
+     "start": 18.631,
+     "end": 18.689,
+     "conf": 1.0
+    },
+    {
+     "w": "possible",
+     "start": 18.759,
+     "end": 19.084,
+     "conf": 1.0
+    },
+    {
+     "w": "effect",
+     "start": 19.107,
+     "end": 19.34,
+     "conf": 1.0
+    },
+    {
+     "w": "kya",
+     "start": 19.386,
+     "end": 19.479,
+     "conf": 1.0
+    },
+    {
+     "w": "ho",
+     "start": 19.514,
+     "end": 19.564,
+     "conf": 1.0
+    },
+    {
+     "w": "sakta",
+     "start": 19.595,
+     "end": 19.792,
+     "conf": 1.0
+    },
+    {
+     "w": "hai?",
+     "start": 19.839,
+     "end": 19.955,
+     "conf": 1.0
+    }
+   ]
+  },
+  {
+   "i": 5,
+   "chapter": "answer",
+   "text": "Model research prediction aur explanation de sakta hai.",
+   "spoken": "Model research prediction और explanation दे सकता है।",
+   "start": 20.135,
+   "end": 22.457,
+   "words": [
+    {
+     "w": "Model",
+     "start": 20.135,
+     "end": 20.391,
+     "conf": 1.0
+    },
+    {
+     "w": "research",
+     "start": 20.46,
+     "end": 20.762,
+     "conf": 1.0
+    },
+    {
+     "w": "prediction",
+     "start": 20.797,
+     "end": 21.122,
+     "conf": 1.0
+    },
+    {
+     "w": "aur",
+     "start": 21.215,
+     "end": 21.343,
+     "conf": 1.0
+    },
+    {
+     "w": "explanation",
+     "start": 21.424,
+     "end": 21.9,
+     "conf": 1.0
+    },
+    {
+     "w": "de",
+     "start": 21.958,
+     "end": 22.039,
+     "conf": 1.0
+    },
+    {
+     "w": "sakta",
+     "start": 22.086,
+     "end": 22.295,
+     "conf": 1.0
+    },
+    {
+     "w": "hai.",
+     "start": 22.341,
+     "end": 22.457,
+     "conf": 1.0
+    }
+   ]
+  },
+  {
+   "i": 6,
+   "chapter": "bench",
+   "text": "Team ke apne five-benchmark tests mein average 66.7 percent score report hua.",
+   "spoken": "Team के अपने five benchmark tests में average sixty six point seven percent score report हुआ।",
+   "start": 23.671,
+   "end": 27.688,
+   "words": [
+    {
+     "w": "Team",
+     "start": 23.671,
+     "end": 23.868,
+     "conf": 1.0
+    },
+    {
+     "w": "ke",
+     "start": 23.95,
+     "end": 24.008,
+     "conf": 1.0
+    },
+    {
+     "w": "apne",
+     "start": 24.066,
+     "end": 24.24,
+     "conf": 1.0
+    },
+    {
+     "w": "five-benchmark",
+     "start": 24.333,
+     "end": 24.994,
+     "conf": 1.0
+    },
+    {
+     "w": "tests",
+     "start": 25.053,
+     "end": 25.25,
+     "conf": 1.0
+    },
+    {
+     "w": "mein",
+     "start": 25.296,
+     "end": 25.378,
+     "conf": 1.0
+    },
+    {
+     "w": "average",
+     "start": 25.459,
+     "end": 25.807,
+     "conf": 1.0
+    },
+    {
+     "w": "66.7",
+     "start": 25.854,
+     "end": 26.724,
+     "conf": 1.0
+    },
+    {
+     "w": "percent",
+     "start": 26.771,
+     "end": 27.015,
+     "conf": 1.0
+    },
+    {
+     "w": "score",
+     "start": 27.038,
+     "end": 27.235,
+     "conf": 1.0
+    },
+    {
+     "w": "report",
+     "start": 27.258,
+     "end": 27.479,
+     "conf": 1.0
+    },
+    {
+     "w": "hua.",
+     "start": 27.514,
+     "end": 27.688,
+     "conf": 1.0
+    }
+   ]
+  },
+  {
+   "i": 7,
+   "chapter": "warn",
+   "text": "Lekin ye clinical proof ya medical diagnosis nahi hai.",
+   "spoken": "लेकिन ये clinical proof या medical diagnosis नहीं है।",
+   "start": 28.493,
+   "end": 30.734,
+   "words": [
+    {
+     "w": "Lekin",
+     "start": 28.493,
+     "end": 28.702,
+     "conf": 1.0
+    },
+    {
+     "w": "ye",
+     "start": 28.76,
+     "end": 28.83,
+     "conf": 1.0
+    },
+    {
+     "w": "clinical",
+     "start": 28.853,
+     "end": 29.132,
+     "conf": 1.0
+    },
+    {
+     "w": "proof",
+     "start": 29.19,
+     "end": 29.364,
+     "conf": 1.0
+    },
+    {
+     "w": "ya",
+     "start": 29.422,
+     "end": 29.472,
+     "conf": 1.0
+    },
+    {
+     "w": "medical",
+     "start": 29.55,
+     "end": 29.829,
+     "conf": 1.0
+    },
+    {
+     "w": "diagnosis",
+     "start": 29.887,
+     "end": 30.328,
+     "conf": 1.0
+    },
+    {
+     "w": "nahi",
+     "start": 30.397,
+     "end": 30.548,
+     "conf": 1.0
+    },
+    {
+     "w": "hai.",
+     "start": 30.595,
+     "end": 30.734,
+     "conf": 1.0
+    }
+   ]
+  },
+  {
+   "i": 8,
+   "chapter": "open",
+   "text": "Open weights ka fayda? Researchers apne infrastructure par sensitive data analyze kar sakte hain, hardware permitting.",
+   "spoken": "Open weights का फ़ायदा? Researchers अपने infrastructure पर sensitive data analyze कर सकते हैं, hardware permitting।",
+   "start": 31.707,
+   "end": 37.198,
+   "words": [
+    {
+     "w": "Open",
+     "start": 31.707,
+     "end": 31.927,
+     "conf": 1.0
+    },
+    {
+     "w": "weights",
+     "start": 31.974,
+     "end": 32.16,
+     "conf": 1.0
+    },
+    {
+     "w": "ka",
+     "start": 32.194,
+     "end": 32.252,
+     "conf": 1.0
+    },
+    {
+     "w": "fayda?",
+     "start": 32.31,
+     "end": 32.612,
+     "conf": 1.0
+    },
+    {
+     "w": "Researchers",
+     "start": 33.216,
+     "end": 33.634,
+     "conf": 1.0
+    },
+    {
+     "w": "apne",
+     "start": 33.68,
+     "end": 33.82,
+     "conf": 1.0
+    },
+    {
+     "w": "infrastructure",
+     "start": 33.878,
+     "end": 34.389,
+     "conf": 1.0
+    },
+    {
+     "w": "par",
+     "start": 34.423,
+     "end": 34.516,
+     "conf": 1.0
+    },
+    {
+     "w": "sensitive",
+     "start": 34.609,
+     "end": 34.969,
+     "conf": 1.0
+    },
+    {
+     "w": "data",
+     "start": 34.992,
+     "end": 35.19,
+     "conf": 1.0
+    },
+    {
+     "w": "analyze",
+     "start": 35.248,
+     "end": 35.561,
+     "conf": 1.0
+    },
+    {
+     "w": "kar",
+     "start": 35.584,
+     "end": 35.666,
+     "conf": 1.0
+    },
+    {
+     "w": "sakte",
+     "start": 35.712,
+     "end": 35.91,
+     "conf": 1.0
+    },
+    {
+     "w": "hain,",
+     "start": 35.968,
+     "end": 36.095,
+     "conf": 1.0
+    },
+    {
+     "w": "hardware",
+     "start": 36.49,
+     "end": 36.803,
+     "conf": 1.0
+    },
+    {
+     "w": "permitting.",
+     "start": 36.838,
+     "end": 37.198,
+     "conf": 1.0
+    }
+   ]
+  },
+  {
+   "i": 9,
+   "chapter": "hw",
+   "text": "Aur ek detail: normal laptop par smoothly chalega, aisa guarantee nahi.",
+   "spoken": "और एक detail: normal laptop पर smoothly चलेगा, ऐसा guarantee नहीं।",
+   "start": 38.136,
+   "end": 42.269,
+   "words": [
+    {
+     "w": "Aur",
+     "start": 38.136,
+     "end": 38.264,
+     "conf": 1.0
+    },
+    {
+     "w": "ek",
+     "start": 38.333,
+     "end": 38.426,
+     "conf": 1.0
+    },
+    {
+     "w": "detail:",
+     "start": 38.473,
+     "end": 38.751,
+     "conf": 1.0
+    },
+    {
+     "w": "normal",
+     "start": 39.471,
+     "end": 39.785,
+     "conf": 1.0
+    },
+    {
+     "w": "laptop",
+     "start": 39.843,
+     "end": 40.179,
+     "conf": 1.0
+    },
+    {
+     "w": "par",
+     "start": 40.214,
+     "end": 40.33,
+     "conf": 1.0
+    },
+    {
+     "w": "smoothly",
+     "start": 40.412,
+     "end": 40.806,
+     "conf": 1.0
+    },
+    {
+     "w": "chalega,",
+     "start": 40.841,
+     "end": 41.178,
+     "conf": 1.0
+    },
+    {
+     "w": "aisa",
+     "start": 41.491,
+     "end": 41.677,
+     "conf": 1.0
+    },
+    {
+     "w": "guarantee",
+     "start": 41.735,
+     "end": 41.991,
+     "conf": 1.0
+    },
+    {
+     "w": "nahi.",
+     "start": 42.025,
+     "end": 42.269,
+     "conf": 1.0
+    }
+   ]
+  },
+  {
+   "i": 10,
+   "chapter": "payoff",
+   "text": "Science aur AI ka ye crossover crazy hai.",
+   "spoken": "Science और A.I. का ये crossover crazy है।",
+   "start": 43.493,
+   "end": 45.513,
+   "words": [
+    {
+     "w": "Science",
+     "start": 43.493,
+     "end": 43.841,
+     "conf": 1.0
+    },
+    {
+     "w": "aur",
+     "start": 43.887,
+     "end": 43.98,
+     "conf": 1.0
+    },
+    {
+     "w": "AI",
+     "start": 44.154,
+     "end": 44.259,
+     "conf": 1.0
+    },
+    {
+     "w": "ka",
+     "start": 44.305,
+     "end": 44.363,
+     "conf": 1.0
+    },
+    {
+     "w": "ye",
+     "start": 44.433,
+     "end": 44.491,
+     "conf": 1.0
+    },
+    {
+     "w": "crossover",
+     "start": 44.537,
+     "end": 44.944,
+     "conf": 1.0
+    },
+    {
+     "w": "crazy",
+     "start": 45.013,
+     "end": 45.327,
+     "conf": 1.0
+    },
+    {
+     "w": "hai.",
+     "start": 45.373,
+     "end": 45.513,
+     "conf": 1.0
+    }
+   ]
+  },
+  {
+   "i": 11,
+   "chapter": "cta",
+   "text": "Model card save karo aur comment DNA!",
+   "spoken": "Model card save करो और comment D.N.A.!",
+   "start": 45.693,
+   "end": 47.608,
+   "words": [
+    {
+     "w": "Model",
+     "start": 45.693,
+     "end": 45.937,
+     "conf": 1.0
+    },
+    {
+     "w": "card",
+     "start": 45.971,
+     "end": 46.157,
+     "conf": 1.0
+    },
+    {
+     "w": "save",
+     "start": 46.192,
+     "end": 46.401,
+     "conf": 1.0
+    },
+    {
+     "w": "karo",
+     "start": 46.424,
+     "end": 46.622,
+     "conf": 1.0
+    },
+    {
+     "w": "aur",
+     "start": 46.714,
+     "end": 46.807,
+     "conf": 1.0
+    },
+    {
+     "w": "comment",
+     "start": 46.865,
+     "end": 47.121,
+     "conf": 1.0
+    },
+    {
+     "w": "DNA!",
+     "start": 47.202,
+     "end": 47.608,
+     "conf": 1.0
+    }
+   ]
+  }
+ ],
+ "extras": [],
+ "notes": "ElevenLabs Liam eleven_turbo_v2_5 hi seed 5 speed 1.2; one take, tempo x1.00 (pitch kept), laid out on the 112 BPM grid, GAP 0.70 s"
+}

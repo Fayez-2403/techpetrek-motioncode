@@ -1,0 +1,19 @@
+{
+ "source": "https://www.youtube.com/watch?v=4JZ-o3iAJv4 (Ludwig Goransson channel, 'Can You Hear The Music')",
+ "source_sha256": "3798df61a91a3931c4d80bb1968833eee46a1d3830c05e8847208919ef716a0f",
+ "window_source_seconds": [
+  75.6332,
+  103.7758
+ ],
+ "music_cut_source_seconds": 101.4912,
+ "pulse_seconds": 0.30186,
+ "grid": "librosa beat_track (tightness 400, start 190 bpm) beats; one beat = one score eighth",
+ "edit": "one continuous excerpt ending in the track's own cut to silence; 30 ms fade-in; no stretch or pitch change",
+ "loudness_in": {
+  "input_i": "-11.31",
+  "input_tp": "0.24",
+  "input_lra": "4.60"
+ },
+ "loudness_target": "-14 LUFS integrated, -1 dBTP",
+ "voiceover": false
+}

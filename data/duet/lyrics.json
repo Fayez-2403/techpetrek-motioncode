@@ -1,0 +1,808 @@
+{
+ "lines": [
+  {
+   "i": 0,
+   "chapter": "hook",
+   "text": "Kal tak tum AI ko message karte the.",
+   "spoken": "कल तक तुम A.I. को message करते थे।",
+   "start": 0.25,
+   "end": 2.154,
+   "words": [
+    {
+     "w": "Kal",
+     "start": 0.25,
+     "end": 0.447,
+     "conf": 1.0
+    },
+    {
+     "w": "tak",
+     "start": 0.517,
+     "end": 0.622,
+     "conf": 1.0
+    },
+    {
+     "w": "tum",
+     "start": 0.668,
+     "end": 0.796,
+     "conf": 1.0
+    },
+    {
+     "w": "AI",
+     "start": 0.935,
+     "end": 1.121,
+     "conf": 1.0
+    },
+    {
+     "w": "ko",
+     "start": 1.202,
+     "end": 1.295,
+     "conf": 1.0
+    },
+    {
+     "w": "message",
+     "start": 1.365,
+     "end": 1.678,
+     "conf": 1.0
+    },
+    {
+     "w": "karte",
+     "start": 1.713,
+     "end": 1.933,
+     "conf": 1.0
+    },
+    {
+     "w": "the.",
+     "start": 1.991,
+     "end": 2.154,
+     "conf": 1.0
+    }
+   ]
+  },
+  {
+   "i": 1,
+   "chapter": "hook",
+   "text": "Ab AI khud bolega: bhai, ye urgent hai!",
+   "spoken": "अब A.I. ख़ुद बोलेगा: भाई, ये urgent है!",
+   "start": 2.909,
+   "end": 5.881,
+   "words": [
+    {
+     "w": "Ab",
+     "start": 2.909,
+     "end": 3.083,
+     "conf": 1.0
+    },
+    {
+     "w": "AI",
+     "start": 3.222,
+     "end": 3.396,
+     "conf": 1.0
+    },
+    {
+     "w": "khud",
+     "start": 3.501,
+     "end": 3.745,
+     "conf": 1.0
+    },
+    {
+     "w": "bolega:",
+     "start": 3.791,
+     "end": 4.209,
+     "conf": 1.0
+    },
+    {
+     "w": "bhai,",
+     "start": 4.592,
+     "end": 4.848,
+     "conf": 1.0
+    },
+    {
+     "w": "ye",
+     "start": 5.149,
+     "end": 5.3,
+     "conf": 1.0
+    },
+    {
+     "w": "urgent",
+     "start": 5.37,
+     "end": 5.672,
+     "conf": 1.0
+    },
+    {
+     "w": "hai!",
+     "start": 5.73,
+     "end": 5.881,
+     "conf": 1.0
+    }
+   ]
+  },
+  {
+   "i": 2,
+   "chapter": "duet",
+   "text": "Anthropic ne 21 October ko Claude Duet announce kiya.",
+   "spoken": "Anthropic ने इक्कीस October को Claude Duet announce किया।",
+   "start": 6.43,
+   "end": 9.623,
+   "words": [
+    {
+     "w": "Anthropic",
+     "start": 6.43,
+     "end": 6.987,
+     "conf": 1.0
+    },
+    {
+     "w": "ne",
+     "start": 7.057,
+     "end": 7.162,
+     "conf": 1.0
+    },
+    {
+     "w": "21",
+     "start": 7.278,
+     "end": 7.73,
+     "conf": 1.0
+    },
+    {
+     "w": "October",
+     "start": 7.835,
+     "end": 8.264,
+     "conf": 1.0
+    },
+    {
+     "w": "ko",
+     "start": 8.323,
+     "end": 8.415,
+     "conf": 1.0
+    },
+    {
+     "w": "Claude",
+     "start": 8.485,
+     "end": 8.775,
+     "conf": 1.0
+    },
+    {
+     "w": "Duet",
+     "start": 8.799,
+     "end": 9.031,
+     "conf": 1.0
+    },
+    {
+     "w": "announce",
+     "start": 9.089,
+     "end": 9.391,
+     "conf": 1.0
+    },
+    {
+     "w": "kiya.",
+     "start": 9.414,
+     "end": 9.623,
+     "conf": 1.0
+    }
+   ]
+  },
+  {
+   "i": 3,
+   "chapter": "brief",
+   "text": "Ye Opus 5.5-powered proactive agent connected apps se morning brief bana sakta hai,",
+   "spoken": "ये Opus five point five powered proactive agent, connected apps से morning brief बना सकता है,",
+   "start": 10.301,
+   "end": 15.839,
+   "words": [
+    {
+     "w": "Ye",
+     "start": 10.301,
+     "end": 10.452,
+     "conf": 1.0
+    },
+    {
+     "w": "Opus",
+     "start": 10.557,
+     "end": 10.859,
+     "conf": 1.0
+    },
+    {
+     "w": "5.5-powered",
+     "start": 10.963,
+     "end": 12.275,
+     "conf": 1.0
+    },
+    {
+     "w": "proactive",
+     "start": 12.333,
+     "end": 12.832,
+     "conf": 1.0
+    },
+    {
+     "w": "agent",
+     "start": 12.89,
+     "end": 13.192,
+     "conf": 1.0
+    },
+    {
+     "w": "connected",
+     "start": 13.575,
+     "end": 14.005,
+     "conf": 1.0
+    },
+    {
+     "w": "apps",
+     "start": 14.086,
+     "end": 14.33,
+     "conf": 1.0
+    },
+    {
+     "w": "se",
+     "start": 14.377,
+     "end": 14.458,
+     "conf": 1.0
+    },
+    {
+     "w": "morning",
+     "start": 14.539,
+     "end": 14.841,
+     "conf": 1.0
+    },
+    {
+     "w": "brief",
+     "start": 14.876,
+     "end": 15.085,
+     "conf": 1.0
+    },
+    {
+     "w": "bana",
+     "start": 15.143,
+     "end": 15.305,
+     "conf": 1.0
+    },
+    {
+     "w": "sakta",
+     "start": 15.375,
+     "end": 15.63,
+     "conf": 1.0
+    },
+    {
+     "w": "hai,",
+     "start": 15.688,
+     "end": 15.839,
+     "conf": 1.0
+    }
+   ]
+  },
+  {
+   "i": 4,
+   "chapter": "tasks",
+   "text": "tasks par kaam kar sakta hai aur zaroori updates de sakta hai.",
+   "spoken": "tasks पर काम कर सकता है, और ज़रूरी updates दे सकता है।",
+   "start": 16.223,
+   "end": 19.543,
+   "words": [
+    {
+     "w": "tasks",
+     "start": 16.223,
+     "end": 16.594,
+     "conf": 1.0
+    },
+    {
+     "w": "par",
+     "start": 16.64,
+     "end": 16.768,
+     "conf": 1.0
+    },
+    {
+     "w": "kaam",
+     "start": 16.815,
+     "end": 16.977,
+     "conf": 1.0
+    },
+    {
+     "w": "kar",
+     "start": 17.035,
+     "end": 17.14,
+     "conf": 1.0
+    },
+    {
+     "w": "sakta",
+     "start": 17.198,
+     "end": 17.442,
+     "conf": 1.0
+    },
+    {
+     "w": "hai",
+     "start": 17.5,
+     "end": 17.604,
+     "conf": 1.0
+    },
+    {
+     "w": "aur",
+     "start": 17.906,
+     "end": 18.08,
+     "conf": 1.0
+    },
+    {
+     "w": "zaroori",
+     "start": 18.15,
+     "end": 18.475,
+     "conf": 1.0
+    },
+    {
+     "w": "updates",
+     "start": 18.545,
+     "end": 18.916,
+     "conf": 1.0
+    },
+    {
+     "w": "de",
+     "start": 18.974,
+     "end": 19.067,
+     "conf": 1.0
+    },
+    {
+     "w": "sakta",
+     "start": 19.113,
+     "end": 19.357,
+     "conf": 1.0
+    },
+    {
+     "w": "hai.",
+     "start": 19.404,
+     "end": 19.543,
+     "conf": 1.0
+    }
+   ]
+  },
+  {
+   "i": 5,
+   "chapter": "twist",
+   "text": "Lekin important twist: email bhejna, payment karna ya kuch delete karna ho, toh pehle tumhari approval maangta hai.",
+   "spoken": "लेकिन important twist: email भेजना, payment करना, या कुछ delete करना हो, तो पहले तुम्हारी approval माँगता है।",
+   "start": 19.979,
+   "end": 27.572,
+   "words": [
+    {
+     "w": "Lekin",
+     "start": 19.979,
+     "end": 20.257,
+     "conf": 1.0
+    },
+    {
+     "w": "important",
+     "start": 20.327,
+     "end": 20.826,
+     "conf": 1.0
+    },
+    {
+     "w": "twist:",
+     "start": 20.861,
+     "end": 21.174,
+     "conf": 1.0
+    },
+    {
+     "w": "email",
+     "start": 21.987,
+     "end": 22.335,
+     "conf": 1.0
+    },
+    {
+     "w": "bhejna,",
+     "start": 22.405,
+     "end": 22.835,
+     "conf": 1.0
+    },
+    {
+     "w": "payment",
+     "start": 23.195,
+     "end": 23.543,
+     "conf": 1.0
+    },
+    {
+     "w": "karna",
+     "start": 23.601,
+     "end": 23.961,
+     "conf": 1.0
+    },
+    {
+     "w": "ya",
+     "start": 24.321,
+     "end": 24.495,
+     "conf": 1.0
+    },
+    {
+     "w": "kuch",
+     "start": 24.565,
+     "end": 24.727,
+     "conf": 1.0
+    },
+    {
+     "w": "delete",
+     "start": 24.832,
+     "end": 25.11,
+     "conf": 1.0
+    },
+    {
+     "w": "karna",
+     "start": 25.157,
+     "end": 25.401,
+     "conf": 1.0
+    },
+    {
+     "w": "ho,",
+     "start": 25.459,
+     "end": 25.609,
+     "conf": 1.0
+    },
+    {
+     "w": "toh",
+     "start": 25.877,
+     "end": 25.993,
+     "conf": 1.0
+    },
+    {
+     "w": "pehle",
+     "start": 26.051,
+     "end": 26.26,
+     "conf": 1.0
+    },
+    {
+     "w": "tumhari",
+     "start": 26.329,
+     "end": 26.678,
+     "conf": 1.0
+    },
+    {
+     "w": "approval",
+     "start": 26.736,
+     "end": 27.084,
+     "conf": 1.0
+    },
+    {
+     "w": "maangta",
+     "start": 27.142,
+     "end": 27.421,
+     "conf": 1.0
+    },
+    {
+     "w": "hai.",
+     "start": 27.467,
+     "end": 27.572,
+     "conf": 1.0
+    }
+   ]
+  },
+  {
+   "i": 6,
+   "chapter": "hours",
+   "text": "Aur haan, ye continuously nahi, kuch ghanton ke interval par check karta hai.",
+   "spoken": "और हाँ, ये continuously नहीं, कुछ घंटों के interval पर check करता है।",
+   "start": 28.205,
+   "end": 32.617,
+   "words": [
+    {
+     "w": "Aur",
+     "start": 28.205,
+     "end": 28.333,
+     "conf": 1.0
+    },
+    {
+     "w": "haan,",
+     "start": 28.391,
+     "end": 28.646,
+     "conf": 1.0
+    },
+    {
+     "w": "ye",
+     "start": 29.088,
+     "end": 29.273,
+     "conf": 1.0
+    },
+    {
+     "w": "continuously",
+     "start": 29.331,
+     "end": 29.958,
+     "conf": 1.0
+    },
+    {
+     "w": "nahi,",
+     "start": 30.016,
+     "end": 30.353,
+     "conf": 1.0
+    },
+    {
+     "w": "kuch",
+     "start": 30.655,
+     "end": 30.829,
+     "conf": 1.0
+    },
+    {
+     "w": "ghanton",
+     "start": 30.899,
+     "end": 31.201,
+     "conf": 1.0
+    },
+    {
+     "w": "ke",
+     "start": 31.235,
+     "end": 31.305,
+     "conf": 1.0
+    },
+    {
+     "w": "interval",
+     "start": 31.363,
+     "end": 31.688,
+     "conf": 1.0
+    },
+    {
+     "w": "par",
+     "start": 31.746,
+     "end": 31.862,
+     "conf": 1.0
+    },
+    {
+     "w": "check",
+     "start": 31.932,
+     "end": 32.141,
+     "conf": 1.0
+    },
+    {
+     "w": "karta",
+     "start": 32.176,
+     "end": 32.431,
+     "conf": 1.0
+    },
+    {
+     "w": "hai.",
+     "start": 32.489,
+     "end": 32.617,
+     "conf": 1.0
+    }
+   ]
+  },
+  {
+   "i": 7,
+   "chapter": "avail",
+   "text": "Abhi research preview US ke Pro aur Max users ke liye waitlist par hai.",
+   "spoken": "अभी research preview, U.S. के Pro और Max users के लिए waitlist पर है।",
+   "start": 33.043,
+   "end": 37.629,
+   "words": [
+    {
+     "w": "Abhi",
+     "start": 33.043,
+     "end": 33.229,
+     "conf": 1.0
+    },
+    {
+     "w": "research",
+     "start": 33.298,
+     "end": 33.67,
+     "conf": 1.0
+    },
+    {
+     "w": "preview",
+     "start": 33.716,
+     "end": 34.099,
+     "conf": 1.0
+    },
+    {
+     "w": "US",
+     "start": 34.517,
+     "end": 34.807,
+     "conf": 1.0
+    },
+    {
+     "w": "ke",
+     "start": 34.877,
+     "end": 34.97,
+     "conf": 1.0
+    },
+    {
+     "w": "Pro",
+     "start": 35.075,
+     "end": 35.376,
+     "conf": 1.0
+    },
+    {
+     "w": "aur",
+     "start": 35.458,
+     "end": 35.585,
+     "conf": 1.0
+    },
+    {
+     "w": "Max",
+     "start": 35.667,
+     "end": 35.945,
+     "conf": 1.0
+    },
+    {
+     "w": "users",
+     "start": 36.015,
+     "end": 36.294,
+     "conf": 1.0
+    },
+    {
+     "w": "ke",
+     "start": 36.352,
+     "end": 36.421,
+     "conf": 1.0
+    },
+    {
+     "w": "liye",
+     "start": 36.479,
+     "end": 36.677,
+     "conf": 1.0
+    },
+    {
+     "w": "waitlist",
+     "start": 36.793,
+     "end": 37.234,
+     "conf": 1.0
+    },
+    {
+     "w": "par",
+     "start": 37.28,
+     "end": 37.408,
+     "conf": 1.0
+    },
+    {
+     "w": "hai.",
+     "start": 37.466,
+     "end": 37.629,
+     "conf": 1.0
+    }
+   ]
+  },
+  {
+   "i": 8,
+   "chapter": "india",
+   "text": "India mein general launch announce nahi hua.",
+   "spoken": "India में general launch announce नहीं हुआ।",
+   "start": 38.366,
+   "end": 40.386,
+   "words": [
+    {
+     "w": "India",
+     "start": 38.366,
+     "end": 38.667,
+     "conf": 1.0
+    },
+    {
+     "w": "mein",
+     "start": 38.725,
+     "end": 38.83,
+     "conf": 1.0
+    },
+    {
+     "w": "general",
+     "start": 38.888,
+     "end": 39.201,
+     "conf": 1.0
+    },
+    {
+     "w": "launch",
+     "start": 39.248,
+     "end": 39.468,
+     "conf": 1.0
+    },
+    {
+     "w": "announce",
+     "start": 39.527,
+     "end": 39.852,
+     "conf": 1.0
+    },
+    {
+     "w": "nahi",
+     "start": 39.91,
+     "end": 40.119,
+     "conf": 1.0
+    },
+    {
+     "w": "hua.",
+     "start": 40.153,
+     "end": 40.386,
+     "conf": 1.0
+    }
+   ]
+  },
+  {
+   "i": 9,
+   "chapter": "cta",
+   "text": "Tumhare liye useful ya bas ek aur AI notification? Comment DUET, aur save kar lo!",
+   "spoken": "तुम्हारे लिए useful, या बस एक और A.I. notification? Comment Duet, और save कर लो!",
+   "start": 40.785,
+   "end": 46.253,
+   "words": [
+    {
+     "w": "Tumhare",
+     "start": 40.785,
+     "end": 41.18,
+     "conf": 1.0
+    },
+    {
+     "w": "liye",
+     "start": 41.226,
+     "end": 41.354,
+     "conf": 1.0
+    },
+    {
+     "w": "useful",
+     "start": 41.424,
+     "end": 41.853,
+     "conf": 1.0
+    },
+    {
+     "w": "ya",
+     "start": 42.178,
+     "end": 42.329,
+     "conf": 1.0
+    },
+    {
+     "w": "bas",
+     "start": 42.387,
+     "end": 42.562,
+     "conf": 1.0
+    },
+    {
+     "w": "ek",
+     "start": 42.701,
+     "end": 42.875,
+     "conf": 1.0
+    },
+    {
+     "w": "aur",
+     "start": 42.945,
+     "end": 43.049,
+     "conf": 1.0
+    },
+    {
+     "w": "AI",
+     "start": 43.188,
+     "end": 43.432,
+     "conf": 1.0
+    },
+    {
+     "w": "notification?",
+     "start": 43.514,
+     "end": 44.187,
+     "conf": 1.0
+    },
+    {
+     "w": "Comment",
+     "start": 44.361,
+     "end": 44.767,
+     "conf": 1.0
+    },
+    {
+     "w": "DUET,",
+     "start": 44.884,
+     "end": 45.243,
+     "conf": 1.0
+    },
+    {
+     "w": "aur",
+     "start": 45.418,
+     "end": 45.592,
+     "conf": 1.0
+    },
+    {
+     "w": "save",
+     "start": 45.673,
+     "end": 45.905,
+     "conf": 1.0
+    },
+    {
+     "w": "kar",
+     "start": 45.928,
+     "end": 46.045,
+     "conf": 1.0
+    },
+    {
+     "w": "lo!",
+     "start": 46.103,
+     "end": 46.253,
+     "conf": 1.0
+    }
+   ]
+  }
+ ],
+ "extras": [],
+ "notes": "ElevenLabs Liam eleven_turbo_v2_5 hi seed 12 speed 1.08; one take, laid out on the 124 BPM grid, GAP 0.22 s"
+}

@@ -1,0 +1,77 @@
+{
+ "video": "C:\\Users\\ce\\motion-as-code\\projects\\grok-bot-reel\\output\\grok-bot-reel_master.mp4",
+ "checks": [
+  {
+   "check": "frame count = 3480 (58.000 s at 60 fps)",
+   "pass": true,
+   "detail": "3480 frames at 60 fps, 58.000 s"
+  },
+  {
+   "check": "1080 x 1920, H.264",
+   "pass": true,
+   "detail": "1080x1920 h264 yuv420p"
+  },
+  {
+   "check": "audio stream present (AAC)",
+   "pass": true,
+   "detail": "aac"
+  },
+  {
+   "check": "no unplanned silent sections",
+   "pass": true,
+   "detail": "silent 50 ms windows outside 42.00-42.25 s: 0"
+  },
+  {
+   "check": "the 42.00-42.25 s pattern interrupt is silent",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "check": "integrated loudness about -14 LUFS (+/-1)",
+   "pass": true,
+   "detail": "-14.1 LUFS"
+  },
+  {
+   "check": "chapter cuts on bar/beat grid",
+   "pass": true,
+   "detail": "[0, 2, 6, 12, 18, 24, 30, 36, 42, 48, 54]"
+  },
+  {
+   "check": "all story events on the 0.25 s grid",
+   "pass": true,
+   "detail": "82 events, off-grid: []"
+  },
+  {
+   "check": "all foley cues on the 0.25 s grid",
+   "pass": true,
+   "detail": "64 cues"
+  },
+  {
+   "check": "caption words time-ordered and taken from the voice's own timestamps",
+   "pass": true,
+   "detail": "174 words"
+  },
+  {
+   "check": "each VO line starts inside its chapter",
+   "pass": true,
+   "detail": "[0.09, 2.51, 6.18, 12.18, 18.16, 24.18, 30.18, 36.17, 42.42, 48.17, 54.18]"
+  },
+  {
+   "check": "brand spelled GROK BOT / Grok Bot in on-screen strings",
+   "pass": true,
+   "detail": "suspicious: []"
+  },
+  {
+   "check": "no xAI / X logo artwork used",
+   "pass": true,
+   "detail": "the name only, in our own type"
+  },
+  {
+   "check": "fact sheet cites the official source",
+   "pass": true,
+   "detail": ""
+  }
+ ],
+ "passed": 14,
+ "total": 14
+}

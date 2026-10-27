@@ -1,0 +1,98 @@
+[
+ {
+  "id": "hiphop",
+  "label": "Hip-hop groove (CMU 141_12 \"Dance, Twist\")",
+  "beat": 0.6833,
+  "beats": 4,
+  "seconds": 2.73,
+  "file": "141_12"
+ },
+ {
+  "id": "popping",
+  "label": "Popping (CMU 120_21 \"Robot\")",
+  "beat": 0.35,
+  "beats": 32,
+  "seconds": 11.2,
+  "file": "120_21"
+ },
+ {
+  "id": "shuffle",
+  "label": "Shuffle / Charleston (CMU 93_08 \"xtra fancy charleston\")",
+  "beat": 0.95,
+  "beats": 4,
+  "seconds": 3.8,
+  "file": "93_08"
+ },
+ {
+  "id": "disco",
+  "label": "Funk / disco (CMU 15_04 Egyptian walk, the Twist, the Cabbage Patch)",
+  "beat": 0.3667,
+  "beats": 32,
+  "seconds": 11.73,
+  "file": "15_04"
+ },
+ {
+  "id": "contemporary",
+  "label": "Contemporary (CMU 05_02 modern dance)",
+  "beat": 0.9,
+  "beats": 8,
+  "seconds": 7.2,
+  "file": "05_02"
+ },
+ {
+  "id": "cyber",
+  "label": "Robotic / cyber (CMU 120_05 \"Mickey Dance\")",
+  "beat": 0.5333,
+  "beats": 20,
+  "seconds": 10.67,
+  "file": "120_05"
+ },
+ {
+  "id": "bollywood",
+  "label": "Bollywood-inspired groove (CMU 94_05, subject 94 \"indian dance\")",
+  "beat": 0.35,
+  "beats": 32,
+  "seconds": 11.2,
+  "file": "94_05"
+ },
+ {
+  "id": "freestyle",
+  "label": "Casual freestyle (CMU 111_05 \"Dance\")",
+  "beat": 0.6,
+  "beats": 12,
+  "seconds": 7.2,
+  "file": "111_05"
+ },
+ {
+  "id": "salsa",
+  "label": "Salsa (CMU 60_01)",
+  "beat": 0.85,
+  "beats": 12,
+  "seconds": 10.2,
+  "file": "60_01"
+ },
+ {
+  "id": "comedy",
+  "label": "Comedy / Macarena (CMU 143_35)",
+  "beat": 0.35,
+  "beats": 28,
+  "seconds": 9.8,
+  "file": "143_35"
+ },
+ {
+  "id": "moonwalk",
+  "label": "Moonwalk (CMU 90_32)",
+  "beat": 0.5,
+  "beats": 8,
+  "seconds": 4,
+  "file": "90_32"
+ },
+ {
+  "id": "groove",
+  "label": "Side groove (CMU 113_04 \"Dance\")",
+  "beat": 0.4833,
+  "beats": 16,
+  "seconds": 7.73,
+  "file": "113_04"
+ }
+]

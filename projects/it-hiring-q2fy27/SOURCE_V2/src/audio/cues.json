@@ -1,0 +1,412 @@
+{
+ "_doc": "V2 cue sheet (score.py); 'w' = spoken word in the scene.",
+ "energy": {
+  "hook": {
+   "pad": 0.5,
+   "bass": 0.8,
+   "arp": 0.6,
+   "kick": 1,
+   "hat": 1,
+   "clap": 0,
+   "drone": 0,
+   "dhol": 1
+  },
+  "total": {
+   "pad": 0.5,
+   "bass": 1,
+   "arp": 0.7,
+   "kick": 1,
+   "hat": 1,
+   "clap": 1,
+   "drone": 0,
+   "dhol": 1
+  },
+  "bars": {
+   "pad": 0.5,
+   "bass": 1,
+   "arp": 0.8,
+   "kick": 1,
+   "hat": 1,
+   "clap": 1,
+   "drone": 0,
+   "dhol": 1
+  },
+  "wipro": {
+   "pad": 0.4,
+   "bass": 0.7,
+   "arp": 0,
+   "kick": 1,
+   "hat": 0,
+   "clap": 0,
+   "drone": 0.6,
+   "dhol": 0
+  },
+  "twist": {
+   "pad": 0.5,
+   "bass": 0.8,
+   "arp": 0.4,
+   "kick": 1,
+   "hat": 1,
+   "clap": 0,
+   "drone": 0.3,
+   "dhol": 0.5
+  },
+  "freshers": {
+   "pad": 0.6,
+   "bass": 1,
+   "arp": 0.7,
+   "kick": 1,
+   "hat": 1,
+   "clap": 1,
+   "drone": 0,
+   "dhol": 1
+  },
+  "ai": {
+   "pad": 0.6,
+   "bass": 1,
+   "arp": 0.8,
+   "kick": 1,
+   "hat": 1,
+   "clap": 1,
+   "drone": 0,
+   "dhol": 1
+  },
+  "skills": {
+   "pad": 0.7,
+   "bass": 1,
+   "arp": 0.8,
+   "kick": 1,
+   "hat": 1,
+   "clap": 1,
+   "drone": 0,
+   "dhol": 1
+  },
+  "project": {
+   "pad": 0.7,
+   "bass": 1,
+   "arp": 0.8,
+   "kick": 1,
+   "hat": 1,
+   "clap": 1,
+   "drone": 0,
+   "dhol": 1
+  },
+  "cta": {
+   "pad": 0.9,
+   "bass": 0.8,
+   "arp": 0.5,
+   "kick": 1,
+   "hat": 1,
+   "clap": 1,
+   "drone": 0,
+   "dhol": 0.8
+  }
+ },
+ "scenes": {
+  "hook": [
+   {
+    "s": 0,
+    "kind": "impact",
+    "gain": 0.8
+   },
+   {
+    "s": 0,
+    "kind": "paper",
+    "gain": 0.5
+   },
+   {
+    "s": 0.2,
+    "kind": "fixChime",
+    "gain": 0.4
+   },
+   {
+    "w": "India",
+    "kind": "whoosh",
+    "gain": 0.4,
+    "len": 0.35,
+    "offset": -0.2
+   },
+   {
+    "w": "naya",
+    "kind": "impact",
+    "gain": 0.8
+   },
+   {
+    "w": "naya",
+    "kind": "shimmer",
+    "gain": 0.35,
+    "len": 0.8
+   }
+  ],
+  "total": [
+   {
+    "s": 0,
+    "kind": "whoosh",
+    "gain": 0.5,
+    "len": 0.4
+   },
+   {
+    "w": "five",
+    "kind": "ticks",
+    "gain": 0.35,
+    "len": 0.5
+   },
+   {
+    "w": "net",
+    "kind": "chartSwell",
+    "gain": 0.45,
+    "len": 1.0
+   },
+   {
+    "w": "add",
+    "kind": "impact",
+    "gain": 0.7
+   }
+  ],
+  "bars": [
+   {
+    "s": 0,
+    "kind": "whoosh",
+    "gain": 0.5,
+    "len": 0.4
+   },
+   {
+    "w": "HCLTech",
+    "kind": "chartSwell",
+    "gain": 0.35,
+    "len": 0.7
+   },
+   {
+    "w": "6,450",
+    "kind": "dataPulse",
+    "gain": 0.4
+   },
+   {
+    "w": "Mahindra",
+    "kind": "chartSwell",
+    "gain": 0.35,
+    "len": 0.7
+   },
+   {
+    "w": "5,446",
+    "kind": "dataPulse",
+    "gain": 0.4
+   },
+   {
+    "w": "Infosys",
+    "kind": "chartSwell",
+    "gain": 0.35,
+    "len": 0.7
+   },
+   {
+    "w": "4,480",
+    "kind": "dataPulse",
+    "gain": 0.4
+   },
+   {
+    "w": "TCS",
+    "kind": "chartSwell",
+    "gain": 0.35,
+    "len": 0.7
+   },
+   {
+    "w": "4,258",
+    "kind": "dataPulse",
+    "gain": 0.4
+   }
+  ],
+  "wipro": [
+   {
+    "w": "Wipro",
+    "kind": "heartbeat",
+    "gain": 0.45,
+    "len": 0.8
+   },
+   {
+    "w": "Minus",
+    "kind": "silence",
+    "gain": 1,
+    "offset": -0.45,
+    "len": 0.45
+   },
+   {
+    "w": "Minus",
+    "kind": "subImpact",
+    "gain": 0.9
+   },
+   {
+    "w": "Minus",
+    "kind": "errorBlip",
+    "gain": 0.5
+   },
+   {
+    "w": "6,716",
+    "kind": "impact",
+    "gain": 0.6
+   }
+  ],
+  "twist": [
+   {
+    "s": 0,
+    "kind": "whoosh",
+    "gain": 0.4,
+    "len": 0.4
+   },
+   {
+    "w": "Dhyaan",
+    "kind": "impact",
+    "gain": 0.6
+   },
+   {
+    "w": "13,918",
+    "kind": "glass",
+    "gain": 0.35
+   },
+   {
+    "w": "nahi",
+    "kind": "errorBlip",
+    "gain": 0.45
+   }
+  ],
+  "freshers": [
+   {
+    "s": 0,
+    "kind": "whoosh",
+    "gain": 0.5,
+    "len": 0.4
+   },
+   {
+    "w": "Infosys",
+    "kind": "magLock",
+    "gain": 0.45
+   },
+   {
+    "w": "8,000",
+    "kind": "ticks",
+    "gain": 0.35,
+    "len": 0.5
+   },
+   {
+    "w": "HCLTech",
+    "kind": "magLock",
+    "gain": 0.45
+   },
+   {
+    "w": "6,136",
+    "kind": "ticks",
+    "gain": 0.35,
+    "len": 0.5
+   }
+  ],
+  "ai": [
+   {
+    "s": 0,
+    "kind": "whoosh",
+    "gain": 0.5,
+    "len": 0.4
+   },
+   {
+    "w": "AI",
+    "kind": "shimmer",
+    "gain": 0.35,
+    "len": 0.6
+   },
+   {
+    "w": "29",
+    "kind": "chartSwell",
+    "gain": 0.45,
+    "len": 0.7
+   },
+   {
+    "w": "29",
+    "kind": "impact",
+    "gain": 0.6,
+    "offset": 0.1
+   }
+  ],
+  "skills": [
+   {
+    "s": 0,
+    "kind": "whoosh",
+    "gain": 0.5,
+    "len": 0.4
+   },
+   {
+    "w": "Python",
+    "kind": "fixChime",
+    "gain": 0.45
+   },
+   {
+    "w": "AI",
+    "kind": "fixChime",
+    "gain": 0.45
+   },
+   {
+    "w": "cloud",
+    "kind": "fixChime",
+    "gain": 0.45
+   },
+   {
+    "w": "SQL",
+    "kind": "fixChime",
+    "gain": 0.45
+   },
+   {
+    "w": "Git",
+    "kind": "fixChime",
+    "gain": 0.5
+   }
+  ],
+  "project": [
+   {
+    "s": 0,
+    "kind": "whoosh",
+    "gain": 0.5,
+    "len": 0.4
+   },
+   {
+    "w": "deploy",
+    "kind": "dataBurst",
+    "gain": 0.3,
+    "len": 0.5
+   },
+   {
+    "w": "live",
+    "kind": "fixChime",
+    "gain": 0.55
+   },
+   {
+    "w": "official",
+    "kind": "magLock",
+    "gain": 0.5
+   }
+  ],
+  "cta": [
+   {
+    "w": "JOBS",
+    "kind": "mechClick",
+    "gain": 0.6
+   },
+   {
+    "w": "JOBS",
+    "kind": "impact",
+    "gain": 0.6
+   },
+   {
+    "w": "save",
+    "kind": "mechClick",
+    "gain": 0.6
+   },
+   {
+    "w": "save",
+    "kind": "fixChime",
+    "gain": 0.6
+   },
+   {
+    "e": 1.2,
+    "kind": "resolve",
+    "gain": 0.5
+   }
+  ]
+ }
+}

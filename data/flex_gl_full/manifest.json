@@ -1,0 +1,19 @@
+{
+ "source": "https://youtu.be/e2kIhlfmOJw (Little Lion Sound channel, 'General Levy - Dubplate - Hip-Hop Freestyle')",
+ "source_sha256": "554d6eb7a8e8a97979dff2594f487f07cef0570626bd2f20cd8f885dae3e2c28",
+ "window_source_seconds": [
+  145.158,
+  193.1644
+ ],
+ "music_cut_source_seconds": 188.1111,
+ "pulse_seconds": 0.31583,
+ "grid": "constant grid fitted to DP beats; one score eighth per unit; a section = one bar",
+ "edit": "one continuous excerpt; 5 ms fade-in, 4 ms fade-out; no stretch or pitch change",
+ "loudness_in": {
+  "input_i": "-6.95",
+  "input_tp": "0.58",
+  "input_lra": "1.40"
+ },
+ "loudness_target": "-14 LUFS integrated, -1 dBTP",
+ "voiceover": false
+}

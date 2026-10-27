@@ -1,0 +1,484 @@
+{
+ "notes": "Grok Bot reel storyboard as data. Every time is on the 120 BPM grid (0.25 s steps) and checked against the spoken words in data/grokbot/lyrics.json. app/src/scenes/grokbot.ts reads `events`; analysis/grokbot_mix.py reads `sfx`. Chapters are hard cuts.",
+ "chapters": [
+  [
+   0,
+   2,
+   "hook"
+  ],
+  [
+   2,
+   6,
+   "notchat"
+  ],
+  [
+   6,
+   12,
+   "team"
+  ],
+  [
+   12,
+   18,
+   "mission"
+  ],
+  [
+   18,
+   24,
+   "choreo"
+  ],
+  [
+   24,
+   30,
+   "parallel"
+  ],
+  [
+   30,
+   36,
+   "routine"
+  ],
+  [
+   36,
+   42,
+   "apps"
+  ],
+  [
+   42,
+   48,
+   "approval"
+  ],
+  [
+   48,
+   54,
+   "payoff"
+  ],
+  [
+   54,
+   58,
+   "hero"
+  ]
+ ],
+ "events": {
+  "hook.smash": 0.0,
+  "hook.type1": 0.0,
+  "hook.drop": [
+   0.25,
+   0.5,
+   0.75,
+   1.0,
+   1.25,
+   1.5
+  ],
+  "hook.type2": 1.5,
+  "chat.in": 2.0,
+  "chat.title": 3.0,
+  "helm.shove": 3.5,
+  "room.reveal": 3.75,
+  "chat.work": 4.0,
+  "team.tags": [
+   7.0,
+   7.5,
+   8.0,
+   8.5,
+   9.0,
+   9.5
+  ],
+  "team.close": [
+   10.0,
+   10.75,
+   11.25
+  ],
+  "mission.drop": 12.0,
+  "mission.split": 12.5,
+  "scout.research": 12.5,
+  "archive.context": 13.75,
+  "forge.content": 15.75,
+  "artifact.steps": [
+   16.25,
+   16.75,
+   17.25
+  ],
+  "choreo.sprint": 19.5,
+  "choreo.toss": 20.5,
+  "choreo.nearmiss": 20.75,
+  "choreo.catch": 21.25,
+  "choreo.chair": 21.75,
+  "choreo.status": [
+   22.0,
+   22.5,
+   23.0
+  ],
+  "par.split": 24.0,
+  "par.out": [
+   25.0,
+   26.5,
+   27.0
+  ],
+  "par.stack": 27.5,
+  "par.word": 24.5,
+  "par.merge": 29.0,
+  "routine.hand": 30.0,
+  "routine.save": 32.5,
+  "routine.replay": [
+   33.5,
+   34.5,
+   35.5
+  ],
+  "apps.windows": 36.0,
+  "apps.word": 36.75,
+  "apps.cross": [
+   37.0,
+   37.5,
+   38.0
+  ],
+  "apps.core": 38.5,
+  "apps.context": 40.25,
+  "appr.silence": 42.0,
+  "appr.flag": 42.25,
+  "appr.freeze": 42.5,
+  "appr.word": 44.25,
+  "appr.look": 45.0,
+  "appr.approve": 46.75,
+  "appr.green": [
+   47.0,
+   47.0,
+   47.25,
+   47.25,
+   47.5,
+   47.5
+  ],
+  "appr.control": 47.0,
+  "pay.tiles": 48.0,
+  "pay.badge": 49.5,
+  "pay.run": 50.0,
+  "pay.shipped": 52.0,
+  "pay.phone": 52.5,
+  "pay.dance": 53.0,
+  "hero.in": 54.0,
+  "hero.title": 54.5,
+  "hero.take": 55.0,
+  "hero.cta": 56.5,
+  "hero.loop": 57.5
+ },
+ "sfx": [
+  [
+   0.0,
+   "smash",
+   1.0
+  ],
+  [
+   0.25,
+   "drop",
+   0.5
+  ],
+  [
+   0.5,
+   "drop",
+   0.5
+  ],
+  [
+   0.75,
+   "drop",
+   0.5
+  ],
+  [
+   1.0,
+   "drop",
+   0.5
+  ],
+  [
+   1.25,
+   "drop",
+   0.5
+  ],
+  [
+   1.5,
+   "drop",
+   0.5
+  ],
+  [
+   2.0,
+   "pop",
+   0.5
+  ],
+  [
+   2.25,
+   "type",
+   0.35
+  ],
+  [
+   3.5,
+   "whoosh",
+   0.7
+  ],
+  [
+   3.75,
+   "boom",
+   0.6
+  ],
+  [
+   7.0,
+   "ping",
+   0.35
+  ],
+  [
+   7.5,
+   "ping",
+   0.35
+  ],
+  [
+   8.0,
+   "ping",
+   0.35
+  ],
+  [
+   8.5,
+   "ping",
+   0.35
+  ],
+  [
+   9.0,
+   "ping",
+   0.35
+  ],
+  [
+   9.5,
+   "ping",
+   0.35
+  ],
+  [
+   12.0,
+   "drop",
+   0.7
+  ],
+  [
+   12.5,
+   "split",
+   0.6
+  ],
+  [
+   12.5,
+   "steps",
+   0.4
+  ],
+  [
+   13.75,
+   "servo",
+   0.4
+  ],
+  [
+   15.75,
+   "type",
+   0.35
+  ],
+  [
+   16.25,
+   "pop",
+   0.4
+  ],
+  [
+   16.75,
+   "pop",
+   0.4
+  ],
+  [
+   17.25,
+   "pop",
+   0.45
+  ],
+  [
+   19.5,
+   "steps",
+   0.55
+  ],
+  [
+   20.5,
+   "whoosh",
+   0.6
+  ],
+  [
+   20.75,
+   "wobble",
+   0.5
+  ],
+  [
+   21.25,
+   "catch",
+   0.6
+  ],
+  [
+   21.75,
+   "chair",
+   0.5
+  ],
+  [
+   22.0,
+   "ping",
+   0.3
+  ],
+  [
+   22.5,
+   "ping",
+   0.3
+  ],
+  [
+   23.0,
+   "ping",
+   0.35
+  ],
+  [
+   24.0,
+   "split",
+   0.5
+  ],
+  [
+   24.5,
+   "boom",
+   0.6
+  ],
+  [
+   25.0,
+   "pop",
+   0.35
+  ],
+  [
+   26.5,
+   "pop",
+   0.35
+  ],
+  [
+   27.0,
+   "pop",
+   0.35
+  ],
+  [
+   27.5,
+   "stack",
+   0.5
+  ],
+  [
+   29.0,
+   "whoosh",
+   0.5
+  ],
+  [
+   30.0,
+   "shimmer",
+   0.4
+  ],
+  [
+   32.5,
+   "save",
+   0.6
+  ],
+  [
+   33.5,
+   "tick",
+   0.35
+  ],
+  [
+   34.5,
+   "tick",
+   0.35
+  ],
+  [
+   35.5,
+   "tick",
+   0.35
+  ],
+  [
+   36.0,
+   "whoosh",
+   0.5
+  ],
+  [
+   37.0,
+   "steps",
+   0.4
+  ],
+  [
+   38.5,
+   "hum",
+   0.55
+  ],
+  [
+   40.25,
+   "shimmer",
+   0.4
+  ],
+  [
+   42.25,
+   "alert",
+   0.7
+  ],
+  [
+   42.5,
+   "freeze",
+   0.5
+  ],
+  [
+   44.25,
+   "alert",
+   0.4
+  ],
+  [
+   46.75,
+   "approve",
+   0.8
+  ],
+  [
+   47.0,
+   "ping",
+   0.25
+  ],
+  [
+   47.25,
+   "ping",
+   0.25
+  ],
+  [
+   47.5,
+   "ping",
+   0.25
+  ],
+  [
+   48.0,
+   "pop",
+   0.4
+  ],
+  [
+   49.5,
+   "stamp",
+   0.6
+  ],
+  [
+   50.0,
+   "steps",
+   0.55
+  ],
+  [
+   52.0,
+   "slam",
+   1.0
+  ],
+  [
+   52.5,
+   "shimmer",
+   0.4
+  ],
+  [
+   54.0,
+   "whoosh",
+   0.5
+  ],
+  [
+   56.5,
+   "pop",
+   0.6
+  ],
+  [
+   57.5,
+   "servo",
+   0.4
+  ]
+ ]
+}

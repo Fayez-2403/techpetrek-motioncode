@@ -1,0 +1,5 @@
+{
+ "_doc": "Soundtracks of version v2. Written by audio-src/score.py.",
+ "master": "audio/mix_master_v2.wav",
+ "reel": "audio/mix_reel_v2.wav"
+}

@@ -1,0 +1,100 @@
+{
+ "_doc": "Hinglish narration. 'cap' = Roman Hinglish caption (punch band), 'tts' = what the voice reads (Hindi in Devanagari, English words in English). Phrase punctuation (, . ? ! : …) must match. Every claim traces to FACTS.md. Each line opens its segment. V2: user hook (AI builds fast -> responsibility -> saavdhan -> the four forgotten basics -> 5 cases), Number one..five.",
+ "voice": {
+  "provider": "elevenlabs",
+  "voiceId": "TX3LPaxmHKxFdv7VOQHJ",
+  "name": "Liam",
+  "model": "eleven_turbo_v2_5",
+  "language": "hi",
+  "stability": 0.4,
+  "similarity": 0.75,
+  "speed": 1.0,
+  "seed": 5
+ },
+ "reel": [
+  {
+   "id": "i01",
+   "scene": "intro1",
+   "cap": "AI use karke 2 din mein website bana li, 1 ghante mein reel edit kar li, 2 minute mein automation setup kar diya???",
+   "tts": "AI use करके दो दिन में website बना ली, एक घंटे में reel edit कर ली, दो minute में automation setup कर दिया???",
+   "min": 0.0
+  },
+  {
+   "id": "i02",
+   "scene": "intro2",
+   "cap": "Bas? Yahan aapki responsibility khatam nahi ho jaati. Saavdhan ho jao!",
+   "tts": "बस? यहाँ आपकी responsibility खत्म नहीं हो जाती. सावधान हो जाओ!",
+   "min": 0.0
+  },
+  {
+   "id": "i03",
+   "scene": "intro3",
+   "cap": "Jaise-jaise AI leverage karke log apps, videos, websites build kar rahe hain, waise hi log bhool rahe hain: credentials kahan rehne hain, access kitna dena hai, audit logs kyun zaroori hain, aur human approval kya hota hai.",
+   "tts": "जैसे-जैसे AI leverage करके लोग apps, videos, websites build कर रहे हैं, वैसे ही लोग भूल रहे हैं: credentials कहाँ रहने हैं, access कितना देना है, audit logs क्यों ज़रूरी हैं, और human approval क्या होता है.",
+   "min": 0.0
+  },
+  {
+   "id": "h01",
+   "scene": "hook",
+   "min": 6.0,
+   "cap": "Ye dekho 5 bade cases, jo pichhle 2 hafton mein hue.",
+   "tts": "ये देखो पाँच बड़े cases, जो पिछले दो हफ्तों में हुए."
+  },
+  {
+   "id": "r01",
+   "scene": "railway",
+   "cap": "Number 1: Railway — developer cloud, Indian Railways nahi. Hackers andar ghuse, kuch customers ke secrets expose, builds ruk gaye. Railway bola: keys rotate karo!",
+   "tts": "Number one: Railway — developer cloud, Indian Railways नहीं. Hackers अंदर घुसे, कुछ customers के secrets expose, बिल्ड्स रुक गए. Railway बोला: keys rotate करो!",
+   "min": 0.0
+  },
+  {
+   "id": "r02",
+   "scene": "railway2",
+   "min": 4.5,
+   "cap": "Early findings: target tha AI-provider API keys. Lekin AI jailbreak ka role confirm nahi.",
+   "tts": "Early findings: target था AI-provider API keys. लेकिन AI jailbreak का role confirm नहीं."
+  },
+  {
+   "id": "r03",
+   "scene": "certin",
+   "cap": "Number 2: India ka CERT-In. Critical advisory: AI agents ne permission se aage jaakar Indian systems access kiye, aur affected organizations ko pata hi nahi chala.",
+   "tts": "Number two: India का CERT-In. Critical advisory: AI agents ने permission से आगे जाकर Indian systems access किए, और affected organizations को पता ही नहीं चला.",
+   "min": 0.0
+  },
+  {
+   "id": "r04",
+   "scene": "litellm",
+   "cap": "Number 3: LiteLLM ka ek version credential-stealer ke saath aaya. CERT-In bola: credentials rotate karo!",
+   "tts": "Number three: LiteLLM का एक version credential-stealer के साथ आया. CERT-In बोला: credentials rotate करो!",
+   "min": 0.0
+  },
+  {
+   "id": "r05",
+   "scene": "copilot",
+   "min": 4.5,
+   "cap": "Number 4: Copilot mein researcher ne prompt-injection bug dikhaya, Microsoft ne patch kar diya.",
+   "tts": "Number four: Copilot में researcher ने prompt-injection bug दिखाया, Microsoft ने patch कर दिया."
+  },
+  {
+   "id": "r06",
+   "scene": "reuters",
+   "cap": "Number 5: Reuters ke mutabik, ek hacker ne 100 se zyada companies ki websites mein ghusne ka kaam lagbhag poora AI agents se karwaya.",
+   "tts": "Number five: Reuters के मुताबिक, एक hacker ने सौ से ज़्यादा companies की websites में घुसने का काम लगभग पूरा AI agents से करवाया.",
+   "min": 0.0
+  },
+  {
+   "id": "r07",
+   "scene": "checklist",
+   "min": 6.5,
+   "cap": "Toh AI se build karo, lekin: keys rotate karo, agents ko kam permission do, human approval rakho, audit logs check karo.",
+   "tts": "तो AI से build करो, लेकिन: keys rotate करो, agents को कम permission दो, human approval रखो, audit logs check करो."
+  },
+  {
+   "id": "r08",
+   "scene": "cta",
+   "min": 4.5,
+   "cap": "Comment karo SECURITY: verified sources aur checklist DM karunga!",
+   "tts": "Comment करो SECURITY: verified sources और checklist DM करूँगा!"
+  }
+ ]
+}

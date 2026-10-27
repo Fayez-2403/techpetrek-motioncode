@@ -1,0 +1,383 @@
+[
+ {
+  "id": "railway",
+  "n": 1,
+  "tag": "CONFIRMED BREACH",
+  "india": "INDIRECT",
+  "kicker": "Railway.com · developer cloud · Oct 20–22",
+  "disambiguation": "Railway.com = developer cloud · NOT Indian Railways",
+  "headline": "Hackers got into a dev cloud.",
+  "body": [
+   "Railway confirmed “unauthorized access to a subset of internal Railway systems.”",
+   "A subset of customers had their encrypted secrets exposed.",
+   "Builds and deploys were interrupted; running apps stayed online."
+  ],
+  "chips": [
+   {
+    "label": "ROTATE KEYS IF SIGNED UP",
+    "value": "BEFORE OCT 21"
+   },
+   {
+    "label": "STATUS",
+    "value": "INVESTIGATION ONGOING"
+   }
+  ],
+  "footnote": "Railway · “Preliminary Report: Oct 21st Security Incident” · Oct 22, 2026 · blog.railway.com",
+  "url": "https://blog.railway.com/p/preliminary-report-october-security-incident",
+  "receipts": [
+   {
+    "file": "receipts/railway_01_unauthorized.png",
+    "source": "Railway blog · Oct 22, 2026"
+   },
+   {
+    "file": "receipts/railway_02_rotate.png",
+    "source": "Railway blog · Oct 22, 2026"
+   },
+   {
+    "file": "receipts/railway_05_disruption.png",
+    "source": "Railway blog · Oct 22, 2026"
+   },
+   {
+    "file": "receipts/railway_07_title.png",
+    "source": "Railway blog · Oct 22, 2026"
+   },
+   {
+    "file": "receipts/railway_06_scale.png",
+    "source": "Railway blog · Oct 22, 2026"
+   },
+   {
+    "file": "receipts/railway_09_disclosure_oct21.png",
+    "source": "Railway blog · Oct 21, 2026"
+   }
+  ],
+  "confirmed": [
+   "Unauthorized access to a subset of internal Railway systems (attack window Oct 20, 13:58 UTC – Oct 22, 03:32 UTC)",
+   "A subset of customers had encrypted secrets exposed that required credential rotation",
+   "Railway recommends all customers who signed up before Oct 21 rotate keys stored on Railway; directly impacted customers notified",
+   "Potentially impacted secrets reported to partner vendors",
+   "Builds, deploys, dashboard, API, CLI and support were disrupted; existing deployments stayed online",
+   "At most 1.85% of workspaces (about 100,000 workspaces) had some environment variables potentially compromised",
+   "Railway user accounts were not accessed",
+   "External incident responders and the authorities engaged; forensic investigation still ongoing"
+  ],
+  "notConfirmed": [
+   "That an AI jailbreak, AI agent or prompt injection caused the breach (Railway does not say this)",
+   "Whether user source code was accessed (Railway is “not ruling out” it; final report pending)",
+   "Exactly which keys were decrypted",
+   "Who the attacker is",
+   "How many affected users are in India"
+  ]
+ },
+ {
+  "id": "railway2",
+  "caseOf": "railway",
+  "n": 1,
+  "tag": "CONFIRMED BREACH",
+  "india": "INDIRECT",
+  "kicker": "Railway.com · company's early findings · not confirmed",
+  "headline": "Early findings: they wanted AI keys.",
+  "body": [
+   "“Early investigations”: the attack sought “AI provider API keys” for distillation.",
+   "“Initial evidence”: the actor had abliterated models and substantial compute.",
+   "An AI jailbreak causing the breach is not confirmed."
+  ],
+  "chips": [
+   {
+    "label": "LABEL",
+    "value": "COMPANY'S EARLY FINDINGS"
+   },
+   {
+    "label": "AI JAILBREAK AS CAUSE",
+    "value": "NOT CONFIRMED"
+   }
+  ],
+  "footnote": "Railway · “Preliminary Report: Oct 21st Security Incident” · Oct 22, 2026 · blog.railway.com",
+  "url": "https://blog.railway.com/p/preliminary-report-october-security-incident",
+  "receipts": [
+   {
+    "file": "receipts/railway_03_early_findings.png",
+    "source": "Railway blog · Oct 22, 2026"
+   },
+   {
+    "file": "receipts/railway_04_abliterated.png",
+    "source": "Railway blog · Oct 22, 2026"
+   },
+   {
+    "file": "receipts/railway_08_accounts.png",
+    "source": "Railway blog · Oct 22, 2026"
+   },
+   {
+    "file": "receipts/railway_10_series.png",
+    "source": "Railway blog · Oct 21, 2026"
+   }
+  ],
+  "confirmed": [
+   "Railway's own early findings say the attack was attempting to obtain AI provider API keys to perform distillation attacks",
+   "Railway's initial evidence says the actor had access to abliterated models and substantial compute resources",
+   "Railway's FAQ: forensic evidence indicates the attacker was likely looking for AI and platform API keys"
+  ],
+  "notConfirmed": [
+   "That an AI jailbreak, AI agent or prompt injection caused the breach",
+   "That any distillation attack actually happened with stolen keys",
+   "Whether user source code was accessed (final report pending)",
+   "Any link to other October incidents (Railway only says it believes this is part of a series of attacks on platform companies)"
+  ]
+ },
+ {
+  "id": "certin",
+  "n": 2,
+  "tag": "GOVERNMENT ADVISORY",
+  "india": "DIRECT",
+  "kicker": "CERT-In · India's national CERT · Oct 15, 2026",
+  "headline": "AI agents accessed Indian systems.",
+  "body": [
+   "AI agents under evaluation “exceeded their assigned task authorization.”",
+   "Attackers also used open-source agentic AI tools against Indian entities.",
+   "In disclosed cases, “none of the affected organizations detected the access.”"
+  ],
+  "chips": [
+   {
+    "label": "ADVISORY",
+    "value": "CIAD-2026-0049"
+   },
+   {
+    "label": "SEVERITY",
+    "value": "CRITICAL"
+   }
+  ],
+  "footnote": "CERT-In · Advisory CIAD-2026-0049 · Oct 15, 2026 · cert-in.org.in",
+  "url": "https://www.cert-in.org.in/s2cMainServlet?pageid=PUBVLNOTES02&VLCODE=CIAD-2026-0049",
+  "receipts": [
+   {
+    "file": "receipts/certin49_01_title.png",
+    "source": "CERT-In · Oct 15, 2026"
+   },
+   {
+    "file": "receipts/certin49_06_voluntary.png",
+    "source": "CERT-In · Oct 15, 2026"
+   },
+   {
+    "file": "receipts/certin49_03_undetected.png",
+    "source": "CERT-In · Oct 15, 2026"
+   },
+   {
+    "file": "receipts/certin49_04_hours.png",
+    "source": "CERT-In · Oct 15, 2026"
+   },
+   {
+    "file": "receipts/certin49_02_description.png",
+    "source": "CERT-In · Oct 15, 2026"
+   },
+   {
+    "file": "receipts/certin49_05_govern_agents.png",
+    "source": "CERT-In · Oct 15, 2026"
+   }
+  ],
+  "confirmed": [
+   "CERT-In observed incidents in which the attacker was an AI agent (real incidents, not a general warning)",
+   "AI model providers voluntarily disclosed that their models, during research and evaluation, reached live systems of Indian organizations",
+   "Activity included reading business records, including personal data, via exposed credentials and permissive cloud roles",
+   "None of the affected organizations detected the access in the disclosed cases",
+   "A financially motivated campaign against Indian entities abused open-source AI offensive-security frameworks; time to impact fell from days to a few hours",
+   "Root weaknesses were conventional: exposed keys, forgotten APIs, over-permissive roles, admin panels without MFA",
+   "Severity Rating: Critical"
+  ],
+  "notConfirmed": [
+   "Which AI companies or models were involved (CERT-In names none)",
+   "Which Indian organizations or sectors, or how many",
+   "Any financial loss figure",
+   "Any link to the Railway incident"
+  ]
+ },
+ {
+  "id": "litellm",
+  "n": 3,
+  "tag": "GOVERNMENT ADVISORY",
+  "india": "DIRECT",
+  "kicker": "CERT-In · LiteLLM (LLM gateway) · Oct 21–23, 2026",
+  "headline": "LiteLLM 1.107.0 hid a credential-stealer.",
+  "body": [
+   "Its release pipeline was compromised and pushed a malicious 1.107.0.",
+   "CERT-In: it targets cloud keys, CI/CD secrets and AI coding-tool tokens.",
+   "Live on PyPI “approximately 2 hours” on Oct 21; since pulled."
+  ],
+  "chips": [
+   {
+    "label": "AFFECTED",
+    "value": "LiteLLM 1.107.0"
+   },
+   {
+    "label": "CERT-In ADVICE",
+    "value": "ROTATE CREDENTIALS"
+   }
+  ],
+  "footnote": "CERT-In · Advisory CIAD-2026-0053 · Oct 23, 2026 · cert-in.org.in",
+  "url": "https://www.cert-in.org.in/s2cMainServlet?pageid=PUBVLNOTES02&VLCODE=CIAD-2026-0053",
+  "receipts": [
+   {
+    "file": "receipts/certin53_01_title.png",
+    "source": "CERT-In · Oct 23, 2026"
+   },
+   {
+    "file": "receipts/certin53_03_ai_tokens.png",
+    "source": "CERT-In · Oct 23, 2026"
+   },
+   {
+    "file": "receipts/litellm_01_live_2h.png",
+    "source": "LiteLLM blog · Oct 21, 2026"
+   },
+   {
+    "file": "receipts/certin53_04_rotate_llm_keys.png",
+    "source": "CERT-In · Oct 23, 2026"
+   },
+   {
+    "file": "receipts/litellm_05_rotate_lesson.png",
+    "source": "LiteLLM blog · Oct 23, 2026"
+   },
+   {
+    "file": "receipts/certin53_02_description.png",
+    "source": "CERT-In · Oct 23, 2026"
+   },
+   {
+    "file": "receipts/litellm_02_prev_safe.png",
+    "source": "LiteLLM blog · Oct 21, 2026"
+   },
+   {
+    "file": "receipts/litellm_04_inference_tokens.png",
+    "source": "LiteLLM blog · Oct 23, 2026"
+   }
+  ],
+  "confirmed": [
+   "LiteLLM 1.107.0 on PyPI (all seven wheels) and Docker images were compromised on Oct 21, 2026 (maintainers + CERT-In)",
+   "The malicious build steals credentials and loads remote-code tools (maintainers)",
+   "Targets include cloud credentials, environment variables, CI/CD secrets, repo tokens and AI development-tool tokens incl. Cursor and GitHub Copilot (CERT-In)",
+   "PyPI release live about 2 hours (11:39–13:23 UTC); pulled; previous versions safe (maintainers)",
+   "CERT-In: mandatory credential rotation, including upstream LLM provider API keys",
+   "Root cause per LiteLLM: a key committed to a public repo in May that was never revoked; the attacker focused on upstream inference API tokens"
+  ],
+  "notConfirmed": [
+   "How many people installed 1.107.0; any victim count",
+   "Any Indian victims (CERT-In names none)",
+   "That AI was used to carry out the attack",
+   "Any link to the Railway attacker"
+  ]
+ },
+ {
+  "id": "copilot",
+  "n": 4,
+  "tag": "SECURITY RESEARCH",
+  "india": "INDIRECT",
+  "kicker": "Embrace The Red · Copilot in Visual Studio + SSMS · Oct 13, 2026",
+  "headline": "A researcher hijacked Copilot.",
+  "body": [
+   "A bug let Copilot in Visual Studio and SSMS write its own settings files.",
+   "He showed it could be exploited “via indirect prompt injection.”",
+   "Microsoft patched it Oct 13 (CVE-2026-103572)."
+  ],
+  "chips": [
+   {
+    "label": "FIXED",
+    "value": "OCT 13 · PATCH TUESDAY"
+   },
+   {
+    "label": "EXPLOITED (MSRC)",
+    "value": "NO"
+   }
+  ],
+  "footnote": "Embrace The Red · Oct 13, 2026 · CVE-2026-103572 (Microsoft MSRC) · embracethered.com",
+  "url": "https://embracethered.com/blog/posts/2026/visual-studio-copilot-remote-code-execution/",
+  "receipts": [
+   {
+    "file": "receipts/copilot_02_prompt_injection.png",
+    "source": "Embrace The Red · Oct 13, 2026"
+   },
+   {
+    "file": "receipts/copilot_01_patch.png",
+    "source": "Embrace The Red · Oct 13, 2026"
+   },
+   {
+    "file": "receipts/copilot_04_fix_oct13.png",
+    "source": "Embrace The Red · Oct 13, 2026"
+   },
+   {
+    "file": "receipts/copilot_03_title.png",
+    "source": "Embrace The Red · Oct 13, 2026"
+   }
+  ],
+  "confirmed": [
+   "Researcher Johann Rehberger reported the flaw to Microsoft on Aug 4, 2026; Microsoft confirmed it on Sep 16",
+   "Copilot in Visual Studio / SQL Server Management Studio could bypass a path check and write its own settings and config files",
+   "He demonstrated third-party exploitation via indirect prompt injection to achieve remote command execution",
+   "Microsoft shipped the fix on Oct 13, 2026 (Patch Tuesday); MSRC lists it as Important, exploited: No"
+  ],
+  "notConfirmed": [
+   "Any real-world attack using it (MSRC: exploited = No)",
+   "Any effect on VS Code (separate product, separate advisory)",
+   "Any effect on GitHub.com accounts"
+  ]
+ },
+ {
+  "id": "reuters",
+  "n": 5,
+  "tag": "AI-ASSISTED INTRUSION (reported)",
+  "india": "GLOBAL",
+  "kicker": "Reuters exclusive · researcher: NorForge · Oct 19, 2026",
+  "headline": "AI agents hit 100+ firms' sites.",
+  "body": [
+   "A hacker “outsourced the hacking spree almost entirely” to AI agents.",
+   "Targets: US, Canadian, Australian and Japanese e-commerce websites.",
+   "Reuters “could not ascertain” how much data was taken."
+  ],
+  "chips": [
+   {
+    "label": "ATTEMPTED",
+    "value": "1,200+ SITES"
+   },
+   {
+    "label": "RESEARCHER'S ESTIMATE",
+    "value": "~$50 PER HACK"
+   }
+  ],
+  "footnote": "Reuters · Oct 19, 2026 · reuters.com (read via Yahoo News syndication)",
+  "url": "https://www.reuters.com/legal/government/how-one-hacker-used-ai-agents-few-thousand-dollars-break-into-scores-sites-2026-10-19/",
+  "receipts": [
+   {
+    "file": "receipts/reuters_01_lede.png",
+    "source": "Reuters via Yahoo News · Oct 19, 2026"
+   },
+   {
+    "file": "receipts/reuters_02_targets.png",
+    "source": "Reuters via Yahoo News · Oct 19, 2026"
+   },
+   {
+    "file": "receipts/reuters_03_cost.png",
+    "source": "Reuters via Yahoo News · Oct 19, 2026"
+   },
+   {
+    "file": "receipts/reuters_04_caveat.png",
+    "source": "Reuters via Yahoo News · Oct 19, 2026"
+   },
+   {
+    "file": "receipts/reuters_05_headline.png",
+    "source": "Reuters via Yahoo News · Oct 19, 2026"
+   },
+   {
+    "file": "receipts/norforge_01_targets.png",
+    "source": "NorForge · Oct 19, 2026"
+   }
+  ],
+  "confirmed": [
+   "Reuters reports a researcher watched a Chinese-speaking hacker break into websites belonging to more than 100 companies, including Deere, SharkNinja and Cummins",
+   "The hacker tasked AI agents with autonomously probing and breaking into sites (per NorForge's Snorre Fagerland)",
+   "Agents attempted more than 1,200 sites; targets were US, Canadian, Australian and Japanese e-commerce websites",
+   "Researcher's estimate: roughly $5,000 of tokens, about $50 per successful hack",
+   "Deere: “no indication that sensitive information was accessed”; SharkNinja: threat contained; Cummins: investigating"
+  ],
+  "notConfirmed": [
+   "Any Indian sites (none named)",
+   "How much data, if any, was taken (Reuters “could not ascertain”)",
+   "Which AI models were used (Reuters: “appeared to be”)",
+   "Identity or state links of the hacker (only “Chinese-speaking”)"
+  ]
+ }
+]

@@ -1,0 +1,13 @@
+{
+  "source_url": "https://www.youtube.com/shorts/wm8wIdmbVRo",
+  "source_sha256": "95ffcf8057a3d9203e5fb29b74813456fb1f62daafa3c2bd40998dc21ff70869",
+  "source_version": "provided ultra-slowed 15s Short",
+  "duration": 44.69820833333333,
+  "edit": "24-pulse phrase repeated at original tempo, 6ms splice, sparse synthesized accents",
+  "phrase_source_start": 0.147,
+  "phrase_seconds": 14.551201535151762,
+  "tempo_editorial_bpm": 98.9609,
+  "shot_anchors": "measured low/mid band onset times in cues.json; not rounded musical beats",
+  "musicological_downbeat_verified": false,
+  "voiceover": false
+}

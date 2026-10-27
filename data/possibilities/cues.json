@@ -1,0 +1,107 @@
+{
+  "duration": 30.0,
+  "fps": 60,
+  "bpm_editorial": 98.9609,
+  "morph_lead_seconds": 0.32,
+  "integrated_insert_seconds": 14.698201535151762,
+  "shots": [
+    {
+      "id": "hook",
+      "at": 0.0,
+      "nominal": 0,
+      "copy": "WHAT CAN YOU BUILD?",
+      "onset_strength": 1.0,
+      "anchor": "clip_start",
+      "end": 2.02
+    },
+    {
+      "id": "websites",
+      "at": 2.02,
+      "nominal": 2,
+      "copy": "WEBSITES THAT COME ALIVE.",
+      "onset_strength": 0.3555,
+      "anchor": "measured_band_onset",
+      "end": 5.09
+    },
+    {
+      "id": "apps",
+      "at": 5.09,
+      "nominal": 5,
+      "copy": "APPS THAT FEEL MAGICAL.",
+      "onset_strength": 0.217,
+      "anchor": "measured_band_onset",
+      "end": 8.2
+    },
+    {
+      "id": "dashboards",
+      "at": 8.2,
+      "nominal": 8,
+      "copy": "DATA TURNED INTO EXPERIENCES.",
+      "onset_strength": 1.0,
+      "anchor": "measured_band_onset",
+      "end": 10.88
+    },
+    {
+      "id": "product",
+      "at": 10.88,
+      "nominal": 11,
+      "copy": "PRODUCT STORIES THAT SELL.",
+      "onset_strength": 0.6518,
+      "anchor": "measured_band_onset",
+      "end": 13.98
+    },
+    {
+      "id": "motion",
+      "at": 13.98,
+      "nominal": 14,
+      "copy": "MOTION WITHOUT LIMITS.",
+      "onset_strength": 0.3316,
+      "anchor": "measured_band_onset",
+      "end": 17.07
+    },
+    {
+      "id": "stories",
+      "at": 17.07,
+      "nominal": 17,
+      "copy": "STORIES BROUGHT TO LIFE.",
+      "onset_strength": 0.4853,
+      "anchor": "measured_band_onset",
+      "end": 20.02
+    },
+    {
+      "id": "worlds",
+      "at": 20.02,
+      "nominal": 20,
+      "copy": "WORLDS BUILT FROM CODE.",
+      "onset_strength": 1.0,
+      "anchor": "measured_band_onset",
+      "end": 22.72
+    },
+    {
+      "id": "music",
+      "at": 22.72,
+      "nominal": 23,
+      "copy": "SOUND YOU CAN SEE.",
+      "onset_strength": 1.0,
+      "anchor": "measured_band_onset",
+      "end": 26.04
+    },
+    {
+      "id": "reveal",
+      "at": 26.04,
+      "nominal": 26,
+      "copy": "ONE IDEA. ENDLESS POSSIBILITIES.",
+      "onset_strength": 0.7638,
+      "anchor": "measured_band_onset",
+      "end": 30.0
+    }
+  ],
+  "interactions": {
+    "website_click": 3.61,
+    "app_click": 5.97,
+    "app_complete": 6.66,
+    "command_palette": 9.09,
+    "catch_seed": 18.79
+  },
+  "final_lockup_at": 27.81
+}

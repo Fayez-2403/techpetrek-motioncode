@@ -1,0 +1,78 @@
+{
+  "analysis_resolution_ms": 10.0,
+  "major_landings": [
+    {
+      "shot": "hook",
+      "audio_onset": 0.0,
+      "first_frame_at_or_after": 0.0,
+      "visual_latency_ms": 0.0
+    },
+    {
+      "shot": "websites",
+      "audio_onset": 2.02,
+      "first_frame_at_or_after": 2.033333333333333,
+      "visual_latency_ms": 13.3333
+    },
+    {
+      "shot": "apps",
+      "audio_onset": 5.09,
+      "first_frame_at_or_after": 5.1,
+      "visual_latency_ms": 10.0
+    },
+    {
+      "shot": "dashboards",
+      "audio_onset": 8.2,
+      "first_frame_at_or_after": 8.2,
+      "visual_latency_ms": 0.0
+    },
+    {
+      "shot": "product",
+      "audio_onset": 10.88,
+      "first_frame_at_or_after": 10.883333333333333,
+      "visual_latency_ms": 3.3333
+    },
+    {
+      "shot": "motion",
+      "audio_onset": 13.98,
+      "first_frame_at_or_after": 13.983333333333333,
+      "visual_latency_ms": 3.3333
+    },
+    {
+      "shot": "stories",
+      "audio_onset": 17.07,
+      "first_frame_at_or_after": 17.083333333333332,
+      "visual_latency_ms": 13.3333
+    },
+    {
+      "shot": "worlds",
+      "audio_onset": 20.02,
+      "first_frame_at_or_after": 20.033333333333335,
+      "visual_latency_ms": 13.3333
+    },
+    {
+      "shot": "music",
+      "audio_onset": 22.72,
+      "first_frame_at_or_after": 22.733333333333334,
+      "visual_latency_ms": 13.3333
+    },
+    {
+      "shot": "reveal",
+      "audio_onset": 26.04,
+      "first_frame_at_or_after": 26.05,
+      "visual_latency_ms": 10.0
+    }
+  ],
+  "interaction_onsets": {
+    "website_click": 3.61,
+    "app_click": 5.97,
+    "app_complete": 6.66,
+    "command_palette": 9.09,
+    "catch_seed": 18.79
+  },
+  "source_duration": 15.000104166666667,
+  "phrase_repeat_seconds": [
+    14.551201535151762,
+    29.102403070303524
+  ],
+  "verification": "Numerical alignment to measured band onsets. Musical meter is not asserted."
+}

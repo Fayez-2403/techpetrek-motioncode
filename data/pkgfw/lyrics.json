@@ -1,0 +1,1005 @@
+{
+ "lines": [
+  {
+   "i": 0,
+   "chapter": "alert",
+   "text": "Kya aap bhi wahi npm i ka istemal karte ho? Agar haan, toh ye dekhen...",
+   "spoken": "क्या आप भी वही N.P.M. आई का इस्तेमाल करते हो? अगर हाँ, तो ये देखें...",
+   "start": 0.42,
+   "end": 4.774,
+   "words": [
+    {
+     "w": "Kya",
+     "start": 0.42,
+     "end": 0.652,
+     "conf": 1.0
+    },
+    {
+     "w": "aap",
+     "start": 0.733,
+     "end": 0.884,
+     "conf": 1.0
+    },
+    {
+     "w": "bhi",
+     "start": 0.942,
+     "end": 1.012,
+     "conf": 1.0
+    },
+    {
+     "w": "wahi",
+     "start": 1.07,
+     "end": 1.244,
+     "conf": 1.0
+    },
+    {
+     "w": "npm",
+     "start": 1.349,
+     "end": 1.802,
+     "conf": 1.0
+    },
+    {
+     "w": "i",
+     "start": 1.86,
+     "end": 1.976,
+     "conf": 1.0
+    },
+    {
+     "w": "ka",
+     "start": 2.034,
+     "end": 2.092,
+     "conf": 1.0
+    },
+    {
+     "w": "istemal",
+     "start": 2.138,
+     "end": 2.463,
+     "conf": 1.0
+    },
+    {
+     "w": "karte",
+     "start": 2.51,
+     "end": 2.73,
+     "conf": 1.0
+    },
+    {
+     "w": "ho?",
+     "start": 2.777,
+     "end": 2.928,
+     "conf": 1.0
+    },
+    {
+     "w": "Agar",
+     "start": 3.636,
+     "end": 3.833,
+     "conf": 1.0
+    },
+    {
+     "w": "haan,",
+     "start": 3.88,
+     "end": 4.089,
+     "conf": 1.0
+    },
+    {
+     "w": "toh",
+     "start": 4.147,
+     "end": 4.24,
+     "conf": 1.0
+    },
+    {
+     "w": "ye",
+     "start": 4.309,
+     "end": 4.379,
+     "conf": 1.0
+    },
+    {
+     "w": "dekhen...",
+     "start": 4.425,
+     "end": 4.774,
+     "conf": 1.0
+    }
+   ],
+   "place": 0.42
+  },
+  {
+   "i": 1,
+   "chapter": "hook",
+   "text": "Ek npm install, aur saath mein aa jaate hain dher saare packages. Ek bhi kharab nikla, toh?",
+   "spoken": "एक N.P.M. install, और साथ में आ जाते हैं ढेर सारे packages. एक भी ख़राब निकला, तो?",
+   "start": 5.67,
+   "end": 11.149,
+   "words": [
+    {
+     "w": "Ek",
+     "start": 5.67,
+     "end": 5.821,
+     "conf": 1.0
+    },
+    {
+     "w": "npm",
+     "start": 5.925,
+     "end": 6.297,
+     "conf": 1.0
+    },
+    {
+     "w": "install,",
+     "start": 6.355,
+     "end": 6.784,
+     "conf": 1.0
+    },
+    {
+     "w": "aur",
+     "start": 7.109,
+     "end": 7.225,
+     "conf": 1.0
+    },
+    {
+     "w": "saath",
+     "start": 7.272,
+     "end": 7.469,
+     "conf": 1.0
+    },
+    {
+     "w": "mein",
+     "start": 7.527,
+     "end": 7.597,
+     "conf": 1.0
+    },
+    {
+     "w": "aa",
+     "start": 7.643,
+     "end": 7.693,
+     "conf": 1.0
+    },
+    {
+     "w": "jaate",
+     "start": 7.736,
+     "end": 7.934,
+     "conf": 1.0
+    },
+    {
+     "w": "hain",
+     "start": 7.98,
+     "end": 8.061,
+     "conf": 1.0
+    },
+    {
+     "w": "dher",
+     "start": 8.108,
+     "end": 8.305,
+     "conf": 1.0
+    },
+    {
+     "w": "saare",
+     "start": 8.352,
+     "end": 8.549,
+     "conf": 1.0
+    },
+    {
+     "w": "packages.",
+     "start": 8.595,
+     "end": 9.06,
+     "conf": 1.0
+    },
+    {
+     "w": "Ek",
+     "start": 9.826,
+     "end": 9.977,
+     "conf": 1.0
+    },
+    {
+     "w": "bhi",
+     "start": 10.023,
+     "end": 10.093,
+     "conf": 1.0
+    },
+    {
+     "w": "kharab",
+     "start": 10.14,
+     "end": 10.36,
+     "conf": 1.0
+    },
+    {
+     "w": "nikla,",
+     "start": 10.407,
+     "end": 10.685,
+     "conf": 1.0
+    },
+    {
+     "w": "toh?",
+     "start": 10.94,
+     "end": 11.149,
+     "conf": 1.0
+    }
+   ],
+   "place": 5.59
+  },
+  {
+   "i": 2,
+   "chapter": "problem",
+   "text": "GitHub ke according, aise attacks install ke time hi, CI ya laptop se credentials chura lete hain, code chalaaye bina hi.",
+   "spoken": "GitHub के according, ऐसे attacks install के time ही, C.I. या laptop से credentials चुरा लेते हैं, code चलाए बिना ही।",
+   "start": 12.063,
+   "end": 18.356,
+   "words": [
+    {
+     "w": "GitHub",
+     "start": 12.063,
+     "end": 12.388,
+     "conf": 1.0
+    },
+    {
+     "w": "ke",
+     "start": 12.446,
+     "end": 12.527,
+     "conf": 1.0
+    },
+    {
+     "w": "according,",
+     "start": 12.574,
+     "end": 12.957,
+     "conf": 1.0
+    },
+    {
+     "w": "aise",
+     "start": 13.061,
+     "end": 13.27,
+     "conf": 1.0
+    },
+    {
+     "w": "attacks",
+     "start": 13.317,
+     "end": 13.607,
+     "conf": 1.0
+    },
+    {
+     "w": "install",
+     "start": 13.642,
+     "end": 13.99,
+     "conf": 1.0
+    },
+    {
+     "w": "ke",
+     "start": 14.037,
+     "end": 14.106,
+     "conf": 1.0
+    },
+    {
+     "w": "time",
+     "start": 14.153,
+     "end": 14.385,
+     "conf": 1.0
+    },
+    {
+     "w": "hi,",
+     "start": 14.408,
+     "end": 14.594,
+     "conf": 1.0
+    },
+    {
+     "w": "CI",
+     "start": 15.035,
+     "end": 15.36,
+     "conf": 1.0
+    },
+    {
+     "w": "ya",
+     "start": 15.407,
+     "end": 15.488,
+     "conf": 1.0
+    },
+    {
+     "w": "laptop",
+     "start": 15.546,
+     "end": 15.883,
+     "conf": 1.0
+    },
+    {
+     "w": "se",
+     "start": 15.929,
+     "end": 15.999,
+     "conf": 1.0
+    },
+    {
+     "w": "credentials",
+     "start": 16.045,
+     "end": 16.51,
+     "conf": 1.0
+    },
+    {
+     "w": "chura",
+     "start": 16.556,
+     "end": 16.742,
+     "conf": 1.0
+    },
+    {
+     "w": "lete",
+     "start": 16.788,
+     "end": 16.962,
+     "conf": 1.0
+    },
+    {
+     "w": "hain,",
+     "start": 17.009,
+     "end": 17.16,
+     "conf": 1.0
+    },
+    {
+     "w": "code",
+     "start": 17.427,
+     "end": 17.659,
+     "conf": 1.0
+    },
+    {
+     "w": "chalaaye",
+     "start": 17.694,
+     "end": 17.926,
+     "conf": 1.0
+    },
+    {
+     "w": "bina",
+     "start": 17.972,
+     "end": 18.147,
+     "conf": 1.0
+    },
+    {
+     "w": "hi.",
+     "start": 18.193,
+     "end": 18.356,
+     "conf": 1.0
+    }
+   ],
+   "place": 11.983
+  },
+  {
+   "i": 3,
+   "chapter": "news",
+   "text": "Isiliye GitHub laaya hai package firewall, abhi public preview mein.",
+   "spoken": "इसीलिए GitHub लाया है package firewall, अभी public preview में।",
+   "start": 19.44,
+   "end": 22.807,
+   "words": [
+    {
+     "w": "Isiliye",
+     "start": 19.44,
+     "end": 19.811,
+     "conf": 1.0
+    },
+    {
+     "w": "GitHub",
+     "start": 19.916,
+     "end": 20.206,
+     "conf": 1.0
+    },
+    {
+     "w": "laaya",
+     "start": 20.264,
+     "end": 20.45,
+     "conf": 1.0
+    },
+    {
+     "w": "hai",
+     "start": 20.496,
+     "end": 20.566,
+     "conf": 1.0
+    },
+    {
+     "w": "package",
+     "start": 20.624,
+     "end": 20.949,
+     "conf": 1.0
+    },
+    {
+     "w": "firewall,",
+     "start": 20.984,
+     "end": 21.425,
+     "conf": 1.0
+    },
+    {
+     "w": "abhi",
+     "start": 21.715,
+     "end": 21.913,
+     "conf": 1.0
+    },
+    {
+     "w": "public",
+     "start": 21.982,
+     "end": 22.249,
+     "conf": 1.0
+    },
+    {
+     "w": "preview",
+     "start": 22.296,
+     "end": 22.586,
+     "conf": 1.0
+    },
+    {
+     "w": "mein.",
+     "start": 22.633,
+     "end": 22.807,
+     "conf": 1.0
+    }
+   ],
+   "place": 19.36
+  },
+  {
+   "i": 4,
+   "chapter": "how",
+   "text": "Ye runners aur coding agents, aur npm registry ke beech, har request aur download check karta hai.",
+   "spoken": "ये runners और coding agents, और N.P.M. registry के बीच, हर request और download check करता है।",
+   "start": 23.867,
+   "end": 29.313,
+   "words": [
+    {
+     "w": "Ye",
+     "start": 23.867,
+     "end": 23.972,
+     "conf": 1.0
+    },
+    {
+     "w": "runners",
+     "start": 24.03,
+     "end": 24.32,
+     "conf": 1.0
+    },
+    {
+     "w": "aur",
+     "start": 24.39,
+     "end": 24.482,
+     "conf": 1.0
+    },
+    {
+     "w": "coding",
+     "start": 24.552,
+     "end": 24.842,
+     "conf": 1.0
+    },
+    {
+     "w": "agents,",
+     "start": 24.889,
+     "end": 25.225,
+     "conf": 1.0
+    },
+    {
+     "w": "aur",
+     "start": 25.562,
+     "end": 25.725,
+     "conf": 1.0
+    },
+    {
+     "w": "npm",
+     "start": 25.794,
+     "end": 26.201,
+     "conf": 1.0
+    },
+    {
+     "w": "registry",
+     "start": 26.27,
+     "end": 26.619,
+     "conf": 1.0
+    },
+    {
+     "w": "ke",
+     "start": 26.653,
+     "end": 26.735,
+     "conf": 1.0
+    },
+    {
+     "w": "beech,",
+     "start": 26.793,
+     "end": 27.048,
+     "conf": 1.0
+    },
+    {
+     "w": "har",
+     "start": 27.385,
+     "end": 27.559,
+     "conf": 1.0
+    },
+    {
+     "w": "request",
+     "start": 27.618,
+     "end": 27.954,
+     "conf": 1.0
+    },
+    {
+     "w": "aur",
+     "start": 28.024,
+     "end": 28.128,
+     "conf": 1.0
+    },
+    {
+     "w": "download",
+     "start": 28.198,
+     "end": 28.581,
+     "conf": 1.0
+    },
+    {
+     "w": "check",
+     "start": 28.651,
+     "end": 28.848,
+     "conf": 1.0
+    },
+    {
+     "w": "karta",
+     "start": 28.895,
+     "end": 29.115,
+     "conf": 1.0
+    },
+    {
+     "w": "hai.",
+     "start": 29.162,
+     "end": 29.313,
+     "conf": 1.0
+    }
+   ],
+   "place": 23.787
+  },
+  {
+   "i": 5,
+   "chapter": "policy",
+   "text": "Rules admins set karte hain: naya version, by default ek din rukta hai; Advisory Database mein malware ho, toh block; aur attestation gayab ho, toh bhi block.",
+   "spoken": "Rules admins set करते हैं: नया version, by default एक दिन रुकता है; Advisory Database में malware हो, तो block; और attestation ग़ायब हो, तो भी block।",
+   "start": 30.26,
+   "end": 40.396,
+   "words": [
+    {
+     "w": "Rules",
+     "start": 30.26,
+     "end": 30.551,
+     "conf": 1.0
+    },
+    {
+     "w": "admins",
+     "start": 30.632,
+     "end": 30.899,
+     "conf": 1.0
+    },
+    {
+     "w": "set",
+     "start": 30.922,
+     "end": 31.073,
+     "conf": 1.0
+    },
+    {
+     "w": "karte",
+     "start": 31.12,
+     "end": 31.329,
+     "conf": 1.0
+    },
+    {
+     "w": "hain:",
+     "start": 31.387,
+     "end": 31.549,
+     "conf": 1.0
+    },
+    {
+     "w": "naya",
+     "start": 32.281,
+     "end": 32.536,
+     "conf": 1.0
+    },
+    {
+     "w": "version,",
+     "start": 32.594,
+     "end": 32.931,
+     "conf": 1.0
+    },
+    {
+     "w": "by",
+     "start": 33.221,
+     "end": 33.36,
+     "conf": 1.0
+    },
+    {
+     "w": "default",
+     "start": 33.418,
+     "end": 33.72,
+     "conf": 1.0
+    },
+    {
+     "w": "ek",
+     "start": 33.802,
+     "end": 33.929,
+     "conf": 1.0
+    },
+    {
+     "w": "din",
+     "start": 33.976,
+     "end": 34.069,
+     "conf": 1.0
+    },
+    {
+     "w": "rukta",
+     "start": 34.127,
+     "end": 34.37,
+     "conf": 1.0
+    },
+    {
+     "w": "hai;",
+     "start": 34.417,
+     "end": 34.568,
+     "conf": 1.0
+    },
+    {
+     "w": "Advisory",
+     "start": 35.427,
+     "end": 35.88,
+     "conf": 1.0
+    },
+    {
+     "w": "Database",
+     "start": 36.031,
+     "end": 36.402,
+     "conf": 1.0
+    },
+    {
+     "w": "mein",
+     "start": 36.437,
+     "end": 36.53,
+     "conf": 1.0
+    },
+    {
+     "w": "malware",
+     "start": 36.576,
+     "end": 36.948,
+     "conf": 1.0
+    },
+    {
+     "w": "ho,",
+     "start": 36.983,
+     "end": 37.168,
+     "conf": 1.0
+    },
+    {
+     "w": "toh",
+     "start": 37.424,
+     "end": 37.528,
+     "conf": 1.0
+    },
+    {
+     "w": "block;",
+     "start": 37.575,
+     "end": 37.83,
+     "conf": 1.0
+    },
+    {
+     "w": "aur",
+     "start": 38.306,
+     "end": 38.457,
+     "conf": 1.0
+    },
+    {
+     "w": "attestation",
+     "start": 38.527,
+     "end": 38.991,
+     "conf": 1.0
+    },
+    {
+     "w": "gayab",
+     "start": 39.049,
+     "end": 39.374,
+     "conf": 1.0
+    },
+    {
+     "w": "ho,",
+     "start": 39.444,
+     "end": 39.63,
+     "conf": 1.0
+    },
+    {
+     "w": "toh",
+     "start": 39.85,
+     "end": 39.966,
+     "conf": 1.0
+    },
+    {
+     "w": "bhi",
+     "start": 40.024,
+     "end": 40.117,
+     "conf": 1.0
+    },
+    {
+     "w": "block.",
+     "start": 40.164,
+     "end": 40.396,
+     "conf": 1.0
+    }
+   ],
+   "place": 30.18
+  },
+  {
+   "i": 6,
+   "chapter": "blocked",
+   "text": "Galti se block hua? npm ke output mein hi, override ka link mil jaata hai.",
+   "spoken": "ग़लती से block हुआ? N.P.M. के output में ही, override का link मिल जाता है।",
+   "start": 41.571,
+   "end": 46.192,
+   "words": [
+    {
+     "w": "Galti",
+     "start": 41.571,
+     "end": 41.873,
+     "conf": 1.0
+    },
+    {
+     "w": "se",
+     "start": 41.919,
+     "end": 42.012,
+     "conf": 1.0
+    },
+    {
+     "w": "block",
+     "start": 42.047,
+     "end": 42.233,
+     "conf": 1.0
+    },
+    {
+     "w": "hua?",
+     "start": 42.291,
+     "end": 42.546,
+     "conf": 1.0
+    },
+    {
+     "w": "npm",
+     "start": 43.231,
+     "end": 43.649,
+     "conf": 1.0
+    },
+    {
+     "w": "ke",
+     "start": 43.719,
+     "end": 43.812,
+     "conf": 1.0
+    },
+    {
+     "w": "output",
+     "start": 43.87,
+     "end": 44.195,
+     "conf": 1.0
+    },
+    {
+     "w": "mein",
+     "start": 44.253,
+     "end": 44.357,
+     "conf": 1.0
+    },
+    {
+     "w": "hi,",
+     "start": 44.392,
+     "end": 44.578,
+     "conf": 1.0
+    },
+    {
+     "w": "override",
+     "start": 44.868,
+     "end": 45.263,
+     "conf": 1.0
+    },
+    {
+     "w": "ka",
+     "start": 45.298,
+     "end": 45.368,
+     "conf": 1.0
+    },
+    {
+     "w": "link",
+     "start": 45.414,
+     "end": 45.577,
+     "conf": 1.0
+    },
+    {
+     "w": "mil",
+     "start": 45.623,
+     "end": 45.727,
+     "conf": 1.0
+    },
+    {
+     "w": "jaata",
+     "start": 45.774,
+     "end": 45.994,
+     "conf": 1.0
+    },
+    {
+     "w": "hai.",
+     "start": 46.041,
+     "end": 46.192,
+     "conf": 1.0
+    }
+   ],
+   "place": 41.491
+  },
+  {
+   "i": 7,
+   "chapter": "limits",
+   "text": "Par ye apne aap on nahi hota, setup karna padta hai; aur abhi sirf npm, sirf Enterprise Cloud.",
+   "spoken": "पर ये अपने आप on नहीं होता, setup करना पड़ता है; और अभी सिर्फ़ N.P.M., सिर्फ़ Enterprise Cloud।",
+   "start": 46.981,
+   "end": 52.96,
+   "words": [
+    {
+     "w": "Par",
+     "start": 46.981,
+     "end": 47.074,
+     "conf": 1.0
+    },
+    {
+     "w": "ye",
+     "start": 47.143,
+     "end": 47.236,
+     "conf": 1.0
+    },
+    {
+     "w": "apne",
+     "start": 47.283,
+     "end": 47.515,
+     "conf": 1.0
+    },
+    {
+     "w": "aap",
+     "start": 47.573,
+     "end": 47.666,
+     "conf": 1.0
+    },
+    {
+     "w": "on",
+     "start": 47.747,
+     "end": 47.886,
+     "conf": 1.0
+    },
+    {
+     "w": "nahi",
+     "start": 47.944,
+     "end": 48.119,
+     "conf": 1.0
+    },
+    {
+     "w": "hota,",
+     "start": 48.153,
+     "end": 48.467,
+     "conf": 1.0
+    },
+    {
+     "w": "setup",
+     "start": 48.757,
+     "end": 49.036,
+     "conf": 1.0
+    },
+    {
+     "w": "karna",
+     "start": 49.094,
+     "end": 49.268,
+     "conf": 1.0
+    },
+    {
+     "w": "padta",
+     "start": 49.314,
+     "end": 49.558,
+     "conf": 1.0
+    },
+    {
+     "w": "hai;",
+     "start": 49.616,
+     "end": 49.756,
+     "conf": 1.0
+    },
+    {
+     "w": "aur",
+     "start": 50.533,
+     "end": 50.661,
+     "conf": 1.0
+    },
+    {
+     "w": "abhi",
+     "start": 50.719,
+     "end": 50.905,
+     "conf": 1.0
+    },
+    {
+     "w": "sirf",
+     "start": 50.951,
+     "end": 51.218,
+     "conf": 1.0
+    },
+    {
+     "w": "npm,",
+     "start": 51.253,
+     "end": 51.694,
+     "conf": 1.0
+    },
+    {
+     "w": "sirf",
+     "start": 51.95,
+     "end": 52.17,
+     "conf": 1.0
+    },
+    {
+     "w": "Enterprise",
+     "start": 52.228,
+     "end": 52.67,
+     "conf": 1.0
+    },
+    {
+     "w": "Cloud.",
+     "start": 52.693,
+     "end": 52.96,
+     "conf": 1.0
+    }
+   ],
+   "place": 46.901
+  },
+  {
+   "i": 8,
+   "chapter": "cta",
+   "text": "Aap ise apne CI mein on karoge? Comment karo FIREWALL!",
+   "spoken": "आप इसे अपने C.I. में on करोगे? Comment करो Firewall!",
+   "start": 53.867,
+   "end": 57.107,
+   "words": [
+    {
+     "w": "Aap",
+     "start": 53.867,
+     "end": 53.995,
+     "conf": 1.0
+    },
+    {
+     "w": "ise",
+     "start": 54.041,
+     "end": 54.158,
+     "conf": 1.0
+    },
+    {
+     "w": "apne",
+     "start": 54.204,
+     "end": 54.378,
+     "conf": 1.0
+    },
+    {
+     "w": "CI",
+     "start": 54.425,
+     "end": 54.715,
+     "conf": 1.0
+    },
+    {
+     "w": "mein",
+     "start": 54.773,
+     "end": 54.877,
+     "conf": 1.0
+    },
+    {
+     "w": "on",
+     "start": 54.924,
+     "end": 55.028,
+     "conf": 1.0
+    },
+    {
+     "w": "karoge?",
+     "start": 55.075,
+     "end": 55.377,
+     "conf": 1.0
+    },
+    {
+     "w": "Comment",
+     "start": 56.155,
+     "end": 56.445,
+     "conf": 1.0
+    },
+    {
+     "w": "karo",
+     "start": 56.491,
+     "end": 56.642,
+     "conf": 1.0
+    },
+    {
+     "w": "FIREWALL!",
+     "start": 56.689,
+     "end": 57.107,
+     "conf": 1.0
+    }
+   ],
+   "place": 53.787
+  }
+ ],
+ "extras": [],
+ "notes": "ElevenLabs Liam eleven_turbo_v2_5 hi seed 5 speed 1.12; one take cut into lines, laid out on the 122 BPM grid"
+}
