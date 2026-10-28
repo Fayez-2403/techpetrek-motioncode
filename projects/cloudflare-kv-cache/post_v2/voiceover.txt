@@ -1,0 +1,50 @@
+# Voiceover: Cloudflare GLM-5.3 KV-cache reel (55 s)
+# Voice: ElevenLabs Liam eleven_turbo_v2_5 hi speed 1.2 seed 5
+
+[ 0.05- 3.74] h01
+  Roman : Sheetal… ne AI se poocha: market growth kaisi rahegi?
+  TTS   : शीतल… ने AI से पूछा: market growth कैसी रहेगी?
+
+[ 3.96- 7.20] h02
+  Roman : Aur AI ne market growth ka jawab bata diya… Munni ko!
+  TTS   : और AI ने market growth का जवाब बता दिया… मुन्नी को!
+
+[ 7.60-10.75] h03
+  Roman : Ab Munni iska kya kare? Where is the confusion, me lord?!
+  TTS   : अब मुन्नी इसका क्या करे? Where is the confusion, me lord?!
+
+[11.01-17.86] l02
+  Roman : Kuch aisa hi hua recently: Cloudflare ne ek real bug disclose kiya, apne GLM-5.3 Workers AI model mein.
+  TTS   : कुछ ऐसा ही हुआ recently: Cloudflare ने एक real bug disclose किया, अपने GLM five point three Workers AI model में.
+
+[18.28-22.06] l03
+  Roman : August 27 se September 9 ke beech, 155 responses affect hue.
+  TTS   : August सत्ताईस से September नौ के बीच, एक सौ पचपन responses affect हुए.
+
+[22.37-26.75] l04
+  Roman : Ye sirf extremely long prompts par hua: 6 lakh 81 hazaar se zyada tokens!
+  TTS   : ये सिर्फ़ extremely long prompts पर हुआ: छह लाख इक्यासी हज़ार से ज़्यादा tokens!
+
+[27.14-32.78] l05
+  Roman : Root cause? GPU ka KV cache pool chhota set tha, aur SGLang engine mein rejection-path bug tha.
+  TTS   : Root cause? GPU का KV cache pool छोटा set था, और SGLang engine में rejection-path bug था.
+
+[33.05-37.25] l06
+  Roman : Request reject hui, phir bhi chalti rahi, aur purane requests ka bacha hua data padh liya.
+  TTS   : Request reject हुई, फिर भी चलती रही, और पुराने requests का बचा हुआ data पढ़ लिया.
+
+[38.30-45.08] l07
+  Roman : Important: Cloudflare ne cache pool bada kiya, SGLang patch kiya, aur September 9 ko issue fix kar diya.
+  TTS   : Important: Cloudflare ने cache pool बड़ा किया, SGLang patch किया, और September नौ को issue fix कर दिया.
+
+[45.33-50.19] l08
+  Roman : Deliberate exploitation ka koi evidence nahi mila, aur baaki Workers AI models affected nahi the.
+  TTS   : Deliberate exploitation का कोई evidence नहीं मिला, और बाकी Workers AI models affected नहीं थे.
+
+[50.55-57.00] l09
+  Roman : Developers: SGLang ko v0.5.22 ya naya karo, aur isolation tests ignore mat karo.
+  TTS   : Developers: SGLang को version zero point five point twenty-two या नया करो, और isolation tests ignore मत करो.
+
+[57.37-59.41] l10
+  Roman : Comment CACHE, aur Reel save karo!
+  TTS   : Comment cache, और Reel save करो!

@@ -1,0 +1,3 @@
+AI reply mein doosre user ka text?! 😳 Cloudflare ne apne GLM-5.3 Workers AI model ka KV-cache bug disclose kiya: 155 responses affected (27 Aug – 9 Sep 2026), 9 Sep ko FIXED. Deliberate exploitation ka koi evidence nahi mila. Comment CACHE 🔐
+
+#AISecurity #Cloudflare #TechpeTrek

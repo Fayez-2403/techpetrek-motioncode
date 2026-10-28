@@ -1,0 +1,111 @@
+{
+ "_doc": "Hinglish narration, Genie 4 reel. 'cap' = Roman Hinglish caption, 'tts' = what Liam reads (Hindi in Devanagari, English words in English). Phrase punctuation (, . ? ! : …) must match. Claims per ../FACTS.md. Hook: the Deewar 'mere paas maa hai' standoff, flipped; closer: 'Picture abhi baaki hai, mere dost' (Om Shanti Om). The rest follows the user's master-prompt VO.",
+ "voice": {
+  "provider": "elevenlabs",
+  "voiceId": "TX3LPaxmHKxFdv7VOQHJ",
+  "name": "Liam",
+  "model": "eleven_turbo_v2_5",
+  "language": "hi",
+  "stability": 0.4,
+  "similarity": 0.75,
+  "speed": 1.2,
+  "seed": 5
+ },
+ "reel": [
+  {
+   "id": "h01",
+   "scene": "hook",
+   "min": 0.0,
+   "cap": "Aaj mere paas game engine hai, 3D artists hain, mahino ka kaam hai… tumhare paas kya hai?",
+   "tts": "आज मेरे पास game engine है, 3D artists हैं, महीनों का काम है… तुम्हारे पास क्या है?"
+  },
+  {
+   "id": "h02",
+   "scene": "hook2",
+   "min": 0.0,
+   "cap": "Mere paas… ek prompt hai! Aur us prompt ki duniya mein tum chal sakte ho!",
+   "tts": "मेरे पास… एक prompt है! और उस prompt की दुनिया में तुम चल सकते हो!"
+  },
+  {
+   "id": "l03",
+   "scene": "announce",
+   "min": 0.0,
+   "cut": {
+    "phrase": 2,
+    "scene": "worldmodel"
+   },
+   "cap": "Ye hai Google DeepMind ka Genie 4, October 27 ko announce hua: real-time interactive world model.",
+   "tts": "ये है Google DeepMind का Genie four, October सत्ताईस को announce हुआ: real-time interactive world model."
+  },
+  {
+   "id": "l04",
+   "scene": "keys",
+   "min": 0.0,
+   "cut": {
+    "phrase": 1,
+    "scene": "prompt"
+   },
+   "cap": "Keyboard se explore karo, aur prompt se weather, camera aur naye characters badlo.",
+   "tts": "Keyboard से explore करो, और prompt से weather, camera और नए characters बदलो."
+  },
+  {
+   "id": "l05",
+   "scene": "physics",
+   "min": 0.0,
+   "cap": "Bust giraao… tarbooz phat gaya! Collisions jaisi physics bhi simulate hoti hai.",
+   "tts": "Bust गिराओ… तरबूज़ फट गया! Collisions जैसी physics भी simulate होती है."
+  },
+  {
+   "id": "l06",
+   "scene": "audio",
+   "min": 6.4,
+   "cap": "Aur twist: environment ke sounds, music aur dialogue bhi AI saath-saath generate karta hai.",
+   "tts": "और twist: environment के sounds, music और dialogue भी AI साथ-साथ generate करता है.",
+   "_note": "min leaves ~1.3 s after the line for Genie 4's own train-station dialogue (Mind the platform edge, please.)"
+  },
+  {
+   "id": "l07",
+   "scene": "director",
+   "min": 0.0,
+   "cut": {
+    "phrase": 1,
+    "scene": "robot"
+   },
+   "cap": "Google ke demos mein Gemini director ki tarah planning karta hai, taaki multi-step events follow ho sakein.",
+   "tts": "Google के demos में Gemini director की तरह planning करता है, ताकि multi-step events follow हो सकें."
+  },
+  {
+   "id": "l08",
+   "scene": "limits",
+   "min": 0.0,
+   "pre": 0.2,
+   "cap": "Lekin physics perfect nahi, long scenes drift kar sakte hain, aur objects bhi inconsistent ho sakte hain.",
+   "tts": "लेकिन physics perfect नहीं, long scenes drift कर सकते हैं, और objects भी inconsistent हो सकते हैं."
+  },
+  {
+   "id": "l09",
+   "scene": "preview",
+   "min": 0.0,
+   "cap": "Sabse zaroori: abhi ye sirf trusted testers ka research preview hai. Public app launch nahi.",
+   "tts": "सबसे ज़रूरी: अभी ये सिर्फ़ trusted testers का research preview है. Public app launch नहीं."
+  },
+  {
+   "id": "l10",
+   "scene": "engine",
+   "min": 0.0,
+   "cut": {
+    "phrase": 2,
+    "scene": "picture"
+   },
+   "cap": "Game development ka future exciting hai, lekin abhi demo ko finished game engine mat samjho. Picture abhi baaki hai, mere dost!",
+   "tts": "Game development का future exciting है, लेकिन अभी demo को finished game engine मत समझो. Picture अभी बाकी है, मेरे दोस्त!"
+  },
+  {
+   "id": "l11",
+   "scene": "cta",
+   "min": 2.4,
+   "cap": "Comment WORLD, official demos ka link main share karunga. Aur save karo!",
+   "tts": "Comment world, official demos का link मैं share करूँगा. और save करो!"
+  }
+ ]
+}

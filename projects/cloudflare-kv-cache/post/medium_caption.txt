@@ -1,0 +1,16 @@
+AI apps banate ho? Ye real KV-cache isolation incident samjho. 👇
+
+Cloudflare ki 26 Oct 2026 report ke mutabik, GLM-5.3 (Workers AI) par 27 Aug se 9 Sep ke beech 155 responses mein doosre customers ki requests ka text aa gaya.
+
+🔹 Sirf extremely long prompts (681,280+ tokens) par hua
+🔹 Root cause: KV-cache pool context window se chhota tha + SGLang ka rejection-path bug (rejected request decode tak pahunch gayi aur stale cache pages padh liye)
+🔹 Fix: pool ~2.04M tokens tak bada kiya, SGLang patch kiya; 9 Sep ko model wapas live
+🔹 Deliberate exploitation ka koi evidence nahi; baaki Workers AI models affected nahi the
+
+Developers: disaggregated SGLang chalate ho toh v0.5.22+ par update karo, aur multi-tenant AI mein cross-tenant isolation tests zaroor rakho.
+
+Chat visuals = illustrative reconstruction (fake text). Source: blog.cloudflare.com/kv-cache-exposure-remediation
+
+Comment CACHE, main source link reply mein share karunga. Save karo checklist ke liye. 🔖
+
+#AIPrivacy #CloudSecurity #KVCache #SGLang #LLMSecurity #Cloudflare #WorkersAI #DevelopersIndia #AISecurity #TechpeTrek

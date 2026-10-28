@@ -1,0 +1,23 @@
+"Aaj mere paas game engine hai, 3D artists hain, mahino ka kaam hai… tumhare paas kya hai?"
+"Mere paas… ek PROMPT hai!" 🎬🔥
+
+Google DeepMind ne 27 Oct 2026 ko Genie 4 announce kiya: ek real-time interactive world model. Video nahi, aisi duniya jisme tum chal sakte ho! 🌍
+
+🎮 Keyboard (WASD) se ghoomo, arrow keys se camera
+✍️ Prompt se weather, camera, naye log ya objects badlo, live
+💥 Physics bhi: bust giraao, tarbooz phat jaata hai (collisions, aerodynamics)
+🔊 Awaaz bhi Genie ki: ambient sound, music, aur characters ke dialogue
+🧠 Gemini 3.8 Flash "director" ki tarah plan karta hai: steps banata hai, har step verify karta hai
+
+⚠️ Lekin: lambe sessions mein details aur objects drift ho sakte hain, physics abhi perfect nahi.
+⚠️ Abhi sirf trusted testers ka research preview hai. Public launch nahi. Google AI Ultra (Project Genie) aur Gemini API / AI Studio partners ke liye "coming soon".
+
+Picture abhi baaki hai, mere dost! 🍿
+
+Demo clips: Google DeepMind (unke hi words mein: "Results for illustrative purposes. Sequences shortened.")
+Source: deepmind.google/blog/genie-4-a-new-generation-of-world-simulation
+
+💬 Comment "WORLD", official demos ka link main reply mein share karunga.
+🔖 Save karo, game-dev inspiration ke liye!
+
+#Genie4 #GoogleDeepMind #WorldModel #GameDev #AIGaming #CreativeCoding #3DArtist #GenAI #AINews #TechNewsHindi #IndianGameDev #TechpeTrek

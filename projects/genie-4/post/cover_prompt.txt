@@ -1,0 +1,47 @@
+GENIE 4 COVER: image-generation prompt (9:16, 1080x1920)
+Best on: GPT Image 2.5 (renders poster text well), or Higgsfield / Midjourney v7 / Ideogram.
+Instagram's grid crops to the centre 3:4, so the headline and both characters are kept inside the middle 1080x1440.
+
+--- PROMPT A: full poster, text included ---
+
+Vertical 9:16 hand-painted 1970s Bollywood film poster, vintage Indian cinema hoarding style, visible brush
+strokes, halftone print texture, slightly faded cream paper, saffron and magenta sunburst rays exploding from
+the centre.
+
+Composition: a dramatic face-off between two original male characters (fictional, not resembling any real
+actor), painted in classic filmi style with bold rim light.
+LEFT, slightly behind: a smug rich developer in a 70s suit, arms crossed, standing in front of a towering
+stack of glowing game-engine monitors, render farms and a crowd of tiny 3D artists hunched over desks, a
+calendar with months flying off it.
+RIGHT, in front and heroic: a young man in a denim jacket holding up one glowing text box that reads
+"PROMPT", and out of that text box a whole living 3D world spills out like a waterfall: a dragon flying over
+mountains, a city street, a train platform, a watermelon bursting, tiny ocean waves.
+
+Centre: a gold movie-marquee frame with chasing light bulbs, showing the generated dragon world inside it.
+
+Headline at top, huge chunky 3D extruded filmi lettering, cream face with magenta and dark-purple drop shadow:
+"MERE PAAS PROMPT HAI!"
+Sub-title band below the marquee, saffron condensed letters: "GENIE 4: AI WORLD MEIN GHUSO"
+Small stamped badge, bottom left: "TRUSTED TESTERS ONLY"
+
+Palette: cream #FFF4E2, deep ink purple #1E1030, magenta #E0177A, saffron, antique gold, teal accents.
+Mood: blockbuster, dramatic, playful, retro masala-movie energy. Sharp focus, high detail, poster-grade
+typography, all text spelled exactly as given.
+
+Negative / avoid: no real celebrity faces, no Google or DeepMind logos, no brand logos of any kind, no
+extra text, no misspelled words, no watermark, no modern flat vector look, no photo-real 3D render.
+
+--- PROMPT B: art only, no text (recommended if the model misspells) ---
+
+Same prompt as A, but delete the Headline / Sub-title / badge lines and add:
+"No text anywhere. Leave clear empty space in the top 20% for a headline and a clean band below the
+marquee for a subtitle."
+Then put the text on top in code: SOURCE/src/genie/Cover.tsx already sets "MERE PAAS / PROMPT HAI!",
+the subtitle and the badge in our filmi type, so the spelling is exact. Swap the background in by
+pointing it at the generated image and run:
+  cd SOURCE && npx remotion still src/index.ts Cover ../output/genie4_cover_ai.png
+
+--- After generating ---
+- Label it AI-generated art in the caption's credit line ("Cover art: AI-generated"), and keep
+  "Demo clips: Google DeepMind" for the reel itself.
+- Keep the code-made cover (output/genie4_cover.png); save the new one as genie4_cover_ai.png.

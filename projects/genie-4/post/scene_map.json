@@ -1,0 +1,188 @@
+{
+ "fps": 60,
+ "frames": 3547,
+ "seconds": 59.118,
+ "voice": "ElevenLabs Liam eleven_turbo_v2_5 hi speed 1.2 seed 5 (lines from other seeds: {'l11': 8})",
+ "scenes": [
+  {
+   "scene": "hook",
+   "start": 0.0,
+   "end": 5.074,
+   "frames": [
+    0,
+    303
+   ],
+   "line": "h01",
+   "on_screen": "AAJ MERE PAAS… (Deewar standoff)",
+   "facts": "TechpeTrek hook"
+  },
+  {
+   "scene": "hook2",
+   "start": 5.074,
+   "end": 9.485,
+   "frames": [
+    304,
+    568
+   ],
+   "line": "h02",
+   "on_screen": "MERE PAAS EK PROMPT! -> dragon demo",
+   "facts": "G3, demo footage"
+  },
+  {
+   "scene": "announce",
+   "start": 9.485,
+   "end": 13.676,
+   "frames": [
+    569,
+    820
+   ],
+   "line": "l03",
+   "on_screen": "GENIE 4 · 27 OCT 2026",
+   "facts": "G1, G12"
+  },
+  {
+   "scene": "worldmodel",
+   "start": 13.676,
+   "end": 15.662,
+   "frames": [
+    821,
+    939
+   ],
+   "line": "l03",
+   "on_screen": "REAL-TIME WORLD MODEL (diagram)",
+   "facts": "G1, G2"
+  },
+  {
+   "scene": "keys",
+   "start": 15.662,
+   "end": 16.985,
+   "frames": [
+    940,
+    1018
+   ],
+   "line": "l04",
+   "on_screen": "KEYBOARD SE GHOOMO",
+   "facts": "G3"
+  },
+  {
+   "scene": "prompt",
+   "start": 16.985,
+   "end": 20.294,
+   "frames": [
+    1019,
+    1217
+   ],
+   "line": "l04",
+   "on_screen": "PROMPT SE BADLO!",
+   "facts": "G4"
+  },
+  {
+   "scene": "physics",
+   "start": 20.294,
+   "end": 24.706,
+   "frames": [
+    1218,
+    1481
+   ],
+   "line": "l05",
+   "on_screen": "DHISHOOM! PHYSICS BHI!",
+   "facts": "G5"
+  },
+  {
+   "scene": "audio",
+   "start": 24.706,
+   "end": 31.324,
+   "frames": [
+    1482,
+    1878
+   ],
+   "line": "l06",
+   "on_screen": "AWAAZ BHI! + Genie dialogue",
+   "facts": "G2"
+  },
+  {
+   "scene": "director",
+   "start": 31.324,
+   "end": 34.191,
+   "frames": [
+    1879,
+    2050
+   ],
+   "line": "l07",
+   "on_screen": "GEMINI = DIRECTOR",
+   "facts": "G6"
+  },
+  {
+   "scene": "robot",
+   "start": 34.191,
+   "end": 36.618,
+   "frames": [
+    2051,
+    2196
+   ],
+   "line": "l07",
+   "on_screen": "MULTI-STEP EVENTS",
+   "facts": "G8"
+  },
+  {
+   "scene": "limits",
+   "start": 36.618,
+   "end": 42.574,
+   "frames": [
+    2197,
+    2553
+   ],
+   "line": "l08",
+   "on_screen": "LEKIN… PHYSICS: PERFECT NAHI",
+   "facts": "G9"
+  },
+  {
+   "scene": "preview",
+   "start": 42.574,
+   "end": 47.868,
+   "frames": [
+    2554,
+    2871
+   ],
+   "line": "l09",
+   "on_screen": "NOW SHOWING: TRUSTED TESTERS ONLY",
+   "facts": "G10"
+  },
+  {
+   "scene": "engine",
+   "start": 47.868,
+   "end": 52.279,
+   "frames": [
+    2872,
+    3136
+   ],
+   "line": "l10",
+   "on_screen": "GAME ENGINE VS WORLD MODEL",
+   "facts": "TechpeTrek comparison"
+  },
+  {
+   "scene": "picture",
+   "start": 52.279,
+   "end": 54.265,
+   "frames": [
+    3137,
+    3255
+   ],
+   "line": "l10",
+   "on_screen": "PICTURE ABHI BAAKI HAI… MERE DOST!",
+   "facts": "G10"
+  },
+  {
+   "scene": "cta",
+   "start": 54.265,
+   "end": 59.118,
+   "frames": [
+    3256,
+    3546
+   ],
+   "line": "l11",
+   "on_screen": "COMMENT WORLD",
+   "facts": "source footer"
+  }
+ ]
+}

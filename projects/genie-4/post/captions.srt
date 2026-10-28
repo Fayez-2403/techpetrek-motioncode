@@ -1,0 +1,179 @@
+1
+00:00:00,050 --> 00:00:00,519
+Aaj mere paas
+
+2
+00:00:00,569 --> 00:00:01,242
+game engine hai,
+
+3
+00:00:01,292 --> 00:00:02,473
+3D artists hain,
+
+4
+00:00:02,523 --> 00:00:03,631
+mahino ka kaam hai…
+
+5
+00:00:03,916 --> 00:00:05,059
+tumhare paas kya hai?
+
+6
+00:00:05,224 --> 00:00:07,157
+Mere paas… ek prompt hai!
+
+7
+00:00:07,326 --> 00:00:08,118
+Aur us prompt ki duniya
+
+8
+00:00:08,168 --> 00:00:09,409
+mein tum chal sakte ho!
+
+9
+00:00:09,635 --> 00:00:10,885
+Ye hai Google DeepMind
+
+10
+00:00:10,935 --> 00:00:12,139
+ka Genie 4,
+
+11
+00:00:12,189 --> 00:00:13,808
+October 27 ko announce hua:
+
+12
+00:00:13,919 --> 00:00:15,642
+real-time interactive world model.
+
+13
+00:00:15,812 --> 00:00:17,039
+Keyboard se explore karo,
+
+14
+00:00:17,089 --> 00:00:18,165
+aur prompt se weather,
+
+15
+00:00:18,215 --> 00:00:20,136
+camera aur naye characters badlo.
+
+16
+00:00:20,444 --> 00:00:22,309
+Bust giraao… tarbooz phat gaya!
+
+17
+00:00:22,359 --> 00:00:23,390
+Collisions jaisi physics bhi
+
+18
+00:00:23,440 --> 00:00:24,548
+simulate hoti hai.
+
+19
+00:00:24,856 --> 00:00:26,466
+Aur twist: environment ke sounds,
+
+20
+00:00:26,516 --> 00:00:27,710
+music aur dialogue bhi AI
+
+21
+00:00:27,760 --> 00:00:29,691
+saath-saath generate karta hai.
+
+22
+00:00:31,474 --> 00:00:32,237
+Google ke demos mein
+
+23
+00:00:32,287 --> 00:00:33,204
+Gemini director ki tarah
+
+24
+00:00:33,254 --> 00:00:34,384
+planning karta hai,
+
+25
+00:00:34,434 --> 00:00:35,353
+taaki multi-step events
+
+26
+00:00:35,403 --> 00:00:36,529
+follow ho sakein.
+
+27
+00:00:36,968 --> 00:00:38,567
+Lekin physics perfect nahi,
+
+28
+00:00:38,617 --> 00:00:39,206
+long scenes drift
+
+29
+00:00:39,256 --> 00:00:40,134
+kar sakte hain,
+
+30
+00:00:40,184 --> 00:00:41,312
+aur objects bhi inconsistent
+
+31
+00:00:41,362 --> 00:00:42,372
+ho sakte hain.
+
+32
+00:00:42,724 --> 00:00:43,638
+Sabse zaroori:
+
+33
+00:00:43,688 --> 00:00:44,754
+abhi ye sirf trusted testers
+
+34
+00:00:44,804 --> 00:00:46,166
+ka research preview hai.
+
+35
+00:00:46,451 --> 00:00:47,745
+Public app launch nahi.
+
+36
+00:00:48,018 --> 00:00:48,699
+Game development ka
+
+37
+00:00:48,749 --> 00:00:49,733
+future exciting hai,
+
+38
+00:00:49,783 --> 00:00:50,821
+lekin abhi demo ko finished
+
+39
+00:00:50,871 --> 00:00:52,203
+game engine mat samjho.
+
+40
+00:00:52,476 --> 00:00:53,079
+Picture abhi baaki
+
+41
+00:00:53,129 --> 00:00:54,177
+hai, mere dost!
+
+42
+00:00:54,415 --> 00:00:55,177
+Comment WORLD,
+
+43
+00:00:55,227 --> 00:00:56,047
+official demos ka link
+
+44
+00:00:56,097 --> 00:00:57,253
+main share karunga.
+
+45
+00:00:57,782 --> 00:00:58,785
+Aur save karo!

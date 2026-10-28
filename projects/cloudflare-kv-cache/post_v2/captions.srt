@@ -1,0 +1,175 @@
+1
+00:00:00,050 --> 00:00:02,168
+Sheetal… ne AI se poocha:
+
+2
+00:00:02,476 --> 00:00:03,887
+market growth kaisi rahegi?
+
+3
+00:00:04,014 --> 00:00:05,059
+Aur AI ne market growth
+
+4
+00:00:05,109 --> 00:00:06,422
+ka jawab bata diya…
+
+5
+00:00:06,487 --> 00:00:07,340
+Munni ko!
+
+6
+00:00:07,650 --> 00:00:08,944
+Ab Munni iska kya kare?
+
+7
+00:00:09,322 --> 00:00:09,700
+Where is the
+
+8
+00:00:09,750 --> 00:00:10,848
+confusion, me lord?!
+
+9
+00:00:11,059 --> 00:00:12,620
+Kuch aisa hi hua recently:
+
+10
+00:00:12,754 --> 00:00:13,626
+Cloudflare ne ek real
+
+11
+00:00:13,676 --> 00:00:14,873
+bug disclose kiya,
+
+12
+00:00:14,972 --> 00:00:16,489
+apne GLM-5.3 Workers
+
+13
+00:00:16,539 --> 00:00:17,961
+AI model mein.
+
+14
+00:00:18,332 --> 00:00:19,304
+August 27 se September
+
+15
+00:00:19,354 --> 00:00:20,255
+9 ke beech,
+
+16
+00:00:20,305 --> 00:00:22,157
+155 responses affect hue.
+
+17
+00:00:22,423 --> 00:00:23,295
+Ye sirf extremely long
+
+18
+00:00:23,345 --> 00:00:24,426
+prompts par hua:
+
+19
+00:00:24,572 --> 00:00:25,649
+6 lakh 81 hazaar
+
+20
+00:00:25,699 --> 00:00:26,783
+se zyada tokens!
+
+21
+00:00:27,195 --> 00:00:28,036
+Root cause?
+
+22
+00:00:28,147 --> 00:00:28,885
+GPU ka KV cache
+
+23
+00:00:28,935 --> 00:00:30,222
+pool chhota set tha,
+
+24
+00:00:30,272 --> 00:00:31,307
+aur SGLang engine mein
+
+25
+00:00:31,357 --> 00:00:32,889
+rejection-path bug tha.
+
+26
+00:00:33,105 --> 00:00:33,857
+Request reject hui,
+
+27
+00:00:33,907 --> 00:00:34,855
+phir bhi chalti rahi,
+
+28
+00:00:34,905 --> 00:00:36,044
+aur purane requests ka bacha
+
+29
+00:00:36,094 --> 00:00:37,314
+hua data padh liya.
+
+30
+00:00:38,350 --> 00:00:40,346
+Important: Cloudflare ne cache
+
+31
+00:00:40,396 --> 00:00:41,513
+pool bada kiya,
+
+32
+00:00:41,613 --> 00:00:42,909
+SGLang patch kiya,
+
+33
+00:00:42,959 --> 00:00:43,865
+aur September 9 ko
+
+34
+00:00:43,915 --> 00:00:45,147
+issue fix kar diya.
+
+35
+00:00:45,377 --> 00:00:46,590
+Deliberate exploitation ka koi
+
+36
+00:00:46,640 --> 00:00:47,855
+evidence nahi mila,
+
+37
+00:00:47,920 --> 00:00:48,773
+aur baaki Workers AI
+
+38
+00:00:48,823 --> 00:00:50,340
+models affected nahi the.
+
+39
+00:00:50,605 --> 00:00:53,682
+Developers: SGLang ko v0.5.22
+
+40
+00:00:53,732 --> 00:00:55,095
+ya naya karo,
+
+41
+00:00:55,145 --> 00:00:55,961
+aur isolation tests
+
+42
+00:00:56,011 --> 00:00:57,147
+ignore mat karo.
+
+43
+00:00:57,423 --> 00:00:58,381
+Comment CACHE, aur
+
+44
+00:00:58,431 --> 00:00:59,565
+Reel save karo!

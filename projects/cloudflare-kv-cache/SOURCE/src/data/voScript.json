@@ -1,0 +1,66 @@
+{
+ "_doc": "Hinglish narration for the Cloudflare GLM-5.3 KV-cache reel. 'cap' = Roman Hinglish caption, 'tts' = what Liam reads (Hindi in Devanagari, English words in English, numbers as spoken words). Phrase punctuation (, . ? ! : …) must match between cap and tts. Every claim traces to ../FACTS.md. Each line opens its scene; 'cut' starts another scene at one of its phrases; 'pre' is extra silence before the line.",
+ "voice": {
+  "provider": "elevenlabs",
+  "voiceId": "TX3LPaxmHKxFdv7VOQHJ",
+  "name": "Liam",
+  "model": "eleven_turbo_v2_5",
+  "language": "hi",
+  "stability": 0.4,
+  "similarity": 0.75,
+  "speed": 1.2,
+  "seed": 5
+ },
+ "reel": [
+  {
+   "id": "h01", "scene": "hook", "min": 0.0,
+   "cap": "Socho, tum AI ko question bhejo… aur reply mein kisi doosre user ka text aa jaaye!",
+   "tts": "सोचो, तुम AI को question भेजो… और reply में किसी दूसरे user का text आ जाए!"
+  },
+  {
+   "id": "l02", "scene": "source", "min": 0.0, "cut": { "phrase": 1, "scene": "model" },
+   "cap": "Cloudflare ne aisa ek real bug disclose kiya hai, apne GLM-5.3 Workers AI model mein.",
+   "tts": "Cloudflare ने ऐसा एक real bug disclose किया है, अपने GLM five point three Workers AI model में."
+  },
+  {
+   "id": "l03", "scene": "window", "min": 0.0, "cut": { "phrase": 1, "scene": "count" },
+   "cap": "August 27 se September 9 ke beech, 155 responses affect hue.",
+   "tts": "August सत्ताईस से September नौ के बीच, एक सौ पचपन responses affect हुए."
+  },
+  {
+   "id": "l04", "scene": "tokens", "min": 0.0,
+   "cap": "Ye sirf extremely long prompts par hua: 6 lakh 81 hazaar se zyada tokens!",
+   "tts": "ये सिर्फ़ extremely long prompts पर हुआ: छह लाख इक्यासी हज़ार से ज़्यादा tokens!"
+  },
+  {
+   "id": "l05", "scene": "pool", "min": 0.0, "cut": { "phrase": 2, "scene": "bug" },
+   "cap": "Root cause? GPU ka KV cache pool chhota set tha, aur SGLang engine mein rejection-path bug tha.",
+   "tts": "Root cause? GPU का KV cache pool छोटा set था, और SGLang engine में rejection-path bug था."
+  },
+  {
+   "id": "l06", "scene": "stale", "min": 0.0, "cut": { "phrase": 2, "scene": "recon" },
+   "cap": "Request reject hui, phir bhi chalti rahi, aur purane requests ka bacha hua data padh liya.",
+   "tts": "Request reject हुई, फिर भी चलती रही, और पुराने requests का बचा हुआ data पढ़ लिया."
+  },
+  {
+   "id": "l07", "scene": "patch", "min": 0.0, "pre": 0.9, "cut": { "phrase": 3, "scene": "fixed" },
+   "cap": "Important: Cloudflare ne cache pool bada kiya, SGLang patch kiya, aur September 9 ko issue fix kar diya.",
+   "tts": "Important: Cloudflare ने cache pool बड़ा किया, SGLang patch किया, और September नौ को issue fix कर दिया."
+  },
+  {
+   "id": "l08", "scene": "noexploit", "min": 0.0,
+   "cap": "Deliberate exploitation ka koi evidence nahi mila, aur baaki Workers AI models affected nahi the.",
+   "tts": "Deliberate exploitation का कोई evidence नहीं मिला, और बाकी Workers AI models affected नहीं थे."
+  },
+  {
+   "id": "l09", "scene": "devs", "min": 0.0,
+   "cap": "Developers: SGLang ko v0.5.22 ya naya karo, aur multi-tenant AI mein isolation tests ignore mat karo.",
+   "tts": "Developers: SGLang को version zero point five point twenty-two या नया करो, और multi-tenant AI में isolation tests ignore मत करो."
+  },
+  {
+   "id": "l10", "scene": "cta", "min": 2.4,
+   "cap": "Comment CACHE, aur Reel save karo!",
+   "tts": "Comment cache, और Reel save करो!"
+  }
+ ]
+}

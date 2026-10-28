@@ -1,0 +1,22 @@
+Sheetal ne AI se poocha "market growth kaisi rahegi?"… aur jawab Munni ko mil gaya! 😳
+Ab Munni iska kya kare? Where is the confusion, me lord? 🤯
+
+Ye sirf joke nahi hai, aisa REAL mein hua hai 👇
+
+Cloudflare ne 26 Oct 2026 ko disclose kiya: unke GLM-5.3 (Workers AI) model par 27 Aug se 9 Sep 2026 ke beech 155 responses mein doosre users ki requests ka text aa gaya.
+
+🔹 Sirf extremely long prompts par hua (6,81,280+ tokens)
+🔹 Root cause: KV-cache pool context window se chhota tha + SGLang ka rejection-path bug
+🔹 Reject hui request bhi decode tak gayi aur purane cache pages padh liye
+🔹 Fix: pool ~2.04M tokens tak bada kiya, SGLang patch kiya, 9 Sep ko model wapas live
+🔹 Deliberate exploitation ka koi evidence nahi mila; baaki Workers AI models affected nahi the
+
+👨‍💻 Developers: disaggregated SGLang chalate ho toh v0.5.22+ par update karo, aur multi-tenant AI mein cross-tenant isolation tests zaroor rakho.
+
+(Sheetal aur Munni fictional hain, chat visuals illustrative hain. Incident real hai.)
+Source: Cloudflare blog, "Cross-request KV cache exposure in the GLM-5.3 Workers AI model"
+
+💬 Comment "CACHE", main original report ka link reply mein share karunga.
+🔖 Save karo, apni AI app ke security checklist ke liye.
+
+#AISecurity #Cloudflare #WorkersAI #KVCache #SGLang #LLMSecurity #AIPrivacy #CloudSecurity #DataLeak #GenAI #DevelopersIndia #TechNews #TechNewsHindi #TechpeTrek

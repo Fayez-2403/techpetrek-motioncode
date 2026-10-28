@@ -83,6 +83,7 @@ projects/*/cover/
 projects/aftercode/assets/
 projects/aftercode/web/test-assets/*.jpg
 projects/aftercode/web/test-assets/*.png
+projects/genie-4/SOURCE/public/frames/
 
 # ---------------------------------------------------------------- third-party material (research, screenshots, stock, other creators' media)
 **/references/

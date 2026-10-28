@@ -1,0 +1,212 @@
+{
+ "fps": 60,
+ "frames": 3600,
+ "seconds": 60.0,
+ "voice": "ElevenLabs Liam eleven_turbo_v2_5 hi speed 1.2 seed 5",
+ "scenes": [
+  {
+   "scene": "hook",
+   "start": 0.0,
+   "end": 3.864,
+   "frames": [
+    0,
+    231
+   ],
+   "line": "h01",
+   "on_screen": "SHEETAL",
+   "facts": "F2 (illustrative chat)"
+  },
+  {
+   "scene": "hook2",
+   "start": 3.864,
+   "end": 7.5,
+   "frames": [
+    232,
+    449
+   ],
+   "line": "h02",
+   "on_screen": "MUNNI KO?!",
+   "facts": "F2 (illustrative, names fictional)"
+  },
+  {
+   "scene": "hook3",
+   "start": 7.5,
+   "end": 10.909,
+   "frames": [
+    450,
+    654
+   ],
+   "line": "h03",
+   "on_screen": "AB MUNNI KYA KARE? · WHERE IS THE CONFUSION, ME LORD?!",
+   "facts": "F2 (illustrative)"
+  },
+  {
+   "scene": "source",
+   "start": 10.909,
+   "end": 14.773,
+   "frames": [
+    655,
+    885
+   ],
+   "line": "l02",
+   "on_screen": "OFFICIAL DISCLOSURE",
+   "facts": "F1, date"
+  },
+  {
+   "scene": "model",
+   "start": 14.773,
+   "end": 18.182,
+   "frames": [
+    886,
+    1090
+   ],
+   "line": "l02",
+   "on_screen": "ONE MODEL AFFECTED",
+   "facts": "F1, F11"
+  },
+  {
+   "scene": "window",
+   "start": 18.182,
+   "end": 20.0,
+   "frames": [
+    1091,
+    1199
+   ],
+   "line": "l03",
+   "on_screen": "AUG 27 → SEP 9",
+   "facts": "F3, F4"
+  },
+  {
+   "scene": "count",
+   "start": 20.0,
+   "end": 22.273,
+   "frames": [
+    1200,
+    1335
+   ],
+   "line": "l03",
+   "on_screen": "155 RESPONSES",
+   "facts": "F5"
+  },
+  {
+   "scene": "tokens",
+   "start": 22.273,
+   "end": 27.045,
+   "frames": [
+    1336,
+    1622
+   ],
+   "line": "l04",
+   "on_screen": ">681,280 TOKENS",
+   "facts": "F5, F6"
+  },
+  {
+   "scene": "pool",
+   "start": 27.045,
+   "end": 30.0,
+   "frames": [
+    1623,
+    1799
+   ],
+   "line": "l05",
+   "on_screen": "KV CACHE · pool < context window",
+   "facts": "F6"
+  },
+  {
+   "scene": "bug",
+   "start": 30.0,
+   "end": 32.955,
+   "frames": [
+    1800,
+    1976
+   ],
+   "line": "l05",
+   "on_screen": "SGLANG BUG · REJECTED",
+   "facts": "F7"
+  },
+  {
+   "scene": "stale",
+   "start": 32.955,
+   "end": 34.773,
+   "frames": [
+    1977,
+    2085
+   ],
+   "line": "l06",
+   "on_screen": "STALE CACHE",
+   "facts": "F7"
+  },
+  {
+   "scene": "recon",
+   "start": 34.773,
+   "end": 37.5,
+   "frames": [
+    2086,
+    2249
+   ],
+   "line": "l06",
+   "on_screen": "REPLY MEIN LEAK · Illustrative reconstruction",
+   "facts": "F2 (illustrative)"
+  },
+  {
+   "scene": "patch",
+   "start": 37.5,
+   "end": 42.727,
+   "frames": [
+    2250,
+    2563
+   ],
+   "line": "l07",
+   "on_screen": "CONFIG + PATCH",
+   "facts": "F9"
+  },
+  {
+   "scene": "fixed",
+   "start": 42.727,
+   "end": 45.227,
+   "frames": [
+    2564,
+    2713
+   ],
+   "line": "l07",
+   "on_screen": "FIXED · SEP 9, 2026",
+   "facts": "F3"
+  },
+  {
+   "scene": "noexploit",
+   "start": 45.227,
+   "end": 50.455,
+   "frames": [
+    2714,
+    3026
+   ],
+   "line": "l08",
+   "on_screen": "NO EXPLOIT EVIDENCE",
+   "facts": "F10, F11"
+  },
+  {
+   "scene": "devs",
+   "start": 50.455,
+   "end": 57.273,
+   "frames": [
+    3027,
+    3435
+   ],
+   "line": "l09",
+   "on_screen": "TEST TENANT ISOLATION",
+   "facts": "F12, F6 + suggestion"
+  },
+  {
+   "scene": "cta",
+   "start": 57.273,
+   "end": 60.0,
+   "frames": [
+    3436,
+    3599
+   ],
+   "line": "l10",
+   "on_screen": "COMMENT CACHE",
+   "facts": "source footer"
+  }
+ ]
+}

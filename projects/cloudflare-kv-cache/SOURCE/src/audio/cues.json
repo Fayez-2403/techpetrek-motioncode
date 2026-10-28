@@ -1,0 +1,475 @@
+{
+ "_doc": "Cue sheet for score.py: per-scene music energy (maj = F major after the fix, lp = low-passed bed for the caveat) and SFX cues keyed to spoken words.",
+ "energy": {
+  "hook": {
+   "pad": 0.5,
+   "bass": 0.9,
+   "arp": 0.6,
+   "kick": 1,
+   "hat": 1,
+   "clap": 0,
+   "drone": 0.3,
+   "dhol": 1
+  },
+  "source": {
+   "pad": 0.5,
+   "bass": 0.8,
+   "arp": 0.6,
+   "kick": 1,
+   "hat": 1,
+   "clap": 0,
+   "drone": 0,
+   "dhol": 0.6
+  },
+  "model": {
+   "pad": 0.5,
+   "bass": 0.9,
+   "arp": 0.7,
+   "kick": 1,
+   "hat": 1,
+   "clap": 1,
+   "drone": 0,
+   "dhol": 1
+  },
+  "window": {
+   "pad": 0.5,
+   "bass": 0.9,
+   "arp": 0.7,
+   "kick": 1,
+   "hat": 1,
+   "clap": 1,
+   "drone": 0,
+   "dhol": 1
+  },
+  "count": {
+   "pad": 0.5,
+   "bass": 1,
+   "arp": 0.8,
+   "kick": 1,
+   "hat": 1,
+   "clap": 1,
+   "drone": 0,
+   "dhol": 1
+  },
+  "tokens": {
+   "pad": 0.6,
+   "bass": 1,
+   "arp": 0.9,
+   "kick": 1,
+   "hat": 1,
+   "clap": 1,
+   "drone": 0,
+   "dhol": 1
+  },
+  "pool": {
+   "pad": 0.4,
+   "bass": 0.7,
+   "arp": 0,
+   "kick": 1,
+   "hat": 0,
+   "clap": 0,
+   "drone": 0.7,
+   "dhol": 0
+  },
+  "bug": {
+   "pad": 0.4,
+   "bass": 0.8,
+   "arp": 0.3,
+   "kick": 1,
+   "hat": 1,
+   "clap": 0,
+   "drone": 0.5,
+   "dhol": 0.4
+  },
+  "stale": {
+   "pad": 0.3,
+   "bass": 0.6,
+   "arp": 0,
+   "kick": 0,
+   "hat": 0,
+   "clap": 0,
+   "drone": 1,
+   "dhol": 0
+  },
+  "recon": {
+   "pad": 0.3,
+   "bass": 0.6,
+   "arp": 0,
+   "kick": 1,
+   "hat": 0,
+   "clap": 0,
+   "drone": 0.8,
+   "dhol": 0
+  },
+  "patch": {
+   "pad": 0.6,
+   "bass": 0.8,
+   "arp": 0.5,
+   "kick": 1,
+   "hat": 1,
+   "clap": 0,
+   "drone": 0,
+   "dhol": 0.5,
+   "maj": 1
+  },
+  "fixed": {
+   "pad": 0.8,
+   "bass": 1,
+   "arp": 0.9,
+   "kick": 1,
+   "hat": 1,
+   "clap": 1,
+   "drone": 0,
+   "dhol": 1,
+   "maj": 1
+  },
+  "noexploit": {
+   "pad": 0.6,
+   "bass": 0.6,
+   "arp": 0.3,
+   "kick": 0,
+   "hat": 0,
+   "clap": 0,
+   "drone": 0.2,
+   "dhol": 0,
+   "maj": 1,
+   "lp": 1
+  },
+  "devs": {
+   "pad": 0.6,
+   "bass": 1,
+   "arp": 0.8,
+   "kick": 1,
+   "hat": 1,
+   "clap": 1,
+   "drone": 0,
+   "dhol": 1,
+   "maj": 1
+  },
+  "cta": {
+   "pad": 0.7,
+   "bass": 1,
+   "arp": 0.9,
+   "kick": 1,
+   "hat": 1,
+   "clap": 1,
+   "drone": 0,
+   "dhol": 1,
+   "maj": 1
+  }
+ },
+ "scenes": {
+  "hook": [
+   {
+    "s": 0,
+    "kind": "impact",
+    "gain": 0.85
+   },
+   {
+    "s": 0,
+    "kind": "typing",
+    "gain": 0.35,
+    "len": 2.4
+   },
+   {
+    "w": "doosre",
+    "kind": "whoosh",
+    "gain": 0.4,
+    "len": 0.5,
+    "offset": -0.1
+   },
+   {
+    "w": "text",
+    "kind": "flashHit",
+    "gain": 0.7
+   },
+   {
+    "w": "text",
+    "kind": "errorBlip",
+    "gain": 0.35,
+    "offset": 0.05
+   }
+  ],
+  "source": [
+   {
+    "s": 0,
+    "kind": "whoosh",
+    "gain": 0.45,
+    "len": 0.4,
+    "offset": -0.15
+   },
+   {
+    "w": "disclose",
+    "kind": "impact",
+    "gain": 0.6
+   },
+   {
+    "w": "disclose",
+    "kind": "paper",
+    "gain": 0.45
+   }
+  ],
+  "model": [
+   {
+    "s": 0,
+    "kind": "whoosh",
+    "gain": 0.35,
+    "len": 0.35,
+    "offset": -0.12
+   },
+   {
+    "w": "GLM-5.3",
+    "kind": "magLock",
+    "gain": 0.5
+   },
+   {
+    "w": "Workers",
+    "kind": "ticks",
+    "gain": 0.3,
+    "len": 0.6
+   },
+   {
+    "w": "model",
+    "kind": "errorBlip",
+    "gain": 0.35
+   }
+  ],
+  "window": [
+   {
+    "s": 0,
+    "kind": "whoosh",
+    "gain": 0.35,
+    "len": 0.35,
+    "offset": -0.12
+   },
+   {
+    "w": "August",
+    "kind": "ticks",
+    "gain": 0.35,
+    "len": 1.1
+   },
+   {
+    "w": "9",
+    "kind": "fixChime",
+    "gain": 0.3
+   }
+  ],
+  "count": [
+   {
+    "w": "155",
+    "kind": "dataBurst",
+    "gain": 0.5,
+    "len": 0.9
+   },
+   {
+    "w": "responses",
+    "kind": "impact",
+    "gain": 0.45
+   }
+  ],
+  "tokens": [
+   {
+    "s": 0.2,
+    "kind": "accelSweep",
+    "gain": 0.35,
+    "len": 2.2
+   },
+   {
+    "w": "6",
+    "kind": "mechClick",
+    "gain": 0.6
+   },
+   {
+    "w": "tokens!",
+    "kind": "impact",
+    "gain": 0.7
+   },
+   {
+    "w": "tokens!",
+    "kind": "errorBlip",
+    "gain": 0.35
+   }
+  ],
+  "pool": [
+   {
+    "s": 0,
+    "kind": "suck",
+    "gain": 0.4,
+    "len": 0.5,
+    "offset": -0.2
+   },
+   {
+    "w": "chhota",
+    "kind": "silence",
+    "gain": 1,
+    "offset": -0.4,
+    "len": 0.4
+   },
+   {
+    "w": "chhota",
+    "kind": "subImpact",
+    "gain": 0.95
+   },
+   {
+    "w": "chhota",
+    "kind": "glass",
+    "gain": 0.5,
+    "pitch": 0.84
+   }
+  ],
+  "bug": [
+   {
+    "w": "SGLang",
+    "kind": "servo",
+    "gain": 0.4,
+    "len": 0.6
+   },
+   {
+    "w": "rejection-path",
+    "kind": "magLock",
+    "gain": 0.6
+   },
+   {
+    "w": "bug",
+    "kind": "dataBurst",
+    "gain": 0.35,
+    "len": 0.8
+   }
+  ],
+  "stale": [
+   {
+    "w": "reject",
+    "kind": "errorBlip",
+    "gain": 0.4
+   },
+   {
+    "w": "phir",
+    "kind": "riser",
+    "gain": 0.45,
+    "len": 1.2
+   },
+   {
+    "w": "phir",
+    "kind": "heartbeat",
+    "gain": 0.35,
+    "len": 1.6
+   }
+  ],
+  "recon": [
+   {
+    "s": 0,
+    "kind": "impact",
+    "gain": 0.5
+   },
+   {
+    "w": "data",
+    "kind": "flashHit",
+    "gain": 0.55
+   }
+  ],
+  "patch": [
+   {
+    "s": 0,
+    "kind": "silence",
+    "gain": 1,
+    "len": 0.95
+   },
+   {
+    "s": 0.05,
+    "kind": "heartbeat",
+    "gain": 0.32,
+    "len": 0.95
+   },
+   {
+    "w": "Important:",
+    "kind": "impact",
+    "gain": 0.55
+   },
+   {
+    "w": "bada",
+    "kind": "unfold",
+    "gain": 0.4,
+    "len": 1.2
+   },
+   {
+    "w": "kiya,",
+    "nth": 1,
+    "kind": "nodeChain",
+    "gain": 0.25,
+    "len": 0.8,
+    "offset": 0.25
+   }
+  ],
+  "fixed": [
+   {
+    "w": "fix",
+    "kind": "resolve",
+    "gain": 0.85
+   },
+   {
+    "w": "fix",
+    "kind": "fixChime",
+    "gain": 0.5
+   }
+  ],
+  "noexploit": [
+   {
+    "w": "nahi",
+    "kind": "whoosh",
+    "gain": 0.35,
+    "len": 0.4,
+    "offset": -0.15
+   },
+   {
+    "w": "baaki",
+    "kind": "ticks",
+    "gain": 0.3,
+    "len": 0.9
+   }
+  ],
+  "devs": [
+   {
+    "w": "karo,",
+    "kind": "fixChime",
+    "gain": 0.22,
+    "offset": 0.2
+   },
+   {
+    "w": "tests",
+    "kind": "fixChime",
+    "gain": 0.2,
+    "offset": 0.1
+   },
+   {
+    "w": "karo.",
+    "kind": "fixChime",
+    "gain": 0.25,
+    "offset": 0.2
+   }
+  ],
+  "cta": [
+   {
+    "s": 0,
+    "kind": "impact",
+    "gain": 0.55
+   },
+   {
+    "w": "CACHE,",
+    "kind": "typing",
+    "gain": 0.4,
+    "len": 0.35
+   },
+   {
+    "w": "save",
+    "kind": "mechClick",
+    "gain": 0.5
+   },
+   {
+    "e": 1.4,
+    "kind": "shimmer",
+    "gain": 0.5,
+    "len": 1.3
+   }
+  ]
+ }
+}

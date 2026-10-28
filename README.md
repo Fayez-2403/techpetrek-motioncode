@@ -38,7 +38,9 @@ Each of these has its own `package.json` and is a standard Remotion project. Run
 | Project | Reel |
 |---|---|
 | `projects/aftercode/reel/edit` | AFTERCODE 70 s reel (captured from the app's `?reel=1` mode; the song switches at every mode change) |
+| `projects/cloudflare-kv-cache/SOURCE` | Cloudflare GLM-5.3 KV-cache exposure explainer (v1 55 s, v2 60 s Sheetal/Munni hook; light "memory floor" world; version in `src/data/version.ts`; `npx remotion studio src/index.ts`, `node scripts/render.mjs`) |
 | `projects/anthropic-ipo/SOURCE` | Anthropic IPO explainer |
+| `projects/genie-4/SOURCE` | Google DeepMind Genie 4 explainer, Bollywood-poster style with DeepMind's demo clips (clips are not in the repo: download them from the post, see `projects/genie-4/FACTS.md`) |
 | `projects/gpt61-terra/SOURCE` | GPT-6.1 Terra launch |
 | `projects/it-hiring-q2fy27/SOURCE`, `SOURCE_V2` | IT hiring Q2 FY27 data reel (dark, then Fluent light) |
 | `projects/kimi-k31-pro/KIMI_K31_PRO_SOURCE` | Kimi K3.1 Pro film (`npm run studio`) |
