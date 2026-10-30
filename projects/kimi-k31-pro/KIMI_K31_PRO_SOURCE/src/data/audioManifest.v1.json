@@ -1,5 +1,0 @@
-{
- "_doc": "Which soundtrack each cut plays. Rewritten by audio-src/mix.py.",
- "master": "audio/mix_master.wav",
- "reel": "audio/mix_reel.wav"
-}

@@ -1,0 +1,22 @@
+RUKO! ✋ Private PDFs random websites pe upload karna band karo 📄🚫
+
+PaperPilot ek open-source PDF toolkit hai, Rust mein bana. Browser mein ye WASM se locally chalta hai, file upload nahi hoti 🔒
+
+⚡ Merge, split, compress, OCR (scanned docs se text)
+🦀 Ek hi Rust engine: browser (WASM), desktop app, CLI, local REST API
+🤖 Native MCP server: Claude Code, Codex, Cursor jaise AI agents iske PDF tools use kar sakte hain
+
+🧪 Humne khud test kiya (v0.6.1, sample files):
+✅ Claude Code + paperpilot-mcp: 3 PDFs merge + compress → merged_compressed.pdf
+✅ usepaperpilot.com pe merge: network mein sirf WASM engine download hua, PDF upload 0
+✅ CLI OCR ne scanned receipt ka text nikaala
+
+⚠️ Dhyaan rakho: processing local hai, lekin agar tum cloud AI agent use kar rahe ho, toh tools jo return karte hain (jaise extracted text) wo agent ke model tak ja sakta hai. Apne agent ka model aur tool permissions check karo.
+
+👨‍💻 Project: Krushna Vardhan Reddy · Apache-2.0
+🔗 github.com/KrushnaVardhanReddy/PaperPilot
+
+💬 Comment "PAPER", repo link DM mein bhejunga!
+🔖 Save karo, next time PDF merge karna ho toh kaam aayega
+
+#PaperPilot #OpenSource #Rust #WebAssembly #MCP #ClaudeCode #AIAgents #PDF #Privacy #DevTools #TechpeTrek #TechNewsHindi

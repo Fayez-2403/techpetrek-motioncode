@@ -49,12 +49,43 @@ Everything else in its "Never ship" list applies:
 - no slogan triplets
 - no end card longer than 1.4 s
 
+## The production contract: `docs/TECHPETREK_MASTER_REEL_STUDIO.md` (always, user's standing request 2026-10-29)
+Every reel from now on follows the user's master studio file. Read it at the start, together with `motion-studio`'s section on it.
+- **Start every new reel as the full folder:** `python .claude/skills/motion-studio/scripts/new_reel.py <slug> --title "..."`. That gives assets/, the 11 docs, src/, audio/, scripts/, public/, post/ and out/.
+- **Fill `docs/brief.md`** (the NEW REEL BRIEF) and **`docs/factcheck.md`** before any VO.
+- **Pick ONE film grammar:** NEWS_LAUNCH / SOURCE_COMPILATION / MASCOT_FILM / EDITOR_AURA / PRODUCT_DEMO / EXPLAINER.
+- **Run its 12 gates.** Score every review round 1-10 in `docs/review_log.md` and fix the three worst problems.
+- **Deliver its §18 report.**
+- **The channel rules below still win** where they differ: Liam turbo v2.5, ask before the full render, never bake commercial songs.
+
+## Motion studio stack: `motion-studio` (always, user's standing request 2026-10-29)
+Load the `motion-studio` skill (`.claude/skills/motion-studio`) for every reel too. It comes from the user's "Motion Studio in 20 Repos" prompt pack (PDF kept in its `references/source/`).
+- **What it holds:** the 16 open-source tools, the 4 motion-engineering articles, the studio method and 20 reel ideas.
+- **Session start:** run `python .claude/skills/motion-studio/scripts/check_tools.py` and install any MISS.
+- **Stage 1-2:** write the block brief (`guide/brief.md`: FILM, BRAND = HERO/APP/RESULT/SET, FACTS, FORMAT, TIMELINE, BEATS, LOOP, CAMERA, LOOK, SOUND, CHECKS). Pick or combine an idea from `guide/ideas.md` when the user gives only a topic.
+- **Stage 4-6:** pick the renderer on purpose:
+  - Remotion for explainers;
+  - pdoom/Three for canvas worlds;
+  - Puppeteer (`tools/motion-studio/render_html.mjs`) for UI cards and pages;
+  - Blender (`blender/scene_template.py`) for a 3D hero;
+  - Numba for simulations.
+  One timeline feeds picture and sound. Use quintic eases and springs by object class (`scripts/motion.py`).
+- **Stage 5:** synth score in numpy/scipy, a note per list item, a ducked stop before the big hit. Master with `scripts/master.py` (Pedalboard + pyloudnorm) or the project's ffmpeg loudnorm.
+- **Stage 7:**
+  - 4-6 look-dev stills, then a 540x960 motion check with sound;
+  - after each check, write the follow-up yourself: timecode, defect, fix with numbers;
+  - fix the three worst, then ask before the full render.
+- **Stage 8:** `scripts/measure.py` quarters / dip / colour / strobe (and seam for loops), plus `scripts/captions.py` (faster-whisper) as a second STT opinion next to Scribe.
+- **Stage 9:** optional `scripts/pack_pdf.py` (ReportLab) lead-magnet PDF for a "comment X" funnel.
+- **After the reel:** a retro. Every follow-up becomes a rule in NOTE.md and in motionmaxxing `taste/verdicts.md`.
+
 ## Stages (load the named skills with the Skill tool, in order)
 
 | # | Stage | Skills to load | Output |
 |---|---|---|---|
+| 0a | Scaffold (every new reel) | `motion-studio` `scripts/new_reel.py <slug> --title` (full master-studio folder); `check_tools.py` | projects/<slug>/ with docs, src, scripts |
 | 0 | Brand (once per brand) | `brand-intake` (makes brand.md + MOTION.md); `higgsfield-brandkit` only if the user wants a full kit and approves credits | brand.md, MOTION.md |
-| 1 | Brief + facts | `motion-brief-writer`; research with WebSearch / WebFetch | projects/<name>/FACTS.md, brief |
+| 1 | Brief + facts | `motion-studio` (block brief, idea pick, tool check); `motion-brief-writer`; research with WebSearch / WebFetch | projects/<name>/FACTS.md, BRIEF.md |
 | 2 | Hook (first 2 s) | `11-social-hook` (use its hook principles; ignore its Seedance prompt format unless generating); `hyperframes-creative` (narration and beat planning) | hook line + first-frame plan |
 | 3 | Script + voice | `hyperframes-creative` narration rules (write for the ear, value by line 2, numbers as spoken). Voice: analysis/grokbot_vo.py pattern (one ElevenLabs take, cut by word timestamps, placed per chapter, checked with speech-to-text) | analysis/script_<v>.py, audio/<v>/voiceover.mp3, data/<v>/lyrics.json |
 | 4 | Template + look (pick by format) | explainer: `vox-explainer` / `faceless-explainer`; product or launch: `launch-video` / `product-launch-video`; 3D or character piece: `title-sequence-3d`, `02-3d-cgi` and `01-cinematic` (camera language); music-led: `music-to-video`, `10-music-video`; data or number: `animated-chart`, `milestone-reveal`; UI motion: `motion-effects`, `06-motion-design-ad`; motion rules for all: `hyperframes-animation`, `hyperframes-keyframes` | storyboard as data (data/<v>/cues.json) |
@@ -78,10 +109,12 @@ owns or has licensed, never other creators' videos or real people's faces, and l
 for that format.
 
 ## Checklist before saying "done"
-- [ ] Facts sourced in FACTS.md; illustrative labels on demo UI
+- [ ] Facts sourced in docs/factcheck.md (older reels: FACTS.md); illustrative labels on demo UI; docs/asset_manifest.csv rights pass (`scripts/verify_assets.py`)
+- [ ] Master studio: brief yaml filled, one film grammar, review_log.md scored (8+/10, three worst fixed), §18 delivery report
 - [ ] Hook works in frame 0 (no black first frame), value by line 2
 - [ ] Every word of the voice checked with speech-to-text; brand pronounced right
 - [ ] Stills reviewed for every chapter (no blocked shots, text inside safe zones)
 - [ ] `analysis/reel_qa.py` passes; loudness -14 LUFS; frame count and size right
 - [ ] motionmaxxing gates: `look.py` G0/G2/G3 numbers quoted, G1/G4 judged on its sheet, no "Never ship" items left (NOTE.md)
+- [ ] motion-studio: block brief written; look-dev stills, then a low-res motion check with sound; follow-ups logged with numbers; `measure.py` quarters/dip/colour/strobe quoted; retro rules saved
 - [ ] Earlier versions kept; outputs listed with paths; caption ready

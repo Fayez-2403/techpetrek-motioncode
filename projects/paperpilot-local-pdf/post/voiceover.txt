@@ -1,0 +1,34 @@
+# Voiceover: paperpilot-local-pdf (55.0 s)
+# Voice: ElevenLabs Liam eleven_turbo_v2_5 hi speed 1.12 seed 5
+
+[ 0.60- 5.97] h01
+  Roman : RUKO! Apni private PDFs random websites pe upload kar rahe ho? Ye dekho!
+  TTS   : रुको! अपनी private पीडीएफ्स random websites पे upload कर रहे हो? ये देखो!
+
+[ 6.60-13.36] l02
+  Roman : Ye hai PaperPilot! Rust mein bana open-source PDF toolkit, jo browser mein locally kaam karta hai!
+  TTS   : ये है Paper Pilot! Rust में बना open-source P D F toolkit, जो browser में locally काम करता है!
+
+[13.60-19.64] l03
+  Roman : PDF merge karo, split karo, compress karo. Scanned documents? OCR se text bhi nikaalo!
+  TTS   : P D F merge करो, split करो, compress करो. Scanned documents? O C R से text भी निकालो!
+
+[21.60-25.36] l04
+  Roman : Same Rust engine browser, desktop aur command line mein bhi kaam karta hai!
+  TTS   : Same Rust engine browser, desktop और command line में भी काम करता है!
+
+[27.60-36.25] l05
+  Roman : Aur sabse crazy part? Iska native MCP server! Claude Code jaise AI agents bhi iske PDF tools use kar sakte hain!
+  TTS   : और सबसे crazy part? इसका native M C P server! Claude Code जैसे AI agents भी इसके P D F tools use कर सकते हैं!
+
+[36.60-40.97] l06
+  Roman : Bas bolo, ye teen PDFs merge karo, aur final file compress kar do!
+  TTS   : बस बोलो, ये तीन पीडीएफ्स merge करो, और final file compress कर दो!
+
+[43.10-48.43] l07
+  Roman : Processing local hai, lekin cloud AI ko document data mil sakta hai. Settings check karna!
+  TTS   : Processing local है, लेकिन cloud AI को document data मिल सकता है. Settings check करना!
+
+[49.10-54.32] l08
+  Roman : Krushna Vardhan Reddy ka open-source project! Comment PAPER, repo link bhejunga!
+  TTS   : क्रुष्णा वर्धन रेड्डी का open-source project! Comment PAPER, repo link भेजूँगा!

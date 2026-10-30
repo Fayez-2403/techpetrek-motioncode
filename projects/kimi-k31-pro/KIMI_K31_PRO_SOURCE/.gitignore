@@ -1,6 +1,0 @@
-node_modules/
-out/
-*.mp4
-public/audio/*.wav
-audio-src/takes/
-audio-src/__pycache__/

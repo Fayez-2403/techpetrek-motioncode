@@ -14,10 +14,11 @@ Instagram reels, explainers and interactive web apps made entirely in code, with
 | `analysis/` | Python: voice-over generation and word alignment, music scores, foley/cue sheets, mixing (−14 LUFS), cover frames and QA (`reel_qa.py`). |
 | `data/` | Small JSON the reels are built from: word timings, beat grids, cue sheets, per-variant audio analysis. |
 | `projects/` | One folder per reel or app, each self-contained: briefs, `FACTS.md` (sourced facts), captions, and its own source (Remotion, Vite or R3F). |
-| `docs/` | Workflow notes and production write-ups (`TECHPE-TREK-WORKFLOW.md`, `JEV-EXPLAINER.md`, the Motion Flex notes, …). |
+| `docs/` | Workflow notes and production write-ups. `TECHPETREK_MASTER_REEL_STUDIO.md` is the production contract every reel follows; the others are `TECHPE-TREK-WORKFLOW.md`, `JEV-EXPLAINER.md`, the Motion Flex notes, … |
 | `kit/` | The Motion Flex prompt kit. |
 | `colab/` | Colab notebooks for rendering without a local GPU. |
-| `.claude/` | Claude Code setup for this repo: the `reel-pipeline` skill (every reel goes through it) and a prompt hook. |
+| `.claude/` | Claude Code setup for this repo. It has the `reel-pipeline` skill (every reel goes through it) and the `motion-studio` skill: the "Motion Studio in 20 Repos" stack (16 open-source tools, the studio brief and gates, 20 reel ideas, measuring scripts). It also has a prompt hook that loads both for any reel prompt. |
+| `tools/motion-studio/` | The Node side of the motion studio: `render_html.mjs` (Puppeteer: HTML cards and UI to transparent PNGs, by state or by `window.seek(t)`), a card template, plus GSAP, Three.js and Tone.js. Run `npm install` here. |
 | `CLAUDE.md` | The rules Claude Code follows in this repo (determinism, beat/word timing, stills before renders). |
 
 ---
@@ -33,11 +34,16 @@ Instagram reels, explainers and interactive web apps made entirely in code, with
 
 ### Reels made with Remotion
 
+**A new reel** starts as the full master-studio folder: `python .claude/skills/motion-studio/scripts/new_reel.py <slug> --title "..."`. That creates `projects/<slug>/` with `assets/` (git-ignored), `docs/` (brief, fact check, asset manifest, style guide, shot list, review log, …), a Remotion `src/`, `audio/`, `scripts/` (voice, score, beat analysis, asset check, contact sheets, render), `public/`, `post/` and `out/`.
+
 Each of these has its own `package.json` and is a standard Remotion project. Run `npm install` in it, then `npx remotion studio` to preview, or use its `scripts/render.mjs` / `render_reel.mjs` to render.
 
 | Project | Reel |
 |---|---|
 | `projects/aftercode/reel/edit` | AFTERCODE 70 s reel (captured from the app's `?reel=1` mode; the song switches at every mode change) |
+| `projects/apple-m6-local-ai` | Apple M6 local-AI news reel (39 s, Module A of the master studio file; the first reel built as the full master-studio folder. Apple's press images and clip are not in the repo: see its `docs/asset_manifest.csv`) |
+| `projects/paperpilot-local-pdf` | PaperPilot reel (55 s, PRODUCT_DEMO, 8 scenes from the user's storyboard): local Rust/WASM PDF tools + MCP. On-screen proof comes from our own test runs (real Claude Code + paperpilot-mcp merge/compress, browser network check, CLI OCR) in `docs/factcheck.md`; screenshots and the repo icon are not in the repo |
+| `projects/editorbro` | **EditorBro** reel (55 s, Hinglish Liam): a GTA-style highway hook built in Three.js (`web/src/world`), the 64-skill pipeline, a montage of our reels, and nine demo websites for fictional brands (`web/demos`: brand, store, loyalty, food, delivery, automation, WordPress theme, corporate, real-WebCrypto E2EE). `scripts/sync_editorbro.py` builds the public EditorBro repo folder. Reference reels and plates are not in the repo |
 | `projects/anthropic-ipo/SOURCE` | Anthropic IPO explainer |
 | `projects/gpt61-terra/SOURCE` | GPT-6.1 Terra launch |
 | `projects/it-hiring-q2fy27/SOURCE`, `SOURCE_V2` | IT hiring Q2 FY27 data reel (dark, then Fluent light) |
@@ -78,7 +84,11 @@ bun scripts/render.ts video  --variant carbonx                # full render
 | Node.js 20+ | the Remotion projects |
 | Python 3.12 | `analysis/` (numpy, scipy, soundfile, opencv-python, mediapipe; install what a script imports) |
 | ffmpeg | every render and mix |
-| Google Chrome | headless capture and rendering |
+| Google Chrome | headless capture and rendering (Puppeteer uses the installed Chrome; set `CHROME_PATH` if it lives elsewhere) |
+| [Blender](https://www.blender.org) 5 | 3D hero shots (`.claude/skills/motion-studio/blender/scene_template.py`); `winget install --id BlenderFoundation.Blender -e` |
+| Python extras | the motion studio: `pip install --user pedalboard pyloudnorm reportlab numba pillow faster-whisper` |
+
+Check the whole studio in one go: `python .claude/skills/motion-studio/scripts/check_tools.py` (it prints OK or MISS and the install command for each of the 16 tools).
 
 ### Environment variables
 
@@ -106,7 +116,8 @@ To keep the repo small and to publish only what's ours to share, these stay loca
   - `OpenMontage/` (https://github.com/calesthio/OpenMontage);
   - `tools/genjutsu/` (https://github.com/sirioberati/Genjustsu-Open-Source-Workflow, setup in `docs/GENJUTSU.md`);
   - `share/` (the open-source ASTRA.EXE copy, published on its own);
-  - imported skill packs in `skills/` and `.claude/skills/` (only `reel-pipeline` is this repo's own).
+  - imported skill packs in `skills/` and `.claude/skills/` (only `reel-pipeline` and `motion-studio` are this repo's own);
+  - the "Motion Studio in 20 Repos" PDF and its transcription (`.claude/skills/motion-studio/references/source/`, the author's text).
 - **Secrets and dependencies:** `.env*`, `node_modules/`, Python virtualenvs, build output.
 
 So some reels won't re-render straight from a fresh clone until you add their source media (a song, a stock clip, screenshots). The project's notes (`MANIFEST.md`, `FACTS.md`, `EDIT-NOTES.md`) list what each one needs.
@@ -123,5 +134,6 @@ So some reels won't re-render straight from a fresh clone until you add their so
 | Face tracking | MediaPipe Face Landmarker, Google, Apache-2.0 |
 | Fonts | Inter, JetBrains Mono, Archivo, Cormorant, IBM Plex Mono: SIL Open Font License 1.1 |
 | Voices | ElevenLabs text-to-speech, generated on the channel owner's account (the audio isn't included) |
+| Motion studio method | Adapted from the "Motion Studio in 20 Repos" prompt pack and the "Motion Engineering" article by @0xwhrrari (x.com/0xwhrrari). The tools are their own projects: Blender (GPL), NumPy, SciPy, Puppeteer, GSAP, Three.js, Pedalboard, pyloudnorm, Tone.js, Remotion, OpenCV, Numba, Pillow, faster-whisper, ReportLab, FFmpeg |
 
 Everything else (the scenes, analysis scripts, apps and reel sources) is original work by Tech पे Trek.

@@ -1,0 +1,36 @@
+{
+ "_doc": "Music-only film (no VO), so this timeline is hand-authored on the 120 BPM grid (beat 0.5 s = 30 f, bar 2 s). The picture (src/scenes) and the score (scripts/audio/score_film.py) both read the scenes and events from here; never re-type a time.",
+ "fps": 60, "bpm": 120, "beat": 0.5, "version": "v1",
+ "variants": {
+  "reel": {
+   "width": 1080, "height": 1920, "durationInFrames": 1440, "seconds": 24, "voSource": "none (music-only brand film)", "scratch": false,
+   "scenes": [
+    {"id": "race",   "start": 0,  "end": 8,  "from": 0,    "durationInFrames": 480},
+    {"id": "notes",  "start": 8,  "end": 15, "from": 480,  "durationInFrames": 420},
+    {"id": "box",    "start": 15, "end": 20, "from": 900,  "durationInFrames": 300},
+    {"id": "finale", "start": 20, "end": 24, "from": 1200, "durationInFrames": 240}
+   ],
+   "events": {
+    "passes": [0.25, 1.0, 1.75, 2.5, 3.25, 4.0, 4.75, 5.25, 5.75, 6.125, 6.5, 6.75, 7.0, 7.25, 7.375],
+    "turn": 4.0,
+    "shifts": [5.0, 6.0, 7.0],
+    "brake": 7.5,
+    "stop": [7.83, 8.0],
+    "hit": 8.0,
+    "notes": {
+     "top":   {"at": 8.25,  "words": ["Bergamot", "Almond", "Rosemary", "Thyme", "Lavender", "Spices"], "step": 0.25},
+     "heart": {"at": 10.75, "words": ["Rose", "Incense Cherry", "Vanilla"], "step": 0.5},
+     "base":  {"at": 13.0,  "words": ["Leather", "Sandalwood", "Tonka Bean"], "step": 0.5}
+    },
+    "line1": {"at": 1.0,  "text": "Freed from the old world."},
+    "line2": {"at": 15.75, "text": "A fragrance that does not compromise with your dreams."},
+    "boxIn": 15.0,
+    "carrier": 20.0,
+    "name": 20.5,
+    "end": 24.0
+   },
+   "vo": [],
+   "captions": []
+  }
+ }
+}
