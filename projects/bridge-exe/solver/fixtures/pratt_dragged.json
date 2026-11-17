@@ -1,0 +1,849 @@
+{
+ "name": "pratt_dragged",
+ "model": {
+  "units": "SI",
+  "analysisType": "linear-2d-truss",
+  "nodes": [
+   {
+    "id": "B0",
+    "x": 0,
+    "y": 0,
+    "support": "pin",
+    "deck": true
+   },
+   {
+    "id": "B1",
+    "x": 6,
+    "y": 0,
+    "support": null,
+    "deck": true
+   },
+   {
+    "id": "B2",
+    "x": 12,
+    "y": 0,
+    "support": null,
+    "deck": true
+   },
+   {
+    "id": "B3",
+    "x": 18,
+    "y": 0,
+    "support": null,
+    "deck": true
+   },
+   {
+    "id": "B4",
+    "x": 24,
+    "y": 0,
+    "support": null,
+    "deck": true
+   },
+   {
+    "id": "B5",
+    "x": 30,
+    "y": 0,
+    "support": null,
+    "deck": true
+   },
+   {
+    "id": "B6",
+    "x": 36,
+    "y": 0,
+    "support": null,
+    "deck": true
+   },
+   {
+    "id": "B7",
+    "x": 42,
+    "y": 0,
+    "support": null,
+    "deck": true
+   },
+   {
+    "id": "B8",
+    "x": 48,
+    "y": 0,
+    "support": "roller",
+    "deck": true
+   },
+   {
+    "id": "T1",
+    "x": 6,
+    "y": 6,
+    "support": null,
+    "deck": false
+   },
+   {
+    "id": "T2",
+    "x": 12,
+    "y": 6,
+    "support": null,
+    "deck": false
+   },
+   {
+    "id": "T3",
+    "x": 18.5,
+    "y": 7.5,
+    "support": null,
+    "deck": false
+   },
+   {
+    "id": "T4",
+    "x": 24,
+    "y": 8.25,
+    "support": null,
+    "deck": false
+   },
+   {
+    "id": "T5",
+    "x": 29.5,
+    "y": 7.5,
+    "support": null,
+    "deck": false
+   },
+   {
+    "id": "T6",
+    "x": 36,
+    "y": 6,
+    "support": null,
+    "deck": false
+   },
+   {
+    "id": "T7",
+    "x": 42,
+    "y": 6,
+    "support": null,
+    "deck": false
+   }
+  ],
+  "members": [
+   {
+    "id": "BC1",
+    "a": "B0",
+    "b": "B1",
+    "group": "bottom",
+    "A": 0.01
+   },
+   {
+    "id": "BC2",
+    "a": "B1",
+    "b": "B2",
+    "group": "bottom",
+    "A": 0.01
+   },
+   {
+    "id": "BC3",
+    "a": "B2",
+    "b": "B3",
+    "group": "bottom",
+    "A": 0.01
+   },
+   {
+    "id": "BC4",
+    "a": "B3",
+    "b": "B4",
+    "group": "bottom",
+    "A": 0.01
+   },
+   {
+    "id": "BC5",
+    "a": "B4",
+    "b": "B5",
+    "group": "bottom",
+    "A": 0.01
+   },
+   {
+    "id": "BC6",
+    "a": "B5",
+    "b": "B6",
+    "group": "bottom",
+    "A": 0.01
+   },
+   {
+    "id": "BC7",
+    "a": "B6",
+    "b": "B7",
+    "group": "bottom",
+    "A": 0.01
+   },
+   {
+    "id": "BC8",
+    "a": "B7",
+    "b": "B8",
+    "group": "bottom",
+    "A": 0.01
+   },
+   {
+    "id": "TC1",
+    "a": "T1",
+    "b": "T2",
+    "group": "top",
+    "A": 0.012
+   },
+   {
+    "id": "TC2",
+    "a": "T2",
+    "b": "T3",
+    "group": "top",
+    "A": 0.012
+   },
+   {
+    "id": "TC3",
+    "a": "T3",
+    "b": "T4",
+    "group": "top",
+    "A": 0.012
+   },
+   {
+    "id": "TC4",
+    "a": "T4",
+    "b": "T5",
+    "group": "top",
+    "A": 0.012
+   },
+   {
+    "id": "TC5",
+    "a": "T5",
+    "b": "T6",
+    "group": "top",
+    "A": 0.012
+   },
+   {
+    "id": "TC6",
+    "a": "T6",
+    "b": "T7",
+    "group": "top",
+    "A": 0.012
+   },
+   {
+    "id": "EP1",
+    "a": "B0",
+    "b": "T1",
+    "group": "endpost",
+    "A": 0.012
+   },
+   {
+    "id": "EP2",
+    "a": "B8",
+    "b": "T7",
+    "group": "endpost",
+    "A": 0.012
+   },
+   {
+    "id": "V1",
+    "a": "B1",
+    "b": "T1",
+    "group": "vertical",
+    "A": 0.004
+   },
+   {
+    "id": "V2",
+    "a": "B2",
+    "b": "T2",
+    "group": "vertical",
+    "A": 0.004
+   },
+   {
+    "id": "V3",
+    "a": "B3",
+    "b": "T3",
+    "group": "vertical",
+    "A": 0.004
+   },
+   {
+    "id": "V4",
+    "a": "B4",
+    "b": "T4",
+    "group": "vertical",
+    "A": 0.004
+   },
+   {
+    "id": "V5",
+    "a": "B5",
+    "b": "T5",
+    "group": "vertical",
+    "A": 0.004
+   },
+   {
+    "id": "V6",
+    "a": "B6",
+    "b": "T6",
+    "group": "vertical",
+    "A": 0.004
+   },
+   {
+    "id": "V7",
+    "a": "B7",
+    "b": "T7",
+    "group": "vertical",
+    "A": 0.004
+   },
+   {
+    "id": "D1",
+    "a": "T1",
+    "b": "B2",
+    "group": "diagonal",
+    "A": 0.006
+   },
+   {
+    "id": "D2",
+    "a": "T2",
+    "b": "B3",
+    "group": "diagonal",
+    "A": 0.006
+   },
+   {
+    "id": "D3",
+    "a": "T3",
+    "b": "B4",
+    "group": "diagonal",
+    "A": 0.006
+   },
+   {
+    "id": "D4",
+    "a": "B4",
+    "b": "T5",
+    "group": "diagonal",
+    "A": 0.006
+   },
+   {
+    "id": "D5",
+    "a": "B5",
+    "b": "T6",
+    "group": "diagonal",
+    "A": 0.006
+   },
+   {
+    "id": "D6",
+    "a": "B6",
+    "b": "T7",
+    "group": "diagonal",
+    "A": 0.006
+   }
+  ],
+  "material": {
+   "id": "steel-e250",
+   "name": "Structural steel E250",
+   "E": 200000000000,
+   "rho": 7850,
+   "fy": 250000000,
+   "source": "IS 800:2007 cl. 2.2.4.1 (E = 2.0×10⁵ MPa, unit mass 7850 kg/m³); IS 2062 grade E250 nominal yield 250 MPa"
+  },
+  "loads": [
+   {
+    "node": "B0",
+    "fx": 0,
+    "fy": -60000,
+    "tag": "deck"
+   },
+   {
+    "node": "B1",
+    "fx": 0,
+    "fy": -120000,
+    "tag": "deck"
+   },
+   {
+    "node": "B2",
+    "fx": 0,
+    "fy": -120000,
+    "tag": "deck"
+   },
+   {
+    "node": "B3",
+    "fx": 0,
+    "fy": -120000,
+    "tag": "deck"
+   },
+   {
+    "node": "B4",
+    "fx": 0,
+    "fy": -120000,
+    "tag": "deck"
+   },
+   {
+    "node": "B5",
+    "fx": 0,
+    "fy": -120000,
+    "tag": "deck"
+   },
+   {
+    "node": "B6",
+    "fx": 0,
+    "fy": -120000,
+    "tag": "deck"
+   },
+   {
+    "node": "B7",
+    "fx": 0,
+    "fy": -120000,
+    "tag": "deck"
+   },
+   {
+    "node": "B8",
+    "fx": 0,
+    "fy": -60000,
+    "tag": "deck"
+   },
+   {
+    "node": "B0",
+    "fx": 0,
+    "fy": -6228.7599691266705,
+    "tag": "self-weight"
+   },
+   {
+    "node": "B1",
+    "fx": 0,
+    "fy": -5542.71858,
+    "tag": "self-weight"
+   },
+   {
+    "node": "B2",
+    "fx": 0,
+    "fy": -7502.365527063335,
+    "tag": "self-weight"
+   },
+   {
+    "node": "B3",
+    "fx": 0,
+    "fy": -7735.875363105755,
+    "tag": "self-weight"
+   },
+   {
+    "node": "B4",
+    "fx": 0,
+    "fy": -10184.99371325791,
+    "tag": "self-weight"
+   },
+   {
+    "node": "B5",
+    "fx": 0,
+    "fy": -7735.875363105755,
+    "tag": "self-weight"
+   },
+   {
+    "node": "B6",
+    "fx": 0,
+    "fy": -7502.365527063335,
+    "tag": "self-weight"
+   },
+   {
+    "node": "B7",
+    "fx": 0,
+    "fy": -5542.71858,
+    "tag": "self-weight"
+   },
+   {
+    "node": "B8",
+    "fx": 0,
+    "fy": -6228.7599691266705,
+    "tag": "self-weight"
+   },
+   {
+    "node": "T1",
+    "fx": 0,
+    "fy": -9574.086561190006,
+    "tag": "self-weight"
+   },
+   {
+    "node": "T2",
+    "fx": 0,
+    "fy": -8736.004721077974,
+    "tag": "self-weight"
+   },
+   {
+    "node": "T3",
+    "fx": 0,
+    "fy": -8950.359360556777,
+    "tag": "self-weight"
+   },
+   {
+    "node": "T4",
+    "fx": 0,
+    "fy": -6398.053200241522,
+    "tag": "self-weight"
+   },
+   {
+    "node": "T5",
+    "fx": 0,
+    "fy": -8950.359360556777,
+    "tag": "self-weight"
+   },
+   {
+    "node": "T6",
+    "fx": 0,
+    "fy": -8736.004721077974,
+    "tag": "self-weight"
+   },
+   {
+    "node": "T7",
+    "fx": 0,
+    "fy": -9574.086561190006,
+    "tag": "self-weight"
+   },
+   {
+    "node": "B4",
+    "fx": 0,
+    "fy": -300000,
+    "tag": "vehicle"
+   }
+  ]
+ },
+ "ts": {
+  "runId": "R001-8aca952b",
+  "analysisType": "linear-2d-truss",
+  "units": "SI",
+  "solver": {
+   "name": "bridge-exe direct-stiffness 2D truss (TypeScript)",
+   "version": "1.0.0"
+  },
+  "inputsHash": "8aca952bbe3a619d",
+  "status": "solved",
+  "nodes": [
+   {
+    "id": "B0",
+    "ux_m": 0,
+    "uy_m": 0
+   },
+   {
+    "id": "B1",
+    "ux_m": 0.0018789988007092198,
+    "uy_m": -0.02324639081327107
+   },
+   {
+    "id": "B2",
+    "ux_m": 0.0037579976014184397,
+    "uy_m": -0.043369645709148016
+   },
+   {
+    "id": "B3",
+    "ux_m": 0.007110644787413304,
+    "uy_m": -0.055184476490837436
+   },
+   {
+    "id": "B4",
+    "ux_m": 0.010690157532405636,
+    "uy_m": -0.05794900239629019
+   },
+   {
+    "id": "B5",
+    "ux_m": 0.014269670277397967,
+    "uy_m": -0.05518447649083737
+   },
+   {
+    "id": "B6",
+    "ux_m": 0.017622317463392836,
+    "uy_m": -0.043369645709147954
+   },
+   {
+    "id": "B7",
+    "ux_m": 0.01950131626410205,
+    "uy_m": -0.023246390813271033
+   },
+   {
+    "id": "B8",
+    "ux_m": 0.021380315064811264,
+    "uy_m": 0
+   },
+   {
+    "id": "T1",
+    "ux_m": 0.017875977777844818,
+    "uy_m": -0.02230482042392107
+   },
+   {
+    "id": "T2",
+    "ux_m": 0.015082105122849092,
+    "uy_m": -0.04609749893090916
+   },
+   {
+    "id": "T3",
+    "ux_m": 0.0136710389325779,
+    "uy_m": -0.055160745754503054
+   },
+   {
+    "id": "T4",
+    "ux_m": 0.010690157532405627,
+    "uy_m": -0.054554964623954164
+   },
+   {
+    "id": "T5",
+    "ux_m": 0.007709276132233358,
+    "uy_m": -0.05516074575450303
+   },
+   {
+    "id": "T6",
+    "ux_m": 0.006298209941962191,
+    "uy_m": -0.046097498930909094
+   },
+   {
+    "id": "T7",
+    "ux_m": 0.003504337286966478,
+    "uy_m": -0.022304820423921033
+   }
+  ],
+  "members": [
+   {
+    "id": "BC1",
+    "length_m": 6,
+    "axial_N": 626332.9335697399,
+    "stress_Pa": 62633293.35697399,
+    "utilization": 0.250533173427896,
+    "governs": "yield"
+   },
+   {
+    "id": "BC2",
+    "length_m": 6,
+    "axial_N": 626332.9335697399,
+    "stress_Pa": 62633293.35697399,
+    "utilization": 0.250533173427896,
+    "governs": "yield"
+   },
+   {
+    "id": "BC3",
+    "length_m": 6,
+    "axial_N": 1117549.0619982881,
+    "stress_Pa": 111754906.19982882,
+    "utilization": 0.4470196247993153,
+    "governs": "yield"
+   },
+   {
+    "id": "BC4",
+    "length_m": 6,
+    "axial_N": 1193170.9149974438,
+    "stress_Pa": 119317091.49974437,
+    "utilization": 0.47726836599897754,
+    "governs": "yield"
+   },
+   {
+    "id": "BC5",
+    "length_m": 6,
+    "axial_N": 1193170.9149974438,
+    "stress_Pa": 119317091.49974437,
+    "utilization": 0.47726836599897754,
+    "governs": "yield"
+   },
+   {
+    "id": "BC6",
+    "length_m": 6,
+    "axial_N": 1117549.0619982895,
+    "stress_Pa": 111754906.19982895,
+    "utilization": 0.44701962479931584,
+    "governs": "yield"
+   },
+   {
+    "id": "BC7",
+    "length_m": 6,
+    "axial_N": 626332.933569738,
+    "stress_Pa": 62633293.35697379,
+    "utilization": 0.25053317342789516,
+    "governs": "yield"
+   },
+   {
+    "id": "BC8",
+    "length_m": 6,
+    "axial_N": 626332.933569738,
+    "stress_Pa": 62633293.35697379,
+    "utilization": 0.25053317342789516,
+    "governs": "yield"
+   },
+   {
+    "id": "TC1",
+    "length_m": 6,
+    "axial_N": -1117549.0619982902,
+    "stress_Pa": -93129088.49985752,
+    "utilization": 0.37251635399943006,
+    "governs": "yield"
+   },
+   {
+    "id": "TC2",
+    "length_m": 6.670832032063167,
+    "axial_N": -1227872.3850150248,
+    "stress_Pa": -102322698.75125207,
+    "utilization": 0.40929079500500826,
+    "governs": "yield"
+   },
+   {
+    "id": "TC3",
+    "length_m": 5.55090082779363,
+    "axial_N": -1241613.9049829126,
+    "stress_Pa": -103467825.41524272,
+    "utilization": 0.41387130166097086,
+    "governs": "yield"
+   },
+   {
+    "id": "TC4",
+    "length_m": 5.55090082779363,
+    "axial_N": -1241613.9049829126,
+    "stress_Pa": -103467825.41524272,
+    "utilization": 0.41387130166097086,
+    "governs": "yield"
+   },
+   {
+    "id": "TC5",
+    "length_m": 6.670832032063167,
+    "axial_N": -1227872.3850150192,
+    "stress_Pa": -102322698.7512516,
+    "utilization": 0.4092907950050064,
+    "governs": "yield"
+   },
+   {
+    "id": "TC6",
+    "length_m": 6,
+    "axial_N": -1117549.0619982854,
+    "stress_Pa": -93129088.49985711,
+    "utilization": 0.37251635399942845,
+    "governs": "yield"
+   },
+   {
+    "id": "EP1",
+    "length_m": 8.48528137423857,
+    "axial_N": -885768.529215251,
+    "stress_Pa": -73814044.10127091,
+    "utilization": 0.29525617640508367,
+    "governs": "yield"
+   },
+   {
+    "id": "EP2",
+    "length_m": 8.48528137423857,
+    "axial_N": -885768.5292152495,
+    "stress_Pa": -73814044.10127078,
+    "utilization": 0.29525617640508317,
+    "governs": "yield"
+   },
+   {
+    "id": "V1",
+    "length_m": 6,
+    "axial_N": 125542.71857999991,
+    "stress_Pa": 31385679.644999977,
+    "utilization": 0.1255427185799999,
+    "governs": "yield"
+   },
+   {
+    "id": "V2",
+    "length_m": 6,
+    "axial_N": -363713.7629014862,
+    "stress_Pa": -90928440.72537154,
+    "utilization": 0.5209815891269264,
+    "governs": "euler"
+   },
+   {
+    "id": "V3",
+    "length_m": 7.516648189186454,
+    "axial_N": 48965.34647915275,
+    "stress_Pa": 12241336.619788188,
+    "utilization": 0.04896534647915275,
+    "governs": "yield"
+   },
+   {
+    "id": "V4",
+    "length_m": 8.25,
+    "axial_N": 329118.8142871296,
+    "stress_Pa": 82279703.5717824,
+    "utilization": 0.32911881428712964,
+    "governs": "yield"
+   },
+   {
+    "id": "V5",
+    "length_m": 7.516648189186454,
+    "axial_N": 48965.34647914842,
+    "stress_Pa": 12241336.619787104,
+    "utilization": 0.04896534647914842,
+    "governs": "yield"
+   },
+   {
+    "id": "V6",
+    "length_m": 6,
+    "axial_N": -363713.76290148526,
+    "stress_Pa": -90928440.72537132,
+    "utilization": 0.520981589126925,
+    "governs": "euler"
+   },
+   {
+    "id": "V7",
+    "length_m": 6,
+    "axial_N": 125542.71857999991,
+    "stress_Pa": 31385679.644999977,
+    "utilization": 0.1255427185799999,
+    "governs": "yield"
+   },
+   {
+    "id": "D1",
+    "length_m": 8.48528137423857,
+    "axial_N": 694684.510880057,
+    "stress_Pa": 115780751.81334282,
+    "utilization": 0.46312300725337135,
+    "governs": "yield"
+   },
+   {
+    "id": "D2",
+    "length_m": 8.48528137423857,
+    "axial_N": 111551.72244924855,
+    "stress_Pa": 18591953.741541427,
+    "utilization": 0.07436781496616571,
+    "governs": "yield"
+   },
+   {
+    "id": "D3",
+    "length_m": 9.300537618869138,
+    "axial_N": 62664.6535832052,
+    "stress_Pa": 10444108.9305342,
+    "utilization": 0.0417764357221368,
+    "governs": "yield"
+   },
+   {
+    "id": "D4",
+    "length_m": 9.300537618869138,
+    "axial_N": 62664.65358320714,
+    "stress_Pa": 10444108.930534523,
+    "utilization": 0.04177643572213809,
+    "governs": "yield"
+   },
+   {
+    "id": "D5",
+    "length_m": 8.48528137423857,
+    "axial_N": 111551.72244924978,
+    "stress_Pa": 18591953.741541628,
+    "utilization": 0.07436781496616651,
+    "governs": "yield"
+   },
+   {
+    "id": "D6",
+    "length_m": 8.48528137423857,
+    "axial_N": 694684.5108800565,
+    "stress_Pa": 115780751.81334275,
+    "utilization": 0.463123007253371,
+    "governs": "yield"
+   }
+  ],
+  "reactions": [
+   {
+    "nodeId": "B0",
+    "rx_N": -1.3969838619232178e-9,
+    "ry_N": 692561.6935388653
+   },
+   {
+    "nodeId": "B8",
+    "rx_N": 0,
+    "ry_N": 692561.6935388639
+   }
+  ],
+  "metrics": {
+   "maxAbsDisplacement_m": 0.05892678802372394,
+   "maxDisplacementNode": "B4",
+   "maxAbsAxial_N": 1241613.9049829126,
+   "maxAxialMember": "TC3",
+   "maxUtilization": 0.5209815891269264,
+   "maxUtilizationMember": "V2",
+   "mass_kg": 12759.03464258849,
+   "totalLoadY_N": -1385123.3870777404
+  },
+  "diagnostics": {
+   "forceResidual_N": 5.587935447692871e-9,
+   "equilibriumX_N": -1.3969838619232178e-9,
+   "equilibriumY_N": -1.1175870895385742e-8,
+   "equilibriumM_Nm": -2.980232238769531e-7,
+   "dof": 29,
+   "warnings": []
+  }
+ }
+}

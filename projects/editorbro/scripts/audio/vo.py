@@ -43,7 +43,8 @@ def key():
 
 def synth(text, v, seed):
     body = {"text": text, "model_id": v["model"], "seed": seed, "language_code": v["language"],
-            "voice_settings": {"stability": v["stability"], "similarity_boost": v["similarity"], "speed": v["speed"]}}
+            "voice_settings": {"stability": v["stability"], "similarity_boost": v["similarity"], "speed": v["speed"],
+                               **({"style": v["style"], "use_speaker_boost": True} if "style" in v else {})}}
     req = urllib.request.Request(f"https://api.elevenlabs.io/v1/text-to-speech/{v['voiceId']}/with-timestamps?output_format=mp3_44100_128",
                                  data=json.dumps(body).encode(), headers={"xi-api-key": key(), "Content-Type": "application/json"})
     for i in range(4):

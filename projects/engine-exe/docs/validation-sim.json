@@ -1,0 +1,151 @@
+{
+ "results": [
+  {
+   "name": "GPU",
+   "pass": true,
+   "detail": "ANGLE (Intel, Intel(R) Iris(R) Xe Graphics (0x00009A49) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+   "info": true
+  },
+  {
+   "name": "Connecting rod stays on the wrist pin (720 poses, 1° steps)",
+   "pass": true,
+   "detail": "max gap 4.67e-14 mm"
+  },
+  {
+   "name": "Connecting rod stays on the crank pin (720 poses)",
+   "pass": true,
+   "detail": "max gap 1.07e-14 mm"
+  },
+  {
+   "name": "Rod stays connected in EXPLODED mode",
+   "pass": true,
+   "detail": "max gaps 4.0e-14 / 1.1e-14 mm"
+  },
+  {
+   "name": "3D camshaft turns at half the 3D crankshaft angle",
+   "pass": true,
+   "detail": "max |cam − crank/2| 0.0e+0 rad"
+  },
+  {
+   "name": "3D valves sit exactly at the model lift",
+   "pass": true,
+   "detail": "max error 1.3e-14 mm"
+  },
+  {
+   "name": "Rockers turned by the angle that gives the model lift",
+   "pass": true,
+   "detail": "max error 0.0e+0 rad"
+  },
+  {
+   "name": "Cam roller rides the generated lobe (no gap, no overlap)",
+   "pass": true,
+   "detail": "roller-centre-to-lobe distance 4.000–4.000 mm (roller radius 4.000)"
+  },
+  {
+   "name": "Rocker pushes the valve tip along its stem",
+   "pass": true,
+   "detail": "axial error 2.6e-14 mm; sideways slide on the tip up to 1.27 mm"
+  },
+  {
+   "name": "Dashboard values match engineStateAt() (every 7°)",
+   "pass": true,
+   "detail": "9 calculated rows + pressure index agree to display precision at 103 angles"
+  },
+  {
+   "name": "Stroke card shows the model phase",
+   "pass": true,
+   "detail": "label matched at every sampled angle"
+  },
+  {
+   "name": "720° chart cursor at the crank angle",
+   "pass": true,
+   "detail": "max offset 0.050 px"
+  },
+  {
+   "name": "Camera never clips into the engine",
+   "pass": true,
+   "detail": "closest approach 42 mm from the engine's box (near plane 20 mm) at crank zoom 0.4 el +60"
+  },
+  {
+   "name": "Cutaway plane through the cylinder axis",
+   "pass": true,
+   "detail": "section plane at z = -0.5 mm (0.5 mm behind the axis plane, clear of the case joint face)"
+  },
+  {
+   "name": "Exploded: head, cover and case move on assembly axes",
+   "pass": true,
+   "detail": "head +80 mm (y), cover +200 mm (y), case halves ±62 mm (z)"
+  },
+  {
+   "name": "X-ray: housing see-through",
+   "pass": true,
+   "detail": "housing opacity 0.12"
+  },
+  {
+   "name": "Film page ran without errors",
+   "pass": true,
+   "detail": "no page errors"
+  },
+  {
+   "name": "Live page starts in the auto tour",
+   "pass": true,
+   "detail": "tour running"
+  },
+  {
+   "name": "Live frame rate (headless, this machine)",
+   "pass": true,
+   "info": true,
+   "detail": "60.1 fps on quality tier 0"
+  },
+  {
+   "name": "A click hands control to the visitor",
+   "pass": true,
+   "detail": "tour stopped after the click"
+  },
+  {
+   "name": "CUTAWAY button switches the mode",
+   "pass": true,
+   "detail": "mode cutaway, cut 0.99"
+  },
+  {
+   "name": "Crank advances at rpm × playback at 300 / 1400 / 6000 / 9000 rpm",
+   "pass": true,
+   "detail": "300 rpm: 137° vs 137° expected; 1400 rpm: 637° vs 637° expected; 6000 rpm: 2730° vs 2730° expected; 9000 rpm: 4095° vs 4095° expected"
+  },
+  {
+   "name": "Crank-angle slider scrubs and pauses",
+   "pass": true,
+   "detail": "angle 540.0° (slider at 75% → 540°), paused true, dashboard 540.0°"
+  },
+  {
+   "name": "Single step +5°",
+   "pass": true,
+   "detail": "540.0° → 545.0°"
+  },
+  {
+   "name": "Isolating a part highlights it, moves the camera, explains it",
+   "pass": true,
+   "detail": "solo piston, fade 0.96, camera piston, info card shown"
+  },
+  {
+   "name": "Learn mode: slow motion, cutaway, stage jump",
+   "pass": true,
+   "detail": "learn true, mode cutaway, slow true, θ 383° after jumping to 03 POWER"
+  },
+  {
+   "name": "Live page ran without errors",
+   "pass": true,
+   "detail": "no page errors"
+  },
+  {
+   "name": "Phone (390 × 844): compact layout, readable cards, no sideways scroll",
+   "pass": true,
+   "detail": "view 390×422, cards zoom ×1.48 (11.6 px body → 17.2 px), page width 390px"
+  },
+  {
+   "name": "Phone page ran without errors",
+   "pass": true,
+   "detail": "no page errors"
+  }
+ ]
+}

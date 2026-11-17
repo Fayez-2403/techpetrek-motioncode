@@ -1,0 +1,27 @@
+EditorBro v3: cover prompts (9:16, 1080x1920). Paste into GPT Image / Higgsfield / Midjourney.
+Keep the top 20% and bottom 25% calm: Instagram puts its UI there, and the grid crops the cover to 3:4.
+
+--- 1. "THIS ISN'T GTA 6" (the hook, strongest) ---
+Cinematic vertical 9:16 frame, golden-hour Florida-style highway, low camera behind a black pickup truck towing a
+giant movie clapperboard on a trailer, palm trees and power lines along the road, warm hazy sun, light lens bloom.
+On the right a tall glowing vertical LED billboard on two steel legs shows a teal screen with gold serif text
+"EditorBro". Ultra-detailed, video-game-trailer realism, shallow depth of field, rich teal-and-orange grade, film grain.
+Big bold white headline across the upper third: "THIS ISN'T GTA 6". Smaller gold text under it: "it's 100% code".
+Negative: no logos, no Rockstar or GTA branding, no real brand names, no watermark, no extra text, no people's faces.
+
+--- 2. "THE SCREEN" (mystery, stops the scroll) ---
+Vertical 9:16, dusk highway shot from the road, a giant portrait LED billboard fills the center of the frame, its screen
+glowing turquoise with flowing lines of code and the huge words "100% CODE" in gold, palm silhouettes, the faint
+red taillights of a pickup with a film clapperboard far down the road, cinematic, glossy, high contrast.
+Headline at the top in bold condensed white: "I DIDN'T FILM THIS". Small gold text near the bottom: "EditorBro".
+Negative: no logos, no brand names, no watermark, no distorted text.
+
+--- 3. "BUILD YOUR OWN" (aspirational, for the CTA crowd) ---
+Vertical 9:16, a dark creator desk at night, a laptop whose screen projects a holographic city highway with a glowing
+billboard reading "EditorBro", teal and gold light spilling over the desk, floating UI cards (a store, a food app, a
+map, a chat with a lock icon) orbiting the laptop, cinematic product-photo lighting, crisp and premium.
+Headline: "BUILD YOUR OWN STUDIO" in heavy white condensed type, "one prompt · 64 skills" in small gold under it.
+Negative: no logos, no real app UIs, no watermark, no hands, no faces.
+
+Tip: I can also build the cover in code from the real reel frame (the poster on the highway at 5.5 s, plus the
+headline), so it matches the video exactly. Just say "make the cover".

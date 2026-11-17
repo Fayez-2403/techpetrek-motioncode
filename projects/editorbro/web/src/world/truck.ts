@@ -27,6 +27,51 @@ function sideExtrude(shape: THREE.Shape, width: number, bevel = 0.07) {
 
 export const WHEEL_R = 0.42;
 
+// v3: the future car. A low wedge (extruded side profile), a tinted canopy, a full-width red LED tail bar, cyan side
+// strips, emissive teal wheel rings and underglow. Same wheel API as buildTruck (wheels roll by distance / radius).
+export function buildFutureCar() {
+  const group = new THREE.Group();
+  const paint = new THREE.MeshPhysicalMaterial({ color: lin(0.02, 0.022, 0.026), roughness: 0.25, metalness: 0.8, clearcoat: 1, clearcoatRoughness: 0.08 });
+  const glass = new THREE.MeshPhysicalMaterial({ color: lin(0.0, 0.03, 0.035), roughness: 0.04, metalness: 0.3, clearcoat: 1 });
+  const glow = (r: number, g: number, b: number, k = 4) => new THREE.MeshStandardMaterial({ color: 0x000000, emissive: new THREE.Color(r, g, b), emissiveIntensity: k });
+  const add = (geo: THREE.BufferGeometry, mat: THREE.Material, x = 0, y = 0, z = 0, shadow = true) => {
+    const m = new THREE.Mesh(geo, mat); m.position.set(x, y, z); m.castShadow = shadow; m.receiveShadow = shadow; group.add(m); return m;
+  };
+  const s = new THREE.Shape();
+  s.moveTo(-2.45, 0.4);
+  s.lineTo(-2.5, 0.62);
+  s.lineTo(-1.25, 0.9);
+  s.lineTo(-0.55, 1.3);
+  s.lineTo(0.85, 1.34);
+  s.lineTo(2.3, 0.98);
+  s.lineTo(2.48, 0.86);
+  s.lineTo(2.48, 0.4);
+  s.lineTo(2.05, 0.4);
+  s.absarc(1.55, 0.4, 0.5, 0.05, Math.PI - 0.05, false);
+  s.lineTo(-1.05, 0.4);
+  s.absarc(-1.55, 0.4, 0.5, 0.05, Math.PI - 0.05, false);
+  s.lineTo(-2.45, 0.4);
+  add(sideExtrude(s, 2.0, 0.06), paint);
+  const c = new THREE.Shape();
+  c.moveTo(-1.15, 0.95); c.lineTo(-0.55, 1.27); c.lineTo(0.8, 1.31); c.lineTo(1.9, 1.04); c.lineTo(-1.15, 0.95);
+  add(sideExtrude(c, 2.02, 0), glass);
+  add(new THREE.BoxGeometry(1.92, 0.07, 0.03), glow(1.0, 0.04, 0.03, 6), 0, 0.9, 2.49, false);          // LED tail bar
+  for (const x of [-1.01, 1.01]) add(new THREE.BoxGeometry(0.02, 0.035, 3.8), glow(0.1, 0.9, 1.0, 3), x, 0.58, 0, false);
+  const under = new THREE.Mesh(new THREE.PlaneGeometry(2.2, 4.6), new THREE.MeshBasicMaterial({ color: lin(0.1, 0.9, 0.8), transparent: true, opacity: 0.55, blending: THREE.AdditiveBlending, depthWrite: false }));
+  under.rotation.x = -Math.PI / 2; under.position.y = 0.03; group.add(under);
+  const wheels: THREE.Object3D[] = [];
+  const tyre = new THREE.CylinderGeometry(0.4, 0.4, 0.3, 24).rotateZ(Math.PI / 2);
+  const ring = new THREE.TorusGeometry(0.3, 0.025, 8, 32).rotateY(Math.PI / 2);
+  for (const [x, z] of [[-0.92, -1.55], [0.92, -1.55], [-0.92, 1.55], [0.92, 1.55]]) {
+    const g = new THREE.Group();
+    const t = new THREE.Mesh(tyre, new THREE.MeshStandardMaterial({ color: lin(0.015, 0.015, 0.015), roughness: 0.8 }));
+    const r = new THREE.Mesh(ring, glow(0.1, 1.0, 0.85, 5)); r.position.x = x > 0 ? 0.16 : -0.16;
+    t.castShadow = true; g.add(t, r); g.position.set(x, 0.4, z); g.scale.setScalar(1);
+    group.add(g); wheels.push(g);
+  }
+  return { group, wheels };
+}
+
 export function buildTruck() {
   const group = new THREE.Group();
   const paint = new THREE.MeshPhysicalMaterial({ color: lin(0.03, 0.032, 0.036), roughness: 0.35, metalness: 0.55, clearcoat: 1, clearcoatRoughness: 0.12 });

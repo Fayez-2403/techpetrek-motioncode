@@ -1,0 +1,38 @@
+=== INSTAGRAM CAPTION (short) ===
+Ek developer, Damir Sokolovsky (@heydamir), ne ek skill banaya aur ek hafte mein 8,000+ GitHub stars! ⭐
+Kyunki AI-generated websites sab ek jaisi lagti hain 😭
+unslop ek Claude Code / Codex skill hai jo UI ka audit karta hai, product se design direction set karta hai, aur screen ko pass by pass theek karta hai. Reel mein jo before/after hai, woh humne khud chalaya: unslop ko unslop ke hi example dashboard pe.
+CC BY 4.0, credit @heydamir. Comment DESIGN for the repo!
+#ClaudeCode #UIDesign #VibeCoding #OpenSource #TechpeTrek
+
+=== INSTAGRAM CAPTION (medium) ===
+Ek developer ne ek skill banaya, aur ek hafte mein 8,000 se zyada GitHub stars (29 Oct ko bana, 5 Nov tak ~9k) ⭐
+Purple gradient + random glow + wahi dashboard phir se? 😅
+unslop by @heydamir (Damir Sokolovsky) ek skill hai Claude Code aur Codex ke liye:
+• Audit: purple gradients, glows, emoji labels, shouty copy, uneven spacing, har sign kahan hai
+• Direction: edit se pehle, tumhare product se
+• Passes: spacing, color, icons, copy, type, layout, details, visuals, motion, isi order mein
+• React, Vue, Svelte, Tailwind, Next.js ya plain HTML/CSS
+• Story video: square, 10 second se kam (Playwright + ffmpeg chahiye)
+Reel ka before/after hamara apna run hai, repo ke example dashboard pe (guaranteed output nahi; final review tumhara).
+Daily Launch (third-party) ke mutabik sirf 4 Nov ko ~+1.2k stars aaye.
+License CC BY 4.0: creator ko credit + repo link zaroori.
+Comment DESIGN, save karo next portfolio makeover ke liye!
+#ClaudeCode #DesignEngineering #OpenSource #VibeCoding #WebDevelopment #TechpeTrek
+
+=== PINNED COMMENT ===
+DESIGN likho 👇 Repo: https://github.com/heydamir/unslop (install steps README mein). Credit @heydamir. Tumhari site ka sabse bada AI-looking design tell kya hai?
+
+=== DM REPLY (for "DESIGN") ===
+Yeh raha 🛠
+Repo: https://github.com/heydamir/unslop (by Damir Sokolovsky, @heydamir, CC BY 4.0)
+Claude Code install:
+  git clone https://github.com/heydamir/unslop
+  mkdir -p ~/.claude/skills && cp -r unslop/skills/unslop ~/.claude/skills/
+(sirf ek project ke liye: uske .claude/skills/ mein copy karo)
+Use: /unslop this dashboard
+Story video ke liye: npm install -D playwright && npx playwright install chromium, aur ffmpeg PATH pe.
+Paid image generation sirf tumhari permission se: skill har baar pehle prompt dikhata hai.
+
+=== KEYWORDS ===
+Claude Code skill, unslop, AI website design, vibecoding UI, frontend design, Codex skill, React, design audit

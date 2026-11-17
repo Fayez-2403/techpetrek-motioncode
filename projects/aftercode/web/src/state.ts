@@ -5,9 +5,9 @@ import type { Performer, DuoMode, CrewMode, FormationId } from './dance/crew';
 import { DEFAULT_LOOK } from './dance/avatar';
 
 export const WORLDS = [
-  { id: 'tunnel', name: 'Neon Pulse Tunnel' }, { id: 'galaxy', name: 'Particle Galaxy' }, { id: 'chrome', name: 'Liquid Chrome Waves' },
-  { id: 'city', name: 'Audio City Skyline' }, { id: 'bloom', name: 'Fractal Bloom' }, { id: 'stage', name: 'Beat Dancer Stage' },
-  { id: 'dream', name: 'Dream Space' }, { id: 'office', name: 'Developer Break Mode' },
+  { id: 'tunnel', name: 'Neon Pulse Tunnel', short: 'Tunnel' }, { id: 'galaxy', name: 'Particle Galaxy', short: 'Galaxy' }, { id: 'chrome', name: 'Liquid Chrome Waves', short: 'Chrome' },
+  { id: 'city', name: 'Audio City Skyline', short: 'City' }, { id: 'bloom', name: 'Fractal Bloom', short: 'Bloom' }, { id: 'stage', name: 'Beat Dancer Stage', short: 'Stage' },
+  { id: 'dream', name: 'Dream Space', short: 'Dream' }, { id: 'office', name: 'Developer Break Mode', short: 'Office' },
 ] as const;
 export type WorldId = (typeof WORLDS)[number]['id'];
 export const CAMERAS = [
@@ -27,6 +27,8 @@ export interface AppState {
   officeIntro: boolean;   // Developer Break: dancers start seated, then stand on the music
   introAt: number;        // song beat at which the office intro starts (the lead stands 8 beats later)
   phraseBeats: number; phraseOffset: number;   // dynamic formations: change every phraseBeats, counted from phraseOffset
+  turnBeats: number; turnAt: number;           // battles: who has the floor switches every turnBeats, counted from song beat turnAt
+  faceFront: boolean;                          // reel close-ups: cancel the mocap's turning and travel, so every dancer faces front, in place
   soundtracks: boolean;                         // mode soundtracks: switching world (from the UI) switches to that world's song
   slots: Partial<Record<WorldId, string>>;      // world -> name of the user's song in that slot (bytes stay in IndexedDB)
 }
@@ -38,7 +40,7 @@ export const newPerformer = (i: number): Performer => ({ id: `p${++id}`, faceId:
 let state: AppState = {
   view: 'dance', world: 'tunnel', camera: 'director', trackId: 'realizer', performers: [newPerformer(0)], faces: [],
   duoMode: 'mirror', crewMode: 'chorus', formation: 'dynamic', intensity: 1, selected: 0, consent: false, quality: 'high',
-  vertical: false, recording: false, showCredits: false, panel: null, officeIntro: true, introAt: 0, phraseBeats: 32, phraseOffset: 0,
+  vertical: false, recording: false, showCredits: false, panel: null, officeIntro: true, introAt: 0, phraseBeats: 32, phraseOffset: 0, turnBeats: 8, turnAt: 0, faceFront: false,
   soundtracks: true, slots: {},
 };
 const subs = new Set<() => void>();

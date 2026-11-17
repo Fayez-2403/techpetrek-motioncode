@@ -1,0 +1,118 @@
+{
+ "_doc": "BINANCE HEIST VO: Liam (Turbo v2.5, hi), news delivery: stability 0.25, style 0.6. Facts: docs/factcheck.md (Binance Nov 3 report + NBC/The National). Windows re-laid by timing_heist.py.",
+ "voice": {
+  "provider": "elevenlabs",
+  "voiceId": "TX3LPaxmHKxFdv7VOQHJ",
+  "name": "Liam",
+  "model": "eleven_turbo_v2_5",
+  "language": "hi",
+  "stability": 0.25,
+  "similarity": 0.82,
+  "style": 0.6,
+  "boost": true,
+  "speed": 1.12,
+  "seed": 21
+ },
+ "lead": 0.06,
+ "reel": [
+  {
+   "id": "v01",
+   "t0": 0.0,
+   "t1": 4.75,
+   "cap": "Ek fake job interview… aur $6.34 BILLION ka crypto hack?!",
+   "tts": "एक fake job interview… और six point three four billion dollars का crypto hack?!",
+   "speed": 1.16,
+   "lead": 0.05
+  },
+  {
+   "id": "v02",
+   "t0": 4.75,
+   "t1": 11.5,
+   "cap": "Binance ki Nov 3 report: Oct 29 ko $6.34B ke assets impact hue.",
+   "tts": "Binance की November three report: October twenty-nine को six point three four billion dollars के assets impact हुए.",
+   "speed": 1.16,
+   "lead": 0.08
+  },
+  {
+   "id": "v03",
+   "t0": 11.5,
+   "t1": 16.75,
+   "cap": "June mein ek engineer ne AI coding tool dhoondhte hue tampered tool install kar liya.",
+   "tts": "June में एक engineer ने AI coding tool ढूँढते हुए tampered tool install कर लिया.",
+   "speed": 1.16,
+   "lead": 0.08
+  },
+  {
+   "id": "v04",
+   "t0": 16.75,
+   "t1": 22.5,
+   "cap": "September mein doosre ko fake 'Project Director' mila — interview, fake CEO, aur ek 'assignment'.",
+   "tts": "September में दूसरे को fake Project Director मिला — interview, fake CEO, और एक assignment.",
+   "speed": 1.16,
+   "lead": 0.08
+  },
+  {
+   "id": "v05",
+   "t0": 22.5,
+   "t1": 29.0,
+   "cap": "Us assignment mein malicious code tha. Oct 20 ko attackers ne internal AI tool ko springboard banaya.",
+   "tts": "उस assignment में malicious code था. October twenty को attackers ने internal AI tool को springboard बनाया.",
+   "speed": 1.16,
+   "lead": 0.08
+  },
+  {
+   "id": "v06",
+   "t0": 29.0,
+   "t1": 34.0,
+   "cap": "Ruko — AI ne khud chori nahi ki; attackers ne uska access misuse kiya.",
+   "tts": "रुको — AI ने ख़ुद चोरी नहीं की; attackers ने उसका access misuse किया.",
+   "speed": 1.16,
+   "lead": 0.08
+  },
+  {
+   "id": "v07",
+   "t0": 34.0,
+   "t1": 39.0,
+   "cap": "Oct 29: hot wallet se 18,270 bitcoin attacker ke paas.",
+   "tts": "October twenty-nine: hot wallet से eighteen thousand two hundred seventy bitcoin attacker के पास.",
+   "speed": 1.16,
+   "lead": 0.08
+  },
+  {
+   "id": "v08",
+   "t0": 39.0,
+   "t1": 45.25,
+   "cap": "Lagbhag $2.85B freeze ya intercept hue — aur nuksaan Binance khud uthayega.",
+   "tts": "लगभग two point eight five billion dollars freeze या intercept हुए — और नुक़सान Binance ख़ुद उठाएगा.",
+   "speed": 1.16,
+   "lead": 0.08
+  },
+  {
+   "id": "v09",
+   "t0": 45.25,
+   "t1": 50.0,
+   "cap": "FBI ne North Korea-linked group ko blame kiya; North Korea inkaar karta hai.",
+   "tts": "FBI ने North Korea-linked group को blame किया; North Korea इनकार करता है.",
+   "speed": 1.16,
+   "lead": 0.08
+  },
+  {
+   "id": "v10",
+   "t0": 50.0,
+   "t1": 56.75,
+   "cap": "Lesson: interview assignment ho ya GitHub repo — work laptop par unknown code mat chalao. Sandbox mein test karo.",
+   "tts": "Lesson: interview assignment हो या GitHub repo — work laptop पर unknown code मत चलाओ. Sandbox में test करो.",
+   "speed": 1.16,
+   "lead": 0.08
+  },
+  {
+   "id": "v11",
+   "t0": 56.75,
+   "t1": 59.992,
+   "cap": "Comment karo SAFE — poori checklist DM karunga!",
+   "tts": "Comment करो SAFE — पूरी checklist DM करूँगा!",
+   "speed": 1.16,
+   "lead": 0.08
+  }
+ ]
+}

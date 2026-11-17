@@ -1,0 +1,115 @@
+{
+ "captured": "2026-11-04",
+ "pages": {
+  "sre": {
+   "url": "https://sre.google/books/",
+   "title": "Google SRE book- Comprehensive guide to site reliability",
+   "proof": {
+    "u": 0.67435302734375,
+    "v": 0.364013671875,
+    "w": 0.1100830078125,
+    "h": 0.03,
+    "text": "Read online"
+   }
+  },
+  "lbdl": {
+   "url": "https://fleuret.org/francois/lbdl.html",
+   "title": "The Little Book of Deep Learning",
+   "proof": {
+    "u": 0.5,
+    "v": 0.8803125,
+    "w": 0.45,
+    "h": 0.03,
+    "text": "It is distributed under a non-commercial Creative Commons license and was downloaded more than 1'000'000 times since its release in April 20"
+   }
+  },
+  "udl": {
+   "url": "https://udlbook.github.io/udlbook/",
+   "title": "Understanding Deep Learning",
+   "proof": {
+    "u": 0.709368896484375,
+    "v": 0.532236328125,
+    "w": 0.20775146484375,
+    "h": 0.01849609375,
+    "text": "Download full PDF (09 Feb 2026)"
+   }
+  },
+  "dlbook": {
+   "url": "https://www.deeplearningbook.org/",
+   "title": "Deep Learning",
+   "proof": {
+    "u": 0.5,
+    "v": 0.8459375,
+    "w": 0.6125,
+    "h": 0.03375,
+    "text": "The Deep Learning textbook is a resource intended to help students and practitioners enter the field of machine learning in general and deep"
+   }
+  },
+  "d2l": {
+   "url": "https://d2l.ai/",
+   "title": "Dive into Deep Learning — Dive into Deep Learning 1.0.3 documentation",
+   "proof": {
+    "u": 0.71561279296875,
+    "v": 0.6696875,
+    "w": 0.2921875,
+    "h": 0.168125,
+    "text": "Interactive deep learning book with code, math, and discussions Implemented with PyTorch, NumPy/MXNet, JAX, and TensorFlow Adopted at 500 un"
+   }
+  },
+  "mml": {
+   "url": "https://mml-book.github.io/",
+   "title": "Mathematics for Machine Learning | Companion webpage to the book “Mathematics for Machine Learning”. Copyright 2020 by Marc Peter Deisenroth, A. Aldo Faisal, and Cheng Soon Ong. Published by Cambridge University Press.",
+   "proof": {
+    "u": 0.382501220703125,
+    "v": 0.595439453125,
+    "w": 0.17359619140625,
+    "h": 0.01125,
+    "text": "PDFs of this book freely available"
+   }
+  },
+  "rl": {
+   "url": "http://incompleteideas.net/book/the-book-2nd.html",
+   "title": "Sutton & Barto Book: Reinforcement Learning: An Introduction",
+   "proof": {
+    "u": 0.02744140625,
+    "v": 0.8440234375,
+    "w": 0.0423828125,
+    "h": 0.010625,
+    "text": "Full Pdf"
+   }
+  },
+  "progit": {
+   "url": "https://git-scm.com/book/en/v2",
+   "title": "Git",
+   "proof": {
+    "u": 0.493524169921875,
+    "v": 0.859130859375,
+    "w": 0.31361083984375,
+    "h": 0.02375,
+    "text": "Creative Commons Attribution Non Commercial Share Alike 3.0 license"
+   }
+  },
+  "ejs": {
+   "url": "https://eloquentjavascript.net/",
+   "title": "Eloquent JavaScript",
+   "proof": {
+    "u": 0.294000244140625,
+    "v": 0.36502929687499996,
+    "w": 0.29986572265625,
+    "h": 0.011875,
+    "text": "Creative Commons attribution-noncommercial license"
+   }
+  },
+  "ostep": {
+   "url": "https://pages.cs.wisc.edu/~remzi/OSTEP/",
+   "title": "Operating Systems: Three Easy Pieces",
+   "proof": {
+    "u": 0.15111083984375,
+    "v": 0.82009765625,
+    "w": 0.132763671875,
+    "h": 0.010625,
+    "text": "is and will always be free"
+   }
+  }
+ }
+}

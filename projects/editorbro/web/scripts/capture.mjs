@@ -18,7 +18,8 @@ const page_ = opt('page', 'reel.html');
 const W = +opt('w', 1080), H = +opt('h', 1920), dpr = +opt('dpr', 1), query = opt('query', '');
 const out = resolve(opt('out', '../out/wip'));
 const times = opt('t', null), fps = +opt('fps', 0), dur = +opt('dur', 0), start = +opt('start', 0);
-const port = opt('port', '54210');
+const port = opt('port', '54210'), cornersOut = opt('corners', null);
+const cornerLog = [];
 const CHROME = process.env.CHROME_PATH || ['C:/Program Files/Google/Chrome/Application/chrome.exe', 'C:/Program Files (x86)/Google/Chrome/Application/chrome.exe'].find(existsSync);
 
 const browser = await puppeteer.launch({
@@ -53,6 +54,7 @@ if (times) {
   const n = Math.round(fps * dur);
   for (let f = 0; f < n; f++) {
     await page.evaluate((x) => window.seek(x), start + f / fps);
+    if (cornersOut) cornerLog.push(await page.evaluate(() => window.corners()));
     const buf = await page.screenshot({ type: 'png' });
     if (!ff.stdin.write(buf)) await new Promise((r) => ff.stdin.once('drain', r));
     if (f % 30 === 0) process.stdout.write(`\r${f}/${n}`);
@@ -60,5 +62,9 @@ if (times) {
   ff.stdin.end();
   await new Promise((r) => ff.on('close', r));
   console.log(`\n${n} frames -> ${out}`);
+  if (cornersOut) {
+    (await import('node:fs')).writeFileSync(resolve(cornersOut), JSON.stringify({ fps, start, w: W, h: H, frames: cornerLog }));
+    console.log('corners ->', cornersOut);
+  }
 }
 await browser.close();

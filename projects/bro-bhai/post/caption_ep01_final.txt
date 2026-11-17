@@ -1,0 +1,21 @@
+49 AI roles, ek game studio?! 🎮🔥
+
+Claude Code Game Studios ek open-source (MIT) template hai jo Claude Code ko poore game studio ki tarah organise karta hai:
+🎬 Directors → department leads → specialists
+🧠 49 agent roles · 74 skills · 15 hooks
+🕹️ Godot, Unity aur Unreal ke engine specialists
+✅ QA checks: visual change pe game chala ke screenshot proof
+
+Lekin dhyaan do 👇
+⚠️ 49 roles ≠ 49 employees
+⚠️ One-click game generator nahi, template hai jo tum clone karte ho
+⚠️ Model usage ka bill tumhara, aur har decision bhi tumhara
+
+Twist: repo ke author ne khud test kiya. Sabse zyada documents wala build (30 docs, 58 min before the first line of game code) blind review aur playtest mein LAST aaya 😅 Process zaroori hai, par game bhi banana padta hai.
+
+💬 Comment "STUDIO": repo link + safe setup checklist DM mein bhejenge.
+📌 Save karo apne next indie game ke liye.
+
+Source: GitHub README, Donchitos/Claude-Code-Game-Studios (checked 1 Nov 2026).
+
+#ClaudeCode #GameDev #IndieGameDev #AIAgents #OpenSource #AIGameDevelopment #Godot #Unity #TechpeTrek

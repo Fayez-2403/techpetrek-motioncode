@@ -12,8 +12,10 @@ import { Montage } from './Montage';
 import { Pipeline } from './Pipeline';
 import { Flip, Hook } from './Road';
 import { Websites } from './Websites';
+import { Cta3, Flip3, Hook3 } from './V3';
+import { VERSION } from '../config/version';
 
-export interface SceneProps { f: number; n: number; id: string; t0: number }
+export interface SceneProps { f: number; n: number; id: string; t0: number; T3?: number; t0new?: number; road?: boolean }
 
 const Placeholder: React.FC<SceneProps> = ({ f, n, id }) => {
   const p = easeOutQuint(invLerp(0, 18, f));
@@ -28,7 +30,7 @@ const Placeholder: React.FC<SceneProps> = ({ f, n, id }) => {
   );
 };
 
-export const SCENES: Record<string, React.FC<SceneProps>> = {
-  hook: Hook, flip: Flip, prompt: Prompt, pipeline: Pipeline, montage: Montage, websites: Websites, docs: Docs, cta: Cta,
-};
+export const SCENES: Record<string, React.FC<SceneProps>> = VERSION === 'v3'
+  ? { hook: Hook3, flip: Flip3, prompt: Prompt, pipeline: Pipeline, montage: Montage, websites: Websites, docs: Docs, cta: Cta3 }
+  : { hook: Hook, flip: Flip, prompt: Prompt, pipeline: Pipeline, montage: Montage, websites: Websites, docs: Docs, cta: Cta };
 export const sceneFor = (id: string): React.FC<SceneProps> => SCENES[id] ?? Placeholder;

@@ -1,0 +1,35 @@
+{
+ "code": [
+  "  for (const g of geo) {",
+  "    const { c, s, k } = g;",
+  "    const kk = [c * c, c * s, s * s].map((x) => x * k);",
+  "    ...",
+  "  const sol = solveDense(Kff, Ff);",
+  "    ...",
+  "    const N = g.k * (g.c * du + g.s * dv);   // + tension, - compression"
+ ],
+ "check": [
+  "$ python solver/crosscheck.py",
+  "5 truss fixtures: TS vs numpy vs PyNite 3.2.1",
+  "1 beam fixture: TS FE vs closed form",
+  "worst relative difference 1.99e-11  (tolerance 1e-06; PyNite 3.2.1, numpy 2.5.3)"
+ ],
+ "ifc": [
+  "schema IFC4X3_ADD2",
+  "1 IfcBridge · 58 IfcMember",
+  "TC4_front · CHS 252x12.6 mm",
+  "Axial -1735.8 kN · run R001-f65e9923"
+ ],
+ "csv": [
+  "# runId,R001-f65e9923",
+  "section,id,a,b,group,A_m2,length_m,axial_N,stress_Pa,utilization_proxy,governs",
+  "member,BC4,B3,B4,bottom,0.01,7.000000,1907512.727,190751272.7,0.76301,yield",
+  "member,TC4,T4,T5,top,0.012,7.215435,-1735764.085,-144647007.1,0.57859,yield"
+ ],
+ "files": [
+  "web/src/engineering/truss.ts",
+  "solver/crosscheck.py",
+  "output/BRIDGE_EXE_MODEL.ifc",
+  "output/BRIDGE_EXE_ANALYSIS_REPORT.csv"
+ ]
+}

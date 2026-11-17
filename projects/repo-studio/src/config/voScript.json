@@ -1,0 +1,93 @@
+{
+ "_doc": "ONE BOT, 16 REPOS: news-anchor VO (Liam, Turbo v2.5, hi). Windows are drafts; timing_studio.py re-lays them from the measured takes.",
+ "voice": {
+  "provider": "elevenlabs",
+  "voiceId": "TX3LPaxmHKxFdv7VOQHJ",
+  "name": "Liam",
+  "model": "eleven_turbo_v2_5",
+  "language": "hi",
+  "stability": 0.3,
+  "similarity": 0.8,
+  "style": 0.45,
+  "boost": true,
+  "speed": 1.12,
+  "seed": 11
+ },
+ "lead": 0.08,
+ "reel": [
+  {
+   "id": "v01",
+   "t0": 0.0,
+   "t1": 6.5,
+   "cap": "Breaking news! Ek chhote se AI bot ne… solah free repos se poora motion studio khada kar diya!",
+   "tts": "Breaking news! एक छोटे से AI bot ने… सोलह free repos से पूरा motion studio खड़ा कर दिया!",
+   "speed": 1.1,
+   "lead": 0.05
+  },
+  {
+   "id": "v02",
+   "t0": 6.5,
+   "t1": 10.5,
+   "cap": "Blender mein 3D rig… Three.js se browser mein poori duniya!",
+   "tts": "Blender में 3D rig… Three.js से browser में पूरी दुनिया!",
+   "lead": 0.08
+  },
+  {
+   "id": "v03",
+   "t0": 10.5,
+   "t1": 17.0,
+   "cap": "NumPy har frame ko numbers bana deta hai, Numba use rocket speed deta hai, SciPy sound filter karta hai.",
+   "tts": "NumPy हर frame को numbers बना देता है, नुम्बा उसे rocket speed देता है, SciPy sound filter करता है.",
+   "lead": 0.08
+  },
+  {
+   "id": "v04",
+   "t0": 17.0,
+   "t1": 23.5,
+   "cap": "GSAP timeline chalata hai, Remotion React se video banata hai, aur Puppeteer… har UI frame render karta hai!",
+   "tts": "जी-सैप timeline चलाता है, Remotion React से video बनाता है, और Puppeteer हर UI frame render करता है!",
+   "seed": 14,
+   "lead": 0.08
+  },
+  {
+   "id": "v05",
+   "t0": 23.5,
+   "t1": 30.5,
+   "cap": "Tone.js synth bajata hai, Pedalboard compressor lagata hai, pyloudnorm loudness minus 14 par lock!",
+   "tts": "Tone जे-एस synth बजाता है, Pedalboard compressor लगाता है, pyloudnorm loudness minus fourteen पर lock!",
+   "lead": 0.08
+  },
+  {
+   "id": "v06",
+   "t0": 30.5,
+   "t1": 37.0,
+   "cap": "OpenCV toote frames pakadta hai, Pillow contact sheets banata hai, faster-whisper captions likh deta hai.",
+   "tts": "OpenCV टूटे frames पकड़ता है, Pillow contact sheets बनाता है, faster-whisper captions लिख देता है.",
+   "lead": 0.08
+  },
+  {
+   "id": "v07",
+   "t0": 37.0,
+   "t1": 43.0,
+   "cap": "Aur FFmpeg… poori video encode karke ship! Bonus mein ReportLab ka PDF.",
+   "tts": "और FFmpeg… पूरी video encode करके ship! Bonus में ReportLab का PDF.",
+   "lead": 0.08
+  },
+  {
+   "id": "v08",
+   "t0": 43.0,
+   "t1": 48.0,
+   "cap": "15 GitHub repos, chhah lakh se zyada stars — aur sab free!",
+   "tts": "पंद्रह GitHub repos, छह लाख से ज़्यादा stars — और सब free!",
+   "lead": 0.08
+  },
+  {
+   "id": "v09",
+   "t0": 48.0,
+   "t1": 52.537,
+   "cap": "Poora stack aur prompt pack chahiye? Comment karo STUDIO!",
+   "tts": "पूरा stack और prompt pack चाहिए? Comment करो STUDIO!",
+   "lead": 0.08
+  }
+ ]
+}

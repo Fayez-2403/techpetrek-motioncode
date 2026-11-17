@@ -1,0 +1,32 @@
+{
+  "name": "server-siege",
+  "private": true,
+  "type": "module",
+  "description": "SERVER SIEGE: a playable 3D system-design simulator. A deterministic backend simulation (cache, load balancer, app instances, database, job queue, autoscaler) drawn as a living server city.",
+  "scripts": {
+    "dev": "vite --port 54240",
+    "build": "tsc --noEmit && vite build",
+    "check": "tsc --noEmit",
+    "test": "bun test"
+  },
+  "dependencies": {
+    "@react-three/drei": "10.7.9",
+    "@react-three/fiber": "9.8.2",
+    "@react-three/postprocessing": "3.0.4",
+    "postprocessing": "6.37.6",
+    "react": "19.3.1",
+    "react-dom": "19.3.1",
+    "three": "0.186.1",
+    "zustand": "5.0.16"
+  },
+  "devDependencies": {
+    "@types/bun": "latest",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "@types/three": "0.186.0",
+    "@vitejs/plugin-react": "6.1.2",
+    "playwright-core": "^1.63.0",
+    "typescript": "5.9.2",
+    "vite": "8.3.5"
+  }
+}

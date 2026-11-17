@@ -1,0 +1,11 @@
+=== CONCISE (SEO-first) ===
+49 AI agents, ek game studio workflow?! 🎮 Open-source Claude Code Game Studios mein 49 specialized roles aur 74 skills documented hain. Ye instant game generator nahi—planning, coding aur QA ko structure karta hai. Comment STUDIO for source. #ClaudeCode #GameDev #AIAgents #OpenSource #TechpeTrek
+
+=== MEDIUM (SEO-first) ===
+Solo game dev ho? Claude Code Game Studios ek open-source template hai jisme 49 specialized AI agent roles, 74 workflow skills, 15 hooks aur QA/production checks documented hain. Directors → department leads → specialists: game design se testing tak structured workflow. ⚠️ 49 agents ka matlab 49 employees ya one-click polished game nahi; costs aur code review tumhare responsibility hain. Save for your next indie-game build. Comment STUDIO. Source: GitHub repo README, checked 1 Nov 2026. #ClaudeCode #AIGameDevelopment #IndieGameDev #AIAgents #TechpeTrek
+
+=== PINNED COMMENT ===
+STUDIO comment karo — official GitHub repo aur safe setup checklist share karenge. Tum Unity, Godot ya Three.js mein kya build karoge?
+
+=== KEYWORDS ===
+Claude Code Game Studios, AI game development, 49 agents, 74 skills, indie game dev, AI coding workflow

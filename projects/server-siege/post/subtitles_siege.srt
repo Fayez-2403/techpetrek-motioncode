@@ -1,0 +1,39 @@
+1
+00:00:00,026 --> 00:00:02,734
+10 LAKH requests! Aur mera server… gaya!
+
+2
+00:00:03,076 --> 00:00:07,316
+Toh maine banaya SERVER SIEGE — ek playable 3D system-design simulator!
+
+3
+00:00:09,080 --> 00:00:14,156
+Traffic badhao… requests line mein lagti hain, latency badhti hai, aur errors start!
+
+4
+00:00:17,105 --> 00:00:21,763
+Easy fix? Aur servers add kar do! Load balancer sabko traffic distribute karega.
+
+5
+00:00:25,105 --> 00:00:30,971
+Lekin ruk… database hi overload ho gaya! Sirf servers badhane se problem solve nahi hui.
+
+6
+00:00:33,109 --> 00:00:38,696
+Ab cache enable karo. Repeated reads ka load kam hota hai, aur database ko breathing room milta hai!
+
+7
+00:00:41,111 --> 00:00:46,373
+Autoscaling bhi lagao — traffic badhe toh new instances automatically ready ho sakein.
+
+8
+00:00:49,079 --> 00:00:54,387
+Capacity, caching aur queue ko balance karo… aur system recover kar sakta hai!
+
+9
+00:00:57,120 --> 00:01:01,918
+Best part? Ye scripted animation nahi. Har control ke peeche actual simulation logic hai!
+
+10
+00:01:03,073 --> 00:01:06,292
+Tum apne server ko bacha paoge? Comment SERVER!

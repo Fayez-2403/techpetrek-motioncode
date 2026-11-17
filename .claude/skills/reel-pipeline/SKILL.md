@@ -13,6 +13,19 @@ Before anything else, read `CLAUDE.md`, `README.md`, `docs/CONTEXT.md` and the p
 rules there: never edit `app/src/engine/`; every plate is a pure function of time; check work with stills; ask before a
 full or 4K render; explain each change before making it.
 
+## THE BENCHMARK: ONE BOT, 16 REPOS (user's standing rule, 2026-11-04)
+`projects/repo-studio` is the minimum level for every reel from now on ("only beyond this level, not below").
+Read `docs/BENCHMARK_REPO_STUDIO.md` before stage 1, and design the new reel to beat it. That means:
+- one original concept performed by a hero character;
+- real captured evidence in-world;
+- ≥ 5 parallel layers per beat;
+- the voice/music as the timeline;
+- SFX from the picture's events;
+- measured QA.
+
+Before any preview is shown, run its **Benchmark gate** checklist in the reel's `docs/review_log.md` and name what this
+reel does *beyond* it. Below the bar: fix it, don't show it.
+
 ## Standing preferences (user)
 - 9:16 Instagram reels, 1080x1920, usually under 60 s; preview on localhost:54173 (another free port if that one is taken).
 - A human, young, excited male voice. ElevenLabs "Liam" (TX3LPaxmHKxFdv7VOQHJ). Hinglish narration (Devanagari Hindi for the
@@ -88,7 +101,7 @@ Load the `motion-studio` skill (`.claude/skills/motion-studio`) for every reel t
 | 1 | Brief + facts | `motion-studio` (block brief, idea pick, tool check); `motion-brief-writer`; research with WebSearch / WebFetch | projects/<name>/FACTS.md, BRIEF.md |
 | 2 | Hook (first 2 s) | `11-social-hook` (use its hook principles; ignore its Seedance prompt format unless generating); `hyperframes-creative` (narration and beat planning) | hook line + first-frame plan |
 | 3 | Script + voice | `hyperframes-creative` narration rules (write for the ear, value by line 2, numbers as spoken). Voice: analysis/grokbot_vo.py pattern (one ElevenLabs take, cut by word timestamps, placed per chapter, checked with speech-to-text) | analysis/script_<v>.py, audio/<v>/voiceover.mp3, data/<v>/lyrics.json |
-| 4 | Template + look (pick by format) | explainer: `vox-explainer` / `faceless-explainer`; product or launch: `launch-video` / `product-launch-video`; 3D or character piece: `title-sequence-3d`, `02-3d-cgi` and `01-cinematic` (camera language); music-led: `music-to-video`, `10-music-video`; data or number: `animated-chart`, `milestone-reveal`; UI motion: `motion-effects`, `06-motion-design-ad`; motion rules for all: `hyperframes-animation`, `hyperframes-keyframes` | storyboard as data (data/<v>/cues.json) |
+| 4 | Template + look (pick by format) | explainer: `vox-explainer` / `faceless-explainer`; product or launch: `launch-video` / `product-launch-video`; 3D or character piece: `title-sequence-3d`, `02-3d-cgi` and `01-cinematic` (camera language); music-led: `music-to-video`, `10-music-video`; data or number: `animated-chart`, `milestone-reveal`; UI motion: `motion-effects`, `06-motion-design-ad`; motion rules for all: `hyperframes-animation`, `hyperframes-keyframes` | storyboard as data (data/<v>/cues.json) · claude-animation-skills: `zach-d-films`, `stick-figure`, `map-route`, `breakdown`, `graph`, `minimalistic-graphics` (tools/claude-animation-skills; inserts / building blocks, still held to the Benchmark) |
 | 5 | Music + sound | `hyperframes-audio` (ducking, levels); an original score (analysis/grokbot_music.py pattern) or the user's track (`music-to-video` beat grid); foley from the cue sheet | audio/<v>/mix.mp3 at -14 LUFS, data/<v>/audio.json |
 | 6 | Build in the engine | `hyperframes-core` (deterministic-render rules, apply them in pdoom); project CLAUDE.md; scene in app/src/scenes/, entry in app/src/timeline.ts | stills + contact sheets checked |
 | 7 | Animatic, then final | ask before the full render; Windows: 10 s segments (projects/grok-bot-reel/SESSION-RESUME.md) | output/<name>_master.mp4 |
@@ -102,6 +115,12 @@ The Higgsfield CLI is installed but needs a workspace (`hf workspace set`). Neve
 **Genjutsu** (`tools/genjutsu/`, read `docs/GENJUTSU.md` first): replaces a person or object in a real clip with a new
 character (Seedance via Enhancor, plus Replicate; paid keys in `tools/genjutsu/.env`). Use only footage and references the user
 owns or has licensed, never other creators' videos or real people's faces, and label the result AI-generated.
+**Open Higgsfield AI = the default generator for every reel** (user's standing request 2026-11-01; `docs/OPEN-HIGGSFIELD.md`).
+Whenever a reel needs a generated image, video shot or lip sync, use `python tools/open_higgsfield.py image|video|lipsync`
+(same kie.ai models and credits as the studio the user runs at http://localhost:54230; key in `KIE_API_KEY`). Before spending:
+`--dry` the requests, give the user the shot list with kie.ai prices (kie.ai/pricing) and get their OK for that reel's batch.
+Save to the reel's `assets/generated/`, keep the .json sidecars, log each file in asset_manifest.csv. No real people's faces;
+label AI shots. Code-built picture (engine, Remotion, Three.js) stays the backbone; generation fills what code can't.
 
 ### Not for this channel
 `ugc-hot-girl`, `ugc-video-auto`, `13-fashion-lookbook`, `14-food-beverage`, `15-real-estate`, `07-ecommerce-ad`,

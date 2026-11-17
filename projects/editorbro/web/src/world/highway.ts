@@ -10,7 +10,7 @@ import { UnrealBloomPass } from 'three/addons/postprocessing/UnrealBloomPass.js'
 import { OutputPass } from 'three/addons/postprocessing/OutputPass.js';
 import { ShaderPass } from 'three/addons/postprocessing/ShaderPass.js';
 import { mergeGeometries } from 'three/addons/utils/BufferGeometryUtils.js';
-import { paintSign } from './sign';
+import { paintPoster, paintSign } from './sign';
 import { asphalt, bark, concrete, foliage, frond, leafCard, ROAD_X0, ROAD_X1 } from './textures';
 import { buildTruck, WHEEL_R } from './truck';
 import { lerp, mulberry32, quint } from './rng';
@@ -22,6 +22,46 @@ const HAZE = lin(0.92, 0.68, 0.46);
 // Billboard placement: right of the road, facing back toward where the camera ends up.
 const BB = { x: 15, z: -66, base: 7.2, w: 9, h: 6.19, ry: -0.458 };
 export const SIGN_CENTER = new THREE.Vector3(BB.x, BB.base + BB.h / 2, BB.z);
+
+// v3: a vertical 9:16 LED screen instead of the painted sign, further down a faster road (user, 2026-10-31)
+const SC = { x: 15, z: -168, base: 4.6, w: 6.0, h: 6.0 * 16 / 9, ry: -0.35 };
+export const SCREEN_CENTER = new THREE.Vector3(SC.x, SC.base + SC.h / 2, SC.z);
+const SC_N = new THREE.Vector3(Math.sin(SC.ry), 0, Math.cos(SC.ry));          // the screen's facing direction
+const FILL_FOV = 40;                                                            // at the end of the dive the screen exactly fills a 9:16 frame
+export const FILL_POS = SCREEN_CENTER.clone().addScaledVector(SC_N, (SC.h / 2) / Math.tan((FILL_FOV / 2) * Math.PI / 180) * 0.985);
+// v3 timing (from the voice: S = first word, D1 = just after "code"), overridable per capture: ?S=&D0=&D1=
+export const V3T = { S: 4.05, D0: 5.4, D1: 6.4 };   // a fast catch: 1.35 s swing-in, 1.0 s dive
+// the chase: the pickup weaves past three slower cars (lane, car start z), all moving forward
+// timed so the pickup AND the chase camera (13 m behind = 0.54 s on the same path) clear each slow car with margin
+const LANES: [number, number, number][] = [[0.8, 1.4, -3.6], [2.5, 3.1, 0]];   // [t0, t1, to-lane]
+export const SLOW_CARS: [number, number][] = [[0, -31.2], [-3.6, -55.2]];   // met by the pickup at 1.6 s and 3.6 s
+const TRUCK_V = 24, SLOW_V = 12;
+export function truck3(t: number) {
+  let x = 0, from = 0;
+  for (const [a, b, to] of LANES) { x = from + (to - from) * quint((t - a) / (b - a)); if (t < b) break; from = to; }
+  const dx = (truck3x(t + 0.01) - truck3x(t - 0.01)) / 0.02;
+  return { x, z: -12 - TRUCK_V * t, yaw: Math.atan2(dx, TRUCK_V) * 0.9, dist: TRUCK_V * t };
+}
+function truck3x(t: number) {
+  let x = 0, from = 0;
+  for (const [a, b, to] of LANES) { x = from + (to - from) * quint((t - a) / (b - a)); if (t < b) break; from = to; }
+  return x;
+}
+
+// v3 camera before the dive: a chase cam 13 m behind the weaving pickup until he speaks (S); from S it keeps rolling
+// forward, slowing, while it turns and pushes in on the screen (the main zoom-in) until D0.
+export function cameraAt3(t: number, T = V3T) {
+  const shake = new THREE.Vector3(0.05 * Math.sin(t * 13.1), 0.04 * Math.sin(t * 11.3) + 0.02 * Math.sin(t * 17.1 + 1), 0);
+  const tc = Math.min(t, T.S), tr = truck3(tc), lag = truck3(Math.max(0, tc - 0.3));
+  const chasePos = new THREE.Vector3(truck3x(tc - 0.54), 1.75, tr.z + 13);   // on the pickup's own path, 0.54 s behind
+  const chaseAim = new THREE.Vector3(tr.x * 0.9, 1.3, tr.z - 30);
+  if (t <= T.S) return { pos: chasePos.add(shake), aim: chaseAim, fov: 62, roll: 0.012 * Math.sin(t * 2.7) - 0.02 * (tr.x - lag.x) };
+  const u = t - T.S, dur = T.D0 - T.S, e = quint(u / dur);
+  const z = chasePos.z - (TRUCK_V * u - (TRUCK_V - 8) / (2 * dur) * u * u);
+  const pos = new THREE.Vector3(lerp(chasePos.x, 0.5, e), lerp(1.75, 1.65, e), z).add(shake.multiplyScalar(1 - e));
+  const aim = chaseAim.clone().setZ(z - 30).lerp(SCREEN_CENTER, e);
+  return { pos, aim, fov: lerp(62, 30, e), roll: 0.01 * Math.sin(t * 2.7) * (1 - e) };
+}
 
 // ---------- camera and truck paths (pure functions of t) ----------
 export function cameraAt(t: number) {
@@ -150,7 +190,8 @@ function sky() {
 export const FLIP_AT = 4.35;
 const pathTime = (t: number) => (t < FLIP_AT ? t * (3.9 / FLIP_AT) : 3.9 + (t - FLIP_AT));
 
-export async function createHighway(canvas: HTMLCanvasElement, W: number, H: number, opts: { sign?: 'welcome' | 'cta' } = {}) {
+export async function createHighway(canvas: HTMLCanvasElement, W: number, H: number, opts: { sign?: 'welcome' | 'cta'; v3?: boolean; pull?: boolean; times?: Partial<typeof V3T> } = {}) {
+  const T3 = { ...V3T, ...opts.times };
   const renderer = new THREE.WebGLRenderer({ canvas, antialias: true, preserveDrawingBuffer: true, powerPreference: 'high-performance' });
   renderer.setPixelRatio(1);
   renderer.setSize(W, H, false);
@@ -234,7 +275,29 @@ export async function createHighway(canvas: HTMLCanvasElement, W: number, H: num
     p.position.set(-BB.w / 2 + (i * BB.w) / 6, BB.base + 0.4, 0.85); bb.add(p);
   }
   bb.traverse((o) => { if ((o as THREE.Mesh).isMesh) { o.castShadow = true; o.receiveShadow = true; } });
-  scene.add(bb);
+  if (!opts.v3) scene.add(bb);
+
+  // v3: the vertical LED screen on two legs (its picture is composited later, mapped onto `screen` corners)
+  const scr = new THREE.Group();
+  scr.position.set(SC.x, 0, SC.z); scr.rotation.y = SC.ry;
+  const ledCv = document.createElement('canvas'); ledCv.width = 256; ledCv.height = 456;
+  const lg = ledCv.getContext('2d')!; lg.fillStyle = '#05080a'; lg.fillRect(0, 0, 256, 456);
+  lg.fillStyle = 'rgba(40,90,100,0.35)';
+  for (let yy = 0; yy < 456; yy += 4) for (let xx = 0; xx < 256; xx += 4) lg.fillRect(xx, yy, 2, 2);
+  const ledTex = new THREE.CanvasTexture(opts.v3 ? await paintPoster() : ledCv); ledTex.colorSpace = THREE.SRGBColorSpace; ledTex.anisotropy = 16;
+  const screenFace = new THREE.Mesh(new THREE.PlaneGeometry(SC.w, SC.h), new THREE.MeshStandardMaterial({ map: ledTex, emissiveMap: ledTex, emissive: new THREE.Color(1, 1, 1), emissiveIntensity: 0.85, roughness: 0.3, metalness: 0.1 }));
+  screenFace.position.set(0, SC.base + SC.h / 2, 0.2);
+  const frame = new THREE.Mesh(new THREE.BoxGeometry(SC.w + 0.36, SC.h + 0.36, 0.34), new THREE.MeshStandardMaterial({ color: lin(0.03, 0.032, 0.036), roughness: 0.4, metalness: 0.8 }));
+  frame.position.set(0, SC.base + SC.h / 2, 0);
+  scr.add(screenFace, frame);
+  for (const x of [-1.9, 1.9]) {
+    const leg = new THREE.Mesh(new THREE.BoxGeometry(0.42, SC.base + 0.6, 0.42), metal);
+    leg.position.set(x, (SC.base + 0.6) / 2, -0.1); scr.add(leg);
+  }
+  const topBar = new THREE.Mesh(new THREE.BoxGeometry(SC.w + 0.4, 0.06, 0.06), new THREE.MeshStandardMaterial({ color: 0x000000, emissive: new THREE.Color(0.1, 0.9, 0.8), emissiveIntensity: 3 }));
+  topBar.position.set(0, SC.base + SC.h + 0.24, 0.12); scr.add(topBar);
+  scr.traverse((o) => { if ((o as THREE.Mesh).isMesh) { o.castShadow = true; o.receiveShadow = true; } });
+  if (opts.v3) scene.add(scr);
 
   // vegetation: bushes and canopy masses (instanced), palms
   const rnd = mulberry32(77);
@@ -288,6 +351,7 @@ export async function createHighway(canvas: HTMLCanvasElement, W: number, H: num
   for (let i = 0; i < 18; i++) palmSpots.push([-14 - rnd() * 40, -10 - rnd() * 260]);
   palmSpots.push([20.5, -63], [10.5, -71], [24, -80]);
   palmSpots.forEach(([x, z], i) => {
+    if (opts.v3 && x > 4 && x < 34 && z < -110 && z > -200) return;   // v3: keep the screen's sight line clear
     const { trunk, fronds } = palm(500 + i, 8 + rnd() * 7);
     const g = new THREE.Group();
     const tm = new THREE.Mesh(trunk, trunkMat), fm = new THREE.Mesh(fronds, frondMat);
@@ -301,6 +365,7 @@ export async function createHighway(canvas: HTMLCanvasElement, W: number, H: num
   const wirePts: number[] = [];
   const tops: THREE.Vector3[][] = [];
   for (let z = 50; z > -620; z -= 42) {
+    if (opts.v3 && z < -60 && z > -195) continue;   // v3: no poles in the screen's sight line (the wires span to the next pole)
     const pole = new THREE.Mesh(new THREE.CylinderGeometry(0.14, 0.2, 13, 8), poleMat);
     pole.position.set(7.4, 6.5, z); pole.castShadow = true; scene.add(pole);
     const arm = new THREE.Mesh(new THREE.BoxGeometry(2.6, 0.14, 0.14), poleMat);
@@ -359,6 +424,19 @@ export async function createHighway(canvas: HTMLCanvasElement, W: number, H: num
     g.traverse((o) => { o.castShadow = true; });
     scene.add(g);
     cars.push({ m: g, x, z0, v });
+  });
+  const slow: THREE.Group[] = [];
+  if (opts.v3) SLOW_CARS.forEach(([x], i) => {
+    const g = new THREE.Group();
+    const body = new THREE.Mesh(new THREE.BoxGeometry(1.85, 0.7, 4.4), new THREE.MeshStandardMaterial({ color: carColors[(i + 2) % 5], roughness: 0.35, metalness: 0.6 }));
+    body.position.y = 0.7; g.add(body);
+    const cab = new THREE.Mesh(new THREE.BoxGeometry(1.6, 0.55, 2.2), new THREE.MeshStandardMaterial({ color: lin(0.03, 0.04, 0.05), roughness: 0.1, metalness: 0.8 }));
+    cab.position.set(0, 1.28, 0.2); g.add(cab);
+    for (const sx of [-0.8, 0.8]) {
+      const tl = new THREE.Mesh(new THREE.BoxGeometry(0.3, 0.12, 0.05), new THREE.MeshStandardMaterial({ color: 0x220000, emissive: new THREE.Color(1, 0.05, 0.02), emissiveIntensity: 2.5 }));
+      tl.position.set(sx, 0.85, 2.21); g.add(tl);
+    }
+    g.traverse((o) => { o.castShadow = true; }); g.position.x = x; scene.add(g); slow.push(g);
   });
   const birdGeo = new THREE.BufferGeometry().setAttribute('position', new THREE.Float32BufferAttribute([-0.5, 0, 0, 0, -0.06, 0.1, 0, 0, -0.1, 0.5, 0, 0, 0, -0.06, 0.1, 0, 0, -0.1], 3));
   const birds: THREE.Mesh[] = [];
@@ -421,9 +499,31 @@ export async function createHighway(canvas: HTMLCanvasElement, W: number, H: num
   grade.uniforms.tWire.value = wireRT.texture; // ShaderPass clones uniform textures; point it back at the live target
   composer.addPass(grade);
 
+  // v3 camera: the fast push-in, then a dive along the screen's axis until it fills the frame; or (pull) the reverse
+  function camera3(t: number) {
+    if (opts.pull) {
+      const e = quint(t / 2.6), wide = cameraAt3(T3.S + 0.6 * (T3.D0 - T3.S), T3);
+      const pos = FILL_POS.clone().lerp(wide.pos.clone().add(new THREE.Vector3(0, 2.2, 0)), e);
+      const aim = SCREEN_CENTER.clone().lerp(SCREEN_CENTER.clone().add(new THREE.Vector3(-4, -3, 0)), e);
+      return { pos, aim, fov: lerp(FILL_FOV, 56, e), roll: 0.004 * Math.sin(t * 3.1) * e };
+    }
+    if (t < T3.D0) return cameraAt3(t, T3);
+    const push = cameraAt3(T3.D0, T3);
+    const e = quint((t - T3.D0) / (T3.D1 - T3.D0));
+    return { pos: push.pos.clone().lerp(FILL_POS, e), aim: push.aim.clone().lerp(SCREEN_CENTER, e), fov: lerp(push.fov, FILL_FOV, e), roll: push.roll * (1 - e) };
+  }
+  const corner = new THREE.Vector3();
+  function corners() {
+    return [[-1, 1], [1, 1], [1, -1], [-1, -1]].map(([sx, sy]) => {
+      corner.set((sx * SC.w) / 2, (sy * SC.h) / 2, 0.21);
+      screenFace.localToWorld(corner).project(camera);
+      return [Math.round(((corner.x + 1) / 2) * W * 10) / 10, Math.round(((1 - corner.y) / 2) * H * 10) / 10];
+    });
+  }
+
   function render(t: number) {
     const tp = pathTime(t);
-    const cam = cameraAt(tp);
+    const cam = opts.v3 ? camera3(t) : cameraAt(tp);
     camera.position.copy(cam.pos);
     camera.fov = cam.fov;
     camera.updateProjectionMatrix();
@@ -436,11 +536,20 @@ export async function createHighway(canvas: HTMLCanvasElement, W: number, H: num
     sun.position.copy(sun.target.position).addScaledVector(SUN, 150);
 
     const tr = truckAt(tp);
-    truck.position.set(tr.x, 0.0, tr.z);
-    truck.rotation.y = tr.yaw;
-    wheels.forEach((w) => { w.rotation.x = -tr.dist / (WHEEL_R * w.scale.x); });
-    hinge.rotation.z = 0.32 + 0.04 * Math.sin(t * 6.0);
+    if (opts.v3) {
+      // the pickup weaving through the slow cars; in the pull-out it drives on past the screen in the left lane
+      const r = opts.pull ? { x: -3.6, z: 400, yaw: 0, dist: 0 } : truck3(t);   // the pull-out has nothing in front of the screen
+      truck.position.set(r.x, 0, r.z); truck.rotation.y = r.yaw;
+      wheels.forEach((w) => { w.rotation.x = -r.dist / (WHEEL_R * w.scale.x); });
+      hinge.rotation.z = 0.32 + 0.04 * Math.sin(t * 6.0);
+    } else {
+      truck.position.set(tr.x, 0.0, tr.z);
+      truck.rotation.y = tr.yaw;
+      wheels.forEach((w) => { w.rotation.x = -tr.dist / (WHEEL_R * w.scale.x); });
+      hinge.rotation.z = 0.32 + 0.04 * Math.sin(t * 6.0);
+    }
 
+    slow.forEach((g, i) => { g.position.z = SLOW_CARS[i][1] - SLOW_V * t; });
     for (const c of cars) {
       c.m.position.set(c.x, 0, c.z0 - c.v * t);
       c.m.rotation.y = c.v < 0 ? Math.PI : 0;
@@ -455,7 +564,7 @@ export async function createHighway(canvas: HTMLCanvasElement, W: number, H: num
     });
 
     // scan line sweeps top to bottom over 3.9-4.6 s; the wire pass only renders once it has started
-    const scan = t < FLIP_AT || opts.sign === 'cta' ? -1 : -0.02 + 1.06 * quint((t - FLIP_AT) / 0.7);
+    const scan = t < FLIP_AT || opts.sign === 'cta' || opts.v3 ? -1 : -0.02 + 1.06 * quint((t - FLIP_AT) / 0.7);
     grade.uniforms.uScan.value = scan;
     if (scan > -0.5) {
       const fog = scene.fog;
@@ -475,5 +584,5 @@ export async function createHighway(canvas: HTMLCanvasElement, W: number, H: num
     composer.render();
   }
 
-  return { render, renderer, scene, camera };
+  return { render, renderer, scene, camera, corners };
 }

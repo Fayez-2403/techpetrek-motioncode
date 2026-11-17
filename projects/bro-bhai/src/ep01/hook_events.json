@@ -1,0 +1,61 @@
+{
+ "_doc": "Written by scripts/audio/mix_ep01.py from the intro's word times (audio/out/lines_duo.json s01). The hook (src/ep01/hook.tsx) and the mix both read it; never retime by hand.",
+ "hook": 11.0,
+ "solo": 0.717,
+ "github": 3.082,
+ "lead": 7.62,
+ "n49": 8.285,
+ "agents": 8.929,
+ "mazedaar": 9.995,
+ "games2": 10.291,
+ "coins": [
+  0.12,
+  0.26,
+  0.4,
+  0.54,
+  1.667,
+  1.817,
+  6.259,
+  6.409,
+  6.559,
+  6.709,
+  6.859
+ ],
+ "dive": [
+  0.917,
+  1.437
+ ],
+ "splash": 1.097,
+ "jumpBlock": [
+  1.991,
+  2.451
+ ],
+ "bump": 2.191,
+ "fire": [
+  2.402,
+  2.552,
+  2.702
+ ],
+ "bugHit": [
+  2.642,
+  2.792,
+  2.942
+ ],
+ "chest": 3.082,
+ "charge": 3.502,
+ "radiation": 3.902,
+ "pipes": [
+  4.739,
+  5.225,
+  5.805
+ ],
+ "flag": [
+  9.495,
+  10.115
+ ],
+ "fireworks": [
+  10.291,
+  10.491,
+  10.691
+ ]
+}

@@ -1,0 +1,123 @@
+1
+00:00:00,050 --> 00:00:02,130
+Ek developer, Damir Sokolovsky, ne
+
+2
+00:00:02,130 --> 00:00:03,662
+ek skill banaya aur ek
+
+3
+00:00:03,662 --> 00:00:06,330
+hafte mein 8,000 se zyada GitHub stars!
+
+4
+00:00:06,330 --> 00:00:07,921
+AI website sab ek jaisi
+
+5
+00:00:07,921 --> 00:00:08,941
+kyun lagti hai?!
+
+6
+00:00:09,029 --> 00:00:11,038
+Purple gradient, random glow, emoji
+
+7
+00:00:11,038 --> 00:00:12,662
+labels… bhai bas karo!
+
+8
+00:00:12,830 --> 00:00:15,072
+Ye hai unslop Claude Code
+
+9
+00:00:15,072 --> 00:00:17,786
+aur Codex ke liye ek open skill.
+
+10
+00:00:17,786 --> 00:00:20,102
+Pehle audit: spacing, color, icons,
+
+11
+00:00:20,102 --> 00:00:21,809
+copy aur type har slop
+
+12
+00:00:21,809 --> 00:00:23,532
+kahan hai, list karta hai.
+
+13
+00:00:23,532 --> 00:00:25,245
+Phir tumhare product se design
+
+14
+00:00:25,245 --> 00:00:27,298
+direction set karta hai edit se pehle.
+
+15
+00:00:27,298 --> 00:00:28,906
+Humne isi repo ke example
+
+16
+00:00:28,906 --> 00:00:30,774
+dashboard pe unslop chalaya ye
+
+17
+00:00:30,774 --> 00:00:33,207
+hamara run hai, guaranteed output nahi.
+
+18
+00:00:33,314 --> 00:00:35,464
+Dekho: purple gaya, spacing 4px
+
+19
+00:00:35,464 --> 00:00:37,827
+grid pe aayi, emoji gaye, copy saaf.
+
+20
+00:00:37,827 --> 00:00:39,270
+Ye video bhi isi skill
+
+21
+00:00:39,270 --> 00:00:41,023
+ka story mode hai Playwright
+
+22
+00:00:41,023 --> 00:00:42,569
+aur ffmpeg se, square, das
+
+23
+00:00:42,569 --> 00:00:43,568
+second se kam.
+
+24
+00:00:43,568 --> 00:00:45,948
+React, Vue, Svelte, Tailwind ya
+
+25
+00:00:45,948 --> 00:00:48,325
+plain HTML sab pe chalta hai.
+
+26
+00:00:48,325 --> 00:00:50,731
+License CC BY 4.0 Damir
+
+27
+00:00:50,731 --> 00:00:53,295
+ko credit dena zaroori hai.
+
+28
+00:00:53,295 --> 00:00:54,850
+Par taste abhi bhi tumhara
+
+29
+00:00:54,850 --> 00:00:56,546
+hai final review khud karo.
+
+30
+00:00:56,546 --> 00:00:58,431
+Comment karo DESIGN repo aur
+
+31
+00:00:58,431 --> 00:01:00,133
+setup steps bhejta hoon!

@@ -1,0 +1,147 @@
+{
+ "_doc": "SAJAN, the developer's aura. Song window 105.18-130.20 (25.02 s). Every shot: song in/out (on kicks or sung words), the source clip + offset (dev-life-aura/public/footage, Pexels/Mixkit Free), and the look (plain sketch or aura). Built by scripts/build_shots.py; read by src/compositions/AuraReel.tsx.",
+ "s0": 105.18,
+ "s1": 130.2,
+ "bass": 112.845,
+ "lyrics": [
+  [
+   "Sajan",
+   111.98
+  ],
+  [
+   "sajan",
+   113.38
+  ],
+  [
+   "teri",
+   114.12
+  ],
+  [
+   "dulhan",
+   114.6
+  ],
+  [
+   "tujhko",
+   115.38
+  ],
+  [
+   "pukare",
+   116.22
+  ],
+  [
+   "aaja",
+   117.2
+  ]
+ ],
+ "shots": [
+  {
+   "id": "walk",
+   "a": 105.18,
+   "b": 107.18,
+   "clip": "s03_platform_back",
+   "src": 0.6,
+   "look": "plain",
+   "soft": true
+  },
+  {
+   "id": "crowd1",
+   "a": 107.18,
+   "b": 108.08,
+   "clip": "s04_crowd_cross",
+   "src": 6.0,
+   "look": "plain",
+   "soft": true
+  },
+  {
+   "id": "desk1",
+   "a": 108.08,
+   "b": 111.98,
+   "clip": "s10_night_desk",
+   "src": 1.0,
+   "look": "plain"
+  },
+  {
+   "id": "hands1",
+   "a": 111.98,
+   "b": 112.845,
+   "clip": "s06_keys_lowlight",
+   "src": 3.0,
+   "look": "plain"
+  },
+  {
+   "id": "desk_aura",
+   "a": 112.845,
+   "b": 114.48,
+   "clip": "s10_night_desk",
+   "src": 5.0,
+   "look": "aura",
+   "fx": "ignite"
+  },
+  {
+   "id": "hands_aura",
+   "a": 114.48,
+   "b": 116.35,
+   "clip": "s06_programmer_v",
+   "src": 0.5,
+   "look": "aura"
+  },
+  {
+   "id": "keys_aura",
+   "a": 116.35,
+   "b": 117.25,
+   "clip": "s06_mech_keys",
+   "src": 2.0,
+   "look": "aura"
+  },
+  {
+   "id": "walk_aura",
+   "a": 117.25,
+   "b": 119.92,
+   "clip": "s03_platform_back",
+   "src": 4.2,
+   "look": "aura",
+   "fx": "diagonal",
+   "soft": true
+  },
+  {
+   "id": "crowd2",
+   "a": 119.92,
+   "b": 121.68,
+   "clip": "s04_crowd_cross",
+   "src": 11.0,
+   "look": "plain",
+   "soft": true
+  },
+  {
+   "id": "neon",
+   "a": 121.68,
+   "b": 123.6,
+   "clip": "s13_neon_rain",
+   "src": 1.5,
+   "look": "aura",
+   "fx": "diagonal",
+   "frame": {
+    "z": 1.3,
+    "x": 170,
+    "flip": true
+   }
+  },
+  {
+   "id": "desk2",
+   "a": 123.6,
+   "b": 125.64,
+   "clip": "s10_night_desk",
+   "src": 9.0,
+   "look": "aura"
+  },
+  {
+   "id": "close",
+   "a": 125.64,
+   "b": 130.2,
+   "clip": "s14_close_laptop",
+   "src": 8.92,
+   "look": "fade",
+   "fx": "logoff"
+  }
+ ]
+}

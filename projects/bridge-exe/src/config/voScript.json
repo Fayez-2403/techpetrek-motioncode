@@ -1,0 +1,93 @@
+{
+ "_doc": "BRIDGE.EXE reel VO: the user's 10 lines (prompt §13), wording kept except where the picture would make a line untrue (line 6 names the change actually shown: truss height). Liam, Turbo v2.5, hi. Each line owns a window [t0, t1) and starts at t0 + lead. 'cap' = Roman Hinglish caption, 'tts' = what the voice reads (Devanagari Hindi + English words). Windows = the reel's sections on the 120 BPM grid (scripts/audio/timing_bridge.py writes SCENE_TIMINGS.json from them + the measured takes).",
+ "voice": {
+  "provider": "elevenlabs",
+  "voiceId": "TX3LPaxmHKxFdv7VOQHJ",
+  "name": "Liam",
+  "model": "eleven_turbo_v2_5",
+  "language": "hi",
+  "stability": 0.35,
+  "similarity": 0.78,
+  "style": 0.35,
+  "boost": true,
+  "speed": 1.12,
+  "seed": 5
+ },
+ "lead": 0.1,
+ "reel": [
+  {
+   "id": "v01",
+   "t0": 0,
+   "t1": 4,
+   "lead": 0.05,
+   "speed": 1.18,
+   "cap": "Bhai, AI se bridge model banwaya… phir uspar LOAD TEST chala diya!",
+   "tts": "भाई, AI से bridge model बनवाया… फिर उस पर LOAD TEST चला दिया!",
+   "margin": 0.05
+  },
+  {
+   "id": "v02",
+   "t0": 4,
+   "t1": 11,
+   "cap": "Ye hai BRIDGE.EXE — Claude Opus 5.5 ke saath bani ek interactive engineering lab.",
+   "tts": "ये है Bridge dot E X E — Claude Opus five point five के साथ बनी एक interactive engineering lab."
+  },
+  {
+   "id": "v03",
+   "t0": 11,
+   "t1": 18,
+   "cap": "Span aur truss ki geometry badlo, members drag karo… poora 3D model update!",
+   "tts": "Span और truss की geometry बदलो, members drag करो… पूरा three-D model update!"
+  },
+  {
+   "id": "v04",
+   "t0": 18,
+   "t1": 26,
+   "cap": "Ab load set karo, aur actual structural solver run karo — sirf animation nahi.",
+   "tts": "अब load set करो, और actual structural solver run करो — सिर्फ़ animation नहीं."
+  },
+  {
+   "id": "v05",
+   "t0": 26,
+   "t1": 35,
+   "cap": "Dekho deflection, member forces, aur supports par reactions — sab model par visible.",
+   "tts": "देखो deflection, member forces, और supports पर reactions — सब model पर visible."
+  },
+  {
+   "id": "v06",
+   "t0": 35,
+   "t1": 44,
+   "cap": "Truss ki height badlo… aur dono results compare karo. Kya difference hai!",
+   "tts": "ट्रस की height बदलो… और दोनों results compare करो. क्या difference है!",
+   "seed": 7
+  },
+  {
+   "id": "v07",
+   "t0": 44,
+   "t1": 50,
+   "cap": "Aur Claude scripts likhke CAD aur reporting workflow bhi automate kar sakta hai.",
+   "tts": "और Claude scripts लिखकर CAD और reporting workflow भी automate कर सकता है."
+  },
+  {
+   "id": "v08",
+   "t0": 50,
+   "t1": 57,
+   "cap": "Ek cinematic collapse mode bhi hai… lekin ye game effect hai, engineering prediction nahi!",
+   "tts": "एक cinematic collapse mode भी है… लेकिन ये game effect है, engineering prediction नहीं!"
+  },
+  {
+   "id": "v09",
+   "t0": 57,
+   "t1": 63,
+   "cap": "Real engineering decisions? Woh qualified engineers ko hi verify karne honge.",
+   "tts": "Real engineering decisions? वो qualified engineers को ही verify करने होंगे."
+  },
+  {
+   "id": "v10",
+   "t0": 63,
+   "t1": 70,
+   "cap": "Civil engineers aur CAD users — comment karo CIVIL! Main tools aur repo links share karunga.",
+   "tts": "Civil engineers और CAD users — comment करो CIVIL! मैं tools और repo links share करूँगा."
+  }
+ ]
+}

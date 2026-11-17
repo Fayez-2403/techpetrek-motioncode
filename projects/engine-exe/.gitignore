@@ -1,0 +1,2 @@
+# build output and captures (rebuild: node scripts/build.mjs)
+teardown-out/

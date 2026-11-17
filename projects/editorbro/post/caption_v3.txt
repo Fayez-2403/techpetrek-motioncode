@@ -1,0 +1,20 @@
+Ye GTA 6 ka trailer nahi hai. 🎮🔥
+Highway, truck, billboard, palm trees… ek bhi frame camera se nahi aaya. Poora scene CODE hai.
+
+Meet EditorBro: mera poora motion studio, ek repo mein.
+Main bas prompt likhta hoon. Claude Code baaki sab karta hai:
+⚡ 64 skills
+⚡ 1 pipeline
+⚡ 12 quality gates
+⚡ 20+ reels: 3D films, cartoons, data stories, product ads
+⚡ 9 live demo websites: store, food app, delivery tracking, E2EE chat, automation & more
+
+No timeline. No keyframes. No plugins.
+Bas prompt → render.
+
+👉 Live demo: editorbro.vercel.app
+👉 Repo chahiye? Comment "EDITOR" and I'll DM you the link 📩
+
+Fork karo. Clone karo. BUILD YOUR OWN studio. 🚀
+
+#EditorBro #ClaudeCode #AI #MotionDesign #ThreeJS #Remotion #CreativeCoding #OpenSource #VideoEditing #ContentCreator #TechPeTrek #GTA6

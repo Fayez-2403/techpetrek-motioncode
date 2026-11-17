@@ -21,7 +21,7 @@ function sitPose(c: Clip): Pose {
   p.root.set([0, 8.6, -1.2]);
   return p;
 }
-const qa = new THREE.Quaternion(), qb = new THREE.Quaternion();
+const qa = new THREE.Quaternion(), qb = new THREE.Quaternion(), fwd = new THREE.Vector3();
 function blendPose(a: Pose, b: Pose, w: number, out: Pose) {
   for (let j = 0; j < a.q.length; j += 4) {
     qa.set(a.q[j], a.q[j + 1], a.q[j + 2], a.q[j + 3]); qb.set(b.q[j], b.q[j + 1], b.q[j + 2], b.q[j + 3]); qa.slerp(qb, w);
@@ -49,7 +49,8 @@ export const Performers: React.FC<{ skeleton: Clip }> = ({ skeleton }) => {
     for (const [id, av] of map) if (!performers.find((p) => p.id === id)) { g.remove(av); map.delete(id); }
     performers.forEach((p) => {
       let av = map.get(p.id);
-      if (av && av.look.body !== p.look.body && ((av.look.body === 'stylized' || av.look.body === 'anime') !== (p.look.body === 'stylized' || p.look.body === 'anime'))) {   // proportions change: rebuild
+      const toy = (l: typeof p.look) => l.body === 'stylized' || l.body === 'anime';
+      if (av && (toy(av.look) !== toy(p.look) || (av.look.height ?? 1) !== (p.look.height ?? 1))) {   // proportions change: rebuild the skeleton
         g.remove(av); map.delete(p.id); faceOf.current.delete(p.id); av = undefined;
       }
       if (!av) { av = new Avatar(skeleton, p.look); map.set(p.id, av); g.add(av); lookOf.current.set(p.id, JSON.stringify(p.look)); }
@@ -59,12 +60,8 @@ export const Performers: React.FC<{ skeleton: Clip }> = ({ skeleton }) => {
         faceOf.current.set(p.id, p.faceId);
         const slot = av.faceSlot; slot.clear();
         const rec = faces.find((f) => f.id === p.faceId);
+        av.setPhoto(!!rec);   // no photo: the avatar's own drawn face (eyes, brows, mouth) shows
         if (rec) void faceMesh(rec).then((m) => { if (faceOf.current.get(p.id) === rec.id) slot.add(m); });
-        else {   // default face: calm stylized eyes + mouth
-          const eyeM = new THREE.MeshStandardMaterial({ color: '#15130f', roughness: 0.3 });
-          for (const x of [-0.033, 0.033]) { const e = new THREE.Mesh(new THREE.SphereGeometry(0.011, 10, 8), eyeM); e.position.set(x, 0.016, 0.0); e.scale.set(1, 1.35, 0.6); slot.add(e); }
-          const mouth = new THREE.Mesh(new THREE.TorusGeometry(0.018, 0.004, 6, 16, Math.PI), eyeM); mouth.position.set(0, -0.035, 0); mouth.rotation.z = Math.PI; slot.add(mouth);
-        }
       }
     });
   }, [performers, faces, skeleton]);
@@ -74,7 +71,7 @@ export const Performers: React.FC<{ skeleton: Clip }> = ({ skeleton }) => {
     const office = s.world === 'office' && s.officeIntro;
     s.performers.forEach((p, i) => {
       const av = avatars.current.get(p.id); if (!av) return;
-      const c = cue(kind, s.performers, i, AF.b, AF.dropBeat);
+      const c = cue(kind, s.performers, i, AF.b, AF.dropBeat, s.turnBeats, s.turnAt);
       const clip = getClip(c.style) ?? getClip('hiphop'); if (!clip) return;
       av.calibrate(clip, (t) => { clipPose(clip, t / clip.beat, pose, clip.beat); return pose; });
       clipPose(clip, AF.b + c.beatOffset, pose, AF.beatLen);
@@ -92,7 +89,10 @@ export const Performers: React.FC<{ skeleton: Clip }> = ({ skeleton }) => {
       } else av.apply(clip, pose);
       // arrival: a newly added dancer drops in from above and lands decelerating (no fade, no grow-from-zero)
       let y = 0; if (p.spawnBeat !== undefined) { const u = Math.max(0, Math.min(1, (AF.b - p.spawnBeat) / 1.2)); y = 3.2 * (1 - u) ** 3; av.visible = AF.b >= p.spawnBeat; } else av.visible = true;
-      av.position.set(x, y, z); av.rotation.y = yaw; av.tick(AF.t);
+      if (s.faceFront) {   // the hips' heading from this pose (pure), cancelled; travel pinned
+        const h = av.bones[0]; fwd.set(0, 0, 1).applyQuaternion(h.quaternion); yaw -= Math.atan2(fwd.x, fwd.z); h.position.x = 0; h.position.z = 0;
+      }
+      av.position.set(x, y, z); av.rotation.y = yaw; av.seed = i; av.tick(AF.t, AF.b, c.rap ?? 0);
     });
   });
   return <group ref={root} />;

@@ -1,0 +1,143 @@
+1
+00:00:00,000 --> 00:00:00,956
+Ek solo developer.
+
+2
+00:00:01,486 --> 00:00:03,069
+Aur 49 AI roles?!
+
+3
+00:00:03,080 --> 00:00:04,442
+Game studio ka structure…
+
+4
+00:00:04,508 --> 00:00:05,545
+Claude Code mein.
+
+5
+00:00:06,058 --> 00:00:07,443
+Ye open-source Game Studios
+
+6
+00:00:07,440 --> 00:00:08,291
+template hai.
+
+7
+00:00:09,057 --> 00:00:10,605
+Ismein directors aur department
+
+8
+00:00:10,624 --> 00:00:11,290
+leads hain.
+
+9
+00:00:12,076 --> 00:00:12,730
+Aur coding,
+
+10
+00:00:12,900 --> 00:00:14,680
+art, audio ke specialists.
+
+11
+00:00:15,045 --> 00:00:16,407
+QA aur production ke
+
+12
+00:00:16,415 --> 00:00:17,231
+roles bhi.
+
+13
+00:00:18,053 --> 00:00:19,903
+Repository mein 49 specialized
+
+14
+00:00:19,899 --> 00:00:20,889
+agents listed hain.
+
+15
+00:00:21,043 --> 00:00:22,730
+Aur 74 workflow skills
+
+16
+00:00:22,750 --> 00:00:23,601
+documented hain.
+
+17
+00:00:24,080 --> 00:00:24,966
+Fifteen hooks,
+
+18
+00:00:25,020 --> 00:00:26,173
+fourteen rules bhi.
+
+19
+00:00:27,080 --> 00:00:28,303
+Game idea pehle define
+
+20
+00:00:28,276 --> 00:00:28,848
+karo.
+
+21
+00:00:30,048 --> 00:00:31,619
+Phir tasks aur milestones
+
+22
+00:00:31,615 --> 00:00:32,188
+banao.
+
+23
+00:00:33,080 --> 00:00:34,546
+Agents alag domains review
+
+24
+00:00:34,543 --> 00:00:35,313
+karte hain.
+
+25
+00:00:36,076 --> 00:00:37,798
+Demo: ek chhota platformer
+
+26
+00:00:37,806 --> 00:00:38,680
+imagine karo.
+
+27
+00:00:39,080 --> 00:00:40,036
+Bug mile toh QA
+
+28
+00:00:40,009 --> 00:00:40,895
+card red ho.
+
+29
+00:00:42,080 --> 00:00:43,663
+Lekin 49 employees hire
+
+30
+00:00:43,636 --> 00:00:44,220
+nahi hue!
+
+31
+00:00:45,080 --> 00:00:46,604
+Aur one-click finished game
+
+32
+00:00:46,589 --> 00:00:47,313
+bhi nahi.
+
+33
+00:00:48,080 --> 00:00:49,117
+Claude usage costs aur
+
+34
+00:00:49,137 --> 00:00:50,359
+permissions check karo.
+
+35
+00:00:51,077 --> 00:00:51,905
+Next game ke liye
+
+36
+00:00:51,925 --> 00:00:53,031
+comment STUDIO.

@@ -8,6 +8,7 @@ import { AbsoluteFill, Img, OffthreadVideo, Sequence, staticFile } from 'remotio
 import { clamp, easeInCubic, easeOutQuint, invLerp } from '../animation/anim';
 import cfg from '../config/demos.json';
 import { C, FONT } from '../themes/tokens';
+import { toNew } from '../config/warp';
 import { SceneProps } from './index';
 
 interface Demo { slug: string; name: string; niche: string; accent: string; at: number; ready: boolean }
@@ -82,7 +83,7 @@ export const Websites: React.FC<SceneProps> = ({ f, t0 }) => {
 
       {/* one phone per spoken niche, each in its own Sequence so its clip starts when it appears */}
       {T < T_WALL + 0.15 ? PHONES.map((d, i) => {
-        const from = Math.round((d.at - 0.05 - t0) * 60), to = Math.round(((PHONES[i + 1]?.at ?? T_WALL + 0.2) - 0.05 - t0) * 60);
+        const from = Math.round((toNew(d.at - 0.05) - toNew(t0)) * 60), to = Math.round((toNew((PHONES[i + 1]?.at ?? T_WALL + 0.2) - 0.05) - toNew(t0)) * 60);
         const dive = easeOutQuint(invLerp(d.at - 0.05, d.at + 0.35, T));
         return (
           <Sequence key={d.slug} from={from} durationInFrames={to - from} layout="none">
@@ -102,7 +103,7 @@ export const Websites: React.FC<SceneProps> = ({ f, t0 }) => {
 
       {/* the wall of all nine */}
       {inWall && T < T_LAPTOPS + 0.35 ? (
-        <Sequence from={Math.round((T_WALL - t0) * 60)} layout="none">
+        <Sequence from={Math.round((toNew(T_WALL) - toNew(t0)) * 60)} layout="none">
         <AbsoluteFill style={{ perspective: 1800 }}>
           <div style={{ position: 'absolute', left: 30, top: 300, width: 1020, display: 'grid', gridTemplateColumns: 'repeat(3, 1fr)', gap: 22, justifyItems: 'center',
             transform: `rotateY(${-8 + 16 * clamp(invLerp(T_WALL, T_LAPTOPS, T))}deg) rotateX(6deg) scale(${1.25 - 0.25 * easeOutQuint(invLerp(T_WALL, T_WALL + 0.6, T))})` }}>

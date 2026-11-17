@@ -1,0 +1,156 @@
+{
+ "_doc": "reel seconds; written by scripts/audio/mix.py",
+ "end": 48.1086,
+ "cues": [
+  {
+   "t": 0.048,
+   "type": "vo",
+   "id": "h1",
+   "dur": 2.447
+  },
+  {
+   "t": 2.52,
+   "type": "vo",
+   "id": "h2",
+   "dur": 1.216
+  },
+  {
+   "t": 3.792,
+   "type": "vo",
+   "id": "l1",
+   "dur": 3.6
+  },
+  {
+   "t": 7.44,
+   "type": "vo",
+   "id": "l2",
+   "dur": 2.102
+  },
+  {
+   "t": 9.6,
+   "type": "vo",
+   "id": "l3",
+   "dur": 2.151
+  },
+  {
+   "t": 13.44,
+   "type": "vo",
+   "id": "l4",
+   "dur": 1.692
+  },
+  {
+   "t": 17.28,
+   "type": "vo",
+   "id": "l5",
+   "dur": 2.3
+  },
+  {
+   "t": 29.529,
+   "type": "vo",
+   "id": "l6",
+   "dur": 2.23
+  },
+  {
+   "t": 35.679,
+   "type": "vo",
+   "id": "l7",
+   "dur": 3.382
+  },
+  {
+   "t": 42.349,
+   "type": "vo",
+   "id": "l8",
+   "dur": 2.253
+  },
+  {
+   "t": 45.229,
+   "type": "vo",
+   "id": "l9",
+   "dur": 1.821
+  },
+  {
+   "t": 0.0,
+   "type": "slam"
+  },
+  {
+   "t": 9.6,
+   "type": "round",
+   "seg": "A",
+   "beat": 20
+  },
+  {
+   "t": 17.28,
+   "type": "round",
+   "seg": "B",
+   "beat": 0
+  },
+  {
+   "t": 23.28,
+   "type": "round",
+   "seg": "C",
+   "beat": 0
+  },
+  {
+   "t": 29.529,
+   "type": "round",
+   "seg": "D",
+   "beat": 0
+  },
+  {
+   "t": 35.679,
+   "type": "round",
+   "seg": "E",
+   "beat": 0
+  },
+  {
+   "t": 42.349,
+   "type": "round",
+   "seg": "F",
+   "beat": 0
+  },
+  {
+   "t": 1.92,
+   "type": "pop"
+  },
+  {
+   "t": 2.4,
+   "type": "pop"
+  },
+  {
+   "t": 2.88,
+   "type": "pop"
+  },
+  {
+   "t": 3.36,
+   "type": "pop"
+  },
+  {
+   "t": 3.84,
+   "type": "tap"
+  },
+  {
+   "t": 4.32,
+   "type": "tap"
+  },
+  {
+   "t": 4.8,
+   "type": "tap"
+  },
+  {
+   "t": 5.28,
+   "type": "tap"
+  },
+  {
+   "t": 5.76,
+   "type": "tap"
+  },
+  {
+   "t": 6.24,
+   "type": "tap"
+  },
+  {
+   "t": 6.72,
+   "type": "tap"
+  }
+ ]
+}

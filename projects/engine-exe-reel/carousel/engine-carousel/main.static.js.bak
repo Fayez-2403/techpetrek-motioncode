@@ -1,0 +1,179 @@
+// ENGINE.EXE carousel: 4 slides, 4:5 (540 x 675 layout, 1080 x 1350 at dpr 2), no voice. Every picture is the
+// simulator's own engine posed by engineStateAt(); every number on a slide is the model's or a measured test result
+// (projects/engine-exe/docs/VALIDATION.md). window.SLIDE(n) draws slide n (1-4); render.mjs screenshots it.
+import {warmComposer} from 'teardown-kit/warm.js';
+import {CONFIG} from '../../../engine-exe/sim/engine-shared/config.js';
+import {DISPLACEMENT_CC, engineStateAt} from '../../../engine-exe/sim/engine-shared/kin.js';
+import {createStage} from '../../../engine-exe/sim/engine-shared/stage.js';
+
+const W = 540;
+const H = 675;
+const D2R = Math.PI / 180;
+const C = {ink: '#15171a', mute: '#7c8085', accent: '#c8692e', soft: 'rgba(200,105,46,.12)', paper: '#f1f1ee', blue: '#3f86da', exh: '#8a817a'};
+const HL = {INTAKE: ['intake', 'piston'], COMPRESSION: ['piston'], POWER: ['piston', 'plug', 'crank'], EXHAUST: ['exhaust', 'piston']};
+
+const css = document.createElement('style');
+css.textContent = `
+html,body{margin:0;background:${C.paper};overflow:hidden}
+#app{position:fixed;left:0;top:0;width:${W}px;height:${H}px;overflow:hidden;font-family:Inter,system-ui,sans-serif;color:${C.ink};-webkit-font-smoothing:antialiased;font-variant-numeric:tabular-nums;background:${C.paper}}
+#gl{position:absolute;left:0;top:0;width:${W}px;height:${H}px}
+.L{position:absolute;inset:0;pointer-events:none}
+.mono{font-family:'JetBrains Mono',monospace}
+.glow{text-shadow:0 0 18px ${C.paper},0 0 8px ${C.paper},0 0 3px ${C.paper}}
+.pill{display:inline-flex;align-items:center;gap:7px;height:24px;padding:0 10px;border:1px solid #dcdcd7;background:rgba(255,255,255,.9);font-size:10px;font-weight:700;letter-spacing:1.4px}
+.dot{width:6px;height:6px;border-radius:50%;background:${C.accent}}
+.page{position:absolute;right:22px;top:24px;font-size:10px;font-weight:700;letter-spacing:1.6px;color:${C.mute}}
+.call{position:absolute;white-space:nowrap}
+.call b{display:block;font-size:13.5px;font-weight:750}
+.call span{display:block;font-size:9px;font-weight:650;letter-spacing:1.2px;color:${C.mute};margin-top:2px}
+.chip{display:inline-block;border:1.5px solid ${C.ink};background:rgba(255,255,255,.92);font-size:15px;font-weight:750;padding:5px 10px}
+`;
+document.head.appendChild(css);
+const app = document.getElementById('app');
+const canvas = document.createElement('canvas');
+canvas.id = 'gl';
+app.appendChild(canvas);
+const layer = document.createElement('div');
+layer.className = 'L';
+app.appendChild(layer);
+const st = createStage({canvas});
+const PR = devicePixelRatio || 1;
+st.resize(W, H, PR);
+
+const ops0 = {cut: 0, xray: 0, explode: 0, solo: null, fade: 0, hl: [], hlK: 0, arrows: 1, charge: 1};
+const V = (tx, ty, tz, az, el, d, sy = 0, sx = 0) => ({tx, ty, tz, az: az * D2R, el: el * D2R, d, sx, sy, fit: 1});
+const pose = (theta, cam, ops = {}) => {
+  const s = engineStateAt(theta, CONFIG.rpm.default);
+  st.frame(s, cam, {...ops0, ...ops});
+  return s;
+};
+const at = (key) => {
+  const p = st.eng.anchorAt(key);
+  return p && st.project(p.x, p.y, p.z);
+};
+// a leader from a part to a label in a side column
+const callouts = (list, x0 = 22, x1 = W - 22, w = 150) => {
+  let svg = `<svg class="L" width="${W}" height="${H}">`;
+  let html = '';
+  const placed = {l: [], r: []};
+  for (const [key, name, sub, side] of list) {
+    const a = at(key);
+    if (!a) continue;
+    const right = side === 'r';
+    let y = a[1] - 30;
+    for (const py of placed[right ? 'r' : 'l']) if (Math.abs(py - y) < 40) y = py + 40;
+    placed[right ? 'r' : 'l'].push(y);
+    const lx = right ? x1 - w : x0 + w;
+    svg += `<circle cx="${a[0].toFixed(1)}" cy="${a[1].toFixed(1)}" r="3.2" fill="${C.accent}"/><polyline points="${a[0].toFixed(1)},${a[1].toFixed(1)} ${lx},${y + 31} ${right ? lx + w : lx - w},${y + 31}" fill="none" stroke="#5e6267" stroke-width="1"/>`;
+    html += `<div class="call glow" style="left:${right ? lx : lx - w}px;top:${y - 4}px;width:${w}px;text-align:${right ? 'left' : 'right'}"><b>${name}</b><span>${sub}</span></div>`;
+  }
+  return svg + '</svg>' + html;
+};
+const head = (n) => `<div class="L"><div style="position:absolute;left:22px;top:22px" class="pill"><i class="dot"></i>ENGINE.EXE</div><div class="page">${n} / 4</div></div>`;
+
+const SLIDES = {
+  // 1 · the cover: the instant of combustion, inside the cut
+  1: () => {
+    pose(372, V(0, 0.15, 0, 19, 6, 0.9, 205, 92), {cut: 1, hl: HL.POWER, hlK: 1});
+    layer.innerHTML =
+      head(1) +
+      `<div class="L glow" style="top:66px;left:26px;right:26px">
+        <div style="font-size:13px;font-weight:750;letter-spacing:3px;color:${C.accent}">NOT A RENDER. A SIMULATION.</div>
+        <div style="font-size:50px;font-weight:860;letter-spacing:-2px;line-height:.98;margin-top:8px">Claude built<br>this <span style="color:${C.accent}">engine.</span></div>
+        <div style="font-size:15px;font-weight:600;line-height:1.38;color:#33363b;margin-top:12px;max-width:330px">Every part moves from one physics model.<br>Not one frame animated by hand.</div>
+      </div>
+      <div class="L" style="top:auto;bottom:22px;left:22px;right:22px;display:flex;justify-content:space-between;align-items:flex-end">
+        <div class="mono glow" style="font-size:11px;font-weight:600;color:#3b3e43;line-height:1.55">θ 372° · POWER STROKE<br>${CONFIG.rpm.default} RPM · ${DISPLACEMENT_CC.toFixed(0)} CC SINGLE</div>
+        <div style="background:${C.ink};color:#fff;font-size:12px;font-weight:750;letter-spacing:2px;padding:9px 14px">SWIPE →</div>
+      </div>`;
+  },
+  // 2 · one angle drives everything
+  2: () => {
+    const s = pose(100, V(0, 0.13, 0, 20, 8, 1.2, 56, -62), {cut: 1});
+    layer.innerHTML =
+      head(2) +
+      `<div class="L glow" style="top:62px;left:26px;right:26px">
+        <div style="font-size:34px;font-weight:850;letter-spacing:-1.2px;line-height:1.02">One number<br>moves <span style="color:${C.accent}">everything.</span></div>
+        <div style="font-size:13px;font-weight:600;color:#3b3e43;margin-top:8px">The crank angle θ. The rest is calculated.</div>
+      </div>` +
+      callouts([
+        ['cam', 'Camshaft', `${s.camAngle.toFixed(0)}° = θ ÷ 2`, 'r'],
+        ['intake', 'Intake valve', `${s.intakeLift.toFixed(2)} MM LIFT`, 'l'],
+        ['piston', 'Piston', `${s.pistonPosition.toFixed(1)} MM FROM TDC`, 'l'],
+        ['rod', 'Connecting rod', `${s.rodAngle >= 0 ? '+' : '−'}${Math.abs(s.rodAngle).toFixed(1)}° · L ${CONFIG.rod} MM`, 'r'],
+        ['crankPin', 'Crankshaft', `θ = ${s.crankAngle.toFixed(0)}° · r ${CONFIG.stroke / 2} MM`, 'r'],
+      ]) +
+      `<div class="L" style="top:auto;bottom:22px;left:22px;right:22px;background:rgba(255,255,255,.94);border:1px solid #dcdcd7;padding:10px 14px">
+        <div style="font-size:9.5px;font-weight:750;letter-spacing:1.6px;color:${C.mute}">EXACT SLIDER-CRANK</div>
+        <div class="mono" style="font-size:16px;font-weight:600;margin-top:4px">x = r·cosθ + √(l² − r²·sin²θ)</div>
+      </div>`;
+  },
+  // 3 · the four strokes, each posed by the model at its angle
+  3: () => {
+    const tiles = [
+      [95, 'INTAKE', '01', (s) => `INTAKE LIFT ${s.intakeLift.toFixed(2)} MM`],
+      [300, 'COMPRESSION', '02', () => 'BOTH VALVES SHUT'],
+      [372, 'POWER', '03', () => `SPARK AT ${360 - CONFIG.sparkAdvance}°`],
+      [630, 'EXHAUST', '04', (s) => `EXHAUST LIFT ${s.exhaustLift.toFixed(2)} MM`],
+    ];
+    const tw = 246;
+    const th = 226;
+    st.resize(tw, th, PR);
+    const imgs = tiles.map(([theta, phase]) => {
+      pose(theta, V(0, 0.15, 0, 14, 5, 0.98, 14), {cut: 1, hl: HL[phase], hlK: 1});
+      return {url: canvas.toDataURL('image/png'), s: engineStateAt(theta)};
+    });
+    st.resize(W, H, PR);
+    pose(0, V(0, 5, 0, 0, 89, 0.5));
+    // blank the big canvas behind the grid (the paper colour comes from the page)
+    canvas.style.visibility = 'hidden';
+    layer.innerHTML =
+      head(3) +
+      `<div class="L" style="top:62px;left:26px;right:26px">
+        <div style="font-size:34px;font-weight:850;letter-spacing:-1.2px;line-height:1.02">Ek. Do. Teen. <span style="color:${C.accent}">Chaar.</span></div>
+        <div style="font-size:13px;font-weight:600;color:#3b3e43;margin-top:8px">Four strokes in 720°. Every frame posed by the model.</div>
+      </div>
+      <div class="L" style="top:150px;bottom:auto;left:18px;right:18px;display:grid;grid-template-columns:${tw}px ${tw}px;grid-auto-rows:${th}px;align-content:start;gap:12px;justify-content:center">
+        ${tiles
+          .map(([theta, phase, n, sub], i) => `<div style="position:relative;width:${tw}px;height:${th}px;background:#ecece8;border:1px solid #deded9;overflow:hidden">
+          <img src="${imgs[i].url}" style="width:${tw}px;height:${th}px;display:block">
+          <div class="glow" style="position:absolute;left:10px;top:8px"><span style="font-size:26px;font-weight:850;color:${C.accent};letter-spacing:-1px">${n}</span> <span style="font-size:14px;font-weight:800">${phase.charAt(0) + phase.slice(1).toLowerCase()}</span></div>
+          <div class="mono" style="position:absolute;left:8px;bottom:8px;font-size:9.5px;font-weight:650;color:#33363b;background:rgba(255,255,255,.92);border:1px solid #dcdcd7;padding:3px 6px">θ ${theta}° · ${sub(imgs[i].s)}</div>
+        </div>`)
+          .join('')}
+      </div>
+      <div class="L" style="top:auto;bottom:22px;left:26px;right:26px;font-size:10.5px;font-weight:650;letter-spacing:.6px;color:${C.mute}">Valve timing IO 710° · IC 220° · EO 500° · EC 10° · cam at exactly ½ crank speed. Ignition is illustrative.</div>`;
+  },
+  // 4 · the ask: any machine, with the receipts
+  4: () => {
+    canvas.style.visibility = '';
+    pose(150, V(0, 0.2, 0, 38, 15, 2.25, 6, 108), {explode: 1});
+    layer.innerHTML =
+      head(4) +
+      `<div class="L glow" style="top:62px;left:26px;right:26px">
+        <div style="font-size:44px;font-weight:860;letter-spacing:-1.8px;line-height:1">Any machine.<br><span style="color:${C.accent}">Same physics.</span></div>
+        <div style="display:flex;gap:7px;margin-top:14px;flex-wrap:wrap"><span class="chip">Gearbox</span><span class="chip">Pump</span><span class="chip">Landing gear</span></div>
+      </div>
+      <div class="L" style="top:auto;bottom:118px;left:22px;right:22px;display:flex;gap:8px;z-index:2">
+        ${[
+          ['42/42', 'CHECKS PASSED'],
+          ['< 10⁻¹³ mm', 'ROD ERROR, 720 POSES'],
+          ['826 KB', 'ONE OFFLINE FILE'],
+        ]
+          .map(([a, b]) => `<div style="flex:1;background:rgba(255,255,255,.94);border:1px solid #dcdcd7;padding:8px 10px"><div class="mono" style="font-size:16px;font-weight:700">${a}</div><div style="font-size:8.6px;font-weight:700;letter-spacing:1.2px;color:${C.mute};margin-top:3px">${b}</div></div>`)
+          .join('')}
+      </div>
+      <div class="L" style="top:auto;bottom:0;left:0;right:0;height:104px;background:rgba(241,241,238,.97);border-top:1px solid #dcdcd7"></div>
+      <div class="L" style="top:auto;bottom:22px;left:22px;right:22px;display:flex;align-items:center;justify-content:space-between">
+        <div><div style="font-size:12px;font-weight:750;letter-spacing:2.6px">COMMENT</div><div style="background:${C.accent};color:#fff;font-size:34px;font-weight:860;letter-spacing:1px;padding:2px 12px 4px;margin-top:4px;display:inline-block">ENGINE</div></div>
+        <div style="text-align:right;font-size:10px;font-weight:650;letter-spacing:1px;color:#4a4d52;line-height:1.5">GET A SIMULATOR LIKE THIS<br><span style="color:${C.mute}">Built with Claude Code + the teardown skill</span></div>
+      </div>`;
+  },
+};
+
+window.SLIDE = async (n) => {
+  SLIDES[n]();
+  await document.fonts.ready;
+  return true;
+};
+warmComposer(st.renderer, st.composer, st.scene, st.camera, [{materials: st.eng.twins, target: st.composer.renderTarget1, lights: st.scene}]).then(() => (window.READY = true));

@@ -1,0 +1,6 @@
+commit 5dbea55c23aa6a5c93dc3cfb5583840513b56b94 (2026-11-01), MIT, github.com/artemnovitckii/claude-animation-skills
+
+Local changes (Windows, this machine): python3 -> python in skills/*/SKILL.md and kit/setup.sh (python3 here is the Microsoft Store stub).
+Installed by linking each skills/<name> into .claude/skills/<name> (junctions) + kit/setup.sh.
+kit/anim.py: npx resolved with shutil.which (Windows needs npx.cmd).
+kit/anim.py: on Windows, HYPERFRAMES_BROWSER_PATH defaults to the installed Google Chrome (the bundled headless shell timed out here).

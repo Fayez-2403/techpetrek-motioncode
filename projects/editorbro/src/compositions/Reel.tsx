@@ -10,6 +10,7 @@ import { sceneFor } from '../scenes';
 import { C } from '../themes/tokens';
 import { clamp, easeInOutCubic } from '../animation/anim';
 import { noise1 } from '../animation/rng';
+import { toOld } from '../config/warp';
 
 interface Scene { id: string; from: number; durationInFrames: number }
 const SC: Scene[] = (TIMINGS as unknown as { variants: { reel: { scenes: Scene[] } } }).variants.reel.scenes;
@@ -21,7 +22,7 @@ const KIND: Record<string, Kind> = { prompt: 'scan', pipeline: 'flash', montage:
 const CAP_TOP: Record<string, number> = { hook: 1440, flip: 1440, prompt: 1500, pipeline: 1470, montage: 1440, websites: 1470, docs: 1460, cta: 1500 };
 const KEYWORD = /^(editorbro|editor|64|12|20\+?|code|fork|clone)/i;
 
-export const Reel: React.FC = () => {
+export const Reel: React.FC<{ captions?: boolean }> = ({ captions = true }) => {
   const frame = useCurrentFrame();
   const i = Math.max(0, SC.findIndex((s) => frame >= s.from && frame < s.from + s.durationInFrames));
   const s = SC[i], S = sceneFor(s.id);
@@ -30,16 +31,18 @@ export const Reel: React.FC = () => {
   const kind = (frame - prevCut < nextCut - frame ? KIND[s.id] : next && KIND[next.id]) ?? 'cut';
   const mix = (audio as { reel: string | null }).reel;
   const push = s.id === 'hook' || s.id === 'flip' ? 0.015 : 0.035;   // the captured world has its own camera
+  // scenes were authored on the v1 timeline: give them v1 time (toOld), plus the real v3 time for the v3 scenes
+  const T3 = frame / 60, t0old = toOld(s.from / 60), Told = toOld(T3);
   return (
     <AbsoluteFill style={{ background: C.base }}>
       <AbsoluteFill style={{ transformOrigin: '540px 900px', transform: `scale(${1 + push * easeInOutCubic(clamp((frame - s.from) / s.durationInFrames))}) `
         + `translate(${5 * noise1(frame / 50, 11)}px, ${4 * noise1(frame / 55, 12)}px) rotate(${0.2 * noise1(frame / 70, 13)}deg)` }}>
         <Sequence from={s.from} durationInFrames={s.durationInFrames} layout="none">
-          <S f={frame - s.from} n={s.durationInFrames} id={s.id} t0={s.from / 60} />
+          <S f={(Told - t0old) * 60} n={s.durationInFrames} id={s.id} t0={t0old} T3={T3} t0new={s.from / 60} />
         </Sequence>
       </AbsoluteFill>
       <Transition kind={kind} k={k} />
-      <Captions keyword={KEYWORD} top={CAP_TOP[s.id] ?? 1440} />
+      {captions ? <Captions keyword={KEYWORD} top={CAP_TOP[s.id] ?? 1440} /> : null}
       {mix ? <Audio src={staticFile(mix)} /> : null}
     </AbsoluteFill>
   );

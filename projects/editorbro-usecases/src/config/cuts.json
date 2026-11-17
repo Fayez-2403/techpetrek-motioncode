@@ -1,0 +1,131 @@
+{
+ "shots": [
+  {
+   "at": 2.1,
+   "dur": 0.5,
+   "file": "clips/q_00.mp4",
+   "label": "one prompt"
+  },
+  {
+   "at": 2.6,
+   "dur": 0.5,
+   "file": "clips/q_01.mp4",
+   "label": "brand site"
+  },
+  {
+   "at": 3.1,
+   "dur": 0.501,
+   "file": "clips/q_02.mp4",
+   "label": "64 skills"
+  },
+  {
+   "at": 3.601,
+   "dur": 0.5,
+   "file": "clips/q_03.mp4",
+   "label": "e-commerce"
+  },
+  {
+   "at": 4.101,
+   "dur": 0.5,
+   "file": "clips/q_04.mp4",
+   "label": "12 gates"
+  },
+  {
+   "at": 4.601,
+   "dur": 0.5,
+   "file": "clips/q_05.mp4",
+   "label": "food app"
+  },
+  {
+   "at": 5.101,
+   "dur": 0.5,
+   "file": "clips/q_06.mp4",
+   "label": "live tracking"
+  },
+  {
+   "at": 5.601,
+   "dur": 0.5,
+   "file": "clips/q_07.mp4",
+   "label": "data story"
+  },
+  {
+   "at": 6.101,
+   "dur": 0.5,
+   "file": "clips/q_08.mp4",
+   "label": "loyalty app"
+  },
+  {
+   "at": 6.601,
+   "dur": 0.5,
+   "file": "clips/q_09.mp4",
+   "label": "E2EE chat"
+  },
+  {
+   "at": 7.101,
+   "dur": 0.5,
+   "file": "clips/q_10.mp4",
+   "label": "product film"
+  },
+  {
+   "at": 7.601,
+   "dur": 0.5,
+   "file": "clips/q_11.mp4",
+   "label": "automation"
+  },
+  {
+   "at": 8.101,
+   "dur": 0.5,
+   "file": "clips/q_12.mp4",
+   "label": "corporate site"
+  },
+  {
+   "at": 8.601,
+   "dur": 0.5,
+   "file": "clips/q_13.mp4",
+   "label": "20+ reels"
+  },
+  {
+   "at": 9.101,
+   "dur": 0.5,
+   "file": "clips/q_14.mp4",
+   "label": "WordPress"
+  },
+  {
+   "at": 9.601,
+   "dur": 0.501,
+   "file": "clips/q_15.mp4",
+   "label": "3D product"
+  },
+  {
+   "at": 10.102,
+   "dur": 0.5,
+   "file": "clips/q_16.mp4",
+   "label": "9 websites"
+  },
+  {
+   "at": 10.602,
+   "dur": 0.5,
+   "file": "clips/q_17.mp4",
+   "label": "real encryption"
+  },
+  {
+   "at": 11.102,
+   "dur": 0.5,
+   "file": "clips/q_18.mp4",
+   "label": "checkout"
+  },
+  {
+   "at": 11.602,
+   "dur": 0.5,
+   "file": "clips/q_19.mp4",
+   "label": "prompt \u2192 render"
+  }
+ ],
+ "intro": [
+  0.0,
+  2.1
+ ],
+ "cta": {
+  "at": 12.102
+ }
+}

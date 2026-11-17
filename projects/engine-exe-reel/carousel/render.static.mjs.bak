@@ -1,0 +1,29 @@
+// Builds the carousel page and renders the 4 slides at 1080 x 1350 (4:5).   node carousel/render.mjs [--dpr 2]
+import {execFileSync} from 'node:child_process';
+import fs from 'node:fs';
+import os from 'node:os';
+import path from 'node:path';
+import {createRequire} from 'node:module';
+import {fileURLToPath, pathToFileURL} from 'node:url';
+
+const HERE = path.dirname(fileURLToPath(import.meta.url));
+const ROOT = path.resolve(HERE, '..');
+const SKILL = process.env.TEARDOWN_SKILL || path.join(os.homedir(), '.claude', 'skills', 'teardown');
+const OUT = path.join(HERE, 'out');
+execFileSync(process.execPath, [path.join(SKILL, 'sims', 'build.mjs'), path.join(HERE, 'engine-carousel')], {cwd: ROOT, stdio: 'inherit', env: {...process.env, TEARDOWN_OUT: OUT}});
+const {chromium} = createRequire(path.join(SKILL, 'x.js'))('playwright');
+const dpr = Number(process.argv.includes('--dpr') ? process.argv[process.argv.indexOf('--dpr') + 1] : 2);
+const browser = await chromium.launch({args: [...(process.platform === 'win32' ? ['--use-angle=d3d11'] : []), '--force_high_performance_gpu', '--ignore-gpu-blocklist', '--hide-scrollbars']});
+const page = await browser.newPage({viewport: {width: 540, height: 675}, deviceScaleFactor: dpr});
+page.on('pageerror', (e) => console.error('[page]', e.message));
+await page.goto(pathToFileURL(path.join(OUT, 'dist', 'engine-carousel.html')).href);
+await page.waitForFunction(() => window.READY, null, {timeout: 120000});
+for (let n = 1; n <= 4; n++) {
+  await page.evaluate((n) => window.SLIDE(n), n);
+  await page.waitForTimeout(300);
+  const f = path.join(OUT, `engine_carousel_${n}.png`);
+  await page.screenshot({path: f, timeout: 120000});
+  console.log(`→ ${f}`);
+}
+await browser.close();
+fs.rmSync(path.join(OUT, 'dist'), {recursive: true, force: true});

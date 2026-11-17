@@ -1,0 +1,99 @@
+{
+ "tolerance": 1e-06,
+ "pynite": "3.2.1",
+ "numpy": "2.5.3",
+ "worst": 1.992264839067851e-11,
+ "rows": [
+  {
+   "fixture": "beam_city",
+   "check": "TS beam FE vs closed form",
+   "deflection": 1.8530285506080388e-11,
+   "reactions": 1.992264839067851e-11
+  },
+  {
+   "fixture": "howe_6p_vehicle",
+   "runId": "R001-4fb46070",
+   "members": 21,
+   "dof": 21,
+   "numpy": {
+    "disp": 3.348186553185311e-15,
+    "axial": 5.122180381193756e-15,
+    "reactions": 1.302554874887453e-15
+   },
+   "cond": 720.716058846787,
+   "pynite": {
+    "disp": 2.1146441388538695e-15,
+    "axial": 4.268483650994769e-15,
+    "reactions": 1.7910129529702457e-15
+   }
+  },
+  {
+   "fixture": "pratt_aluminium",
+   "runId": "R001-ddf3d08b",
+   "members": 29,
+   "dof": 29,
+   "numpy": {
+    "disp": 4.635838437201213e-15,
+    "axial": 6.380195562918685e-15,
+    "reactions": 8.364533671139e-15
+   },
+   "cond": 1105.5634169360828,
+   "pynite": {
+    "disp": 2.1247592837172096e-15,
+    "axial": 5.336163561713775e-15,
+    "reactions": 1.0804189325221168e-14
+   }
+  },
+  {
+   "fixture": "pratt_default",
+   "runId": "R001-0c7b4727",
+   "members": 29,
+   "dof": 29,
+   "numpy": {
+    "disp": 5.781833089995624e-16,
+    "axial": 2.69189691096466e-15,
+    "reactions": 8.084784992769771e-15
+   },
+   "cond": 1105.563416936071,
+   "pynite": {
+    "disp": 3.0836443146643237e-15,
+    "axial": 7.799598742025792e-15,
+    "reactions": 2.07172615439725e-14
+   }
+  },
+  {
+   "fixture": "pratt_dragged",
+   "runId": "R001-8aca952b",
+   "members": 29,
+   "dof": 29,
+   "numpy": {
+    "disp": 6.3462934942711684e-15,
+    "axial": 8.438516129994737e-15,
+    "reactions": 6.7237517126928076e-15
+   },
+   "cond": 856.3217613392808,
+   "pynite": {
+    "disp": 1.2692586988542258e-14,
+    "axial": 1.4814283872657318e-14,
+    "reactions": 9.58134619058721e-15
+   }
+  },
+  {
+   "fixture": "warren_10p_tall",
+   "runId": "R001-a6810ccc",
+   "members": 39,
+   "dof": 39,
+   "numpy": {
+    "disp": 6.147808985636522e-15,
+    "axial": 8.85650167349072e-15,
+    "reactions": 1.465466315944308e-14
+   },
+   "cond": 1360.3028296794364,
+   "pynite": {
+    "disp": 2.755914372871534e-15,
+    "axial": 5.964582759697805e-15,
+    "reactions": 5.763069781803437e-15
+   }
+  }
+ ]
+}

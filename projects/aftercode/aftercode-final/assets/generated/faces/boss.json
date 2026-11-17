@@ -1,0 +1,22 @@
+{
+ "cmd": "image",
+ "request": {
+  "model": "nano-banana-2",
+  "input": {
+   "output_format": "jpg",
+   "prompt": "Photorealistic passport-style headshot of a fictional man, about 45, medium tan skin, short black hair styled up in a quiff, light stubble, assertive confident expression, charcoal business suit, white shirt, no tie. Looking straight into the camera, head and shoulders centered, face fully visible, eyes open, no glasses, no hat, even soft studio light, plain light-grey background, sharp focus. An invented person who does not resemble any real celebrity, politician or public figure.",
+   "aspect_ratio": "3:4",
+   "resolution": "1K"
+  }
+ },
+ "task": "e81d9922350cad09654d07096158e224",
+ "files": [
+  "projects\\aftercode\\aftercode-final\\assets\\generated\\faces\\boss.jpg"
+ ],
+ "urls": [
+  "https://tempfile.aiquickdraw.com/workers/images/image_69937566cd6df60b49980d31c0dbc740.jpg"
+ ],
+ "date": "2026-11-01T14:52:24",
+ "via": "Open Higgsfield AI (kie.ai)",
+ "label": "AI-generated"
+}

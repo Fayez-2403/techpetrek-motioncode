@@ -1,0 +1,16 @@
+Claude built this engine in code. Not one part was animated by hand. 🔧
+
+One crank angle (0–720°) drives everything: piston, rod, crankshaft, camshaft, both valves, chain and flywheel, all from exact physics.
+• Piston: exact slider-crank, x = r·cosθ + √(l² − r²·sin²θ)
+• Camshaft: exactly half crank speed
+• Cam lobes: calculated from the valve timing, not drawn
+• 42/42 validation checks passed · rod error < 10⁻¹³ mm across 720 poses
+• The whole simulator: one 826 KB offline HTML file
+
+A generic 148 cc educational engine (illustrative model; ignition and pressure are illustrative).
+Built with Claude Code + the teardown skill.
+
+Gearbox? Pump? Landing gear? Want a simulator like this for your machine?
+👉 Comment "ENGINE"
+
+#claude #claudecode #anthropic #engineering #mechanicalengineering #4stroke #engine #simulation #threejs #techpetrek

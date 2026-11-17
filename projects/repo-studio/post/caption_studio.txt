@@ -1,0 +1,11 @@
+=== CAPTION (Hinglish) ===
+BREAKING 🚨 Ek chhote se AI bot ne 16 free repos se poora motion studio khada kar diya!
+3D (Blender, Three.js) · numbers (NumPy, Numba, SciPy) · motion (GSAP, Remotion, Puppeteer) · sound (Tone.js, Pedalboard, pyloudnorm) · checks (OpenCV, Pillow, faster-whisper) · ship (FFmpeg) + ReportLab ka PDF.
+15 GitHub repos, 615,035 stars (GitHub API, 3 Nov 2026) — aur sab free.
+Har repo ka page asli hai, bot fan-made hai, aur ye poori reel code mein bani hai.
+Comment "STUDIO" — poora stack + prompt pack DM karunga 📩
+Stack list via @0xwhrrari
+#MotionDesign #ClaudeCode #OpenSource #CreativeCoding #TechpeTrek
+
+=== PINNED COMMENT ===
+Comment STUDIO 🎬 for the 16-repo stack list + the prompt pack. Which repo should the bot stomp next?

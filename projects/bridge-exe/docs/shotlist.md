@@ -1,0 +1,16 @@
+# Shot list / storyboard (from SCENE_TIMINGS.json)
+
+| # | Section | Time | VO (caption) | Picture (app ?reel=1) | Overlay |
+|---|---|---|---|---|---|
+| S01 | hook | 0–4 s | Bhai, AI se bridge model banwaya… phir uspar LOAD TEST chala diya! | flash-forward: run R001 in the load-path lens (thickness ∝ |N|, red compression / cyan tension), sag eases in ×40; high 3/4 over the dark gorge, push-in then freeze | AI × BRIDGE ENGINEERING?! · LOAD TEST · REAL SOLVER |
+| S02 | reveal | 4–11 s | Ye hai BRIDGE.EXE — Claude Opus 5.5 ke saath bani ek interactive engineering lab. | crane from the river up through the mist to the default 48 m Pratt; dimension labels appear | BRIDGE.EXE title on the spoken word |
+| S03 | geometry | 11–18 s | Span aur truss ki geometry badlo, members drag karo… poora 3D model update! | span slider 48→56 m (one 2 m step per beat), cursor grabs T4 and drags it up 1.75 m in 0.25 m snaps (one per eighth) | DRAG • DESIGN • MODIFY; slider + joint cards |
+| S04 | load | 18–26 s | Ab load set karo, aur actual structural solver run karo — sirf animation nahi. | truck drives in from the approach road and parks at midspan; load card; cursor presses RUN; status SOLVED; result card with R001 numbers; music drops out | REAL SOLVER OUTPUT |
+| S05 | lenses | 26–35 s | Dekho deflection, member forces, aur supports par reactions — sab model par visible. | deformation ×40 with ghost on "deflection", axial on "forces", load path + reactions on "reactions", then axial from below with TC3/BC4/D1 value tags | DEFLECTION • FORCES • REACTIONS; legend; lower third |
+| S06 | compare | 35–44 s | Truss ki height badlo… aur dono results compare karo. Kya difference hai! | split screen top A (h 6 m, R001) / bottom B (h 8 m, R002), same camera, deformation ×40; delta card −33 % / +8 % / proxy check | A vs B — MODEL COMPARISON |
+| S07 | cad | 44–50 s | Aur Claude scripts likhke CAD aur reporting workflow bhi automate kar sakta hai. | member and joint IDs on the model, then the real artifact cards: truss.ts, crosscheck.py, IFC read-back, CSV | AI → CAD → SOLVER → REPORT; "real files from this project" |
+| S08 | arcade | 50–57 s | Ek cinematic collapse mode bhi hai… lekin ye game effect hai, engineering prediction nahi! | ARCADE: 66 Rapier bodies break from panel 5 outward, camera rides the break-panel deck piece into the gorge, dust and splashes | STYLIZED FAILURE — NOT AN ENGINEERING PREDICTION (throughout) |
+| S09 | evidence | 57–63 s | Real engineering decisions? Woh qualified engineers ko hi verify karne honge. | calm 3/4 of design A in axial with reactions; evidence card: run, hash, DOF, equilibrium, PyNite cross-check | EDUCATIONAL SIMULATION |
+| S10 | cta | 63–70 s | Civil engineers aur CAD users — comment karo CIVIL! Main tools aur repo links share karunga. | golden-hour orbit of the bridge from the far side, sun behind | CIVIL ENGINEERS & CAD USERS · COMMENT “CIVIL” · logo |
+
+Every number shown is read from runs R001 / R002 (web/src/reel/ReelMode.tsx). Captions: word-level, Roman Hinglish, from the takes' alignment.

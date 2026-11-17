@@ -8,6 +8,7 @@ import { clamp, easeOutQuint, invLerp } from '../animation/anim';
 import { mulberry32 } from '../animation/rng';
 import edl from '../config/montage.json';
 import { C, FONT } from '../themes/tokens';
+import { toNew } from '../config/warp';
 import { SceneProps } from './index';
 
 interface Clip { id: string; at: number; dur: number }
@@ -45,10 +46,10 @@ export const Montage: React.FC<SceneProps> = ({ f, t0 }) => {
   return (
     <AbsoluteFill style={{ background: '#0B0B0C' }}>
       {CLIPS.map((c) => {
-        const from = Math.round((c.at - t0) * 60), dur = Math.round(c.dur * 60);
+        const from = Math.round((toNew(c.at) - toNew(t0)) * 60), dur = Math.round((toNew(c.at + c.dur) - toNew(c.at)) * 60);
         return (
           <Sequence key={c.id} from={from} durationInFrames={dur} layout="none">
-            <Punch src={`clips/m_${c.id}.mp4`} frames={f - from} />
+            <Punch src={`clips/m_${c.id}.mp4`} frames={(T - c.at) * 60} />
           </Sequence>
         );
       })}

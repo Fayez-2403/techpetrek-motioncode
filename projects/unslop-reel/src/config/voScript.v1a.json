@@ -1,0 +1,127 @@
+{
+ "_doc": "UNSLOP VO: Liam (Turbo v2.5, hi). Facts: docs/factcheck.md (README, GitHub API, Daily Launch). Windows re-laid by timing_unslop.py.",
+ "voice": {
+  "provider": "elevenlabs",
+  "voiceId": "TX3LPaxmHKxFdv7VOQHJ",
+  "name": "Liam",
+  "model": "eleven_turbo_v2_5",
+  "language": "hi",
+  "stability": 0.3,
+  "similarity": 0.82,
+  "style": 0.55,
+  "boost": true,
+  "speed": 1.12,
+  "seed": 21
+ },
+ "lead": 0.06,
+ "reel": [
+  {
+   "id": "v01",
+   "t0": 0.0,
+   "t1": 2.5,
+   "cap": "AI website sab ek jaisi kyun lagti hai?!",
+   "tts": "AI website सब एक जैसी क्यों लगती है?!",
+   "speed": 1.12,
+   "lead": 0.05
+  },
+  {
+   "id": "v02",
+   "t0": 2.5,
+   "t1": 6.25,
+   "cap": "Purple gradient, random glow, emoji labels… bhai bas karo!",
+   "tts": "Purple gradient, random glow, emoji labels… भाई बस करो!",
+   "lead": 0.08
+  },
+  {
+   "id": "v03",
+   "t0": 6.25,
+   "t1": 11.25,
+   "cap": "Ye hai unslop — Claude Code aur Codex ke liye ek open skill.",
+   "tts": "ये है अन-स्लॉप — Claude Code और Codex के लिए एक open skill.",
+   "lead": 0.08
+  },
+  {
+   "id": "v04",
+   "t0": 11.25,
+   "t1": 17.0,
+   "cap": "Pehle audit: spacing, color, icons, copy aur type — har slop kahan hai, list karta hai.",
+   "tts": "पहले audit: spacing, color, icons, copy और type — हर स्लॉप कहाँ है, list करता है.",
+   "lead": 0.08,
+   "speed": 1.2
+  },
+  {
+   "id": "v05",
+   "t0": 17.0,
+   "t1": 20.75,
+   "cap": "Phir tumhare product se design direction set karta hai — edit se pehle.",
+   "tts": "फिर तुम्हारे product से design direction set करता है — edit से पहले.",
+   "lead": 0.08
+  },
+  {
+   "id": "v06",
+   "t0": 20.75,
+   "t1": 26.75,
+   "cap": "Humne isi repo ke example dashboard pe unslop chalaya — ye hamara run hai, guaranteed output nahi.",
+   "tts": "हमने इसी repo के example dashboard पर अन-स्लॉप चलाया — ये हमारा run है, guaranteed output नहीं.",
+   "seed": 33,
+   "lead": 0.08
+  },
+  {
+   "id": "v07",
+   "t0": 26.75,
+   "t1": 31.25,
+   "cap": "Dekho: purple gaya, spacing 4px grid pe aayi, emoji gaye, copy saaf.",
+   "tts": "देखो: purple गया, spacing four pixel grid पे आई, emoji गए, copy साफ़.",
+   "lead": 0.08
+  },
+  {
+   "id": "v08",
+   "t0": 31.25,
+   "t1": 37.0,
+   "cap": "Ye video bhi isi skill ka story mode hai — Playwright aur ffmpeg se, square, das second se kam.",
+   "tts": "ये video भी इसी skill का story mode है — Playwright और ffmpeg से, square, दस second से कम.",
+   "lead": 0.08,
+   "speed": 1.2
+  },
+  {
+   "id": "v09",
+   "t0": 37.0,
+   "t1": 41.75,
+   "cap": "React, Vue, Svelte, Tailwind ya plain HTML — sab pe chalta hai.",
+   "tts": "React, Vue, Svelte, Tailwind या plain HTML — सब पे चलता है.",
+   "lead": 0.08
+  },
+  {
+   "id": "v10",
+   "t0": 41.75,
+   "t1": 46.5,
+   "cap": "Daily Launch ke mutabik 4 November ko lagbhag 1.2k naye stars.",
+   "tts": "Daily Launch के मुताबिक़ four November को लगभग twelve hundred नए stars.",
+   "lead": 0.08
+  },
+  {
+   "id": "v11",
+   "t0": 46.5,
+   "t1": 52.5,
+   "cap": "License CC BY 4.0 — creator Damir Sokolovsky ko credit dena zaroori hai.",
+   "tts": "License CC BY four point zero — creator Damir Sokolovsky को credit देना ज़रूरी है.",
+   "lead": 0.08
+  },
+  {
+   "id": "v12",
+   "t0": 52.5,
+   "t1": 55.75,
+   "cap": "Par taste abhi bhi tumhara hai — final review khud karo.",
+   "tts": "पर taste अभी भी तुम्हारा है — final review खुद करो.",
+   "lead": 0.08
+  },
+  {
+   "id": "v13",
+   "t0": 55.75,
+   "t1": 59.583,
+   "cap": "Comment karo DESIGN — repo aur setup steps bhejta hoon!",
+   "tts": "Comment करो DESIGN — repo और setup steps भेजता हूँ!",
+   "lead": 0.08
+  }
+ ]
+}

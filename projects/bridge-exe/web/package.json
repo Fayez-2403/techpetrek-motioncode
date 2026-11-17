@@ -1,0 +1,33 @@
+{
+  "name": "bridge-exe",
+  "private": true,
+  "type": "module",
+  "description": "BRIDGE.EXE: an educational 3D bridge-design lab. A tested 2D truss / beam solver drives every number and colour in a cinematic gorge world.",
+  "scripts": {
+    "dev": "vite --port 54250",
+    "build": "tsc --noEmit && vite build",
+    "check": "tsc --noEmit",
+    "test": "bun test"
+  },
+  "dependencies": {
+    "@dimforge/rapier3d-compat": "0.12.0",
+    "@react-three/drei": "10.7.9",
+    "@react-three/fiber": "9.8.2",
+    "@react-three/postprocessing": "3.0.4",
+    "postprocessing": "6.37.6",
+    "react": "19.3.1",
+    "react-dom": "19.3.1",
+    "three": "0.186.1",
+    "zustand": "5.0.16"
+  },
+  "devDependencies": {
+    "@types/bun": "latest",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "@types/three": "0.186.0",
+    "@vitejs/plugin-react": "6.1.2",
+    "playwright-core": "^1.63.0",
+    "typescript": "5.9.2",
+    "vite": "8.3.5"
+  }
+}

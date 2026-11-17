@@ -1,0 +1,115 @@
+1
+00:00:00,050 --> 00:00:02,154
+Ek fake job interview… aur
+
+2
+00:00:02,154 --> 00:00:04,612
+$6.34 BILLION ka crypto hack?!
+
+3
+00:00:04,830 --> 00:00:07,397
+Binance ki Nov 3 report:
+
+4
+00:00:07,397 --> 00:00:09,535
+Oct 29 ko $6.34B ke
+
+5
+00:00:09,535 --> 00:00:11,482
+assets impact hue.
+
+6
+00:00:11,580 --> 00:00:13,112
+June mein ek engineer ne
+
+7
+00:00:13,171 --> 00:00:14,923
+AI coding tool dhoondhte hue
+
+8
+00:00:14,982 --> 00:00:16,830
+tampered tool install kar liya.
+
+9
+00:00:16,830 --> 00:00:18,698
+September mein doosre ko fake
+
+10
+00:00:18,698 --> 00:00:21,047
+'Project Director' mila interview, fake
+
+11
+00:00:21,047 --> 00:00:22,580
+CEO, aur ek 'assignment'.
+
+12
+00:00:22,580 --> 00:00:24,136
+Us assignment mein malicious code
+
+13
+00:00:24,136 --> 00:00:26,411
+tha. Oct 20 ko attackers
+
+14
+00:00:26,411 --> 00:00:28,907
+ne internal AI tool ko springboard banaya.
+
+15
+00:00:29,037 --> 00:00:30,616
+Ruko AI ne khud chori
+
+16
+00:00:30,616 --> 00:00:32,487
+nahi ki; attackers ne uska
+
+17
+00:00:32,487 --> 00:00:33,924
+access misuse kiya.
+
+18
+00:00:34,066 --> 00:00:36,143
+Oct 29: hot wallet se
+
+19
+00:00:36,143 --> 00:00:39,074
+18,270 bitcoin attacker ke paas.
+
+20
+00:00:39,074 --> 00:00:41,971
+Lagbhag $2.85B freeze ya intercept
+
+21
+00:00:41,971 --> 00:00:45,308
+hue aur nuksaan Binance khud uthayega.
+
+22
+00:00:45,330 --> 00:00:47,246
+FBI ne North Korea-linked group
+
+23
+00:00:47,246 --> 00:00:48,952
+ko blame kiya; North Korea
+
+24
+00:00:48,952 --> 00:00:50,069
+inkaar karta hai.
+
+25
+00:00:50,069 --> 00:00:52,158
+Lesson: interview assignment ho ya
+
+26
+00:00:52,158 --> 00:00:53,882
+GitHub repo work laptop par
+
+27
+00:00:53,882 --> 00:00:55,815
+unknown code mat chalao. Sandbox
+
+28
+00:00:55,815 --> 00:00:56,792
+mein test karo.
+
+29
+00:00:56,792 --> 00:01:00,053
+Comment karo SAFE poori checklist DM karunga!

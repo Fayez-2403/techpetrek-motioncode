@@ -51,7 +51,7 @@ const Burst: React.FC<{ T: number }> = ({ T }) => {
 
 const FORKS = ['you/EditorBro', 'your-team/EditorBro', 'your-studio/EditorBro'];
 
-export const Cta: React.FC<SceneProps> = ({ f, t0 }) => {
+export const Cta: React.FC<SceneProps> = ({ f, t0, road = true }) => {
   const T = t0 + f / 60;
   return (
     <AbsoluteFill style={{ background: C.base, overflow: 'hidden' }}>
@@ -92,7 +92,7 @@ export const Cta: React.FC<SceneProps> = ({ f, t0 }) => {
         </div>
       ) : null}
       {/* back on the road: the sign says FORK IT */}
-      <Sequence from={Math.round((T_ROAD - t0) * 60)} layout="none">
+      {road ? <Sequence from={Math.round((T_ROAD - t0) * 60)} layout="none">
         <AbsoluteFill>
           <OffthreadVideo src={staticFile('clips/highway_cta.mp4')} muted style={{ width: 1080, height: 1920 }} />
           <Land T={T} at={53.08} from={1.25} style={{ position: 'absolute', top: 250, left: 0, right: 0, textAlign: 'center' }}>
@@ -103,7 +103,7 @@ export const Cta: React.FC<SceneProps> = ({ f, t0 }) => {
             </div>
           </Land>
         </AbsoluteFill>
-      </Sequence>
+      </Sequence> : null}
     </AbsoluteFill>
   );
 };

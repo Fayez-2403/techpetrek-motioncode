@@ -1,0 +1,9 @@
+unslop by Damir Sokolovsky (@heydamir), https://github.com/heydamir/unslop
+Vendored 2026-11-04 at commit a6f121eee5f29c2f74976b75456feae8b66afb3a (2026-11-01). License: CC BY 4.0 (LICENSE).
+Reviewed before install: SKILL.md + references are markdown; scripts/snapshot.mjs (Playwright page save) and
+scripts/story.mjs (local 127.0.0.1 server + Playwright frames + ffmpeg) make no remote calls beyond the page being snapshot.
+Linked into the project as .claude/skills/unslop -> tools/unslop/skills/unslop (Windows junction).
+Windows: the scripts look for Chrome only at macOS/Linux paths, so run them with
+  CHROME_PATH="C:/Program Files/Google/Chrome/Application/chrome.exe"
+Credit rule (license): every video made with it carries "unslop by @heydamir" and links back to the repo.
+No local changes to the skill files.

@@ -1,0 +1,111 @@
+{
+ "url": "https://www.binance.bh/en/blog/community/3229153443759566763",
+ "captured": "2026-11-04",
+ "H": 3999,
+ "boxes": {
+  "title": {
+   "x": 40,
+   "y": 162,
+   "w": 750.46875,
+   "h": 76,
+   "para": {
+    "x": 40,
+    "y": 160,
+    "w": 890,
+    "h": 80
+   },
+   "text": "29 October 2026 Binance Security Incident: Initial Findings and Response Update"
+  },
+  "date": {
+   "x": 40,
+   "y": 259,
+   "w": 70.578125,
+   "h": 16,
+   "para": {
+    "x": 40,
+    "y": 256,
+    "w": 890,
+    "h": 22
+   },
+   "text": "2026-11-03"
+  },
+  "absorb": {
+   "x": 422.359375,
+   "y": 882.0625,
+   "w": 190.328125,
+   "h": 17,
+   "para": {
+    "x": 40,
+    "y": 882.0625,
+    "w": 886.359375,
+    "h": 65
+   },
+   "text": "Our first responsibility is to protect users. Binance will absorb the financial impact of the stolen funds, not our users. We have already set aside more than 100% of the funds required to cover the loss. As of 31 October 2026, 98% of the impacted token assets have been replenished and are verifiabl"
+  },
+  "impacted": {
+   "x": 145.8125,
+   "y": 990.0625,
+   "w": 114.734375,
+   "h": 17,
+   "para": {
+    "x": 40,
+    "y": 990.0625,
+    "w": 864.453125,
+    "h": 41
+   },
+   "text": "Approximately USD 6.34 billion in digital assets were impacted by the incident. As of this update, approximately USD 2.85 billion in digital assets have been frozen or intercepted, subject to reconciliation and market price volatility."
+  },
+  "frozen": {
+   "x": 40,
+   "y": 990.0625,
+   "w": 864.453125,
+   "h": 41,
+   "para": {
+    "x": 40,
+    "y": 990.0625,
+    "w": 864.453125,
+    "h": 41
+   },
+   "text": "Approximately USD 6.34 billion in digital assets were impacted by the incident. As of this update, approximately USD 2.85 billion in digital assets have been frozen or intercepted, subject to reconciliation and market price volatility."
+  },
+  "btc": {
+   "x": 208.984375,
+   "y": 1640.0625,
+   "w": 85.390625,
+   "h": 17,
+   "para": {
+    "x": 40,
+    "y": 1640.0625,
+    "w": 500.734375,
+    "h": 17
+   },
+   "text": "Binance hot wallet sent 18,270 BTC to an attacker-controlled address."
+  },
+  "interview": {
+   "x": 759.890625,
+   "y": 2726.0625,
+   "w": 141.421875,
+   "h": 17,
+   "para": {
+    "x": 60,
+    "y": 2726.0625,
+    "w": 872.515625,
+    "h": 89
+   },
+   "text": "Software Engineer B was contacted through a legitimate job-hunting platform by an individual posing as a Project Director. Software Engineer B had a profile on the platform that referenced his experience at Binance. The purported Project Director arranged a first-round interview with a HR representa"
+  },
+  "aitool": {
+   "x": 234.359375,
+   "y": 3398.0625,
+   "w": 206.359375,
+   "h": 17,
+   "para": {
+    "x": 60,
+    "y": 3374.0625,
+    "w": 869.828125,
+    "h": 89
+   },
+   "text": "The attacker leveraged the compromised computer of engineer B and used an internal AI tool to gain control over the Wallet DevOps Engineer A and another Wallet Software Engineer C. The attacker soon discovered Wallet DevOps Engineer A had a container deployment permission token on his computer."
+  }
+ }
+}

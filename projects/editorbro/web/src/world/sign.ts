@@ -167,6 +167,32 @@ function props(g: CanvasRenderingContext2D) {
   g.restore();
 }
 
+// v3: the LED screen's poster, painted in the world (so the truck and palms occlude it like any real object).
+// Portrait 9:16: "NOW SHOWING / welcome to / Editor Bro / PROMPT · BUILD · RENDER", with an LED dot grid on top.
+export async function paintPoster(): Promise<HTMLCanvasElement> {
+  await document.fonts.load('900 100px Fraunces');
+  await document.fonts.load('italic 400 60px Fraunces');
+  const W = 576, H = 1024, cv = document.createElement('canvas');
+  cv.width = W; cv.height = H;
+  const g = cv.getContext('2d')!;
+  const bg = g.createRadialGradient(W / 2, H * 0.42, 40, W / 2, H * 0.42, H * 0.7);
+  bg.addColorStop(0, '#0f3a3a'); bg.addColorStop(1, '#041214');
+  g.fillStyle = bg; g.fillRect(0, 0, W, H);
+  g.textAlign = 'center'; g.textBaseline = 'alphabetic';
+  g.font = '600 28px "JetBrains Mono", monospace'; g.fillStyle = '#1FE5C8';
+  g.fillText('N O W   S H O W I N G', W / 2, 140);
+  g.font = 'italic 400 54px Fraunces'; g.fillStyle = '#F4F1EA';
+  g.fillText('welcome to', W / 2, 330);
+  paintedText(g, 'Editor', W / 2, 480, 150);
+  paintedText(g, 'Bro', W / 2, 620, 150);
+  g.font = '800 34px Fraunces'; g.fillStyle = '#F4F1EA'; g.textAlign = 'center';
+  g.fillText('PROMPT · BUILD · RENDER', W / 2, 740);
+  g.fillStyle = '#FF3B30'; g.beginPath(); g.arc(W / 2, 900, 14, 0, Math.PI * 2); g.fill();
+  g.fillStyle = 'rgba(0,0,0,0.35)';
+  for (let y = 0; y < H; y += 4) for (let x = 0; x < W; x += 4) g.fillRect(x + 2, y + 2, 2, 2);
+  return cv;
+}
+
 // 'welcome' opens the reel; 'cta' closes it (the band says FORK IT, the painted line under the oval is the repo URL).
 export async function paintSign(variant: 'welcome' | 'cta' = 'welcome'): Promise<HTMLCanvasElement> {
   await document.fonts.load('900 100px Fraunces');

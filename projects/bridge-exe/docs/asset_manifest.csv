@@ -1,0 +1,10 @@
+chapter,asset,post_url,creator,file_path,start,end,rights,credit,screenshot,verified_label
+all,app capture preview (?reel=1),,TechpeTrek (our app),public/clips/bridge_capture_preview.mp4,0,70,owned,TechpeTrek,,real app render; scripted input
+all,voice-over (10 lines in the mix),,ElevenLabs Liam (licensed TTS),audio/out/lines.json,0,70,licensed (channel ElevenLabs plan),ElevenLabs,,AI voice
+all,score + SFX + voice mix,,original synthesis (scripts/audio/mix_bridge.py),public/audio/mix_bridge.wav,0,70,owned,TechpeTrek,,original
+all,music-only master,,original synthesis,public/audio/music_only_bridge.wav,0,70,owned,TechpeTrek,,original
+cad,artifact cards text,,our files (truss.ts / crosscheck.py / IFC / CSV),src/config/artifacts.json,44,50,owned,TechpeTrek,,real files re-typeset
+cta+cover,TechpeTrek logo,,channel,public/brand/techpe-trek.jpg,63,70,owned,TechpeTrek,,
+cover,cover plate CAD,,our app,public/cover/cad.png,,,owned,TechpeTrek,,real app render
+cover,cover plate forces,,our app,public/cover/force.png,,,owned,TechpeTrek,,real app render (solver run R001)
+all,fonts Inter / Archivo / JetBrains Mono,,Rasmus Andersson / Omnibus-Type / JetBrains,public/fonts,,,OFL-1.1,SIL OFL (licence files in folder),,

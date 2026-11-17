@@ -1,0 +1,165 @@
+{
+ "fetched": "2026-11-03",
+ "repos": [
+  {
+   "repo": "blender/blender",
+   "stars": 21571,
+   "forks": 3485,
+   "desc": "Official mirror of Blender",
+   "lang": "C++",
+   "license": "NOASSERTION",
+   "pushed": "2026-11-03T08:46:49Z",
+   "url": "https://github.com/blender/blender"
+  },
+  {
+   "repo": "mrdoob/three.js",
+   "stars": 117464,
+   "forks": 36899,
+   "desc": "JavaScript 3D Library.",
+   "lang": "JavaScript",
+   "license": "MIT",
+   "pushed": "2026-11-03T03:46:17Z",
+   "url": "https://github.com/mrdoob/three.js"
+  },
+  {
+   "repo": "numpy/numpy",
+   "stars": 33241,
+   "forks": 13114,
+   "desc": "The fundamental package for scientific computing with Python.",
+   "lang": "Python",
+   "license": "NOASSERTION",
+   "pushed": "2026-11-03T06:27:27Z",
+   "url": "https://github.com/numpy/numpy"
+  },
+  {
+   "repo": "numba/numba",
+   "stars": 11199,
+   "forks": 1352,
+   "desc": "NumPy aware dynamic Python compiler using LLVM",
+   "lang": "Python",
+   "license": "BSD-2-Clause",
+   "pushed": "2026-11-03T06:18:57Z",
+   "url": "https://github.com/numba/numba"
+  },
+  {
+   "repo": "greensock/GSAP",
+   "stars": 30095,
+   "forks": 2328,
+   "desc": "GSAP (GreenSock Animation Platform), a JavaScript animation library for the modern web",
+   "lang": "JavaScript",
+   "license": null,
+   "pushed": "2026-04-13T13:08:58Z",
+   "url": "https://github.com/greensock/GSAP"
+  },
+  {
+   "repo": "remotion-dev/remotion",
+   "stars": 70248,
+   "forks": 5785,
+   "desc": "\ud83c\udfa5      Make videos programmatically with React",
+   "lang": "TypeScript",
+   "license": "NOASSERTION",
+   "pushed": "2026-11-03T07:16:17Z",
+   "url": "https://github.com/remotion-dev/remotion"
+  },
+  {
+   "repo": "puppeteer/puppeteer",
+   "stars": 95792,
+   "forks": 9600,
+   "desc": "JavaScript API for Chrome and Firefox",
+   "lang": "TypeScript",
+   "license": "Apache-2.0",
+   "pushed": "2026-11-02T17:57:03Z",
+   "url": "https://github.com/puppeteer/puppeteer"
+  },
+  {
+   "repo": "Tonejs/Tone.js",
+   "stars": 14877,
+   "forks": 1086,
+   "desc": "A Web Audio framework for making interactive music in the browser.",
+   "lang": "TypeScript",
+   "license": "MIT",
+   "pushed": "2026-11-01T01:18:02Z",
+   "url": "https://github.com/Tonejs/Tone.js"
+  },
+  {
+   "repo": "scipy/scipy",
+   "stars": 15179,
+   "forks": 6059,
+   "desc": "SciPy library main repository",
+   "lang": "Python",
+   "license": "BSD-3-Clause",
+   "pushed": "2026-11-02T11:28:11Z",
+   "url": "https://github.com/scipy/scipy"
+  },
+  {
+   "repo": "spotify/pedalboard",
+   "stars": 6408,
+   "forks": 366,
+   "desc": "\ud83c\udf9b \ud83d\udd0a A Python library for audio.",
+   "lang": "C++",
+   "license": "GPL-3.0",
+   "pushed": "2026-11-02T22:38:42Z",
+   "url": "https://github.com/spotify/pedalboard"
+  },
+  {
+   "repo": "csteinmetz1/pyloudnorm",
+   "stars": 789,
+   "forks": 67,
+   "desc": "Flexible audio loudness meter in Python with implementation of ITU-R BS.1770-4 loudness algorithm",
+   "lang": "Python",
+   "license": "MIT",
+   "pushed": "2026-01-04T11:43:07Z",
+   "url": "https://github.com/csteinmetz1/pyloudnorm"
+  },
+  {
+   "repo": "SYSTRAN/faster-whisper",
+   "stars": 26433,
+   "forks": 2196,
+   "desc": "Faster Whisper transcription with CTranslate2",
+   "lang": "Python",
+   "license": "MIT",
+   "pushed": "2026-11-02T11:19:13Z",
+   "url": "https://github.com/SYSTRAN/faster-whisper"
+  },
+  {
+   "repo": "opencv/opencv",
+   "stars": 91416,
+   "forks": 57085,
+   "desc": "Open Source Computer Vision Library",
+   "lang": "C++",
+   "license": "Apache-2.0",
+   "pushed": "2026-11-03T08:23:35Z",
+   "url": "https://github.com/opencv/opencv"
+  },
+  {
+   "repo": "python-pillow/Pillow",
+   "stars": 13963,
+   "forks": 2596,
+   "desc": "Python Imaging Library (fork)",
+   "lang": "Python",
+   "license": "NOASSERTION",
+   "pushed": "2026-11-03T08:15:24Z",
+   "url": "https://github.com/python-pillow/Pillow"
+  },
+  {
+   "repo": "FFmpeg/FFmpeg",
+   "stars": 66360,
+   "forks": 14516,
+   "desc": "Mirror of https://git.ffmpeg.org/ffmpeg.git",
+   "lang": "C",
+   "license": "NOASSERTION",
+   "pushed": "2026-11-03T01:49:49Z",
+   "url": "https://github.com/FFmpeg/FFmpeg"
+  },
+  {
+   "repo": "MrBitBucket/reportlab-mirror",
+   "stars": 87,
+   "forks": 41,
+   "desc": "mirror of https://hg.reportlab.com/hg-public/reportlab",
+   "lang": "Python",
+   "license": "BSD-3-Clause",
+   "pushed": "2026-10-27T08:30:05Z",
+   "url": "https://github.com/MrBitBucket/reportlab-mirror"
+  }
+ ]
+}

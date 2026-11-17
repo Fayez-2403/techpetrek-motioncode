@@ -1,0 +1,28 @@
+{
+ "_doc": "Bro & Bhai ep 01: Claude Code Game Studios. The user's master prompt (TPT-20261030-1200-01) is the spec: its 54 s VO is read VERBATIM, 18 lines in fixed 3 s slots (slot = line index * 3 s); only the speaker split is ours. 'cap' = Roman caption (the prompt's exact VO line), 'type' = the prompt's on-screen TYPE, 'tts' = what the voice reads (Devanagari Hindi + English words; numbers spoken in English, as the prompt's 'Fifteen hooks'; Claude = क्लॉड, QA = क्यू-ए, roles = रोल्स so STT hears them right). Optional per-line 'speed' / 'seed' override the speaker's. Claims: docs/factcheck.md.",
+ "slot": 3.0,
+ "voices": {
+  "bro": {"provider": "elevenlabs", "voiceId": "TX3LPaxmHKxFdv7VOQHJ", "name": "Liam", "model": "eleven_turbo_v2_5", "language": "hi", "stability": 0.4, "similarity": 0.75, "speed": 1.12, "seed": 5},
+  "bhai": {"provider": "elevenlabs", "voiceId": "24EF0KMQjr67Ax314aei", "name": "Pawan", "model": "eleven_turbo_v2_5", "language": "hi", "stability": 0.3, "similarity": 0.8, "style": 0.55, "boost": true, "speed": 1.1, "seed": 5}
+ },
+ "reel": [
+  {"id": "s01", "who": "bro",  "type": "49 AI ROLES?!",         "cap": "Ek solo developer. Aur 49 AI roles?!",               "tts": "एक solo developer. और forty-nine AI roles?!", "speed": 1.2},
+  {"id": "s02", "who": "bhai", "type": "STUDIO IN CLAUDE CODE", "cap": "Game studio ka structure… Claude Code mein.",        "tts": "Game studio का structure… क्लॉड Code में।"},
+  {"id": "s03", "who": "bro",  "type": "OPEN SOURCE TEMPLATE",  "cap": "Ye open-source Game Studios template hai.",          "tts": "ये open-source Game Studios template है।", "seed": 7},
+  {"id": "s04", "who": "bhai", "type": "DIRECTORS + LEADS",     "cap": "Ismein directors aur department leads hain.",       "tts": "इसमें directors और department leads हैं।"},
+  {"id": "s05", "who": "bro",  "type": "CODE • ART • AUDIO",    "cap": "Aur coding, art, audio ke specialists.",            "tts": "और coding, art, audio के specialists.", "seed": 7},
+  {"id": "s06", "who": "bhai", "type": "QA + PRODUCTION",       "cap": "QA aur production ke roles bhi.",                   "tts": "क्यू-ए और production के रोल्स भी।"},
+  {"id": "s07", "who": "bro",  "type": "49 AGENT ROLES",        "cap": "Repository mein 49 specialized agents listed hain.", "tts": "Repository में forty-nine specialized agents listed हैं।", "speed": 1.2},
+  {"id": "s08", "who": "bhai", "type": "74 WORKFLOW SKILLS",    "cap": "Aur 74 workflow skills documented hain.",           "tts": "और seventy-four workflow skills documented हैं।"},
+  {"id": "s09", "who": "bro",  "type": "15 HOOKS • 14 RULES",   "cap": "Fifteen hooks, fourteen rules bhi.",                "tts": "Fifteen hooks, fourteen rules भी।", "seed": 7},
+  {"id": "s10", "who": "bhai", "type": "STEP 1: GAME IDEA",     "cap": "Game idea pehle define karo.",                      "tts": "Game idea पहले define करो।", "style": 0.2, "stability": 0.45},
+  {"id": "s11", "who": "bhai", "type": "STEP 2: PLAN",          "cap": "Phir tasks aur milestones banao.",                  "tts": "फिर tasks और milestones बनाओ।"},
+  {"id": "s12", "who": "bro",  "type": "STEP 3: REVIEW",        "cap": "Agents alag domains review karte hain.",            "tts": "Agents अलग domains review करते हैं।"},
+  {"id": "s13", "who": "bro",  "type": "DEMO = ILLUSTRATIVE",   "cap": "Demo: ek chhota platformer imagine karo.",          "tts": "Demo: एक छोटा platformer imagine करो।"},
+  {"id": "s14", "who": "bhai", "type": "BUG? QA CHECK",         "cap": "Bug mile toh QA card red ho.",                      "tts": "Bug मिले तो, Q. A. card red हो!", "style": 0.25, "stability": 0.5},
+  {"id": "s15", "who": "bhai", "type": "NOT 49 EMPLOYEES",      "cap": "Lekin 49 employees hire nahi hue!",                 "tts": "लेकिन forty-nine employees hire नहीं हुए!!"},
+  {"id": "s16", "who": "bro",  "type": "NOT ONE-CLICK MAGIC",   "cap": "Aur one-click finished game bhi nahi.",             "tts": "और one-click finished game भी नहीं।"},
+  {"id": "s17", "who": "bhai", "type": "CHECK COST + ACCESS",   "cap": "Claude usage costs aur permissions check karo.",    "tts": "क्लॉड usage costs और permissions check करो!"},
+  {"id": "s18", "who": "bro",  "type": "COMMENT STUDIO",        "cap": "Next game ke liye comment STUDIO.",                 "tts": "Next game के लिए comment STUDIO."}
+ ]
+}

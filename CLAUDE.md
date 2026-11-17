@@ -8,6 +8,8 @@ Read README.md, then app/src/timeline.ts, app/src/scenes/_vo.ts and app/src/engi
 - Check work with stills: `cd app && bun scripts/render.ts stills --t <times> --only <plate> --out ../out/wip`, then look at the PNGs.
 - Do not run the full render or a 4K render without asking.
 - Explain each change in one or two sentences before you make it.
+- The quality floor is `projects/repo-studio` (ONE BOT, 16 REPOS): every reel must match or beat it. Read
+  docs/BENCHMARK_REPO_STUDIO.md first and pass its Benchmark gate before showing a preview.
 - Every new reel or video (or a remake, restyle, re-voice or render of one) goes through the `reel-pipeline` skill
   (.claude/skills/reel-pipeline/SKILL.md). It names the installed skill for each stage. Load them, and run
   `python analysis/reel_qa.py <video>` before calling a reel done.

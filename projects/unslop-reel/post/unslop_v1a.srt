@@ -1,0 +1,119 @@
+1
+00:00:00,050 --> 00:00:01,641
+AI website sab ek jaisi
+
+2
+00:00:01,641 --> 00:00:02,529
+kyun lagti hai?!
+
+3
+00:00:02,529 --> 00:00:04,538
+Purple gradient, random glow, emoji
+
+4
+00:00:04,538 --> 00:00:06,162
+labels… bhai bas karo!
+
+5
+00:00:06,330 --> 00:00:08,572
+Ye hai unslop Claude Code
+
+6
+00:00:08,572 --> 00:00:11,286
+aur Codex ke liye ek open skill.
+
+7
+00:00:11,286 --> 00:00:13,602
+Pehle audit: spacing, color, icons,
+
+8
+00:00:13,602 --> 00:00:15,309
+copy aur type har slop
+
+9
+00:00:15,309 --> 00:00:17,032
+kahan hai, list karta hai.
+
+10
+00:00:17,032 --> 00:00:18,745
+Phir tumhare product se design
+
+11
+00:00:18,745 --> 00:00:20,798
+direction set karta hai edit se pehle.
+
+12
+00:00:20,798 --> 00:00:22,406
+Humne isi repo ke example
+
+13
+00:00:22,406 --> 00:00:24,274
+dashboard pe unslop chalaya ye
+
+14
+00:00:24,274 --> 00:00:26,707
+hamara run hai, guaranteed output nahi.
+
+15
+00:00:26,814 --> 00:00:28,964
+Dekho: purple gaya, spacing 4px
+
+16
+00:00:28,964 --> 00:00:31,327
+grid pe aayi, emoji gaye, copy saaf.
+
+17
+00:00:31,327 --> 00:00:32,770
+Ye video bhi isi skill
+
+18
+00:00:32,770 --> 00:00:34,523
+ka story mode hai Playwright
+
+19
+00:00:34,523 --> 00:00:36,069
+aur ffmpeg se, square, das
+
+20
+00:00:36,069 --> 00:00:37,068
+second se kam.
+
+21
+00:00:37,068 --> 00:00:39,448
+React, Vue, Svelte, Tailwind ya
+
+22
+00:00:39,448 --> 00:00:41,830
+plain HTML sab pe chalta hai.
+
+23
+00:00:41,830 --> 00:00:43,842
+Daily Launch ke mutabik 4
+
+24
+00:00:43,842 --> 00:00:46,575
+November ko lagbhag 1.2k naye stars.
+
+25
+00:00:46,575 --> 00:00:48,840
+License CC BY 4.0 creator
+
+26
+00:00:48,840 --> 00:00:52,545
+Damir Sokolovsky ko credit dena zaroori hai.
+
+27
+00:00:52,545 --> 00:00:54,100
+Par taste abhi bhi tumhara
+
+28
+00:00:54,100 --> 00:00:55,796
+hai final review khud karo.
+
+29
+00:00:55,796 --> 00:00:57,681
+Comment karo DESIGN repo aur
+
+30
+00:00:57,681 --> 00:00:59,383
+setup steps bhejta hoon!

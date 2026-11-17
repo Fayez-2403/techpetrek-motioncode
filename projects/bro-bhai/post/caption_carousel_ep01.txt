@@ -1,0 +1,16 @@
+You don't need a full team to make a game anymore 🎮
+
+Claude Code Game Studios is an open-source template (MIT). It turns one Claude Code session into a studio:
+👉 49 AI agents in 3 tiers: directors, department leads, specialists
+👉 74 skills · 15 hooks · 14 rules
+👉 Agent sets for Godot 4, Unity and Unreal Engine 5
+👉 Start with /start: it asks where you are and picks the workflow
+
+Honest part (slide 6): the repo's author tested 4 games from 1 brief. The build that wrote 30 docs before any code was ranked LAST. More process ≠ a better game. It's a template, not a one-click game maker, and model usage is on your bill.
+
+Comment "STUDIO" and we'll DM you the repo link + a safe setup checklist 📩
+Save it for your first game. Send it to your dev dost 🤝
+
+Facts: the repo README + GitHub, checked 2 Nov 2026 (32.6K+ ★ that day). The slide 1 games are our own illustration.
+
+#claudecode #gamedev #indiedev #solodev #aitools #godot #unity #unrealengine #opensource #github #techpetrek #brobhai

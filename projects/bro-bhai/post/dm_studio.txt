@@ -1,0 +1,12 @@
+Hey! STUDIO ke liye thanks 🎮
+Repo 👉 https://github.com/Donchitos/Claude-Code-Game-Studios (MIT, open source)
+
+Safe setup checklist:
+1️⃣ Chahiye: Git, Claude Code, Python 3, Bash (Windows pe Git for Windows ke saath aata hai)
+2️⃣ git clone https://github.com/Donchitos/Claude-Code-Game-Studios.git my-game
+3️⃣ Claude Code ROOT folder mein kholo (jahan CLAUDE.md hai), subfolder mein nahi, warna hooks aur permissions skip ho jaate hain
+4️⃣ /start chalao: wo poochega tum kahan ho (idea nahi / vague / clear design) aur sahi workflow pe le jaayega
+5️⃣ Hooks, permissions aur generated code khud review karo. Model usage ka bill tumhara hai 💸
+6️⃣ Yaad rakho: 49 roles = studio structure, 49 employees nahi. Decision tumhara hi rehta hai.
+
+Bana ke tag karna! 🔥

@@ -1,0 +1,11 @@
+/* District labels floating over the 3D city */
+.wlabel { display: flex; flex-direction: column; align-items: center; gap: 1px; padding: 6px 12px 7px; border-radius: 10px; white-space: nowrap;
+  background: rgba(6, 12, 26, 0.7); border: 1px solid rgba(46, 230, 255, 0.35); color: #e8f4ff; font-family: 'Inter', system-ui, sans-serif; backdrop-filter: blur(6px); }
+.wlabel span { font-size: 10px; letter-spacing: 0.14em; font-weight: 700; opacity: 0.8; }
+.wlabel b { font-family: 'JetBrains Mono', monospace; font-size: 15px; font-weight: 800; color: #2ee6ff; font-variant-numeric: tabular-nums; }
+.wlabel.warn { border-color: rgba(255, 176, 32, 0.6); } .wlabel.warn b { color: #ffb020; }
+.wlabel.bad { border-color: rgba(255, 77, 94, 0.8); box-shadow: 0 0 24px rgba(255, 77, 94, 0.45); } .wlabel.bad b { color: #ff4d5e; }
+.wlabel.cache b { color: #2bff9a; } .wlabel.cache { border-color: rgba(43, 255, 154, 0.5); }
+.wlabel.off b { color: #8a93a8; } .wlabel.job b { color: #a98bff; } .wlabel.job { border-color: rgba(169, 139, 255, 0.5); }
+.wlabel.alarm { background: rgba(120, 10, 24, 0.85); border-color: #ff4d5e; color: #fff; font-weight: 800; font-size: 13px; letter-spacing: 0.08em; padding: 8px 14px; }
+.app.reel .wlabel { transform: scale(1.45); }

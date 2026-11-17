@@ -1,0 +1,28 @@
+10 LAKH requests… aur server gaya?! 💥🖥️
+
+Maine banaya SERVER SIEGE: ek playable 3D system-design simulator. Har tower ek app server hai, orange reactor database hai, aur glowing packets tumhari requests hain.
+
+Reel mein jo hua, woh actual simulation hai:
+🚦 Traffic surge → queues bhar gayi, errors 48 % tak
+🏗️ 3 servers aur add kiye → app tier theek… par database 100 % pe
+⚠️ YOU SCALED THE WRONG LAYER
+🟢 Cache ON → repeated reads database tak pahunche hi nahi
+🤖 Autoscaling ON → naye servers boot hue (4 s delay ke saath)
+✅ System recovered
+
+Lesson: scaling = aur servers nahi. Scaling = bottleneck samajhna.
+
+Twist: is run ka final score 716 / 1000, aur mission FAIL (88.2 % success, kyunki fix late aaya). Tum better kar sakte ho?
+
+💬 Comment "SERVER": simulator ki details + 6 levels ki cheat sheet DM mein bhejenge.
+📌 Save karo apne next system-design interview ke liye.
+
+Note: ye simulated backend hai, kisi real website pe load test nahi. Costs fictional hain. Har control ke peeche real simulation logic hai (deterministic, seeded, tested).
+
+#SystemDesign #BackendDevelopment #SoftwareEngineering #LoadBalancer #Caching #Autoscaling #DistributedSystems #SDE #CodingInterview #ThreeJS #TechpeTrek
+
+=== PINNED COMMENT ===
+SERVER comment karo: simulator ki details + 6 levels ki cheat sheet DM mein 🖥️ Level 3 (Database Bottleneck) pe tumhara fix kya hoga?
+
+=== KEYWORDS ===
+system design simulator, backend scaling, load balancer, cache hit rate, database bottleneck, autoscaling, p95 latency, one million requests

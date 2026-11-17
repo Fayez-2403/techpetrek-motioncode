@@ -63,8 +63,9 @@ export function makeFace(canvas: HTMLCanvasElement, d: Detected, name: string): 
     const data = g.getImageData(Math.max(0, px - 4), Math.max(0, py - 4), 8, 8).data;
     for (let i = 0; i < data.length; i += 4) { r += data[i]; gg += data[i + 1]; b += data[i + 2]; n++; }
   }
-  const skin = new THREE.Color(r / n / 255, gg / n / 255, b / n / 255).convertSRGBToLinear();
-  return { id: Math.random().toString(36).slice(2, 9), name, crop: c.toDataURL('image/jpeg', 0.92), uv, skin: '#' + skin.convertLinearToSRGB().getHexString(), yawDeg: d.yawDeg, createdAt: Date.now() };
+  // the pixels are sRGB: say so, or getHexString() treats them as linear and brightens them (pale, washed-out necks and hands)
+  const skin = new THREE.Color().setRGB(r / n / 255, gg / n / 255, b / n / 255, THREE.SRGBColorSpace);
+  return { id: Math.random().toString(36).slice(2, 9), name, crop: c.toDataURL('image/jpeg', 0.92), uv, skin: '#' + skin.getHexString(), yawDeg: d.yawDeg, createdAt: Date.now() };
 }
 
 // ---------------------------------------------------------------- canonical face mesh (MediaPipe, Apache-2.0)

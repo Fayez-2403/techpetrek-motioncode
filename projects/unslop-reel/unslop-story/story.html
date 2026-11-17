@@ -1,0 +1,243 @@
+<!doctype html>
+<!-- Our unslop run (Claude Code + the unslop skill, 2026-11-04) on unslop's own vibecoded example,
+     tools/unslop/examples/dashboard.html (EmberAI). Step 0 rebuilds the original's rules in plain CSS; .s1-.s4 are the passes.
+     Direction: invoicing for small teams | steady, exact, a little warm | a bookkeeper's desk, receipts and ink |
+     moments: the revenue bars + a paper receipt on "Paid this month" | signature: the accountant's double rule under totals.
+     unslop by Damir Sokolovsky (@heydamir), CC BY 4.0, https://github.com/heydamir/unslop -->
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="unslop-steps" content="Spacing, Color and icons, Type and copy, Details" />
+<meta name="unslop-frame" content="214 34 760" />
+<title>EmberAI Dashboard</title>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Instrument+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet" />
+<style>
+  /* ---------- step 0: the original, as it was ---------- */
+  * { box-sizing: border-box; margin: 0; }
+  body { font-family: "Inter", sans-serif; min-height: 100vh; padding: 40px; background-color: #170d3d; color: #fff; position: relative; }
+  .wash { position: absolute; inset: 0; background: linear-gradient(180deg, #5b34b8 0%, #2e1872 50%, #170d3d 100%); z-index: 0; }
+  .win { position: relative; z-index: 1; margin: 0 auto; display: flex; height: 900px; max-width: 1000px; overflow: hidden; border-radius: 14px; box-shadow: 0 40px 110px rgba(76,29,149,0.6), 0 0 0 1px rgba(167,139,250,0.4); }
+  .layer { position: absolute; inset: 0; border-radius: inherit; pointer-events: none; }
+  .gt { position: relative; color: #ededed; }
+  .gt::after { content: attr(data-t); position: absolute; left: 0; top: 0; white-space: nowrap; background: linear-gradient(135deg, #e9d5ff, #818cf8); -webkit-background-clip: text; background-clip: text; color: transparent; }
+  .ico { position: relative; display: inline-flex; align-items: center; justify-content: center; width: 16px; height: 16px; flex: none; font-size: 12px; }
+  .ico .em, .ico svg { position: absolute; }
+  .ico svg { width: 16px; height: 16px; opacity: 0; fill: none; stroke: currentColor; stroke-width: 2.25; stroke-linecap: round; stroke-linejoin: round; }
+
+  aside { width: 272px; flex: none; display: flex; flex-direction: column; border-right: 1px solid #2c2470; background-color: #140e33; padding: 10px 22px 0 10px; }
+  .brand { display: flex; align-items: center; height: 36px; }
+  .tile { position: relative; width: 32px; height: 32px; border-radius: 12px; display: flex; align-items: center; justify-content: center; box-shadow: 0 0 18px rgba(139,92,246,0.7); }
+  .tile .layer { background: linear-gradient(135deg, #8b5cf6, #3b82f6); }
+  .tile .em { position: relative; font-size: 15px; }
+  .tile svg { position: absolute; width: 18px; height: 18px; opacity: 0; fill: none; stroke: #0f0f10; stroke-width: 2.25; stroke-linecap: round; stroke-linejoin: round; }
+  .word { margin-left: 7px; font-size: 19px; font-weight: 800; }
+  .word.gt::after { background-image: linear-gradient(135deg, #c4b5fd, #60a5fa); }
+  .pill { position: relative; isolation: isolate; border-radius: 9px; padding: 2px 8px; font-size: 10.5px; font-weight: 700; color: #fff; box-shadow: 0 0 12px rgba(168,85,247,0.55); white-space: nowrap; }
+  .pill > .layer { z-index: -1; background: linear-gradient(135deg, #a855f7, #3b82f6); }
+  .pro { margin-left: 8px; letter-spacing: 0.025em; }
+  .bell { margin-left: auto; color: #968ee0; }
+  .bell.ico { font-size: 15px; }
+
+  .search { margin-top: 26px; display: flex; align-items: center; height: 46px; border-radius: 23px; border: 1px solid #5b4bc4; background-color: #1f1850; padding: 0 7px 0 11px; box-shadow: 0 0 18px rgba(139,92,246,0.4); color: #968ee0; }
+  .search .txt { margin-left: 5px; font-size: 14px; font-weight: 600; }
+  .kbd { margin-left: auto; }
+  .rule { height: 1px; margin: 12px -22px 0 -10px; background-color: #2f2672; }
+  .rule.mid { margin-top: 30px; }
+  .label { margin-top: 22px; font-size: 11px; font-weight: 700; letter-spacing: 0.14em; color: #968ee0; text-transform: uppercase; display: flex; align-items: center; gap: 4px; }
+  .label .ico { width: 14px; }
+
+  nav { margin-top: 4px; }
+  .row { display: flex; align-items: center; border-radius: 12px; padding: 0 13px 0 7px; color: #d6d2ff; position: relative; isolation: isolate; }
+  .row .t { margin-left: 6px; font-size: 14.5px; font-weight: 600; }
+  .row .cnt { margin-left: auto; }
+  .row.on { color: #fff; box-shadow: 0 8px 24px rgba(124,58,237,0.55); }
+  .row.on > .layer { z-index: -1; background: linear-gradient(135deg, #7c3aed, #2563eb); }
+  .r1 { height: 46px; } .r2 { height: 30px; margin-top: 12px; } .r3 { height: 40px; } .r3 .t { margin-left: 8px; } .r4 { height: 32px; margin-top: 8px; } .r4 .t { margin-left: 5px; }
+  .r5 { height: 44px; margin-top: 1px; } .r5 .t { margin-left: 9px; } .r6 { height: 31px; margin-top: 14px; }
+  .inbox-n > .layer { background: linear-gradient(90deg, #f43f5e, #ec4899); }
+  .inbox-n { box-shadow: none; font-weight: 800; font-size: 11px; padding: 2px 6px; }
+  .plans { margin-top: 5px; }
+  .p1 { height: 42px; } .p2 { height: 28px; margin-top: 9px; } .p2 .t { margin-left: 8px; } .p3 { height: 38px; margin-top: 2px; } .p3 .t { margin-left: 4px; }
+  .p4 { height: 44px; margin-top: 12px; } .p4 .t { margin-left: 7px; } .p5 { height: 34px; margin-top: 5px; }
+  .pill .who { display: inline-block; overflow: hidden; vertical-align: top; max-width: 20px; }
+
+  main { position: relative; flex: 1; min-width: 0; overflow: hidden; background-color: #0d1131; padding-left: 18px; }
+  main > .glowwash { position: absolute; inset: 0; background: radial-gradient(70% 50% at 85% 0%, rgba(139,92,246,0.4), transparent 70%), radial-gradient(60% 40% at 10% 100%, rgba(59,130,246,0.25), transparent 70%); pointer-events: none; }
+  .crumb { position: relative; margin-top: 10px; height: 36px; display: flex; align-items: center; font-size: 14.5px; font-weight: 700; }
+  .crumb .t { margin-left: 7px; }
+  h1 { position: relative; margin-top: 4px; font-size: 35px; font-weight: 800; line-height: 1.25; }
+  h1 .from { background: linear-gradient(135deg, #f0abfc, #818cf8); -webkit-background-clip: text; background-clip: text; color: transparent; }
+  h1 .to { color: #ededed; }
+  .stats { position: relative; margin-top: 44px; display: flex; }
+  .card { position: relative; isolation: isolate; overflow: hidden; border-radius: 24px; padding: 12px; border: 1px solid rgba(167,139,250,0.5); box-shadow: inset 0 1px 0 rgba(255,255,255,0.22), 0 14px 34px rgba(124,58,237,0.42); background-color: #19191b; }
+  .card > .layer { z-index: -1; background: radial-gradient(120% 90% at 0% 0%, rgba(255,255,255,0.12) 0%, rgba(255,255,255,0) 60%), linear-gradient(115deg, #2b1f6e 0%, #1f2269 48%, #122666 100%); }
+  .stat { height: 123px; width: 316px; }
+  .stat + .stat { margin-left: 26px; }
+  .k { font-size: 11.5px; font-weight: 700; letter-spacing: 0.1em; color: #d6d2ff; text-transform: uppercase; display: flex; align-items: center; gap: 4px; }
+  .k .ico { width: 14px; }
+  .fig { margin-top: 4px; font-size: 32px; font-weight: 800; line-height: 1.2; font-variant-numeric: tabular-nums; }
+  .chg { margin-top: 10px; font-size: 13px; font-weight: 700; color: #4ade80; display: flex; align-items: center; gap: 2px; }
+  .chg .ico { width: 14px; }
+  .cardemoji { position: absolute; right: 6px; bottom: 20px; font-size: 54px; filter: drop-shadow(0 0 14px rgba(168,85,247,0.8)); }
+  .rev { margin-top: 28px; height: 392px; width: 660px; }
+  .rev .fig { font-size: 30px; }
+  .rev .chg { margin-top: 6px; }
+  .dbl { margin-top: 6px; width: 132px; height: 5px; border-top: 1px solid rgba(232,131,58,0.9); border-bottom: 1px solid rgba(232,131,58,0.9); }
+  .plot { position: absolute; left: 12px; right: 0; top: 128px; bottom: 30px; }
+  .grid { position: absolute; left: 0; right: 0; height: 1px; background-color: rgba(139,92,246,0.3); }
+  .bars { position: absolute; left: 0; right: 0; bottom: 0; display: flex; align-items: flex-end; gap: 16px; }
+  .bar { width: 40px; border-radius: 20px; background-color: #7c6cf0; box-shadow: inset 0 1px 0 rgba(255,255,255,0.35), 0 0 22px rgba(139,92,246,0.55); }
+  .bar.hi { background-color: #c084fc; }
+  .days { position: absolute; left: 0; right: 0; bottom: -24px; display: flex; gap: 16px; font-size: 11px; font-weight: 700; letter-spacing: 0.08em; color: rgba(196,181,253,0.75); text-transform: uppercase; }
+  .days span { width: 40px; text-align: center; }
+  .receipt { position: absolute; right: 18px; top: 14px; width: 84px; height: 98px; transform: rotate(-6deg); }
+  .receipt .paper { position: absolute; inset: 0; background-color: #efe9de; clip-path: polygon(0 0,100% 0,100% 92%,92% 100%,84% 92%,76% 100%,68% 92%,60% 100%,52% 92%,44% 100%,36% 92%,28% 100%,20% 92%,12% 100%,4% 92%,0 100%); box-shadow: 0 8px 18px rgba(0,0,0,0.35); }
+  .receipt i { position: absolute; left: 12px; height: 3px; border-radius: 2px; background-color: #c9c0b1; }
+  .receipt .stamp { position: absolute; right: 8px; bottom: 16px; padding: 2px 6px; border: 1.5px solid #c8641f; border-radius: 6px; color: #c8641f; font: 500 10px/1.2 "IBM Plex Mono", monospace; transform: rotate(-8deg); }
+
+  /* ---------- step 1: spacing (4px grid, one row height, groups by space) ---------- */
+  .s1 aside { padding: 16px 16px 0 16px; }
+  .s1 .word { margin-left: 8px; }
+  .s1 .search { margin-top: 24px; height: 36px; padding: 0 8px 0 12px; }
+  .s1 .search .txt { margin-left: 8px; }
+  .s1 .rule { margin: 16px -16px 0 -16px; }
+  .s1 .rule.mid { margin-top: 24px; }
+  .s1 .label { margin-top: 24px; }
+  .s1 nav, .s1 .plans { margin-top: 8px; }
+  .s1 .row { height: 36px; margin-top: 4px; padding: 0 12px 0 8px; }
+  .s1 .row .t { margin-left: 10px; }
+  .s1 .r1, .s1 .p1 { margin-top: 0; }
+  .s1 main { padding: 0 32px; }
+  .s1 .crumb { margin-top: 16px; }
+  .s1 h1 { margin-top: 24px; }
+  .s1 .stats { margin-top: 32px; }
+  .s1 .card { padding: 20px; }
+  .s1 .stat { width: 300px; height: 128px; }
+  .s1 .stat + .stat { margin-left: 16px; }
+  .s1 .fig { margin-top: 8px; }
+  .s1 .chg { margin-top: 8px; }
+  .s1 .rev { margin-top: 16px; width: 616px; }
+  .s1 .plot { left: 20px; right: 20px; top: 156px; bottom: 44px; }
+
+  /* ---------- step 2: color and icons (graphite ramp, one ember accent, line icons) ---------- */
+  .s2 .wash, .s2 .glowwash, .s2 .layer { opacity: 0; }
+  .s2 body { background-color: #1a1917; }
+  .s2 .win { box-shadow: 0 24px 60px rgba(0,0,0,0.45), 0 0 0 1px rgba(237,237,237,0.08); }
+  .s2 aside { background-color: #0f0f10; border-right-color: rgba(237,237,237,0.08); }
+  .s2 main { background-color: #141415; }
+  .s2 .tile { box-shadow: none; background-color: #e8833a; }
+  .s2 .tile .em, .s2 .ico .em { opacity: 0; }
+  .s2 .tile svg, .s2 .ico svg { opacity: 1; }
+  .s2 .gt::after { opacity: 0; }
+  .s2 .pill { box-shadow: none; color: #85858b; }
+  .s2 .search { border-color: rgba(237,237,237,0.08); background-color: #19191b; box-shadow: none; color: #85858b; }
+  .s2 .rule { background-color: rgba(237,237,237,0.08); }
+  .s2 .label, .s2 .bell { color: #85858b; }
+  .s2 .row { color: #a1a1a6; }
+  .s2 .row.on { color: #ededed; background-color: #232325; box-shadow: inset 0 1px 0 rgba(255,255,255,0.08); }
+  .s2 .card { border-color: rgba(237,237,237,0.08); box-shadow: none; }
+  .s2 .k { color: #a1a1a6; }
+  .s2 .chg { color: #4cc38a; }
+  .s2 .cardemoji { opacity: 0; filter: none; }
+  .s2 .grid { background-color: rgba(237,237,237,0.06); }
+  .s2 .bar { background-color: #3a3a3e; box-shadow: none; }
+  .s2 .bar.hi { background-color: #e8833a; }
+  .s2 .days { color: #85858b; }
+
+  /* ---------- step 3: type and copy (sentence case, 400-500, tabular figures, plain words) ---------- */
+  .s3 body { font-family: "Instrument Sans", "Inter", sans-serif; }
+  .s3 .word { font-size: 17px; font-weight: 600; }
+  .s3 .search .txt, .s3 .row .t { font-weight: 500; font-size: 14px; }
+  .s3 .label, .s3 .k { text-transform: none; letter-spacing: 0; font-weight: 500; font-size: 12px; }
+  .s3 .label .ico, .s3 .k .ico, .s3 .chg .ico { width: 0; opacity: 0; }
+  .s3 .pill { font: 400 12px/16px "IBM Plex Mono", monospace; letter-spacing: 0; padding: 2px 0; }
+  .s3 .pill .who { max-width: 0; }
+  .s3 .crumb { font-weight: 500; font-size: 14px; color: #a1a1a6; }
+  .s3 h1 { font-size: 32px; font-weight: 400; line-height: 1.15; }
+  .s3 .k { font-size: 13px; }
+  .s3 .fig { font-family: "IBM Plex Mono", monospace; font-weight: 500; font-size: 30px; }
+  .s3 .chg { font-weight: 400; font-size: 13px; }
+  .s3 .overdue .chg { color: #a1a1a6; }
+  .s3 .days { font: 400 12px/16px "IBM Plex Mono", monospace; letter-spacing: 0; text-transform: none; }
+
+  /* ---------- step 4: details (radius by size, square bars, the receipt, the double rule) ---------- */
+  .s4 .win { border-radius: 16px; }
+  .s4 .tile { border-radius: 8px; width: 28px; height: 28px; }
+  .s4 .search { border-radius: 10px; }
+  .s4 .row { border-radius: 8px; }
+  .s4 .card { border-radius: 14px; }
+  .s4 .bar { border-radius: 4px 4px 2px 2px; }
+</style>
+</head>
+<body>
+  <div class="wash"></div>
+  <div class="win" data-radius>
+    <aside>
+      <div class="brand" data-gap="sidebar">
+        <div class="tile" data-slop="Sparkle logo"><div class="layer"></div><span class="em">✨</span><svg viewBox="0 0 24 24"><path d="M6 3h12v18l-3-2-3 2-3-2-3 2z"/><path d="M9 8h6M9 12h6"/></svg></div>
+        <span class="word gt" data-t="EmberAI">EmberAI</span>
+        <span class="pill pro" data-out="3"><span class="layer"></span>PRO</span>
+        <span class="bell ico"><span class="em">🔔</span><svg viewBox="0 0 24 24"><path d="M6 16V11a6 6 0 0 1 12 0v5l1.5 2h-15z"/><path d="M10 20a2 2 0 0 0 4 0"/></svg></span>
+      </div>
+      <div class="search" data-gap="sidebar" data-radius>
+        <span class="ico"><span class="em">🔍</span><svg viewBox="0 0 24 24"><circle cx="11" cy="11" r="6.5"/><path d="m20 20-4.2-4.2"/></svg></span>
+        <span class="txt swap" data-at="3"><span class="from">Search anything...</span><span class="to">Search</span></span>
+        <span class="pill kbd"><span class="layer"></span>⌘K</span>
+      </div>
+      <div class="rule"></div>
+      <p class="label" data-gap="sidebar" data-slop="Tracked caps">Navigation</p>
+      <nav data-gap="sidebar">
+        <a class="row on r1" data-radius><span class="layer"></span><span class="ico"><span class="em">🏠</span><svg viewBox="0 0 24 24"><path d="M3.5 10.5 12 3.5l8.5 7"/><path d="M5.5 9v11h13V9"/></svg></span><span class="t">Overview</span></a>
+        <a class="row r2"><span class="ico"><span class="em">📥</span><svg viewBox="0 0 24 24"><path d="M3 13h5l1.5 3h5L16 13h5"/><path d="M5.5 5h13L21 13v6H3v-6z"/></svg></span><span class="t">Inbox</span><span class="pill cnt inbox-n"><span class="layer"></span>12</span></a>
+        <a class="row r3"><span class="ico"><span class="em">🚀</span><svg viewBox="0 0 24 24"><path d="M3 6h6l2 2h10v11H3z"/></svg></span><span class="t">Projects</span><span class="pill cnt" data-out="3" data-slop="New ✨ badge"><span class="layer"></span>New ✨</span></a>
+        <a class="row r4"><span class="ico"><span class="em">👥</span><svg viewBox="0 0 24 24"><circle cx="9" cy="8" r="3.5"/><path d="M2.5 20c.8-3.6 3.4-5.5 6.5-5.5s5.7 1.9 6.5 5.5"/><path d="M16 4.6a3.5 3.5 0 0 1 0 6.8M18.5 14.8c1.6.8 2.6 2.5 3 5.2"/></svg></span><span class="t">Customers</span></a>
+        <a class="row r5"><span class="ico"><span class="em">💸</span><svg viewBox="0 0 24 24"><path d="M6 3h12v18l-3-2-3 2-3-2-3 2z"/><path d="M9 8h6M9 12h6"/></svg></span><span class="t">Invoices</span></a>
+        <a class="row r6"><span class="ico"><span class="em">📊</span><svg viewBox="0 0 24 24"><path d="M3 20h18M6 20v-7M11 20V5M16 20v-10"/></svg></span><span class="t">Reports</span></a>
+      </nav>
+      <div class="rule mid"></div>
+      <p class="label" data-gap="sidebar"><span class="ico"><span class="em">💳</span></span>Plans</p>
+      <div class="plans" data-gap="sidebar">
+        <div class="row p1"><span class="ico"><span class="em">🏢</span><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="2.5"/></svg></span><span class="t">Enterprise</span><span class="pill cnt"><span class="layer"></span>18<span class="who"> 👤</span></span></div>
+        <div class="row p2"><span class="ico"><span class="em">💼</span><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="2.5"/></svg></span><span class="t">Business</span><span class="pill cnt"><span class="layer"></span>64<span class="who"> 👤</span></span></div>
+        <div class="row p3"><span class="ico"><span class="em">⚡</span><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="2.5"/></svg></span><span class="t">Pro</span><span class="pill cnt"><span class="layer"></span>210<span class="who"> 👤</span></span></div>
+        <div class="row p4"><span class="ico"><span class="em">🌱</span><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="2.5"/></svg></span><span class="t">Starter</span><span class="pill cnt"><span class="layer"></span>480<span class="who"> 👤</span></span></div>
+        <div class="row p5"><span class="ico"><span class="em">🎁</span><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="2.5"/></svg></span><span class="t">Free</span><span class="pill cnt"><span class="layer"></span>1.2k<span class="who"> 👤</span></span></div>
+      </div>
+    </aside>
+
+    <main>
+      <div class="glowwash"></div>
+      <div class="crumb" data-gap="main"><span class="ico"><span class="em">📊</span><svg viewBox="0 0 24 24"><rect x="4" y="4" width="7" height="7" rx="1.5"/><rect x="13" y="4" width="7" height="7" rx="1.5"/><rect x="4" y="13" width="7" height="7" rx="1.5"/><rect x="13" y="13" width="7" height="7" rx="1.5"/></svg></span><span class="t">Overview</span></div>
+      <h1 class="swap" data-at="3" data-gap="main" data-slop="Gradient text"><span class="from">Welcome back, Damir! 👋</span><span class="to">October 2026</span></h1>
+      <div class="stats" data-gap="main">
+        <div class="card stat" data-radius><div class="layer"></div>
+          <p class="k"><span class="ico"><span class="em">💰</span></span>Paid this month</p>
+          <p class="fig gt" data-t="$48,210">$48,210</p>
+          <p class="chg"><span class="ico"><span class="em">🔥</span></span><span class="swap" data-at="3"><span class="from">+12%!!</span><span class="to">+12% vs last month</span></span></p>
+          <span class="cardemoji">💳</span>
+          <div class="receipt" data-in="4"><div class="paper"></div><i style="top:16px;width:46px"></i><i style="top:26px;width:58px"></i><i style="top:36px;width:38px"></i><i style="top:52px;width:52px"></i><span class="stamp">paid</span></div>
+        </div>
+        <div class="card stat overdue"><div class="layer"></div>
+          <p class="k"><span class="ico"><span class="em">⚠️</span></span>Overdue</p>
+          <p class="fig gt" data-t="07"><span class="swap" data-at="3"><span class="from">07</span><span class="to">7</span></span></p>
+          <p class="chg"><span class="ico"><span class="em">😬</span></span><span class="swap" data-at="3"><span class="from">3 less!!</span><span class="to">3 fewer vs last month</span></span></p>
+        </div>
+      </div>
+      <div class="card rev" data-gap="main" data-radius><div class="layer"></div>
+        <p class="k"><span class="ico"><span class="em">📈</span></span>Revenue</p>
+        <p class="fig gt" data-t="$124,860.40"><span class="swap" data-at="3"><span class="from">$124,860.40</span><span class="to">$124,860</span></span></p>
+        <div class="dbl" data-in="4"></div>
+        <p class="chg"><span class="ico"><span class="em">🚀</span></span><span class="swap" data-at="3"><span class="from">+4.2% this month!!</span><span class="to">+4.2% vs last month</span></span></p>
+        <div class="plot">
+          <div class="grid" style="top:0"></div><div class="grid" style="top:25%"></div><div class="grid" style="top:50%"></div><div class="grid" style="top:75%"></div>
+          <div class="bars" data-slop="Glowing bars">
+            <div class="bar" style="height:120px"></div><div class="bar" style="height:172px"></div><div class="bar" style="height:133px"></div><div class="bar hi" style="height:225px"></div><div class="bar" style="height:161px"></div><div class="bar" style="height:97px"></div><div class="bar" style="height:143px"></div>
+          </div>
+          <div class="days"><span>Mon</span><span>Tue</span><span>Wed</span><span>Thu</span><span>Fri</span><span>Sat</span><span>Sun</span></div>
+        </div>
+      </div>
+    </main>
+  </div>
+</body>
+</html>

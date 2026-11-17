@@ -1,0 +1,28 @@
+=== 1. HIGH-REACH (Hinglish, ~130 words) ===
+Claude Opus 5.5 + Claude Code se maine ek 3D bridge engineering lab banayi — BRIDGE.EXE 🏗️ AI civil engineering ka asli demo!
+
+Truss ke joints drag karo, span badlo, truck ka load lagao… aur RUN dabate hi ek real structural solver deflection, member forces aur support reactions nikalta hai. Red = compression, cyan = tension — sab solver ke numbers se, sirf animation nahi. Hamare solver ko numpy aur PyNite se cross-check kiya (difference 2e-11).
+
+Height 6 → 8 m karte hi deflection 33% kam, steel 8% zyada. Model IFC (BIM) file aur CSV report bhi likhta hai.
+
+Aur haan — collapse wala part sirf game effect hai, engineering prediction nahi. Real bridges ke decisions qualified engineers hi lete hain.
+
+Civil engineers, CAD users aur engineering students — comment "CIVIL" for the tools, repo links aur safe setup checklist. Would you trust AI to assist your next design review?
+
+#CivilEngineering #ClaudeCode #StructuralEngineering #CADDesign #TechpeTrek
+
+=== 2. TECHNICAL (for engineers) ===
+BRIDGE.EXE: a linear-elastic 2D truss lab in the browser (React Three Fiber). Direct-stiffness solver in TypeScript (dense Gaussian elimination, zero-pivot = mechanism, equilibrium + residual on every run), cross-checked against an independent numpy solver and PyNite 3.2.1 (worst relative difference 1.99e-11) and the OpenSeesPy truss example. Beam mode: Euler–Bernoulli FE reproducing PL³/48EI and 5wL⁴/384EI.
+Reel run R001: 56 m Pratt, 8 panels, deck 20 kN/m + 300 kN truck per plane + self-weight → 127.0 mm (L/441), max |N| 1908 kN, reactions 779 + 779 kN. Deeper truss (h 8 m): 85.7 mm, +8 % steel, one vertical hits the Euler-based proxy (1.02).
+Exports: CSV report with run ID + input hash, GLB, and a conceptual IFC4X3 (IfcBridge + 58 IfcMember with result Psets) via IfcOpenShell. Utilisation is an educational proxy (CHS t = D/20, Euler) — not code compliance. Loads are illustrative, not IRC/IS load models. No Autodesk MCP was used. Arcade collapse = Rapier game effect.
+Comment "CIVIL" for the stack + checklist.
+#CivilEngineering #ClaudeCode #StructuralEngineering #CADDesign #TechpeTrek
+
+=== 3. SHORT (Stories / pinned) ===
+Drag a truss, load it, and a real solver shows the deflection and forces in 3D — built with Claude Code. Educational model, not construction approval: comment "CIVIL" for the tools.
+
+=== PINNED COMMENT ===
+Comment CIVIL 🏗️ — I'll share the bridge-simulation stack: Claude Code + PyNite/OpenSeesPy + FreeCAD/IFC + source links. This is an educational model, not construction approval. What should we simulate next?
+
+=== DM (when someone comments CIVIL) ===
+Send docs/SHARE_WITH_COMMENT_CIVIL.md (tools, links, safe setup checklist). The app repo link is added only when it is published.

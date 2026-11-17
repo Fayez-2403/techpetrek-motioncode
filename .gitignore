@@ -107,6 +107,9 @@ kit/*.pdf
 /OpenMontage/
 /share/
 tools/genjutsu/
+tools/open-higgsfield-ai/
+# AFTERCODE reel-only media (AI-generated faces for the capture; not part of the app or its deploy)
+projects/aftercode/web/public/_reel/
 /skills/
 
 # imported skill packs stay local (they have their own sources and licences); only this repo's own skills are shared
@@ -130,3 +133,69 @@ projects/editorbro/audio/out/
 projects/editorbro/out/
 projects/editorbro/web/node_modules/
 projects/editorbro/web/dist/
+
+# SERVER SIEGE: captured plates, renders, voice takes, web deps (re-made from source: web/scripts/capture.ts, scripts/audio/*)
+projects/server-siege/public/clips/
+projects/server-siege/public/audio/
+projects/server-siege/audio/takes/
+projects/server-siege/audio/out/stems_siege/
+projects/server-siege/out/
+projects/server-siege/node_modules
+projects/server-siege/web/node_modules
+projects/server-siege/web/dist/
+# Bro & Bhai: renders, stills, bundles and audio intermediates (regenerate with the scripts)
+projects/bro-bhai/out/
+projects/bro-bhai/audio/out/stems_ep01/
+
+# BRIDGE.EXE (projects/bridge-exe): captures, mixes, takes, renders, junctioned node_modules
+projects/bridge-exe/public/clips/
+projects/bridge-exe/public/audio/
+projects/bridge-exe/audio/takes/
+projects/bridge-exe/audio/out/stems_bridge/
+projects/bridge-exe/out/
+projects/bridge-exe/node_modules
+projects/bridge-exe/web/node_modules
+projects/bridge-exe/web/dist/
+projects/bridge-exe/solver/__pycache__/
+
+# ONE BOT, 16 REPOS (projects/repo-studio): renders, takes, mixes, junctioned node_modules
+projects/repo-studio/out/
+projects/repo-studio/audio/takes/
+projects/repo-studio/audio/auditions/
+projects/repo-studio/public/audio/
+projects/repo-studio/node_modules
+projects/repo-studio/web/node_modules
+
+# Free tech books carousel (projects/free-books)
+projects/free-books/out/
+projects/free-books/public/audio/
+projects/free-books/assets/reference/
+projects/free-books/node_modules
+projects/free-books/web/node_modules
+
+# claude-animation-skills (tools/claude-animation-skills): installed packages, models, renders
+tools/claude-animation-skills/kit/node_modules/
+tools/claude-animation-skills/kit/vendor/
+tools/claude-animation-skills/kit/.venv/
+tools/claude-animation-skills/kit/models/
+
+# binance-heist: the captured Binance report page (third-party; re-capture with web/scripts/grab_report.mjs)
+projects/binance-heist/public/pages/
+
+# unslop-reel: third-party page captures (re-capture with web/scripts/grab_pages.mjs)
+projects/unslop-reel/public/pages/
+
+# dev-journey-sajan: the user's commercial song (never commit) + its decoded copy
+projects/dev-journey-sajan/audio/src/
+
+# dev-life-aura: the user's commercial song, the stock originals (re-fetch: python scripts/fetch_stock.py) and their 60 fps proxies
+projects/dev-life-aura/audio/src/
+projects/dev-life-aura/assets/licensed/
+projects/dev-life-aura/public/footage/
+
+# paper-sajan: the user's commercial song copy, and the sketch shots (rebuild: python scripts/build_shots.py from dev-life-aura stock)
+projects/paper-sajan/audio/src/
+projects/paper-sajan/public/sketch/
+
+# lemo-opuscar: LemoLab film-style library (its own git repo, 267 MB; code MIT, docs CC BY-NC 4.0 + film-making permission). Re-clone: git clone --depth 1 https://github.com/lemomo-ai/lemo-opuscar.git tools/lemo-opuscar
+tools/lemo-opuscar/

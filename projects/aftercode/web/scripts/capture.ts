@@ -12,11 +12,14 @@ const browser = await chromium.launch({ executablePath: 'C:/Program Files/Google
   args: ['--use-angle=d3d11', '--enable-gpu', '--ignore-gpu-blocklist', '--disable-background-timer-throttling', '--disable-renderer-backgrounding'] });
 const page = await browser.newPage({ viewport: { width: 1080, height: 1920 }, deviceScaleFactor: 1 });
 page.on('pageerror', (e) => console.log('PAGEERROR', e.message));
-await page.goto('http://localhost:54210/?reel=1', { waitUntil: 'networkidle' });
+await page.goto(process.env.REEL_URL ?? 'http://localhost:54210/?reel=1', { waitUntil: 'networkidle' });   // REEL_URL=...?reel=final for the final reel
 await page.waitForFunction(() => (window as any).__ac?.engine.analysis && (window as any).__reel, null, { timeout: 120000 });
-console.log('songs', await page.evaluate(() => (window as any).__reel.prepare()));
-const shots: { id: string; r0: number; r1: number }[] = await page.evaluate(() => (window as any).__reel.shots);
+const prep = await page.evaluate(() => (window as any).__reel.prepare());
+console.log('songs', JSON.stringify(prep).slice(0, 300));
+if (process.env.PLAN) { (await import('node:fs')).writeFileSync(process.env.PLAN, JSON.stringify({ _doc: 'Written by web/scripts/capture.ts from the measured song analysis of the app (src/reel/final.ts prepare()). The edit and the mix read this; never retime by hand.', segments: prep, shots: await page.evaluate(() => (window as any).__reel.shots), ui: await page.evaluate(() => (window as any).__reel.uiShot?.()) }, null, 1)); console.log('plan ->', process.env.PLAN); }
+const shots: { id: string; r0: number; r1: number; layer?: string }[] = await page.evaluate(() => (window as any).__reel.shots);
 const raf = () => page.evaluate(() => new Promise((r) => requestAnimationFrame(() => requestAnimationFrame(() => r(0)))));
+if (args.includes('--plan-only')) { await browser.close(); process.exit(0); }
 for (const s of shots) {
   if (want.length && !want.includes(s.id)) continue;
   const file = `${OUT}/${s.id}.mp4`;
@@ -24,9 +27,9 @@ for (const s of shots) {
   const f0 = Math.round(s.r0 * 60), f1 = Math.round(s.r1 * 60);
   const ff = spawn('ffmpeg', ['-y', '-loglevel', 'error', '-f', 'image2pipe', '-framerate', String(60 / every), '-c:v', 'mjpeg', '-i', '-', '-c:v', 'libx264', '-preset', 'veryfast', '-threads', '2', '-crf', '15', '-pix_fmt', 'yuv420p', '-r', '60', file], { stdio: ['pipe', 'inherit', 'inherit'] });
   const t0 = Date.now();
-  await page.evaluate((r) => (window as any).__reel.seek(r), s.r0); await page.waitForTimeout(1800); await raf();   // world / dancers build
+  await page.evaluate(([r, l]) => (window as any).__reel.seek(r, l), [s.r0, s.layer ?? ''] as const); await page.waitForTimeout(1800); await raf();   // world / dancers build
   for (let f = f0; f < f1; f += every) {
-    await page.evaluate((r) => (window as any).__reel.seek(r), f / 60);
+    await page.evaluate(([r, l]) => (window as any).__reel.seek(r, l), [f / 60, s.layer ?? ''] as const);
     await raf();
     const b64: string = await page.evaluate(() => (document.querySelector('canvas') as HTMLCanvasElement).toDataURL('image/jpeg', 0.93).slice(23));
     const buf = Buffer.from(b64, 'base64');
