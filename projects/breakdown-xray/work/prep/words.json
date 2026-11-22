@@ -1,0 +1,916 @@
+{
+ "words": [
+  {
+   "start": 0.2,
+   "end": 0.32,
+   "text": "यह",
+   "probability": 0.592
+  },
+  {
+   "start": 0.34,
+   "end": 0.5,
+   "text": "ball",
+   "probability": 0.93
+  },
+  {
+   "start": 0.56,
+   "end": 0.78,
+   "text": "देखो,",
+   "probability": 0.888
+  },
+  {
+   "start": 1.52,
+   "end": 1.8,
+   "text": "एकदम",
+   "probability": 0.998
+  },
+  {
+   "start": 1.86,
+   "end": 2.06,
+   "text": "AI",
+   "probability": 1
+  },
+  {
+   "start": 2.14,
+   "end": 2.36,
+   "text": "slop.",
+   "probability": 0.985
+  },
+  {
+   "start": 2.8,
+   "end": 2.86,
+   "text": "अब",
+   "probability": 0.999
+  },
+  {
+   "start": 2.9,
+   "end": 2.98,
+   "text": "इस",
+   "probability": 1
+  },
+  {
+   "start": 3,
+   "end": 3.06,
+   "text": "पर",
+   "probability": 0.854
+  },
+  {
+   "start": 3.1,
+   "end": 3.38,
+   "text": "लगाते",
+   "probability": 0.998
+  },
+  {
+   "start": 3.44,
+   "end": 3.68,
+   "text": "हैं",
+   "probability": 1
+  },
+  {
+   "start": 3.72,
+   "end": 4,
+   "text": "18",
+   "probability": 1
+  },
+  {
+   "start": 4.019,
+   "end": 4.32,
+   "text": "GitHub",
+   "probability": 0.995
+  },
+  {
+   "start": 4.46,
+   "end": 4.84,
+   "text": "repos.",
+   "probability": 0.99
+  },
+  {
+   "start": 5.3,
+   "end": 5.74,
+   "text": "Reanimate,",
+   "probability": 0.971
+  },
+  {
+   "start": 6.06,
+   "end": 6.22,
+   "text": "कोई",
+   "probability": 1
+  },
+  {
+   "start": 6.26,
+   "end": 6.38,
+   "text": "भी",
+   "probability": 1
+  },
+  {
+   "start": 6.44,
+   "end": 6.84,
+   "text": "animation",
+   "probability": 0.987
+  },
+  {
+   "start": 6.98,
+   "end": 7.18,
+   "text": "frame",
+   "probability": 0.999
+  },
+  {
+   "start": 7.24,
+   "end": 7.4,
+   "text": "by",
+   "probability": 1
+  },
+  {
+   "start": 7.44,
+   "end": 7.6,
+   "text": "frame",
+   "probability": 1
+  },
+  {
+   "start": 7.68,
+   "end": 7.96,
+   "text": "copy.",
+   "probability": 1
+  },
+  {
+   "start": 8.28,
+   "end": 8.52,
+   "text": "Motion",
+   "probability": 1
+  },
+  {
+   "start": 8.54,
+   "end": 8.78,
+   "text": "design",
+   "probability": 0.995
+  },
+  {
+   "start": 8.84,
+   "end": 9.02,
+   "text": "skill,",
+   "probability": 0.99
+  },
+  {
+   "start": 9.42,
+   "end": 9.68,
+   "text": "असली",
+   "probability": 1
+  },
+  {
+   "start": 9.72,
+   "end": 10.04,
+   "text": "animator",
+   "probability": 0.999
+  },
+  {
+   "start": 10.1,
+   "end": 10.3,
+   "text": "जैसी",
+   "probability": 1
+  },
+  {
+   "start": 10.36,
+   "end": 10.64,
+   "text": "timing.",
+   "probability": 1
+  },
+  {
+   "start": 10.88,
+   "end": 11.06,
+   "text": "MG",
+   "probability": 0.997
+  },
+  {
+   "start": 11.14,
+   "end": 11.4,
+   "text": "Styles,",
+   "probability": 0.795
+  },
+  {
+   "start": 11.64,
+   "end": 11.94,
+   "text": "15",
+   "probability": 1
+  },
+  {
+   "start": 12.02,
+   "end": 12.28,
+   "text": "styles,",
+   "probability": 0.993
+  },
+  {
+   "start": 12.6,
+   "end": 12.68,
+   "text": "हर",
+   "probability": 0.989
+  },
+  {
+   "start": 12.74,
+   "end": 12.86,
+   "text": "एक",
+   "probability": 0.999
+  },
+  {
+   "start": 13.16,
+   "end": 13.28,
+   "text": "एक",
+   "probability": 0.815
+  },
+  {
+   "start": 13.3,
+   "end": 13.5,
+   "text": "prompt",
+   "probability": 1
+  },
+  {
+   "start": 13.56,
+   "end": 13.86,
+   "text": "से।",
+   "probability": 0.996
+  },
+  {
+   "start": 13.9,
+   "end": 14.26,
+   "text": "Wahu,",
+   "probability": 0.397
+  },
+  {
+   "start": 14.72,
+   "end": 15.06,
+   "text": "paintings",
+   "probability": 0.995
+  },
+  {
+   "start": 15.1,
+   "end": 15.2,
+   "text": "जो",
+   "probability": 1
+  },
+  {
+   "start": 15.22,
+   "end": 15.46,
+   "text": "चलती",
+   "probability": 0.999
+  },
+  {
+   "start": 15.5,
+   "end": 15.84,
+   "text": "हैं।",
+   "probability": 0.999
+  },
+  {
+   "start": 15.9,
+   "end": 16.34,
+   "text": "AniDoodle,",
+   "probability": 0.98
+  },
+  {
+   "start": 16.74,
+   "end": 17.02,
+   "text": "doodles",
+   "probability": 0.992
+  },
+  {
+   "start": 17.12,
+   "end": 17.22,
+   "text": "और",
+   "probability": 0.996
+  },
+  {
+   "start": 17.28,
+   "end": 17.54,
+   "text": "loops,",
+   "probability": 0.998
+  },
+  {
+   "start": 17.88,
+   "end": 18,
+   "text": "सब",
+   "probability": 0.996
+  },
+  {
+   "start": 18.08,
+   "end": 18.28,
+   "text": "code",
+   "probability": 0.988
+  },
+  {
+   "start": 18.32,
+   "end": 18.64,
+   "text": "में।",
+   "probability": 0.995
+  },
+  {
+   "start": 18.68,
+   "end": 18.92,
+   "text": "Manim",
+   "probability": 0.999
+  },
+  {
+   "start": 18.98,
+   "end": 19.36,
+   "text": "Library,",
+   "probability": 0.574
+  },
+  {
+   "start": 19.64,
+   "end": 19.9,
+   "text": "formula",
+   "probability": 0.999
+  },
+  {
+   "start": 19.98,
+   "end": 20.16,
+   "text": "से",
+   "probability": 1
+  },
+  {
+   "start": 20.22,
+   "end": 20.44,
+   "text": "smooth",
+   "probability": 1
+  },
+  {
+   "start": 20.52,
+   "end": 21.26,
+   "text": "animation।",
+   "probability": 0.955
+  },
+  {
+   "start": 21.28,
+   "end": 21.52,
+   "text": "Blender",
+   "probability": 0.998
+  },
+  {
+   "start": 21.6,
+   "end": 21.88,
+   "text": "Skills,",
+   "probability": 0.733
+  },
+  {
+   "start": 22.14,
+   "end": 22.26,
+   "text": "pro",
+   "probability": 0.94
+  },
+  {
+   "start": 22.32,
+   "end": 22.56,
+   "text": "blender",
+   "probability": 0.777
+  },
+  {
+   "start": 22.9,
+   "end": 23.1,
+   "text": "agent",
+   "probability": 0.806
+  },
+  {
+   "start": 23.14,
+   "end": 23.2,
+   "text": "के",
+   "probability": 1
+  },
+  {
+   "start": 23.22,
+   "end": 23.4,
+   "text": "हाथ",
+   "probability": 0.999
+  },
+  {
+   "start": 23.42,
+   "end": 23.72,
+   "text": "में।",
+   "probability": 0.998
+  },
+  {
+   "start": 23.74,
+   "end": 23.86,
+   "text": "Three",
+   "probability": 0.999
+  },
+  {
+   "start": 23.94,
+   "end": 24.24,
+   "text": "Quark,",
+   "probability": 0.36
+  },
+  {
+   "start": 24.52,
+   "end": 25.24,
+   "text": "particles।",
+   "probability": 0.92
+  },
+  {
+   "start": 25.28,
+   "end": 25.54,
+   "text": "React",
+   "probability": 0.997
+  },
+  {
+   "start": 25.64,
+   "end": 26.26,
+   "text": "Post-Processing,",
+   "probability": 0.837
+  },
+  {
+   "start": 26.74,
+   "end": 27,
+   "text": "cinema",
+   "probability": 0.997
+  },
+  {
+   "start": 27.02,
+   "end": 27.18,
+   "text": "वाला",
+   "probability": 1
+  },
+  {
+   "start": 27.26,
+   "end": 27.84,
+   "text": "finish।",
+   "probability": 0.999
+  },
+  {
+   "start": 27.88,
+   "end": 28.06,
+   "text": "Tweak",
+   "probability": 0.998
+  },
+  {
+   "start": 28.14,
+   "end": 28.34,
+   "text": "Pen,",
+   "probability": 0.574
+  },
+  {
+   "start": 29.06,
+   "end": 29.18,
+   "text": "हर",
+   "probability": 1
+  },
+  {
+   "start": 29.26,
+   "end": 29.52,
+   "text": "detail",
+   "probability": 0.998
+  },
+  {
+   "start": 29.58,
+   "end": 29.68,
+   "text": "का",
+   "probability": 1
+  },
+  {
+   "start": 29.8,
+   "end": 30.36,
+   "text": "slider।",
+   "probability": 0.998
+  },
+  {
+   "start": 30.38,
+   "end": 30.64,
+   "text": "Effect",
+   "probability": 1
+  },
+  {
+   "start": 30.72,
+   "end": 30.98,
+   "text": "Craft,",
+   "probability": 0.99
+  },
+  {
+   "start": 31.28,
+   "end": 31.46,
+   "text": "Rust",
+   "probability": 0.835
+  },
+  {
+   "start": 31.5,
+   "end": 31.56,
+   "text": "में",
+   "probability": 1
+  },
+  {
+   "start": 31.6,
+   "end": 31.78,
+   "text": "बना",
+   "probability": 1
+  },
+  {
+   "start": 31.8,
+   "end": 32.619,
+   "text": "compositing।",
+   "probability": 0.997
+  },
+  {
+   "start": 32.659,
+   "end": 32.98,
+   "text": "Cinetic,",
+   "probability": 0.922
+  },
+  {
+   "start": 33.36,
+   "end": 33.6,
+   "text": "coding",
+   "probability": 1
+  },
+  {
+   "start": 33.64,
+   "end": 33.86,
+   "text": "agent",
+   "probability": 0.998
+  },
+  {
+   "start": 33.92,
+   "end": 34.04,
+   "text": "से",
+   "probability": 1
+  },
+  {
+   "start": 34.5,
+   "end": 34.68,
+   "text": "launch",
+   "probability": 1
+  },
+  {
+   "start": 34.72,
+   "end": 35.24,
+   "text": "films।",
+   "probability": 0.999
+  },
+  {
+   "start": 35.28,
+   "end": 35.54,
+   "text": "Motion",
+   "probability": 1
+  },
+  {
+   "start": 35.6,
+   "end": 35.9,
+   "text": "Maxing,",
+   "probability": 0.949
+  },
+  {
+   "start": 36.18,
+   "end": 36.46,
+   "text": "सस्ती",
+   "probability": 0.991
+  },
+  {
+   "start": 36.6,
+   "end": 36.78,
+   "text": "AI",
+   "probability": 1
+  },
+  {
+   "start": 36.86,
+   "end": 37.06,
+   "text": "motion",
+   "probability": 0.998
+  },
+  {
+   "start": 37.12,
+   "end": 37.24,
+   "text": "को",
+   "probability": 1
+  },
+  {
+   "start": 37.26,
+   "end": 37.58,
+   "text": "designer",
+   "probability": 1
+  },
+  {
+   "start": 37.64,
+   "end": 37.78,
+   "text": "level",
+   "probability": 0.992
+  },
+  {
+   "start": 37.82,
+   "end": 38.06,
+   "text": "बनाता",
+   "probability": 0.999
+  },
+  {
+   "start": 38.08,
+   "end": 38.48,
+   "text": "है।",
+   "probability": 1
+  },
+  {
+   "start": 38.52,
+   "end": 38.98,
+   "text": "Openverse,",
+   "probability": 0.942
+  },
+  {
+   "start": 39.3,
+   "end": 39.6,
+   "text": "openly",
+   "probability": 1
+  },
+  {
+   "start": 39.64,
+   "end": 39.94,
+   "text": "licensed",
+   "probability": 1
+  },
+  {
+   "start": 40.08,
+   "end": 40.36,
+   "text": "sounds",
+   "probability": 1
+  },
+  {
+   "start": 40.42,
+   "end": 40.52,
+   "text": "और",
+   "probability": 0.983
+  },
+  {
+   "start": 40.56,
+   "end": 41.12,
+   "text": "music।",
+   "probability": 0.988
+  },
+  {
+   "start": 41.16,
+   "end": 41.52,
+   "text": "Librosa,",
+   "probability": 0.995
+  },
+  {
+   "start": 41.88,
+   "end": 42,
+   "text": "beat",
+   "probability": 0.992
+  },
+  {
+   "start": 42.08,
+   "end": 42.28,
+   "text": "पकड़ो,",
+   "probability": 0.981
+  },
+  {
+   "start": 42.48,
+   "end": 42.66,
+   "text": "ball",
+   "probability": 0.999
+  },
+  {
+   "start": 42.72,
+   "end": 42.88,
+   "text": "उसी",
+   "probability": 1
+  },
+  {
+   "start": 42.9,
+   "end": 42.96,
+   "text": "पर",
+   "probability": 0.974
+  },
+  {
+   "start": 43,
+   "end": 43.5,
+   "text": "उछले।",
+   "probability": 0.922
+  },
+  {
+   "start": 43.52,
+   "end": 44.02,
+   "text": "WhisperX,",
+   "probability": 0.931
+  },
+  {
+   "start": 44.3,
+   "end": 44.42,
+   "text": "हर",
+   "probability": 1
+  },
+  {
+   "start": 44.52,
+   "end": 44.64,
+   "text": "word",
+   "probability": 1
+  },
+  {
+   "start": 44.7,
+   "end": 44.88,
+   "text": "का",
+   "probability": 1
+  },
+  {
+   "start": 44.92,
+   "end": 45.22,
+   "text": "exact",
+   "probability": 1
+  },
+  {
+   "start": 45.28,
+   "end": 45.86,
+   "text": "timing।",
+   "probability": 1
+  },
+  {
+   "start": 45.9,
+   "end": 46.28,
+   "text": "Remotion",
+   "probability": 0.99
+  },
+  {
+   "start": 46.36,
+   "end": 46.66,
+   "text": "Skills,",
+   "probability": 0.934
+  },
+  {
+   "start": 46.96,
+   "end": 47.24,
+   "text": "official",
+   "probability": 1
+  },
+  {
+   "start": 47.32,
+   "end": 47.52,
+   "text": "video",
+   "probability": 1
+  },
+  {
+   "start": 47.58,
+   "end": 47.88,
+   "text": "skills",
+   "probability": 1
+  },
+  {
+   "start": 48.18,
+   "end": 48.42,
+   "text": "coding",
+   "probability": 0.932
+  },
+  {
+   "start": 48.46,
+   "end": 48.72,
+   "text": "agents",
+   "probability": 1
+  },
+  {
+   "start": 48.76,
+   "end": 48.82,
+   "text": "के",
+   "probability": 1
+  },
+  {
+   "start": 48.86,
+   "end": 49.22,
+   "text": "लिए।",
+   "probability": 0.984
+  },
+  {
+   "start": 49.28,
+   "end": 49.48,
+   "text": "और",
+   "probability": 1
+  },
+  {
+   "start": 49.58,
+   "end": 50.34,
+   "text": "FFmpeg,",
+   "probability": 0.967
+  },
+  {
+   "start": 50.66,
+   "end": 50.82,
+   "text": "सब",
+   "probability": 0.999
+  },
+  {
+   "start": 50.86,
+   "end": 51,
+   "text": "कुछ",
+   "probability": 1
+  },
+  {
+   "start": 51.4,
+   "end": 51.54,
+   "text": "एक",
+   "probability": 0.999
+  },
+  {
+   "start": 51.6,
+   "end": 52.02,
+   "text": "असली",
+   "probability": 1
+  },
+  {
+   "start": 52.12,
+   "end": 52.52,
+   "text": "MP4",
+   "probability": 0.914
+  },
+  {
+   "start": 53.1,
+   "end": 53.1,
+   "text": "में।",
+   "probability": 0.922
+  },
+  {
+   "start": 53.14,
+   "end": 53.22,
+   "text": "अब",
+   "probability": 0.997
+  },
+  {
+   "start": 53.26,
+   "end": 53.42,
+   "text": "वही",
+   "probability": 1
+  },
+  {
+   "start": 53.46,
+   "end": 53.58,
+   "text": "ball",
+   "probability": 0.999
+  },
+  {
+   "start": 53.62,
+   "end": 53.92,
+   "text": "देखो।",
+   "probability": 1
+  },
+  {
+   "start": 56.74,
+   "end": 57.04,
+   "text": "18",
+   "probability": 1
+  },
+  {
+   "start": 57.08,
+   "end": 57.44,
+   "text": "repos,",
+   "probability": 0.989
+  },
+  {
+   "start": 57.74,
+   "end": 58,
+   "text": "लगभग",
+   "probability": 1
+  },
+  {
+   "start": 58.26,
+   "end": 58.7,
+   "text": "1.9",
+   "probability": 1
+  },
+  {
+   "start": 58.74,
+   "end": 58.86,
+   "text": "लाख",
+   "probability": 0.998
+  },
+  {
+   "start": 58.92,
+   "end": 59.2,
+   "text": "stars.",
+   "probability": 0.955
+  },
+  {
+   "start": 59.62,
+   "end": 59.82,
+   "text": "पूरी",
+   "probability": 0.999
+  },
+  {
+   "start": 59.84,
+   "end": 60.06,
+   "text": "list",
+   "probability": 0.999
+  },
+  {
+   "start": 60.1,
+   "end": 60.42,
+   "text": "चाहिए?",
+   "probability": 0.999
+  },
+  {
+   "start": 60.78,
+   "end": 61.02,
+   "text": "Comment",
+   "probability": 0.955
+  },
+  {
+   "start": 61.08,
+   "end": 61.22,
+   "text": "करो",
+   "probability": 1
+  },
+  {
+   "start": 61.28,
+   "end": 61.58,
+   "text": "\"copy\".",
+   "probability": 0.679
+  }
+ ]
+}

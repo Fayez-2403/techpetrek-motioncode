@@ -1,0 +1,154 @@
+{
+  "duration": 56,
+  "voices": {
+    "host": {
+      "id": "FuNEroZdMQWScvkSu4Xt",
+      "fallback": "TX3LPaxmHKxFdv7VOQHJ"
+    }
+  },
+  "scenes": [
+    {
+      "id": "open",
+      "start": 0,
+      "at": 0.12,
+      "who": "host",
+      "tts": "For a stronger short film, start with a script you already have. Open your codebase and select जी पी टी six point two Astra.",
+      "groups": [
+        "For a stronger short film,",
+        "start with a script",
+        "you already have.",
+        "Open your codebase",
+        "and select GPT-6.2 Astra."
+      ],
+      "counts": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        6,
+        1
+      ]
+    },
+    {
+      "id": "brief",
+      "start": 8,
+      "at": 8.12,
+      "who": "host",
+      "tts": "Ask Astra to read your project brief. Who is the audience, and what should they do at the end?",
+      "groups": [
+        "Ask Astra to read",
+        "your project brief.",
+        "Who is the audience,",
+        "and what should they do",
+        "at the end?"
+      ]
+    },
+    {
+      "id": "example",
+      "start": 15,
+      "at": 15.1,
+      "who": "host",
+      "tts": "One line in our old script says, कैमरा नीचे लाओ। That's a shot direction. Move it into the shot list.",
+      "groups": [
+        "One line in our old script",
+        "says, “Camera neeche lao.”",
+        "That’s a shot direction.",
+        "Move it into the shot list."
+      ]
+    },
+    {
+      "id": "prompt",
+      "start": 23,
+      "at": 23.06,
+      "who": "host",
+      "tts": "Then ask Astra: Keep the strongest opening. Cut repeated lines. Match each line to a shot. End with one clear action.",
+      "groups": [
+        "Then ask Astra:",
+        "Keep the strongest opening.",
+        "Cut repeated lines.",
+        "Match each line to a shot.",
+        "End with one clear action."
+      ]
+    },
+    {
+      "id": "review",
+      "start": 31,
+      "at": 31.12,
+      "who": "host",
+      "tts": "Play the rewrite over your footage. अगर line cut के बाद भी चल रही है, shorten the sentence and preview again.",
+      "groups": [
+        "Play the rewrite",
+        "over your footage.",
+        "Agar line cut ke baad",
+        "bhi chal rahi hai,",
+        "shorten the sentence",
+        "and preview again."
+      ]
+    },
+    {
+      "id": "try",
+      "start": 39,
+      "at": 39.04,
+      "who": "host",
+      "tts": "Try this workflow with the skills in your own codebase, using Astra.",
+      "groups": [
+        "Try this workflow",
+        "with the skills",
+        "in your own codebase,",
+        "using Astra."
+      ]
+    },
+    {
+      "id": "offer",
+      "start": 44,
+      "at": 44.03,
+      "who": "host",
+      "tts": "मैं अपना repo link, five reference repos और skills आपको डी एम करूँगा।",
+      "groups": [
+        "Main apna repo link,",
+        "five reference repos aur skills",
+        "aapko DM karunga."
+      ],
+      "counts": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        2,
+        1
+      ]
+    },
+    {
+      "id": "cta",
+      "start": 49.1,
+      "at": 49.15,
+      "who": "host",
+      "tts": "आपको भी ऐसी short story बनानी है और ज़्यादा views चाहिए? Please comment story.",
+      "groups": [
+        "Aapko bhi aisi short story",
+        "banani hai aur zyada",
+        "views chahiye?",
+        "Please comment “story”."
+      ]
+    }
+  ]
+}

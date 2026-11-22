@@ -1,0 +1,21 @@
+chapter,asset,post_url,creator,file_path,start,end,rights,credit,screenshot,verified_label
+all,Brand mark,,Techpetrek,public/brand/techpe-trek.jpg,0,24.8,owned,Techpetrek,,Identical to Assets/Brand Logo.jpeg
+pilot,Courier key art,,Techpetrek production,public/driver/courier.webp,3,7.5,owned,Original generated character art,,ImageGen
+all,Score and dialogue,,Techpetrek production,public/audio/mix_nightshift.wav,0,24.8,owned,Original synthesized music and foley with ElevenLabs Liam narration,,Master
+all,Archivo,,Omnibus-Type,public/fonts/Archivo-VF.ttf,0,24.8,licensed:SIL OFL,OFL-Archivo.txt,,Local font
+all,JetBrains Mono,,JetBrains,public/fonts/JetBrainsMono-VF.ttf,0,24.8,licensed:SIL OFL,OFL-JetBrainsMono.txt,,Local font
+all,Inter,,Rasmus Andersson,public/fonts/InterVariable.woff2,0,24.8,licensed:SIL OFL,OFL-Inter.txt,,Local font
+v2,Tiro Devanagari Hindi,,Tiro Typeworks,public/fonts/TiroDevanagariHindi.ttf,0,24.8,licensed:SIL OFL,OFL-TiroDevanagariHindi.txt,,Local font
+v2,Street outside Regal,,Techpetrek production,public/v2-road/regal.webp,0,3.5,owned,Original ImageGen art,,Fictional cinema street
+v2,Street below the railway,,Techpetrek production,public/v2-road/curb.webp,11.5,24.8,owned,Original ImageGen art,,Fictional neighbourhood
+v2,Rear-view coupe,,Techpetrek production,public/v2-road/rear.webp,0,24.8,owned,Original ImageGen art,,Animated cutout
+v2,Turning coupe,,Techpetrek production,public/v2-road/quarter.webp,11.5,15.5,owned,Original ImageGen art,,Animated cutout
+v2,Autorickshaw,,Techpetrek production,public/v2-road/rickshaw.webp,0,24.8,owned,Original ImageGen art,,Animated cutout
+v2,Driver,,Techpetrek production,public/v2-cabin/pilot.webp,3.5,7,owned,Original ImageGen art,,Fictional character
+v2,Railway overbridge,,Techpetrek production,public/v2-cabin/bridge.webp,7,11.5,owned,Original ImageGen art,,Fictional overbridge
+v2,Suburban train,,Techpetrek production,public/v2-cabin/train.webp,7,11.5,owned,Original ImageGen art,,Animated cutout
+v2,Chai stall,,Techpetrek production,public/v2-chai/stall.webp,15.5,19.5,owned,Original ImageGen art,,Animated pour and steam
+v2,Score dialogue and Foley,,Techpetrek production,public/audio/aakhri-cutting.wav,0,24.8,owned,Original score and Foley with ElevenLabs performances,,Review mix
+v3,Recorded Indian road scenes,https://www.pexels.com/license/,See docs/v3-road-credits.md,public/v3-road/traffic.mp4,0,56,licensed:Pexels License,See docs/v3-road-credits.md,,Real-time road edit
+v3,Editorial titles and captions,,Techpetrek production,public/v3-edit/graphics.webm,0,56,owned,Original editorial design with Techpetrek brand mark,,Transparent video
+v3,Voice and music,,Techpetrek production,public/audio/astra-workflow.m4a,0,56,owned,Original score with ElevenLabs Amogh narration,,Stereo review mix

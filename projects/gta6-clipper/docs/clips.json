@@ -1,0 +1,11 @@
+{
+ "_doc": "Clips picked by the open clipper (scripts/clipper/analyze.py loudness spikes + transcript) and scored by Claude 0-10 from the refined transcript (audio/refined.json). Times are seconds into the IShowSpeed live (youtu.be/OIeLbmyraRQ, recorded from its start). Hooks are ours; every quote is his own words.",
+ "source": "https://www.youtube.com/watch?v=OIeLbmyraRQ",
+ "clips": [
+  {"id": "c1_betrayal", "score": 8.5, "start": 6522.5, "end": 6571.0, "peak": 6549, "hook": "SPEED GOT BETRAYED IN GTA 6 😭", "reason": "story twist + raw reaction, the 'I didn't get to see my baby get born' line lands with no context"},
+  {"id": "c2_tooyoung", "score": 8.0, "start": 6186.5, "end": 6226.5, "peak": 6218, "hook": "GTA 6 WENT TOO FAR 😳", "reason": "execution scene, Speed: 'my brother too young bro', instant payoff"},
+  {"id": "c3_killchoice", "score": 7.5, "start": 3254.5, "end": 3282.5, "peak": 3269, "hook": "SPEED HAD TO CHOOSE: SHOOT HIM OR NOT?", "reason": "moral choice + 'what the f, that's so crazy', short"},
+  {"id": "c4_thisisit", "score": 7.0, "start": 3609.5, "end": 3649.5, "peak": 3634, "hook": "THE LAST MISSION OF GTA 6 STARTS NOW", "reason": "milestone moment, chat chant 'this is it'"},
+  {"id": "c5_happyfamily", "score": 7.0, "start": 2751.0, "end": 2775.0, "peak": 2761, "hook": "SPEED ALMOST CRIED AT GTA 6 🥲", "reason": "loudest spike of the stream (+17 dB), emotional beat"}
+ ]
+}

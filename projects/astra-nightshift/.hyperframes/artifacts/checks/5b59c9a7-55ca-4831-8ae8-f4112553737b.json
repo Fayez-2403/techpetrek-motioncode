@@ -1,0 +1,174 @@
+{
+  "ok": false,
+  "strict": false,
+  "browserSkipped": false,
+  "lint": {
+    "ok": false,
+    "errorCount": 1,
+    "warningCount": 0,
+    "infoCount": 0,
+    "findings": [
+      {
+        "code": "multiple_root_compositions",
+        "severity": "error",
+        "message": "Multiple root-level HTML files with data-composition-id: index.html, nightshift-v1.html. The runtime may discover both as entry points, causing duplicate audio playback.",
+        "selector": "[data-composition-id]",
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "A project should have exactly one root index.html with data-composition-id. Remove or rename extra files."
+      }
+    ],
+    "filesScanned": 1
+  },
+  "runtime": {
+    "ok": false,
+    "errorCount": 1,
+    "warningCount": 0,
+    "infoCount": 0,
+    "findings": [
+      {
+        "code": "page_error",
+        "severity": "error",
+        "message": "Failed to construct 'URL': Invalid base URL",
+        "selector": "[data-composition-id]",
+        "dataAttributes": {
+          "data-composition-id": "aakhri-cutting",
+          "data-start": "0",
+          "data-width": "1080",
+          "data-height": "1920",
+          "data-fps": "60",
+          "data-duration": "24.8"
+        },
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 1080,
+          "height": 1920
+        },
+        "time": 0
+      }
+    ]
+  },
+  "layout": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 1,
+    "infoCount": 0,
+    "findings": [
+      {
+        "code": "sweep_static",
+        "severity": "warning",
+        "time": 0,
+        "selector": "[data-composition-id]",
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "rect": {
+          "left": 0,
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "width": 0,
+          "height": 0
+        },
+        "message": "Only the audio advanced under seek; nothing on screen moved.",
+        "fixHint": "If the composition is meant to be still, add `data-no-timeline` to the element with `data-composition-id`. Otherwise confirm it seeks a paused GSAP/CSS timeline under `data-*` timing attributes rather than only autoplaying.",
+        "firstSeen": 0,
+        "lastSeen": 0,
+        "occurrences": 1,
+        "heldMs": 0,
+        "times": [
+          0
+        ]
+      }
+    ],
+    "duration": 24.8,
+    "samples": [
+      1.378,
+      4.133,
+      6.889,
+      9.644,
+      12.4,
+      15.156,
+      17.911,
+      20.667,
+      23.422
+    ],
+    "transitionSamples": [],
+    "transitionSamplesDropped": 0,
+    "tolerance": 2,
+    "totalIssueCount": 1,
+    "truncated": false,
+    "faceCheck": {
+      "ran": true,
+      "candidates": 0,
+      "faces": 0
+    }
+  },
+  "motion": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 0,
+    "infoCount": 0,
+    "findings": [],
+    "enabled": false,
+    "samples": 0
+  },
+  "contrast": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 0,
+    "infoCount": 0,
+    "findings": [],
+    "enabled": true,
+    "samples": [
+      1.378,
+      6.889,
+      12.4,
+      17.911,
+      23.422
+    ],
+    "checked": 0,
+    "passed": 0
+  },
+  "craft": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 0,
+    "infoCount": 0,
+    "findings": [],
+    "enabled": true,
+    "step": 0.125,
+    "samples": 199
+  },
+  "audio": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 0,
+    "infoCount": 0,
+    "findings": []
+  },
+  "hdr": {
+    "autoPromotion": null,
+    "inspection": "available"
+  },
+  "snapshots": {
+    "enabled": false,
+    "files": [],
+    "times": [],
+    "findingFiles": []
+  }
+}

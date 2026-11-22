@@ -1,0 +1,57 @@
+{
+  "bpm": 120,
+  "voice": {
+    "provider": "elevenlabs",
+    "voiceId": "TX3LPaxmHKxFdv7VOQHJ",
+    "name": "Liam",
+    "model": "eleven_turbo_v2_5",
+    "language": "hi",
+    "stability": 0.42,
+    "similarity": 0.75,
+    "speed": 1.06
+  },
+  "reel": [
+    {
+      "id": "hook",
+      "scene": "hook",
+      "min": 0,
+      "cap": "Apni night drive banaoge?",
+      "tts": "अपनी night drive बनाओगे?"
+    },
+    {
+      "id": "pilot",
+      "scene": "pilot",
+      "min": 0,
+      "cap": "Pehle apna driver chuno.",
+      "tts": "पहले अपना driver चुनो."
+    },
+    {
+      "id": "rain",
+      "scene": "rain",
+      "min": 0,
+      "cap": "Ab sheeshe pe baarish girao.",
+      "tts": "अब शीशे पे बारिश गिराओ."
+    },
+    {
+      "id": "run",
+      "scene": "run",
+      "min": 0,
+      "cap": "Camera neeche lao.",
+      "tts": "Camera नीचे लाओ."
+    },
+    {
+      "id": "chase",
+      "scene": "chase",
+      "min": 0,
+      "cap": "Taillights ka reflection dekho.",
+      "tts": "Taillights का reflection देखो."
+    },
+    {
+      "id": "cta",
+      "scene": "cta",
+      "min": 0,
+      "cap": "GPT six point two Astra mein yeh prompt try karo.",
+      "tts": "जी पी टी six point two Astra में ये prompt try करो."
+    }
+  ]
+}

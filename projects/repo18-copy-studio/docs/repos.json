@@ -1,0 +1,167 @@
+{
+ "fetched": "2026-11-20",
+ "repos": [
+  {
+   "repo": "NiazMorshed2007/reanimate",
+   "stars": 1924,
+   "license": "MIT",
+   "pushed": "2026-10-31",
+   "created": "2026-10-29",
+   "desc": "A Claude Code skill that reverse-engineers any animation frame by frame, then proves the copy moves the same.",
+   "url": "https://github.com/NiazMorshed2007/reanimate"
+  },
+  {
+   "repo": "LottieFiles/motion-design-skill",
+   "stars": 3442,
+   "license": "MIT",
+   "pushed": "2026-11-19",
+   "created": "2026-03-12",
+   "desc": "Universal motion design principles for AI agents — timing, easing, choreography, and Disney animation principles adapted for UI",
+   "url": "https://github.com/LottieFiles/motion-design-skill"
+  },
+  {
+   "repo": "Vincentwei1021/mg-styles-15",
+   "stars": 3734,
+   "license": "MIT",
+   "pushed": "2026-11-19",
+   "created": "2026-10-02",
+   "desc": "15 motion design styles, each made by Claude Opus 5.5 writing code from one prompt: watch the films, copy the prompts, read the full source.",
+   "url": "https://github.com/Vincentwei1021/mg-styles-15"
+  },
+  {
+   "repo": "alchaincyf/huashu-art-motion",
+   "stars": 7324,
+   "license": "MIT",
+   "pushed": "2026-11-18",
+   "created": "2026-10-06",
+   "desc": "艺术动画skill：35种艺术风格、9种解说语法，用代码让画动起来。",
+   "url": "https://github.com/alchaincyf/huashu-art-motion"
+  },
+  {
+   "repo": "alexgreensh/anidoodle",
+   "stars": 1877,
+   "license": "Apache-2.0",
+   "pushed": "2026-11-05",
+   "created": "2026-09-22",
+   "desc": "Art and animation, written as code. Illustrations, loops, interactive web art, launch-videos and scored films in dozens of styles, identical on every render.",
+   "url": "https://github.com/alexgreensh/anidoodle"
+  },
+  {
+   "repo": "Leonxlnx/cinetic",
+   "stars": 1310,
+   "license": "MIT",
+   "pushed": "2026-11-09",
+   "created": "2026-09-28",
+   "desc": "Cinematic launch films and motion design from code, directed by your coding agent.",
+   "url": "https://github.com/Leonxlnx/cinetic"
+  },
+  {
+   "repo": "Tejashmakwana/motionmaxxing",
+   "stars": 1706,
+   "license": "Apache-2.0",
+   "pushed": "2026-10-06",
+   "created": "2026-10-06",
+   "desc": "Looksmaxxing for motion graphics. An agent skill that turns AI slop videos into films that look made by a motion designer.",
+   "url": "https://github.com/Tejashmakwana/motionmaxxing"
+  },
+  {
+   "repo": "ManimCommunity/manim",
+   "stars": 42717,
+   "license": "MIT",
+   "pushed": "2026-11-17",
+   "created": "2020-05-19",
+   "desc": "A community-maintained Python framework for creating mathematical animations. ",
+   "url": "https://github.com/ManimCommunity/manim"
+  },
+  {
+   "repo": "EL4CTEO/blender-skills",
+   "stars": 2495,
+   "license": "MIT",
+   "pushed": "2026-11-17",
+   "created": "2026-10-14",
+   "desc": "Professional Blender 5.3 workflows as Agent Skills for Claude Code, Codex, Gemini CLI, Copilot and Cursor: modeling, UVs, PBR, baking, rigging, animation, export and QA.",
+   "url": "https://github.com/EL4CTEO/blender-skills"
+  },
+  {
+   "repo": "Alchemist0823/three.quarks",
+   "stars": 1249,
+   "license": "MIT",
+   "pushed": "2026-11-18",
+   "created": "2019-06-16",
+   "desc": "Three.quarks is a general purpose particle system /  VFX engine for three.js",
+   "url": "https://github.com/Alchemist0823/three.quarks"
+  },
+  {
+   "repo": "pmndrs/react-postprocessing",
+   "stars": 1679,
+   "license": "MIT",
+   "pushed": "2026-10-21",
+   "created": "2020-05-07",
+   "desc": "📬  Postprocessing for react-three-fiber",
+   "url": "https://github.com/pmndrs/react-postprocessing"
+  },
+  {
+   "repo": "cocopon/tweakpane",
+   "stars": 4721,
+   "license": "MIT",
+   "pushed": "2026-03-15",
+   "created": "2016-05-10",
+   "desc": ":control_knobs: Compact GUI for fine-tuning parameters and monitoring value changes",
+   "url": "https://github.com/cocopon/tweakpane"
+  },
+  {
+   "repo": "storytold/effectcraft",
+   "stars": 9015,
+   "license": "Apache-2.0",
+   "pushed": "2026-11-20",
+   "created": "2026-10-01",
+   "desc": "EffectCraft: An open-source motion graphics and compositing tool written from scratch in pure Rust",
+   "url": "https://github.com/storytold/effectcraft"
+  },
+  {
+   "repo": "WordPress/openverse",
+   "stars": 719,
+   "license": "MIT",
+   "pushed": "2026-11-20",
+   "created": "2021-04-13",
+   "desc": "Openverse is a search engine for openly-licensed media. This monorepo includes all application code.",
+   "url": "https://github.com/WordPress/openverse"
+  },
+  {
+   "repo": "librosa/librosa",
+   "stars": 9046,
+   "license": "ISC",
+   "pushed": "2026-11-19",
+   "created": "2012-10-20",
+   "desc": "Python library for audio and music analysis",
+   "url": "https://github.com/librosa/librosa"
+  },
+  {
+   "repo": "m-bain/whisperX",
+   "stars": 25520,
+   "license": "BSD-2-Clause",
+   "pushed": "2026-11-12",
+   "created": "2022-12-09",
+   "desc": "WhisperX:  Automatic Speech Recognition with Word-level Timestamps (& Diarization)",
+   "url": "https://github.com/m-bain/whisperX"
+  },
+  {
+   "repo": "remotion-dev/skills",
+   "stars": 7608,
+   "license": null,
+   "pushed": "2026-11-18",
+   "created": "2026-01-19",
+   "desc": "Agent Skills",
+   "url": "https://github.com/remotion-dev/skills"
+  },
+  {
+   "repo": "FFmpeg/FFmpeg",
+   "stars": 67697,
+   "license": "NOASSERTION",
+   "pushed": "2026-11-20",
+   "created": "2011-04-14",
+   "desc": "Mirror of https://git.ffmpeg.org/ffmpeg.git",
+   "url": "https://github.com/FFmpeg/FFmpeg"
+  }
+ ]
+}

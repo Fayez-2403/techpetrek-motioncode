@@ -1,0 +1,30 @@
+=== DM 1 (auto-reply to comment "CLIP") ===
+Hey! 🎮✂️ GTA 6 clipping ka poora setup, bilkul free:
+
+🧰 Tools (sab free):
+• yt-dlp: stream download
+• FFmpeg: cut + 9:16 layout
+• faster-whisper: transcript, har word ka time
+• Claude (Claude Code): moments score + edit
+
+⚙️ 3 steps:
+1️⃣ Stream ka link Claude ko do. Woh audio nikaal ke poora transcript banata hai.
+2️⃣ Sabse loud seconds dhundho (stream ke normal level se kitne dB upar). Claude har moment ko 0-10 score deta hai, sirf 7+ wale cut karo.
+3️⃣ 1080x1920: facecam upar, gameplay neeche, word-by-word captions + 1 line ka hook. Gaaliyan mask karo, audio -14 LUFS.
+
+⚡ Live stream? 1-minute pieces mein record karo. Jaldi post = zyada views.
+
+💰 Paisa: clipping campaigns (jaise Content Rewards) views ke hisaab se pay karte hain, rate har campaign ka alag. Join se pehle rules padho: sirf allowed creator, unka tag/hashtag, logo agar maanga ho.
+
+Copy-paste Claude prompt agle message mein 👇
+Method credit: @imrollandex
+
+=== DM 2 (the prompt) ===
+📋 Claude ko yeh bhejo:
+
+"Yeh stream download karo: [LINK] (yt-dlp). faster-whisper se transcript banao, word timestamps ke saath. Har second ki loudness nikaalo aur 5-minute ke rolling average se compare karo. Top 15 loud moments ke aas-paas 45 s ka transcript padho aur har moment ko 0-10 score do: hook, emotion, story, bina context ke samajh aaye ya nahi. 7+ wale moments ko 20-40 s ke clips banao: 1080x1920, facecam upar, gameplay neeche, word-by-word captions, upar 1 line ka hook. Gaaliyan *** se mask karo. Audio -14 LUFS. Har clip ka title aur caption bhi do."
+
+🛠️ Mera poora open-source editing studio (reels, captions, voice, 3D, sab code se), free mein fork karo:
+github.com/Fayez-2403/EditorBro
+
+Pehla clip bana ke mujhe tag karna 🔥

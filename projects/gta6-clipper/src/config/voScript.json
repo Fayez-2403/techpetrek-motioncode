@@ -1,0 +1,95 @@
+{
+ "_doc": "GTA 6 clipper teach reel. Method from Rollandex's video (credited); the demo is our own run on IShowSpeed's live.",
+ "bpm": 120,
+ "lead": 0.06,
+ "voice": {
+  "provider": "elevenlabs",
+  "voiceId": "TX3LPaxmHKxFdv7VOQHJ",
+  "name": "Liam",
+  "model": "eleven_turbo_v2_5",
+  "language": "hi",
+  "stability": 0.4,
+  "similarity": 0.75,
+  "speed": 1.2,
+  "seed": 5
+ },
+ "reel": [
+  {
+   "id": "v01",
+   "scene": "hook",
+   "gap": 0.2,
+   "cap": "GTA 6 aate hi log khelke nahi — clip karke kama rahe hain.",
+   "tts": "GTA six आते ही लोग खेलके नहीं — clip करके कमा रहे हैं।"
+  },
+  {
+   "id": "v02",
+   "scene": "link",
+   "gap": 0.1,
+   "cap": "Step 1: Claude ko stream ka link do.",
+   "tts": "Step one: Claude को stream का link दो।"
+  },
+  {
+   "id": "v03",
+   "scene": "transcript",
+   "gap": 0.1,
+   "cap": "Woh poori stream ka audio nikaal ke, har ek word likh leta hai.",
+   "tts": "वो पूरी stream का audio निकाल के, हर एक word लिख लेता है।"
+  },
+  {
+   "id": "v04",
+   "scene": "loud",
+   "gap": 0.1,
+   "cap": "Step 2: jahan streamer sabse zor se chillaya — wahi viral moment.",
+   "tts": "Step two: जहाँ streamer सबसे ज़ोर से चिल्लाया — वही viral moment।"
+  },
+  {
+   "id": "v05",
+   "scene": "score",
+   "gap": 0.1,
+   "cap": "Phir Claude har moment ko zero se das score deta hai.",
+   "tts": "फिर Claude हर moment को zero से दस score देता है।"
+  },
+  {
+   "id": "v06",
+   "scene": "layout",
+   "gap": 0.1,
+   "cap": "Step 3: facecam upar, gameplay neeche, captions aur ek hook.",
+   "tts": "Step three: facecam ऊपर, gameplay नीचे, captions और एक hook।"
+  },
+  {
+   "id": "v07",
+   "scene": "result",
+   "gap": 1.6,
+   "cap": "Aur ready hai — post karne layak clip.",
+   "tts": "और ready है — post करने लायक clip।"
+  },
+  {
+   "id": "v08",
+   "scene": "live",
+   "gap": 0.1,
+   "cap": "Stream live ho, toh har minute record karo — jitna jaldi post, utne zyada views.",
+   "tts": "Stream live हो, तो हर minute record करो — जितना जल्दी post, उतने ज़्यादा views।"
+  },
+  {
+   "id": "v09",
+   "scene": "money",
+   "gap": 0.1,
+   "cap": "Paisa? Clipping campaigns — views ke hisaab se pay karte hain.",
+   "tts": "पैसा? Clipping campaigns — views के हिसाब से pay करते हैं।"
+  },
+  {
+   "id": "v10",
+   "scene": "rules",
+   "gap": 0.15,
+   "cap": "Bas campaign ke rules padho — sirf allowed creators ke clips.",
+   "tts": "बस campaign के rules पढ़ो — सिर्फ़ allowed creators के clips।"
+  },
+  {
+   "id": "v11",
+   "scene": "cta",
+   "gap": 0.0,
+   "cap": "Poora setup chahiye? Comment karo CLIP.",
+   "tts": "पूरा setup चाहिए? Comment करो CLIP!"
+  }
+ ]
+}

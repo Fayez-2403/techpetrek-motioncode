@@ -1,0 +1,87 @@
+{
+ "_doc": "KreekCraft GTA 6 Clipping (ClipLaunch on Content Rewards, $1/1K views). Source: KreekCraft's own GTA 6 live youtu.be/jMCNK2H1jNQ (Day 3), recorded from its start. Moments found by loudness spikes + transcript, scored by Claude. 'segments' are cuts inside ONE moment, in order, 1.0x; a 'mark' labels a real time skip. Hooks only describe what happens on screen (campaign: no fabricated context or misleading titles).",
+ "source": "https://www.youtube.com/watch?v=jMCNK2H1jNQ",
+ "clips": [
+  {
+   "id": "k1_bank",
+   "score": 9.0,
+   "hook": "HE ACCIDENTALLY BROKE INTO A BANK 😭",
+   "segments": [
+    [
+     5805.3,
+     5821.8
+    ],
+    [
+     5847.2,
+     5866.6
+    ]
+   ],
+   "reason": "self-own + 'I'm deleting the game', instant payoff; the punchline plays over a loading screen, so the gameplay window shows an instant REPLAY of the real break-in while the facecam stays live",
+   "replay": [
+    {
+     "from": 16.5,
+     "to": 32.5,
+     "src": 0.3
+    }
+   ]
+  },
+  {
+   "id": "k2_roof",
+   "score": 8.0,
+   "hook": "HE LEFT JASON ON THE ROOF 💀",
+   "segments": [
+    [
+     6776.3,
+     6799.0
+    ],
+    [
+     6809.8,
+     6813.0
+    ]
+   ],
+   "reason": "absurd choice + 'please be in the shower' chant + punchline"
+  },
+  {
+   "id": "k3_afk",
+   "score": 8.0,
+   "hook": "CAN HE GO AFK IN GTA 6 WITHOUT GETTING BANNED? 😳",
+   "segments": [
+    [
+     6896.5,
+     6916.0
+    ],
+    [
+     6969.6,
+     6980.2
+    ],
+    [
+     7081.2,
+     7100.0
+    ]
+   ],
+   "marks": [
+    {
+     "seg": 2,
+     "text": "2 MINUTES LATER"
+    }
+   ],
+   "reason": "challenge setup, real 2-minute wait, return"
+  },
+  {
+   "id": "k4_gator",
+   "score": 7.5,
+   "hook": "THE ALLIGATOR WANTED HIM 🐊",
+   "segments": [
+    [
+     4759.0,
+     4774.5
+    ],
+    [
+     4826.4,
+     4836.0
+    ]
+   ],
+   "reason": "gator interrogation + 'he's touching the water'"
+  }
+ ]
+}

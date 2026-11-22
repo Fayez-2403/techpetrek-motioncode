@@ -1,0 +1,405 @@
+{
+ "_note": "Named from the film's own timeline + score design (scripts/name_spec.py). Film: our 18-repos reel.",
+ "source": "film.mp4",
+ "stems": "stems",
+ "cover": 31.4,
+ "bpm": 120,
+ "barAnchor": 1.03,
+ "pullBack": 60.3,
+ "hold": 1.2,
+ "acts": [
+  {
+   "start": 0.0,
+   "title": "AI slop"
+  },
+  {
+   "start": 5.125,
+   "title": "Copy + timing"
+  },
+  {
+   "start": 10.75,
+   "title": "Style + paint"
+  },
+  {
+   "start": 18.5,
+   "title": "Math + 3D"
+  },
+  {
+   "start": 23.625,
+   "title": "VFX + finish"
+  },
+  {
+   "start": 32.5,
+   "title": "Film + de-slop"
+  },
+  {
+   "start": 38.375,
+   "title": "Sound + words"
+  },
+  {
+   "start": 45.75,
+   "title": "Ship it"
+  },
+  {
+   "start": 53.0,
+   "title": "Same ball"
+  }
+ ],
+ "lanes": [
+  {
+   "name": "Voice-over (Liam)",
+   "stem": "vocals",
+   "clips": [
+    [
+     0.08,
+     4.903,
+     "Ye ball dekho, AI slop"
+    ],
+    [
+     5.185,
+     8.01,
+     "Reanimate"
+    ],
+    [
+     8.185,
+     10.692,
+     "Motion design skill"
+    ],
+    [
+     10.81,
+     13.688,
+     "MG styles"
+    ],
+    [
+     13.81,
+     15.64,
+     "Huashu"
+    ],
+    [
+     15.81,
+     18.444,
+     "Anidoodle"
+    ],
+    [
+     18.56,
+     21.013,
+     "Manim library"
+    ],
+    [
+     21.185,
+     23.552,
+     "Blender skills"
+    ],
+    [
+     23.685,
+     25.021,
+     "Three quarks"
+    ],
+    [
+     25.185,
+     27.618,
+     "React postprocessing"
+    ],
+    [
+     27.81,
+     30.133,
+     "Tweakpane"
+    ],
+    [
+     30.31,
+     32.343,
+     "EffectCraft"
+    ],
+    [
+     32.56,
+     35.035,
+     "Cinetic"
+    ],
+    [
+     35.185,
+     38.24,
+     "Motionmaxxing"
+    ],
+    [
+     38.435,
+     40.885,
+     "Openverse"
+    ],
+    [
+     41.06,
+     43.282,
+     "Librosa"
+    ],
+    [
+     43.435,
+     45.615,
+     "WhisperX"
+    ],
+    [
+     45.81,
+     49.042,
+     "Remotion skills"
+    ],
+    [
+     49.185,
+     52.7,
+     "Aur FFmpeg"
+    ],
+    [
+     53.06,
+     53.884,
+     "Ab wahi ball dekho."
+    ],
+    [
+     56.685,
+     59.267,
+     "18 repos, lagbhag 1.9 lakh stars."
+    ],
+    [
+     59.56,
+     61.666,
+     "Poori list chahiye? Comment karo C"
+    ]
+   ]
+  },
+  {
+   "name": "Drums",
+   "stem": "drums",
+   "clips": [
+    [
+     0,
+     5.125,
+     "Metronome (slop)"
+    ],
+    [
+     5.125,
+     8.125,
+     "Kick"
+    ],
+    [
+     8.125,
+     32.5,
+     "Kick + hats"
+    ],
+    [
+     32.5,
+     41.0,
+     "+ claps"
+    ],
+    [
+     41.0,
+     62.266,
+     "+ sub on the 1"
+    ]
+   ]
+  },
+  {
+   "name": "Bass",
+   "stem": "bass",
+   "clips": [
+    [
+     0,
+     5.125,
+     "Slop hum"
+    ],
+    [
+     10.75,
+     62.066,
+     "Bass line"
+    ]
+   ]
+  },
+  {
+   "name": "Synths",
+   "stem": "other",
+   "clips": [
+    [
+     13.75,
+     15.75,
+     "Pad"
+    ],
+    [
+     15.75,
+     62.466,
+     "Pad + plucks"
+    ]
+   ]
+  },
+  {
+   "name": "FX",
+   "stem": "drums",
+   "clips": [
+    [
+     23.625,
+     38.375,
+     "Thud + sparkle",
+     "other"
+    ],
+    [
+     38.375,
+     53.0,
+     "Boing on every bounce"
+    ],
+    [
+     56.625,
+     59.5,
+     "Counter roll"
+    ]
+   ]
+  }
+ ],
+ "transitions": [],
+ "shots": [
+  [
+   0,
+   5.133,
+   "AI-slop ball"
+  ],
+  [
+   5.133,
+   5.883,
+   "reanimate"
+  ],
+  [
+   5.883,
+   8.133,
+   "reanimate"
+  ],
+  [
+   8.133,
+   8.883,
+   "motion-design"
+  ],
+  [
+   8.883,
+   10.75,
+   "motion-design"
+  ],
+  [
+   10.75,
+   11.15,
+   "mg-styles-15"
+  ],
+  [
+   11.15,
+   11.55,
+   "mg-styles-15"
+  ],
+  [
+   11.55,
+   13.75,
+   "mg-styles-15"
+  ],
+  [
+   13.75,
+   15.75,
+   "huashu"
+  ],
+  [
+   15.75,
+   18.5,
+   "anidoodle"
+  ],
+  [
+   18.5,
+   21.133,
+   "Manim"
+  ],
+  [
+   21.133,
+   23.633,
+   "blender-skills"
+  ],
+  [
+   23.633,
+   25.133,
+   "three.quarks"
+  ],
+  [
+   25.133,
+   27.75,
+   "postprocessing"
+  ],
+  [
+   27.75,
+   30.25,
+   "Tweakpane"
+  ],
+  [
+   30.25,
+   32.5,
+   "EffectCraft"
+  ],
+  [
+   32.5,
+   35.133,
+   "cinetic"
+  ],
+  [
+   35.133,
+   35.883,
+   "motionmaxxing"
+  ],
+  [
+   35.883,
+   37.183,
+   "motionmaxxing"
+  ],
+  [
+   37.183,
+   38.383,
+   "motionmaxxing"
+  ],
+  [
+   38.383,
+   41,
+   "Openverse"
+  ],
+  [
+   41,
+   43.383,
+   "librosa"
+  ],
+  [
+   43.383,
+   45.75,
+   "WhisperX"
+  ],
+  [
+   45.75,
+   49.133,
+   "Remotion"
+  ],
+  [
+   49.133,
+   53,
+   "FFmpeg"
+  ],
+  [
+   53,
+   55.433,
+   "Same ball"
+  ],
+  [
+   55.433,
+   56.633,
+   "Same ball"
+  ],
+  [
+   56.633,
+   59.5,
+   "Star total"
+  ],
+  [
+   59.5,
+   62.8,
+   "Comment COPY"
+  ]
+ ],
+ "aspect": "9:16",
+ "style": {
+  "ground": "#07080d",
+  "accent": "#ffcf5a",
+  "light": true
+ }
+}

@@ -1,0 +1,14 @@
+Thanks for commenting “story”! Yeh mera motion-as-code repo hai:
+https://github.com/Fayez-2403/techpetrek-motioncode
+
+Here are the 5 reference repos, grouped by what you want to try:
+• 3D scenes — https://github.com/mrdoob/three.js
+• Animation — https://github.com/greensock/GSAP
+• Video timelines — https://github.com/remotion-dev/remotion
+• Speech-to-text for captions — https://github.com/SYSTRAN/faster-whisper
+• Encoding and audio checks — https://github.com/FFmpeg/FFmpeg
+
+The two reel skills are here:
+https://github.com/Fayez-2403/techpetrek-motioncode/tree/main/.claude/skills
+
+Open your own codebase, select GPT-6.2 Astra, and try this: “Read my brief, previous script and shot list. Keep my strongest opening, cut lines that repeat the picture, and write one clear CTA. Show me the rewrite beside the original, then help me preview it against the footage.”

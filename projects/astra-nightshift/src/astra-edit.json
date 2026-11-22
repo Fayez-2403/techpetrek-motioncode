@@ -1,0 +1,1017 @@
+{
+ "scenes": [
+  {
+   "id": "open",
+   "start": 0
+  },
+  {
+   "id": "brief",
+   "start": 8
+  },
+  {
+   "id": "example",
+   "start": 15
+  },
+  {
+   "id": "prompt",
+   "start": 23
+  },
+  {
+   "id": "review",
+   "start": 31
+  },
+  {
+   "id": "try",
+   "start": 39
+  },
+  {
+   "id": "offer",
+   "start": 44
+  },
+  {
+   "id": "cta",
+   "start": 49.1
+  }
+ ],
+ "captions": [
+  {
+   "text": "For a stronger short film,",
+   "who": "host",
+   "start": 0.12,
+   "end": 1.352,
+   "words": [
+    {
+     "text": "For",
+     "start": 0.12,
+     "end": 0.326
+    },
+    {
+     "text": "a",
+     "start": 0.369,
+     "end": 0.39
+    },
+    {
+     "text": "stronger",
+     "start": 0.434,
+     "end": 0.758
+    },
+    {
+     "text": "short",
+     "start": 0.823,
+     "end": 1.049
+    },
+    {
+     "text": "film,",
+     "start": 1.093,
+     "end": 1.352
+    }
+   ]
+  },
+  {
+   "text": "start with a script",
+   "who": "host",
+   "start": 1.384,
+   "end": 2.281,
+   "words": [
+    {
+     "text": "start",
+     "start": 1.384,
+     "end": 1.622
+    },
+    {
+     "text": "with",
+     "start": 1.655,
+     "end": 1.795
+    },
+    {
+     "text": "a",
+     "start": 1.838,
+     "end": 1.871
+    },
+    {
+     "text": "script",
+     "start": 1.935,
+     "end": 2.281
+    }
+   ]
+  },
+  {
+   "text": "you already have.",
+   "who": "host",
+   "start": 2.346,
+   "end": 3.329,
+   "words": [
+    {
+     "text": "you",
+     "start": 2.346,
+     "end": 2.454
+    },
+    {
+     "text": "already",
+     "start": 2.541,
+     "end": 2.93
+    },
+    {
+     "text": "have.",
+     "start": 2.994,
+     "end": 3.329
+    }
+   ]
+  },
+  {
+   "text": "Open your codebase",
+   "who": "host",
+   "start": 3.458,
+   "end": 4.464,
+   "words": [
+    {
+     "text": "Open",
+     "start": 3.458,
+     "end": 3.751
+    },
+    {
+     "text": "your",
+     "start": 3.805,
+     "end": 3.913
+    },
+    {
+     "text": "codebase",
+     "start": 3.956,
+     "end": 4.464
+    }
+   ]
+  },
+  {
+   "text": "and select GPT-6.2 Astra.",
+   "who": "host",
+   "start": 4.485,
+   "end": 7.9,
+   "words": [
+    {
+     "text": "and",
+     "start": 4.485,
+     "end": 4.572
+    },
+    {
+     "text": "select",
+     "start": 4.626,
+     "end": 5.047
+    },
+    {
+     "text": "GPT-6.2",
+     "start": 5.393,
+     "end": 6.96
+    },
+    {
+     "text": "Astra.",
+     "start": 7.046,
+     "end": 7.9
+    }
+   ]
+  },
+  {
+   "text": "Ask Astra to read",
+   "who": "host",
+   "start": 8.12,
+   "end": 9.339,
+   "words": [
+    {
+     "text": "Ask",
+     "start": 8.12,
+     "end": 8.468
+    },
+    {
+     "text": "Astra",
+     "start": 8.538,
+     "end": 8.886
+    },
+    {
+     "text": "to",
+     "start": 8.956,
+     "end": 9.037
+    },
+    {
+     "text": "read",
+     "start": 9.13,
+     "end": 9.339
+    }
+   ]
+  },
+  {
+   "text": "your project brief.",
+   "who": "host",
+   "start": 9.397,
+   "end": 10.442,
+   "words": [
+    {
+     "text": "your",
+     "start": 9.397,
+     "end": 9.548
+    },
+    {
+     "text": "project",
+     "start": 9.618,
+     "end": 9.989
+    },
+    {
+     "text": "brief.",
+     "start": 10.012,
+     "end": 10.442
+    }
+   ]
+  },
+  {
+   "text": "Who is the audience,",
+   "who": "host",
+   "start": 10.581,
+   "end": 11.522,
+   "words": [
+    {
+     "text": "Who",
+     "start": 10.581,
+     "end": 10.779
+    },
+    {
+     "text": "is",
+     "start": 10.848,
+     "end": 10.93
+    },
+    {
+     "text": "the",
+     "start": 10.988,
+     "end": 11.057
+    },
+    {
+     "text": "audience,",
+     "start": 11.104,
+     "end": 11.522
+    }
+   ]
+  },
+  {
+   "text": "and what should they do",
+   "who": "host",
+   "start": 11.545,
+   "end": 12.52,
+   "words": [
+    {
+     "text": "and",
+     "start": 11.545,
+     "end": 11.649
+    },
+    {
+     "text": "what",
+     "start": 11.696,
+     "end": 11.905
+    },
+    {
+     "text": "should",
+     "start": 11.963,
+     "end": 12.183
+    },
+    {
+     "text": "they",
+     "start": 12.218,
+     "end": 12.346
+    },
+    {
+     "text": "do",
+     "start": 12.416,
+     "end": 12.52
+    }
+   ]
+  },
+  {
+   "text": "at the end?",
+   "who": "host",
+   "start": 12.601,
+   "end": 13.739,
+   "words": [
+    {
+     "text": "at",
+     "start": 12.601,
+     "end": 12.694
+    },
+    {
+     "text": "the",
+     "start": 12.752,
+     "end": 12.834
+    },
+    {
+     "text": "end?",
+     "start": 12.892,
+     "end": 13.739
+    }
+   ]
+  },
+  {
+   "text": "One line in our old script",
+   "who": "host",
+   "start": 15.1,
+   "end": 16.644,
+   "words": [
+    {
+     "text": "One",
+     "start": 15.1,
+     "end": 15.355
+    },
+    {
+     "text": "line",
+     "start": 15.39,
+     "end": 15.622
+    },
+    {
+     "text": "in",
+     "start": 15.657,
+     "end": 15.739
+    },
+    {
+     "text": "our",
+     "start": 15.808,
+     "end": 15.982
+    },
+    {
+     "text": "old",
+     "start": 16.064,
+     "end": 16.249
+    },
+    {
+     "text": "script",
+     "start": 16.284,
+     "end": 16.644
+    }
+   ]
+  },
+  {
+   "text": "says, “Camera neeche lao.”",
+   "who": "host",
+   "start": 16.691,
+   "end": 18.687,
+   "words": [
+    {
+     "text": "says,",
+     "start": 16.691,
+     "end": 17.294
+    },
+    {
+     "text": "“Camera",
+     "start": 17.41,
+     "end": 17.84
+    },
+    {
+     "text": "neeche",
+     "start": 17.898,
+     "end": 18.177
+    },
+    {
+     "text": "lao.”",
+     "start": 18.235,
+     "end": 18.687
+    }
+   ]
+  },
+  {
+   "text": "That’s a shot direction.",
+   "who": "host",
+   "start": 19.001,
+   "end": 20.406,
+   "words": [
+    {
+     "text": "That’s",
+     "start": 19.001,
+     "end": 19.268
+    },
+    {
+     "text": "a",
+     "start": 19.303,
+     "end": 19.338
+    },
+    {
+     "text": "shot",
+     "start": 19.396,
+     "end": 19.651
+    },
+    {
+     "text": "direction.",
+     "start": 19.709,
+     "end": 20.406
+    }
+   ]
+  },
+  {
+   "text": "Move it into the shot list.",
+   "who": "host",
+   "start": 20.603,
+   "end": 22.577,
+   "words": [
+    {
+     "text": "Move",
+     "start": 20.603,
+     "end": 20.893
+    },
+    {
+     "text": "it",
+     "start": 20.94,
+     "end": 21.021
+    },
+    {
+     "text": "into",
+     "start": 21.079,
+     "end": 21.277
+    },
+    {
+     "text": "the",
+     "start": 21.346,
+     "end": 21.427
+    },
+    {
+     "text": "shot",
+     "start": 21.485,
+     "end": 21.718
+    },
+    {
+     "text": "list.",
+     "start": 21.787,
+     "end": 22.577
+    }
+   ]
+  },
+  {
+   "text": "Then ask Astra:",
+   "who": "host",
+   "start": 23.06,
+   "end": 24.244,
+   "words": [
+    {
+     "text": "Then",
+     "start": 23.06,
+     "end": 23.327
+    },
+    {
+     "text": "ask",
+     "start": 23.42,
+     "end": 23.745
+    },
+    {
+     "text": "Astra:",
+     "start": 23.826,
+     "end": 24.244
+    }
+   ]
+  },
+  {
+   "text": "Keep the strongest opening.",
+   "who": "host",
+   "start": 24.291,
+   "end": 25.87,
+   "words": [
+    {
+     "text": "Keep",
+     "start": 24.291,
+     "end": 24.523
+    },
+    {
+     "text": "the",
+     "start": 24.593,
+     "end": 24.674
+    },
+    {
+     "text": "strongest",
+     "start": 24.732,
+     "end": 25.185
+    },
+    {
+     "text": "opening.",
+     "start": 25.254,
+     "end": 25.87
+    }
+   ]
+  },
+  {
+   "text": "Cut repeated lines.",
+   "who": "host",
+   "start": 26.032,
+   "end": 27.158,
+   "words": [
+    {
+     "text": "Cut",
+     "start": 26.032,
+     "end": 26.276
+    },
+    {
+     "text": "repeated",
+     "start": 26.346,
+     "end": 26.764
+    },
+    {
+     "text": "lines.",
+     "start": 26.822,
+     "end": 27.158
+    }
+   ]
+  },
+  {
+   "text": "Match each line to a shot.",
+   "who": "host",
+   "start": 27.205,
+   "end": 28.644,
+   "words": [
+    {
+     "text": "Match",
+     "start": 27.205,
+     "end": 27.46
+    },
+    {
+     "text": "each",
+     "start": 27.53,
+     "end": 27.739
+    },
+    {
+     "text": "line",
+     "start": 27.808,
+     "end": 28.029
+    },
+    {
+     "text": "to",
+     "start": 28.076,
+     "end": 28.157
+    },
+    {
+     "text": "a",
+     "start": 28.238,
+     "end": 28.261
+    },
+    {
+     "text": "shot.",
+     "start": 28.308,
+     "end": 28.644
+    }
+   ]
+  },
+  {
+   "text": "End with one clear action.",
+   "who": "host",
+   "start": 28.679,
+   "end": 30.212,
+   "words": [
+    {
+     "text": "End",
+     "start": 28.679,
+     "end": 28.888
+    },
+    {
+     "text": "with",
+     "start": 28.958,
+     "end": 29.12
+    },
+    {
+     "text": "one",
+     "start": 29.178,
+     "end": 29.353
+    },
+    {
+     "text": "clear",
+     "start": 29.376,
+     "end": 29.608
+    },
+    {
+     "text": "action.",
+     "start": 29.654,
+     "end": 30.212
+    }
+   ]
+  },
+  {
+   "text": "Play the rewrite",
+   "who": "host",
+   "start": 31.12,
+   "end": 32.049,
+   "words": [
+    {
+     "text": "Play",
+     "start": 31.12,
+     "end": 31.422
+    },
+    {
+     "text": "the",
+     "start": 31.468,
+     "end": 31.561
+    },
+    {
+     "text": "rewrite",
+     "start": 31.631,
+     "end": 32.049
+    }
+   ]
+  },
+  {
+   "text": "over your footage.",
+   "who": "host",
+   "start": 32.084,
+   "end": 33.024,
+   "words": [
+    {
+     "text": "over",
+     "start": 32.084,
+     "end": 32.269
+    },
+    {
+     "text": "your",
+     "start": 32.327,
+     "end": 32.455
+    },
+    {
+     "text": "footage.",
+     "start": 32.502,
+     "end": 33.024
+    }
+   ]
+  },
+  {
+   "text": "Agar line cut ke baad",
+   "who": "host",
+   "start": 33.291,
+   "end": 34.44,
+   "words": [
+    {
+     "text": "Agar",
+     "start": 33.291,
+     "end": 33.523
+    },
+    {
+     "text": "line",
+     "start": 33.605,
+     "end": 33.86
+    },
+    {
+     "text": "cut",
+     "start": 33.895,
+     "end": 34.046
+    },
+    {
+     "text": "ke",
+     "start": 34.115,
+     "end": 34.197
+    },
+    {
+     "text": "baad",
+     "start": 34.255,
+     "end": 34.44
+    }
+   ]
+  },
+  {
+   "text": "bhi chal rahi hai,",
+   "who": "host",
+   "start": 34.499,
+   "end": 35.195,
+   "words": [
+    {
+     "text": "bhi",
+     "start": 34.499,
+     "end": 34.568
+    },
+    {
+     "text": "chal",
+     "start": 34.626,
+     "end": 34.777
+    },
+    {
+     "text": "rahi",
+     "start": 34.858,
+     "end": 34.986
+    },
+    {
+     "text": "hai,",
+     "start": 35.079,
+     "end": 35.195
+    }
+   ]
+  },
+  {
+   "text": "shorten the sentence",
+   "who": "host",
+   "start": 35.218,
+   "end": 36.298,
+   "words": [
+    {
+     "text": "shorten",
+     "start": 35.218,
+     "end": 35.59
+    },
+    {
+     "text": "the",
+     "start": 35.648,
+     "end": 35.729
+    },
+    {
+     "text": "sentence",
+     "start": 35.776,
+     "end": 36.298
+    }
+   ]
+  },
+  {
+   "text": "and preview again.",
+   "who": "host",
+   "start": 36.344,
+   "end": 37.9,
+   "words": [
+    {
+     "text": "and",
+     "start": 36.344,
+     "end": 36.472
+    },
+    {
+     "text": "preview",
+     "start": 36.53,
+     "end": 36.925
+    },
+    {
+     "text": "again.",
+     "start": 36.983,
+     "end": 37.9
+    }
+   ]
+  },
+  {
+   "text": "Try this workflow",
+   "who": "host",
+   "start": 39.04,
+   "end": 40.236,
+   "words": [
+    {
+     "text": "Try",
+     "start": 39.04,
+     "end": 39.33
+    },
+    {
+     "text": "this",
+     "start": 39.412,
+     "end": 39.562
+    },
+    {
+     "text": "workflow",
+     "start": 39.632,
+     "end": 40.236
+    }
+   ]
+  },
+  {
+   "text": "with the skills",
+   "who": "host",
+   "start": 40.352,
+   "end": 41.06,
+   "words": [
+    {
+     "text": "with",
+     "start": 40.352,
+     "end": 40.561
+    },
+    {
+     "text": "the",
+     "start": 40.596,
+     "end": 40.665
+    },
+    {
+     "text": "skills",
+     "start": 40.7,
+     "end": 41.06
+    }
+   ]
+  },
+  {
+   "text": "in your own codebase,",
+   "who": "host",
+   "start": 41.118,
+   "end": 42.337,
+   "words": [
+    {
+     "text": "in",
+     "start": 41.118,
+     "end": 41.199
+    },
+    {
+     "text": "your",
+     "start": 41.258,
+     "end": 41.408
+    },
+    {
+     "text": "own",
+     "start": 41.478,
+     "end": 41.687
+    },
+    {
+     "text": "codebase,",
+     "start": 41.757,
+     "end": 42.337
+    }
+   ]
+  },
+  {
+   "text": "using Astra.",
+   "who": "host",
+   "start": 42.395,
+   "end": 43.73,
+   "words": [
+    {
+     "text": "using",
+     "start": 42.395,
+     "end": 42.732
+    },
+    {
+     "text": "Astra.",
+     "start": 42.848,
+     "end": 43.73
+    }
+   ]
+  },
+  {
+   "text": "Main apna repo link,",
+   "who": "host",
+   "start": 44.03,
+   "end": 45.446,
+   "words": [
+    {
+     "text": "Main",
+     "start": 44.03,
+     "end": 44.251
+    },
+    {
+     "text": "apna",
+     "start": 44.309,
+     "end": 44.587
+    },
+    {
+     "text": "repo",
+     "start": 44.657,
+     "end": 44.97
+    },
+    {
+     "text": "link,",
+     "start": 45.04,
+     "end": 45.446
+    }
+   ]
+  },
+  {
+   "text": "five reference repos aur skills",
+   "who": "host",
+   "start": 45.481,
+   "end": 47.258,
+   "words": [
+    {
+     "text": "five",
+     "start": 45.481,
+     "end": 45.76
+    },
+    {
+     "text": "reference",
+     "start": 45.783,
+     "end": 46.201
+    },
+    {
+     "text": "repos",
+     "start": 46.236,
+     "end": 46.665
+    },
+    {
+     "text": "aur",
+     "start": 46.758,
+     "end": 46.84
+    },
+    {
+     "text": "skills",
+     "start": 46.909,
+     "end": 47.258
+    }
+   ]
+  },
+  {
+   "text": "aapko DM karunga.",
+   "who": "host",
+   "start": 47.316,
+   "end": 48.813,
+   "words": [
+    {
+     "text": "aapko",
+     "start": 47.316,
+     "end": 47.536
+    },
+    {
+     "text": "DM",
+     "start": 47.617,
+     "end": 47.919
+    },
+    {
+     "text": "karunga.",
+     "start": 47.989,
+     "end": 48.813
+    }
+   ]
+  },
+  {
+   "text": "Aapko bhi aisi short story",
+   "who": "host",
+   "start": 49.15,
+   "end": 50.497,
+   "words": [
+    {
+     "text": "Aapko",
+     "start": 49.15,
+     "end": 49.51
+    },
+    {
+     "text": "bhi",
+     "start": 49.568,
+     "end": 49.638
+    },
+    {
+     "text": "aisi",
+     "start": 49.696,
+     "end": 49.87
+    },
+    {
+     "text": "short",
+     "start": 49.928,
+     "end": 50.183
+    },
+    {
+     "text": "story",
+     "start": 50.218,
+     "end": 50.497
+    }
+   ]
+  },
+  {
+   "text": "banani hai aur zyada",
+   "who": "host",
+   "start": 50.532,
+   "end": 51.658,
+   "words": [
+    {
+     "text": "banani",
+     "start": 50.532,
+     "end": 50.915
+    },
+    {
+     "text": "hai",
+     "start": 50.984,
+     "end": 51.124
+    },
+    {
+     "text": "aur",
+     "start": 51.193,
+     "end": 51.286
+    },
+    {
+     "text": "zyada",
+     "start": 51.356,
+     "end": 51.658
+    }
+   ]
+  },
+  {
+   "text": "views chahiye?",
+   "who": "host",
+   "start": 51.704,
+   "end": 52.401,
+   "words": [
+    {
+     "text": "views",
+     "start": 51.704,
+     "end": 51.925
+    },
+    {
+     "text": "chahiye?",
+     "start": 51.983,
+     "end": 52.401
+    }
+   ]
+  },
+  {
+   "text": "Please comment “story”.",
+   "who": "host",
+   "start": 52.494,
+   "end": 53.84,
+   "words": [
+    {
+     "text": "Please",
+     "start": 52.494,
+     "end": 52.807
+    },
+    {
+     "text": "comment",
+     "start": 52.854,
+     "end": 53.167
+    },
+    {
+     "text": "“story”.",
+     "start": 53.19,
+     "end": 53.84
+    }
+   ]
+  }
+ ],
+ "duration": 56
+}

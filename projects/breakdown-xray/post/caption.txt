@@ -1,0 +1,18 @@
+Humne apni hi reel ka X-ray kar diya 🔬🎧
+
+Free Claude skill: posts.design ka "breakdown" kit (github.com/posts-design/mcp, MIT).
+Humne ise apni 18-repos reel pe chalaya:
+1️⃣ Film do: node prep.mjs
+2️⃣ ElevenLabs ne mix ko 6 stems mein toda (drums, bass, vocals…)
+3️⃣ Scribe ne Liam ke 152 words pakde
+4️⃣ 29 cuts mile, tempo exactly 120.0 BPM (wahi jo humne banaya tha ✅)
+5️⃣ Har clip ka naam diya (yahi asli kaam hai)
+6️⃣ Render: Node + sharp + FFmpeg, browser nahi
+
+Result: shuru mein sirf metronome… phir har repo ke saath naya instrument 🎻
+
+Skill shared by @baseddesigner · kit by posts.design
+
+👉 Link chahiye? Comment karo "BREAKDOWN"
+
+#claudecode #claude #ai #sounddesign #videoediting #motiondesign #elevenlabs #ffmpeg #github #techpetrek #hinglish

@@ -1,0 +1,107 @@
+{
+ "uizze": {
+  "title": "Uizze: UI taste for AI agents",
+  "desc": "Give Claude Code, Codex and Cursor real app references, fonts and icons, so the UI they build looks designed, not generic.",
+  "h1": [
+   "UI taste\nfor agents",
+   "The design \nresources\nresources\n your \nAI\nAI\n agents are missing."
+  ],
+  "url": "https://uizze.com/",
+  "captured": "2026-11-21"
+ },
+ "thinkui": {
+  "title": "ThinkUI — UI references for your coding agent, over MCP",
+  "desc": "ThinkUI is an MCP server that gives your coding agent real interface references: screens, flows, ready-made components, fonts and animated icons.",
+  "h1": [
+   "UI references for your coding agent.",
+   "The interfaces your agent has only ever guessed at.",
+   "Design decisions, with the reasoning attached.",
+   "Three steps, once."
+  ],
+  "url": "https://thinkui.xyz/",
+  "captured": "2026-11-21"
+ },
+ "mobbin": {
+  "title": "Mobbin — UI & UX design inspiration for mobile & web apps",
+  "desc": "Save hours of UI & UX research with our library of over 600,000 fully searchable mobile & web app screenshots.",
+  "h1": [
+   "Where\nteams\nand agents\nfind\ndesigns\nthat work.",
+   "One library\nfor all your needs.",
+   "Give your AI agents\naccess to Mobbin.",
+   "Trusted by teams that build world-class apps."
+  ],
+  "url": "https://mobbin.com/",
+  "captured": "2026-11-21"
+ },
+ "landbook": {
+  "title": "Landbook - website design inspiration gallery",
+  "desc": "Find the best hand-picked website design inspiration. We're a curated website design gallery for Creatives, updated daily.",
+  "h1": [
+   "🖤",
+   "Landbook - website design inspiration gallery"
+  ],
+  "url": "https://land-book.com/",
+  "captured": "2026-11-21"
+ },
+ "godly": {
+  "title": "Recent — Design Inspiration",
+  "desc": "The best design inspiration on the Internet.",
+  "h1": [
+   "Browse",
+   "Resources",
+   "Design",
+   "Design jobs"
+  ],
+  "url": "https://recent.design/?ref=godly",
+  "captured": "2026-11-21"
+ },
+ "fps60": {
+  "title": "60fps - UI/UX animation inspiration for mobile & web apps",
+  "desc": "60fps is a curated collection of UI/UX animation and interaction design details from the world’s best iOS, and web apps.",
+  "h1": [
+   "Endless collection of delightful details \nfrom best-in-class apps"
+  ],
+  "url": "https://60fps.design/",
+  "captured": "2026-11-21"
+ },
+ "shadcn": {
+  "title": "shadcn/ui - The Foundation for your Design System",
+  "desc": "Composable, accessible components with thoughtful defaults. Build your own component library with code you can customize, extend, and make your own.",
+  "h1": [
+   "The Foundation for your Design System"
+  ],
+  "url": "https://ui.shadcn.com/",
+  "captured": "2026-11-21"
+ },
+ "reactbits": {
+  "title": "React Bits — Free Animated React Components",
+  "desc": "Free, open source React components for animated text, backgrounds, interactive cards and micro interactions. Explore live demos and copy the source.",
+  "h1": [
+   "Animated React components for\nwebsites people remember.",
+   "What's inside",
+   "See them in action",
+   "One command, and the code is yours."
+  ],
+  "url": "https://reactbits.dev/",
+  "captured": "2026-11-21"
+ },
+ "magicui": {
+  "title": "Magic UI",
+  "desc": "Beautiful UI components and templates to make your landing page look stunning.",
+  "h1": [
+   "Command Palette",
+   "UI library for Design Engineers",
+   "Showcase",
+   "What People Are Saying on Twitter"
+  ],
+  "url": "https://magicui.design/",
+  "captured": "2026-11-21"
+ },
+ "fontshare": {
+  "title": "Fontshare: Quality Fonts. Free.",
+  "desc": "Fontshare is a free fonts service from the Indian Type Foundry (ITF), making quality fonts accessible to all.",
+  "h1": [],
+  "url": "https://www.fontshare.com/",
+  "captured": "2026-11-21"
+ }
+}

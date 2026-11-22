@@ -1,9 +1,0 @@
-{
- "_doc": "song transient minus app beat grid, per segment, calibrated (detector bias +15 ms on the known slams). mix.py shifts a segment's slice by this when |value| > 0.03 s.",
- "A": 0.019,
- "B": 0.015,
- "C": -0.052,
- "D": 0.016,
- "E": 0.014,
- "F": 0.018
-}

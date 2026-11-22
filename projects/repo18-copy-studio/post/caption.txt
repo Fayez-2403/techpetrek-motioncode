@@ -1,0 +1,28 @@
+Ek boring AI-slop ball… aur 18 GitHub repos 🏀➡️🔥
+
+Har repo ne usi ball ko ek level upar kiya:
+01 reanimate: koi bhi animation frame-by-frame copy
+02 motion-design-skill: animator jaisi timing + easing
+03 mg-styles-15: 15 styles, ek-ek prompt
+04 huashu-art-motion: paintings jo chalti hain (35 styles)
+05 anidoodle: doodles + loops, code mein
+06 Manim: formula se animation
+07 blender-skills: pro Blender workflows, agent ke liye
+08 three.quarks: particles + VFX
+09 react-postprocessing: bloom, depth of field, film look
+10 Tweakpane: har detail ka slider
+11 EffectCraft: Rust mein compositing
+12 cinetic: coding agent se launch films
+13 motionmaxxing: AI slop → designer-level motion
+14 Openverse: openly licensed sounds + music
+15 librosa: beat detection
+16 WhisperX: word-level caption timing
+17 Remotion Skills: official video skills for agents
+18 FFmpeg: sab kuch ek asli MP4 mein
+
+⭐ 193,783 GitHub stars across all 18 (GitHub API, 20 Nov 2026)
+List: @flxrnc. Ball upgrades are our own illustration of what each repo does.
+
+👉 Saare 18 links + setup chahiye? Comment karo "COPY"
+
+#claudecode #github #opensource #motiondesign #animation #remotion #blender #threejs #ffmpeg #aitools #techpetrek #hinglish

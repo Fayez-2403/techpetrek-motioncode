@@ -1,0 +1,7 @@
+Want to turn your codebase into a short film with GPT-6.2 Astra?
+
+Start with the brief, one previous script, and the shot list. Ask Astra to keep the strongest opening, cut repeated lines, and match each line to the picture.
+
+Aapko bhi aisi short story banani hai aur zyada views chahiye? Please comment “story”. Main apna repo link, 5 reference repos aur reel skills aapko DM karunga, so you can try the workflow in your own codebase.
+
+#GPT62Astra #CreativeCoding #ShortFilm #MotionDesign #Techpetrek

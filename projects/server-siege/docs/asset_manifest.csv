@@ -1,4 +1,0 @@
-chapter,asset,post_url,creator,file_path,start,end,rights,credit,screenshot,verified_label
-public/clips/siege_capture_preview.mp4,video,original (our app capture: web/ ?reel=1),own,n/a,yes,"real sim run, seed 20261101, REEL_ACTIONS"
-public/hosts/bro_*.png,image,AI-generated from the user's own photo (bro-bhai series),own (user consent),n/a,yes,series host
-public/audio/mix_siege.wav,audio,original synth score + ElevenLabs Liam VO,own,ElevenLabs paid plan,yes,-14 LUFS

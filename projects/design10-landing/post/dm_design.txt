@@ -1,0 +1,16 @@
+Hey! 🙌 Ye rahe saare 10 design resources:
+
+1 Uizze, real app references for your coding agent: uizze.com
+2 ThinkUI, UI references over MCP: thinkui.xyz
+3 Mobbin, 600k+ real app screens: mobbin.com
+4 Land-book, landing page inspiration: land-book.com
+5 Godly, award-level websites: godly.website
+6 60fps, mobile UI animations: 60fps.design
+7 shadcn/ui, components your agent knows: ui.shadcn.com
+8 React Bits, animated React components: reactbits.dev
+9 Magic UI, polished landing sections: magicui.design
+10 Fontshare, free fonts by Indian Type Foundry: fontshare.com
+
+Tip: references pehle (Uizze/Mobbin/Land-book), phir components (shadcn/React Bits/Magic UI), last mein font (Fontshare). Isi order mein page level-up hota hai 🔥
+
+List credit: @Dionisselamii. Follow for more such drops!

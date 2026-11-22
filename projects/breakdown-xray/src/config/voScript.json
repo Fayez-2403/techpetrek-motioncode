@@ -1,0 +1,95 @@
+{
+ "_doc": "Breakdown X-ray: a full teardown of posts-design/mcp breakdown kit, run for real on our 18-repos reel. Every number comes from our own prep run (work/prep).",
+ "bpm": 120,
+ "lead": 0.06,
+ "voice": {
+  "provider": "elevenlabs",
+  "voiceId": "TX3LPaxmHKxFdv7VOQHJ",
+  "name": "Liam",
+  "model": "eleven_turbo_v2_5",
+  "language": "hi",
+  "stability": 0.4,
+  "similarity": 0.75,
+  "speed": 1.2,
+  "seed": 5
+ },
+ "reel": [
+  {
+   "id": "v01",
+   "scene": "hook",
+   "gap": 0.2,
+   "cap": "Ye meri hi reel ka X-ray hai — har sound, har cut, alag-alag.",
+   "tts": "ये मेरी ही reel का X-ray है — हर sound, हर cut, अलग-अलग।"
+  },
+  {
+   "id": "v02",
+   "scene": "skill",
+   "gap": 0.1,
+   "cap": "Claude ki ek free skill — posts.design ka breakdown kit.",
+   "tts": "Claude की एक free skill — posts dot design का breakdown kit।"
+  },
+  {
+   "id": "v03",
+   "scene": "film",
+   "gap": 0.1,
+   "cap": "Step one: isko apni reel do.",
+   "tts": "Step one: इसको अपनी reel दो।"
+  },
+  {
+   "id": "v04",
+   "scene": "stems",
+   "gap": 0.1,
+   "cap": "ElevenLabs ne mix ko chhe stems mein tod diya — drums, bass, vocals.",
+   "tts": "ElevenLabs ने mix को छह stems में तोड़ दिया — drums, bass, vocals।"
+  },
+  {
+   "id": "v05",
+   "scene": "words",
+   "gap": 0.1,
+   "cap": "Scribe ne Liam ke 152 words pakde, timing ke saath.",
+   "tts": "Scribe ने Liam के one fifty two words पकड़े, timing के साथ।"
+  },
+  {
+   "id": "v06",
+   "scene": "cuts",
+   "gap": 0.15,
+   "cap": "29 cuts mile — aur tempo exactly 120 BPM. Wahi jo humne banaya tha!",
+   "tts": "Twenty nine cuts मिले — और tempo exactly one twenty BPM। वही जो हमने बनाया था!"
+  },
+  {
+   "id": "v07",
+   "scene": "naming",
+   "gap": 0.1,
+   "cap": "Phir har clip ka naam — yahi asli kaam hai.",
+   "tts": "फिर हर clip का नाम — यही असली काम है।"
+  },
+  {
+   "id": "v08",
+   "scene": "render",
+   "gap": 0.2,
+   "cap": "Render ke liye bas Node, sharp aur FFmpeg — browser ki zaroorat hi nahi.",
+   "tts": "Render के लिए बस Node, sharp और FFmpeg — browser की ज़रूरत ही नहीं।"
+  },
+  {
+   "id": "v09",
+   "scene": "payoff",
+   "gap": 0.2,
+   "cap": "Dekho — shuru mein sirf metronome… phir har repo ke saath naya instrument.",
+   "tts": "देखो — शुरू में सिर्फ़ metronome… फिर हर repo के साथ नया instrument।"
+  },
+  {
+   "id": "v10",
+   "scene": "full",
+   "gap": 1.6,
+   "cap": "Aur end tak — poora orchestra.",
+   "tts": "और end तक — पूरा orchestra।"
+  },
+  {
+   "id": "v11",
+   "scene": "cta",
+   "gap": 0.0,
+   "cap": "Skill free hai GitHub pe. Link chahiye? Comment karo BREAKDOWN.",
+   "tts": "Skill free है GitHub पे। Link चाहिए? Comment करो BREAKDOWN!"
+  }
+ ]
+}

@@ -1,0 +1,172 @@
+{
+ "_doc": "18 repos reel. cap = Roman Hinglish caption, tts = what Liam reads. Every claim maps to docs/factcheck.md.",
+ "bpm": 120,
+ "lead": 0.06,
+ "voice": {
+  "provider": "elevenlabs",
+  "voiceId": "TX3LPaxmHKxFdv7VOQHJ",
+  "name": "Liam",
+  "model": "eleven_turbo_v2_5",
+  "language": "hi",
+  "stability": 0.4,
+  "similarity": 0.75,
+  "speed": 1.2,
+  "seed": 5
+ },
+ "reel": [
+  {
+   "id": "v01",
+   "scene": "hook",
+   "gap": 0.2,
+   "cap": "Ye ball dekho — ekdum AI slop. Ab ispe lagate hain 18 GitHub repos!",
+   "tts": "ये ball देखो — एकदम AI slop। अब इसपे लगाते हैं eighteen GitHub repos!"
+  },
+  {
+   "id": "v02",
+   "scene": "reanimate",
+   "gap": 0.05,
+   "cap": "Reanimate — koi bhi animation, frame-by-frame copy.",
+   "tts": "Reanimate — कोई भी animation, frame by frame copy।"
+  },
+  {
+   "id": "v03",
+   "scene": "motiondesign",
+   "gap": 0.05,
+   "cap": "Motion design skill — asli animator jaisi timing.",
+   "tts": "Motion design skill — असली animator जैसी timing।"
+  },
+  {
+   "id": "v04",
+   "scene": "mgstyles",
+   "gap": 0.05,
+   "cap": "MG styles — 15 styles, har ek ek prompt se.",
+   "tts": "MG styles — fifteen styles, हर एक, एक prompt से।"
+  },
+  {
+   "id": "v05",
+   "scene": "huashu",
+   "gap": 0.05,
+   "cap": "Huashu — paintings jo chalti hain.",
+   "tts": "Huashu — paintings जो चलती हैं।"
+  },
+  {
+   "id": "v06",
+   "scene": "anidoodle",
+   "gap": 0.05,
+   "cap": "Anidoodle — doodles aur loops, sab code mein.",
+   "tts": "Anidoodle — doodles और loops, सब code में।"
+  },
+  {
+   "id": "v07",
+   "scene": "manim",
+   "gap": 0.05,
+   "cap": "Manim library — formula se smooth animation.",
+   "tts": "Manim library — formula से smooth animation।"
+  },
+  {
+   "id": "v08",
+   "scene": "blender",
+   "gap": 0.05,
+   "cap": "Blender skills — pro Blender, agent ke haath mein.",
+   "tts": "Blender skills — pro Blender, agent के हाथ में।"
+  },
+  {
+   "id": "v09",
+   "scene": "quarks",
+   "gap": 0.05,
+   "cap": "Three quarks — particles!",
+   "tts": "Three quarks — particles!"
+  },
+  {
+   "id": "v10",
+   "scene": "postfx",
+   "gap": 0.05,
+   "cap": "React postprocessing — cinema wala finish.",
+   "tts": "React postprocessing — cinema वाला finish।"
+  },
+  {
+   "id": "v11",
+   "scene": "tweakpane",
+   "gap": 0.05,
+   "cap": "Tweakpane — har detail ka slider.",
+   "tts": "Tweakpane — हर detail का slider।"
+  },
+  {
+   "id": "v12",
+   "scene": "effectcraft",
+   "gap": 0.05,
+   "cap": "EffectCraft — Rust mein bana compositing.",
+   "tts": "EffectCraft — Rust में बना compositing।"
+  },
+  {
+   "id": "v13",
+   "scene": "cinetic",
+   "gap": 0.05,
+   "cap": "Cinetic — coding agent se, launch films.",
+   "tts": "Cinetic — coding agent से, launch films।"
+  },
+  {
+   "id": "v14",
+   "scene": "motionmaxxing",
+   "gap": 0.05,
+   "cap": "Motionmaxxing — sasti AI motion ko designer-level banata hai.",
+   "tts": "मोशन मैक्सिंग — सस्ती AI motion को designer level बनाता है।"
+  },
+  {
+   "id": "v15",
+   "scene": "openverse",
+   "gap": 0.05,
+   "cap": "Openverse — openly licensed sounds aur music.",
+   "tts": "Openverse — openly licensed sounds और music।"
+  },
+  {
+   "id": "v16",
+   "scene": "librosa",
+   "gap": 0.05,
+   "cap": "Librosa — beat pakdo, ball usi pe uchhale.",
+   "tts": "Librosa — beat पकड़ो, ball उसी पे उछले।"
+  },
+  {
+   "id": "v17",
+   "scene": "whisperx",
+   "gap": 0.05,
+   "cap": "WhisperX — har word ka exact timing.",
+   "tts": "WhisperX — हर word का exact timing।"
+  },
+  {
+   "id": "v18",
+   "scene": "remotion",
+   "gap": 0.05,
+   "cap": "Remotion skills — official video skills, coding agents ke liye.",
+   "tts": "रीमोशन skills — official video skills, coding agents के लिए।"
+  },
+  {
+   "id": "v19",
+   "scene": "ffmpeg",
+   "gap": 0.25,
+   "cap": "Aur FFmpeg — sab kuch, ek asli MP4 mein.",
+   "tts": "और FFmpeg — सब कुछ, एक असली MP4 में।"
+  },
+  {
+   "id": "v20",
+   "scene": "payoff",
+   "gap": 2.7,
+   "cap": "Ab wahi ball dekho.",
+   "tts": "अब वही ball देखो।"
+  },
+  {
+   "id": "v21",
+   "scene": "total",
+   "gap": 0.2,
+   "cap": "18 repos, lagbhag 1.9 lakh stars.",
+   "tts": "Eighteen repos, लगभग one point nine लाख stars।"
+  },
+  {
+   "id": "v22",
+   "scene": "cta",
+   "gap": 0.0,
+   "cap": "Poori list chahiye? Comment karo COPY.",
+   "tts": "पूरी list चाहिए? Comment करो COPY!"
+  }
+ ]
+}

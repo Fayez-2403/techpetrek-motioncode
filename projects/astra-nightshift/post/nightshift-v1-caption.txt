@@ -1,0 +1,10 @@
+Apni night drive kaisi hogi? 🏎️🌧️
+
+GPT-6.2 Astra mein yeh prompt try karo:
+“Build a rainy night drive in Three.js.”
+
+Pehle ek gaadi aur ek sadak banao. Phir ek cheez badlo: baarish tez karo, camera neeche lao, ya taillights ka reflection add karo.
+
+Nightshift is Techpetrek’s original visual take, inspired by Meng To’s cyberpunk driving demo: https://x.com/MengTo/status/2124015852592988367
+
+#GPT62Astra #ThreeJS #CreativeCoding #Techpetrek

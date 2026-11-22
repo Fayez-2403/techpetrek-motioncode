@@ -1,0 +1,109 @@
+{
+ "_doc": "10 design resources reel (post by @Dionisselamii). cap = Roman Hinglish caption, tts = what Liam reads. Facts in docs/factcheck.md (from each site's own page, captured 2026-11-21).",
+ "bpm": 120,
+ "lead": 0.06,
+ "voice": {
+  "provider": "elevenlabs",
+  "voiceId": "TX3LPaxmHKxFdv7VOQHJ",
+  "name": "Liam",
+  "model": "eleven_turbo_v2_5",
+  "language": "hi",
+  "stability": 0.4,
+  "similarity": 0.75,
+  "speed": 1.2,
+  "seed": 5
+ },
+ "reel": [
+  {
+   "id": "v01",
+   "scene": "hook",
+   "gap": 0.2,
+   "cap": "Ye landing page dekho — ekdum AI slop. Ab ispe lagate hain 10 design resources!",
+   "tts": "ये landing page देखो — एकदम AI slop। अब इसपे लगाते हैं ten design resources!"
+  },
+  {
+   "id": "v02",
+   "scene": "uizze",
+   "gap": 0.05,
+   "cap": "Uizze — tumhare coding agent ko real app references deta hai.",
+   "tts": "यूइज़ — तुम्हारे coding agent को real app references देता है।"
+  },
+  {
+   "id": "v03",
+   "scene": "thinkui",
+   "gap": 0.05,
+   "cap": "ThinkUI — MCP server: real screens, components aur animated icons.",
+   "tts": "ThinkUI — MCP server: real screens, components और animated icons।"
+  },
+  {
+   "id": "v04",
+   "scene": "mobbin",
+   "gap": 0.05,
+   "cap": "Mobbin — 6 lakh se zyada real app screens.",
+   "tts": "Mobbin — six लाख से ज़्यादा real app screens।"
+  },
+  {
+   "id": "v05",
+   "scene": "landbook",
+   "gap": 0.05,
+   "cap": "Land-book — hand-picked landing pages, daily update.",
+   "tts": "Land-book — hand-picked landing pages, daily update।"
+  },
+  {
+   "id": "v06",
+   "scene": "godly",
+   "gap": 0.05,
+   "cap": "Godly — internet ka best design inspiration.",
+   "tts": "Godly — internet का best design inspiration।"
+  },
+  {
+   "id": "v07",
+   "scene": "fps60",
+   "gap": 0.05,
+   "cap": "60fps — apps ke chhote animations, 2,000 se zyada.",
+   "tts": "Sixty FPS — apps के छोटे animations, two thousand से ज़्यादा।"
+  },
+  {
+   "id": "v08",
+   "scene": "shadcn",
+   "gap": 0.05,
+   "cap": "shadcn — components jo tumhara agent pehle se jaanta hai.",
+   "tts": "shad C N — components जो तुम्हारा agent पहले से जानता है।"
+  },
+  {
+   "id": "v09",
+   "scene": "reactbits",
+   "gap": 0.05,
+   "cap": "React Bits — 217 animated components, free.",
+   "tts": "React Bits — two seventeen animated components, free।"
+  },
+  {
+   "id": "v10",
+   "scene": "magicui",
+   "gap": 0.05,
+   "cap": "Magic UI — 150 se zyada polished sections.",
+   "tts": "Magic UI — one fifty से ज़्यादा polished sections।"
+  },
+  {
+   "id": "v11",
+   "scene": "fontshare",
+   "gap": 0.25,
+   "cap": "Aur Fontshare — Ahmedabad ki Indian Type Foundry ke fonts, bilkul free.",
+   "tts": "और Font share — Ahmedabad की Indian Type Foundry के fonts, बिल्कुल free।"
+  },
+  {
+   "id": "v12",
+   "scene": "payoff",
+   "gap": 2.8,
+   "cap": "Ab wahi page dekho.",
+   "tts": "अब वही page देखो।"
+  },
+  {
+   "id": "v13",
+   "scene": "cta",
+   "gap": 0.0,
+   "cap": "Saare 10 links chahiye? Comment karo DESIGN.",
+   "tts": "सारे ten links चाहिए? Comment करो DESIGN!"
+  }
+ ]
+}

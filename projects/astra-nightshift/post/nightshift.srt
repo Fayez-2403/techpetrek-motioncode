@@ -1,0 +1,23 @@
+1
+00:00:00,320 --> 00:00:01,899
+Apni night drive banaoge?
+
+2
+00:00:03,550 --> 00:00:04,792
+Pehle apna driver chuno.
+
+3
+00:00:08,110 --> 00:00:09,561
+Ab sheeshe pe baarish girao.
+
+4
+00:00:12,100 --> 00:00:13,063
+Camera neeche lao.
+
+5
+00:00:16,070 --> 00:00:17,754
+Taillights ka reflection dekho.
+
+6
+00:00:20,450 --> 00:00:24,316
+GPT-6.2 Astra mein yeh prompt try karo.

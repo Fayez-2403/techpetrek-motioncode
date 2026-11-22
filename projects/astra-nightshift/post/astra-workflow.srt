@@ -1,0 +1,143 @@
+1
+00:00:00,120 --> 00:00:01,352
+For a stronger short film,
+
+2
+00:00:01,384 --> 00:00:02,281
+start with a script
+
+3
+00:00:02,346 --> 00:00:03,329
+you already have.
+
+4
+00:00:03,458 --> 00:00:04,464
+Open your codebase
+
+5
+00:00:04,485 --> 00:00:07,900
+and select GPT-6.2 Astra.
+
+6
+00:00:08,120 --> 00:00:09,339
+Ask Astra to read
+
+7
+00:00:09,397 --> 00:00:10,442
+your project brief.
+
+8
+00:00:10,581 --> 00:00:11,522
+Who is the audience,
+
+9
+00:00:11,545 --> 00:00:12,520
+and what should they do
+
+10
+00:00:12,601 --> 00:00:13,739
+at the end?
+
+11
+00:00:15,100 --> 00:00:16,644
+One line in our old script
+
+12
+00:00:16,691 --> 00:00:18,687
+says, “Camera neeche lao.”
+
+13
+00:00:19,001 --> 00:00:20,406
+That’s a shot direction.
+
+14
+00:00:20,603 --> 00:00:22,577
+Move it into the shot list.
+
+15
+00:00:23,060 --> 00:00:24,244
+Then ask Astra:
+
+16
+00:00:24,291 --> 00:00:25,870
+Keep the strongest opening.
+
+17
+00:00:26,032 --> 00:00:27,158
+Cut repeated lines.
+
+18
+00:00:27,205 --> 00:00:28,644
+Match each line to a shot.
+
+19
+00:00:28,679 --> 00:00:30,212
+End with one clear action.
+
+20
+00:00:31,120 --> 00:00:32,049
+Play the rewrite
+
+21
+00:00:32,084 --> 00:00:33,024
+over your footage.
+
+22
+00:00:33,291 --> 00:00:34,440
+Agar line cut ke baad
+
+23
+00:00:34,499 --> 00:00:35,195
+bhi chal rahi hai,
+
+24
+00:00:35,218 --> 00:00:36,298
+shorten the sentence
+
+25
+00:00:36,344 --> 00:00:37,900
+and preview again.
+
+26
+00:00:39,040 --> 00:00:40,236
+Try this workflow
+
+27
+00:00:40,352 --> 00:00:41,060
+with the skills
+
+28
+00:00:41,118 --> 00:00:42,337
+in your own codebase,
+
+29
+00:00:42,395 --> 00:00:43,730
+using Astra.
+
+30
+00:00:44,030 --> 00:00:45,446
+Main apna repo link,
+
+31
+00:00:45,481 --> 00:00:47,258
+five reference repos aur skills
+
+32
+00:00:47,316 --> 00:00:48,813
+aapko DM karunga.
+
+33
+00:00:49,150 --> 00:00:50,497
+Aapko bhi aisi short story
+
+34
+00:00:50,532 --> 00:00:51,658
+banani hai aur zyada
+
+35
+00:00:51,704 --> 00:00:52,401
+views chahiye?
+
+36
+00:00:52,494 --> 00:00:53,840
+Please comment “story”.
