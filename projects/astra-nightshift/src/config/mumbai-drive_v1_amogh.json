@@ -1,0 +1,136 @@
+{
+  "duration": 56,
+  "voices": {
+    "host": {
+      "id": "FuNEroZdMQWScvkSu4Xt",
+      "fallback": "TX3LPaxmHKxFdv7VOQHJ"
+    }
+  },
+  "scenes": [
+    {
+      "id": "hook",
+      "start": 0,
+      "at": 0.22,
+      "tts": "जी पी टी six point two Astra built this playable Mumbai night drive in Three JS.",
+      "groups": [
+        "GPT-6.2 Astra built this",
+        "playable Mumbai night drive",
+        "in Three.js."
+      ],
+      "who": "host",
+      "counts": [
+        6,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        2
+      ]
+    },
+    {
+      "id": "select",
+      "start": 4.5,
+      "at": 4.65,
+      "tts": "Here's the coupe. You can take the wheel yourself.",
+      "groups": [
+        "Here’s the coupe.",
+        "You can take the wheel yourself."
+      ],
+      "who": "host"
+    },
+    {
+      "id": "city",
+      "start": 9,
+      "at": 10.1,
+      "tts": "Those lit signs, shopfronts and balconies are drawn by the code.",
+      "groups": [
+        "Those lit signs, shopfronts",
+        "and balconies",
+        "are drawn by the code."
+      ],
+      "who": "host"
+    },
+    {
+      "id": "traffic",
+      "start": 16.5,
+      "at": 17.35,
+      "tts": "The taxis and rickshaws follow the road. Watch the wheels through a turn.",
+      "groups": [
+        "The taxis and rickshaws",
+        "follow the road.",
+        "Watch the wheels",
+        "through a turn."
+      ],
+      "who": "host"
+    },
+    {
+      "id": "camera",
+      "start": 25.4,
+      "at": 26,
+      "tts": "Change the camera and you're looking at the same street from inside the game.",
+      "groups": [
+        "Change the camera",
+        "and you’re looking at",
+        "the same street",
+        "from inside the game."
+      ],
+      "who": "host"
+    },
+    {
+      "id": "iteration",
+      "start": 34,
+      "at": 34.9,
+      "tts": "In your codebase, ask Astra to change one detail. Try the light on the wet road, then drive it again.",
+      "groups": [
+        "In your codebase,",
+        "ask Astra to change one detail.",
+        "Try the light on the wet road,",
+        "then drive it again."
+      ],
+      "who": "host"
+    },
+    {
+      "id": "offer",
+      "start": 44,
+      "at": 44.03,
+      "tts": "मैं अपना repo link, five reference repos और skills आपको डी एम करूँगा।",
+      "groups": [
+        "Main apna repo link,",
+        "five reference repos aur skills",
+        "aapko DM karunga."
+      ],
+      "who": "host",
+      "counts": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        2,
+        1
+      ]
+    },
+    {
+      "id": "cta",
+      "start": 49.1,
+      "at": 49.15,
+      "tts": "आपको भी ऐसी short story बनानी है और ज़्यादा views चाहिए? Please comment story.",
+      "groups": [
+        "Aapko bhi aisi short story",
+        "banani hai aur zyada",
+        "views chahiye?",
+        "Please comment “story”."
+      ],
+      "who": "host"
+    }
+  ]
+}

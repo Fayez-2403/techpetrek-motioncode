@@ -1,0 +1,18 @@
+Arre yaar, kal interview hai 😩 aur sliding window ka sawaal pehchaan hi nahi aata?
+
+Sliding window, 20 second mein 🚆: lagatar 3 overs ka best score chahiye? Har baar dobara mat jodo. Ek khidki banao, aage khiskao: naya over jodo, purana ghatao. 15 → 18 → 21 → 22 → 23 ✅
+
+Asli game hai PEHCHAANNA. Interviewer aise poochta hai 👇
+1️⃣ "Maximum sum of a subarray of size k" → FIXED khidki
+2️⃣ "Longest substring without duplicate characters" → LONGEST + shart: repeat aaya toh khidki chhoti
+3️⃣ "Minimal length subarray, sum ≥ target" → SHORTEST + shart: peeche se ghatao
+4️⃣ "All anagrams of abc" → fixed khidki + letters ki ginti
+5️⃣ "contiguous / consecutive" likha → pakka sliding window
+
+3 ishaare: SUBARRAY/SUBSTRING · FIXED SIZE · LONGEST/SHORTEST + shart
+
+📩 LeetCode + GFG + Codeforces ke 10 sliding window sawaal + template chahiye? Comment karo "WINDOW"
+📌 Save karo, interview se pehle ek baar dekh lena
+
+Bro & Bhai are fictional.
+#dsa #slidingwindow #leetcode #gfg #codeforces #codinginterview #placementpreparation #dsainhindi #interviewprep #techpetrek #hinglish

@@ -1,0 +1,17 @@
+140 crore naam… aur sirf 31 sawaal 🤯 Binary Search, zero se hero.
+
+Bro ka kal interview hai. Binary search aata hai, par sawaal mein dikhta hi nahi 😩 Bhai ne ek school scale se samjhaaya:
+
+1️⃣ 1 se 100 ka game: har "upar/neeche" pe aadha khatam. 71 sirf 5 guess mein (100 mein kabhi 7 se zyada nahi)
+2️⃣ Code: low, high, mid. List sorted honi chahiye
+3️⃣ Pro tip: mid = low + (high - low) / 2. (low + high) bade numbers pe overflow karta hai
+4️⃣ Office mein: 1000 commits, git bisect, sirf 10 build
+5️⃣ HERO MOVE: answer pe binary search. "6 din mein hoga, haan ya na?" NA NA NA… HAAN HAAN = sorted. Border dhundho → 23 pages/din (LeetCode 875: Koko Eating Bananas)
+
+Rule yaad rakho: sawaal bole "minimum ya maximum jo shart poori kare" = answer pe binary search ✅
+
+📩 Aise 10 sawaal ki list chahiye? Comment karo "BINARY"
+📌 Save karo, next interview se pehle kaam aayega
+
+Bro & Bhai are fictional; numbers checked.
+#dsa #binarysearch #leetcode #codinginterview #placementpreparation #dsainhindi #java #softwareengineer #techpetrek #hinglish

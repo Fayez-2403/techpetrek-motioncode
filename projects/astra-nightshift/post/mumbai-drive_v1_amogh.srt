@@ -1,0 +1,107 @@
+1
+00:00:00,220 --> 00:00:02,171
+GPT-6.2 Astra built this
+
+2
+00:00:02,200 --> 00:00:03,584
+playable Mumbai night drive
+
+3
+00:00:03,633 --> 00:00:04,400
+in Three.js.
+
+4
+00:00:04,650 --> 00:00:05,544
+Here’s the coupe.
+
+5
+00:00:05,683 --> 00:00:07,529
+You can take the wheel yourself.
+
+6
+00:00:10,100 --> 00:00:13,142
+Those lit signs, shopfronts
+
+7
+00:00:13,177 --> 00:00:14,013
+and balconies
+
+8
+00:00:14,105 --> 00:00:16,184
+are drawn by the code.
+
+9
+00:00:17,350 --> 00:00:18,778
+The taxis and rickshaws
+
+10
+00:00:18,894 --> 00:00:19,823
+follow the road.
+
+11
+00:00:20,311 --> 00:00:21,170
+Watch the wheels
+
+12
+00:00:21,251 --> 00:00:22,598
+through a turn.
+
+13
+00:00:26,000 --> 00:00:26,906
+Change the camera
+
+14
+00:00:26,929 --> 00:00:27,683
+and you’re looking at
+
+15
+00:00:27,730 --> 00:00:28,461
+the same street
+
+16
+00:00:28,519 --> 00:00:30,133
+from inside the game.
+
+17
+00:00:34,900 --> 00:00:36,142
+In your codebase,
+
+18
+00:00:36,282 --> 00:00:38,917
+ask Astra to change one detail.
+
+19
+00:00:39,231 --> 00:00:40,926
+Try the light on the wet road,
+
+20
+00:00:41,042 --> 00:00:42,888
+then drive it again.
+
+21
+00:00:44,030 --> 00:00:45,217
+Main apna repo link,
+
+22
+00:00:45,250 --> 00:00:46,873
+five reference repos aur skills
+
+23
+00:00:46,951 --> 00:00:49,000
+aapko DM karunga.
+
+24
+00:00:49,150 --> 00:00:50,497
+Aapko bhi aisi short story
+
+25
+00:00:50,532 --> 00:00:51,658
+banani hai aur zyada
+
+26
+00:00:51,704 --> 00:00:52,401
+views chahiye?
+
+27
+00:00:52,494 --> 00:00:53,840
+Please comment “story”.

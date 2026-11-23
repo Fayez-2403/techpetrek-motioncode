@@ -1,0 +1,16 @@
+Did you know… computer ko 0.1 + 0.2 bhi nahi aata? 🤯 Aur 2038 mein kuch computers ki ghadi 1901 pe chali jaayegi!
+
+4 tech sach, logic + proof ke saath (sab hamare laptop pe run kiya):
+
+1️⃣ 0.1 + 0.2 = 0.30000000000000004. Binary mein 0.1 kabhi khatam nahi hota (jaise 1/3 = 0.333…), toh round hota hai. Paise ka hisaab float mein mat karo.
+2️⃣ Achhi websites tumhara password store nahi karti, sirf uska HASH. Ek letter badla, poora hash alag (64 mein se sirf 6 same).
+3️⃣ AI tokens padhta hai: ek hi line English mein 10 tokens, Hindi mein GPT-4 tokenizer pe 52, GPT-4o pe sirf 15 🇮🇳
+4️⃣ 32-bit Unix time ki limit: 2,147,483,647 seconds = 19 Jan 2038, 03:14:07 UTC. Agle second → 13 Dec 1901! Fix: 64-bit (292 billion saal)
+
+Sources: Python docs · OWASP · OpenAI tiktoken · Wikipedia
+
+📩 Khud try karne ke commands + saare sources chahiye? Comment karo "DYK"
+📌 Save karo, dost ko bhejo jo 0.1 + 0.2 = 0.3 maanta hai 😂
+
+Bro & Bhai are fictional.
+#didyouknow #techfacts #python #programming #coding #cybersecurity #ai #chatgpt #y2038 #techpetrek #hinglish

@@ -1,0 +1,35 @@
+=== DM 1 (auto-reply to comment "ASTRA") ===
+Yeh lo GPT-6.2 ka poora breakdown 🚀 (sab OpenAI ke launch page + unke charts se)
+
+🧠 2 models:
+• Astra = sabse mushkil projects ke liye
+• Sol = roz ke kaam ke liye, efficient
+
+📊 Benchmarks (OpenAI ke apne):
+• Agents' Last Exam: Astra 78.3% @ $2.89/task vs Claude Fable 5.2 72.8% @ $60.05 (~5% cost)
+• GPT-6 Astra se +5.2 points, 1/3 se kam cost pe
+• Terminal-Bench-Science: 77.1% (GPT-6 Astra se +9)
+• Harvey legal: Fable 5.2 ka double se zyada (15.0% vs 7.2%), ~1/6 cost
+• Sol: FrontierCode 2.0 pe Astra se sirf 0.4 peeche (43.8 vs 44.2), ~1/5 cost
+• 3D blind voting (AA-3D): Astra #1, 1,318 Elo
+
+🎬 Demos: driving sim (3D + Python physics + Blender), RC buggy assembly guide, inline-six engine, Chicago-inspired CAD → paper lamp, playable racing game
+
+Safety + price agle message mein 👇
+
+=== DM 2 (honest side + price) ===
+⚖️ Sach bhi:
+• AA Intelligence Index pe Fable 5.2 abhi bhi aage (64.6 vs 62.1), BenchCAD pe bhi (83.5 vs 82.5)
+• Cyber mein "Critical" threshold, isliye tighter safeguards
+• Pehla public model jo AI self-improvement mein "High" tak pahuncha (Control Room monitoring ke saath)
+• Kabhi-kabhi blocker nahi batata: 22.3%, developer prompt ke saath 8.0%
+
+💰 API (per 1M tokens):
+• Astra: $8 in · $0.40 cached · $40 out (GPT-6 Astra se 20% kam)
+• Sol: $2 in · $0.10 cached · $10 out
+
+✅ Aaj se: ChatGPT Work + Codex (Plus, Pro, Enterprise, Edu)
+API: gpt-6.2-astra / gpt-6.2-sol
+
+🔗 openai.com/index/introducing-gpt-6-2-astra-sol
+Follow karo, aise breakdowns aate rahenge 🔥

@@ -1,0 +1,138 @@
+{
+  "duration": 56,
+  "_doc": "v2 voice (2026-11-23): Liam on eleven_turbo_v2_5 at 1.2 (the channel's young, energetic read), English-led Hinglish to 'aap'. Each line lands on its shot (handoff notes): the hook has one job, the poster is named while readable (11.7-15.1 s), traffic is named over the bonnet shot, the requested close is kept word for word. v1 (Amogh, multilingual v2) is kept in mumbai-drive_v1_amogh.json.",
+  "tts": {
+    "model": "eleven_turbo_v2_5",
+    "stability": 0.4,
+    "similarity": 0.75,
+    "speed": 1.2,
+    "seed": 5
+  },
+  "voices": {
+    "host": {
+      "id": "TX3LPaxmHKxFdv7VOQHJ",
+      "fallback": "FuNEroZdMQWScvkSu4Xt"
+    }
+  },
+  "scenes": [
+    {
+      "id": "hook",
+      "start": 0,
+      "at": 0.22,
+      "tts": "ये Mumbai street? GPT six point two Astra ने बनाई है.",
+      "groups": [
+        "Yeh Mumbai street?",
+        "GPT-6.2 Astra ne banayi hai."
+      ],
+      "who": "host",
+      "counts": [
+        1,
+        1,
+        1,
+        4,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "select",
+      "start": 4.5,
+      "at": 4.65,
+      "tts": "और हाँ, ये game है. Steering आपके हाथ में!",
+      "groups": [
+        "Aur haan, yeh game hai.",
+        "Steering aapke haath mein!"
+      ],
+      "who": "host"
+    },
+    {
+      "id": "city",
+      "start": 9,
+      "at": 11.6,
+      "tts": "देखिए, आख़िरी Local! ये poster भी code ने paint किया, हर एक अक्षर.",
+      "groups": [
+        "Dekhiye, “Aakhri Local”!",
+        "Yeh poster bhi code ne paint kiya,",
+        "har ek akshar."
+      ],
+      "who": "host"
+    },
+    {
+      "id": "traffic",
+      "start": 16.5,
+      "at": 17.35,
+      "tts": "काली-पीली taxi, rickshaw, लाल bus… सब अपनी lane पकड़ के चलते हैं.",
+      "groups": [
+        "Kaali-peeli taxi, rickshaw,",
+        "laal bus…",
+        "sab apni lane pakad ke chalte hain."
+      ],
+      "who": "host"
+    },
+    {
+      "id": "camera",
+      "start": 25.4,
+      "at": 26,
+      "tts": "Bonnet camera on, और वही street अब driver की seat से.",
+      "groups": [
+        "Bonnet camera on,",
+        "aur wahi street",
+        "ab driver ki seat se."
+      ],
+      "who": "host"
+    },
+    {
+      "id": "iteration",
+      "start": 34,
+      "at": 34.9,
+      "tts": "अब असली मज़ा: अपने codebase में Astra को बोलिए, wet road की lighting बदलिए… और फिर से drive कीजिए.",
+      "groups": [
+        "Ab asli maza:",
+        "apne codebase mein Astra ko boliye,",
+        "wet road ki lighting badaliye…",
+        "aur phir se drive kijiye."
+      ],
+      "who": "host"
+    },
+    {
+      "id": "offer",
+      "start": 44,
+      "at": 44.03,
+      "tts": "मेरा repo, five reference repos और skills, सब आपको डी एम करूँगा.",
+      "groups": [
+        "Mera repo, 5 reference repos",
+        "aur skills,",
+        "sab aapko DM karunga."
+      ],
+      "who": "host",
+      "counts": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        2,
+        1
+      ]
+    },
+    {
+      "id": "cta",
+      "start": 49.1,
+      "at": 49.15,
+      "tts": "आपको भी ऐसी short story बनानी है और ज़्यादा views चाहिए? Please comment story.",
+      "groups": [
+        "Aapko bhi aisi short story",
+        "banani hai aur zyada",
+        "views chahiye?",
+        "Please comment “story”."
+      ],
+      "who": "host"
+    }
+  ]
+}

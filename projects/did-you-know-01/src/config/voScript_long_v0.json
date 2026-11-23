@@ -1,0 +1,58 @@
+{
+ "_doc": "DID YOU KNOW #01: 5 tech facts, each with the logic underneath and a real receipt (our run + the source page). 'cap' Roman, 'tts' voice text; phrase punctuation must match. Every claim in docs/factcheck.md (D1-D11).",
+ "bpm": 96,
+ "voice": {"provider": "elevenlabs", "voiceId": "TX3LPaxmHKxFdv7VOQHJ", "name": "Liam", "model": "eleven_turbo_v2_5", "language": "hi",
+           "stability": 0.4, "similarity": 0.75, "speed": 1.2, "seed": 5},
+ "voices": {
+  "bro":  {"provider": "elevenlabs", "voiceId": "TX3LPaxmHKxFdv7VOQHJ", "name": "Liam", "model": "eleven_turbo_v2_5", "language": "hi",
+           "stability": 0.4, "similarity": 0.75, "speed": 1.2, "seed": 5},
+  "bhai": {"provider": "elevenlabs", "voiceId": "FuNEroZdMQWScvkSu4Xt", "name": "Amogh M", "model": "eleven_turbo_v2_5", "language": "hi",
+           "stability": 0.45, "similarity": 0.8, "speed": 1.2, "seed": 5}
+ },
+ "reel": [
+  {"id": "d01", "who": "bro",  "scene": "hook",  "cap": "Bhai, did you know… computer ko 0.1 plus 0.2 bhi nahi aata?",
+                                                  "tts": "भाई, did you know… computer को zero point one plus zero point two भी नहीं आता?"},
+  {"id": "d02", "who": "bhai", "scene": "hook",  "cap": "Aur 2038 mein kuch computers ki ghadi 1901 pe chali jaayegi.",
+                                                  "tts": "और दो हज़ार अड़तीस में कुछ computers की घड़ी उन्नीस सौ एक पे चली जाएगी."},
+  {"id": "d03", "who": "bro",  "scene": "hook",  "cap": "Kya?! Kaise?", "tts": "क्या?! कैसे?"},
+  {"id": "d04", "who": "bhai", "scene": "hook",  "post": 0.4, "cap": "Paanch aise sach. Logic ke saath, proof ke saath.", "tts": "पाँच ऐसे सच. Logic के साथ, proof के साथ."},
+
+  {"id": "d05", "who": "bhai", "scene": "float", "cap": "Pehla: Python mein 0.1 plus 0.2 chala.", "tts": "पहला: Python में zero point one plus zero point two चला."},
+  {"id": "d06", "who": "bro",  "scene": "float", "cap": "Point 3… aur end mein ek 4?! Yeh kahan se aaya?", "tts": "Point three… और end में एक four?! ये कहाँ से आया?"},
+  {"id": "d07", "who": "bhai", "scene": "float", "cap": "Computer binary mein sochta hai. Aur 0.1 binary mein kabhi khatam hi nahi hota.",
+                                                  "tts": "Computer binary में सोचता है. और zero point one binary में कभी ख़त्म ही नहीं होता."},
+  {"id": "d08", "who": "bhai", "scene": "float", "post": 0.4, "cap": "Jaise 1/3 decimal mein 0.333… Toh round hota hai, aur woh chhota sa 4 bach jaata hai.",
+                                                  "tts": "जैसे one by three decimal में zero point three three three… तो round होता है, और वो छोटा सा four बच जाता है."},
+
+  {"id": "d09", "who": "bro",  "scene": "gmail", "cap": "Doosra: did you know, Gmail dots ko ginta hi nahi?", "tts": "दूसरा: did you know, Gmail dots को गिनता ही नहीं?"},
+  {"id": "d10", "who": "bhai", "scene": "gmail", "cap": "john.smith aur johnsmith, dono ek hi inbox. Google ka apna help page yahi bolta hai.",
+                                                  "tts": "john dot smith और johnsmith, दोनों एक ही inbox. Google का अपना help page यही बोलता है."},
+  {"id": "d11", "who": "bro",  "scene": "gmail", "post": 0.4, "cap": "Matlab johnsmith ke 256 address!", "tts": "मतलब johnsmith के two fifty six address!"},
+
+  {"id": "d12", "who": "bhai", "scene": "hash",  "cap": "Teesra: achhi websites tumhara password store hi nahi karti.", "tts": "तीसरा: अच्छी websites तुम्हारा password store ही नहीं करतीं."},
+  {"id": "d13", "who": "bro",  "scene": "hash",  "cap": "Toh login kaise hota hai?", "tts": "तो login कैसे होता है?"},
+  {"id": "d14", "who": "bhai", "scene": "hash",  "cap": "Woh password ka hash rakhti hain. Ek one-way machine: andar password, bahar 64 akshar.",
+                                                  "tts": "वो password का hash रखती हैं. एक one-way machine: अंदर password, बाहर चौंसठ अक्षर."},
+  {"id": "d15", "who": "bhai", "scene": "hash",  "post": 0.4, "cap": "Ek letter badlo, poora hash badal jaata hai. Login pe dobara hash karke match.",
+                                                  "tts": "एक letter बदलो, पूरा hash बदल जाता है. Login पे दोबारा hash करके match."},
+
+  {"id": "d16", "who": "bro",  "scene": "tokens", "cap": "Chautha: AI se Hindi mein baat karna mehenga padta tha?", "tts": "चौथा: AI से Hindi में बात करना महँगा पड़ता था?"},
+  {"id": "d17", "who": "bhai", "scene": "tokens", "cap": "Haan. AI words nahi, tokens padhta hai. Ek line English mein: 10 tokens.",
+                                                   "tts": "हाँ. AI words नहीं, tokens पढ़ता है. एक line English में: दस tokens."},
+  {"id": "d18", "who": "bhai", "scene": "tokens", "cap": "Wahi line Hindi mein, GPT-4 ke tokenizer pe 52! Naye GPT-4o pe sirf 15.",
+                                                   "tts": "वही line Hindi में, GPT four के tokenizer पे बावन! नए GPT four o पे सिर्फ़ पंद्रह."},
+  {"id": "d19", "who": "bro",  "scene": "tokens", "post": 0.4, "cap": "52 se 15? Hindi ka bada upgrade!", "tts": "fifty two से fifteen? Hindi का बड़ा upgrade!"},
+
+  {"id": "d20", "who": "bro",  "scene": "y2038", "cap": "Aur paanchva, woh 2038 wala?", "tts": "और पाँचवाँ, वो twenty thirty eight वाला?"},
+  {"id": "d21", "who": "bhai", "scene": "y2038", "cap": "Computer time ko 1 January 1970 se seconds mein ginta hai. Purane 32-bit counter ki limit: 214 crore seconds.",
+                                                  "tts": "Computer time को one January nineteen seventy से seconds में गिनता है. पुराने thirty two bit counter की limit: दो सौ चौदह करोड़ seconds."},
+  {"id": "d22", "who": "bro",  "scene": "y2038", "cap": "Aur woh khatam kab?", "tts": "और वो ख़त्म कब?"},
+  {"id": "d23", "who": "bhai", "scene": "y2038", "post": 0.3, "cap": "19 January 2038, 3 baj ke 14 minute 7 second, UTC. Agle hi second… 13 December 1901!",
+                                                  "tts": "उन्नीस January दो हज़ार अड़तीस, तीन बज के चौदह minute सात second, UTC. अगले ही second… तेरह December उन्नीस सौ एक!"},
+  {"id": "d24", "who": "bro",  "scene": "y2038", "cap": "Fix kya hai?", "tts": "Fix क्या है?"},
+  {"id": "d25", "who": "bhai", "scene": "y2038", "post": 0.3, "cap": "64-bit time. 292 billion saal chalega, universe ki umar ka 21 guna.",
+                                                  "tts": "sixty four bit time. दो सौ बानवे billion साल चलेगा, universe की उम्र का इक्कीस गुना."},
+
+  {"id": "d26", "who": "bro",  "scene": "cta",   "post": 0.9, "cap": "Paanchon ke proof aur commands chahiye? Comment karo \"DYK\".", "tts": "पाँचों के proof और commands चाहिए? Comment करो D Y K."}
+ ]
+}

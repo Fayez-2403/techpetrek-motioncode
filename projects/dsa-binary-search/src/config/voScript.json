@@ -1,0 +1,273 @@
+{
+ "_doc": "Binary Search zero-to-hero, Bro & Bhai. 'cap' = Roman Hinglish caption, 'tts' = what the voice reads; phrase punctuation must match (split on , . ? ! : … + space). 'who' picks the voice. 'pre' = silence before the line (s), 'post' = extra hold after it for an animation beat. Every claim in docs/factcheck.md. Bro says numbers in English (Liam mangles Hindi numerals), Bhai in Hindi.",
+ "bpm": 120,
+ "voice": {
+  "provider": "elevenlabs",
+  "voiceId": "TX3LPaxmHKxFdv7VOQHJ",
+  "name": "Liam",
+  "model": "eleven_turbo_v2_5",
+  "language": "hi",
+  "stability": 0.4,
+  "similarity": 0.75,
+  "speed": 1.2,
+  "seed": 5
+ },
+ "voices": {
+  "bro": {
+   "provider": "elevenlabs",
+   "voiceId": "TX3LPaxmHKxFdv7VOQHJ",
+   "name": "Liam",
+   "model": "eleven_turbo_v2_5",
+   "language": "hi",
+   "stability": 0.4,
+   "similarity": 0.75,
+   "speed": 1.2,
+   "seed": 5
+  },
+  "bhai": {
+   "provider": "elevenlabs",
+   "voiceId": "FuNEroZdMQWScvkSu4Xt",
+   "name": "Amogh M",
+   "model": "eleven_turbo_v2_5",
+   "language": "hi",
+   "stability": 0.45,
+   "similarity": 0.8,
+   "speed": 1.2,
+   "seed": 5
+  }
+ },
+ "reel": [
+  {
+   "id": "b01",
+   "who": "bhai",
+   "scene": "hook",
+   "cap": "140 crore naam, sorted. Ek naam dhundhna hai. Kitni baar dekhoge?",
+   "tts": "एक सौ चालीस करोड़ नाम, sorted. एक नाम ढूँढना है. कितनी बार देखोगे?"
+  },
+  {
+   "id": "b02",
+   "who": "bro",
+   "scene": "hook",
+   "cap": "140 crore baar?",
+   "tts": "one forty crore बार?"
+  },
+  {
+   "id": "b03",
+   "who": "bhai",
+   "scene": "hook",
+   "pre": 0.25,
+   "post": 1.35,
+   "cap": "Sirf 31.",
+   "tts": "सिर्फ़ इकत्तीस."
+  },
+  {
+   "id": "b04",
+   "who": "bro",
+   "scene": "problem",
+   "pre": 0.0,
+   "cap": "Bhai, kal interview hai. Binary search aata hai, par sawaal mein dikhta hi nahi.",
+   "tts": "भाई, कल interview है. Binary search आता है, पर सवाल में दिखता ही नहीं."
+  },
+  {
+   "id": "b05",
+   "who": "bhai",
+   "scene": "problem",
+   "post": 0.5,
+   "cap": "Toh aaj zero se hero. Pehle ek game.",
+   "tts": "तो आज zero से hero. पहले एक game."
+  },
+  {
+   "id": "b06",
+   "who": "bhai",
+   "scene": "game",
+   "cap": "1 se 100 mein ek number socha. Main bolunga sirf: upar ya neeche.",
+   "tts": "एक से सौ में एक number सोचा. मैं बोलूँगा सिर्फ़: ऊपर या नीचे."
+  },
+  {
+   "id": "b07",
+   "who": "bro",
+   "scene": "game",
+   "cap": "1… 2… 3…",
+   "tts": "one… two… three…"
+  },
+  {
+   "id": "b08",
+   "who": "bhai",
+   "scene": "game",
+   "cap": "Aise toh 100 guess lagenge. Seedha beech se kaat.",
+   "tts": "ऐसे तो सौ guess लगेंगे. सीधा बीच से काट."
+  },
+  {
+   "id": "b09",
+   "who": "bro",
+   "scene": "game",
+   "cap": "50?",
+   "tts": "fifty?"
+  },
+  {
+   "id": "b10",
+   "who": "bhai",
+   "scene": "game",
+   "post": 0.25,
+   "cap": "Upar.",
+   "tts": "ऊपर."
+  },
+  {
+   "id": "b11",
+   "who": "bro",
+   "scene": "game",
+   "cap": "75?",
+   "tts": "seventy five?"
+  },
+  {
+   "id": "b12",
+   "who": "bhai",
+   "scene": "game",
+   "post": 0.25,
+   "cap": "Neeche.",
+   "tts": "नीचे."
+  },
+  {
+   "id": "b13",
+   "who": "bro",
+   "scene": "game",
+   "post": 0.3,
+   "cap": "62… 68… 71!",
+   "tts": "sixty two… sixty eight… seventy one!"
+  },
+  {
+   "id": "b14",
+   "who": "bhai",
+   "scene": "game",
+   "post": 0.3,
+   "cap": "Paanch guess. Har jawab pe aadha khatam. Yahi hai binary search.",
+   "tts": "पाँच guess. हर जवाब पे आधा ख़त्म. यही है binary search."
+  },
+  {
+   "id": "b15",
+   "who": "bhai",
+   "scene": "code",
+   "cap": "Code mein bas teen cheezein: low, high, aur beech ka mid.",
+   "tts": "Code में बस तीन चीज़ें: low, high, और बीच का mid."
+  },
+  {
+   "id": "b16",
+   "who": "bro",
+   "scene": "code",
+   "cap": "Mid chhota nikla toh low aage, bada nikla toh high peeche?",
+   "tts": "Mid छोटा निकला तो low आगे, बड़ा निकला तो high पीछे?"
+  },
+  {
+   "id": "b17",
+   "who": "bhai",
+   "scene": "code",
+   "post": 0.6,
+   "cap": "Bilkul. Bas list sorted honi chahiye.",
+   "tts": "बिल्कुल. बस list sorted होनी चाहिए."
+  },
+  {
+   "id": "b18",
+   "who": "bro",
+   "scene": "code",
+   "cap": "Mid equals low plus high, by 2…",
+   "tts": "mid equals low plus high, by two…"
+  },
+  {
+   "id": "b19",
+   "who": "bhai",
+   "scene": "code",
+   "post": 0.5,
+   "cap": "Ruk! Bade numbers pe overflow. Low plus, high minus low, by 2.",
+   "tts": "रुक! बड़े numbers पे overflow. Low plus, high minus low, by two."
+  },
+  {
+   "id": "b21",
+   "who": "bhai",
+   "scene": "office",
+   "post": 0.6,
+   "cap": "Aur office mein? Build toota, 1000 commits mein? Git bisect: sirf 10 build.",
+   "tts": "और office में? बिल्ड टूटा, एक हज़ार commits में? गिट बाइसेक्ट: सिर्फ़ दस build."
+  },
+  {
+   "id": "b22",
+   "who": "bro",
+   "scene": "hero",
+   "cap": "Par interview mein toh array sorted hota hi nahi!",
+   "tts": "पर interview में तो array sorted होता ही नहीं!"
+  },
+  {
+   "id": "b23",
+   "who": "bhai",
+   "scene": "hero",
+   "cap": "Toh answer pe binary search. Yahi hero move hai.",
+   "tts": "तो answer पे binary search. यही hero move है."
+  },
+  {
+   "id": "b24",
+   "who": "bhai",
+   "scene": "exam",
+   "cap": "Exam mein 6 din, 5 chapter. Roz ek hi chapter. Kam se kam kitne page roz?",
+   "tts": "Exam में छह दिन, पाँच chapter. रोज़ एक ही chapter. कम से कम कितने page रोज़?"
+  },
+  {
+   "id": "b25",
+   "who": "bro",
+   "scene": "exam",
+   "post": 1.1,
+   "cap": "Daily 10?",
+   "tts": "daily ten?"
+  },
+  {
+   "id": "b26",
+   "who": "bhai",
+   "scene": "exam",
+   "cap": "11 din. Fail. Ab har speed se ek sawaal: 6 din mein hoga, haan ya na?",
+   "tts": "ग्यारह दिन. Fail. अब हर speed से एक सवाल: छह दिन में होगा, हाँ या ना?"
+  },
+  {
+   "id": "b27",
+   "who": "bro",
+   "scene": "exam",
+   "cap": "Kam speed pe na, zyada pe haan… yeh bhi toh sorted hai!",
+   "tts": "कम speed पे ना, ज़्यादा पे हाँ… ये भी तो sorted है!"
+  },
+  {
+   "id": "b28",
+   "who": "bhai",
+   "scene": "border",
+   "cap": "Exactly. Border dhundho: 15 na, 23 haan, 19, 21, 22 na…",
+   "tts": "Exactly. Border ढूँढो: पंद्रह ना, तेईस हाँ, उन्नीस, इक्कीस, बाईस ना…"
+  },
+  {
+   "id": "b29",
+   "who": "bro",
+   "scene": "border",
+   "post": 0.3,
+   "cap": "23! 30 options, sirf 5 check.",
+   "tts": "twenty three! thirty options, सिर्फ़ five check."
+  },
+  {
+   "id": "b30",
+   "who": "bhai",
+   "scene": "border",
+   "post": 0.6,
+   "cap": "Iska asli naam: Koko Eating Bananas.",
+   "tts": "इसका असली नाम: Koko Eating Bananas."
+  },
+  {
+   "id": "b31",
+   "who": "bhai",
+   "scene": "payoff",
+   "cap": "Jab sawaal bole, minimum ya maximum jo shart poori kare, samajh jao: answer pe binary search.",
+   "tts": "जब सवाल बोले, minimum या maximum जो शर्त पूरी करे, समझ जाओ: answer पे binary search."
+  },
+  {
+   "id": "b32",
+   "who": "bro",
+   "scene": "cta",
+   "post": 0.9,
+   "cap": "Comment karo \"BINARY\". Aise 10 sawaal ki list bhejta hoon.",
+   "tts": "Comment करो binary. ऐसे ten सवाल की list भेजता हूँ."
+  }
+ ]
+}

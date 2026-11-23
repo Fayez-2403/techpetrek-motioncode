@@ -1,0 +1,211 @@
+{
+ "_doc": "Sliding Window, Pehchaan cut (the approved DSA v2 format). 'cap' Roman, 'tts' voice text; phrase punctuation must match. Interviewer questions in English, worded like the real statements (docs/factcheck.md S3-S8).",
+ "bpm": 92,
+ "voice": {
+  "provider": "elevenlabs",
+  "voiceId": "TX3LPaxmHKxFdv7VOQHJ",
+  "name": "Liam",
+  "model": "eleven_turbo_v2_5",
+  "language": "hi",
+  "stability": 0.4,
+  "similarity": 0.75,
+  "speed": 1.2,
+  "seed": 5
+ },
+ "voices": {
+  "bro": {
+   "provider": "elevenlabs",
+   "voiceId": "TX3LPaxmHKxFdv7VOQHJ",
+   "name": "Liam",
+   "model": "eleven_turbo_v2_5",
+   "language": "hi",
+   "stability": 0.4,
+   "similarity": 0.75,
+   "speed": 1.2,
+   "seed": 5
+  },
+  "bhai": {
+   "provider": "elevenlabs",
+   "voiceId": "FuNEroZdMQWScvkSu4Xt",
+   "name": "Amogh M",
+   "model": "eleven_turbo_v2_5",
+   "language": "hi",
+   "stability": 0.45,
+   "similarity": 0.8,
+   "speed": 1.2,
+   "seed": 5
+  }
+ },
+ "reel": [
+  {
+   "id": "w01",
+   "who": "bro",
+   "scene": "problem",
+   "cap": "Arre yaar, kal interview hai… aur sliding window ka sawaal pehchaan hi nahi paata.",
+   "tts": "अरे यार, कल interview है… और sliding window का सवाल पहचान ही नहीं पाता।"
+  },
+  {
+   "id": "w02",
+   "who": "bhai",
+   "scene": "problem",
+   "cap": "Tension mat le. Pehle 20 second mein sliding window samajh.",
+   "tts": "Tension मत ले. पहले बीस second में sliding window समझ."
+  },
+  {
+   "id": "w03",
+   "who": "bhai",
+   "scene": "simple",
+   "cap": "Match ke 8 overs. Chahiye lagatar 3 overs ka best score.",
+   "tts": "Match के आठ overs. चाहिए लगातार तीन overs का best score."
+  },
+  {
+   "id": "w04",
+   "who": "bro",
+   "scene": "simple",
+   "cap": "Toh har 3 overs ko dobara jodun?",
+   "tts": "तो हर three overs को दोबारा जोड़ूँ?"
+  },
+  {
+   "id": "w05",
+   "who": "bhai",
+   "scene": "simple",
+   "cap": "Nahi. Ek khidki bana. Aage khiskao: naya over jodo, purana ghatao.",
+   "tts": "नहीं. एक खिड़की बना. आगे खिसकाओ: नया over जोड़ो, पुराना घटाओ."
+  },
+  {
+   "id": "w06",
+   "who": "bhai",
+   "scene": "simple",
+   "post": 0.6,
+   "cap": "15, 18, 21, 22, 23. Best 23!",
+   "tts": "पंद्रह, अठारह, इक्कीस, बाईस, तेईस. Best तेईस!"
+  },
+  {
+   "id": "w07",
+   "who": "bro",
+   "scene": "simple",
+   "cap": "Bas? Itna simple?",
+   "tts": "बस? इतना simple?"
+  },
+  {
+   "id": "w08",
+   "who": "bhai",
+   "scene": "simple",
+   "post": 0.3,
+   "cap": "Simple hai. Asli game hai pehchaanna. Main interviewer, tu bata.",
+   "tts": "Simple है. असली game है पहचानना. मैं interviewer, तू बता."
+  },
+  {
+   "id": "w09",
+   "who": "bhai",
+   "scene": "quiz",
+   "cap": "Return the maximum sum of a subarray of size k.",
+   "tts": "Return the maximum sum of a subarray of size k."
+  },
+  {
+   "id": "w10",
+   "who": "bro",
+   "scene": "quiz",
+   "post": 0.25,
+   "cap": "Size fixed, aur lagatar… fixed khidki. Sliding window!",
+   "tts": "Size fixed, और लगातार… fixed खिड़की. Sliding window!"
+  },
+  {
+   "id": "w11",
+   "who": "bhai",
+   "scene": "quiz",
+   "cap": "Find the longest substring without duplicate characters.",
+   "tts": "Find the longest substring without duplicate characters."
+  },
+  {
+   "id": "w12",
+   "who": "bro",
+   "scene": "quiz",
+   "post": 0.25,
+   "cap": "Longest, shart ke saath. Repeat aaya toh khidki chhoti. Sliding window!",
+   "tts": "Longest, शर्त के साथ. Repeat आया तो खिड़की छोटी. Sliding window!"
+  },
+  {
+   "id": "w13",
+   "who": "bhai",
+   "scene": "quiz",
+   "cap": "Find the minimal length subarray with sum at least target.",
+   "tts": "Find the minimal length subarray with sum at least target."
+  },
+  {
+   "id": "w14",
+   "who": "bro",
+   "scene": "quiz",
+   "post": 0.25,
+   "cap": "Sum poora hote hi peeche se ghatao. Sliding window!",
+   "tts": "Sum पूरा होते ही पीछे से घटाओ. Sliding window!"
+  },
+  {
+   "id": "w15",
+   "who": "bhai",
+   "scene": "quiz",
+   "cap": "Find all anagrams of abc in a string.",
+   "tts": "Find all anagrams of A B C in a string."
+  },
+  {
+   "id": "w16",
+   "who": "bro",
+   "scene": "quiz",
+   "cap": "Isme toh numbers hi nahi hain…",
+   "tts": "इसमें तो numbers ही नहीं हैं…"
+  },
+  {
+   "id": "w17",
+   "who": "bhai",
+   "scene": "quiz",
+   "cap": "Khidki ka size 3 rakh, aur letters ki ginti match kar.",
+   "tts": "खिड़की का size तीन रख, और letters की गिनती match कर."
+  },
+  {
+   "id": "w18",
+   "who": "bro",
+   "scene": "quiz",
+   "post": 0.25,
+   "cap": "Matlab fixed khidki, ginti ke saath. Sliding window!",
+   "tts": "मतलब fixed खिड़की, गिनती के साथ. Sliding window!"
+  },
+  {
+   "id": "w19",
+   "who": "bhai",
+   "scene": "quiz",
+   "cap": "Aur agar bole: contiguous ya consecutive…",
+   "tts": "और अगर बोले: contiguous या consecutive…"
+  },
+  {
+   "id": "w20",
+   "who": "bro",
+   "scene": "quiz",
+   "post": 0.4,
+   "cap": "…toh pakka sliding window!",
+   "tts": "तो पक्का sliding window!"
+  },
+  {
+   "id": "w21",
+   "who": "bhai",
+   "scene": "rule",
+   "cap": "Teen ishaare: subarray ya substring, fixed size, ya longest-shortest wali shart.",
+   "tts": "तीन इशारे: sub-array या substring, fixed size, या longest-shortest वाली शर्त."
+  },
+  {
+   "id": "w22",
+   "who": "bro",
+   "scene": "rule",
+   "post": 0.3,
+   "cap": "Ab kal toh phod dunga!",
+   "tts": "अब कल तो फोड़ दूँगा!"
+  },
+  {
+   "id": "w23",
+   "who": "bro",
+   "scene": "cta",
+   "post": 0.9,
+   "cap": "Sliding window ke 10 sawaal, saare platforms se chahiye? Comment karo \"WINDOW\".",
+   "tts": "Sliding window के ten सवाल, सारे platforms से चाहिए? Comment करो window."
+  }
+ ]
+}

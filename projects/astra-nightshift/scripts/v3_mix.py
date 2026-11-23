@@ -2,6 +2,7 @@
 import json
 import re
 import subprocess
+import sys
 from pathlib import Path
 
 import numpy as np
@@ -10,7 +11,8 @@ from scipy import signal
 
 ROOT = Path(__file__).resolve().parents[1]
 SR = 48000
-voice, sample_rate = sf.read(ROOT/'audio/out/astra-workflow/dialogue.wav')
+version='mumbai-drive' if '--mumbai-drive' in sys.argv else 'astra-workflow'
+voice, sample_rate = sf.read(ROOT/'audio/out'/version/'dialogue.wav')
 assert sample_rate == SR and len(voice) == 56*SR
 score = np.zeros((len(voice), 2), dtype=np.float32)
 rng=np.random.default_rng(56)
@@ -62,14 +64,27 @@ for at in [8,15,23,31,39,44,47.4,53.9]:
     t=times(.21);f=150 if at<47 else 280
     put(at,sine(f*t+.45*(1-np.exp(-t/.013)))*envelope(t,.004,.065),.1)
 
+if version=='mumbai-drive':
+    # Tyres on wet asphalt and a four-cylinder exhaust, following the replay speed.
+    world_t=times(56)
+    drive_t=np.where(world_t<4,world_t,world_t-4.5)
+    velocity=8.75+1.536*np.cos(.32*drive_t)-1.407*np.cos(.67*drive_t)
+    road=np.interp(world_t,[0,3.96,4.1,8.38,8.63,55,56],[1,1,.09,.09,1,1,0])
+    hood=np.interp(world_t,[0,19.7,20.3,28.6,29.1,49,55.99],[.72,.72,1.2,1.2,.76,.76,.25])
+    phase=np.cumsum(41+velocity*2.9)/SR
+    engine=(sine(phase)+.54*sine(2*phase+.07)+.19*sine(3*phase))*.042*road*hood
+    for ch in range(2):
+        spray=signal.sosfilt(signal.butter(2,[680,5200],btype='bandpass',fs=SR,output='sos'),rng.normal(size=len(voice)))
+        score[:,ch]+=engine+spray*.017*road*hood
+
 # Smooth speech ducking; preserve transients and level-match the entire stereo program.
 speech_env=signal.sosfilt(signal.butter(1,3.5,fs=SR,output='sos'),np.abs(voice))
 duck=1-.69*np.clip(speech_env/.042,0,1)
 mix=score*duck[:,None]+voice[:,None]*1.12
 mix[:720]*=np.linspace(0,1,720)[:,None];mix[-24000:]*=np.linspace(1,0,24000)[:,None]
-tmp=ROOT/'audio/out/astra-workflow/premaster.wav'
+tmp=ROOT/'audio/out'/version/'premaster.wav'
 sf.write(tmp,mix,SR,subtype='FLOAT')
-target=ROOT/'public/audio/astra-workflow.m4a'
+target=ROOT/'public/audio'/(version+'.m4a')
 base='loudnorm=I=-14:TP=-1.9:LRA=8'
 r=subprocess.run(['ffmpeg','-hide_banner','-nostats','-i',str(tmp),'-af',base+':print_format=json','-f','null','-'],capture_output=True,text=True,check=True)
 v=json.loads(re.findall(r'\{[^{}]+\}',r.stderr)[-1])

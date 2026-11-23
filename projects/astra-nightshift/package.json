@@ -5,7 +5,8 @@
   "description": "Nightshift — a Techpetrek GPT-6.2 Astra reel",
   "scripts": {
     "studio": "npx hyperframes preview",
-    "preview": "python scripts/v3_render.py all",
+    "preview": "npm --prefix mumbai-game run build && node mumbai-game/scripts/capture.mjs record 720 30",
+    "preview:v3": "python scripts/v3_render.py all",
     "preview:v2": "node scripts/preview.mjs",
     "preview:v1": "node scripts/preview.mjs --v1"
   }

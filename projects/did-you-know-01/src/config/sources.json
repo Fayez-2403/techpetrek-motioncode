@@ -1,0 +1,57 @@
+{
+ "python_float": {
+  "host": "docs.python.org",
+  "title": "15. Floating-Point Arithmetic: Issues and Limitations — Python 3.15.2 documentation",
+  "box": {
+   "x": 16,
+   "y": 918.21875,
+   "width": 868,
+   "height": 44.4375
+  },
+  "snippet": "0.1 + 0.1 + 0.1 == 0.3"
+ },
+ "gmail_dots": {
+  "host": "support.google.com",
+  "title": "Dots don't matter in Gmail addresses - Gmail Help",
+  "box": {
+   "x": 250.953125,
+   "y": 141,
+   "width": 241.9375,
+   "height": 18
+  },
+  "snippet": "Dots don't matter"
+ },
+ "owasp_hash": {
+  "host": "cheatsheetseries.owasp.org",
+  "title": "Password Storage - OWASP Cheat Sheet Series",
+  "box": {
+   "x": 81.0625,
+   "y": 1004.0625,
+   "width": 214.8125,
+   "height": 19
+  },
+  "snippet": "one-way function"
+ },
+ "tiktoken": {
+  "host": "github.com",
+  "title": "GitHub - openai/tiktoken: tiktoken is a fast BPE tokeniser for use with OpenAI's models. · GitHub",
+  "box": {
+   "x": 177.203125,
+   "y": 912.109375,
+   "width": 134.59375,
+   "height": 16
+  },
+  "snippet": "encoding_for_model"
+ },
+ "wiki_2038": {
+  "host": "en.wikipedia.org",
+  "title": "Year 2038 problem - Wikipedia",
+  "box": {
+   "x": 24,
+   "y": 328.796875,
+   "width": 852,
+   "height": 130
+  },
+  "snippet": "03:14:07"
+ }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "mumbai-after-rain",
+  "private": true,
+  "type": "module",
+  "version": "1.0.0",
+  "dependencies": {
+    "three": "0.186.1"
+  },
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "test": "node scripts/capture.mjs test 360"
+  }
+}

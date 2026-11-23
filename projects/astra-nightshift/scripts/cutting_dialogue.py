@@ -15,25 +15,37 @@ import soundfile as sf
 from scipy import signal
 
 ROOT = Path(__file__).resolve().parents[1]
-VERSION = "astra-workflow" if "--astra-workflow" in sys.argv else "cutting"
+VERSION = next((name for name in ("mumbai-drive","astra-workflow") if "--"+name in sys.argv), "cutting")
 CFG = json.loads((ROOT / "src/config" / (VERSION+".json")).read_text(encoding="utf8"))
 CACHE = ROOT / "audio/takes" / VERSION
 CACHE.mkdir(exist_ok=True)
 SR = 48000
 
 
+def api_key():
+    """The saved user variable first (a process started before the last setx keeps a stale key); never printed."""
+    try:
+        import winreg
+        with winreg.OpenKey(winreg.HKEY_CURRENT_USER, "Environment") as h:
+            return winreg.QueryValueEx(h, "ELEVENLABS_API_KEY")[0].strip()
+    except OSError:
+        return os.environ["ELEVENLABS_API_KEY"]
+
+
 def take(scene, prev, following):
     actor = CFG["voices"][scene["who"]]
-    payload = dict(text=scene["tts"], model_id="eleven_multilingual_v2", language_code="hi",
-                   previous_text=prev, next_text=following, seed=43,
-                   voice_settings=dict(stability=.36, similarity_boost=.80, speed=1.045))
+    # per-cut voice settings (config "tts"); the older cuts keep the original defaults
+    v = dict(dict(model="eleven_multilingual_v2", stability=.36, similarity=.80, speed=1.045, seed=43), **CFG.get("tts", {}))
+    payload = dict(text=scene["tts"], model_id=v["model"], language_code="hi",
+                   previous_text=prev, next_text=following, seed=v["seed"],
+                   voice_settings=dict(stability=v["stability"], similarity_boost=v["similarity"], speed=v["speed"]))
     for voice_id in [actor["id"], actor["fallback"]]:
         identity = hashlib.sha256((voice_id+json.dumps(payload,sort_keys=True)).encode()).hexdigest()[:12]
         prefix = CACHE / (scene["id"]+"-"+identity)
         audio, align = prefix.with_suffix(".mp3"), prefix.with_suffix(".json")
         if not (audio.exists() and align.exists()):
             response = requests.post(f"https://api.elevenlabs.io/v1/text-to-speech/{voice_id}/with-timestamps",
-                headers={"xi-api-key":os.environ["ELEVENLABS_API_KEY"]},json=payload,timeout=80)
+                headers={"xi-api-key":api_key()},json=payload,timeout=80)
             if response.status_code in (400,401,402,403,404) and voice_id==actor["id"]:
                 print(scene["id"],"alternate casting",response.status_code,flush=True)
                 continue
@@ -88,8 +100,10 @@ def main():
     edit=dict(scenes=[{k:v for k,v in s.items() if k in ("start","id")} for s in scenes],captions=captions,duration=duration)
     if VERSION=="cutting":
         (ROOT/"src/cutting-edit.js").write_text("window.cuttingEdit="+json.dumps(edit,ensure_ascii=False,indent=1)+";\n",encoding="utf8")
-    else:
+    elif VERSION=="astra-workflow":
         (ROOT/"src/astra-edit.json").write_text(json.dumps(edit,ensure_ascii=False,indent=1)+"\n",encoding="utf8")
+    else:
+        (ROOT/"mumbai-game/src/captions.json").write_text(json.dumps(edit,ensure_ascii=False,indent=1)+"\n",encoding="utf8")
     stem="aakhri-cutting" if VERSION=="cutting" else VERSION
     (ROOT/"post"/(stem+".srt")).write_text("\n\n".join(f"{i+1}\n{timestamp(c['start'])} --> {timestamp(c['end'])}\n{c['text']}" for i,c in enumerate(captions))+"\n",encoding="utf8")
 

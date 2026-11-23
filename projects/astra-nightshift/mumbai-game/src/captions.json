@@ -1,0 +1,716 @@
+{
+ "scenes": [
+  {
+   "id": "hook",
+   "start": 0
+  },
+  {
+   "id": "select",
+   "start": 4.5
+  },
+  {
+   "id": "city",
+   "start": 9
+  },
+  {
+   "id": "traffic",
+   "start": 16.5
+  },
+  {
+   "id": "camera",
+   "start": 25.4
+  },
+  {
+   "id": "iteration",
+   "start": 34
+  },
+  {
+   "id": "offer",
+   "start": 44
+  },
+  {
+   "id": "cta",
+   "start": 49.1
+  }
+ ],
+ "captions": [
+  {
+   "text": "Yeh Mumbai street?",
+   "who": "host",
+   "start": 0.22,
+   "end": 1.114,
+   "words": [
+    {
+     "text": "Yeh",
+     "start": 0.22,
+     "end": 0.406
+    },
+    {
+     "text": "Mumbai",
+     "start": 0.452,
+     "end": 0.731
+    },
+    {
+     "text": "street?",
+     "start": 0.777,
+     "end": 1.114
+    }
+   ]
+  },
+  {
+   "text": "GPT-6.2 Astra ne banayi hai.",
+   "who": "host",
+   "start": 1.381,
+   "end": 3.285,
+   "words": [
+    {
+     "text": "GPT-6.2",
+     "start": 1.381,
+     "end": 2.263
+    },
+    {
+     "text": "Astra",
+     "start": 2.345,
+     "end": 2.588
+    },
+    {
+     "text": "ne",
+     "start": 2.612,
+     "end": 2.658
+    },
+    {
+     "text": "banayi",
+     "start": 2.681,
+     "end": 2.844
+    },
+    {
+     "text": "hai.",
+     "start": 2.902,
+     "end": 3.285
+    }
+   ]
+  },
+  {
+   "text": "Aur haan, yeh game hai.",
+   "who": "host",
+   "start": 4.65,
+   "end": 5.683,
+   "words": [
+    {
+     "text": "Aur",
+     "start": 4.65,
+     "end": 4.847
+    },
+    {
+     "text": "haan,",
+     "start": 4.905,
+     "end": 5.126
+    },
+    {
+     "text": "yeh",
+     "start": 5.196,
+     "end": 5.265
+    },
+    {
+     "text": "game",
+     "start": 5.312,
+     "end": 5.463
+    },
+    {
+     "text": "hai.",
+     "start": 5.486,
+     "end": 5.683
+    }
+   ]
+  },
+  {
+   "text": "Steering aapke haath mein!",
+   "who": "host",
+   "start": 6.183,
+   "end": 7.576,
+   "words": [
+    {
+     "text": "Steering",
+     "start": 6.183,
+     "end": 6.496
+    },
+    {
+     "text": "aapke",
+     "start": 6.531,
+     "end": 6.693
+    },
+    {
+     "text": "haath",
+     "start": 6.728,
+     "end": 6.868
+    },
+    {
+     "text": "mein!",
+     "start": 6.926,
+     "end": 7.576
+    }
+   ]
+  },
+  {
+   "text": "Dekhiye, “Aakhri Local”!",
+   "who": "host",
+   "start": 11.6,
+   "end": 12.927,
+   "words": [
+    {
+     "text": "Dekhiye,",
+     "start": 11.6,
+     "end": 12.015
+    },
+    {
+     "text": "“Aakhri",
+     "start": 12.154,
+     "end": 12.466
+    },
+    {
+     "text": "Local”!",
+     "start": 12.511,
+     "end": 12.927
+    }
+   ]
+  },
+  {
+   "text": "Yeh poster bhi code ne paint kiya,",
+   "who": "host",
+   "start": 13.504,
+   "end": 14.9,
+   "words": [
+    {
+     "text": "Yeh",
+     "start": 13.504,
+     "end": 13.585
+    },
+    {
+     "text": "poster",
+     "start": 13.619,
+     "end": 13.885
+    },
+    {
+     "text": "bhi",
+     "start": 13.942,
+     "end": 14.0
+    },
+    {
+     "text": "code",
+     "start": 14.046,
+     "end": 14.231
+    },
+    {
+     "text": "ne",
+     "start": 14.254,
+     "end": 14.311
+    },
+    {
+     "text": "paint",
+     "start": 14.369,
+     "end": 14.543
+    },
+    {
+     "text": "kiya,",
+     "start": 14.588,
+     "end": 14.9
+    }
+   ]
+  },
+  {
+   "text": "har ek akshar.",
+   "who": "host",
+   "start": 15.073,
+   "end": 16.4,
+   "words": [
+    {
+     "text": "har",
+     "start": 15.073,
+     "end": 15.224
+    },
+    {
+     "text": "ek",
+     "start": 15.292,
+     "end": 15.35
+    },
+    {
+     "text": "akshar.",
+     "start": 15.419,
+     "end": 16.4
+    }
+   ]
+  },
+  {
+   "text": "Kaali-peeli taxi, rickshaw,",
+   "who": "host",
+   "start": 17.35,
+   "end": 18.952,
+   "words": [
+    {
+     "text": "Kaali-peeli",
+     "start": 17.35,
+     "end": 17.768
+    },
+    {
+     "text": "taxi,",
+     "start": 17.814,
+     "end": 18.29
+    },
+    {
+     "text": "rickshaw,",
+     "start": 18.43,
+     "end": 18.952
+    }
+   ]
+  },
+  {
+   "text": "laal bus…",
+   "who": "host",
+   "start": 19.091,
+   "end": 19.73,
+   "words": [
+    {
+     "text": "laal",
+     "start": 19.091,
+     "end": 19.289
+    },
+    {
+     "text": "bus…",
+     "start": 19.335,
+     "end": 19.73
+    }
+   ]
+  },
+  {
+   "text": "sab apni lane pakad ke chalte hain.",
+   "who": "host",
+   "start": 19.997,
+   "end": 21.948,
+   "words": [
+    {
+     "text": "sab",
+     "start": 19.997,
+     "end": 20.148
+    },
+    {
+     "text": "apni",
+     "start": 20.194,
+     "end": 20.345
+    },
+    {
+     "text": "lane",
+     "start": 20.415,
+     "end": 20.566
+    },
+    {
+     "text": "pakad",
+     "start": 20.589,
+     "end": 20.787
+    },
+    {
+     "text": "ke",
+     "start": 20.81,
+     "end": 20.856
+    },
+    {
+     "text": "chalte",
+     "start": 20.891,
+     "end": 21.088
+    },
+    {
+     "text": "hain.",
+     "start": 21.135,
+     "end": 21.948
+    }
+   ]
+  },
+  {
+   "text": "Bonnet camera on,",
+   "who": "host",
+   "start": 26.0,
+   "end": 26.882,
+   "words": [
+    {
+     "text": "Bonnet",
+     "start": 26.0,
+     "end": 26.267
+    },
+    {
+     "text": "camera",
+     "start": 26.29,
+     "end": 26.546
+    },
+    {
+     "text": "on,",
+     "start": 26.615,
+     "end": 26.882
+    }
+   ]
+  },
+  {
+   "text": "aur wahi street",
+   "who": "host",
+   "start": 27.149,
+   "end": 27.788,
+   "words": [
+    {
+     "text": "aur",
+     "start": 27.149,
+     "end": 27.265
+    },
+    {
+     "text": "wahi",
+     "start": 27.312,
+     "end": 27.474
+    },
+    {
+     "text": "street",
+     "start": 27.521,
+     "end": 27.788
+    }
+   ]
+  },
+  {
+   "text": "ab driver ki seat se.",
+   "who": "host",
+   "start": 27.858,
+   "end": 29.437,
+   "words": [
+    {
+     "text": "ab",
+     "start": 27.858,
+     "end": 27.962
+    },
+    {
+     "text": "driver",
+     "start": 27.985,
+     "end": 28.241
+    },
+    {
+     "text": "ki",
+     "start": 28.276,
+     "end": 28.345
+    },
+    {
+     "text": "seat",
+     "start": 28.392,
+     "end": 28.543
+    },
+    {
+     "text": "se.",
+     "start": 28.601,
+     "end": 29.437
+    }
+   ]
+  },
+  {
+   "text": "Ab asli maza:",
+   "who": "host",
+   "start": 34.9,
+   "end": 35.748,
+   "words": [
+    {
+     "text": "Ab",
+     "start": 34.9,
+     "end": 35.074
+    },
+    {
+     "text": "asli",
+     "start": 35.144,
+     "end": 35.364
+    },
+    {
+     "text": "maza:",
+     "start": 35.399,
+     "end": 35.748
+    }
+   ]
+  },
+  {
+   "text": "apne codebase mein Astra ko boliye,",
+   "who": "host",
+   "start": 36.015,
+   "end": 37.686,
+   "words": [
+    {
+     "text": "apne",
+     "start": 36.015,
+     "end": 36.247
+    },
+    {
+     "text": "codebase",
+     "start": 36.293,
+     "end": 36.676
+    },
+    {
+     "text": "mein",
+     "start": 36.7,
+     "end": 36.792
+    },
+    {
+     "text": "Astra",
+     "start": 36.862,
+     "end": 37.129
+    },
+    {
+     "text": "ko",
+     "start": 37.164,
+     "end": 37.222
+    },
+    {
+     "text": "boliye,",
+     "start": 37.257,
+     "end": 37.686
+    }
+   ]
+  },
+  {
+   "text": "wet road ki lighting badaliye…",
+   "who": "host",
+   "start": 38.011,
+   "end": 39.358,
+   "words": [
+    {
+     "text": "wet",
+     "start": 38.011,
+     "end": 38.22
+    },
+    {
+     "text": "road",
+     "start": 38.267,
+     "end": 38.406
+    },
+    {
+     "text": "ki",
+     "start": 38.453,
+     "end": 38.511
+    },
+    {
+     "text": "lighting",
+     "start": 38.569,
+     "end": 38.813
+    },
+    {
+     "text": "badaliye…",
+     "start": 38.859,
+     "end": 39.358
+    }
+   ]
+  },
+  {
+   "text": "aur phir se drive kijiye.",
+   "who": "host",
+   "start": 39.73,
+   "end": 41.448,
+   "words": [
+    {
+     "text": "aur",
+     "start": 39.73,
+     "end": 39.846
+    },
+    {
+     "text": "phir",
+     "start": 39.892,
+     "end": 40.008
+    },
+    {
+     "text": "se",
+     "start": 40.055,
+     "end": 40.101
+    },
+    {
+     "text": "drive",
+     "start": 40.136,
+     "end": 40.322
+    },
+    {
+     "text": "kijiye.",
+     "start": 40.345,
+     "end": 41.448
+    }
+   ]
+  },
+  {
+   "text": "Mera repo, 5 reference repos",
+   "who": "host",
+   "start": 44.03,
+   "end": 45.69,
+   "words": [
+    {
+     "text": "Mera",
+     "start": 44.03,
+     "end": 44.239
+    },
+    {
+     "text": "repo,",
+     "start": 44.285,
+     "end": 44.773
+    },
+    {
+     "text": "5",
+     "start": 44.912,
+     "end": 45.11
+    },
+    {
+     "text": "reference",
+     "start": 45.156,
+     "end": 45.412
+    },
+    {
+     "text": "repos",
+     "start": 45.435,
+     "end": 45.69
+    }
+   ]
+  },
+  {
+   "text": "aur skills,",
+   "who": "host",
+   "start": 45.771,
+   "end": 46.294,
+   "words": [
+    {
+     "text": "aur",
+     "start": 45.771,
+     "end": 45.853
+    },
+    {
+     "text": "skills,",
+     "start": 45.876,
+     "end": 46.294
+    }
+   ]
+  },
+  {
+   "text": "sab aapko DM karunga.",
+   "who": "host",
+   "start": 46.468,
+   "end": 47.745,
+   "words": [
+    {
+     "text": "sab",
+     "start": 46.468,
+     "end": 46.619
+    },
+    {
+     "text": "aapko",
+     "start": 46.677,
+     "end": 46.816
+    },
+    {
+     "text": "DM",
+     "start": 46.863,
+     "end": 47.025
+    },
+    {
+     "text": "karunga.",
+     "start": 47.06,
+     "end": 47.745
+    }
+   ]
+  },
+  {
+   "text": "Aapko bhi aisi short story",
+   "who": "host",
+   "start": 49.15,
+   "end": 50.207,
+   "words": [
+    {
+     "text": "Aapko",
+     "start": 49.15,
+     "end": 49.382
+    },
+    {
+     "text": "bhi",
+     "start": 49.429,
+     "end": 49.498
+    },
+    {
+     "text": "aisi",
+     "start": 49.58,
+     "end": 49.789
+    },
+    {
+     "text": "short",
+     "start": 49.835,
+     "end": 49.998
+    },
+    {
+     "text": "story",
+     "start": 50.021,
+     "end": 50.207
+    }
+   ]
+  },
+  {
+   "text": "banani hai aur zyada",
+   "who": "host",
+   "start": 50.23,
+   "end": 51.205,
+   "words": [
+    {
+     "text": "banani",
+     "start": 50.23,
+     "end": 50.462
+    },
+    {
+     "text": "hai",
+     "start": 50.497,
+     "end": 50.624
+    },
+    {
+     "text": "aur",
+     "start": 50.833,
+     "end": 50.938
+    },
+    {
+     "text": "zyada",
+     "start": 50.984,
+     "end": 51.205
+    }
+   ]
+  },
+  {
+   "text": "views chahiye?",
+   "who": "host",
+   "start": 51.251,
+   "end": 51.902,
+   "words": [
+    {
+     "text": "views",
+     "start": 51.251,
+     "end": 51.426
+    },
+    {
+     "text": "chahiye?",
+     "start": 51.484,
+     "end": 51.902
+    }
+   ]
+  },
+  {
+   "text": "Please comment “story”.",
+   "who": "host",
+   "start": 52.482,
+   "end": 53.562,
+   "words": [
+    {
+     "text": "Please",
+     "start": 52.482,
+     "end": 52.726
+    },
+    {
+     "text": "comment",
+     "start": 52.761,
+     "end": 52.993
+    },
+    {
+     "text": "“story”.",
+     "start": 53.016,
+     "end": 53.562
+    }
+   ]
+  }
+ ],
+ "duration": 56
+}

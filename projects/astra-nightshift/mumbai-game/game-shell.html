@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><title>Mumbai After Rain · Techpetrek</title>
+<style>
+@font-face{font-family:Archivo;src:url("FONT_DATA");font-weight:100 900}
+:root{color-scheme:dark;font-family:Archivo,Arial,sans-serif}*{box-sizing:border-box}
+body{margin:0;overflow:hidden;background:#101d24;color:#fff3d8}
+#scene,#hud{position:fixed;inset:0;width:100%;height:100%;display:block}#hud{pointer-events:none}
+#menu{position:fixed;left:max(5vw,22px);bottom:12vh;max-width:480px;padding:22px 26px;background:linear-gradient(120deg,#101a1cf5,#142124e0);border-left:3px solid #ebb96d}
+h1{font-size:clamp(28px,4.3vw,62px);letter-spacing:-.06em;line-height:.97;margin:4px 0 12px}p{max-width:400px;color:#dadcd2;margin:9px 0 16px;line-height:1.45}
+button{font:650 15px Archivo,Arial,sans-serif;color:#fff2db;background:#192a2d;border:1px solid #8b9b92;border-radius:4px;padding:10px 14px;cursor:pointer}button:focus-visible{outline:3px solid #fff3da;outline-offset:3px}
+.primary{background:#edbd77;color:#192322;border-color:#edbd77}.row{display:flex;align-items:center;gap:8px;flex-wrap:wrap}
+.swatch{width:27px;height:27px;border-radius:50%;padding:0;border:2px solid #364e4c}.swatch[aria-pressed=true]{outline:2px solid #eee8d7;outline-offset:2px}.colors{margin:9px 0 17px;display:flex;align-items:center;gap:12px}.colors span{font-size:14px}
+#tools{position:fixed;top:12px;right:12px;display:flex;gap:7px}#tools button{font-size:13px;background:#111c20d9}
+#mobile{position:fixed;left:3%;right:3%;bottom:max(24px,env(safe-area-inset-bottom));display:none;justify-content:space-between;touch-action:none}#mobile button{min-width:52px;min-height:48px;touch-action:none}
+[hidden]{display:none!important}#error{position:fixed;left:5%;top:5%;max-width:90%;background:#1a242a;padding:16px;color:#fff}[data-mode=film] #tools button:first-child{display:none}
+@media(pointer:coarse){body[data-mode=play] #mobile{display:flex} #menu{bottom:5vh;max-width:90%}}
+</style>
+</head><body data-mode="menu"><canvas id="scene"></canvas><canvas id="hud"></canvas>
+<section id="menu"><h1>Mumbai After Rain</h1><p>Take the coupe through the cinema district, the railway crossing and the night market. Use W/S to accelerate or brake and A/D to steer.</p>
+<div class="colors"><span>Body colour</span><button class="swatch" data-paint="#aabac4" aria-label="Silver" aria-pressed="true" style="background:#aabac4"></button><button class="swatch" data-paint="#267f82" aria-label="Petrol blue" aria-pressed="false" style="background:#267f82"></button><button class="swatch" data-paint="#a63735" aria-label="Oxide red" aria-pressed="false" style="background:#a63735"></button></div>
+<div class="row"><button class="primary" id="drive">Start driving</button><button id="watch">Watch the drive</button></div></section>
+<div id="tools" hidden><button id="restart">Restart</button><button id="back">Menu</button></div>
+<div id="mobile"><div class="row"><button aria-label="Steer left" data-key="KeyA">◀</button><button aria-label="Steer right" data-key="KeyD">▶</button></div><div class="row"><button data-key="KeyS">Brake</button><button class="primary" data-key="KeyW">Gas</button></div></div>
+<p id="error" role="alert" hidden></p>
+<audio id="score" preload="none" src="AUDIO_DATA"></audio>
+<script>SCRIPT_DATA</script></body></html>

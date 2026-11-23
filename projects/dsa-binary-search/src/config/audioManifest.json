@@ -1,0 +1,5 @@
+{
+ "_doc": "Written by scripts/audio/score.py. null = no mix yet (the reel renders silent).",
+ "reel": "audio/mix.wav",
+ "reel_v2": "audio/mix_v2.wav"
+}

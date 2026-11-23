@@ -1,0 +1,38 @@
+{
+ "_doc": "v2: 'Pehchaan' cut. Kal interview -> binary search in 20 s (one scale) -> Bhai plays the interviewer, 5 real question types, Bro spots the clue -> the 3 clues -> CTA. 'cap' Roman, 'tts' voice text; phrase punctuation must match. Interviewer questions are in English (as in a real Indian interview).",
+ "bpm": 92,
+ "voice": {"provider": "elevenlabs", "voiceId": "TX3LPaxmHKxFdv7VOQHJ", "name": "Liam", "model": "eleven_turbo_v2_5", "language": "hi",
+           "stability": 0.4, "similarity": 0.75, "speed": 1.2, "seed": 5},
+ "voices": {
+  "bro":  {"provider": "elevenlabs", "voiceId": "TX3LPaxmHKxFdv7VOQHJ", "name": "Liam", "model": "eleven_turbo_v2_5", "language": "hi",
+           "stability": 0.4, "similarity": 0.75, "speed": 1.2, "seed": 5},
+  "bhai": {"provider": "elevenlabs", "voiceId": "FuNEroZdMQWScvkSu4Xt", "name": "Amogh M", "model": "eleven_turbo_v2_5", "language": "hi",
+           "stability": 0.45, "similarity": 0.8, "speed": 1.2, "seed": 5}
+ },
+ "reel": [
+  {"id": "a01", "who": "bro",  "scene": "problem", "cap": "Arre yaar, kal interview hai… aur binary search ka sawaal pehchaan hi nahi paata.",
+                                                    "tts": "अरे यार, कल interview है… और binary search का सवाल पहचान ही नहीं पाता।"},
+  {"id": "a02", "who": "bhai", "scene": "problem", "cap": "Tension mat le. Pehle 20 second mein binary search samajh.", "tts": "Tension मत ले. पहले बीस second में binary search समझ."},
+  {"id": "a03", "who": "bhai", "scene": "simple",  "cap": "Sorted list ho, toh seedha beech wala dekh.", "tts": "Sorted list हो, तो सीधा बीच वाला देख."},
+  {"id": "a04", "who": "bro",  "scene": "simple",  "cap": "Aur target bada nikla toh?", "tts": "और target बड़ा निकला तो?"},
+  {"id": "a05", "who": "bhai", "scene": "simple",  "cap": "Left wala aadha phek de. Chhota nikla, toh right wala.", "tts": "Left वाला आधा फेंक दे. छोटा निकला, तो right वाला."},
+  {"id": "a06", "who": "bhai", "scene": "simple",  "post": 0.5, "cap": "Har step pe aadha khatam. 1000 numbers? Sirf 10 step.", "tts": "हर step पे आधा ख़त्म. एक हज़ार numbers? सिर्फ़ दस step."},
+  {"id": "a07", "who": "bro",  "scene": "simple",  "cap": "Bas? Itna simple?", "tts": "बस? इतना simple?"},
+  {"id": "a08", "who": "bhai", "scene": "simple",  "post": 0.3, "cap": "Simple hai. Asli game hai pehchaanna. Main interviewer, tu bata.", "tts": "Simple है. असली game है पहचानना. मैं interviewer, तू बता."},
+  {"id": "a09", "who": "bhai", "scene": "quiz",    "cap": "Given a sorted array, find the target.", "tts": "Given a sorted array, find the target."},
+  {"id": "a10", "who": "bro",  "scene": "quiz",    "post": 0.35, "cap": "Sorted hai, binary search!", "tts": "Sorted है, binary search!"},
+  {"id": "a11", "who": "bhai", "scene": "quiz",    "cap": "The sorted array is rotated. Now find the target.", "tts": "The sorted array is rotated. Now find the target."},
+  {"id": "a12", "who": "bro",  "scene": "quiz",    "post": 0.35, "cap": "Rotated… par ek aadha toh sorted hai. Binary search!", "tts": "Rotated… पर एक आधा तो sorted है. Binary search!"},
+  {"id": "a13", "who": "bhai", "scene": "quiz",    "cap": "Find the square root of x. No built-in function.", "tts": "Find the square root of x. No built-in function."},
+  {"id": "a14", "who": "bro",  "scene": "quiz",    "cap": "Isme toh array hi nahi hai…", "tts": "इसमें तो array ही नहीं है…"},
+  {"id": "a15", "who": "bhai", "scene": "quiz",    "cap": "Answer 0 se x ke beech hai, aur mid badhe toh mid square bhi badhta hai.", "tts": "Answer zero से x के बीच है, और mid बढ़े तो mid square भी बढ़ता है."},
+  {"id": "a16", "who": "bro",  "scene": "quiz",    "post": 0.35, "cap": "Matlab range sorted hai… answer pe binary search!", "tts": "मतलब range sorted है… answer पे binary search!"},
+  {"id": "a17", "who": "bhai", "scene": "quiz",    "cap": "Find the minimum speed to finish all work in 6 days.", "tts": "Find the minimum speed to finish all work in six days."},
+  {"id": "a18", "who": "bro",  "scene": "quiz",    "post": 0.35, "cap": "Minimum, jo shart poori kare. Answer pe binary search!", "tts": "Minimum, जो शर्त पूरी करे. Answer पे binary search!"},
+  {"id": "a19", "who": "bhai", "scene": "quiz",    "cap": "Aur agar bole: do it in O of log n…", "tts": "और अगर बोले: do it in O of log n…"},
+  {"id": "a20", "who": "bro",  "scene": "quiz",    "post": 0.4, "cap": "…toh pakka binary search!", "tts": "तो पक्का binary search!"},
+  {"id": "a21", "who": "bhai", "scene": "rule",    "cap": "Bas teen ishaare: sorted, log n, ya minimum-maximum jo shart poori kare.", "tts": "बस तीन इशारे: sorted, log n, या minimum-maximum जो शर्त पूरी करे."},
+  {"id": "a22", "who": "bro",  "scene": "rule",    "post": 0.3, "cap": "Ab kal toh phod dunga!", "tts": "अब कल तो फोड़ दूँगा!"},
+  {"id": "a23", "who": "bro",  "scene": "cta",     "post": 0.9, "cap": "Aise 10 interview favourite sawaal chahiye? Comment karo \"BINARY\".", "tts": "ऐसे ten interview favourite सवाल चाहिए? Comment करो binary."}
+ ]
+}

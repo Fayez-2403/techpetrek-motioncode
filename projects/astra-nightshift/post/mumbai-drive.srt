@@ -1,0 +1,95 @@
+1
+00:00:00,220 --> 00:00:01,114
+Yeh Mumbai street?
+
+2
+00:00:01,381 --> 00:00:03,285
+GPT-6.2 Astra ne banayi hai.
+
+3
+00:00:04,650 --> 00:00:05,683
+Aur haan, yeh game hai.
+
+4
+00:00:06,183 --> 00:00:07,576
+Steering aapke haath mein!
+
+5
+00:00:11,600 --> 00:00:12,927
+Dekhiye, “Aakhri Local”!
+
+6
+00:00:13,504 --> 00:00:14,900
+Yeh poster bhi code ne paint kiya,
+
+7
+00:00:15,073 --> 00:00:16,400
+har ek akshar.
+
+8
+00:00:17,350 --> 00:00:18,952
+Kaali-peeli taxi, rickshaw,
+
+9
+00:00:19,091 --> 00:00:19,730
+laal bus…
+
+10
+00:00:19,997 --> 00:00:21,948
+sab apni lane pakad ke chalte hain.
+
+11
+00:00:26,000 --> 00:00:26,882
+Bonnet camera on,
+
+12
+00:00:27,149 --> 00:00:27,788
+aur wahi street
+
+13
+00:00:27,858 --> 00:00:29,437
+ab driver ki seat se.
+
+14
+00:00:34,900 --> 00:00:35,748
+Ab asli maza:
+
+15
+00:00:36,015 --> 00:00:37,686
+apne codebase mein Astra ko boliye,
+
+16
+00:00:38,011 --> 00:00:39,358
+wet road ki lighting badaliye…
+
+17
+00:00:39,730 --> 00:00:41,448
+aur phir se drive kijiye.
+
+18
+00:00:44,030 --> 00:00:45,690
+Mera repo, 5 reference repos
+
+19
+00:00:45,771 --> 00:00:46,294
+aur skills,
+
+20
+00:00:46,468 --> 00:00:47,745
+sab aapko DM karunga.
+
+21
+00:00:49,150 --> 00:00:50,207
+Aapko bhi aisi short story
+
+22
+00:00:50,230 --> 00:00:51,205
+banani hai aur zyada
+
+23
+00:00:51,251 --> 00:00:51,902
+views chahiye?
+
+24
+00:00:52,482 --> 00:00:53,562
+Please comment “story”.

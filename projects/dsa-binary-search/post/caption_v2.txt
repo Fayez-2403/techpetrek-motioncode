@@ -1,0 +1,18 @@
+Arre yaar, kal interview hai 😩 aur binary search ka sawaal pehchaan hi nahi aata?
+
+Binary search, 20 second mein: sorted list ka beech wala dekho, aadha phek do. 1000 numbers? Sirf 10 step.
+
+Asli game hai PEHCHAANNA. Interviewer ye 5 tarah se poochta hai 👇
+1️⃣ "Given a sorted array…" → SORTED = binary search
+2️⃣ "The sorted array is rotated…" → ek aadha phir bhi sorted
+3️⃣ "Square root of x, no built-in" → answer ki range (1…x) pe binary search
+4️⃣ "Minimum speed to finish in 6 days" → minimum jo shart poori kare
+5️⃣ "Do it in O(log n)" → pakka binary search
+
+3 ishaare yaad rakho: SORTED · O(log n) · MIN/MAX jo shart poori kare ✅
+
+📩 10 interview favourite binary search sawaal chahiye? Comment karo "BINARY"
+📌 Save karo, interview se pehle ek baar dekh lena
+
+Bro & Bhai are fictional.
+#dsa #binarysearch #leetcode #codinginterview #placementpreparation #dsainhindi #interviewprep #softwareengineer #techpetrek #hinglish

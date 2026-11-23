@@ -24,7 +24,10 @@ Method credit: @imrollandex
 
 "Yeh stream download karo: [LINK] (yt-dlp). faster-whisper se transcript banao, word timestamps ke saath. Har second ki loudness nikaalo aur 5-minute ke rolling average se compare karo. Top 15 loud moments ke aas-paas 45 s ka transcript padho aur har moment ko 0-10 score do: hook, emotion, story, bina context ke samajh aaye ya nahi. 7+ wale moments ko 20-40 s ke clips banao: 1080x1920, facecam upar, gameplay neeche, word-by-word captions, upar 1 line ka hook. Gaaliyan *** se mask karo. Audio -14 LUFS. Har clip ka title aur caption bhi do."
 
-🛠️ Mera poora open-source editing studio (reels, captions, voice, 3D, sab code se), free mein fork karo:
+✂️ Yeh clipper ka code (jo is reel mein chala):
+github.com/Fayez-2403/techpetrek-motioncode/tree/main/projects/gta6-clipper
+
+🛠️ Mera poora editing studio (reels, captions, voice, 3D, sab code se), free mein fork karo:
 github.com/Fayez-2403/EditorBro
 
 Pehla clip bana ke mujhe tag karna 🔥

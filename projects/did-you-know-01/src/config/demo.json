@@ -1,0 +1,189 @@
+{
+ "captured": "2026-11-22T17:02:44+00:00",
+ "python": "3.12.10",
+ "os": "Windows-11-10.0.26200-SP0",
+ "float": {
+  "sum": "0.30000000000000004",
+  "eq": "False",
+  "exact01": "0.1000000000000000055511151231257827021181583404541015625",
+  "decimal": "0.3",
+  "bin01": "0.0001100110011001100110011001100110011001"
+ },
+ "hash": {
+  "in1": "password123",
+  "in2": "password124",
+  "h1": "ef92b778bafe771e89245b89ecbc08a44a4e166c06659911881f383d4473e94f",
+  "h2": "33631376724e5d5480fa397dfcf03b66ad47b934ab495174d7058c38f2bb0087",
+  "same_pos": 6,
+  "len": 64
+ },
+ "tokens": {
+  "o200k_base": {
+   "en": {
+    "text": "Tomorrow is my interview and I am very nervous.",
+    "n": 10,
+    "pieces": [
+     "Tomorrow",
+     " is",
+     " my",
+     " interview",
+     " and",
+     " I",
+     " am",
+     " very",
+     " nervous",
+     "."
+    ]
+   },
+   "hi": {
+    "text": "कल मेरा इंटरव्यू है और मैं बहुत घबराया हुआ हूँ।",
+    "n": 15,
+    "pieces": [
+     "कल",
+     " मेरा",
+     " इंटर",
+     "व",
+     "्यू",
+     " है",
+     " और",
+     " मैं",
+     " बहुत",
+     " घ",
+     "बर",
+     "ाया",
+     " हुआ",
+     " हूँ",
+     "।"
+    ]
+   },
+   "hinglish": {
+    "text": "Kal mera interview hai aur main bahut ghabraya hua hoon.",
+    "n": 16,
+    "pieces": [
+     "Kal",
+     " mera",
+     " interview",
+     " hai",
+     " aur",
+     " main",
+     " bah",
+     "ut",
+     " g",
+     "hab",
+     "r",
+     "aya",
+     " hua",
+     " ho",
+     "on",
+     "."
+    ]
+   }
+  },
+  "cl100k_base": {
+   "en": {
+    "text": "Tomorrow is my interview and I am very nervous.",
+    "n": 10,
+    "pieces": [
+     "Tomorrow",
+     " is",
+     " my",
+     " interview",
+     " and",
+     " I",
+     " am",
+     " very",
+     " nervous",
+     "."
+    ]
+   },
+   "hi": {
+    "text": "कल मेरा इंटरव्यू है और मैं बहुत घबराया हुआ हूँ।",
+    "n": 52,
+    "pieces": [
+     "क",
+     "ल",
+     " म",
+     "े",
+     "र",
+     "ा",
+     " �",
+     "�",
+     "ं",
+     "�",
+     "�",
+     "र",
+     "�",
+     "�",
+     "्�",
+     "�",
+     "�",
+     "�",
+     " ह",
+     "�",
+     "�",
+     " �",
+     "�",
+     "र",
+     " म",
+     "�",
+     "�",
+     "ं",
+     " �",
+     "�",
+     "ह",
+     "ु",
+     "त",
+     " �",
+     "�",
+     "�",
+     "�",
+     "र",
+     "ा�",
+     "�",
+     "ा",
+     " ह",
+     "ु",
+     "�",
+     "�",
+     " ह",
+     "�",
+     "�",
+     "�",
+     "�",
+     "�",
+     "�"
+    ]
+   },
+   "hinglish": {
+    "text": "Kal mera interview hai aur main bahut ghabraya hua hoon.",
+    "n": 18,
+    "pieces": [
+     "Kal",
+     " m",
+     "era",
+     " interview",
+     " hai",
+     " aur",
+     " main",
+     " bah",
+     "ut",
+     " g",
+     "hab",
+     "ray",
+     "a",
+     " h",
+     "ua",
+     " h",
+     "oon",
+     "."
+    ]
+   }
+  }
+ },
+ "y2038": {
+  "max": 2147483647,
+  "last": "2038-01-19 03:14:07 UTC",
+  "wrap": "1901-12-13 20:45:52 UTC",
+  "now": 1795366965
+ }
+}
