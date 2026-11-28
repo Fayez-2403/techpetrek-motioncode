@@ -1,0 +1,228 @@
+{
+ "_doc": "Narration for Berth 42: Ek Seat, Do Ticket. 'cap' = Roman Hinglish caption, 'tts' = what Liam reads (Hindi in Devanagari, English words in English); phrase punctuation must match. Each line opens 'scene'; 'cut' {phrase, scene} starts another scene at a phrase; 'min' = minimum scene length, 'pre' = designed silence before the line. Every claim from docs/factcheck.md. bpm = the score tempo (a song's MEASURED bpm from audio/beats.json if the reel uses a song).",
+ "bpm": 120,
+ "voice": {
+  "provider": "elevenlabs",
+  "voiceId": "TX3LPaxmHKxFdv7VOQHJ",
+  "name": "Liam",
+  "model": "eleven_turbo_v2_5",
+  "language": "hi",
+  "stability": 0.4,
+  "similarity": 0.75,
+  "speed": 1.2,
+  "seed": 5
+ },
+ "reel": [
+  {
+   "id": "n01",
+   "who": "liam",
+   "scene": "hook",
+   "cap": "Ek berth. Do ticket. Aur dono asli!",
+   "tts": "एक बर्थ. दो ticket. और दोनों असली!",
+   "pre": 0,
+   "post": 0.3
+  },
+  {
+   "id": "n02",
+   "who": "liam",
+   "scene": "raat",
+   "cap": "Raat ke do baje. Ek taraf dulha Chhotu, kal subah uski shaadi hai.",
+   "tts": "रात के दो बजे. एक तरफ़ दूल्हा छोटू, कल सुबह उसकी शादी है.",
+   "pre": 0,
+   "post": 0
+  },
+  {
+   "id": "n03",
+   "who": "liam",
+   "scene": "raat",
+   "cap": "Doosri taraf Pehelwan Bhimsen, kal uska dangal hai.",
+   "tts": "दूसरी तरफ़ पहलवान भीमसेन, कल उसका दंगल है.",
+   "pre": 0,
+   "post": 0.1
+  },
+  {
+   "id": "n04",
+   "who": "liam",
+   "scene": "raat",
+   "cap": "Bade Babu register kholte hain. Register kehta hai: dono sahi!",
+   "tts": "बड़े बाबू register खोलते हैं. Register कहता है: दोनों सही!",
+   "pre": 0,
+   "post": 0.25
+  },
+  {
+   "id": "n05",
+   "who": "liam",
+   "scene": "rewind",
+   "cap": "Rewind. Subah ke dus baje, Tatkal khulta hai.",
+   "tts": "Rewind. सुबह के दस बजे, तत्काल खुलता है.",
+   "pre": 0.1,
+   "post": 0
+  },
+  {
+   "id": "n06",
+   "who": "liam",
+   "scene": "rewind",
+   "cap": "Andar do clerk, Ramu aur Shyamu. Register ek.",
+   "tts": "अंदर दो clerk, रामू और श्यामू. Register एक.",
+   "pre": 0,
+   "post": 0
+  },
+  {
+   "id": "n07",
+   "who": "liam",
+   "scene": "rewind",
+   "cap": "Ramu dekhta hai: berth 42 khaali. Usi second, Shyamu bhi dekhta hai: khaali.",
+   "tts": "रामू देखता है: बर्थ बयालीस खाली. उसी second, श्यामू भी देखता है: खाली.",
+   "pre": 0,
+   "post": 0
+  },
+  {
+   "id": "n08",
+   "who": "liam",
+   "scene": "rewind",
+   "cap": "Ramu likhta hai: Chhotu. Shyamu likhta hai: Bhimsen.",
+   "tts": "रामू लिखता है: छोटू. श्यामू लिखता है: भीमसेन.",
+   "pre": 0,
+   "post": 0
+  },
+  {
+   "id": "n09",
+   "who": "liam",
+   "scene": "rewind",
+   "cap": "Dono ne padha, dono ne likha. Kisi ne roka nahi.",
+   "tts": "दोनों ने पढ़ा, दोनों ने लिखा. किसी ने रोका नहीं.",
+   "pre": 0,
+   "post": 0
+  },
+  {
+   "id": "n10",
+   "who": "liam",
+   "scene": "rewind",
+   "cap": "Isi ko kehte hain race condition.",
+   "tts": "इसी को कहते हैं race condition.",
+   "pre": 0,
+   "post": 0.2
+  },
+  {
+   "id": "n11",
+   "who": "liam",
+   "scene": "taala",
+   "cap": "Bade Babu ka naya rule: har seat ka apna taala. Likhne se pehle, taala.",
+   "tts": "बड़े बाबू का नया rule: हर seat का अपना ताला. लिखने से पहले, ताला.",
+   "pre": 0,
+   "post": 0
+  },
+  {
+   "id": "n12",
+   "who": "liam",
+   "scene": "taala",
+   "cap": "Jiska taala pehle, seat uski. Doosre ko jawab: seat busy.",
+   "tts": "जिसका ताला पहले, seat उसकी. दूसरे को जवाब: seat busy.",
+   "pre": 0,
+   "post": 0.1
+  },
+  {
+   "id": "n13",
+   "who": "liam",
+   "scene": "twist",
+   "cap": "Agle din Ramu taala lagata hai, aur chai peene chala jaata hai.",
+   "tts": "अगले दिन रामू ताला लगाता है, और चाय पीने चला जाता है.",
+   "pre": 0,
+   "post": 0
+  },
+  {
+   "id": "n14",
+   "who": "liam",
+   "scene": "twist",
+   "cap": "Aur wapas aata hi nahi.",
+   "tts": "और वापस आता ही नहीं.",
+   "pre": 0,
+   "post": 0.15
+  },
+  {
+   "id": "n15",
+   "who": "liam",
+   "scene": "twist",
+   "cap": "Train chali gayi. Berth 42 raat bhar khaali, taala laga hi raha.",
+   "tts": "Train चली गई. बर्थ बयालीस रात भर खाली, ताला लगा ही रहा.",
+   "pre": 0,
+   "post": 0.2
+  },
+  {
+   "id": "n16",
+   "who": "liam",
+   "scene": "ghadi",
+   "cap": "Isliye ab har taale ke saath ek ret-ghadi.",
+   "tts": "इसलिए अब हर ताले के साथ एक रेत-घड़ी.",
+   "pre": 0,
+   "post": 0
+  },
+  {
+   "id": "n17",
+   "who": "liam",
+   "scene": "ghadi",
+   "cap": "Das minute mein payment nahi hua, toh taala khud khul jaata hai.",
+   "tts": "दस minute में payment नहीं हुआ, तो ताला खुद खुल जाता है.",
+   "pre": 0,
+   "post": 0.1
+  },
+  {
+   "id": "n18",
+   "who": "liam",
+   "scene": "ghadi",
+   "cap": "Code mein yeh ek line hai. NX: taala laga hai toh mat lagao. EX 600: das minute mein khud khul jao.",
+   "tts": "Code में ये एक line है. N X: ताला लगा है तो मत लगाओ. E X six hundred: दस minute में खुद खुल जाओ.",
+   "pre": 0,
+   "post": 0
+  },
+  {
+   "id": "n19",
+   "who": "liam",
+   "scene": "aaj",
+   "cap": "Ticket app pe payment ka countdown dekha hai? Wahi ret-ghadi hai.",
+   "tts": "Ticket app पे payment का countdown देखा है? वही रेत-घड़ी है.",
+   "pre": 0,
+   "post": 0
+  },
+  {
+   "id": "n20",
+   "who": "liam",
+   "scene": "aaj",
+   "cap": "Seat ussi ki jiska taala pehle laga, aur sirf tab tak jab tak ret-ghadi chale.",
+   "tts": "Seat उसी की जिसका ताला पहले लगा, और सिर्फ़ तब तक जब तक रेत-घड़ी चले.",
+   "pre": 0.1,
+   "post": 0.1
+  },
+  {
+   "id": "n21",
+   "who": "liam",
+   "scene": "cta",
+   "cap": "Ticket booking ka pura design chahiye? Comment karo SEAT.",
+   "tts": "Ticket booking का पूरा design चाहिए? Comment करो SEAT.",
+   "pre": 0,
+   "post": 0
+  },
+  {
+   "id": "n22",
+   "who": "liam",
+   "scene": "cta",
+   "cap": "Tech pe Trek: complex tech, simple, aur interesting!",
+   "tts": "टेकपे Trek: complex tech, simple, और interesting!",
+   "pre": 0,
+   "post": 0.5
+  }
+ ],
+ "voices": {
+  "liam": {
+   "provider": "elevenlabs",
+   "voiceId": "TX3LPaxmHKxFdv7VOQHJ",
+   "name": "Liam",
+   "model": "eleven_turbo_v2_5",
+   "language": "hi",
+   "stability": 0.38,
+   "similarity": 0.75,
+   "speed": 1.2,
+   "seed": 5
+  }
+ }
+}

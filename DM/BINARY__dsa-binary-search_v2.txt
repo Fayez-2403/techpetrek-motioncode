@@ -1,0 +1,38 @@
+=== DM 1 (auto-reply to comment "BINARY") ===
+Yeh lo! 🔥 10 interview favourite binary search sawaal, ishaare ke hisaab se:
+
+✅ SORTED
+1. 704 Binary Search
+2. 35 Search Insert Position
+3. 34 Find First and Last Position of Element in Sorted Array
+4. 74 Search a 2D Matrix
+
+✅ AADHA SORTED (rotated)
+5. 33 Search in Rotated Sorted Array
+6. 153 Find Minimum in Rotated Sorted Array
+
+✅ O(log n) likha ho
+7. 162 Find Peak Element
+
+✅ ANSWER KI RANGE (min/max jo shart poori kare)
+8. 69 Sqrt(x)
+9. 875 Koko Eating Bananas
+10. 1011 Capacity To Ship Packages Within D Days
+
+Template agle message mein 👇
+
+=== DM 2 (template) ===
+📋 Har sawaal ke liye:
+
+lo = sabse chhota possible answer
+hi = sabse bada possible answer
+while (lo < hi) {
+  mid = lo + (hi - lo) / 2
+  if (ok(mid)) hi = mid; else lo = mid + 1
+}
+return lo
+
+ok(mid) = "kya mid se kaam ho jaayega?"
+Sirf target dhundhna ho (704): mid == target pe return, warna aadha phek do.
+
+Pehla solve karke tag karna 💪

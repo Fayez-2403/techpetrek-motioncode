@@ -1,0 +1,15 @@
+Hariram ne money order ek baar bheja, aur paisa kat gaya do baar! 💸💸
+
+1937 ke ek gaon ke post office mein ek payment system design concept chhupa hai:
+
+📡 Toofan mein taar toota, Munshi-ji ne dobara bheja = duplicate request
+🧾 Fix: har form pe ek receipt number, aur "PAID" register
+😰 Twist: Hariram ne ghabra ke NAYA form bhara, naya number = phir se do baar!
+🔑 Asli rule: number ek baar banta hai, har retry pe wahi jaata hai = idempotency key
+Idempotency-Key: 417
+
+Comment RETRY 👉 payment system ka pura design DM mein 📩
+
+(Kahani fictional hai, characters invented. Header: docs.stripe.com/api/idempotent_requests. Kisi app ya bank ke internal design ka claim nahi.)
+
+#systemdesign #payments #idempotency #backend #developers #coding #interviewprep #techpetrek #hinglish #animation

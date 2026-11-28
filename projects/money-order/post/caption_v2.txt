@@ -1,0 +1,15 @@
+Paisa kat gaya, ticket nahi mila... aur Paytm khud likhta hai: "Do not rebook immediately." 😳 Kyun?
+
+Kyunki dobara pay matlab NAYA payment, aur paisa do baar kat sakta hai. Ye problem 1937 ke money order mein bhi thi:
+
+📡 Taar toota, Munshi-ji ne dobara bheja = duplicate request
+🧾 Fix: har form pe receipt number + "PAID" register
+😰 Twist: naya form = naya number = phir do baar!
+🔑 Asli rule: number ek baar banta hai, har retry pe wahi jaata hai = idempotency key
+Idempotency-Key: 417
+
+Comment RETRY 👉 payment system ka pura design DM mein 📩
+
+Real screens: Paytm Travel support ("Money Deducted But No Train Ticket on Paytm"), Google Pay Help (India), PhonePe Payment Gateway guide, Stripe API docs (idempotent requests). Captured 27 Nov 2026. 1937 wali kahani fictional hai. Double charge wali baat hamara explanation hai, in apps ka claim nahi.
+
+#systemdesign #payments #upi #idempotency #backend #developers #interviewprep #techpetrek #hinglish #animation

@@ -1,0 +1,13 @@
+{
+  "name": "mumbai-after-rain",
+  "private": true,
+  "description": "Mumbai After Rain: the GPT-6.2 Astra-built Three.js drive game and its 56 s reel. Voice, mix, build, test and the sharp 1080x1920 capture.",
+  "scripts": {
+    "voice": "python scripts/cutting_dialogue.py --mumbai-drive",
+    "mix": "python scripts/v3_mix.py --mumbai-drive",
+    "build": "npm --prefix mumbai-game run build",
+    "test": "npm --prefix mumbai-game test",
+    "stills": "node mumbai-game/scripts/capture.mjs stills 1080",
+    "preview": "npm --prefix mumbai-game run build && node mumbai-game/scripts/capture.mjs record 1080 30"
+  }
+}

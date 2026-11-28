@@ -2,10 +2,8 @@
   "name": "astra-nightshift",
   "version": "1.0.0",
   "private": true,
-  "description": "Nightshift — a Techpetrek GPT-6.2 Astra reel",
+  "description": "Astra nightshift: the earlier Techpetrek GPT-6.2 Astra cuts (Mumbai After Rain moved to ../mumbai-after-rain)",
   "scripts": {
-    "studio": "npx hyperframes preview",
-    "preview": "npm --prefix mumbai-game run build && node mumbai-game/scripts/capture.mjs record 720 30",
     "preview:v3": "python scripts/v3_render.py all",
     "preview:v2": "node scripts/preview.mjs",
     "preview:v1": "node scripts/preview.mjs --v1"

@@ -1,0 +1,235 @@
+{
+ "_doc": "Narration for Ek Baar Bheja, Do Baar Kata. 'cap' = Roman Hinglish caption, 'tts' = what Liam reads (Hindi in Devanagari, English words in English); phrase punctuation must match. Each line opens 'scene'; 'cut' {phrase, scene} starts another scene at a phrase; 'min' = minimum scene length, 'pre' = designed silence before the line. Every claim from docs/factcheck.md. bpm = the score tempo (a song's MEASURED bpm from audio/beats.json if the reel uses a song).",
+ "bpm": 120,
+ "voice": {
+  "provider": "elevenlabs",
+  "voiceId": "TX3LPaxmHKxFdv7VOQHJ",
+  "name": "Liam",
+  "model": "eleven_turbo_v2_5",
+  "language": "hi",
+  "stability": 0.4,
+  "similarity": 0.75,
+  "speed": 1.2,
+  "seed": 5
+ },
+ "reel": [
+  {
+   "id": "n01",
+   "who": "liam",
+   "scene": "hook",
+   "cap": "Hariram ne money order ek baar bheja, aur paisa kat gaya do baar!",
+   "tts": "हरिराम ने money order एक बार भेजा, और पैसा कट गया दो बार!",
+   "pre": 0,
+   "post": 0.25,
+   "join": false
+  },
+  {
+   "id": "n02",
+   "who": "liam",
+   "scene": "gaon",
+   "cap": "Gaon ka kisaan Hariram, bete Mohan ki college fees ke liye pachaas rupaye bhejne aaya hai,",
+   "tts": "गाँव का किसान हरिराम, बेटे मोहन की college fees के लिए पचास रुपये भेजने आया है,",
+   "pre": 0,
+   "post": 0,
+   "join": true
+  },
+  {
+   "id": "n03",
+   "who": "liam",
+   "scene": "gaon",
+   "cap": "aur post office mein Munshi-ji telegraph se sheher sandesh bhejte hain.",
+   "tts": "और post office में मुंशी जी telegraph से शहर संदेश भेजते हैं.",
+   "pre": 0,
+   "post": 0.05,
+   "join": false
+  },
+  {
+   "id": "n04",
+   "who": "liam",
+   "scene": "taar",
+   "cap": "Aadha sandesh gaya hi tha, ki toofan mein taar toot gaya.",
+   "tts": "आधा संदेश गया ही था, कि तूफ़ान में तार टूट गया.",
+   "pre": 0,
+   "post": 0.15,
+   "join": false
+  },
+  {
+   "id": "n05",
+   "who": "liam",
+   "scene": "taar",
+   "cap": "Munshi-ji ghabra gaye: pahuncha ya nahi? Toh unhone dobara bhej diya.",
+   "tts": "मुंशी जी घबरा गए: पहुँचा या नहीं? तो उन्होंने दोबारा भेज दिया.",
+   "pre": 0,
+   "post": 0,
+   "join": false
+  },
+  {
+   "id": "n06",
+   "who": "liam",
+   "scene": "sheher",
+   "cap": "Sheher mein Tara ne dono sandesh padhe, aur Mohan ko paise do baar mil gaye.",
+   "tts": "शहर में तारा ने दोनों संदेश पढ़े, और मोहन को पैसे दो बार मिल गए.",
+   "pre": 0,
+   "post": 0,
+   "join": false
+  },
+  {
+   "id": "n07",
+   "who": "liam",
+   "scene": "sheher",
+   "cap": "Aur gaon mein Hariram ke khaate se kat gaye sau rupaye.",
+   "tts": "और गाँव में हरिराम के खाते से कट गए सौ रुपये.",
+   "pre": 0,
+   "post": 0.15,
+   "join": false
+  },
+  {
+   "id": "n08",
+   "who": "liam",
+   "scene": "sheher",
+   "cap": "Isi ko kehte hain duplicate request: retry zaroori tha, par retry ne hi nuksaan kar diya.",
+   "tts": "इसी को कहते हैं duplicate request: retry ज़रूरी था, पर retry ने ही नुकसान कर दिया.",
+   "pre": 0,
+   "post": 0.15,
+   "join": false
+  },
+  {
+   "id": "n09",
+   "who": "liam",
+   "scene": "fix",
+   "cap": "Toh Munshi-ji ne har form par ek number likhna shuru kiya, receipt number 417,",
+   "tts": "तो मुंशी जी ने हर form पर एक number लिखना शुरू किया, receipt number चार सौ सत्रह,",
+   "pre": 0,
+   "post": 0,
+   "join": true
+  },
+  {
+   "id": "n10",
+   "who": "liam",
+   "scene": "fix",
+   "cap": "aur Tara ke paas ek register: jo number pehle hi paid hai, uska paisa dobara nahi milega.",
+   "tts": "और तारा के पास एक register: जो number पहले ही paid है, उसका पैसा दोबारा नहीं मिलेगा.",
+   "pre": 0,
+   "post": 0,
+   "join": false
+  },
+  {
+   "id": "n11",
+   "who": "liam",
+   "scene": "fix",
+   "cap": "Ab taar toote toh bina dare dobara bhejo: number wahi hai, toh paisa ek hi baar jaayega.",
+   "tts": "अब तार टूटे तो बिना डरे दोबारा भेजो: number वही है, तो पैसा एक ही बार जाएगा.",
+   "pre": 0,
+   "post": 0.1,
+   "join": false
+  },
+  {
+   "id": "n12",
+   "who": "liam",
+   "scene": "twist",
+   "cap": "Par agle mahine Hariram ghabra gaye, aur naya form bhar diya, naye number ke saath,",
+   "tts": "पर अगले महीने हरिराम घबरा गए, और नया form भर दिया, नए number के साथ,",
+   "pre": 0,
+   "post": 0,
+   "join": true
+  },
+  {
+   "id": "n13",
+   "who": "liam",
+   "scene": "twist",
+   "cap": "aur register ne use naya payment samjha, toh paisa phir do baar gaya!",
+   "tts": "और register ने उसे नया payment समझा, तो पैसा फिर दो बार गया!",
+   "pre": 0,
+   "post": 0.2,
+   "join": false
+  },
+  {
+   "id": "n14",
+   "who": "liam",
+   "scene": "rule",
+   "cap": "Asli rule: number ek baar banta hai, aur har retry pe wahi number jaata hai.",
+   "tts": "असली rule: number एक बार बनता है, और हर retry पे वही number जाता है.",
+   "pre": 0,
+   "post": 0,
+   "join": false
+  },
+  {
+   "id": "n15",
+   "who": "liam",
+   "scene": "rule",
+   "cap": "Aaj ki bhasha mein ise idempotency key kehte hain.",
+   "tts": "आज की भाषा में इसे आइडेम्पोटेंसी key कहते हैं.",
+   "pre": 0,
+   "post": 0.1,
+   "join": false
+  },
+  {
+   "id": "n16",
+   "who": "liam",
+   "scene": "rule",
+   "cap": "Stripe jaise payment APIs mein ye ek header hai, Idempotency-Key, taaki retry pe paisa do baar na kate.",
+   "tts": "Stripe जैसे payment ए पी आईज़ में ये एक header है, आइडेम्पोटेंसी key, ताकि retry पे पैसा दो बार ना कटे.",
+   "pre": 0,
+   "post": 0,
+   "join": false
+  },
+  {
+   "id": "n17",
+   "who": "liam",
+   "scene": "aaj",
+   "cap": "Achhe payment systems bhi yahi karte hain: retry karo, par wahi key ke saath.",
+   "tts": "अच्छे payment systems भी यही करते हैं: retry करो, पर वही key के साथ.",
+   "pre": 0,
+   "post": 0.05,
+   "join": false
+  },
+  {
+   "id": "n18",
+   "who": "liam",
+   "scene": "aaj",
+   "cap": "Paisa ek hi baar katna chahiye, chahe sandesh kitni bhi baar jaaye.",
+   "tts": "पैसा एक ही बार कटना चाहिए, चाहे संदेश कितनी भी बार जाए.",
+   "pre": 0.05,
+   "post": 0.15,
+   "join": false
+  },
+  {
+   "id": "n19",
+   "who": "liam",
+   "scene": "cta",
+   "cap": "Payment system ka pura design chahiye? Comment karo RETRY.",
+   "tts": "Payment system का पूरा design चाहिए? Comment करो retry.",
+   "pre": 0,
+   "post": 0,
+   "join": false
+  },
+  {
+   "id": "n20",
+   "who": "liam",
+   "scene": "cta",
+   "cap": "Tech pe Trek: complex tech, simple, aur interesting!",
+   "tts": "टेकपे Trek: complex tech, simple, और interesting!",
+   "pre": 0,
+   "post": 0.5,
+   "join": false
+  }
+ ],
+ "voices": {
+  "liam": {
+   "provider": "elevenlabs",
+   "voiceId": "TX3LPaxmHKxFdv7VOQHJ",
+   "name": "Liam",
+   "model": "eleven_turbo_v2_5",
+   "language": "hi",
+   "stability": 0.38,
+   "similarity": 0.75,
+   "speed": 1.2,
+   "seed": 5
+  }
+ },
+ "pause": {
+  "comma": 0.1,
+  "stop": 0.2,
+  "join_gap": 0.03
+ }
+}

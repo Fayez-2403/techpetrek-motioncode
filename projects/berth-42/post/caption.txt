@@ -1,0 +1,17 @@
+Ek hi berth ke do ticket, aur dono ke dono asli! 🎟️🚂
+
+Tatkal ki 10 baje wali bheed ko 1930s ke ek booking office mein le gaye... aur ek system design concept nikal aaya:
+
+❌ Race condition: do clerk, ek register. Dono ne "khaali" padha, dono ne naam likh diya
+🔒 Fix: har seat ka apna taala (per-seat lock)
+☕ Twist: taala laga ke chai pe gaya, wapas hi nahi aaya = stuck lock
+⏳ Asli fix: taale ke saath ret-ghadi = lock with TTL
+SET seat:42 chhotu NX EX 600
+
+Payment page ka countdown? Wahi ret-ghadi hai.
+
+Comment SEAT 👉 ticket booking system ka pura design DM mein 📩
+
+(Kahani fictional hai, characters invented. Code line: redis.io/commands/set. Kisi company ke internal design ka claim nahi.)
+
+#systemdesign #redis #developers #coding #tatkal #interviewprep #backend #techpetrek #hinglish #animation

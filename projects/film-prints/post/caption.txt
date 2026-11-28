@@ -1,0 +1,17 @@
+Dekho dekho! IPL final ki raat JioHotstar pe 5.5 crore log ek saath live 😳 aur Blinkit ke 2,700+ stores, 400+ sheheron mein. Itni door tak itna fast kaise pahunchta hai?
+
+Ek purana nuskha hai: 1936 ka bioscope qissa 🎞️
+
+🎬 Bombay mein reel sirf ek = origin server
+📦 Har sheher ke hall tak copy = CDN edge cache
+🌸 Censor ne scene kaata, Patna mein purana reel chalta raha = stale cache
+📅 Dabbe pe tareekh = TTL (Cache-Control: max-age)
+📨 Telegram: purana hatao, naya lagao = purge
+
+Usool: asli ek, copies hazaar, aur har copy pe expiry ki tareekh!
+
+Comment CDN 👉 caching ka pura design DM mein 📩
+
+Real screens: afaqs (JioStar's IPL 2025 figures: 55 million peak concurrency on JioHotstar), Eternal's Blinkit page, Business Today (dark stores), Cloudflare Learning Center ("What is a CDN?"), MDN (Cache-Control). Captured 28 Nov 2026. 1936 wali kahani fictional hai. JioHotstar aur Blinkit ka internal design hum nahi bata rahe; ye general pattern hai.
+
+#systemdesign #cdn #caching #backend #developers #interviewprep #techpetrek #hinglish #animation #bioscope

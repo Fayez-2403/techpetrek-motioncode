@@ -1,14 +1,11 @@
-# Mumbai After Rain
+# Astra nightshift: the earlier GPT-6.2 Astra cuts
 
-GPT-6.2 Astra authored the Three.js city, vehicles, driving simulation and replay camera for this 56-second Techpetrek reel. The route is a fictional monsoon-night circuit inspired by Mumbai. You can drive through the same scenes shown in the reel.
+> **Mumbai After Rain moved:** the Astra-built Three.js drive game, its 56 s reel (v2: Liam, sharp 1080×1920), voice script,
+> mix, captions, DM and handoff now live in [`../mumbai-after-rain`](../mumbai-after-rain/README.md) (moved 2026-11-23).
 
-[Watch the preview](out/mumbai-drive-preview/mumbai-drive-preview.mp4) · [Open the playable game](mumbai-game/play-mumbai.html) · [Review frames](out/mumbai-drive-preview/contact-sheet.jpg) · [Post caption](post/caption.txt) · [DM reply](post/mumbai-drive-dm.txt) · [Subtitles](post/mumbai-drive.srt)
-
-[Claude handoff for the next voiceover and gameplay pass](docs/mumbai-claude-handoff.md)
-
-Open the game in a browser with WebGL 2. Choose a paint colour and start driving. W or Up accelerates, S or Down brakes, and A/D or the arrow keys steer. Touch controls appear on phones. “Watch the drive” plays the narrated replay.
-
-The source lives in [mumbai-game/src](mumbai-game/src). Building the game requires Node, Bun and the three npm package. From the game directory, run `npm ci`, then `npm run build`. The result is a self-contained HTML file with embedded audio and logo. On this workstation, `npm test` checks replay and controls. From the project directory, use `npm run preview` to record the 720 × 1280 review MP4. [Production credits](docs/mumbai-drive.md)
+This folder keeps the earlier cuts: the astra-workflow promo, the Aakhri Cutting version and the original Nightshift.
+`scripts/cutting_dialogue.py` and `scripts/v3_mix.py` stay here for those cuts (`--astra-workflow`, the default cutting
+mode). The Mumbai copies of both scripts are in the new folder.
 
 ## Previous edit · From codebase to short film
 

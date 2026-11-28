@@ -1,0 +1,82 @@
+{
+ "afaqs_55": {
+  "url": "https://www.afaqs.com/news/media/tata-ipl-2025-achieved-record-viewership-jiostar-9378356",
+  "phrase": "55 million peak",
+  "box": {
+   "x": 15,
+   "y": 415.75,
+   "width": 363.5,
+   "height": 48
+  },
+  "viewport": [
+   412,
+   880
+  ],
+  "scale": 2.5,
+  "captured": "2026-11-28T07:11:02.416Z"
+ },
+ "blinkit_stores": {
+  "url": "https://eternal.com/our-businesses/blinkit",
+  "phrase": "2,700+",
+  "box": {
+   "x": 41,
+   "y": 369.296875,
+   "width": 330,
+   "height": 27
+  },
+  "viewport": [
+   412,
+   880
+  ],
+  "scale": 2.5,
+  "captured": "2026-11-28T07:11:11.929Z"
+ },
+ "bt_dark": {
+  "url": "https://www.businesstoday.in/amp/magazine/deep-dive/story/why-start-ups-are-going-big-on-dark-stores-517751-2026-02-24",
+  "phrase": "Dark stores are taking",
+  "box": {
+   "x": 10,
+   "y": 162,
+   "width": 392,
+   "height": 112
+  },
+  "viewport": [
+   412,
+   880
+  ],
+  "scale": 2.5,
+  "captured": "2026-11-28T07:11:20.445Z"
+ },
+ "cf_def": {
+  "url": "https://www.cloudflare.com/learning/cdn/what-is-a-cdn/",
+  "phrase": "geographically distributed group",
+  "box": {
+   "x": 24,
+   "y": 179.28125,
+   "width": 364,
+   "height": 76.75
+  },
+  "viewport": [
+   412,
+   880
+  ],
+  "scale": 2.5,
+  "captured": "2026-11-28T07:11:29.277Z"
+ },
+ "mdn_maxage": {
+  "url": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Headers/Cache-Control",
+  "phrase": "max-age=180",
+  "box": {
+   "x": 56,
+   "y": 369.890625,
+   "width": 316.390625,
+   "height": 54
+  },
+  "viewport": [
+   412,
+   880
+  ],
+  "scale": 2.5,
+  "captured": "2026-11-28T07:11:37.587Z"
+ }
+}

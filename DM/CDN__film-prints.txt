@@ -1,0 +1,69 @@
+=== DM 1 ===
+Hey! 🎞️ Ye raha CDN + caching ka asli version (bioscope wali kahani ke peeche ka system):
+
+1) Origin = asli server (Bombay ka master reel). Edge / PoP = users ke paas wale CDN servers (har sheher ka hall).
+2) Cache hit = edge pe copy mil gayi, turant jawab. Miss = edge origin se laata hai aur copy rakh leta hai.
+3) TTL = copy kitni der fresh hai: Cache-Control: max-age=<seconds>.
+4) Stale cache = TTL baaki hai par origin pe content badal gaya (Patna ka purana reel).
+5) Purge = CDN ko bolna "ye copy hatao".
+6) Hit ratio = hits ÷ (hits + misses). Ye CDN ki report card hai: jitna zyada, origin pe utna kam load.
+
+Aage: kaunsa header kahan lagana hai, origin kaise bachana hai, live cricket jaisa traffic, aur padhne ke links 👇
+
+=== DM 2 ===
+🧾 Header cheat sheet (MDN ke patterns)
+
+✅ Hashed files (app.3f9a.js, logo.81c2.png):
+Cache-Control: max-age=31536000, immutable
+1 saal, bina poochhe. File badli toh naam badlo = naya URL = nayi copy. Isse cache busting kehte hain; purge ki zaroorat hi nahi.
+
+✅ HTML / badalne wala data:
+Cache-Control: no-cache + ETag
+no-cache ka matlab "cache mat karo" NAHI hai, matlab hai "use karne se pehle poochho". Content same hai toh 304 Not Modified aata hai, poori file nahi.
+
+✅ Login / personal data:
+private (sirf user ka browser) ya no-store (kahin store nahi). Iski CDN pe kabhi shared copy nahi banni chahiye.
+
+✅ CDN aur browser ka alag TTL:
+max-age=60, s-maxage=600 (s-maxage sirf CDN jaise shared caches maante hain)
+
+✅ Safety net (RFC 5861):
+stale-while-revalidate=30 → purani copy turant do, nayi peeche se lao
+stale-if-error=86400 → origin down ho toh purani copy chalao (apne CDN pe support check karo)
+
+=== DM 3 ===
+🛡️ Origin bachao, hit ratio badhao
+
+1) Cache key saaf rakho: ?utm_source, ?fbclid jaise tracking params key mein reh gaye toh ek hi page ki alag-alag copies banti hain aur hit ratio girta hai.
+2) Vary soch ke lagao: Vary: Accept-Encoding theek hai. Vary: Cookie = har user ki alag copy = cache lagbhag bekaar.
+3) Purge kam, versioning zyada. Purge karna hi pade toh tag se karo (Cloudflare: Cache-Tag header). "Purge everything" se sab ek saath miss hota hai aur poori bheed origin pe.
+4) Tiered cache / Origin Shield: edges pehle ek upar wali cache layer se poochhte hain. AWS ke shabdon mein: "as few as one request going to your origin".
+5) Request collapsing: ek hi file ke bahut saare misses ek saath aaye toh origin pe sirf ek fetch (Fastly docs). Ye thundering herd ka ilaaj hai.
+
+=== DM 4 ===
+🏏 Live cricket jaisa traffic (HLS video)
+
+Live stream mein do cheezein hoti hain: ek playlist (.m3u8) jo har kuch second badalti hai, aur chhote video segments jo ek baar ban gaye toh kabhi nahi badalte. Isliye dono ka TTL alag:
+• Playlist: chhota TTL, segment duration ka aadha (AWS MediaPackage CDN guide; LL-HLS media playlist: 1 s). Fastly: 5 s segments pe 1-2 s.
+• Segments: lamba TTL. AWS guide: 14 din (1209600 s).
+Playlist fresh rehti hai, aur bhaari video edge se hi milta hai.
+
+Note: JioHotstar ka internal setup hum nahi jaante; ye AWS aur Fastly ki public guidance hai.
+
+Interview favourite: "Design a CDN" ya "Design Hotstar / YouTube". Bolna: origin vs edge, cache key, TTL vs purge, versioned assets, origin shield, hit ratio.
+
+=== DM 5 ===
+📚 Padhne ke liye (sab official / free):
+
+1 MDN HTTP caching guide: developer.mozilla.org/en-US/docs/Web/HTTP/Guides/Caching
+2 MDN Cache-Control (har directive): developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Headers/Cache-Control
+3 Jake Archibald, caching best practices: jakearchibald.com/2016/caching-best-practices/
+4 web.dev HTTP cache: web.dev/articles/http-cache
+5 RFC 9111 (HTTP caching standard): rfc-editor.org/rfc/rfc9111
+6 Cloudflare, what is a CDN: cloudflare.com/learning/cdn/what-is-a-cdn/
+7 Cloudflare Tiered Cache: developers.cloudflare.com/cache/how-to/tiered-cache/
+8 AWS live video CDN settings: docs.aws.amazon.com/mediapackage/latest/userguide/cdn-recommendations.html
+9 System Design Primer (CDN): github.com/donnemartin/system-design-primer#content-delivery-network
+
+Bioscope wali kahani fictional hai 🎞️
+Tech pe Trek

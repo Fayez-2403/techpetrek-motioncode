@@ -1,0 +1,209 @@
+{
+ "_doc": "Narration for Ek Film, Hazaar Copies. 'cap' = Roman Hinglish caption, 'tts' = what Liam reads (Hindi in Devanagari, English words in English); phrase punctuation must match. Each line opens 'scene'; 'cut' {phrase, scene} starts another scene at a phrase; 'min' = minimum scene length, 'pre' = designed silence before the line. Every claim from docs/factcheck.md. bpm = the score tempo (a song's MEASURED bpm from audio/beats.json if the reel uses a song).",
+ "bpm": 120,
+ "voice": {
+  "provider": "elevenlabs",
+  "voiceId": "TX3LPaxmHKxFdv7VOQHJ",
+  "name": "Liam",
+  "model": "eleven_turbo_v2_5",
+  "language": "hi",
+  "stability": 0.4,
+  "similarity": 0.75,
+  "speed": 1.2,
+  "seed": 5
+ },
+ "reel": [
+  {
+   "id": "b01",
+   "who": "liam",
+   "scene": "hook",
+   "cap": "Dekho dekho, IPL dekho: final ki raat JioHotstar pe 5.5 crore log, ek saath live dekho!",
+   "tts": "देखो देखो, IPL देखो: final की रात JioHotstar पे साढ़े पाँच करोड़ लोग, एक साथ live देखो!",
+   "pre": 0,
+   "post": 0.05,
+   "join": false
+  },
+  {
+   "id": "b02",
+   "who": "liam",
+   "scene": "hook",
+   "cap": "Dekho dekho, Blinkit dekho: 400 se zyada sheher, 2,700 se zyada stores, dukaan tumhare mohalle mein dekho!",
+   "tts": "देखो देखो, Blinkit देखो: चार सौ से ज़्यादा शहर, सत्ताईस सौ से ज़्यादा stores, दुकान तुम्हारे मोहल्ले में देखो!",
+   "pre": 0,
+   "post": 0.05,
+   "join": false
+  },
+  {
+   "id": "b03",
+   "who": "liam",
+   "scene": "hook",
+   "cap": "Ye jaadu nahi, ek purana nuskha hai, aao bioscope mein jhaanko, 1936 ka qissa hai!",
+   "tts": "ये जादू नहीं, एक पुराना नुस्ख़ा है, आओ bioscope में झाँको, उन्नीस सौ छत्तीस का क़िस्सा है!",
+   "pre": 0,
+   "post": 0.3,
+   "join": false
+  },
+  {
+   "id": "b04",
+   "who": "liam",
+   "scene": "reel1",
+   "cap": "Bombay ke Kamal Studio ne banayi ek film, poore desh ko Friday ko dekhni thi,",
+   "tts": "Bombay के कमल Studio ने बनाई एक film, पूरे देश को Friday को देखनी थी,",
+   "pre": 0,
+   "post": 0,
+   "join": true
+  },
+  {
+   "id": "b05",
+   "who": "liam",
+   "scene": "reel1",
+   "cap": "par reel bas ek, aur woh bhi Bombay mein, toh sab Bombay daude, aur studio pe mela lag gaya!",
+   "tts": "पर reel बस एक, और वो भी Bombay में, तो सब Bombay दौड़े, और studio पे मेला लग गया!",
+   "pre": 0,
+   "post": 0.25,
+   "join": false
+  },
+  {
+   "id": "b06",
+   "who": "liam",
+   "scene": "reel2",
+   "cap": "Toh Seth-ji bole: copies banao, har sheher ke cinema hall tak pahunchao!",
+   "tts": "तो सेठ जी बोले: copies बनाओ, हर शहर के cinema hall तक पहुँचाओ!",
+   "pre": 0.1,
+   "post": 0,
+   "join": false
+  },
+  {
+   "id": "b07",
+   "who": "liam",
+   "scene": "reel2",
+   "cap": "Dekho dekho, Nagpur dekho, Patna dekho, sab apne sheher ke hall mein film dekho!",
+   "tts": "देखो देखो, नागपुर देखो, पटना देखो, सब अपने शहर के hall में film देखो!",
+   "pre": 0,
+   "post": 0.05,
+   "join": false
+  },
+  {
+   "id": "b08",
+   "who": "liam",
+   "scene": "reel2",
+   "cap": "Isi ko kehte hain CDN: asli ek jagah, aur copies tumhare paas.",
+   "tts": "इसी को कहते हैं C D N: असली एक जगह, और copies तुम्हारे पास.",
+   "pre": 0,
+   "post": 0.3,
+   "join": false
+  },
+  {
+   "id": "b09",
+   "who": "liam",
+   "scene": "reel3",
+   "cap": "Par release ke baad censor ne romance ka ek scene katwa diya,",
+   "tts": "पर release के बाद censor ने romance का एक scene कटवा दिया,",
+   "pre": 0.1,
+   "post": 0,
+   "join": true
+  },
+  {
+   "id": "b10",
+   "who": "liam",
+   "scene": "reel3",
+   "cap": "aur chhote sheheron mein purana reel chalta raha, phool milte rahe!",
+   "tts": "और छोटे शहरों में पुराना reel चलता रहा, फूल मिलते रहे!",
+   "pre": 0,
+   "post": 0.1,
+   "join": false
+  },
+  {
+   "id": "b11",
+   "who": "liam",
+   "scene": "reel3",
+   "cap": "Copy purani, sach naya: isi ko kehte hain stale cache, bhaiya!",
+   "tts": "Copy पुरानी, सच नया: इसी को कहते हैं stale cache, भैया!",
+   "pre": 0,
+   "post": 0.3,
+   "join": false
+  },
+  {
+   "id": "b12",
+   "who": "liam",
+   "scene": "reel4",
+   "cap": "Toh har dabbe pe likhi tareekh: is din ke baad reel wapas bhejo,",
+   "tts": "तो हर डब्बे पे लिखी तारीख़: इस दिन के बाद reel वापस भेजो,",
+   "pre": 0.1,
+   "post": 0,
+   "join": true
+  },
+  {
+   "id": "b13",
+   "who": "liam",
+   "scene": "reel4",
+   "cap": "aur zaroorat pade toh telegram: purana reel hatao, naya lagao!",
+   "tts": "और ज़रूरत पड़े तो telegram: पुराना reel हटाओ, नया लगाओ!",
+   "pre": 0,
+   "post": 0.1,
+   "join": false
+  },
+  {
+   "id": "b14",
+   "who": "liam",
+   "scene": "reel4",
+   "cap": "Aaj wahi tareekh hai TTL, jaise Cache-Control max-age, aur telegram ka naam hai purge.",
+   "tts": "आज वही तारीख़ है T T L, जैसे Cache-Control max-age, और telegram का नाम है purge.",
+   "pre": 0,
+   "post": 0.2,
+   "join": false
+  },
+  {
+   "id": "b15",
+   "who": "liam",
+   "scene": "usool",
+   "cap": "Toh usool ye hai: asli ek, copies hazaar, aur har copy pe expiry ki tareekh!",
+   "tts": "तो उसूल ये है: असली एक, copies हज़ार, और हर copy पे expiry की तारीख़!",
+   "pre": 0.05,
+   "post": 0.15,
+   "join": false
+  },
+  {
+   "id": "b16",
+   "who": "liam",
+   "scene": "cta",
+   "cap": "CDN aur caching ka pura design chahiye? Comment karo CDN.",
+   "tts": "C D N और caching का पूरा design चाहिए? Comment करो C D N.",
+   "pre": 0,
+   "post": 0,
+   "join": false
+  },
+  {
+   "id": "b17",
+   "who": "liam",
+   "scene": "cta",
+   "cap": "Tech pe Trek: complex tech, simple, aur interesting!",
+   "tts": "टेक पे Trek: complex tech, simple, और interesting!",
+   "pre": 0,
+   "post": 0.5,
+   "join": false
+  }
+ ],
+ "voices": {
+  "liam": {
+   "provider": "elevenlabs",
+   "voiceId": "TX3LPaxmHKxFdv7VOQHJ",
+   "name": "Liam",
+   "model": "eleven_turbo_v2_5",
+   "language": "hi",
+   "stability": 0.38,
+   "similarity": 0.75,
+   "speed": 1.2,
+   "seed": 5
+  }
+ },
+ "pause": {
+  "comma": 0.1,
+  "stop": 0.2,
+  "join_gap": 0.03
+ },
+ "grid": {
+  "bpm": 104,
+  "snap_beats": 1
+ }
+}

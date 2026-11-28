@@ -1,0 +1,32 @@
+=== DM 1 (auto-reply to comment "DYK") ===
+Yeh lo! 🔥 Chaaron sach khud try karo (Python):
+
+1️⃣ 0.1 + 0.2
+python -c "print(0.1 + 0.2)"
+→ 0.30000000000000004
+Fix: from decimal import Decimal → Decimal('0.1') + Decimal('0.2') = 0.3
+
+2️⃣ Hash
+python -c "import hashlib; print(hashlib.sha256(b'password123').hexdigest())"
+→ ef92b778… (64 akshar). password124 try karo, poora alag!
+
+3️⃣ Tokens (pip install tiktoken)
+import tiktoken; e = tiktoken.get_encoding("cl100k_base")
+len(e.encode("कल मेरा इंटरव्यू है और मैं बहुत घबराया हुआ हूँ।")) → 52
+"o200k_base" (GPT-4o) pe → 15
+
+4️⃣ 2038
+python -c "import datetime as d; print(d.datetime(1970,1,1) + d.timedelta(seconds=2**31-1))"
+→ 2038-01-19 03:14:07
+
+Sources agle message mein 👇
+
+=== DM 2 (sources) ===
+📚 Proof:
+• docs.python.org/3/tutorial/floatingpoint.html
+• cheatsheetseries.owasp.org/cheatsheets/Password_Storage_Cheat_Sheet.html
+• github.com/openai/tiktoken
+• en.wikipedia.org/wiki/Year_2038_problem
+
+Note: asli websites SHA-256 nahi, bcrypt/Argon2 jaise slow + salted hash use karti hain (OWASP).
+Part 2 chahiye? Bata dena 😄

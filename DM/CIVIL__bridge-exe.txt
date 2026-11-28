@@ -1,0 +1,36 @@
+=== DM 1 (auto-reply to comment "CIVIL") ===
+Thanks for commenting! 🏗️ Yeh hai BRIDGE.EXE ka stack (reel wala bridge lab).
+⚠️ Educational model hai, construction approval nahi. Real design ke liye licensed structural engineer, site investigation aur national codes zaroori hain.
+
+🧰 Tools (sab free / open source):
+• Claude Code: app, solver, tests, export scripts
+  claude.com/claude-code
+• PyNite: Python finite-element analysis, hamara truss solver isse cross-check
+  pynite.readthedocs.io
+• OpenSeesPy: research-grade structural analysis, uska truss example hamara test case
+  openseespydoc.readthedocs.io/en/latest/src/truss.html
+• IfcOpenShell: model ki IFC (BIM) file
+  github.com/IfcOpenShell/IfcOpenShell
+
+Baaki tools + setup checklist agle message mein 👇
+
+=== DM 2 (tools + checklist 1-3) ===
+• FreeCAD: open-source parametric CAD (STEP solids, is build mein use nahi kiya)
+  github.com/FreeCAD/FreeCAD
+• Three.js + React Three Fiber: browser mein 3D gorge + bridge
+  threejs.org/docs · r3f.docs.pmnd.rs
+• Rapier: (fictional) arcade collapse ke rigid bodies
+  rapier.rs
+
+✅ Safe setup checklist:
+1. Python 3.12 + Node/Bun. pip install --user numpy PyNiteFEA ifcopenshell (humne PyNite 3.2.1, IfcOpenShell 0.9.0 use kiya)
+2. Pehle ek published example (OpenSeesPy truss) reproduce karo, phir kisi aur result pe bharosa
+3. Har run pe equilibrium check (loads + reactions ≈ 0), aur har result ke saath input hash
+
+=== DM 3 (checklist 4-7) ===
+4. Unstable model zor se fail ho (singular stiffness = mechanism), kabhi zeros mat dikhao
+5. Label karo kya proxy hai (hamara utilisation code check nahi) aur kya sirf visual (deck, bracing, arcade collapse)
+6. AI ko CAD se jodo (jaise Autodesk ke MCP previews) toh read-only se shuru, sample model, har write approve karo
+7. AI-generated ya student model ko kabhi real structure ke liye use mat karo, bina licensed engineer review ke
+
+📦 App ka repo public hote hi share karunga.

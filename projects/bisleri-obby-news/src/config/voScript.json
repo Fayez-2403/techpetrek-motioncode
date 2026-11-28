@@ -1,0 +1,146 @@
+{
+ "_doc": "Bisleri x obby breaking news. Single voice (Liam). 'cap' Roman, 'tts' voice text; phrase punctuation must match. Every claim in docs/factcheck.md (B1-B10); Bisleri's numbers attributed to Bisleri's statement.",
+ "bpm": 150,
+ "voice": {
+  "provider": "elevenlabs",
+  "voiceId": "TX3LPaxmHKxFdv7VOQHJ",
+  "name": "Liam",
+  "model": "eleven_turbo_v2_5",
+  "language": "hi",
+  "stability": 0.38,
+  "similarity": 0.75,
+  "speed": 1.2,
+  "seed": 5
+ },
+ "voices": {
+  "bro": {
+   "provider": "elevenlabs",
+   "voiceId": "TX3LPaxmHKxFdv7VOQHJ",
+   "name": "Liam",
+   "model": "eleven_turbo_v2_5",
+   "language": "hi",
+   "stability": 0.38,
+   "similarity": 0.75,
+   "speed": 1.2,
+   "seed": 5
+  }
+ },
+ "reel": [
+  {
+   "id": "n01",
+   "who": "bro",
+   "scene": "hook",
+   "post": 0.35,
+   "cap": "Hellooo, paani ke pyaase developers!",
+   "tts": "Hellooo, पानी के प्यासे developers!"
+  },
+  {
+   "id": "n02",
+   "who": "bro",
+   "scene": "hook",
+   "cap": "Code mein bugs kam the… ab paani mein bhi bugs aa gaye!",
+   "tts": "Code में bugs कम थे… अब पानी में भी bugs आ गए!"
+  },
+  {
+   "id": "n03",
+   "who": "bro",
+   "scene": "breaking",
+   "cap": "Breaking: FSSAI ne Bisleri ke ek water sample ko unsafe bola, aur prosecution ki manzoori de di!",
+   "tts": "Breaking: FSSAI ने Bisleri के एक water sample को unsafe बोला, और prosecution की मंज़ूरी दे दी!"
+  },
+  {
+   "id": "n04",
+   "who": "bro",
+   "scene": "breaking",
+   "cap": "Haan bhai, wahi Bisleri, jispe hum aankh band karke trust karte the.",
+   "tts": "हाँ भाई, वही Bisleri, जिसपे हम आँख बंद करके trust करते थे."
+  },
+  {
+   "id": "n05",
+   "who": "bro",
+   "scene": "tests",
+   "cap": "Bisleri ke hi statement ke mutabik: Goa plant se 6 samples liye gaye. 5 pass…",
+   "tts": "Bisleri के ही statement के मुताबिक: Goa plant से six samples लिए गए. five pass…"
+  },
+  {
+   "id": "n06",
+   "who": "bro",
+   "scene": "tests",
+   "cap": "aur ek mein bromate 12 micrograms per litre. Limit thi sirf 10!",
+   "tts": "और एक में bromate twelve micrograms per litre. Limit थी सिर्फ़ ten!"
+  },
+  {
+   "id": "n07",
+   "who": "bro",
+   "scene": "tests",
+   "post": 0.3,
+   "cap": "Test suite: 5 pass, 1 fail. Paani ka QA hi fail!",
+   "tts": "Test suite: five pass, one fail. पानी का QA ही fail!"
+  },
+  {
+   "id": "n08",
+   "who": "bro",
+   "scene": "boss",
+   "cap": "Aur kahaani yahin khatam nahi hui!",
+   "tts": "और कहानी यहीं ख़त्म नहीं हुई!"
+  },
+  {
+   "id": "n09",
+   "who": "bro",
+   "scene": "boss",
+   "cap": "Appeal hui, referral lab ne bromate theek bataya… lekin PAHs naam ke chemicals pakad liye. Sample phir unsafe!",
+   "tts": "Appeal हुई, referral lab ने bromate ठीक बताया… लेकिन पी-ए-एच्स नाम के chemicals पकड़ लिए. Sample फिर unsafe!"
+  },
+  {
+   "id": "n10",
+   "who": "bro",
+   "scene": "boss",
+   "post": 0.3,
+   "cap": "Bhai, yeh paani hai ya chemistry ka final boss?",
+   "tts": "भाई, ये पानी है या chemistry का final boss?"
+  },
+  {
+   "id": "n11",
+   "who": "bro",
+   "scene": "reply",
+   "cap": "Bisleri bolta hai: independent lab mein bromate limit ke andar tha, aur paani safe hai.",
+   "tts": "Bisleri बोलता है: independent lab में bromate limit के अंदर था, और पानी safe है."
+  },
+  {
+   "id": "n12",
+   "who": "bro",
+   "scene": "reply",
+   "cap": "Aur dhyan rahe: maamla September 2025 ke ek Goa sample ka hai. Case court jaayega, aur koi recall announce nahi hua.",
+   "tts": "और ध्यान रहे: मामला September twenty twenty five के एक Goa sample का है. Case court जाएगा, और कोई recall announce नहीं हुआ."
+  },
+  {
+   "id": "n13",
+   "who": "bro",
+   "scene": "pipeline",
+   "cap": "Pehle code deploy se pehle testing hoti thi…",
+   "tts": "पहले code deploy से पहले testing होती थी…"
+  },
+  {
+   "id": "n14",
+   "who": "bro",
+   "scene": "pipeline",
+   "cap": "Ab bottle kholne se pehle bhi CI/CD pipeline chalani padegi!",
+   "tts": "अब bottle खोलने से पहले भी CI CD pipeline चलानी पड़ेगी!"
+  },
+  {
+   "id": "n15",
+   "who": "bro",
+   "scene": "cta",
+   "cap": "Tum batao: Bisleri pe trust karoge, ya paani ko bhi production se pehle test karoge?",
+   "tts": "तुम बताओ: बिसलेरी पे trust करोगे, या पानी को भी production से पहले test करोगे?"
+  },
+  {
+   "id": "n16",
+   "who": "bro",
+   "scene": "cta",
+   "post": 0.8,
+   "cap": "Tech pe Trek: complex tech, simple, aur interesting!",
+   "tts": "टेकपे Trek: complex tech, simple, और interesting!"
+  }
+ ]
+}

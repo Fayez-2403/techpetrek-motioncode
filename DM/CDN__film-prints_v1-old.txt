@@ -1,0 +1,24 @@
+=== DM 1 ===
+🎞️ CDN: caching ka design (bioscope wali kahani)
+
+1) Problem: origin server ek jagah, users poore desh mein. Har request origin tak = door, slow, aur origin pe bheed (Bombay studio pe mela).
+
+2) CDN: bahut saare edge servers (PoPs), users ke paas. Cache hit = nazdeeki edge se jawab. Miss = edge origin se laata hai aur copy rakh leta hai.
+
+3) Cache key: URL (+ zaroori headers). Sirf wahi cache karo jo sab users ke liye same hai: images, JS/CSS, video segments. Personal data = Cache-Control: private ya no-store.
+
+4) TTL: Cache-Control: max-age=180 = 180 second tak copy fresh. CDN jaise shared cache ke liye alag value: s-maxage.
+
+=== DM 2 ===
+5) Stale cache: TTL lamba aur content badal gaya = purani copy (Patna wala purana reel). Lamba TTL = fast + sasta, chhota TTL = fresh. Ye trade-off hai.
+
+6) Purge / invalidation: content badla toh CDN ko bolo copy hatao (Cloudflare mein "Purge cache"). Ya file ka naam versioned rakho (app.3f9a.js): naya URL = nayi copy, purge ki zaroorat hi nahi.
+
+7) Revalidation: ETag ke saath edge origin se poochhta hai "badla kya?". Jawab 304 Not Modified = poori file dobara nahi aati.
+
+8) stale-while-revalidate: purani copy turant do, peeche se nayi le aao.
+
+Interview tip ("Design a CDN / video streaming"): edge cache, cache key, TTL vs purge, versioned assets.
+
+Kahani fictional hai; JioHotstar/Blinkit ka internal design nahi bataya. Sources: cloudflare.com/learning/cdn/what-is-a-cdn, MDN Cache-Control
+Tech pe Trek

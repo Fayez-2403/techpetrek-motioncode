@@ -1,0 +1,27 @@
+=== DM 1 ===
+🎟️ SEAT: ticket booking ka system design (Berth 42 wala)
+
+1) Problem: same second pe do request last seat ko "free" padhti hain, dono "booked" likhti hain = race condition, double booking.
+
+2) Fix: per-seat lock. Har seat ka apna taala (ek global lock nahi, warna baaki seats bhi ruk jaati hain).
+Redis: SET seat:42 <userId> NX EX 600
+• NX = key pehle se hai toh fail (seat busy)
+• EX 600 = 10 min baad khud expire (payment atka toh seat wapas)
+
+3) Value mein userId kyun? Release sirf apna lock: check-and-delete ek Lua script mein, taaki kisi aur ka taala galti se na khule.
+
+4) Payment confirm pe dobara check: lock abhi bhi tumhara hai? Tabhi DB transaction mein seat BOOKED likho.
+
+=== DM 2 ===
+5) Timer khatam aur payment late aaya? Booking reject + refund. Isliye payment pe idempotency key (same request do baar = ek hi charge).
+
+6) Lock ke bina option, optimistic locking:
+UPDATE seats SET status='HELD', user_id=? WHERE id=42 AND status='FREE'
+1 row update = seat tumhari, 0 = koi aur le gaya.
+
+7) 10 AM wali bheed: virtual waiting room / queue + rate limit, taaki DB pe thundering herd na gire.
+
+Interview tip ("Design BookMyShow/IRCTC" jaisa sawaal): per-seat hold with TTL, final atomic confirm, idempotent payment.
+
+Kahani fictional hai; ye general pattern hai, kisi company ka internal design nahi. Source: redis.io/commands/set
+Tech pe Trek

@@ -1,0 +1,25 @@
+=== DM 1 ===
+🔁 RETRY: payment system ka design (money order wali kahani)
+
+1) Problem: network timeout pe client ko pata nahi request pahunchi ya nahi. Retry zaroori hai, par bina protection ke retry = double charge (duplicate request).
+
+2) Fix: idempotency key. Client har payment ke liye EK unique key banata hai (jaise UUID) aur har retry pe WAHI key bhejta hai.
+Stripe: header Idempotency-Key: <key>
+
+3) Server pe: key + uska result save karo (unique constraint on key). Same key dobara aaye toh payment dobara mat karo, pehla saved result lauta do.
+
+4) Hariram wali galti: retry pe NAYI key = naya payment. Key ko request ke saath persist karo, har attempt pe wahi bhejo.
+
+=== DM 2 ===
+5) Same key + alag amount aaye? Error do (Stripe bhi yahi karta hai), warna galat payment ho sakta hai.
+
+6) Same key wali do request ek saath aayein? Pehli abhi chal rahi hai toh doosri ko 409, wait karke same key se retry.
+
+7) Keys ki expiry rakho (Stripe kam se kam 24 ghante rakhta hai). Uske baad status check / webhooks se reconcile karo, naya charge nahi.
+
+8) Retry ke saath exponential backoff + jitter, taaki server pe thundering herd na gire.
+
+Interview tip ("Design a payment system"): idempotency key, unique constraint, saved response, retries with backoff.
+
+Kahani fictional hai; ye general pattern hai, kisi app/bank ka internal design nahi. Source: docs.stripe.com/api/idempotent_requests
+Tech pe Trek

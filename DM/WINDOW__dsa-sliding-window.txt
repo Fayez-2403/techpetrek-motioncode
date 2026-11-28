@@ -1,0 +1,37 @@
+=== DM 1 (auto-reply to comment "WINDOW") ===
+Yeh lo! 🚆 10 sliding window sawaal, ishaare ke hisaab se:
+
+✅ FIXED SIZE (size k ki khidki)
+1. GFG: Max Sum Subarray of Size K
+2. LeetCode 643: Maximum Average Subarray I
+3. GFG: First Negative in Windows of Size K
+4. GFG: Count Occurences of Anagrams
+5. LeetCode 438: Find All Anagrams in a String
+6. LeetCode 239: Sliding Window Maximum (hard)
+
+✅ LONGEST + shart (khidki badhao, shart tooti toh ghatao)
+7. LeetCode 3: Longest Substring Without Repeating Characters
+8. Codeforces 279B: Books
+
+✅ SHORTEST + shart (shart poori hote hi peeche se ghatao)
+9. LeetCode 209: Minimum Size Subarray Sum
+10. Codeforces 1354B: Ternary String
+
+Template agle message mein 👇
+
+=== DM 2 (template, Python) ===
+📋 FIXED khidki:
+s = sum(a[:k]); best = s
+for i in range(k, len(a)):
+    s += a[i] - a[i-k]   # naya jodo, purana ghatao
+    best = max(best, s)
+
+📋 LONGEST/SHORTEST khidki:
+lo = 0
+for hi in range(len(a)):
+    a[hi] ko khidki mein daalo
+    while shart tooti (ya poori, shortest ke liye):
+        a[lo] nikaalo; lo += 1
+    answer update karo
+
+Pehla solve karke tag karna 💪

@@ -1,0 +1,204 @@
+{
+ "_doc": "Narration for Feed ka Muqabla, a qawwali muqabla: Party Bhejo (push, fan-out on write) = Liam, Party Maango (pull, fan-out on read) = Amogh M. 'cap' = Roman Hinglish caption, 'tts' = what the voice reads (Hindi in Devanagari, English words in English); phrase punctuation must match. 'join' = the same voice reads the next line as one sentence; 'chain' = the next line (other voice) follows tight, off the grid; 'with' = sung in unison with that line (same start, no caption of its own); 'tek' = a refrain: the mix stacks a chorus from this line. Liam says numbers in English, Amogh in Hindi. Every claim from docs/factcheck.md.",
+ "bpm": 100,
+ "voice": {
+  "provider": "elevenlabs",
+  "voiceId": "TX3LPaxmHKxFdv7VOQHJ",
+  "name": "Liam",
+  "model": "eleven_turbo_v2_5",
+  "language": "hi",
+  "stability": 0.38,
+  "similarity": 0.75,
+  "speed": 1.2,
+  "seed": 5
+ },
+ "voices": {
+  "liam": {
+   "provider": "elevenlabs",
+   "voiceId": "TX3LPaxmHKxFdv7VOQHJ",
+   "name": "Liam",
+   "model": "eleven_turbo_v2_5",
+   "language": "hi",
+   "stability": 0.38,
+   "similarity": 0.75,
+   "speed": 1.2,
+   "seed": 5
+  },
+  "amogh": {
+   "provider": "elevenlabs",
+   "voiceId": "FuNEroZdMQWScvkSu4Xt",
+   "name": "Amogh M",
+   "model": "eleven_turbo_v2_5",
+   "language": "hi",
+   "stability": 0.45,
+   "similarity": 0.75,
+   "speed": 1.2,
+   "seed": 5
+  }
+ },
+ "pause": {
+  "comma": 0.1,
+  "stop": 0.2,
+  "join_gap": 0.03,
+  "chain_gap": 0.06
+ },
+ "grid": {
+  "bpm": 100,
+  "snap_beats": 1
+ },
+ "reel": [
+  {
+   "id": "h1",
+   "who": "liam",
+   "scene": "hook",
+   "cap": "Twitter pe Lady Gaga ke 31 million followers, aur ek tweet sab tak pahunchne mein 5 minute tak!",
+   "tts": "Twitter पे Lady Gaga के thirty-one million followers, और एक tweet सब तक पहुँचने में five minute तक!",
+   "pre": 0,
+   "post": 0
+  },
+  {
+   "id": "h2",
+   "who": "amogh",
+   "scene": "stage",
+   "cap": "Kyunki feed banane ke do gharane hain. Aaj hoga muqabla!",
+   "tts": "क्योंकि feed बनाने के दो घराने हैं. आज होगा मुक़ाबला!",
+   "pre": 0.25,
+   "post": 0.3
+  },
+  {
+   "id": "p1",
+   "who": "liam",
+   "scene": "bhejo",
+   "cap": "Hum Bhejo party! Post aate hi, har follower ke inbox mein copy daal do.",
+   "tts": "हम भेजो party! Post आते ही, हर follower के inbox में copy डाल दो.",
+   "pre": 0,
+   "post": 0
+  },
+  {
+   "id": "p2",
+   "who": "liam",
+   "scene": "qps",
+   "cap": "Twitter pe 3 lakh reads har second, writes sirf 6,000. Toh mehnat likhte waqt karo!",
+   "tts": "Twitter पे three lakh reads हर second, writes सिर्फ़ six thousand. तो मेहनत लिखते वक़्त करो!",
+   "pre": 0,
+   "post": 0
+  },
+  {
+   "id": "p_tek",
+   "who": "liam",
+   "scene": "bhejo_tek",
+   "cap": "Feed kholo, sab taiyaar!",
+   "tts": "Feed खोलो, सब तैयार!",
+   "tek": true,
+   "pre": 0,
+   "post": 0.35
+  },
+  {
+   "id": "q1",
+   "who": "amogh",
+   "scene": "maango",
+   "cap": "Aur hum Maango party! Kuch mat bhejo. Jab feed khule, tab sabse maang lo.",
+   "tts": "और हम माँगो party! कुछ मत भेजो. जब feed खुले, तब सबसे माँग लो.",
+   "pre": 0,
+   "post": 0
+  },
+  {
+   "id": "q_tek",
+   "who": "amogh",
+   "scene": "maango_tek",
+   "cap": "Likhna sasta, jab chaaho maango!",
+   "tts": "लिखना सस्ता, जब चाहो माँगो!",
+   "tek": true,
+   "pre": 0,
+   "post": 0.35
+  },
+  {
+   "id": "q3",
+   "who": "amogh",
+   "scene": "taunt1",
+   "cap": "Lekin superstar post kare toh? 31 million inbox bharoge? Wahi 5 minute!",
+   "tts": "लेकिन superstar post करे तो? इकतीस million inbox भरोगे? वही पाँच minute!",
+   "pre": 0.3,
+   "post": 0,
+   "take": "amogh_b"
+  },
+  {
+   "id": "p3",
+   "who": "liam",
+   "scene": "taunt2",
+   "cap": "Aur tumhara user 500 logon ko follow kare? Har baar 500 jagah se maangoge? Feed ghoomti rahegi!",
+   "tts": "और तुम्हारा user five hundred लोगों को follow करे? हर बार five hundred जगह से माँगोगे? Feed घूमती रहेगी!",
+   "pre": 0,
+   "post": 0.2
+  },
+  {
+   "id": "j1",
+   "who": "liam",
+   "scene": "scale",
+   "cap": "Sach kahun? Push mein padhna fast, par likhna mehnga.",
+   "tts": "सच कहूँ? Push में पढ़ना fast, पर लिखना महँगा.",
+   "chain": true,
+   "pre": 0,
+   "post": 0
+  },
+  {
+   "id": "j1b",
+   "who": "amogh",
+   "scene": "scale",
+   "cap": "Aur Pull mein likhna sasta, par padhna slow.",
+   "tts": "और Pull में लिखना सस्ता, पर पढ़ना slow.",
+   "pre": 0,
+   "post": 0.2,
+   "take": "amogh_b"
+  },
+  {
+   "id": "j2",
+   "who": "liam",
+   "scene": "milan",
+   "cap": "Toh faisla? Dono ka milan! Aam logon ke posts bhejo, superstar ke posts maango,",
+   "tts": "तो फ़ैसला? दोनों का मिलन! आम लोगों के posts भेजो, superstar के posts माँगो,",
+   "chain": true,
+   "pre": 0,
+   "post": 0
+  },
+  {
+   "id": "j3",
+   "who": "amogh",
+   "scene": "milan",
+   "cap": "aur feed khulte hi dono mila do. Twitter ka plan bhi yahi tha!",
+   "tts": "और feed खुलते ही दोनों मिला दो. Twitter का plan भी यही था!",
+   "pre": 0,
+   "post": 0.2
+  },
+  {
+   "id": "u_l",
+   "who": "liam",
+   "scene": "usool",
+   "cap": "Gharana nahi, trade-off chuno!",
+   "tts": "घराना नहीं, trade-off चुनो!",
+   "tek": true,
+   "pre": 0,
+   "post": 0.2
+  },
+  {
+   "id": "u_a",
+   "who": "amogh",
+   "scene": "usool",
+   "cap": "Gharana nahi, trade-off chuno!",
+   "tts": "घराना नहीं, trade-off चुनो!",
+   "with": "u_l",
+   "pre": 0,
+   "post": 0
+  },
+  {
+   "id": "cta",
+   "who": "liam",
+   "scene": "cta",
+   "cap": "Comment karo FEED, poora design DM mein. Tech pe Trek!",
+   "tts": "Comment करो feed, पूरा design DM में. टेक पे Trek!",
+   "pre": 0,
+   "post": 0.9,
+   "take": "liam_b"
+  }
+ ]
+}

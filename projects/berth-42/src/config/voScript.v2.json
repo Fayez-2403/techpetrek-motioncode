@@ -1,0 +1,255 @@
+{
+ "_doc": "Narration for Berth 42: Ek Seat, Do Ticket. 'cap' = Roman Hinglish caption, 'tts' = what Liam reads (Hindi in Devanagari, English words in English); phrase punctuation must match. Each line opens 'scene'; 'cut' {phrase, scene} starts another scene at a phrase; 'min' = minimum scene length, 'pre' = designed silence before the line. Every claim from docs/factcheck.md. bpm = the score tempo (a song's MEASURED bpm from audio/beats.json if the reel uses a song).",
+ "bpm": 120,
+ "voice": {
+  "provider": "elevenlabs",
+  "voiceId": "TX3LPaxmHKxFdv7VOQHJ",
+  "name": "Liam",
+  "model": "eleven_turbo_v2_5",
+  "language": "hi",
+  "stability": 0.4,
+  "similarity": 0.75,
+  "speed": 1.2,
+  "seed": 5
+ },
+ "voices": {
+  "liam": {
+   "provider": "elevenlabs",
+   "voiceId": "TX3LPaxmHKxFdv7VOQHJ",
+   "name": "Liam",
+   "model": "eleven_turbo_v2_5",
+   "language": "hi",
+   "stability": 0.38,
+   "similarity": 0.75,
+   "speed": 1.2,
+   "seed": 5
+  }
+ },
+ "reel": [
+  {
+   "id": "n01",
+   "who": "liam",
+   "scene": "hook",
+   "cap": "Ek hi berth ke do ticket, aur dono ke dono asli!",
+   "tts": "एक ही बर्थ के दो ticket, और दोनों के दोनों असली!",
+   "pre": 0,
+   "post": 0.25,
+   "join": false
+  },
+  {
+   "id": "n02",
+   "who": "liam",
+   "scene": "raat",
+   "cap": "Raat ke do baje, train mein ek taraf dulha Chhotu, jiski kal shaadi hai,",
+   "tts": "रात के दो बजे, train में एक तरफ़ दूल्हा छोटू, जिसकी कल शादी है,",
+   "pre": 0,
+   "post": 0,
+   "join": true
+  },
+  {
+   "id": "n03",
+   "who": "liam",
+   "scene": "raat",
+   "cap": "aur doosri taraf Pehelwan Bhimsen, jiska kal dangal hai.",
+   "tts": "और दूसरी तरफ़ पहलवान भीमसेन, जिसका कल दंगल है.",
+   "pre": 0,
+   "post": 0.1,
+   "join": false
+  },
+  {
+   "id": "n04",
+   "who": "liam",
+   "scene": "raat",
+   "cap": "Bade Babu register kholte hain, aur register bhi kehta hai: dono sahi!",
+   "tts": "बड़े बाबू register खोलते हैं, और register भी कहता है: दोनों सही!",
+   "pre": 0,
+   "post": 0.25,
+   "join": false
+  },
+  {
+   "id": "n05",
+   "who": "liam",
+   "scene": "rewind",
+   "cap": "Chalo thoda peeche, subah dus baje, jab Tatkal khulta hai.",
+   "tts": "चलो थोड़ा पीछे, सुबह दस बजे, जब तत्काल खुलता है.",
+   "pre": 0.05,
+   "post": 0,
+   "join": false
+  },
+  {
+   "id": "n06",
+   "who": "liam",
+   "scene": "rewind",
+   "cap": "Office mein do clerk, Ramu aur Shyamu, par register sirf ek.",
+   "tts": "Office में दो clerk, रामू और श्यामू, पर register सिर्फ़ एक.",
+   "pre": 0,
+   "post": 0,
+   "join": false
+  },
+  {
+   "id": "n07",
+   "who": "liam",
+   "scene": "rewind",
+   "cap": "Ramu dekhta hai berth 42 khaali hai, aur usi second Shyamu bhi.",
+   "tts": "रामू देखता है बर्थ बयालीस खाली है, और उसी second श्यामू भी.",
+   "pre": 0,
+   "post": 0,
+   "join": false
+  },
+  {
+   "id": "n08",
+   "who": "liam",
+   "scene": "rewind",
+   "cap": "Ramu likhta hai Chhotu, aur Shyamu likhta hai Bhimsen.",
+   "tts": "रामू लिखता है छोटू, और श्यामू लिखता है भीमसेन.",
+   "pre": 0,
+   "post": 0,
+   "join": false
+  },
+  {
+   "id": "n09",
+   "who": "liam",
+   "scene": "rewind",
+   "cap": "Dono ne saath padha, saath likha, aur kisi ne roka hi nahi.",
+   "tts": "दोनों ने साथ पढ़ा, साथ लिखा, और किसी ने रोका ही नहीं.",
+   "pre": 0,
+   "post": 0,
+   "join": false
+  },
+  {
+   "id": "n10",
+   "who": "liam",
+   "scene": "rewind",
+   "cap": "Isi ko kehte hain race condition.",
+   "tts": "इसी को कहते हैं race condition.",
+   "pre": 0,
+   "post": 0.2,
+   "join": false
+  },
+  {
+   "id": "n11",
+   "who": "liam",
+   "scene": "taala",
+   "cap": "Toh Bade Babu ka naya rule: har seat ka apna taala, aur likhne se pehle taala lagao.",
+   "tts": "तो बड़े बाबू का नया rule: हर seat का अपना ताला, और लिखने से पहले ताला लगाओ.",
+   "pre": 0,
+   "post": 0,
+   "join": false
+  },
+  {
+   "id": "n12",
+   "who": "liam",
+   "scene": "taala",
+   "cap": "Jiska taala pehle laga, seat uski, baaki sabko jawab: seat busy.",
+   "tts": "जिसका ताला पहले लगा, seat उसकी, बाकी सबको जवाब: seat busy.",
+   "pre": 0,
+   "post": 0.1,
+   "join": false
+  },
+  {
+   "id": "n13",
+   "who": "liam",
+   "scene": "twist",
+   "cap": "Sab badhiya tha, jab tak ek din Ramu taala lagakar chai peene nikal gaya,",
+   "tts": "सब बढ़िया था, जब तक एक दिन रामू ताला लगाकर चाय पीने निकल गया,",
+   "pre": 0,
+   "post": 0,
+   "join": true
+  },
+  {
+   "id": "n14",
+   "who": "liam",
+   "scene": "twist",
+   "cap": "aur wapas aaya hi nahi.",
+   "tts": "और वापस आया ही नहीं.",
+   "pre": 0,
+   "post": 0.15,
+   "join": false
+  },
+  {
+   "id": "n15",
+   "who": "liam",
+   "scene": "twist",
+   "cap": "Train chali gayi, aur berth 42 raat bhar khaali rahi, kyunki taala laga hi raha.",
+   "tts": "Train चली गई, और बर्थ बयालीस रात भर खाली रही, क्योंकि ताला लगा ही रहा.",
+   "pre": 0,
+   "post": 0.15,
+   "join": false
+  },
+  {
+   "id": "n16",
+   "who": "liam",
+   "scene": "ghadi",
+   "cap": "Isliye ab har taale ke saath ek ret-ghadi:",
+   "tts": "इसलिए अब हर ताले के साथ एक रेत-घड़ी:",
+   "pre": 0,
+   "post": 0,
+   "join": true
+  },
+  {
+   "id": "n17",
+   "who": "liam",
+   "scene": "ghadi",
+   "cap": "das minute mein payment nahi, toh taala apne aap khul jaata hai.",
+   "tts": "दस minute में payment नहीं, तो ताला अपने आप खुल जाता है.",
+   "pre": 0,
+   "post": 0.1,
+   "join": false
+  },
+  {
+   "id": "n18",
+   "who": "liam",
+   "scene": "ghadi",
+   "cap": "Code mein bas ek line: NX, yaani taala laga ho toh mat lagao, aur EX 600, das minute mein khud khul jao.",
+   "tts": "Code में बस एक line: N X, यानी ताला लगा हो तो मत लगाओ, और E X six hundred, दस minute में खुद खुल जाओ.",
+   "pre": 0,
+   "post": 0,
+   "join": false
+  },
+  {
+   "id": "n19",
+   "who": "liam",
+   "scene": "aaj",
+   "cap": "Ticket app pe payment ka countdown dekha hai na? Wahi toh ret-ghadi hai.",
+   "tts": "Ticket app पे payment का countdown देखा है ना? वही तो रेत-घड़ी है.",
+   "pre": 0,
+   "post": 0,
+   "join": false
+  },
+  {
+   "id": "n20",
+   "who": "liam",
+   "scene": "aaj",
+   "cap": "Matlab seat ussi ki jiska taala pehle laga, par tabhi tak, jab tak ret-ghadi chale.",
+   "tts": "मतलब seat उसी की जिसका ताला पहले लगा, पर तभी तक, जब तक रेत-घड़ी चले.",
+   "pre": 0.05,
+   "post": 0.1,
+   "join": false
+  },
+  {
+   "id": "n21",
+   "who": "liam",
+   "scene": "cta",
+   "cap": "Ticket booking ka pura design chahiye? Comment karo SEAT.",
+   "tts": "Ticket booking का पूरा design चाहिए? Comment करो SEAT.",
+   "pre": 0,
+   "post": 0,
+   "join": false
+  },
+  {
+   "id": "n22",
+   "who": "liam",
+   "scene": "cta",
+   "cap": "Tech pe Trek: complex tech, simple, aur interesting!",
+   "tts": "टेकपे Trek: complex tech, simple, और interesting!",
+   "pre": 0,
+   "post": 0.5,
+   "join": false
+  }
+ ],
+ "pause": {
+  "comma": 0.1,
+  "stop": 0.2,
+  "join_gap": 0.03
+ }
+}

@@ -1,0 +1,21 @@
+=== DM (single message, auto-reply to comment "story") ===
+Thanks for commenting "story"! 🌧️🚗
+Reference (jo maine GPT-6.2 Astra se banayi):
+https://drive.google.com/drive/folders/1BZ9MvpzKIxjI1nRi1PCF76pANzzQvi7I?usp=sharing
+
+🛠️ Aap apni aisi short story kaise banayein:
+1. Mera repo clone kijiye: github.com/Fayez-2403/techpetrek-motioncode
+2. Codex ya ChatGPT Work mein GPT-6.2 Astra chuniye
+3. Yeh prompt dijiye:
+"Read this repo's brief and reel skills. Build a playable Mumbai monsoon street in Three.js with a coupe, a kaali-peeli taxi and a Hindi cinema sign. Make the wheels follow the turns, then replay the same turn from two cameras."
+4. Ek-ek detail badalwaiye (jaise wet road ki lighting), jab tak sahi na lage
+5. Replay record kijiye, phir voice + captions + music jodiye (repo ke reel-pipeline + motion-studio skills)
+
+🧰 Kaam ke repos:
+github.com/mrdoob/three.js
+github.com/greensock/GSAP
+github.com/remotion-dev/remotion
+github.com/SYSTRAN/faster-whisper
+github.com/FFmpeg/FFmpeg
+
+Bana liya toh tag kijiye 🔥

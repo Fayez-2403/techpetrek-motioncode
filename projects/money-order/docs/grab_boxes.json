@@ -1,0 +1,82 @@
+{
+ "paytm_head": {
+  "url": "https://paytm.com/support/paytm-travel/paytm-money-deducted-train-booking-failed",
+  "phrase": "Money Deducted But No",
+  "box": {
+   "x": 34,
+   "y": 103,
+   "width": 344,
+   "height": 130
+  },
+  "viewport": [
+   412,
+   880
+  ],
+  "scale": 2.5,
+  "captured": "2026-11-27T14:23:03.848Z"
+ },
+ "paytm_common": {
+  "url": "https://paytm.com/support/paytm-travel/paytm-money-deducted-train-booking-failed",
+  "phrase": "It's a common issue",
+  "box": {
+   "x": 32,
+   "y": 332,
+   "width": 348,
+   "height": 120
+  },
+  "viewport": [
+   412,
+   880
+  ],
+  "scale": 2.5,
+  "captured": "2026-11-27T14:23:13.545Z"
+ },
+ "paytm_rebook": {
+  "url": "https://paytm.com/support/paytm-travel/paytm-money-deducted-train-booking-failed",
+  "phrase": "Do not rebook",
+  "box": {
+   "x": 32,
+   "y": 395.921875,
+   "width": 311.3125,
+   "height": 44
+  },
+  "viewport": [
+   412,
+   880
+  ],
+  "scale": 2.5,
+  "captured": "2026-11-27T14:23:23.746Z"
+ },
+ "gpay_progress": {
+  "url": "https://support.google.com/pay/india/answer/9494510?hl=en-GB",
+  "phrase": "in progress, wait for five",
+  "box": {
+   "x": 23,
+   "y": 396,
+   "width": 364,
+   "height": 69
+  },
+  "viewport": [
+   412,
+   880
+  ],
+  "scale": 2.5,
+  "captured": "2026-11-27T14:23:33.366Z"
+ },
+ "phonepe_head": {
+  "url": "https://business.phonepe.com/articles/upi-transaction-failed-but-money-deducted-complete-resolution-guide",
+  "phrase": "UPI Transaction Failed but Money Deducted: Complete",
+  "box": {
+   "x": 16,
+   "y": 156,
+   "width": 380,
+   "height": 44
+  },
+  "viewport": [
+   412,
+   880
+  ],
+  "scale": 2.5,
+  "captured": "2026-11-27T14:23:41.725Z"
+ }
+}

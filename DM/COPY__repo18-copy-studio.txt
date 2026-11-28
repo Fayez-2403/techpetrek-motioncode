@@ -1,0 +1,44 @@
+=== DM 1: the 18 links (send to everyone who comments COPY) ===
+Hey! 🙌 Ye rahe saare 18 repos:
+
+COPY + MOTION
+1 reanimate github.com/NiazMorshed2007/reanimate
+2 motion-design-skill github.com/LottieFiles/motion-design-skill
+3 mg-styles-15 github.com/Vincentwei1021/mg-styles-15
+4 huashu-art-motion github.com/alchaincyf/huashu-art-motion
+5 anidoodle github.com/alexgreensh/anidoodle
+6 Manim github.com/ManimCommunity/manim
+7 blender-skills github.com/EL4CTEO/blender-skills
+
+VFX + FINISH
+8 three.quarks github.com/Alchemist0823/three.quarks
+9 react-postprocessing github.com/pmndrs/react-postprocessing
+10 Tweakpane github.com/cocopon/tweakpane
+11 EffectCraft github.com/storytold/effectcraft
+12 cinetic github.com/Leonxlnx/cinetic
+13 motionmaxxing github.com/Tejashmakwana/motionmaxxing
+
+SOUND + SHIP
+14 Openverse openverse.org
+15 librosa github.com/librosa/librosa
+16 WhisperX github.com/m-bain/whisperX
+17 Remotion Skills github.com/remotion-dev/skills
+18 FFmpeg ffmpeg.org
+
+Setup next message 👇
+
+=== DM 2: the setup ===
+Setup (Claude Code / any coding agent):
+
+Agent skills (1-5, 7, 12, 13, 17) go in with one line, e.g.
+npx skills add NiazMorshed2007/reanimate -g
+(same pattern for the others; check each README)
+
+Libraries:
+pip install manim librosa whisperx
+npm i three.quarks @react-three/postprocessing tweakpane
+FFmpeg: winget install ffmpeg (Win) / brew install ffmpeg (Mac)
+
+Start with reanimate: give it a URL, screen recording, mp4 or gif of the motion you like, and it rebuilds it frame by frame.
+
+List credit: @flxrnc. Follow for more such drops 🔥
